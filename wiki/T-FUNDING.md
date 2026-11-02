@@ -132,5 +132,7 @@ BNK 실적발표는 경남은행의 2026년 1~3분기 누적 당기순이익을 
 - [KN-006 · 신한은행, 스테이블코인 활용 ‘기업 해외송금 전 과정’ 구현](../sources/cards/KN-006.md)
 - [KN-007 · [경남] 함안군 2026년 상반기 중소기업 육성자금 융자 지원계획 공고](../sources/cards/KN-007.md)
 - [KN-008 · 금융위원회, 제3차 금융업권 생산적 금융협의체 개최](../sources/cards/KN-008.md)
+- [RG-SG-003 · Consultation on Proposed Amendments to the Payment Services Act for Stablecoin Regulation](../sources/cards/RG-SG-003.md)
+- [RG-HK-001 · Guideline on Supervision of Licensed Stablecoin Issuers; Regulatory Regime for Stablecoin Issuers](../sources/cards/RG-HK-001.md)
 
 [전체 주제 지도](INDEX.md)

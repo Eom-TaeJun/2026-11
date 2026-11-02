@@ -258,5 +258,6 @@ BNK 실적발표는 경남은행의 2026년 1~3분기 누적 당기순이익을 
 - [KN-008 · 금융위원회, 제3차 금융업권 생산적 금융협의체 개최](../sources/cards/KN-008.md)
 - [GEO-ADGM-PROCESS · FSRA General Application Process](../sources/cards/GEO-ADGM-PROCESS.md)
 - [PRIOR-004 · 교보증권 기존 사업과 수익구조 기준선](../sources/cards/PRIOR-004.md)
+- [RG-HK-002 · Register of Licensees under the Stablecoins Ordinance (Cap. 656)](../sources/cards/RG-HK-002.md)
 
 [전체 주제 지도](INDEX.md)

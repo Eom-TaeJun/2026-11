@@ -91,5 +91,8 @@ KB는 가맹점·국고금 연계 확대를, 신한은 기존 기업뱅킹 접�
 - [NOV-M07 · GFSR October 2026, Chapter 3: Scaling Tokenization: New Efficiencies, New Vulnerabilities](../sources/cards/NOV-M07.md)
 - [NOV-FATF · Outcomes FATF Plenary, 28–30 October 2026](../sources/cards/NOV-FATF.md)
 - [NOV-ECB-COLLATERAL · ECB paves way for acceptance of DLT-based assets as eligible Eurosystem collateral](../sources/cards/NOV-ECB-COLLATERAL.md)
+- [RG-TH-005 · การเปิดรับฟังความคิดเห็นต่อหลักการกำกับดูแลผู้ประกอบธุรกิจที่เกี่ยวข้องกับ THB Stablecoin](../sources/cards/RG-TH-005.md)
+- [RG-EU-001 · DLT Pilot Regime](../sources/cards/RG-EU-001.md)
+- [RG-EU-002 · EU market integration and efficient supervision](../sources/cards/RG-EU-002.md)
 
 [전체 주제 지도](INDEX.md)

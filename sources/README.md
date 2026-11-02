@@ -38,7 +38,7 @@
 | [PRIOR-001 · 2026년 11월 1일 디지털 금융환경 종합](cards/PRIOR-001.md) | 2026-11-01 | selected_sections | 2026-11-02 |
 | [PRIOR-002 · STO·AI 연구 보고서 안내](cards/PRIOR-002.md) | 미확인/동적 | selected_sections | 2026-11-02 |
 | [PRIOR-003 · 교보증권 수익전략의 조건부 연구](cards/PRIOR-003.md) | 미확인/동적 | selected_sections | 2026-11-02 |
-| [NOV-KR-001 · 주식ㆍ사채 등의 전자등록에 관한 법률 [법률 제21318호]](cards/NOV-KR-001.md) | 2026-02-03 | metadata_only | 2026-11-02 |
+| [NOV-KR-001 · 주식ㆍ사채 등의 전자등록에 관한 법률 [법률 제21318호]](cards/NOV-KR-001.md) | 2026-02-03 | selected_sections | 2026-11-02 |
 | [NOV-KR-003 · 스테이블코인 발행주체 등 2단계법 주요내용은 확정된 바 없습니다.](cards/NOV-KR-003.md) | 2026-01-06 | selected_sections | 2026-11-02 |
 | [NOV-KR-004 · 26년 제1차 「가상자산위원회」 개최](cards/NOV-KR-004.md) | 2026-03-04 | selected_sections | 2026-11-02 |
 | [NOV-KR-005 · 가상자산거래소 대주주 지분 상한은 확정된 바 없습니다. - 8.26일 헤럴드경제 기사에 대한 정부입장 설명](cards/NOV-KR-005.md) | 2026-08-27 | selected_sections | 2026-11-02 |
@@ -101,3 +101,43 @@
 | [GEO-ADGM-JURISDICTION · Our Jurisdiction](cards/GEO-ADGM-JURISDICTION.md) | 미확인/동적 | selected_sections | 2026-11-02 |
 | [GEO-ID-SUPERVISION · Bappebti transfers regulation and supervision duties on digital financial assets, crypto assets and derivatives to OJK and BI](cards/GEO-ID-SUPERVISION.md) | 2025-01-10 | selected_sections | 2026-11-02 |
 | [PRIOR-004 · 교보증권 기존 사업과 수익구조 기준선](cards/PRIOR-004.md) | 미확인/동적 | selected_sections | 2026-11-02 |
+| [RG-KR-001 · 자본시장과 금융투자업에 관한 법률 일부개정법률 제21324호](cards/RG-KR-001.md) | 2026-02-03 | selected_sections | 2026-11-02 |
+| [RG-US-001 · GENIUS Act, Public Law 119-27](cards/RG-US-001.md) | 2025-07-18 | selected_sections | 2026-11-02 |
+| [RG-US-002 · Order Granting Temporary Conditional Exemptive Relief — Release 34-106402; File 4-927](cards/RG-US-002.md) | 2026-09-17 | selected_sections | 2026-11-02 |
+| [RG-US-003 · Innovation Exemption — TSV notice list](cards/RG-US-003.md) | 2026-10-20 | selected_sections | 2026-11-02 |
+| [RG-JP-001 · セキュリティトークンに関する現状等について](cards/RG-JP-001.md) | 미확인/동적 | selected_sections | 2026-11-02 |
+| [RG-JP-002 · 令和７年資金決済法改正に係る政令の公布及びパブリックコメントの結果等について](cards/RG-JP-002.md) | 2026-05-22 | official_summary | 2026-11-02 |
+| [RG-JP-003 · 金融商品取引法及び資金決済に関する法律の一部を改正する法律（令和8年法律第64号）](cards/RG-JP-003.md) | 2026-07-23 | selected_sections | 2026-11-02 |
+| [RG-SG-001 · Guide on the Tokenisation of Capital Markets Products](cards/RG-SG-001.md) | 2025-11-14 | selected_sections | 2026-11-02 |
+| [RG-SG-002 · MAS Clarifies Regulatory Regime for Digital Token Service Providers](cards/RG-SG-002.md) | 2025-06-06 | full_text | 2026-11-02 |
+| [RG-SG-003 · Consultation on Proposed Amendments to the Payment Services Act for Stablecoin Regulation](cards/RG-SG-003.md) | 2026-09-01 | selected_sections | 2026-11-02 |
+| [RG-TH-001 · การเสนอขายโทเคนดิจิทัลต่อประชาชน (Initial Coin Offering)](cards/RG-TH-001.md) | 미확인/동적 | official_summary | 2026-11-02 |
+| [RG-TH-002 · SEC amends regulations to accommodate Tokenized Funds to promote innovation in the investment sector](cards/RG-TH-002.md) | 2026-04-02 | full_text | 2026-11-02 |
+| [RG-TH-003 · SEC seeks public comments on proposed principles for supervising stablecoin transactions to mitigate financial fraud risks](cards/RG-TH-003.md) | 2026-09-11 | full_text | 2026-11-02 |
+| [RG-TH-004 · SEC issues Travel Rule for Digital Assets to strengthen anti-money laundering and prevent technology-related crimes in line with international standards](cards/RG-TH-004.md) | 2026-09-02 | full_text | 2026-11-02 |
+| [RG-TH-005 · การเปิดรับฟังความคิดเห็นต่อหลักการกำกับดูแลผู้ประกอบธุรกิจที่เกี่ยวข้องกับ THB Stablecoin](cards/RG-TH-005.md) | 미확인/동적 | official_summary | 2026-11-02 |
+| [RG-TH-006 · ผู้ว่าการธนาคารแห่งประเทศไทยพบสื่อมวลชน (GovernorConnect): A Year in Review, Moving Forward](cards/RG-TH-006.md) | 2026-10-29 | selected_sections | 2026-11-02 |
+| [RG-HK-001 · Guideline on Supervision of Licensed Stablecoin Issuers; Regulatory Regime for Stablecoin Issuers](cards/RG-HK-001.md) | 미확인/동적 | selected_sections | 2026-11-02 |
+| [RG-HK-002 · Register of Licensees under the Stablecoins Ordinance (Cap. 656)](cards/RG-HK-002.md) | 미확인/동적 | full_text | 2026-11-02 |
+| [RG-HK-003 · Circular on tokenisation of SFC-authorised investment products](cards/RG-HK-003.md) | 2026-04-20 | full_text | 2026-11-02 |
+| [RG-HK-004 · Circular on secondary trading of tokenised SFC-authorised investment products](cards/RG-HK-004.md) | 2026-04-20 | selected_sections | 2026-11-02 |
+| [RG-HK-005 · SFC approves first-ever secondary trading of tokenised public funds](cards/RG-HK-005.md) | 2026-10-26 | full_text | 2026-11-02 |
+| [RG-AE-001 · ADGM FSRA finalises regulatory framework for Regulated Activities involving Fiat-Referenced Tokens](cards/RG-AE-001.md) | 2025-10-31 | official_summary | 2026-11-02 |
+| [RG-AE-002 · Digital Assets](cards/RG-AE-002.md) | 미확인/동적 | official_summary | 2026-11-02 |
+| [RG-AE-003 · Payment Token Services Regulation](cards/RG-AE-003.md) | 미확인/동적 | selected_sections | 2026-11-02 |
+| [RG-AE-004 · Virtual Asset Issuance Rulebook](cards/RG-AE-004.md) | 미확인/동적 | selected_sections | 2026-11-02 |
+| [RG-AE-005 · VARA Consumer and Marketplace Alert - Update on the Real Estate Tokenisation Pilot](cards/RG-AE-005.md) | 2026-02-19 | full_text | 2026-11-02 |
+| [RG-ID-001 · Peraturan Otoritas Jasa Keuangan Nomor 23 Tahun 2025: Perubahan atas POJK Nomor 27 Tahun 2024 tentang Penyelenggaraan Perdagangan Aset Keuangan Digital Termasuk Aset Kripto](cards/RG-ID-001.md) | 2025-11-10 | selected_sections | 2026-11-02 |
+| [RG-ID-002 · Peraturan Bank Indonesia Nomor 10 Tahun 2025 tentang Pengaturan Industri Sistem Pembayaran (PBI PISP)](cards/RG-ID-002.md) | 2025-12-24 | selected_sections | 2026-11-02 |
+| [RG-ID-003 · Siaran Pers: Kinerja dan Intermediasi Sektor Jasa Keuangan Terjaga Mendukung Akselerasi Pertumbuhan Ekonomi](cards/RG-ID-003.md) | 2026-09-07 | selected_sections | 2026-11-02 |
+| [RG-ID-004 · Siaran Pers: OJK Dorong Generasi Muda Pahami Peluang dan Risiko Tokenisasi Aset Nyata, OJK Gelar Digital Financial Literacy (DFL) 2026 di Universitas Airlangga](cards/RG-ID-004.md) | 2026-10-13 | selected_sections | 2026-11-02 |
+| [RG-VN-001 · Luật Công nghiệp công nghệ số — Văn bản hợp nhất 20/VBHN-VPQH; Công Báo số 133](cards/RG-VN-001.md) | 2026-02-28 | selected_sections | 2026-11-02 |
+| [RG-VN-002 · TOÀN VĂN: Nghị quyết số 05/2025/NQ-CP về triển khai thí điểm thị trường tài sản mã hóa tại Việt Nam](cards/RG-VN-002.md) | 2025-11-03 | selected_sections | 2026-11-02 |
+| [RG-VN-003 · Quyết định số 96/QĐ-BTC: thủ tục hành chính trong lĩnh vực tài sản mã hóa](cards/RG-VN-003.md) | 2026-01-20 | selected_sections | 2026-11-02 |
+| [RG-VN-004 · Administrative sanctions against violations in crypto assets](cards/RG-VN-004.md) | 2026-07-20 | official_summary | 2026-11-02 |
+| [RG-CN-001 · 关于进一步防范和处置虚拟货币等相关风险的通知（银发〔2026〕42号）](cards/RG-CN-001.md) | 2026-02-06 | full_text | 2026-11-02 |
+| [RG-CN-002 · 关于境内资产境外发行资产支持证券代币的监管指引（证监会公告〔2026〕1号）](cards/RG-CN-002.md) | 2026-02-06 | full_text | 2026-11-02 |
+| [RG-EU-001 · DLT Pilot Regime](cards/RG-EU-001.md) | 미확인/동적 | selected_sections | 2026-11-02 |
+| [RG-EU-002 · EU market integration and efficient supervision](cards/RG-EU-002.md) | 미확인/동적 | selected_sections | 2026-11-02 |
+| [RG-UK-001 · PS26/7: Progressing Fund Tokenisation](cards/RG-UK-001.md) | 미확인/동적 | selected_sections | 2026-11-02 |
+| [RG-UK-002 · CP26/36: Cryptoasset perimeter guidance](cards/RG-UK-002.md) | 2026-10-21 | selected_sections | 2026-11-02 |

@@ -1,0 +1,210 @@
+{
+  "as_of": "2026-11-02",
+  "timezone": "Asia/Seoul",
+  "method": "효력일·마감·정책 목표·법정 창구를 구분한다. 자동 실행 일정이 아니며 날짜 도래가 허가·출시·수익을 보장하지 않는다.",
+  "events": [
+    {
+      "id": "CAL27-01",
+      "date": "2026-11-11",
+      "date_type": "consultation_deadline",
+      "event": "한국 STO 하위법규 예고 종료",
+      "source_ids": [
+        "FIN-008"
+      ],
+      "next_observation": "최종 자본·인력·원장·투자한도·부칙을 초안과 비교",
+      "as_of": "2026-11-02"
+    },
+    {
+      "id": "CAL27-02",
+      "date": "2026-11-17",
+      "date_type": "consultation_deadline",
+      "event": "태국 BOT THB 스테이블코인 원칙 협의 종료",
+      "source_ids": [
+        "RG-TH-005"
+      ],
+      "next_observation": "최종 규칙·시행일·발행자와 지갑 인가 경로 확인",
+      "as_of": "2026-11-02"
+    },
+    {
+      "id": "CAL27-03",
+      "date": "2026-11-18",
+      "date_type": "consultation_deadline",
+      "event": "영국 CP26/36 적용경계 협의 종료",
+      "source_ids": [
+        "RG-UK-002"
+      ],
+      "next_observation": "기술·보관·결제 제외 범위의 최종 지침 확인",
+      "as_of": "2026-11-02"
+    },
+    {
+      "id": "CAL27-04",
+      "date": "2026-11-30",
+      "date_type": "consultation_deadline",
+      "event": "미국 Fed 이행·Treasury 주 인증 절차 의견 마감",
+      "source_ids": [
+        "NOV-US-FED",
+        "NOV-US-TREASURY"
+      ],
+      "next_observation": "최종화와 별도 신청 접수를 구분",
+      "as_of": "2026-11-02"
+    },
+    {
+      "id": "CAL27-05",
+      "date": "2026-12",
+      "date_type": "policy_target",
+      "event": "BoE 시스템 중요 스테이블코인 Code 연말 최종화 계획",
+      "source_ids": [
+        "NOV-UK-BOE"
+      ],
+      "next_observation": "계획 달성·최종 준비자산·대상 범위를 확인. 효력일로 쓰지 않음",
+      "as_of": "2026-11-02"
+    },
+    {
+      "id": "CAL27-06",
+      "date": "2027-01",
+      "date_type": "policy_target",
+      "event": "영국 적용경계 최종 지침 발표 목표",
+      "source_ids": [
+        "RG-UK-002"
+      ],
+      "next_observation": "최종 지침의 실제 발표·수정점 확인; 10월 체계 시행과 분리",
+      "as_of": "2026-11-02"
+    },
+    {
+      "id": "CAL27-07",
+      "date": "2027-01-18",
+      "date_type": "confirmed_future_effect",
+      "event": "GENIUS 일반 효력 및 OCC 관할 최종규칙",
+      "source_ids": [
+        "RG-US-001",
+        "NOV-US-OCC"
+      ],
+      "next_observation": "기관별 규칙·접수·승인·전환 조건 확인; 모든 회사의 개시일 아님",
+      "as_of": "2026-11-02"
+    },
+    {
+      "id": "CAL27-08",
+      "date": "2027-02-04",
+      "date_type": "confirmed_future_effect",
+      "event": "한국 전자증권법 제21318호 및 자본시장법 제166조",
+      "source_ids": [
+        "NOV-KR-001",
+        "RG-KR-001",
+        "FIN-008"
+      ],
+      "next_observation": "최종 하위규정·개별 등록/인가·원장과 거래 운영 준비 확인",
+      "as_of": "2026-11-02"
+    },
+    {
+      "id": "CAL27-09",
+      "date": "2027-02-12",
+      "date_type": "consultation_deadline",
+      "event": "BoE CCP 토큰 담보 감독 기대 협의 종료",
+      "source_ids": [
+        "FIN-016"
+      ],
+      "next_observation": "최종 감독 방침과 각 CCP의 담보 적격성·수용 확인",
+      "as_of": "2026-11-02"
+    },
+    {
+      "id": "CAL27-10",
+      "date": "2027-02-27",
+      "date_type": "confirmed_future_effect",
+      "event": "태국 SEC 디지털자산 이전정보·상대방 실사 규칙",
+      "source_ids": [
+        "RG-TH-004"
+      ],
+      "next_observation": "대상 사업자 시행·고객 정보·자기보관 지갑·전송 실패를 확인",
+      "as_of": "2026-11-02"
+    },
+    {
+      "id": "CAL27-11",
+      "date": "2027-02-28",
+      "date_type": "application_window_end",
+      "event": "영국 대상 기존 crypto 사업자의 신청 창 종료",
+      "source_ids": [
+        "RG-UK-002"
+      ],
+      "next_observation": "대상·전환 조건별 신청·인가 상태; 모든 신규 사업자에 같은 마감으로 일반화하지 않음",
+      "as_of": "2026-11-02"
+    },
+    {
+      "id": "CAL27-12",
+      "date": "2027-03-31",
+      "date_type": "derived_legal_deadline",
+      "event": "인도네시아 PBI10/2025 지급사업자 평가 통지의 1년 기한",
+      "source_ids": [
+        "RG-ID-002"
+      ],
+      "next_observation": "제176조와 시행일로 계산한 기한. 개별 평가일·스테이블코인 일반 지급 허용일이 아님",
+      "as_of": "2026-11-02"
+    },
+    {
+      "id": "CAL27-13",
+      "date": "2026-11~2027-03",
+      "date_type": "policy_target_window",
+      "event": "태국 BOT 5개 조치의 착수 목표 범위",
+      "source_ids": [
+        "RG-TH-006"
+      ],
+      "next_observation": "THB 제도 단독 확정일이 아님. 개별 최종 규칙과 실제 시행 확인",
+      "as_of": "2026-11-02"
+    },
+    {
+      "id": "CAL27-14",
+      "date": null,
+      "date_type": "statutory_window_date_unverified",
+      "event": "일본 2026년 암호자산 개정법 본체: 7/23 공포 후 1년 이내 정령일",
+      "source_ids": [
+        "RG-JP-003"
+      ],
+      "next_observation": "본체 시행 정령·경과조치를 확인. 일부 조항의 2027-04-01을 전체 날짜로 대체하지 않음",
+      "as_of": "2026-11-02"
+    },
+    {
+      "id": "CAL27-15",
+      "date": "2027-06",
+      "date_type": "policy_target",
+      "event": "FATF 표적 검토 결과 예정(6월)",
+      "source_ids": [
+        "NOV-FATF"
+      ],
+      "next_observation": "국가별 실제 후속 입법·감독·집행 구분",
+      "as_of": "2026-11-02"
+    },
+    {
+      "id": "CAL27-16",
+      "date": "2027-10",
+      "date_type": "policy_target",
+      "event": "FATF 표적 검토 결과 예정(10월)",
+      "source_ids": [
+        "NOV-FATF"
+      ],
+      "next_observation": "검토 결과를 국내법 즉시 효력으로 보지 않음",
+      "as_of": "2026-11-02"
+    },
+    {
+      "id": "CAL27-17",
+      "date": "2027-10-25",
+      "date_type": "confirmed_future_effect",
+      "event": "영국 새 crypto 체계·FCA 스테이블코인 최종규칙",
+      "source_ids": [
+        "NOV-UK-FCA",
+        "RG-UK-002"
+      ],
+      "next_observation": "개별 인가·상품·준비자산·상환과 시스템 중요성 감독 조건 확인",
+      "as_of": "2026-11-02"
+    },
+    {
+      "id": "CAL27-18",
+      "date": "2028-07-18",
+      "date_type": "confirmed_future_transition",
+      "event": "GENIUS §3(b)(1) 제공·판매 제한의 별도 전환",
+      "source_ids": [
+        "RG-US-001"
+      ],
+      "next_observation": "적격 발행자·유통 및 §3(c)/§18 예외·외국 발행자 후속 규칙 확인",
+      "as_of": "2026-11-02"
+    }
+  ]
+}

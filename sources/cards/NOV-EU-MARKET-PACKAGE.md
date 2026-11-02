@@ -23,6 +23,6 @@ Commission이 제안한 시장통합·감독 패키지는 기존 MiCA 시행과 
 
 ## 연결된 주장
 
-아직 연결된 주장이 없음
+- **C-094 / fact / active**: EU (비교·탐색 지역) / Market Integration and Supervision Package: Commission 제안 이후 2026-10-09 Council 협상 입장 진척. 최종 법률·효력일로 확인하지 않음.
 
 [전체 자료 목록](../README.md)

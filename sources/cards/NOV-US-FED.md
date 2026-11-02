@@ -6,7 +6,7 @@
 
 읽기 상태: **selected_sections**
 
-읽은 위치: Federal Register header/summary; accompanying September 24 press release in full.
+읽은 위치: Federal Register header/summary; accompanying September 24 press release in full. 추가로 현행 공식 제안 목록의 R-1899·R-1900 제안 표기와 2026-11-30 의견마감을 확인했다.
 
 ## 자료의 핵심 내용
 
@@ -18,11 +18,10 @@ Fed는 9월 24일 이행 및 신청 절차의 두 제안을 발표했고 본 건
 
 ## 해석의 한계
 
-- 이행 공고의 전체 조문을 통독하지 않았다.
-- 후속 최종규칙은 이번 검색에서 확인하지 못했다.
+이행 공고의 전체 조문을 통독하지 않았다. 후속 최종규칙은 이번 검색에서 확인하지 못했다.
 
 ## 연결된 주장
 
-아직 연결된 주장이 없음
+- **C-064 / fact / active**: 미국 / Fed 이행·신청절차 제안: 공식 목록 R-1899·R-1900은 제안이며 의견마감은 2026-11-30이다.
 
 [전체 자료 목록](../README.md)

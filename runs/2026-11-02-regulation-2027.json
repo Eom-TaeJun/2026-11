@@ -1,0 +1,259 @@
+{
+  "run_id": "2026-11-02-regulation-2027",
+  "as_of": "2026-11-02",
+  "prior_repository_head": "da4d6fb79457d3ffc83bc9f38cc72a1ec34ec95b",
+  "purpose": "회사 연결 국가의 규제·효력·제안과 2027Q1 및 이후 금융 기능·사업 기회를 조건부로 추론",
+  "execution": "하위 에이전트 3개가 한미, 일본·싱가포르·태국·홍콩, UAE·인도네시아·베트남을 병렬 조사. 총괄이 중국 본토·EU·영국을 보강하고 법적 단계·달력·경쟁 시나리오를 병합. 다른 담당의 후속 검토를 기록.",
+  "source_coverage": {
+    "records_reviewed": 48,
+    "new_sources": 40,
+    "updated_existing_sources": 8,
+    "total_after": 137,
+    "read_status": {
+      "selected_sections": 94,
+      "official_summary": 13,
+      "full_text": 30
+    },
+    "meaning": "읽은 범위별 원문 기록 수이며 전체 법령·보고서 전문 정독 수가 아니다."
+  },
+  "registry_counts": {
+    "sources": 137,
+    "claims": 102,
+    "topics": 13,
+    "regimes": 41,
+    "calendar_events": 18,
+    "scenarios": 5
+  },
+  "corrections": [
+    {
+      "target_type": "source",
+      "target_ids": [
+        "NOV-KR-001"
+      ],
+      "action": "update_with_history",
+      "change_reason": "동일 법률의 대체 공식 개정문에서 조문·부칙 확인",
+      "replacement": "read_status를 metadata_only에서 selected_sections로 변경하고 related_urls·구체 읽은 범위를 보존. 10억원은 모법의 위임 하한이며 하위 최종 자기자본 요건이 아니다.",
+      "source_ids": [
+        "NOV-KR-001"
+      ]
+    },
+    {
+      "target_type": "regulatory_rule",
+      "target_ids": [
+        "KR-STO-LAW",
+        "KR-STO-DRAFT"
+      ],
+      "action": "refine_and_split_effective_dates",
+      "change_reason": "법률 제21324호 부칙은 일괄 1년 시행이 아님",
+      "replacement": "2027-02-04 시행은 전자증권법 제21318호와 자본시장법 제21324호 제166조에 해당한다. 제21324호는 원칙적으로 2026-02-03부터이며 제50조 단서는 공포 후 6개월, 제166조는 1년 경과 후다. 자기자본은 모법 위임 하한 10억원·예고안 40억원·최종 하위법규를 분리한다.",
+      "source_ids": [
+        "NOV-KR-001",
+        "RG-KR-001",
+        "FIN-008"
+      ]
+    },
+    {
+      "target_type": "claim",
+      "target_ids": [
+        "C-001"
+      ],
+      "action": "precision_update_not_withdrawal",
+      "change_reason": "기존 하위예고 사실은 유지하되 안내 시행 대상과 조문 확인 범위 구체화",
+      "replacement": "11/2 기준 확인한 하위법규는 10/2~11/11 예고 단계다. 전자증권법 제21318호 및 자본시장법 제21324호 제166조의 예정 시행은 2027-02-04이며, 제21324호 전체가 그날 처음 시행되는 것은 아니다.",
+      "source_ids": [
+        "NOV-KR-001",
+        "RG-KR-001",
+        "FIN-008"
+      ]
+    },
+    {
+      "target_type": "report",
+      "target_ids": [
+        "reports/01_financial_environment.md",
+        "reports/05_regulatory_tracker.md"
+      ],
+      "action": "precision_update",
+      "change_reason": "법률 메타데이터만 확인했다는 서술이 후속 조문 확인으로 오래됨; 달력 대상 좁히기",
+      "replacement": "05의 한국 법률 행을 개정문·부칙 선택 절 확인으로 갱신하고 달력의 '한국 STO 시행'을 '전자증권법 및 자본시장법 제166조 예정 시행'으로 구체화한다. 01의 세부 기준은 여전히 예고안임을 유지한다.",
+      "source_ids": [
+        "NOV-KR-001",
+        "RG-KR-001",
+        "FIN-008"
+      ]
+    },
+    {
+      "target_type": "regulatory_rule",
+      "target_ids": [
+        "US_GENIUS"
+      ],
+      "action": "split_general_regulator_and_transition",
+      "change_reason": "모법 §20 및 §3(b)(1) 원문으로 서로 다른 시계 확인",
+      "replacement": "GENIUS 일반 효력 2027-01-18, OCC 관할 최종규칙 2027-01-18, Fed/FDIC 별도 단계, §3(b)(1) 제공·판매 제한 2028-07-18을 분리한다. 일반 효력 계산은 OCC III가 최초 주요 연방 감독기관 최종규칙이라고 명시하고 그 후 120일보다 18개월이 먼저라고 설명한 데 근거한다.",
+      "source_ids": [
+        "RG-US-001",
+        "NOV-US-OCC",
+        "NOV-US-FED",
+        "NOV-US-FDIC"
+      ]
+    },
+    {
+      "target_type": "claim",
+      "target_ids": [
+        "C-014",
+        "C-022"
+      ],
+      "action": "retain_existing_fact_add_separate_claims",
+      "change_reason": "기존 OCC 최종규칙·효력일은 맞으며 범위 확장이 필요",
+      "replacement": "기존 OCC 주장은 유지한다. 모법 일반효력 메커니즘과 §3(b)(1)의 2028-07-18 별도 전환은 독립 주장으로 추가한다.",
+      "source_ids": [
+        "RG-US-001",
+        "NOV-US-OCC"
+      ]
+    },
+    {
+      "target_type": "regulatory_rule",
+      "target_ids": [
+        "US_MARKET_STRUCTURE"
+      ],
+      "action": "retain_and_add_separate_sec_path",
+      "change_reason": "입법 경로와 이미 발령된 SEC 한정 면제를 분리해야 함",
+      "replacement": "CLARITY 절차·후속 확인 공백을 유지하면서 US-SEC-TSV를 별도 추가한다. SEC 34-106402는 §36(a)(1)의 2031-09-17까지 임시·조건부 면제이며 신규 발행·모든 토큰증권 허용이 아니다.",
+      "source_ids": [
+        "NOV-US-CLARITY",
+        "RG-US-002",
+        "RG-US-003"
+      ]
+    },
+    {
+      "target_type": "source",
+      "target_ids": [
+        "FIN-013",
+        "FIN-011"
+      ],
+      "action": "retain_lineage_link_new_order",
+      "change_reason": "성명과 법적 명령을 같은 문서로 바꾸지 않음",
+      "replacement": "FIN-013 위원장 성명과 FIN-011 직원 견해를 유지하고 실제 명령 RG-US-002 및 통지 목록 RG-US-003을 연결한다. 직원 성명은 비구속적이며 명단은 승인증거가 아니다.",
+      "source_ids": [
+        "FIN-011",
+        "RG-US-002",
+        "RG-US-003"
+      ]
+    },
+    {
+      "target_type": "claim",
+      "target_ids": [
+        "C-012",
+        "C-023",
+        "C-027"
+      ],
+      "action": "no_correction_required",
+      "change_reason": "C-012는 기업 예산·직무 미확인이고 SEC 관련 주장이 아님; C-023·C-027의 관측·최신성 한계는 이번에도 남음",
+      "replacement": null,
+      "source_ids": [
+        "NOV-US-CLARITY",
+        "NOV-KR-009"
+      ]
+    },
+    {
+      "target_type": "coverage_metadata",
+      "target_ids": [
+        "data/regulatory_watch.json:coverage_limits",
+        "data/regulatory_watch.json:events"
+      ],
+      "action": "update_coverage_and_calendar",
+      "change_reason": "조문·부칙 미독 및 핵심 원문 수 등의 구서술이 변경됨",
+      "replacement": "현재 추가 조사 범위는 공식 핵심 기록 12개(기존 8개 재사용·신규 4개), 전부 법령/보고서 전문 12개 통독을 뜻하지 않는다. 한국 국회 최신 처리·FDIC/CLARITY 후속 공백은 유지한다. 2028-07-18 §3(b)(1) 전환을 별도 법정 사건으로 추가한다.",
+      "source_ids": [
+        "NOV-KR-001",
+        "RG-KR-001",
+        "FIN-008",
+        "NOV-KR-009",
+        "RG-US-001",
+        "NOV-US-OCC",
+        "NOV-US-FED",
+        "NOV-US-FDIC",
+        "NOV-US-CLARITY",
+        "FIN-011",
+        "RG-US-002",
+        "RG-US-003"
+      ]
+    }
+  ],
+  "access_limits": [
+    {
+      "url": "https://likms.assembly.go.kr/bill/bi/billDetailPage.do?billId=PRC_M2L6L0J2L0G9H0F9F4E8C5D5K3M3K1",
+      "result": "공식 의안 상세 접근 실패",
+      "impact": "검색 후보인 의안 2222314의 10월 최신 조문·처리 상태를 사실로 채택하지 않음"
+    },
+    {
+      "url": "https://opinion.lawmaking.go.kr/gcom/nsmLmSts/out/2222314/detailRP",
+      "result": "본문 대신 이동 버튼 반환",
+      "impact": "최신 한국 입법 상태 unknown 유지; 부재 단정 금지"
+    },
+    {
+      "url": "https://www.fdic.gov/news/press-releases/2026",
+      "result": "403",
+      "impact": "10월 23일 OCC 교차참조 이후 FDIC 최종화의 최신성 공백"
+    },
+    {
+      "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00234.htm",
+      "result": "이번 재접근 403; 기존 확인 유지 및 Senate Press 대체 확인",
+      "impact": "9월 15일 표결 사실은 유지; 후속 전체 actions 확인은 불완전"
+    },
+    {
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/3633/all-actions",
+      "result": "접근 차단",
+      "impact": "최종 성립·영구 폐기 모두 단정하지 않음"
+    },
+    "SFC 일반 gateway 경로가 JavaScript 화면만 반환하여 같은 공식 edistributionWeb API의 본문/PDF로 읽었다.",
+    "BOT 목록 화면이 본문을 충분히 노출하지 않아 검색으로 공식 상세 협의 페이지를 찾고 본문을 다시 열었다. 검색 결과만 읽은 문서는 근거 카드에 넣지 않았다.",
+    "BOT THB 협의의 첨부 문서 링크는 텍스트 추출에서 노출되지 않아 공식 상세 설명 범위에 제한했다. 상환 기한·준비자산 세부·이자 제한을 추정하지 않았다."
+  ],
+  "deliverables": [
+    "reports/09_country_regulation_2027.md",
+    "reports/10_2027_business_scenarios.md",
+    "data/regulatory_regimes_2027.json",
+    "data/regulatory_calendar_2027.json",
+    "data/regulatory_scenarios_2027.json"
+  ],
+  "independent_review": {
+    "status": "completed_with_corrections",
+    "reviewers": [
+      "source_design: 한국·미국·중국·EU·영국 핵심 원문 표집",
+      "validation_design: 일본·싱가포르·태국·홍콩·UAE·인도네시아·베트남 표집 및 사업 가설"
+    ],
+    "resolved": [
+      "FIN-008 하위법규 시행 목표를 확정 효력 필드에서 분리",
+      "NOBLX 기관투자·공동펀드 조성과 미확인 분배·회수·실현성과 분리",
+      "태국의 확정 준법 의무와 미확인 추가 순비용 분리",
+      "부분 조사 분모 표현과 배열 표시 정리",
+      "시범 진행·통과와 후속 확대 목표 동시 표시"
+    ],
+    "limitations": [
+      "공식 원문 표집이며 전수 법률검토가 아님",
+      "CBUAE는 최초 담당이 브라우저 원문을 읽었으나 독립 재접근은403; 중복 재확인으로 세지 않음",
+      "개별 회사·상품의 허가와 실제 수익은 미확인"
+    ]
+  },
+  "checks": {
+    "status": "passed",
+    "source_claim_topic_validation": "137 sources, 102 claims, 13 topics",
+    "required_unit_checks": "9 passed; implementation unchanged",
+    "auxiliary_records_and_links": {
+      "source_references_and_claim_links_valid": true,
+      "regimes": 41,
+      "calendar_events": 18,
+      "scenarios": 5,
+      "markdown_links_checked": 1414,
+      "date_stage_checks_passed": true,
+      "privacy_marker_scan_passed": true,
+      "errors": [],
+      "limitations": "참조·날짜·알려진 표식 검사다. 법적 적법성·경제적 인과·모든 개인정보 부재의 자동 증명이 아니다."
+    },
+    "remote_publication": "prepared; main commit and complete blob hashes are checked after branch update"
+  },
+  "scheduling": {
+    "enabled": false,
+    "note": "관측표와 다음 판단을 저장하며 자동 수집·알림은 설정하지 않음"
+  }
+}

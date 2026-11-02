@@ -60,5 +60,13 @@ ECB 2026년 4월 연구는 소규모 유럽 중심 매칭 표본에서 발행 �
 - [KYO-GEO-007 · Announcement of investment in Pints AI a provider of agent-based AI specialized for financial institutions](../sources/cards/KYO-GEO-007.md)
 - [KYO-GEO-008 · 韓国の教保生命グループとの東南アジアのテック分野のスタートアップに投資する共同ベンチャーファンド設立のお知らせ](../sources/cards/KYO-GEO-008.md)
 - [KYO-GEO-009 · Ripple and Kyobo Life Insurance Partner to Pioneer Korea's First Tokenised Government Bond Settlement on Blockchain](../sources/cards/KYO-GEO-009.md)
+- [RG-JP-003 · 金融商品取引法及び資金決済に関する法律の一部を改正する法律（令和8年法律第64号）](../sources/cards/RG-JP-003.md)
+- [RG-SG-001 · Guide on the Tokenisation of Capital Markets Products](../sources/cards/RG-SG-001.md)
+- [RG-TH-001 · การเสนอขายโทเคนดิจิทัลต่อประชาชน (Initial Coin Offering)](../sources/cards/RG-TH-001.md)
+- [RG-HK-004 · Circular on secondary trading of tokenised SFC-authorised investment products](../sources/cards/RG-HK-004.md)
+- [RG-HK-005 · SFC approves first-ever secondary trading of tokenised public funds](../sources/cards/RG-HK-005.md)
+- [RG-ID-001 · Peraturan Otoritas Jasa Keuangan Nomor 23 Tahun 2025: Perubahan atas POJK Nomor 27 Tahun 2024 tentang Penyelenggaraan Perdagangan Aset Keuangan Digital Termasuk Aset Kripto](../sources/cards/RG-ID-001.md)
+- [RG-VN-002 · TOÀN VĂN: Nghị quyết số 05/2025/NQ-CP về triển khai thí điểm thị trường tài sản mã hóa tại Việt Nam](../sources/cards/RG-VN-002.md)
+- [RG-UK-001 · PS26/7: Progressing Fund Tokenisation](../sources/cards/RG-UK-001.md)
 
 [전체 주제 지도](INDEX.md)

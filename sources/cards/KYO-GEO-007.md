@@ -29,5 +29,6 @@ SBI는 싱가포르 SBI-NTU-Kyobo Digital Innovation Fund를 통한 Pints AI 초
 - **C-037 / institution_statement / active**: SBI는 교보증권과 싱가포르 후속펀드 설립 및 기존 SBI-NTU-Kyobo 펀드를 통한 Pints AI 투자를 발표했다. 운용자는 SBI Ven Capital이다.
 - **C-053 / interpretation / active**: 기업별 추가 국가를 선택할 때 교보는 일본·싱가포르·태국의 자본·상품 연결, 한화는 UAE·인도네시아·미국의 다른 금융 기능, 경남은행은 국내 지역 고객에서 필요한 외환 회랑을 우선하는 것이 목적에 맞다.
 - **C-054 / hypothesis / active**: 교보증권의 해외 자산·투자자 연결이 실제 발행·판매·관리 계약으로 확대된다면 반복 서비스 보수 후보가 될 수 있다.
+- **C-100 / hypothesis / active**: 거래 규모가 커져도 고객 접점과 계약을 가진 유통 주체가 보수 대부분을 가져갈 수 있다.
 
 [전체 자료 목록](../README.md)

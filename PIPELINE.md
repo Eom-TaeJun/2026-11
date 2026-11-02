@@ -55,3 +55,9 @@ python scripts/ai_stars.py refresh --output snapshots/stars-YYYY-MM-DD.json
 ## 7. 기업·국가·역할을 이어서 조사한다
 
 `data/institution_connections.json`은 법인·파트너·관할·사업 단계와 다음 관측을, `data/institution_focus.json`은 역할별 고객·자금·수익 질문과 국별 조사 대기를 보존한다. 경남은행의 상세 비교는 `data/bank_customer_functions.json`에서 이어간다. 새로운 국가는 실제 계약·고객·자금 경로에 필요할 때 추가한다. 법률 조사는 기존 `regulatory_watch.json`과 연결하되 미검토 관할은 조사 대기로 남긴다. 보조 원장은 기본 validate의 의미 검증 대상이 아니므로 출처 참조·단계·날짜·법인 귀속을 실행 기록에서 추가 확인한다.
+
+## 8. 규제 이후의 미래를 갱신한다
+
+`data/regulatory_regimes_2027.json`은 국가·관할·상품별 현재 단계와 2027Q1/2027~28 조건부 전망을, `data/regulatory_calendar_2027.json`은 확정 효력·마감·목표·계산 기한을 분리한다. `data/regulatory_scenarios_2027.json`은 지급자·비용·반대 경로·판별 관측·확대/중단 조건을 보존한다. 같은 법률 안에서도 조항별 효력·경과조치를 읽고, 제안의 예정일은 effective_date 대신 target_date로 둔다. 이미 실행된 시범과 향후 확대 목표가 함께 있으면 두 단계를 함께 기록한다.
+
+다음 조사에서는 사건의 변화가 권한·고객·현금·비용·유통 중 무엇을 바꾸는지 적는다. 날짜 도래만으로 사업 실현을 표시하지 않는다. 과거 판단 수정은 ingest 이력에 남기고 보조 원장·보고서·자료 카드의 날짜 표현을 함께 대사한다.

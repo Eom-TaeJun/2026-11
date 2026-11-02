@@ -53,5 +53,6 @@ IMF 10월 GFSR은 전반적으로 완화적인 금융여건과 높은 금융안�
 - [FIN-016 · Consultation on supervisory expectations for central counterparties seeking to accept tokenised collateral](../sources/cards/FIN-016.md)
 - [NOV-ECB-COLLATERAL · ECB paves way for acceptance of DLT-based assets as eligible Eurosystem collateral](../sources/cards/NOV-ECB-COLLATERAL.md)
 - [NOV-ECB-ELIGIBILITY · Marketable assets — Eligibility criteria and assessment procedure](../sources/cards/NOV-ECB-ELIGIBILITY.md)
+- [RG-AE-003 · Payment Token Services Regulation](../sources/cards/RG-AE-003.md)
 
 [전체 주제 지도](INDEX.md)

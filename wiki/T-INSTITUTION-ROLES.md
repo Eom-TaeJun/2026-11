@@ -160,6 +160,66 @@ KB는 가맹점·국고금 연계 확대를, 신한은 기존 기업뱅킹 접�
 
 다음 관측: 동일 고객·통화·금액의 은행현금 도착, 실패·반환, 잔액 유지와 총비용을 비교하고 보조금·금리 효과를 분리한다.
 
+### C-098 · hypothesis · active
+
+규칙 적용과 개별 허용이 진행되면 기존 계좌·수탁·현금 경로를 연결하는 업무가 먼저 필요해질 수 있다.
+
+근거: [FIN-008](../sources/cards/FIN-008.md), [NOV-US-OCC](../sources/cards/NOV-US-OCC.md), [RG-EU-001](../sources/cards/RG-EU-001.md), [RG-UK-001](../sources/cards/RG-UK-001.md), [GEO-ADGM-PROCESS](../sources/cards/GEO-ADGM-PROCESS.md)
+
+한계: 2027년 초·이후의 조건부 전망. 법정 일정이나 회사의 확정 전략·실현 수익이 아니다.
+
+다른 설명: 기존 서비스가 추가 보수 없이 흡수하거나 유료 수요가 부족해 신규 사업의 경제성이 약함
+
+다음 관측: 인가·출시 이후 반복 유료 계약, 실제 요율, 총운영비와 위험비용을 같은 기간으로 비교
+
+### C-099 · hypothesis · active
+
+자산 권리와 결제·상환·외환이 함께 연결되는 범위에서 기업 자금·담보 업무로 확장될 수 있다.
+
+근거: [FIN-014](../sources/cards/FIN-014.md), [NOV-M07](../sources/cards/NOV-M07.md), [NOV-ECB-ELIGIBILITY](../sources/cards/NOV-ECB-ELIGIBILITY.md), [FIN-016](../sources/cards/FIN-016.md)
+
+한계: 2027년 초·이후의 조건부 전망. 법정 일정이나 회사의 확정 전략·실현 수익이 아니다.
+
+다른 설명: 기존 계좌/API가 더 저렴하고 기초자산 환매·은행 영업시간이 병목으로 남음
+
+다음 관측: 토큰 이전과 별도로 매도·환매·환전·사용 가능한 은행현금 도착시간, 피크 자금, 실패·반환·총비용 측정
+
+### C-100 · hypothesis · active
+
+거래 규모가 커져도 고객 접점과 계약을 가진 유통 주체가 보수 대부분을 가져갈 수 있다.
+
+근거: [KYO-GEO-003](../sources/cards/KYO-GEO-003.md), [KYO-GEO-007](../sources/cards/KYO-GEO-007.md), [RG-UK-001](../sources/cards/RG-UK-001.md), [NOV-M07](../sources/cards/NOV-M07.md)
+
+한계: 2027년 초·이후의 조건부 전망. 법정 일정이나 회사의 확정 전략·실현 수익이 아니다.
+
+다른 설명: 플랫폼 간 경쟁으로 절감이 고객에게 이전되고 기존 은행·증권사의 고객 관계가 유지됨
+
+다음 관측: 실제 요율·유통 배분·고객 계약 주체·재계약·독점·이관 조항
+
+### C-101 · hypothesis · active
+
+새 지급수단이 고객 잔액을 확보하면 은행별 조달 비용과 고객 관계가 달라질 수 있다.
+
+근거: [FIN-014](../sources/cards/FIN-014.md), [NOV-US-OCC](../sources/cards/NOV-US-OCC.md), [NOV-KR-006](../sources/cards/NOV-KR-006.md), [SRC-BOK-HANGANG](../sources/cards/SRC-BOK-HANGANG.md)
+
+한계: 2027년 초·이후의 조건부 전망. 법정 일정이나 회사의 확정 전략·실현 수익이 아니다.
+
+다른 설명: 지급 제약·대출 관계·편의성 때문에 보완재에 머물거나 예금토큰이 은행 관계를 유지
+
+다음 관측: 고객군별 결제성 잔액·잔존기간·실효 조달금리·제휴비 및 신용·FX 기여
+
+### C-102 · hypothesis · active
+
+국가·자산·고객별 규제와 현금 경로의 차이로 기존 방식과 공존이 길어질 수 있다.
+
+근거: [RG-CN-001](../sources/cards/RG-CN-001.md), [RG-CN-002](../sources/cards/RG-CN-002.md), [RG-EU-002](../sources/cards/RG-EU-002.md), [RG-UK-002](../sources/cards/RG-UK-002.md), [GEO-ADGM-PROCESS](../sources/cards/GEO-ADGM-PROCESS.md)
+
+한계: 2027년 초·이후의 조건부 전망. 법정 일정이나 회사의 확정 전략·실현 수익이 아니다.
+
+다른 설명: 표준·협력·기존 금융인프라 활용으로 연결 비용이 낮아지고 고객 수요가 이를 상회
+
+다음 관측: 최종 규정·실제 인가 조건, 은행현금 연결, 비교 가능한 반복 유료 이용의 동시 개선
+
 ## 관련 원문
 
 - [KYO-GEO-001 · Kyobo Life Insurance Group and Japan’s SBI Group ink strategic partnership](../sources/cards/KYO-GEO-001.md)
@@ -192,5 +252,6 @@ KB는 가맹점·국고금 연계 확대를, 신한은 기존 기업뱅킹 접�
 - [KN-007 · [경남] 함안군 2026년 상반기 중소기업 육성자금 융자 지원계획 공고](../sources/cards/KN-007.md)
 - [KN-008 · 금융위원회, 제3차 금융업권 생산적 금융협의체 개최](../sources/cards/KN-008.md)
 - [GEO-ID-SUPERVISION · Bappebti transfers regulation and supervision duties on digital financial assets, crypto assets and derivatives to OJK and BI](../sources/cards/GEO-ID-SUPERVISION.md)
+- [RG-ID-003 · Siaran Pers: Kinerja dan Intermediasi Sektor Jasa Keuangan Terjaga Mendukung Akselerasi Pertumbuhan Ekonomi](../sources/cards/RG-ID-003.md)
 
 [전체 주제 지도](INDEX.md)
