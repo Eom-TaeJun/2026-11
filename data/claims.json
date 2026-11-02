@@ -21,12 +21,13 @@
     "status": "active",
     "text": "IMF는 관측한 토큰화 시장의 접근 시간 확대와 낮은 유동성·파편화가 함께 존재한다고 설명한다.",
     "source_ids": [
-      "FIN-002"
+      "FIN-002",
+      "NOV-M07"
     ],
     "topic_ids": [
       "T-MARKET"
     ],
-    "limitations": "기초 GFSR 장 전문과 표본 정의를 정독하지 않아 시장 전체 정량 추정에 쓰지 않는다.",
+    "limitations": "GFSR Chapter 3 선택 절을 추가 확인했다. 시장 규모·실증 방법·표본 원자료 전체와 회귀 재현은 미검증이다.",
     "as_of": "2026-11-02"
   },
   {
@@ -191,12 +192,12 @@
     "id": "C-012",
     "kind": "unknown",
     "status": "active",
-    "text": "교보증권 미래전략 관련 업무, 경남은행 본사업무, 한화생명 블록체인 신사업의 현재 조직·권한·자원 투입은 다음 기업 조사에서 확인한다.",
+    "text": "교보증권·경남은행·한화생명의 현재 조직·직무·권한·자원 투입은 미확인이다. 경남은행 예금토큰 혁신금융서비스 지정은 별도 C-026에서 확인했다.",
     "source_ids": [],
     "topic_ids": [
       "T-COMPANIES"
     ],
-    "limitations": "사용자의 관심 후보이며 회사의 현행 계획·직무를 확정하지 않는다.",
+    "limitations": "회사별 전체 신호 조사는 미완료. 지정 사실을 채용·투자금·매출로 확대하지 않는다.",
     "as_of": "2026-11-02"
   },
   {
@@ -220,13 +221,14 @@
     "status": "active",
     "text": "OCC 10/21 발표는 GENIUS Act 이행 최종규칙과 2027-01-18 효력일, 별도 규칙 작업 및 신청 접수 공고 계획을 설명한다.",
     "source_ids": [
-      "SRC-OCC-GENIUS-FINAL"
+      "SRC-OCC-GENIUS-FINAL",
+      "NOV-US-OCC"
     ],
     "topic_ids": [
       "T-REGULATION",
       "T-MONEY"
     ],
-    "limitations": "발표문 선택 절을 확인했으며 11/2 현재 개별 인가·접수 상태를 이 자료만으로 판정하지 않는다.",
+    "limitations": "10/23 연방관보 최종규칙의 선택 절을 추가 확인했다. 신청접수 공고·개별 인가·실운영은 별도 확인해야 한다.",
     "as_of": "2026-11-02"
   },
   {
@@ -260,6 +262,315 @@
       "T-AI"
     ],
     "limitations": "설치·업그레이드·실제 금융 문서 성능 시험은 수행하지 않았다.",
+    "as_of": "2026-11-02"
+  },
+  {
+    "id": "C-017",
+    "kind": "fact",
+    "status": "active",
+    "text": "한국은행은 2026-10-22 기준금리 3.00%를 유지했고 추가 인상의 시기·속도를 검토한다고 밝혔다.",
+    "source_ids": [
+      "NOV-M01"
+    ],
+    "topic_ids": [
+      "T-MACRO",
+      "T-FUNDING"
+    ],
+    "limitations": "정책결정이며 특정 예금·국채·준비자산의 수익률이 아니다.",
+    "as_of": "2026-11-02"
+  },
+  {
+    "id": "C-018",
+    "kind": "fact",
+    "status": "active",
+    "text": "FOMC는 2026-10-28 연방기금금리 목표범위를 3.75~4.00%로 유지했다.",
+    "source_ids": [
+      "NOV-M04"
+    ],
+    "topic_ids": [
+      "T-MACRO",
+      "T-FUNDING"
+    ],
+    "limitations": "미국 정책금리 범위이며 고객 상품 수익률과 다르다.",
+    "as_of": "2026-11-02"
+  },
+  {
+    "id": "C-019",
+    "kind": "fact",
+    "status": "active",
+    "text": "2026년 9월 예금은행 신규취급액 기준 저축성수신금리는 3.45%, 대출금리는 4.57%로 공식 요약에 제시됐다.",
+    "source_ids": [
+      "NOV-M03"
+    ],
+    "topic_ids": [
+      "T-MACRO",
+      "T-FUNDING"
+    ],
+    "limitations": "잔액 금리·개별 은행 원가·NIM과 구분한다. 토큰화로 인한 변화라는 인과 증거가 아니다.",
+    "as_of": "2026-11-02"
+  },
+  {
+    "id": "C-020",
+    "kind": "institution_statement",
+    "status": "active",
+    "text": "IMF 2026년 10월 WEO는 세계 성장률을 2026년 3.1%, 2027년 3.4%로 전망했다.",
+    "source_ids": [
+      "NOV-M05"
+    ],
+    "topic_ids": [
+      "T-MACRO"
+    ],
+    "limitations": "전망이며 연간 확정 실적이 아니다. 한국 국가별 전망은 이번 요약 읽기에서 확인하지 않았다.",
+    "as_of": "2026-11-02"
+  },
+  {
+    "id": "C-021",
+    "kind": "institution_statement",
+    "status": "active",
+    "text": "IMF 10월 GFSR은 전반적으로 완화적인 금융여건과 높은 금융안정 위험이 공존한다고 평가한다.",
+    "source_ids": [
+      "NOV-M06"
+    ],
+    "topic_ids": [
+      "T-MACRO",
+      "T-COLLATERAL"
+    ],
+    "limitations": "정책금리 수준과 종합 금융여건은 다르며 특정 한국 금융회사의 부실을 확인한 것이 아니다.",
+    "as_of": "2026-11-02"
+  },
+  {
+    "id": "C-022",
+    "kind": "fact",
+    "status": "active",
+    "text": "OCC GENIUS 이행 최종규칙은 2026-10-23 연방관보에 게시됐고 효력일은 2027-01-18이다.",
+    "source_ids": [
+      "NOV-US-OCC"
+    ],
+    "topic_ids": [
+      "T-REGULATION",
+      "T-MONEY"
+    ],
+    "limitations": "OCC 관할 규칙이다. 다른 기관의 규칙 완료나 개별 인가·접수·영업을 뜻하지 않는다.",
+    "as_of": "2026-11-02"
+  },
+  {
+    "id": "C-023",
+    "kind": "fact",
+    "status": "active",
+    "text": "2026-09-15 상원 H.R.3633 심의 개시 관련 토론종결 표결은 49:50으로 부결됐다.",
+    "source_ids": [
+      "NOV-US-CLARITY"
+    ],
+    "topic_ids": [
+      "T-REGULATION"
+    ],
+    "limitations": "본안의 영구 폐기와 다르다. 그 이후 11/2까지 모든 입법 행동의 전수 확인은 아니다.",
+    "as_of": "2026-11-02"
+  },
+  {
+    "id": "C-024",
+    "kind": "fact",
+    "status": "active",
+    "text": "FCA PS26/10의 스테이블코인 발행 최종 규칙 부속 문서에는 2027-10-25 발효가 명시되어 있다.",
+    "source_ids": [
+      "NOV-UK-FCA"
+    ],
+    "topic_ids": [
+      "T-REGULATION",
+      "T-MONEY"
+    ],
+    "limitations": "BoE의 시스템 중요 발행자 초안 Code 및 실제 인가·출시와 구분한다.",
+    "as_of": "2026-11-02"
+  },
+  {
+    "id": "C-025",
+    "kind": "fact",
+    "status": "active",
+    "text": "MiCA의 범위 조문은 금융상품과 예금 등을 제외하며, ESMA는 CASP 전환기간의 최종 종료일을 2026-07-01로 안내했다.",
+    "source_ids": [
+      "NOV-EU-MICA-SCOPE",
+      "NOV-EU-MICA-TRANSITION"
+    ],
+    "topic_ids": [
+      "T-REGULATION",
+      "T-RIGHTS"
+    ],
+    "limitations": "토큰화 증권·예금이 MiCA에 의해 자동 허용된다는 뜻이 아니다. 개별 사업자의 인가는 별도 확인한다.",
+    "as_of": "2026-11-02"
+  },
+  {
+    "id": "C-026",
+    "kind": "fact",
+    "status": "active",
+    "text": "금융위는 2026-07-15 경남은행·아이엠뱅크의 예금토큰 지급·결제 테스트를 혁신금융서비스로 신규 지정했다.",
+    "source_ids": [
+      "NOV-KR-007"
+    ],
+    "topic_ids": [
+      "T-COMPANIES",
+      "T-MONEY",
+      "T-SETTLEMENT"
+    ],
+    "limitations": "시험 지위와 실제 개시·상용 매출·전담인력 증가는 별개다.",
+    "as_of": "2026-11-02"
+  },
+  {
+    "id": "C-027",
+    "kind": "unknown",
+    "status": "active",
+    "text": "2026-11-02 기준 원화 스테이블코인 발행자 범위·은행 지분·보상·준비자산의 최종 법규와 관련 의안 전체 처리상태는 이번 확인 범위에서 확정하지 못했다.",
+    "source_ids": [
+      "NOV-KR-004",
+      "NOV-KR-005",
+      "NOV-KR-009"
+    ],
+    "topic_ids": [
+      "T-REGULATION",
+      "T-MONEY"
+    ],
+    "limitations": "3월·8월·9월 공식 논의 자료와 최신 의안 접근 공백을 구분한다. 미확인은 미제정·미통과의 증거가 아니다.",
+    "as_of": "2026-11-02"
+  },
+  {
+    "id": "C-028",
+    "kind": "institution_statement",
+    "status": "active",
+    "text": "FATF는 2026-10-30 가상자산 기준 이행의 표적 검토와 신속 후속조치에 합의하고 2027년 6월·10월 결과 공개를 예고했다.",
+    "source_ids": [
+      "NOV-FATF"
+    ],
+    "topic_ids": [
+      "T-REGULATION",
+      "T-OPERATIONS"
+    ],
+    "limitations": "국제기준 이행 절차이며 국내의 즉시 법적 효력과 같지 않다.",
+    "as_of": "2026-11-02"
+  },
+  {
+    "id": "C-029",
+    "kind": "institution_statement",
+    "status": "active",
+    "text": "ECB 2026년 4월 연구는 소규모 유럽 중심 매칭 표본에서 발행 스프레드·호가 차이 개선을 관측했으나 인수 수수료 감소는 확인하지 못했다.",
+    "source_ids": [
+      "NOV-ECB-BONDS"
+    ],
+    "topic_ids": [
+      "T-MARKET",
+      "T-OPERATIONS"
+    ],
+    "limitations": "분석 데이터는 주로 2025년까지이며 서로 다른 최종 매칭 표본이다. 모든 RWA의 인과효과·총비용 절감률로 일반화하지 않는다.",
+    "as_of": "2026-11-02"
+  },
+  {
+    "id": "C-030",
+    "kind": "hypothesis",
+    "status": "active",
+    "text": "제도 시행과 개별 인가가 진행돼도 기존 계좌·수탁과의 이중 운영이 남아 B2B 권리관리·대사·현금 연결이 먼저 필요해질 수 있다.",
+    "source_ids": [
+      "FIN-008",
+      "FIN-009",
+      "FIN-015"
+    ],
+    "topic_ids": [
+      "T-REGULATION",
+      "T-OPERATIONS",
+      "T-SETTLEMENT"
+    ],
+    "limitations": "향후 6~24개월 작업 가설이며 확률과 매출 추정은 없다.",
+    "as_of": "2026-11-02",
+    "alternative": "기존 시스템이 추가 보수 없이 흡수하거나 반복 수요가 부족할 수 있다.",
+    "next_observation": "서비스 개시 후 최초 두 번의 비교 가능한 공시·운영 집계에서 유료 재사용·총비용 확인. 재사용 없이 비용만 지속되면 확대 보류; 미공개는 유보."
+  },
+  {
+    "id": "C-031",
+    "kind": "hypothesis",
+    "status": "active",
+    "text": "권리·담보 적격성·환매·은행현금 공급·상호운용성이 함께 충족되면 기관 담보와 기업 자금관리의 통합 서비스 기회가 커질 수 있다.",
+    "source_ids": [
+      "FIN-004",
+      "FIN-016",
+      "NOV-ECB-COLLATERAL"
+    ],
+    "topic_ids": [
+      "T-COLLATERAL",
+      "T-SETTLEMENT",
+      "T-FUNDING"
+    ],
+    "limitations": "각 조건은 개별 법인·통화·계약별 확인이 필요하다.",
+    "as_of": "2026-11-02",
+    "alternative": "즉시 총액결제가 상계를 대체해 선자금 수요를 높이고 통합·복구비가 편익을 상쇄할 수 있다.",
+    "next_observation": "동일 조건 시험·실제 스트레스에서 은행현금 기한과 총원가를 비교. 개선 없으면 해당 사용례의 우위를 낮춘다. 시험은 실전 성과와 구분."
+  },
+  {
+    "id": "C-032",
+    "kind": "hypothesis",
+    "status": "active",
+    "text": "비은행 진입 확대와 소수 플랫폼의 고객 계약·주문흐름 통제가 함께 나타나면 토큰화가 성장해도 기존 금융기관의 실효 보수가 줄 수 있다.",
+    "source_ids": [
+      "NOV-US-OCC",
+      "NOV-KR-004",
+      "FIN-002"
+    ],
+    "topic_ids": [
+      "T-FUNDING",
+      "T-MARKET",
+      "T-COMPANIES"
+    ],
+    "limitations": "실측 경쟁 구조나 기업별 수익을 확인한 것이 아니다.",
+    "as_of": "2026-11-02",
+    "alternative": "낮은 전환비용과 플랫폼 간 경쟁은 고객에게 절감을 이전하거나 기존 금융기관이 고객관계를 유지하게 할 수 있다.",
+    "next_observation": "비교 가능한 재계약·공시에서 계약 주체, 실효 보수, 유통 배분 확인. 기존 기관 보수 유지·고객 귀속이면 플랫폼 이익집중 가설을 낮춘다."
+  },
+  {
+    "id": "C-033",
+    "kind": "hypothesis",
+    "status": "active",
+    "text": "입법·인가 지연과 관할별 통제 차이 또는 금융 충격이 결합하면 온체인 시장이 분절되고 전용 인프라의 투자 회수가 늦어질 수 있다.",
+    "source_ids": [
+      "NOV-US-CLARITY",
+      "NOV-FATF",
+      "NOV-M06",
+      "NOV-KR-009"
+    ],
+    "topic_ids": [
+      "T-REGULATION",
+      "T-MACRO",
+      "T-OPERATIONS"
+    ],
+    "limitations": "시나리오는 공존 가능하며 미관측만으로 성립 또는 기각하지 않는다.",
+    "as_of": "2026-11-02",
+    "alternative": "규제 확정과 상호운용성·안정적 환매가 검증되면 반복 유료 수요가 늘 수 있다.",
+    "next_observation": "공식 결정 후 인가·현금 기한·반복 유료 사용을 확인. 세 조건이 함께 검증되면 지연·분절 판단을 완화하고 제한적 확대를 검토한다."
+  },
+  {
+    "id": "C-034",
+    "kind": "institution_statement",
+    "status": "active",
+    "text": "한국은행 이슈노트 2026-22는 글로벌 중개자의 양 시장 접근 구조에 따라 달러 스테이블코인과 외환시장의 가격 통합·충격 전달이 달라진다고 설명한다.",
+    "source_ids": [
+      "NOV-M08"
+    ],
+    "topic_ids": [
+      "T-MACRO",
+      "T-FUNDING",
+      "T-MONEY"
+    ],
+    "limitations": "공식 요약만 읽었다. 모든 원화 스테이블코인 수요의 원화 절하 효과·정량 인과를 증명하지 않는다.",
+    "as_of": "2026-11-02"
+  },
+  {
+    "id": "C-035",
+    "kind": "institution_statement",
+    "status": "active",
+    "text": "한국은행은 2026-10-08 일반인용 CBDC의 현재 도입 계획이 없으며, 한강의 기관용 디지털화폐와 민간은행 예금토큰을 구분한다고 설명했다.",
+    "source_ids": [
+      "SRC-BOK-HANGANG"
+    ],
+    "topic_ids": [
+      "T-MONEY",
+      "T-REGULATION"
+    ],
+    "limitations": "영구적 도입 금지가 아니다. 11월 후속 실거래 재개 여부·은행별 수익은 미확인.",
     "as_of": "2026-11-02"
   }
 ]

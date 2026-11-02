@@ -172,6 +172,156 @@
       "label": "교보증권 수익전략의 조건부 연구"
     },
     {
+      "id": "NOV-KR-001",
+      "type": "source",
+      "label": "주식ㆍ사채 등의 전자등록에 관한 법률 [법률 제21318호]"
+    },
+    {
+      "id": "NOV-KR-003",
+      "type": "source",
+      "label": "스테이블코인 발행주체 등 2단계법 주요내용은 확정된 바 없습니다."
+    },
+    {
+      "id": "NOV-KR-004",
+      "type": "source",
+      "label": "26년 제1차 「가상자산위원회」 개최"
+    },
+    {
+      "id": "NOV-KR-005",
+      "type": "source",
+      "label": "가상자산거래소 대주주 지분 상한은 확정된 바 없습니다. - 8.26일 헤럴드경제 기사에 대한 정부입장 설명"
+    },
+    {
+      "id": "NOV-KR-006",
+      "type": "source",
+      "label": "통화신용정책보고서(2026년 3월)"
+    },
+    {
+      "id": "NOV-KR-007",
+      "type": "source",
+      "label": "한국은행 디지털화폐(CBDC) 시스템 내 예금토큰 기반 지급결제 테스트(프로젝트 한강) 2단계 시행 등 혁신금융서비스 5건 신규 지정 의결"
+    },
+    {
+      "id": "NOV-KR-009",
+      "type": "source",
+      "label": "국회예산정책처, 「스테이블코인의 금융시장에 대한 영향과 시사점」 발간"
+    },
+    {
+      "id": "NOV-US-OCC",
+      "type": "source",
+      "label": "Implementing the GENIUS Act for the Issuance of Stablecoins by Entities Subject to OCC Jurisdiction — Final Rule"
+    },
+    {
+      "id": "NOV-US-FED",
+      "type": "source",
+      "label": "Implementing the Federal Reserve Board's Responsibilities Under the GENIUS Act"
+    },
+    {
+      "id": "NOV-US-FDIC",
+      "type": "source",
+      "label": "GENIUS Act Requirements and Standards for FDIC-Supervised Permitted Payment Stablecoin Issuers and Insured Depository Institutions"
+    },
+    {
+      "id": "NOV-US-TREASURY",
+      "type": "source",
+      "label": "Forms and Procedures for Review of State Certifications by the Stablecoin Certification Review Committee"
+    },
+    {
+      "id": "NOV-US-CLARITY",
+      "type": "source",
+      "label": "U.S. Senate Roll Call Vote 234, 119th Congress, 2nd Session"
+    },
+    {
+      "id": "NOV-EU-MICA-SCOPE",
+      "type": "source",
+      "label": "MiCA Article 2 — Scope"
+    },
+    {
+      "id": "NOV-EU-MICA-TRANSITION",
+      "type": "source",
+      "label": "Statement on the End of Transitional Periods under MiCA"
+    },
+    {
+      "id": "NOV-EU-MARKET-PACKAGE",
+      "type": "source",
+      "label": "Market integration and supervision package"
+    },
+    {
+      "id": "NOV-UK-FCA",
+      "type": "source",
+      "label": "PS26/10: Stablecoin issuance"
+    },
+    {
+      "id": "NOV-UK-BOE",
+      "type": "source",
+      "label": "Sterling-denominated systemic stablecoins"
+    },
+    {
+      "id": "NOV-UK-JOINT",
+      "type": "source",
+      "label": "Bank of England and Financial Conduct Authority’s approach to joint regulation of systemic stablecoin issuers"
+    },
+    {
+      "id": "NOV-M01",
+      "type": "source",
+      "label": "통화정책방향(2026.10.22)"
+    },
+    {
+      "id": "NOV-M02",
+      "type": "source",
+      "label": "2026년 3/4분기 실질 국내총생산(속보)"
+    },
+    {
+      "id": "NOV-M03",
+      "type": "source",
+      "label": "2026년 9월 금융기관 가중평균금리"
+    },
+    {
+      "id": "NOV-M04",
+      "type": "source",
+      "label": "Federal Reserve issues FOMC statement"
+    },
+    {
+      "id": "NOV-M05",
+      "type": "source",
+      "label": "World Economic Outlook, October 2026: Resilience Under Strain, Urgent Choices — Executive Summary"
+    },
+    {
+      "id": "NOV-M06",
+      "type": "source",
+      "label": "Global Financial Stability Report, October 2026: Resilience, Risk, and Transformation — Executive Summary"
+    },
+    {
+      "id": "NOV-M07",
+      "type": "source",
+      "label": "GFSR October 2026, Chapter 3: Scaling Tokenization: New Efficiencies, New Vulnerabilities"
+    },
+    {
+      "id": "NOV-M08",
+      "type": "source",
+      "label": "[제2026-22호] 달러 스테이블코인과 외환시장 간 연계성: 글로벌 거래소의 역할을 중심으로"
+    },
+    {
+      "id": "NOV-ECB-BONDS",
+      "type": "source",
+      "label": "Tokenised bonds: assessing efficiency and liquidity in a nascent market"
+    },
+    {
+      "id": "NOV-FATF",
+      "type": "source",
+      "label": "Outcomes FATF Plenary, 28–30 October 2026"
+    },
+    {
+      "id": "NOV-ECB-COLLATERAL",
+      "type": "source",
+      "label": "ECB paves way for acceptance of DLT-based assets as eligible Eurosystem collateral"
+    },
+    {
+      "id": "NOV-ECB-ELIGIBILITY",
+      "type": "source",
+      "label": "Marketable assets — Eligibility criteria and assessment procedure"
+    },
+    {
       "id": "C-001",
       "type": "claim",
       "kind": "fact",
@@ -253,7 +403,7 @@
       "type": "claim",
       "kind": "unknown",
       "status": "active",
-      "label": "교보증권 미래전략 관련 업무, 경남은행 본사업무, 한화생명 블록체인 신사업의 현재 조직·권한·자원 투입은 다음 기업 조사에서 확인한다."
+      "label": "교보증권·경남은행·한화생명의 현재 조직·직무·권한·자원 투입은 미확인이다. 경남은행 예금토큰 혁신금융서비스 지정은 별도 C-026에서 확인했다."
     },
     {
       "id": "C-013",
@@ -282,6 +432,139 @@
       "kind": "interpretation",
       "status": "active",
       "label": "최신 상태 확인 결과 WeKnora 최신판을 우선 비교하고 GraphRAG의 유지보수 단계와 RAGFlow 후보판 여부를 도입 판단에 반영한다."
+    },
+    {
+      "id": "C-017",
+      "type": "claim",
+      "kind": "fact",
+      "status": "active",
+      "label": "한국은행은 2026-10-22 기준금리 3.00%를 유지했고 추가 인상의 시기·속도를 검토한다고 밝혔다."
+    },
+    {
+      "id": "C-018",
+      "type": "claim",
+      "kind": "fact",
+      "status": "active",
+      "label": "FOMC는 2026-10-28 연방기금금리 목표범위를 3.75~4.00%로 유지했다."
+    },
+    {
+      "id": "C-019",
+      "type": "claim",
+      "kind": "fact",
+      "status": "active",
+      "label": "2026년 9월 예금은행 신규취급액 기준 저축성수신금리는 3.45%, 대출금리는 4.57%로 공식 요약에 제시됐다."
+    },
+    {
+      "id": "C-020",
+      "type": "claim",
+      "kind": "institution_statement",
+      "status": "active",
+      "label": "IMF 2026년 10월 WEO는 세계 성장률을 2026년 3.1%, 2027년 3.4%로 전망했다."
+    },
+    {
+      "id": "C-021",
+      "type": "claim",
+      "kind": "institution_statement",
+      "status": "active",
+      "label": "IMF 10월 GFSR은 전반적으로 완화적인 금융여건과 높은 금융안정 위험이 공존한다고 평가한다."
+    },
+    {
+      "id": "C-022",
+      "type": "claim",
+      "kind": "fact",
+      "status": "active",
+      "label": "OCC GENIUS 이행 최종규칙은 2026-10-23 연방관보에 게시됐고 효력일은 2027-01-18이다."
+    },
+    {
+      "id": "C-023",
+      "type": "claim",
+      "kind": "fact",
+      "status": "active",
+      "label": "2026-09-15 상원 H.R.3633 심의 개시 관련 토론종결 표결은 49:50으로 부결됐다."
+    },
+    {
+      "id": "C-024",
+      "type": "claim",
+      "kind": "fact",
+      "status": "active",
+      "label": "FCA PS26/10의 스테이블코인 발행 최종 규칙 부속 문서에는 2027-10-25 발효가 명시되어 있다."
+    },
+    {
+      "id": "C-025",
+      "type": "claim",
+      "kind": "fact",
+      "status": "active",
+      "label": "MiCA의 범위 조문은 금융상품과 예금 등을 제외하며, ESMA는 CASP 전환기간의 최종 종료일을 2026-07-01로 안내했다."
+    },
+    {
+      "id": "C-026",
+      "type": "claim",
+      "kind": "fact",
+      "status": "active",
+      "label": "금융위는 2026-07-15 경남은행·아이엠뱅크의 예금토큰 지급·결제 테스트를 혁신금융서비스로 신규 지정했다."
+    },
+    {
+      "id": "C-027",
+      "type": "claim",
+      "kind": "unknown",
+      "status": "active",
+      "label": "2026-11-02 기준 원화 스테이블코인 발행자 범위·은행 지분·보상·준비자산의 최종 법규와 관련 의안 전체 처리상태는 이번 확인 범위에서 확정하지 못했다."
+    },
+    {
+      "id": "C-028",
+      "type": "claim",
+      "kind": "institution_statement",
+      "status": "active",
+      "label": "FATF는 2026-10-30 가상자산 기준 이행의 표적 검토와 신속 후속조치에 합의하고 2027년 6월·10월 결과 공개를 예고했다."
+    },
+    {
+      "id": "C-029",
+      "type": "claim",
+      "kind": "institution_statement",
+      "status": "active",
+      "label": "ECB 2026년 4월 연구는 소규모 유럽 중심 매칭 표본에서 발행 스프레드·호가 차이 개선을 관측했으나 인수 수수료 감소는 확인하지 못했다."
+    },
+    {
+      "id": "C-030",
+      "type": "claim",
+      "kind": "hypothesis",
+      "status": "active",
+      "label": "제도 시행과 개별 인가가 진행돼도 기존 계좌·수탁과의 이중 운영이 남아 B2B 권리관리·대사·현금 연결이 먼저 필요해질 수 있다."
+    },
+    {
+      "id": "C-031",
+      "type": "claim",
+      "kind": "hypothesis",
+      "status": "active",
+      "label": "권리·담보 적격성·환매·은행현금 공급·상호운용성이 함께 충족되면 기관 담보와 기업 자금관리의 통합 서비스 기회가 커질 수 있다."
+    },
+    {
+      "id": "C-032",
+      "type": "claim",
+      "kind": "hypothesis",
+      "status": "active",
+      "label": "비은행 진입 확대와 소수 플랫폼의 고객 계약·주문흐름 통제가 함께 나타나면 토큰화가 성장해도 기존 금융기관의 실효 보수가 줄 수 있다."
+    },
+    {
+      "id": "C-033",
+      "type": "claim",
+      "kind": "hypothesis",
+      "status": "active",
+      "label": "입법·인가 지연과 관할별 통제 차이 또는 금융 충격이 결합하면 온체인 시장이 분절되고 전용 인프라의 투자 회수가 늦어질 수 있다."
+    },
+    {
+      "id": "C-034",
+      "type": "claim",
+      "kind": "institution_statement",
+      "status": "active",
+      "label": "한국은행 이슈노트 2026-22는 글로벌 중개자의 양 시장 접근 구조에 따라 달러 스테이블코인과 외환시장의 가격 통합·충격 전달이 달라진다고 설명한다."
+    },
+    {
+      "id": "C-035",
+      "type": "claim",
+      "kind": "institution_statement",
+      "status": "active",
+      "label": "한국은행은 2026-10-08 일반인용 CBDC의 현재 도입 계획이 없으며, 한강의 기관용 디지털화폐와 민간은행 예금토큰을 구분한다고 설명했다."
     },
     {
       "id": "T-RIGHTS",
@@ -332,6 +615,11 @@
       "id": "T-COMPANIES",
       "type": "topic",
       "label": "증권·은행·보험과 후보 기업"
+    },
+    {
+      "id": "T-MACRO",
+      "type": "topic",
+      "label": "금리·성장·물가·거시 금융여건"
     }
   ],
   "edges": [
@@ -432,7 +720,7 @@
     },
     {
       "from": "FIN-008",
-      "to": "T-OPERATIONS",
+      "to": "T-MONEY",
       "type": "covers"
     },
     {
@@ -512,12 +800,17 @@
     },
     {
       "from": "FIN-016",
+      "to": "T-REGULATION",
+      "type": "covers"
+    },
+    {
+      "from": "FIN-016",
       "to": "T-COLLATERAL",
       "type": "covers"
     },
     {
       "from": "FIN-016",
-      "to": "T-REGULATION",
+      "to": "T-OPERATIONS",
       "type": "covers"
     },
     {
@@ -532,12 +825,12 @@
     },
     {
       "from": "SRC-BOK-HANGANG",
-      "to": "T-MONEY",
+      "to": "T-REGULATION",
       "type": "covers"
     },
     {
       "from": "SRC-BOK-HANGANG",
-      "to": "T-REGULATION",
+      "to": "T-MONEY",
       "type": "covers"
     },
     {
@@ -656,6 +949,336 @@
       "type": "covers"
     },
     {
+      "from": "NOV-KR-001",
+      "to": "T-REGULATION",
+      "type": "covers"
+    },
+    {
+      "from": "NOV-KR-001",
+      "to": "T-MONEY",
+      "type": "covers"
+    },
+    {
+      "from": "NOV-KR-003",
+      "to": "T-REGULATION",
+      "type": "covers"
+    },
+    {
+      "from": "NOV-KR-003",
+      "to": "T-MONEY",
+      "type": "covers"
+    },
+    {
+      "from": "NOV-KR-004",
+      "to": "T-REGULATION",
+      "type": "covers"
+    },
+    {
+      "from": "NOV-KR-004",
+      "to": "T-MONEY",
+      "type": "covers"
+    },
+    {
+      "from": "NOV-KR-005",
+      "to": "T-REGULATION",
+      "type": "covers"
+    },
+    {
+      "from": "NOV-KR-005",
+      "to": "T-MONEY",
+      "type": "covers"
+    },
+    {
+      "from": "NOV-KR-006",
+      "to": "T-REGULATION",
+      "type": "covers"
+    },
+    {
+      "from": "NOV-KR-006",
+      "to": "T-MONEY",
+      "type": "covers"
+    },
+    {
+      "from": "NOV-KR-007",
+      "to": "T-REGULATION",
+      "type": "covers"
+    },
+    {
+      "from": "NOV-KR-007",
+      "to": "T-MONEY",
+      "type": "covers"
+    },
+    {
+      "from": "NOV-KR-007",
+      "to": "T-COMPANIES",
+      "type": "covers"
+    },
+    {
+      "from": "NOV-KR-007",
+      "to": "T-SETTLEMENT",
+      "type": "covers"
+    },
+    {
+      "from": "NOV-KR-009",
+      "to": "T-REGULATION",
+      "type": "covers"
+    },
+    {
+      "from": "NOV-KR-009",
+      "to": "T-MONEY",
+      "type": "covers"
+    },
+    {
+      "from": "NOV-US-OCC",
+      "to": "T-REGULATION",
+      "type": "covers"
+    },
+    {
+      "from": "NOV-US-OCC",
+      "to": "T-MONEY",
+      "type": "covers"
+    },
+    {
+      "from": "NOV-US-FED",
+      "to": "T-REGULATION",
+      "type": "covers"
+    },
+    {
+      "from": "NOV-US-FED",
+      "to": "T-MONEY",
+      "type": "covers"
+    },
+    {
+      "from": "NOV-US-FDIC",
+      "to": "T-REGULATION",
+      "type": "covers"
+    },
+    {
+      "from": "NOV-US-FDIC",
+      "to": "T-MONEY",
+      "type": "covers"
+    },
+    {
+      "from": "NOV-US-TREASURY",
+      "to": "T-REGULATION",
+      "type": "covers"
+    },
+    {
+      "from": "NOV-US-TREASURY",
+      "to": "T-MONEY",
+      "type": "covers"
+    },
+    {
+      "from": "NOV-US-CLARITY",
+      "to": "T-REGULATION",
+      "type": "covers"
+    },
+    {
+      "from": "NOV-US-CLARITY",
+      "to": "T-MONEY",
+      "type": "covers"
+    },
+    {
+      "from": "NOV-EU-MICA-SCOPE",
+      "to": "T-REGULATION",
+      "type": "covers"
+    },
+    {
+      "from": "NOV-EU-MICA-SCOPE",
+      "to": "T-MONEY",
+      "type": "covers"
+    },
+    {
+      "from": "NOV-EU-MICA-TRANSITION",
+      "to": "T-REGULATION",
+      "type": "covers"
+    },
+    {
+      "from": "NOV-EU-MICA-TRANSITION",
+      "to": "T-MONEY",
+      "type": "covers"
+    },
+    {
+      "from": "NOV-EU-MARKET-PACKAGE",
+      "to": "T-REGULATION",
+      "type": "covers"
+    },
+    {
+      "from": "NOV-EU-MARKET-PACKAGE",
+      "to": "T-MONEY",
+      "type": "covers"
+    },
+    {
+      "from": "NOV-UK-FCA",
+      "to": "T-REGULATION",
+      "type": "covers"
+    },
+    {
+      "from": "NOV-UK-FCA",
+      "to": "T-MONEY",
+      "type": "covers"
+    },
+    {
+      "from": "NOV-UK-BOE",
+      "to": "T-REGULATION",
+      "type": "covers"
+    },
+    {
+      "from": "NOV-UK-BOE",
+      "to": "T-MONEY",
+      "type": "covers"
+    },
+    {
+      "from": "NOV-UK-JOINT",
+      "to": "T-REGULATION",
+      "type": "covers"
+    },
+    {
+      "from": "NOV-UK-JOINT",
+      "to": "T-MONEY",
+      "type": "covers"
+    },
+    {
+      "from": "NOV-M01",
+      "to": "T-MACRO",
+      "type": "covers"
+    },
+    {
+      "from": "NOV-M01",
+      "to": "T-FUNDING",
+      "type": "covers"
+    },
+    {
+      "from": "NOV-M02",
+      "to": "T-MACRO",
+      "type": "covers"
+    },
+    {
+      "from": "NOV-M02",
+      "to": "T-FUNDING",
+      "type": "covers"
+    },
+    {
+      "from": "NOV-M03",
+      "to": "T-MACRO",
+      "type": "covers"
+    },
+    {
+      "from": "NOV-M03",
+      "to": "T-FUNDING",
+      "type": "covers"
+    },
+    {
+      "from": "NOV-M04",
+      "to": "T-MACRO",
+      "type": "covers"
+    },
+    {
+      "from": "NOV-M04",
+      "to": "T-FUNDING",
+      "type": "covers"
+    },
+    {
+      "from": "NOV-M05",
+      "to": "T-MACRO",
+      "type": "covers"
+    },
+    {
+      "from": "NOV-M05",
+      "to": "T-FUNDING",
+      "type": "covers"
+    },
+    {
+      "from": "NOV-M06",
+      "to": "T-MACRO",
+      "type": "covers"
+    },
+    {
+      "from": "NOV-M06",
+      "to": "T-FUNDING",
+      "type": "covers"
+    },
+    {
+      "from": "NOV-M07",
+      "to": "T-MACRO",
+      "type": "covers"
+    },
+    {
+      "from": "NOV-M07",
+      "to": "T-MARKET",
+      "type": "covers"
+    },
+    {
+      "from": "NOV-M07",
+      "to": "T-SETTLEMENT",
+      "type": "covers"
+    },
+    {
+      "from": "NOV-M08",
+      "to": "T-MACRO",
+      "type": "covers"
+    },
+    {
+      "from": "NOV-M08",
+      "to": "T-FUNDING",
+      "type": "covers"
+    },
+    {
+      "from": "NOV-ECB-BONDS",
+      "to": "T-MARKET",
+      "type": "covers"
+    },
+    {
+      "from": "NOV-ECB-BONDS",
+      "to": "T-RIGHTS",
+      "type": "covers"
+    },
+    {
+      "from": "NOV-ECB-BONDS",
+      "to": "T-OPERATIONS",
+      "type": "covers"
+    },
+    {
+      "from": "NOV-FATF",
+      "to": "T-REGULATION",
+      "type": "covers"
+    },
+    {
+      "from": "NOV-FATF",
+      "to": "T-OPERATIONS",
+      "type": "covers"
+    },
+    {
+      "from": "NOV-FATF",
+      "to": "T-SETTLEMENT",
+      "type": "covers"
+    },
+    {
+      "from": "NOV-ECB-COLLATERAL",
+      "to": "T-COLLATERAL",
+      "type": "covers"
+    },
+    {
+      "from": "NOV-ECB-COLLATERAL",
+      "to": "T-REGULATION",
+      "type": "covers"
+    },
+    {
+      "from": "NOV-ECB-COLLATERAL",
+      "to": "T-SETTLEMENT",
+      "type": "covers"
+    },
+    {
+      "from": "NOV-ECB-ELIGIBILITY",
+      "to": "T-COLLATERAL",
+      "type": "covers"
+    },
+    {
+      "from": "NOV-ECB-ELIGIBILITY",
+      "to": "T-REGULATION",
+      "type": "covers"
+    },
+    {
       "from": "FIN-006",
       "to": "C-001",
       "type": "grounds",
@@ -680,6 +1303,12 @@
     },
     {
       "from": "FIN-002",
+      "to": "C-002",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "NOV-M07",
       "to": "C-002",
       "type": "grounds",
       "note": "provenance, not proof of causation"
@@ -948,6 +1577,12 @@
       "note": "provenance, not proof of causation"
     },
     {
+      "from": "NOV-US-OCC",
+      "to": "C-014",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
       "from": "C-014",
       "to": "T-REGULATION",
       "type": "about"
@@ -1007,6 +1642,402 @@
     {
       "from": "C-016",
       "to": "T-AI",
+      "type": "about"
+    },
+    {
+      "from": "NOV-M01",
+      "to": "C-017",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-017",
+      "to": "T-MACRO",
+      "type": "about"
+    },
+    {
+      "from": "C-017",
+      "to": "T-FUNDING",
+      "type": "about"
+    },
+    {
+      "from": "NOV-M04",
+      "to": "C-018",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-018",
+      "to": "T-MACRO",
+      "type": "about"
+    },
+    {
+      "from": "C-018",
+      "to": "T-FUNDING",
+      "type": "about"
+    },
+    {
+      "from": "NOV-M03",
+      "to": "C-019",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-019",
+      "to": "T-MACRO",
+      "type": "about"
+    },
+    {
+      "from": "C-019",
+      "to": "T-FUNDING",
+      "type": "about"
+    },
+    {
+      "from": "NOV-M05",
+      "to": "C-020",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-020",
+      "to": "T-MACRO",
+      "type": "about"
+    },
+    {
+      "from": "NOV-M06",
+      "to": "C-021",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-021",
+      "to": "T-MACRO",
+      "type": "about"
+    },
+    {
+      "from": "C-021",
+      "to": "T-COLLATERAL",
+      "type": "about"
+    },
+    {
+      "from": "NOV-US-OCC",
+      "to": "C-022",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-022",
+      "to": "T-REGULATION",
+      "type": "about"
+    },
+    {
+      "from": "C-022",
+      "to": "T-MONEY",
+      "type": "about"
+    },
+    {
+      "from": "NOV-US-CLARITY",
+      "to": "C-023",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-023",
+      "to": "T-REGULATION",
+      "type": "about"
+    },
+    {
+      "from": "NOV-UK-FCA",
+      "to": "C-024",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-024",
+      "to": "T-REGULATION",
+      "type": "about"
+    },
+    {
+      "from": "C-024",
+      "to": "T-MONEY",
+      "type": "about"
+    },
+    {
+      "from": "NOV-EU-MICA-SCOPE",
+      "to": "C-025",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "NOV-EU-MICA-TRANSITION",
+      "to": "C-025",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-025",
+      "to": "T-REGULATION",
+      "type": "about"
+    },
+    {
+      "from": "C-025",
+      "to": "T-RIGHTS",
+      "type": "about"
+    },
+    {
+      "from": "NOV-KR-007",
+      "to": "C-026",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-026",
+      "to": "T-COMPANIES",
+      "type": "about"
+    },
+    {
+      "from": "C-026",
+      "to": "T-MONEY",
+      "type": "about"
+    },
+    {
+      "from": "C-026",
+      "to": "T-SETTLEMENT",
+      "type": "about"
+    },
+    {
+      "from": "NOV-KR-004",
+      "to": "C-027",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "NOV-KR-005",
+      "to": "C-027",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "NOV-KR-009",
+      "to": "C-027",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-027",
+      "to": "T-REGULATION",
+      "type": "about"
+    },
+    {
+      "from": "C-027",
+      "to": "T-MONEY",
+      "type": "about"
+    },
+    {
+      "from": "NOV-FATF",
+      "to": "C-028",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-028",
+      "to": "T-REGULATION",
+      "type": "about"
+    },
+    {
+      "from": "C-028",
+      "to": "T-OPERATIONS",
+      "type": "about"
+    },
+    {
+      "from": "NOV-ECB-BONDS",
+      "to": "C-029",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-029",
+      "to": "T-MARKET",
+      "type": "about"
+    },
+    {
+      "from": "C-029",
+      "to": "T-OPERATIONS",
+      "type": "about"
+    },
+    {
+      "from": "FIN-008",
+      "to": "C-030",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "FIN-009",
+      "to": "C-030",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "FIN-015",
+      "to": "C-030",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-030",
+      "to": "T-REGULATION",
+      "type": "about"
+    },
+    {
+      "from": "C-030",
+      "to": "T-OPERATIONS",
+      "type": "about"
+    },
+    {
+      "from": "C-030",
+      "to": "T-SETTLEMENT",
+      "type": "about"
+    },
+    {
+      "from": "FIN-004",
+      "to": "C-031",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "FIN-016",
+      "to": "C-031",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "NOV-ECB-COLLATERAL",
+      "to": "C-031",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-031",
+      "to": "T-COLLATERAL",
+      "type": "about"
+    },
+    {
+      "from": "C-031",
+      "to": "T-SETTLEMENT",
+      "type": "about"
+    },
+    {
+      "from": "C-031",
+      "to": "T-FUNDING",
+      "type": "about"
+    },
+    {
+      "from": "NOV-US-OCC",
+      "to": "C-032",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "NOV-KR-004",
+      "to": "C-032",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "FIN-002",
+      "to": "C-032",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-032",
+      "to": "T-FUNDING",
+      "type": "about"
+    },
+    {
+      "from": "C-032",
+      "to": "T-MARKET",
+      "type": "about"
+    },
+    {
+      "from": "C-032",
+      "to": "T-COMPANIES",
+      "type": "about"
+    },
+    {
+      "from": "NOV-US-CLARITY",
+      "to": "C-033",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "NOV-FATF",
+      "to": "C-033",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "NOV-M06",
+      "to": "C-033",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "NOV-KR-009",
+      "to": "C-033",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-033",
+      "to": "T-REGULATION",
+      "type": "about"
+    },
+    {
+      "from": "C-033",
+      "to": "T-MACRO",
+      "type": "about"
+    },
+    {
+      "from": "C-033",
+      "to": "T-OPERATIONS",
+      "type": "about"
+    },
+    {
+      "from": "NOV-M08",
+      "to": "C-034",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-034",
+      "to": "T-MACRO",
+      "type": "about"
+    },
+    {
+      "from": "C-034",
+      "to": "T-FUNDING",
+      "type": "about"
+    },
+    {
+      "from": "C-034",
+      "to": "T-MONEY",
+      "type": "about"
+    },
+    {
+      "from": "SRC-BOK-HANGANG",
+      "to": "C-035",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-035",
+      "to": "T-MONEY",
+      "type": "about"
+    },
+    {
+      "from": "C-035",
+      "to": "T-REGULATION",
       "type": "about"
     }
   ]

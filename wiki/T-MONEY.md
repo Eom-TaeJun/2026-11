@@ -36,14 +36,63 @@ BIS Agorá 공식 본문은 2026년 7월 실물가치 시험과 플랫폼 결제
 
 OCC 10/21 발표는 GENIUS Act 이행 최종규칙과 2027-01-18 효력일, 별도 규칙 작업 및 신청 접수 공고 계획을 설명한다.
 
-근거: [SRC-OCC-GENIUS-FINAL](../sources/cards/SRC-OCC-GENIUS-FINAL.md)
+근거: [SRC-OCC-GENIUS-FINAL](../sources/cards/SRC-OCC-GENIUS-FINAL.md), [NOV-US-OCC](../sources/cards/NOV-US-OCC.md)
 
-한계: 발표문 선택 절을 확인했으며 11/2 현재 개별 인가·접수 상태를 이 자료만으로 판정하지 않는다.
+한계: 10/23 연방관보 최종규칙의 선택 절을 추가 확인했다. 신청접수 공고·개별 인가·실운영은 별도 확인해야 한다.
+
+### C-022 · fact · active
+
+OCC GENIUS 이행 최종규칙은 2026-10-23 연방관보에 게시됐고 효력일은 2027-01-18이다.
+
+근거: [NOV-US-OCC](../sources/cards/NOV-US-OCC.md)
+
+한계: OCC 관할 규칙이다. 다른 기관의 규칙 완료나 개별 인가·접수·영업을 뜻하지 않는다.
+
+### C-024 · fact · active
+
+FCA PS26/10의 스테이블코인 발행 최종 규칙 부속 문서에는 2027-10-25 발효가 명시되어 있다.
+
+근거: [NOV-UK-FCA](../sources/cards/NOV-UK-FCA.md)
+
+한계: BoE의 시스템 중요 발행자 초안 Code 및 실제 인가·출시와 구분한다.
+
+### C-026 · fact · active
+
+금융위는 2026-07-15 경남은행·아이엠뱅크의 예금토큰 지급·결제 테스트를 혁신금융서비스로 신규 지정했다.
+
+근거: [NOV-KR-007](../sources/cards/NOV-KR-007.md)
+
+한계: 시험 지위와 실제 개시·상용 매출·전담인력 증가는 별개다.
+
+### C-027 · unknown · active
+
+2026-11-02 기준 원화 스테이블코인 발행자 범위·은행 지분·보상·준비자산의 최종 법규와 관련 의안 전체 처리상태는 이번 확인 범위에서 확정하지 못했다.
+
+근거: [NOV-KR-004](../sources/cards/NOV-KR-004.md), [NOV-KR-005](../sources/cards/NOV-KR-005.md), [NOV-KR-009](../sources/cards/NOV-KR-009.md)
+
+한계: 3월·8월·9월 공식 논의 자료와 최신 의안 접근 공백을 구분한다. 미확인은 미제정·미통과의 증거가 아니다.
+
+### C-034 · institution_statement · active
+
+한국은행 이슈노트 2026-22는 글로벌 중개자의 양 시장 접근 구조에 따라 달러 스테이블코인과 외환시장의 가격 통합·충격 전달이 달라진다고 설명한다.
+
+근거: [NOV-M08](../sources/cards/NOV-M08.md)
+
+한계: 공식 요약만 읽었다. 모든 원화 스테이블코인 수요의 원화 절하 효과·정량 인과를 증명하지 않는다.
+
+### C-035 · institution_statement · active
+
+한국은행은 2026-10-08 일반인용 CBDC의 현재 도입 계획이 없으며, 한강의 기관용 디지털화폐와 민간은행 예금토큰을 구분한다고 설명했다.
+
+근거: [SRC-BOK-HANGANG](../sources/cards/SRC-BOK-HANGANG.md)
+
+한계: 영구적 도입 금지가 아니다. 11월 후속 실거래 재개 여부·은행별 수익은 미확인.
 
 ## 관련 원문
 
 - [FIN-003 · III. Anchoring trust in money: innovation beyond stablecoins](../sources/cards/FIN-003.md)
 - [FIN-004 · Project Agorá](../sources/cards/FIN-004.md)
+- [FIN-008 · 토큰증권 관련 전자증권법·자본시장법 하위법규 개정안 입법예고 실시 ※예고기간 ‘26.10.2일 ~ 11.11일](../sources/cards/FIN-008.md)
 - [FIN-009 · Eurosystem brings central bank money to tokenised finance](../sources/cards/FIN-009.md)
 - [FIN-010 · Welcoming Remarks at “Tokenisation: Banking the Future”](../sources/cards/FIN-010.md)
 - [FIN-014 · III. The next-generation monetary and financial system](../sources/cards/FIN-014.md)
@@ -53,5 +102,23 @@ OCC 10/21 발표는 GENIUS Act 이행 최종규칙과 2027-01-18 효력일, 별�
 - [PRIOR-001 · 2026년 11월 1일 디지털 금융환경 종합](../sources/cards/PRIOR-001.md)
 - [PRIOR-002 · STO·AI 연구 보고서 안내](../sources/cards/PRIOR-002.md)
 - [PRIOR-003 · 교보증권 수익전략의 조건부 연구](../sources/cards/PRIOR-003.md)
+- [NOV-KR-001 · 주식ㆍ사채 등의 전자등록에 관한 법률 [법률 제21318호]](../sources/cards/NOV-KR-001.md)
+- [NOV-KR-003 · 스테이블코인 발행주체 등 2단계법 주요내용은 확정된 바 없습니다.](../sources/cards/NOV-KR-003.md)
+- [NOV-KR-004 · 26년 제1차 「가상자산위원회」 개최](../sources/cards/NOV-KR-004.md)
+- [NOV-KR-005 · 가상자산거래소 대주주 지분 상한은 확정된 바 없습니다. - 8.26일 헤럴드경제 기사에 대한 정부입장 설명](../sources/cards/NOV-KR-005.md)
+- [NOV-KR-006 · 통화신용정책보고서(2026년 3월)](../sources/cards/NOV-KR-006.md)
+- [NOV-KR-007 · 한국은행 디지털화폐(CBDC) 시스템 내 예금토큰 기반 지급결제 테스트(프로젝트 한강) 2단계 시행 등 혁신금융서비스 5건 신규 지정 의결](../sources/cards/NOV-KR-007.md)
+- [NOV-KR-009 · 국회예산정책처, 「스테이블코인의 금융시장에 대한 영향과 시사점」 발간](../sources/cards/NOV-KR-009.md)
+- [NOV-US-OCC · Implementing the GENIUS Act for the Issuance of Stablecoins by Entities Subject to OCC Jurisdiction — Final Rule](../sources/cards/NOV-US-OCC.md)
+- [NOV-US-FED · Implementing the Federal Reserve Board's Responsibilities Under the GENIUS Act](../sources/cards/NOV-US-FED.md)
+- [NOV-US-FDIC · GENIUS Act Requirements and Standards for FDIC-Supervised Permitted Payment Stablecoin Issuers and Insured Depository Institutions](../sources/cards/NOV-US-FDIC.md)
+- [NOV-US-TREASURY · Forms and Procedures for Review of State Certifications by the Stablecoin Certification Review Committee](../sources/cards/NOV-US-TREASURY.md)
+- [NOV-US-CLARITY · U.S. Senate Roll Call Vote 234, 119th Congress, 2nd Session](../sources/cards/NOV-US-CLARITY.md)
+- [NOV-EU-MICA-SCOPE · MiCA Article 2 — Scope](../sources/cards/NOV-EU-MICA-SCOPE.md)
+- [NOV-EU-MICA-TRANSITION · Statement on the End of Transitional Periods under MiCA](../sources/cards/NOV-EU-MICA-TRANSITION.md)
+- [NOV-EU-MARKET-PACKAGE · Market integration and supervision package](../sources/cards/NOV-EU-MARKET-PACKAGE.md)
+- [NOV-UK-FCA · PS26/10: Stablecoin issuance](../sources/cards/NOV-UK-FCA.md)
+- [NOV-UK-BOE · Sterling-denominated systemic stablecoins](../sources/cards/NOV-UK-BOE.md)
+- [NOV-UK-JOINT · Bank of England and Financial Conduct Authority’s approach to joint regulation of systemic stablecoin issuers](../sources/cards/NOV-UK-JOINT.md)
 
 [전체 주제 지도](INDEX.md)

@@ -11,7 +11,7 @@
 | [FIN-005 · The Financial Stability Implications of Tokenisation](cards/FIN-005.md) | 2024-10-22 | official_summary | 2026-11-02 |
 | [FIN-006 · 토큰증권 도입 및 투자계약증권 유통을 위한 ｢전자증권법｣·｢자본시장법｣ 개정안 국회 본회의 통과](cards/FIN-006.md) | 2026-01-15 | full_text | 2026-11-02 |
 | [FIN-007 · 토큰증권 정책방향 발표- 민·관 합동 토큰증권 협의체 3차회의 개최](cards/FIN-007.md) | 2026-09-04 | selected_sections | 2026-11-02 |
-| [FIN-008 · 토큰증권 관련 전자증권법·자본시장법 하위법규 개정안 입법예고 실시 ※예고기간 ‘26.10.2일 ~ 11.11일](cards/FIN-008.md) | 2026-10-01 | full_text | 2026-11-02 |
+| [FIN-008 · 토큰증권 관련 전자증권법·자본시장법 하위법규 개정안 입법예고 실시 ※예고기간 ‘26.10.2일 ~ 11.11일](cards/FIN-008.md) | 2026-10-01 | selected_sections | 2026-11-02 |
 | [FIN-009 · Eurosystem brings central bank money to tokenised finance](cards/FIN-009.md) | 2026-09-21 | selected_sections | 2026-11-02 |
 | [FIN-010 · Welcoming Remarks at “Tokenisation: Banking the Future”](cards/FIN-010.md) | 2026-03-12 | selected_sections | 2026-11-02 |
 | [FIN-011 · Statement on Tokenized Securities](cards/FIN-011.md) | 2026-01-28 | selected_sections | 2026-11-02 |
@@ -38,3 +38,33 @@
 | [PRIOR-001 · 2026년 11월 1일 디지털 금융환경 종합](cards/PRIOR-001.md) | 2026-11-01 | selected_sections | 2026-11-02 |
 | [PRIOR-002 · STO·AI 연구 보고서 안내](cards/PRIOR-002.md) | 미확인/동적 | selected_sections | 2026-11-02 |
 | [PRIOR-003 · 교보증권 수익전략의 조건부 연구](cards/PRIOR-003.md) | 미확인/동적 | selected_sections | 2026-11-02 |
+| [NOV-KR-001 · 주식ㆍ사채 등의 전자등록에 관한 법률 [법률 제21318호]](cards/NOV-KR-001.md) | 2026-02-03 | metadata_only | 2026-11-02 |
+| [NOV-KR-003 · 스테이블코인 발행주체 등 2단계법 주요내용은 확정된 바 없습니다.](cards/NOV-KR-003.md) | 2026-01-06 | selected_sections | 2026-11-02 |
+| [NOV-KR-004 · 26년 제1차 「가상자산위원회」 개최](cards/NOV-KR-004.md) | 2026-03-04 | selected_sections | 2026-11-02 |
+| [NOV-KR-005 · 가상자산거래소 대주주 지분 상한은 확정된 바 없습니다. - 8.26일 헤럴드경제 기사에 대한 정부입장 설명](cards/NOV-KR-005.md) | 2026-08-27 | selected_sections | 2026-11-02 |
+| [NOV-KR-006 · 통화신용정책보고서(2026년 3월)](cards/NOV-KR-006.md) | 2026-03-12 | selected_sections | 2026-11-02 |
+| [NOV-KR-007 · 한국은행 디지털화폐(CBDC) 시스템 내 예금토큰 기반 지급결제 테스트(프로젝트 한강) 2단계 시행 등 혁신금융서비스 5건 신규 지정 의결](cards/NOV-KR-007.md) | 2026-07-15 | selected_sections | 2026-11-02 |
+| [NOV-KR-009 · 국회예산정책처, 「스테이블코인의 금융시장에 대한 영향과 시사점」 발간](cards/NOV-KR-009.md) | 2026-09-08 | selected_sections | 2026-11-02 |
+| [NOV-US-OCC · Implementing the GENIUS Act for the Issuance of Stablecoins by Entities Subject to OCC Jurisdiction — Final Rule](cards/NOV-US-OCC.md) | 2026-10-23 | selected_sections | 2026-11-02 |
+| [NOV-US-FED · Implementing the Federal Reserve Board's Responsibilities Under the GENIUS Act](cards/NOV-US-FED.md) | 2026-09-29 | selected_sections | 2026-11-02 |
+| [NOV-US-FDIC · GENIUS Act Requirements and Standards for FDIC-Supervised Permitted Payment Stablecoin Issuers and Insured Depository Institutions](cards/NOV-US-FDIC.md) | 2026-04-10 | selected_sections | 2026-11-02 |
+| [NOV-US-TREASURY · Forms and Procedures for Review of State Certifications by the Stablecoin Certification Review Committee](cards/NOV-US-TREASURY.md) | 2026-09-30 | selected_sections | 2026-11-02 |
+| [NOV-US-CLARITY · U.S. Senate Roll Call Vote 234, 119th Congress, 2nd Session](cards/NOV-US-CLARITY.md) | 2026-09-15 | selected_sections | 2026-11-02 |
+| [NOV-EU-MICA-SCOPE · MiCA Article 2 — Scope](cards/NOV-EU-MICA-SCOPE.md) | 미확인/동적 | selected_sections | 2026-11-02 |
+| [NOV-EU-MICA-TRANSITION · Statement on the End of Transitional Periods under MiCA](cards/NOV-EU-MICA-TRANSITION.md) | 2026-04-17 | selected_sections | 2026-11-02 |
+| [NOV-EU-MARKET-PACKAGE · Market integration and supervision package](cards/NOV-EU-MARKET-PACKAGE.md) | 2025-12-04 | selected_sections | 2026-11-02 |
+| [NOV-UK-FCA · PS26/10: Stablecoin issuance](cards/NOV-UK-FCA.md) | 2026-06-30 | selected_sections | 2026-11-02 |
+| [NOV-UK-BOE · Sterling-denominated systemic stablecoins](cards/NOV-UK-BOE.md) | 2026-06-22 | selected_sections | 2026-11-02 |
+| [NOV-UK-JOINT · Bank of England and Financial Conduct Authority’s approach to joint regulation of systemic stablecoin issuers](cards/NOV-UK-JOINT.md) | 2026-06-30 | selected_sections | 2026-11-02 |
+| [NOV-M01 · 통화정책방향(2026.10.22)](cards/NOV-M01.md) | 2026-10-22 | full_text | 2026-11-02 |
+| [NOV-M02 · 2026년 3/4분기 실질 국내총생산(속보)](cards/NOV-M02.md) | 2026-10-27 | official_summary | 2026-11-02 |
+| [NOV-M03 · 2026년 9월 금융기관 가중평균금리](cards/NOV-M03.md) | 2026-10-29 | official_summary | 2026-11-02 |
+| [NOV-M04 · Federal Reserve issues FOMC statement](cards/NOV-M04.md) | 2026-10-28 | full_text | 2026-11-02 |
+| [NOV-M05 · World Economic Outlook, October 2026: Resilience Under Strain, Urgent Choices — Executive Summary](cards/NOV-M05.md) | 2026-10-13 | selected_sections | 2026-11-02 |
+| [NOV-M06 · Global Financial Stability Report, October 2026: Resilience, Risk, and Transformation — Executive Summary](cards/NOV-M06.md) | 2026-10-13 | selected_sections | 2026-11-02 |
+| [NOV-M07 · GFSR October 2026, Chapter 3: Scaling Tokenization: New Efficiencies, New Vulnerabilities](cards/NOV-M07.md) | 2026-10-13 | selected_sections | 2026-11-02 |
+| [NOV-M08 · [제2026-22호] 달러 스테이블코인과 외환시장 간 연계성: 글로벌 거래소의 역할을 중심으로](cards/NOV-M08.md) | 2026-09-03 | official_summary | 2026-11-02 |
+| [NOV-ECB-BONDS · Tokenised bonds: assessing efficiency and liquidity in a nascent market](cards/NOV-ECB-BONDS.md) | 미확인/동적 | selected_sections | 2026-11-02 |
+| [NOV-FATF · Outcomes FATF Plenary, 28–30 October 2026](cards/NOV-FATF.md) | 2026-10-30 | selected_sections | 2026-11-02 |
+| [NOV-ECB-COLLATERAL · ECB paves way for acceptance of DLT-based assets as eligible Eurosystem collateral](cards/NOV-ECB-COLLATERAL.md) | 2026-01-27 | full_text | 2026-11-02 |
+| [NOV-ECB-ELIGIBILITY · Marketable assets — Eligibility criteria and assessment procedure](cards/NOV-ECB-ELIGIBILITY.md) | 미확인/동적 | selected_sections | 2026-11-02 |

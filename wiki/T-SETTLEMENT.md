@@ -40,6 +40,38 @@ BIS Agorá 공식 본문은 2026년 7월 실물가치 시험과 플랫폼 결제
 
 다음 관측: 같은 통화·수취액·기한에서 모든 시도의 총원가와 최종 은행 입금 비교
 
+### C-026 · fact · active
+
+금융위는 2026-07-15 경남은행·아이엠뱅크의 예금토큰 지급·결제 테스트를 혁신금융서비스로 신규 지정했다.
+
+근거: [NOV-KR-007](../sources/cards/NOV-KR-007.md)
+
+한계: 시험 지위와 실제 개시·상용 매출·전담인력 증가는 별개다.
+
+### C-030 · hypothesis · active
+
+제도 시행과 개별 인가가 진행돼도 기존 계좌·수탁과의 이중 운영이 남아 B2B 권리관리·대사·현금 연결이 먼저 필요해질 수 있다.
+
+근거: [FIN-008](../sources/cards/FIN-008.md), [FIN-009](../sources/cards/FIN-009.md), [FIN-015](../sources/cards/FIN-015.md)
+
+한계: 향후 6~24개월 작업 가설이며 확률과 매출 추정은 없다.
+
+다른 설명: 기존 시스템이 추가 보수 없이 흡수하거나 반복 수요가 부족할 수 있다.
+
+다음 관측: 서비스 개시 후 최초 두 번의 비교 가능한 공시·운영 집계에서 유료 재사용·총비용 확인. 재사용 없이 비용만 지속되면 확대 보류; 미공개는 유보.
+
+### C-031 · hypothesis · active
+
+권리·담보 적격성·환매·은행현금 공급·상호운용성이 함께 충족되면 기관 담보와 기업 자금관리의 통합 서비스 기회가 커질 수 있다.
+
+근거: [FIN-004](../sources/cards/FIN-004.md), [FIN-016](../sources/cards/FIN-016.md), [NOV-ECB-COLLATERAL](../sources/cards/NOV-ECB-COLLATERAL.md)
+
+한계: 각 조건은 개별 법인·통화·계약별 확인이 필요하다.
+
+다른 설명: 즉시 총액결제가 상계를 대체해 선자금 수요를 높이고 통합·복구비가 편익을 상쇄할 수 있다.
+
+다음 관측: 동일 조건 시험·실제 스트레스에서 은행현금 기한과 총원가를 비교. 개선 없으면 해당 사용례의 우위를 낮춘다. 시험은 실전 성과와 구분.
+
 ## 관련 원문
 
 - [FIN-001 · Tokenized Finance](../sources/cards/FIN-001.md)
@@ -47,5 +79,9 @@ BIS Agorá 공식 본문은 2026년 7월 실물가치 시험과 플랫폼 결제
 - [FIN-004 · Project Agorá](../sources/cards/FIN-004.md)
 - [FIN-009 · Eurosystem brings central bank money to tokenised finance](../sources/cards/FIN-009.md)
 - [FIN-015 · DTCC Tokenization Service Goes Live, Marking Major Milestone in the Adoption of Digital Assets](../sources/cards/FIN-015.md)
+- [NOV-KR-007 · 한국은행 디지털화폐(CBDC) 시스템 내 예금토큰 기반 지급결제 테스트(프로젝트 한강) 2단계 시행 등 혁신금융서비스 5건 신규 지정 의결](../sources/cards/NOV-KR-007.md)
+- [NOV-M07 · GFSR October 2026, Chapter 3: Scaling Tokenization: New Efficiencies, New Vulnerabilities](../sources/cards/NOV-M07.md)
+- [NOV-FATF · Outcomes FATF Plenary, 28–30 October 2026](../sources/cards/NOV-FATF.md)
+- [NOV-ECB-COLLATERAL · ECB paves way for acceptance of DLT-based assets as eligible Eurosystem collateral](../sources/cards/NOV-ECB-COLLATERAL.md)
 
 [전체 주제 지도](INDEX.md)

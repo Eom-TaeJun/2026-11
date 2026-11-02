@@ -137,7 +137,9 @@
     "event_date": "2026-07",
     "effective_date": null,
     "effective_date_status": null,
-    "adoption_stage": "통제된 실물가치 시험"
+    "adoption_stage": "통제된 실물가치 시험",
+    "rechecked_at": "2026-11-02",
+    "recheck_scope": "BIS Agorá Real-Value Testing와 setup/execution. 2026년 7월 시험, 환매 승인 후 외부시스템 현금 이체. 표시 갱신일 5/27과 본문 사건일 불일치 유지."
   },
   {
     "id": "FIN-005",
@@ -243,36 +245,42 @@
   },
   {
     "id": "FIN-008",
-    "title": "토큰증권 관련 전자증권법·자본시장법 하위법규 개정안 입법예고 실시 ※예고기간 ‘26.10.2일 ~ 11.11일",
-    "publisher": "금융위원회",
     "url": "https://www.fsc.go.kr/no010101/87838?srchEndDt=+",
+    "publisher": "금융위원회",
+    "title": "토큰증권 관련 전자증권법·자본시장법 하위법규 개정안 입법예고 실시 ※예고기간 ‘26.10.2일 ~ 11.11일",
     "published_at": "2026-10-01",
-    "checked_at": "2026-11-02",
-    "visibility": "public",
-    "read_status": "full_text",
-    "source_type": "정부 입법예고 보도자료",
-    "read_scope": [
-      "추진 배경",
-      "입법예고안의 주요 내용 ①·②",
-      "향후계획"
+    "event_dates": [
+      {
+        "date": "2026-10-02",
+        "event": "입법예고 시작"
+      },
+      {
+        "date": "2026-11-11",
+        "event": "입법예고 종료 예정"
+      }
     ],
-    "summary": "법률 시행 예정일은 2027-02-04이며 하위법규 예고기간은 2026-10-02~11-11이다. 예고안은 분산원장 참여기관·직접 대가, 발행인계좌관리기관의 자본·인력, 채무증권 장외거래소 인가 및 일반투자자 한도 등을 다룬다. 관련 기준에 대한 업계 의견도 수렴한다고 명시한다.",
+    "effective_at": "2027-02-04",
+    "read_status": "selected_sections",
+    "read_scope": "보도자료 본문 개요·개정안 주요내용·향후 계획. 첨부 입법예고안 조문 전문은 미독.",
+    "summary": "전자증권법·자본시장법 시행에 맞춰 하위법규를 예고했다. 초안에는 원장 구성, 발행인계좌관리기관의 자본·인력, 채무증권 장외거래소 인가와 개인투자한도가 포함된다. 주식·사채·수익증권도 토큰 형태 발행 대상이다. 기준일은 예고 기간 안이므로 초안의 숫자와 요건은 확정 법규가 아니다.",
     "used_for": [
-      "현재 절차 상태: 2026-11-02 현재 해당 하위법규 세부 기준은 입법예고 단계로 표시해야 한다.",
-      "연구자 추론: 권리 확정·업무 연속성·인가·계좌관리 조건을 먼저 충족하는 연결 서비스가 국내 검토의 출발점이다."
+      "STO는 법률 공포 후 세부 진입·운영 조건을 정하는 단계",
+      "허가·원장·계좌관리·유통 기능의 조건부 사업 기회"
     ],
     "limitations": [
-      "보도자료 요약을 읽었으며 예고 법령 조문 전체·최종 공포 여부의 법령 데이터베이스 확인은 별도 과제다.",
-      "수치·분산원장 요건을 확정 시행 규칙으로 서술하지 않는다."
+      "보도자료 수준 검토로 세부 예외와 조문 적용범위는 추가 확인 필요.",
+      "원장 사용 대가 관련 초안을 모든 퍼블릭체인에 대한 전면금지로 확장하지 않는다.",
+      "법령 시행이 서비스 출시·투자수요·수익 확정을 뜻하지 않는다."
     ],
     "topic_ids": [
       "T-REGULATION",
-      "T-OPERATIONS"
+      "T-MONEY"
     ],
-    "event_date": "2026-10-02",
-    "effective_date": "2027-02-04",
-    "effective_date_status": "시행 예정",
-    "adoption_stage": "입법예고 진행 중"
+    "checked_at": "2026-11-02",
+    "primary_source": true,
+    "alternate_urls": [],
+    "visibility": "public",
+    "source_type": "official_policy_or_research_selected"
   },
   {
     "id": "FIN-009",
@@ -305,7 +313,9 @@
     "event_date": null,
     "effective_date": null,
     "effective_date_status": null,
-    "adoption_stage": "출시·단계적 참가 확대"
+    "adoption_stage": "출시·단계적 참가 확대",
+    "rechecked_at": "2026-11-02",
+    "recheck_scope": "ECB Pontes 2026-09-21 본문 전체. 초기 기능과 참여자, 2028년까지 기능·시간 확대 계획을 출시와 분리."
   },
   {
     "id": "FIN-010",
@@ -505,43 +515,36 @@
     "event_date": null,
     "effective_date": null,
     "effective_date_status": null,
-    "adoption_stage": "서비스 출시·접근 계약"
+    "adoption_stage": "서비스 출시·접근 계약",
+    "rechecked_at": "2026-11-02",
+    "recheck_scope": "DTCC 2026-10-28 본문. DTS 출시·20개 접근 계약·Canton/Besu 연결. 실제 반복 거래량·매출은 미확인."
   },
   {
     "id": "FIN-016",
+    "url": "https://www.bankofengland.co.uk/paper/2026/cp/supervisory-expectations-for-ccps-seeking-to-accept-tokenised-collateral",
     "title": "Consultation on supervisory expectations for central counterparties seeking to accept tokenised collateral",
     "publisher": "Bank of England",
-    "url": "https://www.bankofengland.co.uk/paper/2026/cp/supervisory-expectations-for-ccps-seeking-to-accept-tokenised-collateral",
-    "published_at": "2026-10-29",
-    "checked_at": "2026-11-02",
-    "visibility": "public",
+    "published_date": "2026-10-29",
     "read_status": "selected_sections",
-    "source_type": "중앙은행 감독 협의안",
-    "read_scope": [
-      "1: Purpose, Scope",
-      "2: Industry engagement and feedback",
-      "3: Scope 및 잠재적 새 담보의 stablecoin·tMMF 논의",
-      "4: Next steps",
-      "Annex 1: 3.8~3.16 유동성·추가 신용위험·최종성 및 3.21~3.25 운영·수탁 관련 확인 문단"
-    ],
-    "summary": "영란은행은 CCP의 토큰화 담보 수용에 관한 감독 기대 초안을 제시했다. 기존 적격 담보의 토큰화가 중심이며, 토큰화만으로 담보 적격성이 결정되지 않는다. 가치 실현·법적 최종성·추가 상대방·수탁·운영 복구를 검토하도록 제안한다. MMF 토큰·스테이블코인 등으로 적격 범위를 자동 확대하는 문서는 아니다.",
-    "used_for": [
-      "감독 협의안: 토큰 이전 가능성과 부도 시 담보의 적시 현금화·권리 집행은 다른 검증 항목이다.",
-      "연구자 추론: 담보관리 사업 가설은 자산의 질뿐 아니라 전환·환매·수탁기관·허용 권한에 대한 의존성을 함께 평가해야 한다."
-    ],
+    "read_scope": "Sections1–4; scope, eligibility, dependency and next-steps passages; draft statement selected passages.",
+    "summary": "CCP가 기존 적격 담보의 토큰화 버전을 수용할 때의 감독 기대를 제안했다. 토큰화 자체는 적격성 판단을 바꾸지 않는다. 적격 담보 목록 변경을 제안하지 않으며 스테이블코인·토큰화 MMF 등의 확대는 별도 조건이다. 의견 마감은 2027-02-12이다.",
+    "used_for": "담보 이동·실행 기회와 실제 승인 사이의 조건",
     "limitations": [
-      "협의안이며 확정 감독기준·CCP의 실제 담보 수용을 뜻하지 않는다.",
-      "UK CCP와 관련 인정 CCP 대상이다. 한국 보험·증권사 규제에 직접 대입할 수 없다.",
-      "협의안·부속서 전체 정독은 아니다."
+      "협의안이며 특정 CCP나 토큰 자산의 승인이 아니다.",
+      "담보 인정, 헤어컷, 법적 집행 및 실제 부도시 현금화는 별도 검증해야 한다."
     ],
+    "checked_at": "2026-11-02",
     "topic_ids": [
+      "T-REGULATION",
       "T-COLLATERAL",
-      "T-REGULATION"
+      "T-OPERATIONS"
     ],
-    "event_date": null,
     "effective_date": null,
-    "effective_date_status": null,
-    "adoption_stage": "감독 협의안 의견 수렴"
+    "comment_deadline": "2027-02-12",
+    "alternate_urls": [],
+    "published_at": "2026-10-29",
+    "visibility": "public",
+    "source_type": "official_rule_or_policy_selected"
   },
   {
     "id": "SRC-CIRCLE-USDC-TERMS",
@@ -575,33 +578,40 @@
   },
   {
     "id": "SRC-BOK-HANGANG",
-    "title": "프로젝트 한강의 기관용 디지털화폐, 일반인용 CBDC와 어떻게 다를까",
-    "publisher": "한국은행",
     "url": "https://www.bok.or.kr/portal/bbs/B0000347/view.do?menuNo=201106&nttId=11065408",
-    "date": "2026-10-08",
-    "date_kind": "published",
+    "publisher": "한국은행",
+    "title": "프로젝트 한강의 기관용 디지털화폐, 일반인용 CBDC와 어떻게 다를까",
     "published_at": "2026-10-08",
-    "checked_at": "2026-11-02",
-    "visibility": "public",
-    "read_status": "selected_sections",
-    "read_scope": "등록일, 들어가며, 일반인용 CBDC 관련 계획과 예금토큰 중심 전환에 대한 본문 설명.",
-    "summary": [
-      "2026-10-08 등록된 한국은행 설명은 프로젝트 한강 2단계 준비와 연내 재개 예정인 예금토큰 기반 후속 실거래를 다룬다.",
-      "한국은행은 해당 글에서 일반인용 CBDC 도입·발행 계획과 프로젝트 한강의 예금토큰 중심 경로를 구분한다."
+    "event_dates": [
+      {
+        "date": "2026-10-08",
+        "event": "한강 진행상태 및 일반인용 CBDC 입장 설명"
+      }
     ],
+    "effective_at": null,
+    "read_status": "selected_sections",
+    "read_scope": "공식 블로그 김동섭 팀장 글 중 한강 2단계 진행, 일반인용 CBDC 정책, 기관용 디지털화폐와 예금토큰의 법적·보유주체 차이 단락. 다른 국가 사례·전체 인용 문헌은 검증하지 않음.",
+    "summary": "한국은행은 일반인용 CBDC를 현재 도입할 계획이 없다고 설명했다. 한강은 은행만 보유하는 기관용 디지털화폐와 민간은행 예금토큰을 활용한다. 10월 8일 기준 국고보조금 시범사업은 진행 중이고, 일반국민 대상 후속 실거래는 연내 재개를 준비 중이라고 밝혔다. 예금토큰은 법정통화가 아니며 기존 예금과 같은 제도적 성격이라고 설명했다.",
     "used_for": [
-      "한국의 디지털화폐 경로를 민간 원화 스테이블코인 하나로 묶지 않는다.",
-      "은행 예금토큰, 기관용 디지털화폐, 일반인용 CBDC를 구분하는 환경 분석에 사용한다."
+      "일반인용 CBDC·기관용 디지털화폐·예금토큰 구분",
+      "7월 테스트 허용과 10월 실제 추진상태 구분"
     ],
     "limitations": [
-      "기관의 설계·계획 설명을 읽은 것이며 현재 상용 운영 성과를 독립 검증한 것은 아니다.",
-      "경남은행 등 특정 은행의 참여·투자·인력배치·수익성은 이 읽은 범위로 확인하지 않는다.",
-      "첨부자료의 도표 전체와 해외 CBDC 관련 외부 사례를 별도로 검증하지 않았다."
+      "공식 블로그의 시점별 설명이며 영구적 법적 금지나 향후 계획 불변을 뜻하지 않는다.",
+      "11월 2일까지 일반국민 대상 후속 실거래가 실제 재개됐는지는 별도 최신 공고를 확인하지 못했다.",
+      "예금 보호·지급준비 관련 설명은 이 글의 서술을 확인했으며 개별 법률 조문 적용을 독립 심사하지 않았다."
     ],
     "topic_ids": [
-      "T-MONEY",
-      "T-REGULATION"
-    ]
+      "T-REGULATION",
+      "T-MONEY"
+    ],
+    "checked_at": "2026-11-02",
+    "primary_source": true,
+    "alternate_urls": [
+      "https://www.bok.or.kr/portal/bbs/B0000347/view.do?depth=201106&menuNo=201106&nttId=11065408&programType=newsData&relate=Y"
+    ],
+    "visibility": "public",
+    "source_type": "official_policy_or_research_selected"
   },
   {
     "id": "SRC-OCC-GENIUS-FINAL",
@@ -1171,6 +1181,860 @@
       "T-COMPANIES",
       "T-AI",
       "T-MONEY"
+    ]
+  },
+  {
+    "id": "NOV-KR-001",
+    "url": "https://www.law.go.kr/lsInfoP.do?lsiSeq=283195&viewCls=lsRvsDocInfoR",
+    "publisher": "법제처 국가법령정보센터",
+    "title": "주식ㆍ사채 등의 전자등록에 관한 법률 [법률 제21318호]",
+    "published_at": "2026-02-03",
+    "event_dates": [
+      {
+        "date": "2026-02-03",
+        "event": "일부개정법 공포"
+      }
+    ],
+    "effective_at": "2027-02-04",
+    "read_status": "metadata_only",
+    "read_scope": "국가법령정보센터 법령 연혁 헤더·시행일·법률번호 메타데이터. 조문 및 부칙 전문은 동적 페이지에서 추출되지 않아 미독.",
+    "summary": "법령 헤더에서 법률번호·공포일·시행일 메타데이터만 확인했다. 조문 내용의 실질 근거로 사용하지 않는다.",
+    "used_for": [
+      "STO 법률 공포와 효력 발생의 구분"
+    ],
+    "limitations": [
+      "조문·부칙 전문을 읽은 자료가 아니다.",
+      "함께 개정된 자본시장법의 개별 법률번호·공포일을 이 자료로 확인하지 않았다."
+    ],
+    "topic_ids": [
+      "T-REGULATION",
+      "T-MONEY"
+    ],
+    "checked_at": "2026-11-02",
+    "primary_source": true,
+    "visibility": "public",
+    "source_type": "legal_metadata"
+  },
+  {
+    "id": "NOV-KR-003",
+    "url": "https://www.fsc.go.kr/no010102/85997?curPage=13&srchBeginDt=&srchCtgry=&srchEndDt=&srchKey=sj&srchText=",
+    "publisher": "금융위원회",
+    "title": "스테이블코인 발행주체 등 2단계법 주요내용은 확정된 바 없습니다.",
+    "published_at": "2026-01-06",
+    "event_dates": [
+      {
+        "date": "2026-01-06",
+        "event": "정부입장 설명"
+      }
+    ],
+    "effective_at": null,
+    "read_status": "selected_sections",
+    "read_scope": "보도설명자료 본문 기사내용 및 금융위원회 설명. 첨부는 미독.",
+    "summary": "은행 중심 50%+1 컨소시엄, 협의체, 과징금 등에 관한 언론 보도에 대해 금융위가 주요내용을 협의 중이며 발행주체 등이 정해지지 않았다고 설명했다.",
+    "used_for": [
+      "은행 지분요건 관련 보도를 확정 규정으로 승격하지 않음"
+    ],
+    "limitations": [
+      "2026년 1월 시점의 설명이다. 이 자료 하나로 11월 2일 상태를 확정할 수 없다.",
+      "본문에 인용된 기사내용은 정부가 확인한 사실이 아니다."
+    ],
+    "topic_ids": [
+      "T-REGULATION",
+      "T-MONEY"
+    ],
+    "checked_at": "2026-11-02",
+    "primary_source": true,
+    "visibility": "public",
+    "source_type": "official_policy_or_research_selected"
+  },
+  {
+    "id": "NOV-KR-004",
+    "url": "https://www.fsc.go.kr/po010105/86373",
+    "publisher": "금융위원회",
+    "title": "26년 제1차 「가상자산위원회」 개최",
+    "published_at": "2026-03-04",
+    "event_dates": [
+      {
+        "date": "2026-03-04",
+        "event": "가상자산위원회 회의"
+      }
+    ],
+    "effective_at": null,
+    "read_status": "selected_sections",
+    "read_scope": "보도자료 본문 개요 및 주요 논의내용. 정부 검토안 전문은 공개 본문에 없고 읽지 않았다.",
+    "summary": "관계부처·금감원·민간위원이 디지털자산기본법 정부 검토안을 논의했다. 사업자 규율, 내부통제·보안, 무과실 손해배상, 은행 중심 50%+1 스테이블코인 발행, 거래소 소유분산 등이 논의 대상이었다. 이후 당정 협의가 계획됐다.",
+    "used_for": [
+      "발행주체·소유규제·손해배상은 실제 정책 논의 의제임",
+      "논의와 법률 확정의 구분"
+    ],
+    "limitations": [
+      "회의에서 논의했다고 합의·법안 제출·통과됐다는 뜻은 아니다.",
+      "참석자별 찬반과 수정 조문은 본문에 제시되지 않는다."
+    ],
+    "topic_ids": [
+      "T-REGULATION",
+      "T-MONEY"
+    ],
+    "checked_at": "2026-11-02",
+    "primary_source": true,
+    "visibility": "public",
+    "source_type": "official_policy_or_research_selected"
+  },
+  {
+    "id": "NOV-KR-005",
+    "url": "https://www.fsc.go.kr/no010102/87600",
+    "publisher": "금융위원회",
+    "title": "가상자산거래소 대주주 지분 상한은 확정된 바 없습니다. - 8.26일 헤럴드경제 기사에 대한 정부입장 설명",
+    "published_at": "2026-08-27",
+    "event_dates": [
+      {
+        "date": "2026-08-27",
+        "event": "정부입장 설명"
+      }
+    ],
+    "effective_at": null,
+    "read_status": "selected_sections",
+    "read_scope": "보도설명자료 본문 기사내용 및 설명. 첨부는 미독.",
+    "summary": "금융위는 가상자산 2단계법 정부안을 마련하기 위해 논의 중이라고 설명하고 거래소 대주주 지분 상한은 확정되지 않았다고 밝혔다.",
+    "used_for": [
+      "적어도 8월 27일 정부 검토·조정 단계였다는 최신 확보 공식 설명",
+      "거래소 20% 소유제한을 확정 규정으로 인용하지 않음"
+    ],
+    "limitations": [
+      "직접 부인한 대상은 거래소 지분 상한이다. 이를 스테이블코인 모든 조항의 미확정 증거로 일반화하지 않는다.",
+      "9~11월 국회 전체 의안과 정부안 제출 여부를 이 자료로 판단할 수 없다."
+    ],
+    "topic_ids": [
+      "T-REGULATION",
+      "T-MONEY"
+    ],
+    "checked_at": "2026-11-02",
+    "primary_source": true,
+    "visibility": "public",
+    "source_type": "official_policy_or_research_selected"
+  },
+  {
+    "id": "NOV-KR-006",
+    "url": "https://www.bok.or.kr/portal/bbs/B0000156/view.do?depth=201150&menuNo=200067&nttId=10096935&oldMenuNo=201150&pageIndex=1&pageUnit=10&programType=newsData",
+    "publisher": "한국은행",
+    "title": "통화신용정책보고서(2026년 3월)",
+    "published_at": "2026-03-12",
+    "event_dates": [],
+    "effective_at": null,
+    "read_status": "selected_sections",
+    "read_scope": "웹 본문 '지급결제 환경 변화에 적극 대응'의 스테이블코인 위험·입법 관련 부분, 표 II-8, '미래 디지털화폐·통화 생태계 구축 노력 지속' 부분. 전체 보고서·PDF 전문 미독.",
+    "summary": "한국은행은 원화 스테이블코인의 프로그래밍·송금 효율 잠재력을 인정하면서 자본유출·가치유지·상환유동성·금산분리·은행중개 위험을 제시했다. 은행 중심으로 시작해 범위를 점진적으로 넓히는 방안이 바람직하다는 정책 입장을 밝혔다.",
+    "used_for": [
+      "기관별 실제 정책 입장과 조건부 위험경로",
+      "은행 자금조달 및 비은행 진입 시나리오"
+    ],
+    "limitations": [
+      "한국은행의 3월 정책 입장이며 법적 발행자 요건이 아니다.",
+      "9월 보고서 관련 링크 접근을 완결하지 못해 가장 최근 보고서 입장이라고 부르지 않는다.",
+      "리스크는 조건부 경로이며 실제 예금유출 규모·손실의 관측치가 아니다."
+    ],
+    "topic_ids": [
+      "T-REGULATION",
+      "T-MONEY"
+    ],
+    "checked_at": "2026-11-02",
+    "primary_source": true,
+    "visibility": "public",
+    "source_type": "official_policy_or_research_selected"
+  },
+  {
+    "id": "NOV-KR-007",
+    "url": "https://www.fsc.go.kr/no010101/87338",
+    "publisher": "금융위원회",
+    "title": "한국은행 디지털화폐(CBDC) 시스템 내 예금토큰 기반 지급결제 테스트(프로젝트 한강) 2단계 시행 등 혁신금융서비스 5건 신규 지정 의결",
+    "published_at": "2026-07-15",
+    "event_dates": [
+      {
+        "date": "2026-07-15",
+        "event": "혁신금융서비스 신규 지정·기존 지정내용 변경 의결"
+      }
+    ],
+    "effective_at": null,
+    "read_status": "selected_sections",
+    "read_scope": "보도자료 본문 한강 2단계 단락과 지정 표. 개별 혁신금융서비스 지정 의결서·부가조건 전문 미독.",
+    "summary": "경남은행·아이엠뱅크의 예금토큰 지급결제 테스트 2건을 새로 지정하고 국민·신한·우리·하나·농협·기업·부산은행의 기존 지정내용을 변경했다. 이용자·사용처 확대, 송금, 국고금 집행 등 2단계 테스트 범위를 확장했다.",
+    "used_for": [
+      "한강 2단계의 법적 성격은 혁신금융서비스 지정에 따른 테스트",
+      "경남은행의 한강 관련 공식 참여 자격 신호"
+    ],
+    "limitations": [
+      "지정은 해당 은행의 실제 서비스 개시·거래액·상용 수익을 입증하지 않는다.",
+      "최대 지갑수와 한도는 허용 상한이지 실제 사용자·예치금이다.",
+      "일반 영구 인가나 전국민 CBDC 도입으로 확장하지 않는다."
+    ],
+    "topic_ids": [
+      "T-REGULATION",
+      "T-MONEY",
+      "T-COMPANIES",
+      "T-SETTLEMENT"
+    ],
+    "checked_at": "2026-11-02",
+    "primary_source": true,
+    "visibility": "public",
+    "source_type": "official_policy_or_research_selected"
+  },
+  {
+    "id": "NOV-KR-009",
+    "url": "https://nabo.go.kr/ko/notice/releasesView.do?idx=9430&key=2507040045",
+    "publisher": "국회예산정책처",
+    "title": "국회예산정책처, 「스테이블코인의 금융시장에 대한 영향과 시사점」 발간",
+    "published_at": "2026-09-08",
+    "event_dates": [
+      {
+        "date": "2026-09-08",
+        "event": "경제현안분석 제109호 발간"
+      }
+    ],
+    "effective_at": null,
+    "read_status": "selected_sections",
+    "read_scope": "공식 보도자료 본문 전체(분석 배경·시장 동향·입법 동향·영향·시사점). 보고서 소개 페이지의 발행일·목차도 확인했으나 보고서 PDF는 용량 오류로 미독.",
+    "summary": "국회예산정책처는 9월 8일 발간자료에서 국내 가상자산 2단계 입법을 논의 중인 단계로 설명했다. 원화 스테이블코인 도입을 위한 점진적 제도 개선과 준비자산·보상·시장안정 체계 등을 제안했다.",
+    "used_for": [
+      "디지털자산 2단계 입법 논의 상태에 대한 공식 확인 시점을 9월 8일로 갱신",
+      "제도 제안을 현행 확정 규정과 구분"
+    ],
+    "limitations": [
+      "국회예산정책처 분석·정책 제안이며 국회 의안의 최신 접수·심사·의결 원장이 아니다.",
+      "9월 8일 이후 정부안 제출·법안 통과 여부는 이 자료로 확정할 수 없다.",
+      "보고서 전문·추정모형을 읽지 않아 수수료 절감액이나 경제효과 수치를 연구 결론에 사용하지 않는다.",
+      "보도자료의 해외 법률 설명은 이 자료를 근거로 최신 외국 규제 상태에 확대 적용하지 않는다."
+    ],
+    "topic_ids": [
+      "T-REGULATION",
+      "T-MONEY"
+    ],
+    "checked_at": "2026-11-02",
+    "primary_source": true,
+    "visibility": "public",
+    "source_type": "official_policy_or_research_selected"
+  },
+  {
+    "id": "NOV-US-OCC",
+    "url": "https://www.govinfo.gov/content/pkg/FR-2026-10-23/html/2026-21706.htm",
+    "title": "Implementing the GENIUS Act for the Issuance of Stablecoins by Entities Subject to OCC Jurisdiction — Final Rule",
+    "publisher": "OCC / Federal Register",
+    "published_date": "2026-10-23",
+    "read_status": "selected_sections",
+    "read_scope": "Header; summary; definitions; effective date; yield-prohibition discussion, especially lines 3385–3389, 3539–3556, 3631–3765; not all 195 pages. Root 재검토: DATES·Background 및 III Effective Date, 신청접수 관련 OIRA/OMB 승인과 별도 공고 절. 법 전체·195쪽 전체 통독 아님.",
+    "summary": "OCC의 GENIUS 이행 최종규칙이다. 법은 2025-07-18 제정됐으며, 이번 규칙과 법의 효력일은 2027-01-18이다. 토큰화 예금·증권은 지급형 스테이블코인 정의와 구별한다. 보유·사용·유지에만 연결된 발행자의 이자·수익 지급 금지를 유지하면서 제안에 있던 반증가능 추정은 삭제했다. 제3자 보상을 일괄 허용하거나 금지한 규칙으로 축약하면 안 된다.",
+    "used_for": "미국 최종규칙/효력일, 예금·증권 경계, 유통 보상 설계",
+    "limitations": [
+      "OCC 관할만 확인했다. 법 전체 또는 모든 기관 규칙의 완결을 뜻하지 않는다.",
+      "최종규칙은 직접 읽었지만 실제 신청 개시·인가·출시는 별도 확인 필요."
+    ],
+    "checked_at": "2026-11-02",
+    "topic_ids": [
+      "T-REGULATION",
+      "T-MONEY"
+    ],
+    "event_date": "2026-10-21",
+    "effective_date": "2027-01-18",
+    "related_urls": [
+      "https://occ.gov/news-issuances/news-releases/2026/nr-occ-2026-92.html",
+      "https://www.occ.gov/topics/charters-and-licensing/genius-act/index-genius-act.html"
+    ],
+    "published_at": "2026-10-23",
+    "visibility": "public",
+    "source_type": "official_rule_or_policy_selected"
+  },
+  {
+    "id": "NOV-US-FED",
+    "url": "https://www.govinfo.gov/content/pkg/FR-2026-09-29/html/2026-19860.htm",
+    "title": "Implementing the Federal Reserve Board's Responsibilities Under the GENIUS Act",
+    "publisher": "Federal Reserve / Federal Register",
+    "published_date": "2026-09-29",
+    "read_status": "selected_sections",
+    "read_scope": "Federal Register header/summary; accompanying September 24 press release in full.",
+    "summary": "Fed는 9월 24일 이행 및 신청 절차의 두 제안을 발표했고 본 건은 9월 29일 공고된 제안규칙이다. 준비자산, 자본, 위험관리, 수탁 및 은행의 허용 활동을 다룬다. OCC의 최종규칙과 같은 단계로 묶을 수 없다. 의견 마감은 2026-11-30이다.",
+    "used_for": "기관별 시행단계, 준비자산·자본 비용",
+    "limitations": [
+      "이행 공고의 전체 조문을 통독하지 않았다.",
+      "후속 최종규칙은 이번 검색에서 확인하지 못했다."
+    ],
+    "checked_at": "2026-11-02",
+    "topic_ids": [
+      "T-REGULATION",
+      "T-MONEY"
+    ],
+    "event_date": "2026-09-24",
+    "effective_date": null,
+    "related_urls": [
+      "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260924a.htm"
+    ],
+    "comment_deadline": "2026-11-30",
+    "published_at": "2026-09-29",
+    "visibility": "public",
+    "source_type": "official_rule_or_policy_selected"
+  },
+  {
+    "id": "NOV-US-FDIC",
+    "url": "https://www.govinfo.gov/content/pkg/FR-2026-04-10/html/2026-06974.htm",
+    "title": "GENIUS Act Requirements and Standards for FDIC-Supervised Permitted Payment Stablecoin Issuers and Insured Depository Institutions",
+    "publisher": "FDIC / Federal Register",
+    "published_date": "2026-04-10",
+    "read_status": "selected_sections",
+    "read_scope": "Federal Register header, summary; redemption lines1554–1563/5075–5079; reserve-deposit insurance lines3183–3238; tokenized deposits lines3278–3404. OCC October23 cross-reference lines3277–3291 and8417–8424.",
+    "summary": "FDIC의 4월 10일 제안규칙 본문을 확인했다. 준비자산·환매·자본·위험관리 및 수탁을 다루고, 준비자산 예금을 스테이블코인 보유자에게 pass-through 보험으로 보호하지 않는 안을 제시한다. 토큰화 예금은 은행의 예금부채로 별도 분석한다. OCC 10월 23일 최종규칙도 이 FDIC 보험 제안이 아직 최종화되지 않았다고 명시한다.",
+    "used_for": "FDIC 제안 단계와 예금/스테이블코인 구별",
+    "limitations": [
+      "FDIC 웹페이지 403 이후 Federal Register/Govinfo 원문으로 대체했다. 전체 46쪽을 통독하지 않았다.",
+      "OCC 10월 23일 공고의 미최종화 서술은 그 작성 시점의 근거다. 이후 11월 2일까지 최종규칙 부재를 완전 증명하지는 않는다."
+    ],
+    "checked_at": "2026-11-02",
+    "topic_ids": [
+      "T-REGULATION",
+      "T-MONEY"
+    ],
+    "effective_date": null,
+    "event_date": "2026-04-07",
+    "comment_deadline": "2026-06-09",
+    "related_urls": [
+      "https://www.fdic.gov/news/press-releases/2026/fdic-approves-proposal-implement-genius-act-requirements-and-standards",
+      "https://www.govinfo.gov/content/pkg/FR-2026-10-23/html/2026-21706.htm"
+    ],
+    "published_at": "2026-04-10",
+    "visibility": "public",
+    "source_type": "official_rule_or_policy_selected"
+  },
+  {
+    "id": "NOV-US-TREASURY",
+    "url": "https://www.govinfo.gov/content/pkg/FR-2026-09-30/html/2026-19966.htm",
+    "title": "Forms and Procedures for Review of State Certifications by the Stablecoin Certification Review Committee",
+    "publisher": "U.S. Treasury / Federal Register",
+    "published_date": "2026-09-30",
+    "read_status": "selected_sections",
+    "read_scope": "Header, action, summary and dates, lines 15–46.",
+    "summary": "주 감독기관 인증을 심사하는 절차·양식의 interim final rule이며 9월 30일 효력이 발생했다. 그러나 정보수집의 PRA 승인을 받기 전에는 인증을 접수하지 않고 접수 시점은 별도 공지한다. 의견 마감은 11월 30일이다.",
+    "used_for": "규칙 효력과 실제 접수 개시의 차이",
+    "limitations": [
+      "준비자산·해외 발행자·AML/제재 등 Treasury 전체 이행의 완결을 입증하지 않는다.",
+      "후속 PRA 승인·접수 공지는 확인하지 않았다."
+    ],
+    "checked_at": "2026-11-02",
+    "topic_ids": [
+      "T-REGULATION",
+      "T-MONEY"
+    ],
+    "effective_date": "2026-09-30",
+    "comment_deadline": "2026-11-30",
+    "published_at": "2026-09-30",
+    "visibility": "public",
+    "source_type": "official_rule_or_policy_selected"
+  },
+  {
+    "id": "NOV-US-CLARITY",
+    "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00234.htm",
+    "title": "U.S. Senate Roll Call Vote 234, 119th Congress, 2nd Session",
+    "publisher": "U.S. Senate",
+    "published_date": "2026-09-15",
+    "read_status": "selected_sections",
+    "read_scope": "Vote summary and roll-call result. Root에서 표결 질문·날짜·결과·49:50 재확인.",
+    "summary": "H.R.3633에 대한 심의 개시 동의의 토론종결(cloture) 표결이 49 찬성, 50 반대, 1 불참으로 부결됐다. 이는 본안의 최종 통과·최종 폐기를 뜻하지 않는다.",
+    "used_for": "시장구조 법안의 입법 장벽",
+    "limitations": [
+      "Congress.gov는 도구에서 접근 차단됐다.",
+      "이 표결 이후 11월 2일까지의 모든 입법행동을 완전 열거하지 않았다. 법률 성립은 확인하지 못했다."
+    ],
+    "checked_at": "2026-11-02",
+    "topic_ids": [
+      "T-REGULATION",
+      "T-MONEY"
+    ],
+    "event_date": "2026-09-15",
+    "effective_date": null,
+    "published_at": "2026-09-15",
+    "visibility": "public",
+    "source_type": "official_rule_or_policy_selected"
+  },
+  {
+    "id": "NOV-EU-MICA-SCOPE",
+    "url": "https://www.esma.europa.eu/publications-and-data/interactive-single-rulebook/mica/article-2-scope",
+    "title": "MiCA Article 2 — Scope",
+    "publisher": "ESMA",
+    "published_date": null,
+    "read_status": "selected_sections",
+    "read_scope": "Article 2(4) excluded instruments and 2(5) classification guidelines.",
+    "summary": "MiCA는 금융상품, 예금 등을 적용 범위에서 제외한다. 따라서 증권이나 예금이 토큰으로 표현됐다는 사실만으로 MiCA의 허용·유통 규칙이 적용된다고 볼 수 없다.",
+    "used_for": "RWA 증권·토큰화 예금과 일반 암호자산의 법적 분리",
+    "limitations": [
+      "ESMA의 공식 조문 재현을 읽었다. EUR-Lex 원문은 자동 접근 확인 화면으로 제한됐다.",
+      "국가별 증권법·은행법 및 개별 상품 분류는 별도 검토 필요."
+    ],
+    "checked_at": "2026-11-02",
+    "topic_ids": [
+      "T-REGULATION",
+      "T-MONEY"
+    ],
+    "event_date": "2023-05-31",
+    "published_at": null,
+    "visibility": "public",
+    "source_type": "official_rule_or_policy_selected"
+  },
+  {
+    "id": "NOV-EU-MICA-TRANSITION",
+    "url": "https://www.esma.europa.eu/sites/default/files/2026-04/ESMA75-113276571-1679_Statement_on_the_end_of_transitional_periods_under_MiCA.pdf",
+    "title": "Statement on the End of Transitional Periods under MiCA",
+    "publisher": "ESMA",
+    "published_date": "2026-04-17",
+    "read_status": "selected_sections",
+    "read_scope": "Statement text, transition deadline, orderly wind-down/client-migration expectations; not a firm-by-firm register audit.",
+    "summary": "EU 전역의 MiCA 전환기간은 2026-07-01 종료된다. ESMA는 무인가 제공업체의 영업 종료, 고객 이전과 정리 계획을 요구한다. 규제 허용은 시장 접근 기회와 동시에 부적격 업체의 퇴출·전환 비용을 만든다.",
+    "used_for": "MiCA 시행·집행 단계 및 유통권",
+    "limitations": [
+      "특정 회사의 인가 여부는 이 문서로 확인할 수 없다.",
+      "법정 적용 제외·기존 금융기관의 별도 경로를 무시하고 모든 사업자에게 동일한 신규면허 절차가 필요하다고 단정하지 않는다."
+    ],
+    "checked_at": "2026-11-02",
+    "topic_ids": [
+      "T-REGULATION",
+      "T-MONEY"
+    ],
+    "event_date": "2026-07-01",
+    "related_urls": [
+      "https://www.esma.europa.eu/esmas-activities/digital-finance-and-innovation/markets-crypto-assets-regulation-mica"
+    ],
+    "published_at": "2026-04-17",
+    "visibility": "public",
+    "source_type": "official_rule_or_policy_selected"
+  },
+  {
+    "id": "NOV-EU-MARKET-PACKAGE",
+    "url": "https://finance.ec.europa.eu/publications/market-integration-and-supervision-package_en",
+    "title": "Market integration and supervision package",
+    "publisher": "European Commission / DG FISMA",
+    "published_date": "2025-12-04",
+    "read_status": "selected_sections",
+    "read_scope": "Official overview and list of legislative proposals, including Master Regulation/Directive and Settlement Finality Regulation.",
+    "summary": "Commission이 제안한 시장통합·감독 패키지는 기존 MiCA 시행과 다른 후속 입법 흐름이다. 결제완결성 규정 등 입법 제안이 포함된다. 제안 채택은 EU 공동입법자의 최종 법률 채택과 같지 않다.",
+    "used_for": "현재 시행 체계와 후속 법률 제안의 분리",
+    "limitations": [
+      "DLT Pilot 세부 개정 조문 및 11월 2일까지의 전체 협상 경과는 통독하지 않았다.",
+      "후속 최종 법령 채택을 확인하지 못했으므로 시행 완료로 표시하지 않는다."
+    ],
+    "checked_at": "2026-11-02",
+    "topic_ids": [
+      "T-REGULATION",
+      "T-MONEY"
+    ],
+    "effective_date": null,
+    "published_at": "2025-12-04",
+    "visibility": "public",
+    "source_type": "official_rule_or_policy_selected"
+  },
+  {
+    "id": "NOV-UK-FCA",
+    "url": "https://www.fca.org.uk/publication/policy/ps26-10.pdf",
+    "title": "PS26/10: Stablecoin issuance",
+    "publisher": "Financial Conduct Authority",
+    "published_date": "2026-06-30",
+    "read_status": "selected_sections",
+    "read_scope": "Chapters 1–3 selected passages; Appendix commencement at pp62 and97; CASS16 backing-assets/income clauses at pp101–103; not all 158 pages. Root에서 Summary와 Appendix의 Commencement(페이지63/98) 재확인.",
+    "summary": "FCA의 스테이블코인 발행 최종규칙·지침이다. 부속 규칙의 발효일은 2027-10-25이다. 준비자산 보호, 발행·환매, 제3자 위탁 책임 등을 다룬다. 보유기간에 연계한 이자·소득은 제한하고 일정 조건의 비보유기간형 혜택은 구분한다.",
+    "used_for": "영국 최종규칙과 미래 발효일, 고객 자산 보호",
+    "limitations": [
+      "BoE 시스템 중요 발행자 규칙의 최종화와 구별한다.",
+      "신규 FCA 인가의 실제 승인·개별 상품 출시는 확인하지 않았다."
+    ],
+    "checked_at": "2026-11-02",
+    "topic_ids": [
+      "T-REGULATION",
+      "T-MONEY"
+    ],
+    "effective_date": "2027-10-25",
+    "related_urls": [
+      "https://www.fca.org.uk/publications/policy-statements/cryptoasset-regime"
+    ],
+    "published_at": "2026-06-30",
+    "visibility": "public",
+    "source_type": "official_rule_or_policy_selected"
+  },
+  {
+    "id": "NOV-UK-BOE",
+    "url": "https://www.bankofengland.co.uk/paper/2026/ps/sterling-denominated-systemic-stablecoins",
+    "title": "Sterling-denominated systemic stablecoins",
+    "publisher": "Bank of England",
+    "published_date": "2026-06-22",
+    "read_status": "selected_sections",
+    "read_scope": "Overview; Table A; backing-asset calibration; issuance guardrail; redemption; section3.3 timeline.",
+    "summary": "정책 입장과 draft Code 협의안이다. 2025년안에서 무이자 중앙은행 준비자산 최소 비중을 40%에서 30%로 낮추고, 개인·기업별 보유한도 대신 상품당 £40bn의 임시 발행 한도를 제시했다. 완전한 환매 요청 뒤 가능한 신속히, 늦어도 24시간 내 처리를 요구하는 방향이다. 최종 Code는 2026년 말까지 마련할 의도다.",
+    "used_for": "사업성 대 유동성·은행 자금조달 안정의 절충",
+    "limitations": [
+      "정책 방향은 확정됐더라도 Code는 초안이다. 연말 최종화는 계획이지 완료 사실이 아니다.",
+      "시스템 중요 발행자 및 별도 전환 경로의 조건을 일반 비시스템 발행자에 적용하면 안 된다."
+    ],
+    "checked_at": "2026-11-02",
+    "topic_ids": [
+      "T-REGULATION",
+      "T-MONEY"
+    ],
+    "effective_date": null,
+    "published_at": "2026-06-22",
+    "visibility": "public",
+    "source_type": "official_rule_or_policy_selected"
+  },
+  {
+    "id": "NOV-UK-JOINT",
+    "url": "https://www.bankofengland.co.uk/paper/2026/boe-and-fcas-approach-to-joint-regulation-of-systemic-stablecoin-issuers",
+    "title": "Bank of England and Financial Conduct Authority’s approach to joint regulation of systemic stablecoin issuers",
+    "publisher": "Bank of England / FCA",
+    "published_date": "2026-06-30",
+    "read_status": "selected_sections",
+    "read_scope": "Introduction; jurisdiction table; transition and recognition sections; footnotes9,13,14.",
+    "summary": "FCA와 BoE가 시스템 중요 스테이블코인 발행자를 공동 감독하는 방식과 전환을 설명한다. FCA의 확대된 발행 규제 범위는 2027-10-25부터 적용된다. HMT의 시스템 중요성 인정은 별도 사건이며 자본·준비자산 요건으로 이동하는 절차가 필요하다.",
+    "used_for": "기관 역할·인정·인가·전환을 분리",
+    "limitations": [
+      "기준을 충족했다는 실제 특정 발행자의 인정·승인 사례가 아니다.",
+      "전환 유예나 step-up을 모든 발행자에게 일반화하지 않는다."
+    ],
+    "checked_at": "2026-11-02",
+    "topic_ids": [
+      "T-REGULATION",
+      "T-MONEY"
+    ],
+    "effective_date": "2027-10-25",
+    "published_at": "2026-06-30",
+    "visibility": "public",
+    "source_type": "official_rule_or_policy_selected"
+  },
+  {
+    "accessed_at": "2026-11-02",
+    "visibility": "public",
+    "evidence_type": "official_primary",
+    "public_safe_reuse": true,
+    "id": "NOV-M01",
+    "title": "통화정책방향(2026.10.22)",
+    "publisher": "한국은행 금융통화위원회",
+    "url": "https://www.bok.or.kr/portal/bbs/P0000559/view.do?depth=200690&menuNo=200690&nttId=11065823&oldMenuNo=201150&programType=newsData&relate=Y",
+    "publication_date": "2026-10-22",
+    "decision_date": "2026-10-22",
+    "reference_period": "정책결정 10/22; 물가 2026-09; 전망 2026·2027",
+    "read_scope": "공식 HTML 통화정책방향 본문 전체와 의결 결과. 첨부 참고자료·기자간담회 미독.",
+    "summary": "기준금리 동결. 수출·투자 호조와 물가압력을 확인하고 추가 인상 시기·속도를 점검. 원/달러 하락과 수도권 주택가격 상승 확대를 함께 기술.",
+    "used_for": [
+      "한국 정책금리",
+      "성장·물가 전망의 방향",
+      "환율·금융안정"
+    ],
+    "limitations": [
+      "전망치 3.3·2.9는 8월의 과거 전망이며 10월 새 수치가 아니다.",
+      "환율의 평가기간 중 방향만 확인했고 현재 환율 수치는 확인하지 않았다.",
+      "9월 CPI 수치는 한국은행이 인용한 실적이다. 통계청 세부 원표를 별도로 읽지 않았다."
+    ],
+    "published_at": "2026-10-22",
+    "checked_at": "2026-11-02",
+    "read_status": "full_text",
+    "topic_ids": [
+      "T-MACRO",
+      "T-FUNDING"
+    ],
+    "source_type": "official_policy_statistics_or_research"
+  },
+  {
+    "accessed_at": "2026-11-02",
+    "visibility": "public",
+    "evidence_type": "official_primary",
+    "public_safe_reuse": true,
+    "id": "NOV-M02",
+    "title": "2026년 3/4분기 실질 국내총생산(속보)",
+    "publisher": "한국은행",
+    "url": "https://www.bok.or.kr/portal/bbs/B0000501/view.do?depth=201264&menuNo=201264&nttId=11065944&programType=newsData&relate=Y",
+    "publication_date": "2026-10-27",
+    "reference_period": "2026년 3분기",
+    "read_scope": "공식 보도자료 HTML 요약의 GDP·GDI 증감률. 첨부 PDF는 CDN 접근 오류로 미독.",
+    "summary": "실질 GDP 전기비 1.0%, 전년동기비 3.4%; GDI 전기비 3.4%, 전년동기비 18.8%.",
+    "used_for": [
+      "성장 실적과 전망의 분리"
+    ],
+    "limitations": [
+      "속보치로 수정 가능.",
+      "전기비를 연율로 바꾸지 않았다.",
+      "지출·산업별 기여도와 계절조정 설명은 첨부 미독으로 미확인."
+    ],
+    "published_at": "2026-10-27",
+    "checked_at": "2026-11-02",
+    "read_status": "official_summary",
+    "topic_ids": [
+      "T-MACRO",
+      "T-FUNDING"
+    ],
+    "source_type": "official_policy_statistics_or_research"
+  },
+  {
+    "accessed_at": "2026-11-02",
+    "visibility": "public",
+    "evidence_type": "official_primary",
+    "public_safe_reuse": true,
+    "id": "NOV-M03",
+    "title": "2026년 9월 금융기관 가중평균금리",
+    "publisher": "한국은행",
+    "url": "https://www.bok.or.kr/portal/bbs/B0000501/view.do?depth=201264&menuNo=201264&nttId=11066053&programType=newsData&relate=Y",
+    "publication_date": "2026-10-29",
+    "reference_period": "2026-09 신규취급액 및 2026-09 말 잔액",
+    "read_scope": "공식 HTML 요약의 신규·잔액 수신 및 대출 금리. 첨부표 미독.",
+    "summary": "예금은행 신규 저축성수신·대출금리와 잔액 총수신·총대출금리가 전월보다 상승.",
+    "used_for": [
+      "예금 조달비와 고객 현금상품 비교의 거시 배경"
+    ],
+    "limitations": [
+      "은행 전체의 평균이며 특정 은행 원가·NIM이 아니다.",
+      "신규 저축성수신과 잔액 총수신은 모집단과 가중 기준이 다르다.",
+      "예대금리 차이를 순이익이나 토큰화 이익으로 쓰지 않는다."
+    ],
+    "published_at": "2026-10-29",
+    "checked_at": "2026-11-02",
+    "read_status": "official_summary",
+    "topic_ids": [
+      "T-MACRO",
+      "T-FUNDING"
+    ],
+    "source_type": "official_policy_statistics_or_research"
+  },
+  {
+    "accessed_at": "2026-11-02",
+    "visibility": "public",
+    "evidence_type": "official_primary",
+    "public_safe_reuse": true,
+    "id": "NOV-M04",
+    "title": "Federal Reserve issues FOMC statement",
+    "publisher": "Board of Governors of the Federal Reserve System / FOMC",
+    "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
+    "publication_date": "2026-10-28",
+    "publication_time": "14:00 EDT",
+    "decision_date": "2026-10-28",
+    "reference_period": "2026-10-27~28 FOMC",
+    "read_scope": "공식 HTML 성명 본문·표결 전체. 기자회견·회의록 미독.",
+    "summary": "목표범위 동결, 경기 확장과 높은 물가를 평가. 반대 2인은 25bp 인상을 선호.",
+    "used_for": [
+      "미국 정책금리와 물가 압력"
+    ],
+    "limitations": [
+      "금리 범위는 미 국채·MMF·스테이블코인 준비자산 실제 수익률이 아니다.",
+      "10월 성명은 새로운 SEP 전망표가 아니다.",
+      "11월 이후 자료와 아직 공개되지 않은 10월 회의록은 사용하지 않았다."
+    ],
+    "published_at": "2026-10-28",
+    "checked_at": "2026-11-02",
+    "read_status": "full_text",
+    "topic_ids": [
+      "T-MACRO",
+      "T-FUNDING"
+    ],
+    "source_type": "official_policy_statistics_or_research"
+  },
+  {
+    "accessed_at": "2026-11-02",
+    "visibility": "public",
+    "evidence_type": "official_primary",
+    "public_safe_reuse": true,
+    "id": "NOV-M05",
+    "title": "World Economic Outlook, October 2026: Resilience Under Strain, Urgent Choices — Executive Summary",
+    "publisher": "International Monetary Fund",
+    "url": "https://www.imf.org/-/media/files/publications/weo/2026/october/english/execsum.pdf",
+    "landing_url": "https://www.imf.org/en/Publications/WEO/Issues/2026/10/13/world-economic-outlook-october-2026",
+    "publication_date": "2026-10-13",
+    "data_cutoff": "2026-10-01 (landing page: Chapter 1 and Online Statistical Appendix)",
+    "reference_period": "2026·2027 연간 전망",
+    "read_scope": "공식 소개 페이지 및 Executive Summary PDF 2쪽(xiii–xiv) 전체. 국가별 표·전체 보고서 미독.",
+    "summary": "세계 성장·물가 전망과 기술경기·에너지 충격의 비대칭을 설명. AI 수익성 재평가와 지정학·재정 위험을 하방 요인으로 제시.",
+    "used_for": [
+      "글로벌 성장·물가 전망",
+      "상반된 거시 시나리오"
+    ],
+    "limitations": [
+      "2026 수치도 연간 전망이지 연간 확정 실적이 아니다.",
+      "한국·미국 국가별 전망은 읽지 않아 비워두었다.",
+      "10/1 정보기준 전망을 11/2 관측 실적으로 쓰지 않는다."
+    ],
+    "published_at": "2026-10-13",
+    "checked_at": "2026-11-02",
+    "read_status": "selected_sections",
+    "topic_ids": [
+      "T-MACRO",
+      "T-FUNDING"
+    ],
+    "source_type": "official_policy_statistics_or_research"
+  },
+  {
+    "accessed_at": "2026-11-02",
+    "visibility": "public",
+    "evidence_type": "official_primary",
+    "public_safe_reuse": true,
+    "id": "NOV-M06",
+    "title": "Global Financial Stability Report, October 2026: Resilience, Risk, and Transformation — Executive Summary",
+    "publisher": "International Monetary Fund",
+    "url": "https://www.imf.org/-/media/files/publications/gfsr/2026/october/english/execsum.pdf",
+    "landing_url": "https://www.imf.org/en/Publications/GFSR/Issues/2026/10/13/global-financial-stability-report-october-2026",
+    "publication_date": "2026-10-13",
+    "reference_period": "2026-10 보고서의 당시 평가",
+    "read_scope": "공식 소개 페이지 및 Executive Summary PDF 2쪽(ix–x) 전체. Chapter 1 스트레스테스트 계산·원자료 미검증.",
+    "summary": "금융여건은 전반적으로 완화적이나 안정성 위험은 높다. AI 관련 가격조정, 국채금리 급등, 사이버 충격과 비은행 유동성 취약성을 지적.",
+    "used_for": [
+      "정책금리와 금융여건의 구분",
+      "유동성·담보·신용위험 시나리오"
+    ],
+    "limitations": [
+      "글로벌 평가로 특정 한국 은행·보험사의 취약성을 증명하지 않는다.",
+      "스트레스 시나리오는 이미 발생한 손실이 아니다.",
+      "정확한 전체 자료 마감일 미확인."
+    ],
+    "published_at": "2026-10-13",
+    "checked_at": "2026-11-02",
+    "read_status": "selected_sections",
+    "topic_ids": [
+      "T-MACRO",
+      "T-FUNDING"
+    ],
+    "source_type": "official_policy_statistics_or_research"
+  },
+  {
+    "accessed_at": "2026-11-02",
+    "visibility": "public",
+    "evidence_type": "official_primary",
+    "public_safe_reuse": true,
+    "id": "NOV-M07",
+    "title": "GFSR October 2026, Chapter 3: Scaling Tokenization: New Efficiencies, New Vulnerabilities",
+    "publisher": "International Monetary Fund",
+    "url": "https://www.imf.org/-/media/files/publications/gfsr/2026/october/english/ch3.pdf",
+    "landing_url": "https://www.imf.org/en/Publications/GFSR/Issues/2026/10/13/global-financial-stability-report-october-2026",
+    "publication_date": "2026-10-13",
+    "reference_period": "2026-10 분석; 실증 표본기간 미독",
+    "read_scope": "PDF 인쇄쪽43–45의 요약·소개, 53쪽 위험체계 일부, 57–59쪽 도입경로·정책 일부. 총28쪽 전문 독해 아님.",
+    "summary": "토큰화 시장은 작고 분절되어 있다. 법적 확실성·규제 명확성·상호운용성·결제자산이 제약. 토큰화 주식의 초기 관측을 모든 RWA에 일반화할 수 없다.",
+    "used_for": [
+      "토큰화 효과와 전통위험 분리",
+      "담보·결제·분절 검증 항목"
+    ],
+    "limitations": [
+      "도구의 PDF 메타 제목은 April 2026 Chapter 2로 잘못 표시됐으나 PDF 본문 표제와 페이지 헤더는 October 2026 Chapter 3이다.",
+      "실증 방법·표본·부록 미독, 회귀 재현 없음.",
+      "스테이블코인은 결제자산 역할 외에는 이 장의 주분석 범위에서 제외."
+    ],
+    "published_at": "2026-10-13",
+    "checked_at": "2026-11-02",
+    "read_status": "selected_sections",
+    "topic_ids": [
+      "T-MACRO",
+      "T-MARKET",
+      "T-SETTLEMENT"
+    ],
+    "source_type": "official_policy_statistics_or_research"
+  },
+  {
+    "accessed_at": "2026-11-02",
+    "visibility": "public",
+    "evidence_type": "official_primary",
+    "public_safe_reuse": true,
+    "id": "NOV-M08",
+    "title": "[제2026-22호] 달러 스테이블코인과 외환시장 간 연계성: 글로벌 거래소의 역할을 중심으로",
+    "publisher": "한국은행",
+    "url": "https://www.bok.or.kr/portal/bbs/P0002353/view.do?depth=200433&menuNo=200433&nttId=11064416&programType=newsData&relate=Y",
+    "publication_date": "2026-09-03",
+    "reference_period": "연구 표본기간 미확인; 발표 2026-09-03",
+    "read_scope": "공식 HTML 요약 4문단 전체. 첨부 PDF는 CDN 접근 오류로 미독.",
+    "summary": "글로벌 중개자의 양 시장 접근 여부에 따라 스테이블코인 가격 통합과 환율 충격 전달이 달라진다는 연구. 원화 결과는 연구 당시 거래구조에 한정.",
+    "used_for": [
+      "외환 연결의 시장구조 조건",
+      "원화 프리미엄과 환율의 구분"
+    ],
+    "limitations": [
+      "연구진의 결과를 기관의 확정 정책결정으로 표시하지 않는다.",
+      "수치·표본기간·인과식별 세부를 읽지 않아 효과크기나 확정 인과를 주장하지 않는다.",
+      "바이낸스의 원화 지원 여부를 11/2 현재 별도 확인하지 않았다.",
+      "모든 스테이블코인 수요가 항상 원화 절하를 유발한다는 근거가 아니다."
+    ],
+    "published_at": "2026-09-03",
+    "checked_at": "2026-11-02",
+    "read_status": "official_summary",
+    "topic_ids": [
+      "T-MACRO",
+      "T-FUNDING"
+    ],
+    "source_type": "official_policy_statistics_or_research"
+  },
+  {
+    "id": "NOV-ECB-BONDS",
+    "title": "Tokenised bonds: assessing efficiency and liquidity in a nascent market",
+    "publisher": "European Central Bank",
+    "url": "https://www.ecb.europa.eu/press/financial-stability-publications/macroprudential-bulletin/html/ecb.mpbu202604_03.en.html",
+    "published_at": null,
+    "publication_month": "2026-04",
+    "checked_at": "2026-11-02",
+    "visibility": "public",
+    "read_status": "selected_sections",
+    "read_scope": "HTML 요약, §2~5, Box 1·2 방법/강건성, Chart 2 표본 주석 및 Table 1. 연결된 외부 논문·원자료 재현은 미실행.",
+    "source_type": "central_bank_research",
+    "summary": "ECB 연구는 유럽 중심의 소표본에서 낮은 발행 스프레드와 매수·매도 호가 차이를 관측했지만, 인수 수수료 감소는 확인하지 못했다. 발행비용 비교와 유동성 비교는 서로 다른 매칭 표본이다.",
+    "used_for": "토큰화의 기술 가능성과 실측 편익을 구분하고, 고객 조달비·운영비·시장 거래비를 각각 검증한다. 긍정적 편익 가설도 남기되 인과효과를 전체 RWA 시장에 일반화하지 않는다.",
+    "limitations": "2026년 4월 발행이지만 분석 데이터는 주로 2025년까지다. 41개 토큰채권·546개 일반채권의 초기 분석 표본과 최종 매칭 표본은 다르다. 발행 스프레드 비교 23/49개, 인수 수수료 토큰채권 22개, 유동성 비교 20/75개. 일부 공변량 균형·대체 벤치마크 유의성 한계가 있다. 인수 수수료는 전체 운영원가가 아니다. 정확한 발행 일자는 미확인.",
+    "topic_ids": [
+      "T-MARKET",
+      "T-RIGHTS",
+      "T-OPERATIONS"
+    ]
+  },
+  {
+    "id": "NOV-FATF",
+    "title": "Outcomes FATF Plenary, 28–30 October 2026",
+    "publisher": "Financial Action Task Force",
+    "url": "https://www.fatf-gafi.org/en/publications/Fatfgeneral/outcomes-fatf-plenary-october-2026.html",
+    "published_at": "2026-10-30",
+    "checked_at": "2026-11-02",
+    "visibility": "public",
+    "read_status": "selected_sections",
+    "read_scope": "총회 결과 도입부 및 Accelerating global implementation of the FATF Standards on the virtual asset sector 절. 세부 후속평가 문서·2027년 결과는 읽지 않음.",
+    "source_type": "international_standard_setter_statement",
+    "summary": "FATF는 가상자산 활동이 중요한 관할의 기준 이행을 촉진하는 표적 검토와 신속 후속조치에 합의했다. 결과 공개는 2027년 6월과 10월로 예고했다.",
+    "used_for": "제도화와 AML/CFT·제재 관련 통제 강화가 동시에 진행될 수 있다는 조건부 전망. 관할·상대방별 고객확인, 추적·예외처리 비용과 진입 제한을 사업 모델에 반영한다.",
+    "limitations": "국제기준 이행 점검 방향이다. 이 발표만으로 한국의 새 법적 의무·발효일·개별 거래 제한이 생겼다고 판단하지 않는다. 아직 나오지 않은 2027년 평가 결과는 미확인.",
+    "topic_ids": [
+      "T-REGULATION",
+      "T-OPERATIONS",
+      "T-SETTLEMENT"
+    ]
+  },
+  {
+    "id": "NOV-ECB-COLLATERAL",
+    "title": "ECB paves way for acceptance of DLT-based assets as eligible Eurosystem collateral",
+    "publisher": "European Central Bank",
+    "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.pr260127_1~a946167ce1.en.html",
+    "published_at": "2026-01-27",
+    "effective_at": "2026-03-30",
+    "checked_at": "2026-11-02",
+    "visibility": "public",
+    "read_status": "full_text",
+    "read_scope": "보도자료 본문 전체. 연결된 적격 자산 안내의 Eligibility criteria·assessment procedure도 별도 NOV-ECB-ELIGIBILITY로 확인.",
+    "source_type": "central_bank_policy_announcement",
+    "summary": "유로시스템은 2026-03-30부터 DLT 서비스를 쓰는 CSD에서 발행한 적격 시장성 자산을 신용공여 담보로 수용한다고 발표했다. 적격 증권결제시스템·T2S 접근과 기존 담보 기준이 적용된다. 이 범위 밖 DLT 네트워크 자산 확대는 탐색 단계다.",
+    "used_for": "이미 결정·적용일이 도래한 제한적 수용과 아직 결정되지 않은 순수 DLT 확대를 분리한다. 기술명보다 자산 적격성·결제 접근·법적 권리의 결합이 사업 기회를 결정한다.",
+    "limitations": "정책 발표와 현행 안내 확인이다. 특정 ISIN의 적격 등록·담보 동원 실적은 확인하지 않았다. 모든 RWA·스테이블코인·MMF가 담보로 인정되는 것은 아니며 한국의 중앙은행·K-ICS 규정에 직접 적용되지 않는다.",
+    "topic_ids": [
+      "T-COLLATERAL",
+      "T-REGULATION",
+      "T-SETTLEMENT"
+    ]
+  },
+  {
+    "id": "NOV-ECB-ELIGIBILITY",
+    "title": "Marketable assets — Eligibility criteria and assessment procedure",
+    "publisher": "European Central Bank",
+    "url": "https://www.ecb.europa.eu/mopo/coll/standards/marketable/html/index.en.html",
+    "published_at": null,
+    "checked_at": "2026-11-02",
+    "visibility": "public",
+    "read_status": "selected_sections",
+    "read_scope": "Eligibility criteria 표와 Eligibility assessment procedure. 개별 시장·발행기관 명단 전체 및 연결 법령 전문은 미검토.",
+    "source_type": "current_policy_guidance",
+    "summary": "유로시스템 시장성 담보는 신용·발행·보관·결제 기준을 충족해야 한다. 발행 후 필요한 문서가 준비되면 NCB가 평가하며, 적격성 확인 전 개별 자산을 미리 승인하지 않는다.",
+    "used_for": "토큰 기술이나 발행 발표만으로 담보 적격성이 생긴다고 추론하지 않고 개별 자산 심사·명단을 관측 대상으로 둔다.",
+    "limitations": "동적 안내 페이지의 선택 절이다. 각 자산의 최종 적격 여부·법령 전체·자산별 haircut은 확인하지 않았다.",
+    "topic_ids": [
+      "T-COLLATERAL",
+      "T-REGULATION"
     ]
   }
 ]

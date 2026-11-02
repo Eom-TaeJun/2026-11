@@ -1,0 +1,91 @@
+{
+  "as_of": "2026-11-02",
+  "horizon": "6–24 months",
+  "probabilities": null,
+  "mutually_exclusive": false,
+  "hypotheses": [
+    {
+      "id": "C-030",
+      "kind": "hypothesis",
+      "status": "active",
+      "text": "제도 시행과 개별 인가가 진행돼도 기존 계좌·수탁과의 이중 운영이 남아 B2B 권리관리·대사·현금 연결이 먼저 필요해질 수 있다.",
+      "source_ids": [
+        "FIN-008",
+        "FIN-009",
+        "FIN-015"
+      ],
+      "topic_ids": [
+        "T-REGULATION",
+        "T-OPERATIONS",
+        "T-SETTLEMENT"
+      ],
+      "limitations": "향후 6~24개월 작업 가설이며 확률과 매출 추정은 없다.",
+      "as_of": "2026-11-02",
+      "alternative": "기존 시스템이 추가 보수 없이 흡수하거나 반복 수요가 부족할 수 있다.",
+      "next_observation": "서비스 개시 후 최초 두 번의 비교 가능한 공시·운영 집계에서 유료 재사용·총비용 확인. 재사용 없이 비용만 지속되면 확대 보류; 미공개는 유보."
+    },
+    {
+      "id": "C-031",
+      "kind": "hypothesis",
+      "status": "active",
+      "text": "권리·담보 적격성·환매·은행현금 공급·상호운용성이 함께 충족되면 기관 담보와 기업 자금관리의 통합 서비스 기회가 커질 수 있다.",
+      "source_ids": [
+        "FIN-004",
+        "FIN-016",
+        "NOV-ECB-COLLATERAL"
+      ],
+      "topic_ids": [
+        "T-COLLATERAL",
+        "T-SETTLEMENT",
+        "T-FUNDING"
+      ],
+      "limitations": "각 조건은 개별 법인·통화·계약별 확인이 필요하다.",
+      "as_of": "2026-11-02",
+      "alternative": "즉시 총액결제가 상계를 대체해 선자금 수요를 높이고 통합·복구비가 편익을 상쇄할 수 있다.",
+      "next_observation": "동일 조건 시험·실제 스트레스에서 은행현금 기한과 총원가를 비교. 개선 없으면 해당 사용례의 우위를 낮춘다. 시험은 실전 성과와 구분."
+    },
+    {
+      "id": "C-032",
+      "kind": "hypothesis",
+      "status": "active",
+      "text": "비은행 진입 확대와 소수 플랫폼의 고객 계약·주문흐름 통제가 함께 나타나면 토큰화가 성장해도 기존 금융기관의 실효 보수가 줄 수 있다.",
+      "source_ids": [
+        "NOV-US-OCC",
+        "NOV-KR-004",
+        "FIN-002"
+      ],
+      "topic_ids": [
+        "T-FUNDING",
+        "T-MARKET",
+        "T-COMPANIES"
+      ],
+      "limitations": "실측 경쟁 구조나 기업별 수익을 확인한 것이 아니다.",
+      "as_of": "2026-11-02",
+      "alternative": "낮은 전환비용과 플랫폼 간 경쟁은 고객에게 절감을 이전하거나 기존 금융기관이 고객관계를 유지하게 할 수 있다.",
+      "next_observation": "비교 가능한 재계약·공시에서 계약 주체, 실효 보수, 유통 배분 확인. 기존 기관 보수 유지·고객 귀속이면 플랫폼 이익집중 가설을 낮춘다."
+    },
+    {
+      "id": "C-033",
+      "kind": "hypothesis",
+      "status": "active",
+      "text": "입법·인가 지연과 관할별 통제 차이 또는 금융 충격이 결합하면 온체인 시장이 분절되고 전용 인프라의 투자 회수가 늦어질 수 있다.",
+      "source_ids": [
+        "NOV-US-CLARITY",
+        "NOV-FATF",
+        "NOV-M06",
+        "NOV-KR-009"
+      ],
+      "topic_ids": [
+        "T-REGULATION",
+        "T-MACRO",
+        "T-OPERATIONS"
+      ],
+      "limitations": "시나리오는 공존 가능하며 미관측만으로 성립 또는 기각하지 않는다.",
+      "as_of": "2026-11-02",
+      "alternative": "규제 확정과 상호운용성·안정적 환매가 검증되면 반복 유료 수요가 늘 수 있다.",
+      "next_observation": "공식 결정 후 인가·현금 기한·반복 유료 사용을 확인. 세 조건이 함께 검증되면 지연·분절 판단을 완화하고 제한적 확대를 검토한다."
+    }
+  ],
+  "review_rule": "개별 허용·개시 후 최초 두 번의 비교 가능한 정기 공시/운영 집계. 관측 전·미공개는 반증이 아니다. 두 회는 연구 의사결정 규칙이며 통계적 유의성 기준이 아니다.",
+  "report": "../reports/04_november_outlook.md"
+}

@@ -1,0 +1,582 @@
+{
+  "as_of": "2026-11-02",
+  "timezone": "Asia/Seoul",
+  "method": "도입 평가는 숫자 확률이 아니라 공식 단계·남은 절차·비용과 반대 경로로 판단한다. confidence는 확인 근거의 확실성이며 법 통과 확률이 아니다.",
+  "rules": [
+    {
+      "id": "KR-STO-LAW",
+      "topic": "토큰증권 법률 기반",
+      "source_ids": [
+        "NOV-KR-001",
+        "FIN-008"
+      ],
+      "status": "공포·시행 대기",
+      "status_as_of": "2026-11-02",
+      "confidence": {
+        "level": "높음",
+        "basis": "국가법령정보센터 시행일·법률번호와 금융위 하위법규 보도자료 교차확인. 조문 전문 미독."
+      },
+      "facts": [
+        "전자증권법 법률 제21318호는 2026-02-03 공포, 2027-02-04 시행으로 표시된다.",
+        "금융위는 전자증권법·자본시장법 시행 준비를 위한 하위법규 예고를 진행한다."
+      ],
+      "adoption_assessment": "법률상 일정의 확정성은 스테이블코인 발행체계보다 높다. 다만 시행일 도래와 개별 사업자의 인가·기술 준비·판매 및 수익 발생은 별개의 관문이다.",
+      "decision_makers": [
+        {
+          "actor": "금융위원회·관계기관",
+          "role": "하위법규와 인가·운영체계 마련"
+        },
+        {
+          "actor": "법제처·국무회의 등",
+          "role": "보도자료에 명시된 하위법령 심사·의결 절차"
+        }
+      ],
+      "blockers": [
+        "하위법규 확정",
+        "전자등록·계좌관리·유통 인프라 준비",
+        "개별 사업자의 적법한 역할·인가·고객 확보"
+      ],
+      "next_observations": [
+        "2026-11-11 예고 종료 뒤 수정안과 금융위 의결",
+        "공포된 시행령·규정의 시행일 및 부칙",
+        "개별 인가·전자등록기관 운영기준·실제 발행 공시"
+      ],
+      "scenarios": [
+        {
+          "condition": "규정 확정과 인가·시스템 준비가 완료되고 발행자가 지속 비용을 부담",
+          "opportunity": "증권의 권리등록·계좌관리·공시·유통 지원",
+          "risk": "거래량이 작으면 시스템·준법·유동성 비용을 회수하지 못함"
+        },
+        {
+          "condition": "초안 수정·인가 또는 시스템 준비가 지연",
+          "opportunity": "기존 전자증권과 호환하는 준비·검증 업무",
+          "risk": "시행 기대만으로 구축비를 선집행하면 매몰비용 증가"
+        }
+      ]
+    },
+    {
+      "id": "KR-STO-DRAFT",
+      "topic": "토큰증권 하위법규 세부 요건",
+      "source_ids": [
+        "FIN-008"
+      ],
+      "status": "입법예고 중인 초안",
+      "status_as_of": "2026-11-02",
+      "confidence": {
+        "level": "높음",
+        "basis": "예고기간·초안 항목은 보도자료에서 직접 확인. 조문별 해석은 미확인."
+      },
+      "facts": [
+        "예고기간은 2026-10-02~2026-11-11이다.",
+        "초안 발행인계좌관리기관 자본은 40억원, 전문인력은 계좌관리 1명·내부통제 1명·전산 2명이다.",
+        "초안 개인투자자 장외거래소 연간 순매수 한도는 1억원이다.",
+        "해당 숫자들은 확정 법규로 기록해서는 안 된다."
+      ],
+      "adoption_assessment": "모법 시행을 위한 구체화가 진행되고 있다. 공개된 완화 의견을 검토한다고 한 만큼 최종 요건은 예고안과 달라질 수 있다.",
+      "decision_makers": [
+        {
+          "actor": "금융위원회",
+          "role": "의견 수렴과 최종안 마련·의결"
+        },
+        {
+          "actor": "발행·계좌관리·유통 참여자",
+          "role": "의견 제출 및 사업 참여 여부 결정"
+        }
+      ],
+      "blockers": [
+        "자본·인력·원장구성·투자한도 등 의견수렴",
+        "법령심사·의결"
+      ],
+      "next_observations": [
+        "최종안 대비표",
+        "발행인계좌관리기관 등록·장외거래소 인가 공고"
+      ],
+      "scenarios": [
+        {
+          "condition": "요건이 높은 수준으로 확정",
+          "opportunity": "기존 금융기관 인프라를 제공하는 공동 구축·위탁",
+          "risk": "신규 진입자 고정비 상승과 경쟁 제한"
+        },
+        {
+          "condition": "요건이 완화되면서 보호장치가 보완",
+          "opportunity": "신규 발행자·사업모델의 진입 폭 확대",
+          "risk": "운영위험·고객보호 부담의 이전 가능성"
+        }
+      ]
+    },
+    {
+      "id": "KR-DIGITAL-ACT",
+      "topic": "디지털자산기본법·2단계법",
+      "source_ids": [
+        "NOV-KR-003",
+        "NOV-KR-004",
+        "NOV-KR-005",
+        "NOV-KR-009"
+      ],
+      "status": "정부 검토·조정 공식 확인; 11월 2일 국회 전체 의안 최종상태 확인 불완전",
+      "status_as_of": "2026-11-02",
+      "confidence": {
+        "level": "제한적",
+        "basis": "1월·3월·8월 공식 설명은 직접 읽음. 국회·법제처 의안 상세 접근이 실패하여 최신 심사·정부안 제출 여부는 완결적으로 확인하지 못함. 후속 조사에서 9월 8일 국회예산정책처 보도자료를 직접 확인했다. 10~11월 공식 의안 처리상태 공백은 남는다."
+      },
+      "facts": [
+        "3월 가상자산위원회에서 정부 검토안이 논의됐다.",
+        "8월 27일 금융위는 정부안을 마련하기 위해 논의 중이라고 설명했다.",
+        "거래소 대주주 지분 상한은 8월 설명 기준 미확정이었다.",
+        "9월 8일 국회예산정책처 보도자료도 국내 가상자산 2단계 입법을 논의 중이라고 설명했다."
+      ],
+      "unknowns": [
+        "11월 2일 기준 모든 관련 법안의 접수·병합·위원회 심사 현황",
+        "정부 제출 또는 의원발의 형태의 조정안 제출 여부",
+        "최종 제정 조문·공포·시행일"
+      ],
+      "adoption_assessment": "공식 정책 추진은 확인되지만 이번 확인 범위로 제정 시점 또는 특정 조항의 채택을 확정할 수 없다. 기획에서는 입법·시행 전제 사업을 조건부로 두고, 신규 권한이 이미 생겼다고 가정하지 않는다.",
+      "decision_makers": [
+        {
+          "actor": "금융위원회·관계부처·기관·가상자산위원회",
+          "role": "정부 검토안 협의·의견수렴; 위원별 찬반은 미확인"
+        },
+        {
+          "actor": "국회 정무위원회·국회",
+          "role": "관련 의안 심사·입법 의결; 최신 처리상태 미확인"
+        },
+        {
+          "actor": "한국은행",
+          "role": "금융안정·지급결제 관련 정책 의견 제시; 단독 입법 결정권자로 취급하지 않음"
+        }
+      ],
+      "blockers": [
+        "발행주체·사업자 진입·거래소 지배구조·내부통제·사고책임 등 쟁점의 조정",
+        "국회 심사 및 최종 법률·하위법규",
+        "확정 규정에 따른 인가·시스템 운영 준비"
+      ],
+      "next_observations": [
+        "국회 의안 원문·대안 및 정무위 심사보고서 재접근",
+        "공식 정부안 제출 안내",
+        "국회 의결·관보 공포·시행일",
+        "사업자별 인가 및 실제 약관"
+      ],
+      "scenarios": [
+        {
+          "condition": "포괄적 규율이 제정되고 시행·인가가 완료",
+          "opportunity": "공시·수탁·거래지원·준법·준비자산 관리의 적법한 역할 검토",
+          "risk": "자본·통제·배상 비용이 작은 사업자를 압박할 수 있음"
+        },
+        {
+          "condition": "쟁점 조정과 입법이 지연",
+          "opportunity": "현재 허용 범위의 검증·운영 개선",
+          "risk": "미래 인가·발행권을 전제로 한 사업 일정과 수익 추정이 무효화"
+        }
+      ]
+    },
+    {
+      "id": "KR-KRW-STABLECOIN",
+      "topic": "원화 스테이블코인 발행체계",
+      "source_ids": [
+        "NOV-KR-003",
+        "NOV-KR-004",
+        "NOV-KR-006"
+      ],
+      "status": "정책 설계 논의; 은행 중심 주장은 확정 법규로 확인되지 않음",
+      "status_as_of": "2026-11-02",
+      "confidence": {
+        "level": "중간·최신 법적 상태는 제한적",
+        "basis": "3월 은행 중심 발행안 논의와 한국은행 입장 확인. 11월 최종 조문 직접 확인 실패."
+      },
+      "facts": [
+        "은행 지분 50%+1 발행은 3월 회의의 논의 의제였다.",
+        "한국은행 3월 보고서는 은행 중심으로 시작해 점진적으로 확대하는 방안을 선호했다."
+      ],
+      "unknowns": [
+        "최종 발행자 범위·지분·자본·준비자산·상환·보상 및 감독권 요건",
+        "은행·비은행 개별 기관의 실제 발행 인가와 출시 여부"
+      ],
+      "adoption_assessment": "은행 중심·비은행 허용·도입 지연을 경쟁 시나리오로 유지한다. 은행 과반이나 비은행 직접 발행을 이미 확보된 권리로 가격·수익 모델에 넣지 않는다.",
+      "decision_makers": [
+        {
+          "actor": "한국은행",
+          "role": "은행 중심 단계적 확대라는 확인된 정책 입장"
+        },
+        {
+          "actor": "금융위원회·관계부처·국회",
+          "role": "제도 설계·입법과 향후 인가체계; 최종 합의는 미확인"
+        }
+      ],
+      "blockers": [
+        "발행자 적격성과 감독·금융안정 책임 조정",
+        "준비자산과 상환 가능성·고객권리·외환 및 자금세탁방지 체계",
+        "기존 간편결제·계좌이체 대비 고객 필요와 비용 우위"
+      ],
+      "next_observations": [
+        "발의·대안 조문에서 은행 지분요건 존재 여부",
+        "준비자산 분리·환매청구권·상환기한·발행자 부실 처리 규정",
+        "인가·약관·준비자산 공시·반복 결제·유통 수수료 계약"
+      ],
+      "scenarios": [
+        {
+          "condition": "은행 중심 컨소시엄 구조가 채택·시행",
+          "opportunity": "은행의 준비자산·상환·고객확인·기업결제 역할",
+          "risk": "컨소시엄 비용·유통사업자 수익배분 때문에 은행 몫이 작을 수 있음"
+        },
+        {
+          "condition": "비은행에도 직접 발행이 허용되고 상환·준비자산 요건 충족",
+          "opportunity": "플랫폼의 결제·유통과 금융기관의 수탁·상환 지원",
+          "risk": "은행 예금이 이탈하는 경우 조달비용 상승; 규모와 실제 자금흐름에 따라 달라짐"
+        },
+        {
+          "condition": "규정 지연 또는 고객 효용 부족",
+          "opportunity": "기존 예금·지급결제와 제한적 실증의 개선",
+          "risk": "발행 준비비만 발생하고 지급 의사·반복 사용이 확인되지 않음"
+        }
+      ]
+    },
+    {
+      "id": "KR-HANGANG",
+      "topic": "기관용 디지털화폐·예금토큰·프로젝트 한강",
+      "source_ids": [
+        "NOV-KR-007",
+        "SRC-BOK-HANGANG"
+      ],
+      "status": "한강 2단계 혁신금융서비스 지정·국고보조금 시범; 일반국민 후속 실거래는 10월 8일 기준 연내 재개 준비",
+      "status_as_of": "2026-11-02",
+      "confidence": {
+        "level": "높음(확인한 단계); 11월 실제 재개 여부 미확인",
+        "basis": "7월 금융위 지정 의결과 10월 한국은행 현재상태 직접 확인"
+      },
+      "facts": [
+        "경남은행·아이엠뱅크가 신규 지정됐다.",
+        "7개 기존 참가은행은 테스트 범위가 확대됐다.",
+        "기관용 디지털화폐는 은행만 보유한다.",
+        "예금토큰은 민간은행 예금의 성격이며 일반인용 중앙은행화폐와 구분된다."
+      ],
+      "adoption_assessment": "제한된 실거래·국고 업무 적용은 정책 구상보다 진전된 신호다. 다만 특례 실증의 확대를 영구 인가·범용 상용화·은행 매출로 연결할 수 없다.",
+      "decision_makers": [
+        {
+          "actor": "금융위원회",
+          "role": "혁신금융서비스 지정·변경"
+        },
+        {
+          "actor": "한국은행·관계기관·참가은행",
+          "role": "시스템·사업 설계·실증·운영"
+        },
+        {
+          "actor": "국고 집행 관련 부처와 사업 수행자",
+          "role": "적용 업무·지급 조건·정산 흐름의 수요자"
+        }
+      ],
+      "blockers": [
+        "실증 결과와 특례 이후 제도화",
+        "은행·가맹점·국고시스템 연결 비용",
+        "환불·오류·접근통제·감사 및 개인정보 운영",
+        "추가 수수료를 낼 고객과 기존 지급 방식 대비 순비용 우위"
+      ],
+      "next_observations": [
+        "일반국민 실거래 재개 공고·신청기간·실제 참가은행",
+        "경남은행 자체 공지·약관·서비스 개시",
+        "반복 사용·국고 집행 실적과 오류·환불 지표",
+        "상용화 계획과 특례 종료·연장·법령 정비"
+      ],
+      "scenarios": [
+        {
+          "condition": "조건부 지급·정산·감사에서 수작업 감소가 검증",
+          "opportunity": "국고·기업 자금관리·정산 지원",
+          "risk": "통합·사고·통제 비용을 뺀 순절감이 없으면 확장되지 않음"
+        },
+        {
+          "condition": "실증은 성공하나 유료 수요 또는 영구 제도화가 부족",
+          "opportunity": "운영 역량 축적",
+          "risk": "참가은행 사업성과를 실제 수익으로 과장할 위험"
+        }
+      ]
+    },
+    {
+      "id": "KR-RETAIL-CBDC",
+      "topic": "일반인용 CBDC",
+      "source_ids": [
+        "SRC-BOK-HANGANG"
+      ],
+      "status": "한국은행 2026-10-08 공식 설명상 현재 발행·도입 계획 없음",
+      "status_as_of": "2026-11-02",
+      "confidence": {
+        "level": "높음(공식 입장); 미래 결정은 미확정",
+        "basis": "공식 설명 원문"
+      },
+      "facts": [
+        "한국은행은 일반인용 CBDC 도입 계획이 없다고 설명했다.",
+        "한강 예금토큰 이용자를 중앙은행 예금 계정 보유자로 취급하면 안 된다."
+      ],
+      "adoption_assessment": "현재 연구의 기본 시나리오는 일반인용 CBDC 도입이 아니다. 향후 공식 정책 전환이 확인될 때 별도 가설로 갱신한다.",
+      "decision_makers": [
+        {
+          "actor": "한국은행·정부·국회 등",
+          "role": "향후 도입 정책 및 필요한 제도 논의; 현재 별도 확정 도입 절차는 이 자료에서 확인하지 못함"
+        }
+      ],
+      "blockers": [
+        "공식 도입정책 부재",
+        "필요성·제도·운영 방식에 대한 후속 결정"
+      ],
+      "next_observations": [
+        "한국은행의 정책 변경 공표",
+        "관련 법안·제도 설계·사회적 논의"
+      ],
+      "scenarios": [
+        {
+          "condition": "현 입장 유지",
+          "opportunity": "기관용 결제·민간은행 예금토큰 연구에 집중",
+          "risk": "일반인용 CBDC 전환을 전제로 한 사업가정 오류"
+        },
+        {
+          "condition": "새로운 공식 도입 결정 또는 법안 등장",
+          "opportunity": "권리·중개기관·유동성 구조를 처음부터 재평가",
+          "risk": "현행 예금모형을 그대로 적용하는 오류"
+        }
+      ]
+    },
+    {
+      "id": "US_GENIUS",
+      "jurisdiction": "US",
+      "status": "law_enacted; OCC_final_future_effect; Fed_proposed; FDIC_proposal_and_October_cross_reference; Treasury_procedural_interim_final",
+      "source_ids": [
+        "NOV-US-OCC",
+        "NOV-US-FED",
+        "NOV-US-FDIC",
+        "NOV-US-TREASURY"
+      ],
+      "fact": "미국의 지급형 스테이블코인 법률은 성립했다. 그러나 기관별 이행 단계가 다르고, OCC 최종규칙의 효력은 2027-01-18이다. FDIC 4월 10일 제안을 본문으로 확인했고 OCC 10월 23일 문서도 해당 보험 제안의 미최종화를 명시한다.",
+      "remaining_gates": [
+        "기관별 최종화·적용일·신청/접수 공지",
+        "발행자 인가, 준비자산·자본·유동성 충족",
+        "별도 AML/제재 규칙 및 실제 영업 절차"
+      ],
+      "not_proven": [
+        "모든 미국 기관 규칙 완료",
+        "모든 제3자 보상 허용 또는 금지",
+        "어느 기업의 인가·매출 확보"
+      ],
+      "adoption_assessment": "법률·OCC 최종규칙으로 경로의 구체성은 높아졌다. 실제 도입은 관할과 비용에 따라 분기하며 아직 일괄 즉시 운영 단계는 아니다."
+    },
+    {
+      "id": "US_MARKET_STRUCTURE",
+      "jurisdiction": "US",
+      "status": "cloture_motion_to_proceed_rejected; enactment_not_verified",
+      "source_ids": [
+        "NOV-US-CLARITY"
+      ],
+      "fact": "9월 15일 상원 H.R.3633 심의 개시 관련 cloture가 49:50으로 부결됐다.",
+      "remaining_gates": [
+        "상원 절차 진행과 본안 표결",
+        "필요한 양원 문안 조정·대통령 서명",
+        "후속 감독기관 규칙"
+      ],
+      "not_proven": [
+        "법률 성립",
+        "영구 폐기",
+        "스테이블코인 규정이 모든 토큰 증권·거래에 자동 적용"
+      ],
+      "adoption_assessment": "성립을 기본 전제로 사업 수익을 계산하기 어렵다. 반면 절차 표결 한 번으로 장기 경로를 기각하지 않는다."
+    },
+    {
+      "id": "EU_CURRENT_AND_FOLLOWON",
+      "jurisdiction": "EU",
+      "status": "MiCA_in_application; transition_expired; separate_follow_on_legislative_proposals",
+      "source_ids": [
+        "NOV-EU-MICA-SCOPE",
+        "NOV-EU-MICA-TRANSITION",
+        "NOV-EU-MARKET-PACKAGE"
+      ],
+      "fact": "MiCA가 적용 중이고 서비스 전환기간은 2026-07-01 종료됐다. 금융상품·예금은 MiCA 범위에서 제외되며 시장통합/결제완결성 후속 제안은 별도다.",
+      "remaining_gates": [
+        "개별 기관의 인가·적법한 유통권",
+        "상품의 법적 분류",
+        "후속 입법 협상·채택 및 시행"
+      ],
+      "not_proven": [
+        "MiCA가 모든 RWA 토큰을 허용",
+        "백서 등록이 감독당국 승인",
+        "후속 DLT/결제완결성 개정 시행완료"
+      ],
+      "adoption_assessment": "기존 법체계 안의 적법한 사업은 실행 문제로 이동했다. 범위 밖 상품이나 후속 개혁에 기대는 사업은 별도 법적 경로를 확인해야 한다."
+    },
+    {
+      "id": "UK_STABLECOIN",
+      "jurisdiction": "UK",
+      "status": "FCA_final_rules_future_effect; BoE_policy_and_draft_Code",
+      "source_ids": [
+        "NOV-UK-FCA",
+        "NOV-UK-BOE",
+        "NOV-UK-JOINT"
+      ],
+      "fact": "FCA 최종규칙은 2027-10-25 발효한다. BoE는 6월 정책 입장과 draft Code를 발표했고 연말 최종화를 계획한다.",
+      "remaining_gates": [
+        "FCA 인가 준비·승인 및 발효",
+        "BoE Code 최종화",
+        "HMT 시스템 중요성 인정과 공동 감독 전환",
+        "은행/중앙은행 계좌·환매 운영 연결"
+      ],
+      "not_proven": [
+        "영국 규칙 전체가 여전히 제안뿐",
+        "최종화 예정이 완료",
+        "30/70 준비자산 비율이 모든 발행자에 적용"
+      ],
+      "adoption_assessment": "FCA 경로는 최종 규칙으로 구체화됐지만 시행 전이다. 시스템 중요성 확대는 규모의 경제와 추가 자본·무이자 준비자산 비용을 함께 만든다."
+    },
+    {
+      "id": "UK_TOKENIZED_COLLATERAL",
+      "jurisdiction": "UK",
+      "status": "consultation",
+      "source_ids": [
+        "FIN-016"
+      ],
+      "fact": "10월 29일 CCP 토큰화 담보 감독 기대의 협의가 시작됐고 2027-02-12 마감이다.",
+      "remaining_gates": [
+        "최종 감독 방침",
+        "기존 자산 적격성 및 개별 CCP 승인/선택",
+        "법적 권리·수탁·결제완결성·부도시 실현 가능성",
+        "신규 담보 유형은 별도 규칙 변경/면제·승인"
+      ],
+      "not_proven": [
+        "스테이블코인·토큰화 MMF의 보편적 CCP 담보 허용",
+        "헤어컷 인하",
+        "자본요건 자동 완화"
+      ],
+      "adoption_assessment": "기존 적격 자산의 토큰화가 신규 자산 전체 허용보다 제도상 가까운 경로다. 실제 채택은 담보를 부도 상황에서 처분할 수 있는지에 달려 있다."
+    },
+    {
+      "id": "EU-ECB-COLLATERAL",
+      "topic": "유로시스템 DLT 담보",
+      "source_ids": [
+        "NOV-ECB-COLLATERAL",
+        "NOV-ECB-ELIGIBILITY"
+      ],
+      "status": "조건부 수용 결정·적용일 2026-03-30; 범위 확대 탐색",
+      "adoption_assessment": "기존 CSD·적격 결제망 경로가 더 구체적이다. 개별 자산 명단·담보 동원은 미확인.",
+      "remaining_gates": [
+        "개별 발행 후 적격성 평가",
+        "범위 밖 순수 DLT 자산의 별도 정책 결정"
+      ]
+    },
+    {
+      "id": "GLOBAL-FATF",
+      "topic": "가상자산 국제기준 이행",
+      "source_ids": [
+        "NOV-FATF"
+      ],
+      "status": "표적 검토·신속 후속조치 합의",
+      "adoption_assessment": "국가별 집행 강화와 통제비용 증가 가능성을 관측한다. 국내 새 법률 효력과 동일시하지 않는다.",
+      "next_observations": [
+        "2027년 6월·10월 예정 결과 및 각국 후속 조치"
+      ]
+    }
+  ],
+  "access_gaps": [
+    {
+      "url": "https://likms.assembly.go.kr/bill/bi/billDetailPage.do?billId=PRC_T2R5S0Q6P0P5X0Y9W1W1V3V0U7C4C1",
+      "reason": "HTTP 400; 의안 2210736 후보의 공식 상세 미독",
+      "impact": "의안별 현재 단계·조문을 공식 원문 확인 사실로 포함하지 않음"
+    },
+    {
+      "url": "https://likms.assembly.go.kr/bill/bi/billDetailPage.do?billId=PRC_M2L6L0J2L0G9H0F9F4E8C5D5K3M3K1",
+      "reason": "도구 접근 불가. 기존 billDetail.do 경로도 접근 실패",
+      "impact": "2026-10-29 발의 의안 후보는 공식 확인한 sources에 포함하지 않음"
+    },
+    {
+      "url": "https://opinion.lawmaking.go.kr/gcom/nsmLmSts/out/2210736/detailRP",
+      "reason": "본문 대신 이동 버튼만 반환",
+      "impact": "검색 요약의 위원회 상태를 읽은 원문으로 세지 않음"
+    },
+    {
+      "url": "https://opinion.lawmaking.go.kr/gcom/nsmLmSts/out/2222314/detailRP",
+      "reason": "UnexpectedStatusCode",
+      "impact": "신규 의안 공식 상태 확인 공백"
+    },
+    {
+      "url": "https://opinion.lawmaking.go.kr/gcom/nsmLmSts/out?blockStartPage=521&pageIndex=522",
+      "reason": "검색에 목록 정보가 노출되지만 open은 이동 버튼만 반환",
+      "impact": "정식 evidence count에서 제외"
+    },
+    {
+      "url": "https://www.fsc.go.kr/no010102/87600?curPage=3&srchBeginDt=&srchCtgry=&srchEndDt=&srchKey=&srchText=",
+      "reason": "쿼리 포함 URL 접근 실패; 쿼리 없는 원문은 성공",
+      "impact": "KOR-005 canonical URL로 읽음"
+    },
+    {
+      "url": "https://nabo.go.kr/board/file/down.do?fid=33319519",
+      "reason": "HTTP 400; content length too large (11717781 bytes)",
+      "impact": "9월 보고서 PDF 전문은 읽지 않고 공식 보도자료 본문으로 범위를 한정"
+    }
+  ],
+  "coverage_limits": [
+    "공식 원문 9개이며 전체 법률·보고서 전문 9개를 읽었다는 뜻이 아니다.",
+    "STO 법령의 조문·부칙 전문과 개별 sandbox 지정 부가조건은 미독이다.",
+    "국회 시스템 실패로 디지털자산법의 2026-11-02 최신 전체 의안·최종 상태를 완결적으로 확인하지 못했다. '미제정 확정'보다는 '제정·시행 확인 근거 미확보, 최신 의안 재확인 필요'로 표현한다.",
+    "일반국민 대상 한강 2단계 실거래 실제 재개 여부는 10월 8일 이후 공백이다.",
+    "산업 채택·수익은 규제 단계보다 별도의 조건이며 수치 확률을 부여하지 않았다.",
+    "정해진 핵심 범위의 조사이며 모든 후속 행정·입법 행동의 완전한 법률실사는 아니다.",
+    "FDIC 웹페이지는 403이었으나 Federal Register/Govinfo 본문을 대체 확인했다. EUR-Lex 직접 원문은 로봇 확인 화면; ESMA 공식 조문으로 범위 확인.",
+    "OCC BSA/AML/OFAC 별도 이행, Treasury 해외발행/제공·판매 규칙 전체, FDIC 이후 최종규칙, CLARITY 표결 이후 전체 입법행동은 추가 확인 필요.",
+    "EBA MiCA review 최신 페이지가 검색됐으나 직접 403·정확한 날짜 미확보로 주요 근거에서 제외.",
+    "부모 agent가 조사한 FATF 10월 통제 강화, ECB/DTCC/BIS 인프라 자료는 중복 수록하지 않음.",
+    "미국·EU·영국 규칙을 한국 인가·원화지급·외환·보험/은행/증권 규제에 자동 전이하지 않음. 국내 별도 gate 필요.",
+    "금리 인하 추세를 전제하지 않았고 준비자산 수익과 자금조달·고객 기회비용을 대칭으로 다룸."
+  ],
+  "stage_warning": "법률 성립·규칙 확정·효력·개별 인가·반복 사용·순이익은 서로 다른 사건이다.",
+  "events": [
+    {
+      "date": "2026-11-11",
+      "type": "consultation_deadline",
+      "event": "한국 토큰증권 하위법규 예고 종료 예정",
+      "source_ids": [
+        "FIN-008"
+      ],
+      "next_decision": "의견 반영 최종안·심사·의결 확인"
+    },
+    {
+      "date": "2026-11-30",
+      "type": "consultation_deadline",
+      "event": "Fed GENIUS 이행 제안·Treasury 주 인증 절차 의견 마감",
+      "source_ids": [
+        "NOV-US-FED",
+        "NOV-US-TREASURY"
+      ],
+      "next_decision": "의견 반영·최종화 및 별도 접수 공고 확인"
+    },
+    {
+      "date": "2027-01-18",
+      "type": "scheduled_effective_date",
+      "event": "OCC 최종규칙 효력 예정",
+      "source_ids": [
+        "NOV-US-OCC"
+      ],
+      "next_decision": "접수·인가·유예·기관별 범위 확인"
+    },
+    {
+      "date": "2027-02-04",
+      "type": "scheduled_effective_date",
+      "event": "한국 토큰증권 법률 시행 예정",
+      "source_ids": [
+        "FIN-008",
+        "NOV-KR-001"
+      ],
+      "next_decision": "확정 하위규정·개별 허용·인프라 준비 확인"
+    },
+    {
+      "date": "2027-02-12",
+      "type": "consultation_deadline",
+      "event": "BoE 토큰 담보 감독 기대 협의 마감",
+      "source_ids": [
+        "FIN-016"
+      ],
+      "next_decision": "최종 감독 방침·개별 CCP 수용 기준 확인"
+    },
+    {
+      "date": "2027-10-25",
+      "type": "scheduled_effective_date",
+      "event": "FCA 스테이블코인 발행 규칙 발효 예정",
+      "source_ids": [
+        "NOV-UK-FCA"
+      ],
+      "next_decision": "개별 인가·시스템 중요성 및 공동감독 조건 확인"
+    }
+  ]
+}

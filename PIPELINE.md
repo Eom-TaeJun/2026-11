@@ -48,4 +48,6 @@ python scripts/ai_stars.py refresh --output snapshots/stars-YYYY-MM-DD.json
 
 ## 6. 결과를 저장한다
 
+현재 환경의 수치·시행 단계·전망을 갱신할 때는 `data/macro_observations.json`, `data/regulatory_watch.json`, `data/scenarios.json`도 해당 source ID에 연결한다. 정책결정·실적·전망, 규칙의 효력일·개별 인가일을 구분한다. 이 보조 원장의 참조·날짜는 실행 기록의 추가 검사로 확인하며, 기본 `validate`가 모든 경제·법적 의미를 자동 판정하는 것은 아니다.
+
 소스 카드·주제 위키·관계 데이터를 build로 갱신하고, 통합 분석과 다음 관측은 reports/에 쓴다. runs/에는 실제 실행한 에이전트·읽은 범위·완료한 확인·남은 공백을 기록한다. 현재 저장소에는 정기 수집·외부 메시지·거래 실행 일정이 없다. 이후 주기를 정할 경우 의미 있는 판단 변경만 알리고 중복·무변화는 조용히 처리한다.

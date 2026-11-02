@@ -1,0 +1,59 @@
+{
+  "as_of_kst": "2026-11-02",
+  "type": "macro_regulation_and_scenario_update",
+  "execution": "한국 법제, 국제 규제, 거시 금융여건을 3개 호스트 하위 에이전트로 병렬 조사. 총괄은 인프라·ECB 연구·FATF를 확인하고 병합. 후속 독립 검토 수행.",
+  "new_sources": 30,
+  "existing_source_records_rechecked_or_enriched": 6,
+  "new_source_reading": {
+    "body_selected_or_official_summary": 29,
+    "legal_header_metadata": 1
+  },
+  "current_totals": {
+    "sources": 64,
+    "finance_official_records": 49,
+    "finance_body_or_summary": 48,
+    "legal_header_metadata": 1,
+    "ai_projects": 12,
+    "prior_public_work": 3,
+    "claims": 35,
+    "topics": 11,
+    "regulatory_items": 13,
+    "macro_metrics": 20
+  },
+  "forecast_horizon": "6–24 months",
+  "numeric_adoption_probabilities": false,
+  "review_changes": [
+    "S3 추가조건: 플랫폼의 고객계약·주문흐름 통제. 낮은 전환비용이 고객에게 절감을 이전하는 반대 경로 보완.",
+    "S1~S4의 축소·보류 조건과 비교 시점을 추가. 미관측은 반증과 구분.",
+    "FDIC 검색 색인 근거를 대체 Federal Register 본문으로 교체.",
+    "국회예산정책처 9/8 자료로 확인시점을 갱신하되 11월 의안 공백 유지.",
+    "ECB 인수 수수료를 전체 원가로 오해하지 않도록 범위 명시.",
+    "ECB의 1/27 결정·발표와 3/30 적용일을 분리해 표의 날짜 표현 수정."
+  ],
+  "checks": {
+    "source_claim_topic_validation": "passed: 64 sources, 35 claims, 11 topics, local Markdown links",
+    "required_unit_checks": "passed: 9 tests; script implementation unchanged",
+    "auxiliary_source_references": "passed",
+    "publication_cutoff": "passed",
+    "remote_publication": "publication prepared; verify branch SHA and changed blobs after update"
+  },
+  "limitations": [
+    "한국 관련 의안의 11/2 전체 처리상태 미확인",
+    "CLARITY 9/15 이후 모든 입법행동 미확인",
+    "일부 후속 규칙·개별 인가·실제 서비스 개시 미확인",
+    "회사별 실제 고객·단위원가·재계약·조직·채용은 미확인",
+    "법령 헤더 메타데이터와 조문 본문 읽기를 구분",
+    "한국 보험·외환·회계·세무 전체 법규 검토 아님",
+    "경제 가설의 인과효과·수익성 검증 아님"
+  ],
+  "private_material_used_or_copied": false,
+  "scheduling_enabled": false,
+  "reports": [
+    "reports/04_november_outlook.md",
+    "reports/05_regulatory_tracker.md",
+    "reports/06_macro_evidence.md"
+  ],
+  "history_files": [
+    "history/20261102T052905948558Z-93fe739094.json"
+  ]
+}

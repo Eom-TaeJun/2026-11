@@ -1,14 +1,15 @@
 {
   "title": "금융환경 변화와 기업 신호 분석 에이전트 팀",
-  "version": "1.2",
+  "version": "1.3",
   "created_date": "2026-11-02",
   "artifact_type": "재사용 가능한 역할 및 작업 명세",
   "execution_status": {
     "scope": "저장소에 재사용 가능한 역할과 파이프라인 기록. 이번 환경 조사에 실제 하위 에이전트 사용.",
     "installed_runtime_configuration": false,
-    "target_company_research_started": false,
+    "target_company_research_started": true,
     "scheduled_monitoring_enabled": false,
-    "note": "현재 실행 근거는 runs/2026-11-02-initial.json. 역할 파일은 지속 실행 프로세스가 아니다."
+    "note": "최근 실행: runs/2026-11-02-outlook.json. 역할 파일은 지속 실행 프로세스가 아니다.",
+    "target_company_research_scope": "경남은행 예금토큰 시험 지정 한 건 확인. 세 후보의 현재 조직·직무·자원·반복 수익 비교는 미완료."
   },
   "mission": "금융환경 변화가 고객의 문제와 금융기관의 선택을 어떻게 바꾸는지 설명하고, 특정 기업의 실제 신호·기존 역량과 연결해 사용자에게 필요한 판단과 행동으로 수렴한다.",
   "research_brief": {
@@ -18,8 +19,8 @@
     "included_affiliates": [],
     "geography": "한국 금융권을 적용 대상으로 삼고, 관련 해외 변화는 국내 적용 조건을 구분해 조사한다.",
     "currency": null,
-    "observation_period": null,
-    "forecast_horizon": null,
+    "observation_period": "2026-11-02 KST까지 공개된 자료. 과거 자료의 원래 관측시점 보존.",
+    "forecast_horizon": "향후 6~24개월의 조건부 경로",
     "baseline_judgment": null,
     "priority_questions": [
       "변화가 고객의 어떤 문제와 금융기관의 어떤 기능을 바꾸는가?",

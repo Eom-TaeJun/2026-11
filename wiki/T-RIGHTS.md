@@ -24,6 +24,14 @@ SEC 직원 성명은 발행인 주도·제3자 수탁형·합성형 토큰증권
 
 다음 관측: 외부 고객의 반복 관리 계약과 예외 처리 포함 비용 후 기여
 
+### C-025 · fact · active
+
+MiCA의 범위 조문은 금융상품과 예금 등을 제외하며, ESMA는 CASP 전환기간의 최종 종료일을 2026-07-01로 안내했다.
+
+근거: [NOV-EU-MICA-SCOPE](../sources/cards/NOV-EU-MICA-SCOPE.md), [NOV-EU-MICA-TRANSITION](../sources/cards/NOV-EU-MICA-TRANSITION.md)
+
+한계: 토큰화 증권·예금이 MiCA에 의해 자동 허용된다는 뜻이 아니다. 개별 사업자의 인가는 별도 확인한다.
+
 ## 관련 원문
 
 - [FIN-002 · What Is Needed for Tokenization to Deliver](../sources/cards/FIN-002.md)
@@ -31,5 +39,6 @@ SEC 직원 성명은 발행인 주도·제3자 수탁형·합성형 토큰증권
 - [FIN-007 · 토큰증권 정책방향 발표- 민·관 합동 토큰증권 협의체 3차회의 개최](../sources/cards/FIN-007.md)
 - [FIN-011 · Statement on Tokenized Securities](../sources/cards/FIN-011.md)
 - [FIN-015 · DTCC Tokenization Service Goes Live, Marking Major Milestone in the Adoption of Digital Assets](../sources/cards/FIN-015.md)
+- [NOV-ECB-BONDS · Tokenised bonds: assessing efficiency and liquidity in a nascent market](../sources/cards/NOV-ECB-BONDS.md)
 
 [전체 주제 지도](INDEX.md)

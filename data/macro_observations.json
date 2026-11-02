@@ -1,0 +1,380 @@
+{
+  "as_of": "2026-11-02",
+  "timezone": "Asia/Seoul",
+  "scope": "공식 공개 거시 자료 8건. 전망·실적·정책결정 구분. 기업별 적용과 미래발표 제외.",
+  "core_source_count": 8,
+  "conclusions": [
+    {
+      "type": "interpretation",
+      "text": "현재 출발점은 성장의 기술부문 편중과 물가압력, 한·미 정책금리 동결 및 추가 인상 위험이다. 금리인하를 현재 사실로 전제하지 않는다.",
+      "sources": [
+        "NOV-M01",
+        "NOV-M04",
+        "NOV-M05"
+      ]
+    },
+    {
+      "type": "institution_assessment",
+      "text": "IMF는 전반적 금융여건을 완화적으로 평가하면서 금융안정 위험은 높다고 본다. 정책금리 수준, 시장금리, 금융여건지수와 신용공급은 별도로 관찰한다.",
+      "sources": [
+        "NOV-M06"
+      ]
+    },
+    {
+      "type": "hypothesis",
+      "text": "토큰화의 유효한 과제는 특정 고객의 대사·담보·결제·현금화 비용을 줄이는지 검증하는 것이다. 기초자산의 금리수익·신용·외환위험을 토큰화 효과로 계산하지 않는다.",
+      "sources": [
+        "NOV-M07",
+        "NOV-M08"
+      ]
+    }
+  ],
+  "metrics": [
+    {
+      "id": "K_POLICY",
+      "source": "NOV-M01",
+      "label": "한국은행 기준금리",
+      "value": 3,
+      "unit": "% p.a.",
+      "kind": "policy_decision",
+      "period": "2026-10-22부터 다음 결정까지",
+      "publication_date": "2026-10-22"
+    },
+    {
+      "id": "K_CPI",
+      "source": "NOV-M01",
+      "label": "소비자물가 상승률",
+      "value": 2.9,
+      "unit": "% yoy",
+      "kind": "reported_observation",
+      "period": "2026-09",
+      "publication_date": "2026-10-22"
+    },
+    {
+      "id": "K_CORE",
+      "source": "NOV-M01",
+      "label": "식료품·에너지 제외 근원물가",
+      "value": 2.8,
+      "unit": "% yoy",
+      "kind": "reported_observation",
+      "period": "2026-09",
+      "publication_date": "2026-10-22"
+    },
+    {
+      "id": "K_GDP26_OLD",
+      "source": "NOV-M01",
+      "label": "8월 성장률 전망을 10월 성명이 인용",
+      "value": 3.3,
+      "unit": "% annual",
+      "kind": "previous_forecast_not_current",
+      "period": "2026",
+      "publication_date": "2026-10-22",
+      "note": "10월 평가는 이 수치를 상당폭 상회; 새 숫자 미제시"
+    },
+    {
+      "id": "K_GDP27_OLD",
+      "source": "NOV-M01",
+      "label": "8월 성장률 전망을 10월 성명이 인용",
+      "value": 2.9,
+      "unit": "% annual",
+      "kind": "previous_forecast_not_current",
+      "period": "2027",
+      "publication_date": "2026-10-22",
+      "note": "10월 평가는 이 수치를 상당폭 상회; 새 숫자 미제시"
+    },
+    {
+      "id": "K_GDP26_NEW",
+      "source": "NOV-M01",
+      "label": "10월 한국 연간 성장 새 전망치",
+      "value": null,
+      "unit": "%",
+      "kind": "unknown",
+      "period": "2026",
+      "publication_date": "2026-10-22"
+    },
+    {
+      "id": "K_GDP27_NEW",
+      "source": "NOV-M01",
+      "label": "10월 한국 연간 성장 새 전망치",
+      "value": null,
+      "unit": "%",
+      "kind": "unknown",
+      "period": "2027",
+      "publication_date": "2026-10-22"
+    },
+    {
+      "id": "K_GDP_Q3_Q",
+      "source": "NOV-M02",
+      "label": "실질 GDP 전기비",
+      "value": 1,
+      "unit": "% qoq, nonannualized",
+      "kind": "advance_observation",
+      "period": "2026-Q3",
+      "publication_date": "2026-10-27"
+    },
+    {
+      "id": "K_GDP_Q3_Y",
+      "source": "NOV-M02",
+      "label": "실질 GDP 전년동기비",
+      "value": 3.4,
+      "unit": "% yoy",
+      "kind": "advance_observation",
+      "period": "2026-Q3",
+      "publication_date": "2026-10-27"
+    },
+    {
+      "id": "K_GDI_Q3_Q",
+      "source": "NOV-M02",
+      "label": "실질 GDI 전기비",
+      "value": 3.4,
+      "unit": "% qoq, nonannualized",
+      "kind": "advance_observation",
+      "period": "2026-Q3",
+      "publication_date": "2026-10-27"
+    },
+    {
+      "id": "K_GDI_Q3_Y",
+      "source": "NOV-M02",
+      "label": "실질 GDI 전년동기비",
+      "value": 18.8,
+      "unit": "% yoy",
+      "kind": "advance_observation",
+      "period": "2026-Q3",
+      "publication_date": "2026-10-27"
+    },
+    {
+      "id": "K_DEP_NEW",
+      "source": "NOV-M03",
+      "label": "예금은행 신규 저축성수신",
+      "value": 3.45,
+      "unit": "% p.a.",
+      "change_pp": 0.24,
+      "kind": "reported_observation",
+      "period": "2026-09",
+      "publication_date": "2026-10-29"
+    },
+    {
+      "id": "K_LOAN_NEW",
+      "source": "NOV-M03",
+      "label": "예금은행 신규 대출",
+      "value": 4.57,
+      "unit": "% p.a.",
+      "change_pp": 0.17,
+      "kind": "reported_observation",
+      "period": "2026-09",
+      "publication_date": "2026-10-29"
+    },
+    {
+      "id": "K_DEP_STOCK",
+      "source": "NOV-M03",
+      "label": "예금은행 잔액 총수신",
+      "value": 2.27,
+      "unit": "% p.a.",
+      "change_pp": 0.07,
+      "kind": "reported_observation",
+      "period": "2026-09 말",
+      "publication_date": "2026-10-29"
+    },
+    {
+      "id": "K_LOAN_STOCK",
+      "source": "NOV-M03",
+      "label": "예금은행 잔액 총대출",
+      "value": 4.48,
+      "unit": "% p.a.",
+      "change_pp": 0.08,
+      "kind": "reported_observation",
+      "period": "2026-09 말",
+      "publication_date": "2026-10-29"
+    },
+    {
+      "id": "US_POLICY",
+      "source": "NOV-M04",
+      "label": "Federal funds target range",
+      "value": [
+        3.75,
+        4
+      ],
+      "unit": "% p.a.",
+      "kind": "policy_decision",
+      "period": "2026-10-28 결정",
+      "publication_date": "2026-10-28"
+    },
+    {
+      "id": "WORLD_GDP26",
+      "source": "NOV-M05",
+      "label": "세계 실질 성장",
+      "value": 3.1,
+      "unit": "% annual",
+      "kind": "forecast",
+      "period": "2026",
+      "publication_date": "2026-10-13",
+      "data_cutoff": "2026-10-01"
+    },
+    {
+      "id": "WORLD_GDP27",
+      "source": "NOV-M05",
+      "label": "세계 실질 성장",
+      "value": 3.4,
+      "unit": "% annual",
+      "kind": "forecast",
+      "period": "2027",
+      "publication_date": "2026-10-13",
+      "data_cutoff": "2026-10-01"
+    },
+    {
+      "id": "WORLD_CPI26",
+      "source": "NOV-M05",
+      "label": "세계 headline 물가",
+      "value": 4.7,
+      "unit": "% annual",
+      "kind": "forecast",
+      "period": "2026",
+      "publication_date": "2026-10-13",
+      "data_cutoff": "2026-10-01"
+    },
+    {
+      "id": "WORLD_CPI27",
+      "source": "NOV-M05",
+      "label": "세계 headline 물가",
+      "value": 4.1,
+      "unit": "% annual",
+      "kind": "forecast",
+      "period": "2027",
+      "publication_date": "2026-10-13",
+      "data_cutoff": "2026-10-01"
+    }
+  ],
+  "transmission_hypotheses": [
+    {
+      "channel": "준비자산·금리",
+      "type": "conditional_mechanism",
+      "mechanism": "보유자산 수익률 상승은 준비자산 운용자의 총이자수익을 늘릴 수 있으나, 재투자 시차·운용잔액·비용·수익배분에 달린다.",
+      "guardrail": "정책금리를 국채수익률로 대입 금지. 스테이블코인 보유자에게 준비자산 이자가 귀속된다고 가정 금지.",
+      "needed": [
+        "실제 자산 구성·만기·실현 수익",
+        "고객 권리와 수익배분",
+        "수탁·준법·유동성 비용"
+      ]
+    },
+    {
+      "channel": "고객 유동성",
+      "type": "conditional_mechanism",
+      "mechanism": "고금리나 변동성은 유휴현금 비용과 지급 준비의 중요도를 높일 수 있다. 고객의 실제 부족·대기 시간을 확인해야 한다.",
+      "guardrail": "토큰 이전·매도·발행자 환매·사용 가능한 은행 입금을 각각 측정.",
+      "needed": [
+        "현금 도착 p50/p95",
+        "주말·휴일·차단 상황",
+        "할인매각·시장깊이·환매조건"
+      ]
+    },
+    {
+      "channel": "예금 조달",
+      "type": "conditional_mechanism",
+      "mechanism": "대체 현금상품으로 자금이 이동하면 특정 은행 조달비가 오를 수 있으나, 스테이블코인 준비금의 은행 재예치와 은행 간 재배분도 가능하다.",
+      "guardrail": "은행권 평균금리 상승을 토큰화발 예금유출의 인과 증거로 쓰지 않는다.",
+      "needed": [
+        "고객별 예금 잔액·이동경로",
+        "대체조달 비용",
+        "운영비 포함 은행별 순기여"
+      ]
+    },
+    {
+      "channel": "신용·담보·분절",
+      "type": "conditional_mechanism",
+      "mechanism": "대사·담보이동 자동화는 업무비를 줄일 여지가 있으나 즉시결제의 사전 현금조달과 담보 재사용은 유동성 수요·레버리지를 키울 수 있다.",
+      "guardrail": "권리 이전 기술은 발행자 부도확률이나 회수율 개선 자체가 아니다.",
+      "needed": [
+        "법적 권리·회수순위",
+        "담보 적격성·haircut",
+        "실제 재사용·마진콜",
+        "기존 방식 대비 총비용"
+      ]
+    },
+    {
+      "channel": "외환",
+      "type": "conditional_mechanism",
+      "mechanism": "양 시장 중개자의 차익거래·헤지 접근에 따라 현물환율과 토큰 프리미엄의 결합 정도가 달라질 수 있다.",
+      "guardrail": "원화 고객의 수익은 달러자산 수익률과 다르다. 환위험·헤지비·환전비를 분리.",
+      "needed": [
+        "원화 프리미엄과 현물환율",
+        "거래 참여자·연결 구조",
+        "순환매·외화현금 유입",
+        "헤지·환전 비용"
+      ]
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "H1",
+      "name": "성장과 물가 압력 지속",
+      "type": "conditional_scenario_not_prediction",
+      "conditions": "기술투자가 견조하고 물가압력이 남아 높은 정책금리·시장금리가 지속.",
+      "business_test": "현금상품 수익 매력과 은행 조달비가 함께 커질 때 수익권 귀속·총비용·현금전환 성능으로 비교.",
+      "falsification": "물가 둔화·수요 약화와 실제 금리 하락이 지속되면 높은 이자수익에 의존한 전제를 재작성. 비용 차감 후 기존 상품 대비 이점이 없으면 토큰화 사업성 주장은 기각."
+    },
+    {
+      "id": "H2",
+      "name": "에너지·재정 또는 AI 가격 충격",
+      "type": "conditional_scenario_not_prediction",
+      "conditions": "국채금리·신용스프레드·환율 변동과 담보 haircut이 확대되고 유동성이 악화.",
+      "business_test": "토큰시장이 스트레스를 흡수하는지, 은행현금 회수 지연과 강제매각을 증폭하는지 점검.",
+      "falsification": "충격 구간의 실제 현금도착·스프레드·강제매각 지표가 기존 구조보다 개선되지 않으면 유동성 개선 주장은 기각. 시장 충격 자체가 관측되지 않으면 스트레스 실적 개선으로 표현 금지."
+    },
+    {
+      "id": "H3",
+      "name": "물가 안정과 운영효율 경쟁",
+      "type": "conditional_scenario_not_prediction",
+      "conditions": "물가가 안정되고 금리가 낮아지며 성장·신용여건은 유지.",
+      "business_test": "준비자산 이자수익 의존을 낮추고 고객이 지불하는 결제·대사·담보 관리 가치가 비용을 넘는지 검사.",
+      "falsification": "법적 권리·현금출구가 불완전하거나 기존 API·자동화가 같은 효과를 더 싸게 내면 토큰화 채택 주장은 기각."
+    }
+  ],
+  "unknowns": [
+    "2026-11-02 현물 원/달러 환율·미국 단기국채 수익률·금융여건지수 수준",
+    "한국 10월 CPI와 10월 예금금리의 실제 값; 미래 발표를 추정하지 않음",
+    "개별 후보 기업의 예금 유출, 유동성 부족, 토큰화 투자금·수익·고객 수요",
+    "M08 전체 표본·식별 방법과 11/2 거래 지원 현황",
+    "IMF 국가별 전망표·토큰화 실증 재현"
+  ],
+  "checks_and_warnings": [
+    {
+      "severity": "do_not_assume",
+      "text": "금리 인하·저금리 국면을 현재 사실로 사용하면 M01·M04와 충돌. work/2026-11/reports 및 data/claims.json·sources.json에서 관련 문구 검색 시 직접 충돌 문장은 발견하지 못했다(전문 의미검증 아님)."
+    },
+    {
+      "severity": "scope",
+      "text": "8개 출처는 전문8권 독해를 의미하지 않는다. 짧은 성명1·정책본문1·공식요약3·IMF executive summary2·Chapter3 일부1이다."
+    },
+    {
+      "severity": "date_correction",
+      "text": "BOK 경제상황 평가10월은 공식 보도자료 등록일2026-10-22로 확인. 검색·홈 노출일10/23 또는10/26과 혼동 금지. 핵심 목록에는 중복으로 넣지 않음.",
+      "url": "https://www.bok.or.kr/portal/bbs/B0000502/view.do?depth=201265&menuNo=201265&nttId=11065832&programType=newsData&relate=Y"
+    },
+    {
+      "severity": "metadata",
+      "text": "M07 PDF 메타 제목과 본문 제목 불일치. 본문의 October2026·Chapter3 표제를 사용하되 메타 오류를 기록."
+    },
+    {
+      "severity": "access",
+      "text": "BOK GDP·경제상황 평가·이슈노트 첨부는 CDN 접근 오류. 수치를 임의 보완하지 않음. IMF .pdf.md는 도구가 지원하지 않아 PDF 본문으로 확인."
+    }
+  ],
+  "recheck_triggers": [
+    "새 BOK/FOMC 결정 및 전망 발표",
+    "정책금리와 실제 국채·예금 수익률의 괴리 확대",
+    "환율·헤지비·담보 haircut·환매 지연 급증",
+    "통계 속보치 개정",
+    "토큰화 참여자·정산자산·환매 약관 또는 시장연결 구조 변화"
+  ],
+  "source_ids": [
+    "NOV-M01",
+    "NOV-M02",
+    "NOV-M03",
+    "NOV-M04",
+    "NOV-M05",
+    "NOV-M06",
+    "NOV-M07",
+    "NOV-M08"
+  ],
+  "source_registry": "sources.json"
+}
