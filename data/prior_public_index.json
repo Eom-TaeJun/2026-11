@@ -1,0 +1,69 @@
+{
+  "checked_at": "2026-11-02",
+  "scope": "연결에서 접근 가능한 63개 저장소의 기본 브랜치 조사. 아래는 실제 읽은 공개 항목만. 비공개 저장소의 이름·경로·분석은 제외.",
+  "public_entries": [
+    {
+      "repository_full_name": "Eom-TaeJun/2026-10",
+      "path": "reports/digital-finance-institutional-response-2026-11-01.md",
+      "snapshot_commit": "5e4dd5143a57fda97f33151d0e284ba7f7b5576d",
+      "snapshot_commit_date_utc": "2026-11-01T12:25:05Z",
+      "blob_sha": "95c38421e0cc4621554e61ec23cb19cf9594d47d",
+      "immutable_file_url": "https://github.com/Eom-TaeJun/2026-10/blob/5e4dd5143a57fda97f33151d0e284ba7f7b5576d/reports/digital-finance-institutional-response-2026-11-01.md",
+      "read_extent": "selected_relevant_sections"
+    },
+    {
+      "repository_full_name": "Eom-TaeJun/2026-10",
+      "path": "kb/results/summary.md",
+      "snapshot_commit": "5e4dd5143a57fda97f33151d0e284ba7f7b5576d",
+      "snapshot_commit_date_utc": "2026-11-01T12:25:05Z",
+      "blob_sha": "ac9c3dc788f2f1a8dae31bad9643fb88ee019bed",
+      "immutable_file_url": "https://github.com/Eom-TaeJun/2026-10/blob/5e4dd5143a57fda97f33151d0e284ba7f7b5576d/kb/results/summary.md",
+      "read_extent": "body_reviewed"
+    },
+    {
+      "repository_full_name": "Eom-TaeJun/sto-ai-frontier",
+      "path": "docs/KYOBO_PROFIT_STRATEGY.md",
+      "snapshot_commit": "d64f570467204e2fdfa5be86ea456a501191b9f8",
+      "snapshot_commit_date_utc": "2026-10-17T13:43:41Z",
+      "blob_sha": "dad08f99a93d97e20c0be6add079ca254b78a4e5",
+      "immutable_file_url": "https://github.com/Eom-TaeJun/sto-ai-frontier/blob/d64f570467204e2fdfa5be86ea456a501191b9f8/docs/KYOBO_PROFIT_STRATEGY.md",
+      "read_extent": "body_reviewed"
+    },
+    {
+      "repository_full_name": "Eom-TaeJun/sto-ai-frontier",
+      "path": "reports/README.md",
+      "snapshot_commit": "d64f570467204e2fdfa5be86ea456a501191b9f8",
+      "snapshot_commit_date_utc": "2026-10-17T13:43:41Z",
+      "blob_sha": "341f9d41bf51f7ad5fb0be67efddf19fcce44653",
+      "immutable_file_url": "https://github.com/Eom-TaeJun/sto-ai-frontier/blob/d64f570467204e2fdfa5be86ea456a501191b9f8/reports/README.md",
+      "read_extent": "body_reviewed"
+    },
+    {
+      "repository_full_name": "Eom-TaeJun/sk",
+      "path": "README.md",
+      "snapshot_commit": "ec6b6c2d31f3615d3372ce43cffb36d80a18d0e5",
+      "snapshot_commit_date_utc": "2026-10-17T13:43:23Z",
+      "blob_sha": "e81879677db9944a481f5ef53307227602777f5a",
+      "immutable_file_url": "https://github.com/Eom-TaeJun/sk/blob/ec6b6c2d31f3615d3372ce43cffb36d80a18d0e5/README.md",
+      "read_extent": "body_reviewed"
+    },
+    {
+      "repository_full_name": "Eom-TaeJun/soil",
+      "path": "README.md",
+      "snapshot_commit": "266eab0b236b354f6d65272ade4bdd69a9f0bc03",
+      "snapshot_commit_date_utc": "2026-10-14T12:52:55Z",
+      "blob_sha": "fa2007bf47743bebf96f0d6610efd86096ee4b7e",
+      "immutable_file_url": "https://github.com/Eom-TaeJun/soil/blob/266eab0b236b354f6d65272ade4bdd69a9f0bc03/README.md",
+      "read_extent": "body_reviewed"
+    },
+    {
+      "repository_full_name": "Eom-TaeJun/tech-digest",
+      "path": "digest/2026-11-02.summary.md",
+      "snapshot_commit": "cedd4b56e4ecbd76489381a26e48fd04a7c15bd8",
+      "snapshot_commit_date_utc": "2026-11-02T02:59:21Z",
+      "blob_sha": "e92fac1e8dd392660d57c64de0dd5b6ed7fe3c67",
+      "immutable_file_url": "https://github.com/Eom-TaeJun/tech-digest/blob/cedd4b56e4ecbd76489381a26e48fd04a7c15bd8/digest/2026-11-02.summary.md",
+      "read_extent": "body_reviewed"
+    }
+  ]
+}

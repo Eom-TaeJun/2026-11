@@ -1,0 +1,1176 @@
+[
+  {
+    "id": "FIN-001",
+    "title": "Tokenized Finance",
+    "publisher": "IMF / Tobias Adrian",
+    "url": "https://www.imf.org/-/media/files/publications/imf-notes/2026/english/insea2026001.pdf",
+    "published_at": "2026-04-02",
+    "checked_at": "2026-11-02",
+    "visibility": "public",
+    "read_status": "selected_sections",
+    "source_type": "IMF Note 2026/001",
+    "read_scope": [
+      "PDF 인쇄 p.1 요약, p.2 Introduction, p.3 From Digitization to Tokenization 첫 부분",
+      "PDF 인쇄 p.11 Scenarios for the Future Financial Architecture 및 Policy Roadmap, p.12 마지막 문단",
+      "면책문: 저자의 견해이며 IMF 집행이사회 견해를 반드시 대표하지 않음"
+    ],
+    "summary": "토큰화는 결제·유동성·위험관리의 수행 장소와 통제 구조를 바꿀 수 있다는 연구다. 즉시·자동 실행은 대사 비용을 줄일 가능성과 함께 유동성 조달·개입 시간을 줄인다. 공적 결제자산 중심, 규제·플랫폼 파편화, 민간화폐 중심의 세 경로를 제시하며 법적 확실성·안전한 결제자산·상호운용성·국제 공조를 조건으로 둔다.",
+    "used_for": [
+      "저자 연구: 자동화·연속 결제는 위험을 없애기보다 인프라와 실시간 유동성 관리로 이전할 수 있다.",
+      "연구자 추론: 사업 검토에서 토큰 발행보다 유동성 공급·운영 복구·책임 구조를 함께 평가한다."
+    ],
+    "limitations": [
+      "실현 수익이나 특정 기업의 비용 절감 증거가 아니다.",
+      "본문 전체·부록·참고문헌은 정독하지 않았다."
+    ],
+    "topic_ids": [
+      "T-SETTLEMENT",
+      "T-COLLATERAL",
+      "T-OPERATIONS"
+    ],
+    "event_date": null,
+    "effective_date": null,
+    "effective_date_status": null,
+    "adoption_stage": "정책·구조 연구"
+  },
+  {
+    "id": "FIN-002",
+    "title": "What Is Needed for Tokenization to Deliver",
+    "publisher": "IMF Blog",
+    "url": "https://www.imf.org/en/blogs/articles/2026/10/08/blog-what-is-needed-for-tokenization-to-deliver",
+    "published_at": "2026-10-08",
+    "checked_at": "2026-11-02",
+    "visibility": "public",
+    "read_status": "official_summary",
+    "source_type": "공식 연구 해설",
+    "read_scope": [
+      "Promise and current reality",
+      "Market size and composition",
+      "Key constraints to faster growth",
+      "Observed market behaviors and liquidity characteristics",
+      "Risks from scaling and policy priorities"
+    ],
+    "summary": "IMF는 토큰화 시장이 작고 파편화되어 있으며, 분석한 토큰화 주식 시장에서 장외 시간 거래·소액 거래 수요가 관측되지만 기존 시장보다 유동성이 낮고 변동성이 높다고 설명한다. 확장 조건으로 권리의 집행 가능성, 규제 명확성, 상호운용성, 안전한 결제자산을 제시한다.",
+    "used_for": [
+      "기관 연구 해설: 접근 시간 확대와 유동성 개선은 같은 결과가 아니다.",
+      "연구자 추론: 거래량·잔액 확대만으로 유동성이나 순수익을 판정하지 않고 호가·체결·환매·현금화를 각각 확인한다."
+    ],
+    "limitations": [
+      "기초 연구인 2026년 10월 GFSR 제3장 전문은 접근 제한으로 읽지 못했다.",
+      "블로그의 시장 규모 수치는 정의·표본을 추가 확인하기 전 정량 모델에 사용하지 않는다."
+    ],
+    "topic_ids": [
+      "T-MARKET",
+      "T-RIGHTS"
+    ],
+    "event_date": null,
+    "effective_date": null,
+    "effective_date_status": null,
+    "adoption_stage": "신생 시장 관측·정책 해설"
+  },
+  {
+    "id": "FIN-003",
+    "title": "III. Anchoring trust in money: innovation beyond stablecoins",
+    "publisher": "BIS Annual Economic Report 2026",
+    "url": "https://www.bis.org/publications/aer-2026/anchoring-trust-money",
+    "published_at": "2026-06-23",
+    "checked_at": "2026-11-02",
+    "visibility": "public",
+    "read_status": "selected_sections",
+    "source_type": "연차경제보고서 장",
+    "read_scope": [
+      "Key takeaways",
+      "Digital innovation and the quest for new forms of money의 programmability·DLT·Agorá 문단(HTML 618~636행)",
+      "Moving towards the next-generation monetary system의 첫 문단 및 기존 RTGS 개선 관련 문단(807~841행 중 확인한 문단)"
+    ],
+    "summary": "BIS는 토큰화의 이점을 신뢰 가능한 화폐·결제 구조와 결합할 것을 제안한다. 프로그래밍 기능은 DLT 없이도 구현할 수 있고, 기존 RTGS 개선 역시 이점을 제공할 수 있다고 명시한다. 공동 원장과 원자적 결제의 가능성은 법적 최종성·운영 탄력성·거버넌스 조건을 필요로 한다.",
+    "used_for": [
+      "기관 연구: 업무 자동화의 이점 전체를 블록체인의 고유 효과로 귀속할 수 없다.",
+      "연구자 추론: 동일 업무를 기존 방식, 기존 방식+자동화, 토큰화 방식으로 비교해야 한다."
+    ],
+    "limitations": [
+      "전체 45쪽 장의 정독이 아니다.",
+      "BIS가 선호하는 설계 방향과 시장의 필연적 귀결을 구분한다."
+    ],
+    "topic_ids": [
+      "T-MONEY",
+      "T-SETTLEMENT"
+    ],
+    "event_date": null,
+    "effective_date": null,
+    "effective_date_status": null,
+    "adoption_stage": "구조·정책 연구"
+  },
+  {
+    "id": "FIN-004",
+    "title": "Project Agorá",
+    "publisher": "BIS Innovation Hub",
+    "url": "https://www.bis.org/project/agora",
+    "published_at": null,
+    "checked_at": "2026-11-02",
+    "visibility": "public",
+    "read_status": "selected_sections",
+    "source_type": "공식 프로젝트 현황·시험 결과",
+    "read_scope": [
+      "프로젝트 개요",
+      "Real-Value Testing",
+      "RVT summary and outcomes",
+      "RVT overview / Table 1",
+      "RVT setup and execution",
+      "RVT testing framework / Tables 2~3"
+    ],
+    "summary": "BIS는 2026년 7월 통제된 실물가치 시험에서 28개 금융기관·중앙은행이 약 CHF 80만 규모 거래를 수행했다고 보고한다. KRW도 시험 통화에 포함된다. 거래는 정해진 일중 시간대에 수행되었고, 결제 뒤 토큰 환매 승인과 외부 시스템의 자금 이전이 이어졌다. 수동 승인·대체 절차가 포함된 시험이다.",
+    "used_for": [
+      "운영기관 보고: 예금·중앙은행 준비금의 토큰화와 실제 금전 시험이 확인되지만 상용 서비스로 확정할 수 없다.",
+      "연구자 추론: 플랫폼 결제 완료와 최종 사용 가능한 은행 현금 수령을 별도로 측정해야 한다."
+    ],
+    "limitations": [
+      "평균 약 80초는 보고된 지급 개시~결제 지표이며 환매·은행 입금 전체 소요시간으로 확대하지 않는다.",
+      "유료 반복 사용·순수익·상시 운영·대규모 스트레스 대응은 이 자료로 입증되지 않는다.",
+      "페이지 Last updated는 2026-05-27이나 본문은 2026-07 시험 결과를 포함한다. RVT 결과의 정확한 게시일은 불명. 사건일과 표시 갱신일을 분리한다."
+    ],
+    "topic_ids": [
+      "T-MONEY",
+      "T-SETTLEMENT",
+      "T-FUNDING"
+    ],
+    "event_date": "2026-07",
+    "effective_date": null,
+    "effective_date_status": null,
+    "adoption_stage": "통제된 실물가치 시험"
+  },
+  {
+    "id": "FIN-005",
+    "title": "The Financial Stability Implications of Tokenisation",
+    "publisher": "Financial Stability Board",
+    "url": "https://www.fsb.org/2024/10/the-financial-stability-implications-of-tokenisation/",
+    "published_at": "2024-10-22",
+    "checked_at": "2026-11-02",
+    "visibility": "public",
+    "read_status": "official_summary",
+    "source_type": "보고서 공식 소개·요약",
+    "read_scope": [
+      "보고서 범위",
+      "도입 규모와 위험에 관한 요약 문단",
+      "정책 검토 범위"
+    ],
+    "summary": "FSB는 DLT 기반 금융자산 토큰화의 위험을 유동성·만기 불일치, 레버리지, 가격·자산 질, 상호연계, 운영 취약성으로 분류한다. 작은 도입 규모 때문에 당시 시스템 위험은 제한적이라고 판단했으며, 규모 확대·복잡성·불투명성이 높아질 경우 판단이 달라질 수 있다고 설명한다.",
+    "used_for": [
+      "기관 연구: 전통적 금융위험과 새 운영위험을 함께 검토하는 분류 기준으로 활용한다."
+    ],
+    "limitations": [
+      "2024년의 규모 판단을 2026년 현황으로 인용하지 않는다.",
+      "PDF 본문은 반복 접근 실패로 읽지 못했다. CBDC·암호자산 전체를 다루는 보고서가 아니다."
+    ],
+    "topic_ids": [
+      "T-COLLATERAL",
+      "T-OPERATIONS"
+    ],
+    "event_date": null,
+    "effective_date": null,
+    "effective_date_status": null,
+    "adoption_stage": "2024년 기준 연구"
+  },
+  {
+    "id": "FIN-006",
+    "title": "토큰증권 도입 및 투자계약증권 유통을 위한 ｢전자증권법｣·｢자본시장법｣ 개정안 국회 본회의 통과",
+    "publisher": "금융위원회",
+    "url": "https://www.fsc.go.kr/no010101/86064",
+    "published_at": "2026-01-15",
+    "checked_at": "2026-11-02",
+    "visibility": "public",
+    "read_status": "full_text",
+    "source_type": "정부 보도자료",
+    "read_scope": [
+      "개정안 주요 내용",
+      "전자증권법: 토큰증권 도입",
+      "자본시장법: 투자계약증권 유통 허용",
+      "향후 계획"
+    ],
+    "summary": "분산원장을 증권 계좌부로 이용하는 토큰증권의 도입 근거와 증권사를 통한 투자계약증권 유통을 위한 법률 개정안의 국회 통과를 발표했다. 토큰증권은 증권의 형식이며, 인가·공시 등 증권 규율이 그대로 적용된다고 명시한다.",
+    "used_for": [
+      "정부 발표: 국내 토큰증권은 기초 권리의 성질과 인가·공시 의무를 함께 판별해야 한다."
+    ],
+    "limitations": [
+      "1월 자료의 2027년 1월 잠정 시행일은 FIN-007·008의 2027-02-04 예정일로 갱신한다.",
+      "법률 전문·개별 사업 인가 적합성을 검토한 것은 아니다."
+    ],
+    "topic_ids": [
+      "T-REGULATION",
+      "T-RIGHTS",
+      "T-MARKET"
+    ],
+    "event_date": null,
+    "effective_date": null,
+    "effective_date_status": null,
+    "adoption_stage": "법률 개정안 국회 통과"
+  },
+  {
+    "id": "FIN-007",
+    "title": "토큰증권 정책방향 발표- 민·관 합동 토큰증권 협의체 3차회의 개최",
+    "publisher": "금융위원회",
+    "url": "https://www.fsc.go.kr/no010101/87650?curPage=&srchBeginDt=&srchCtgry=&srchEndDt=&srchKey=all&srchText=%EC%A4%91%EA%B0%9C",
+    "published_at": "2026-09-04",
+    "checked_at": "2026-11-02",
+    "visibility": "public",
+    "read_status": "selected_sections",
+    "source_type": "정부 정책 발표",
+    "read_scope": [
+      "정책방향 요약 [1]~[4]",
+      "회의 개요",
+      "토큰증권의 개념",
+      "발행 인프라 단계별 구축 계획 첫 부분",
+      "향후계획"
+    ],
+    "summary": "조각투자뿐 아니라 주식·채권·펀드의 토큰화 인프라를 단계적으로 구축하는 방향을 제시한다. 2027년 2월 1단계 예시에 기관투자자 전용 사모MMF·사채 등이 포함된다. 기존 인가 범위 내 업무와 예탁원·증권사 인프라 연계가 중요하다.",
+    "used_for": [
+      "정책 방향: 한국의 초기 검토 대상이 비정형 조각투자만으로 한정되지 않는다.",
+      "연구자 추론: 증권·펀드의 권리관리와 기존 계좌·예탁 인프라 연결을 사업 후보로 조사할 이유가 생긴다."
+    ],
+    "limitations": [
+      "인프라 구축 계획이며 실제 상품 출시·거래량·수익을 입증하지 않는다.",
+      "하위법규 사항은 FIN-008 입법예고 상태로 갱신한다. 별첨 전체는 읽지 않았다."
+    ],
+    "topic_ids": [
+      "T-REGULATION",
+      "T-RIGHTS",
+      "T-COMPANIES"
+    ],
+    "event_date": null,
+    "effective_date": null,
+    "effective_date_status": null,
+    "adoption_stage": "정책방향·인프라 구축 계획"
+  },
+  {
+    "id": "FIN-008",
+    "title": "토큰증권 관련 전자증권법·자본시장법 하위법규 개정안 입법예고 실시 ※예고기간 ‘26.10.2일 ~ 11.11일",
+    "publisher": "금융위원회",
+    "url": "https://www.fsc.go.kr/no010101/87838?srchEndDt=+",
+    "published_at": "2026-10-01",
+    "checked_at": "2026-11-02",
+    "visibility": "public",
+    "read_status": "full_text",
+    "source_type": "정부 입법예고 보도자료",
+    "read_scope": [
+      "추진 배경",
+      "입법예고안의 주요 내용 ①·②",
+      "향후계획"
+    ],
+    "summary": "법률 시행 예정일은 2027-02-04이며 하위법규 예고기간은 2026-10-02~11-11이다. 예고안은 분산원장 참여기관·직접 대가, 발행인계좌관리기관의 자본·인력, 채무증권 장외거래소 인가 및 일반투자자 한도 등을 다룬다. 관련 기준에 대한 업계 의견도 수렴한다고 명시한다.",
+    "used_for": [
+      "현재 절차 상태: 2026-11-02 현재 해당 하위법규 세부 기준은 입법예고 단계로 표시해야 한다.",
+      "연구자 추론: 권리 확정·업무 연속성·인가·계좌관리 조건을 먼저 충족하는 연결 서비스가 국내 검토의 출발점이다."
+    ],
+    "limitations": [
+      "보도자료 요약을 읽었으며 예고 법령 조문 전체·최종 공포 여부의 법령 데이터베이스 확인은 별도 과제다.",
+      "수치·분산원장 요건을 확정 시행 규칙으로 서술하지 않는다."
+    ],
+    "topic_ids": [
+      "T-REGULATION",
+      "T-OPERATIONS"
+    ],
+    "event_date": "2026-10-02",
+    "effective_date": "2027-02-04",
+    "effective_date_status": "시행 예정",
+    "adoption_stage": "입법예고 진행 중"
+  },
+  {
+    "id": "FIN-009",
+    "title": "Eurosystem brings central bank money to tokenised finance",
+    "publisher": "European Central Bank",
+    "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.pr260921~e754847a7b.en.html",
+    "published_at": "2026-09-21",
+    "checked_at": "2026-11-02",
+    "visibility": "public",
+    "read_status": "selected_sections",
+    "source_type": "중앙은행 출시 보도자료",
+    "read_scope": [
+      "출시·핵심 서비스 설명",
+      "단계적 기능·운영시간 확대 계획",
+      "초기 온보딩 참가자 및 Appia 설명"
+    ],
+    "summary": "ECB는 도매 토큰화 자산 거래를 중앙은행 화폐로 결제하는 Pontes 출시를 발표했다. 초기 참가자 온보딩과 점진적 확대를 설명하며, 기능·운영시간 확장은 단계적으로 진행되고 완전 구현은 2028년을 예상한다고 밝혔다.",
+    "used_for": [
+      "중앙은행 발표: 유럽에서는 안전한 결제자산 연결이 계획을 넘어 초기 서비스 출시 단계로 진전했다.",
+      "연구자 추론: 토큰화 사업은 민간 스테이블코인만이 아니라 중앙은행·은행 결제 경로를 함께 비교해야 한다."
+    ],
+    "limitations": [
+      "출시 발표를 실제 대규모 사용·수익성·24시간 완전 가동으로 확대하지 않는다.",
+      "유럽 제도가 한국에 동일하게 적용되는 것은 아니다."
+    ],
+    "topic_ids": [
+      "T-SETTLEMENT",
+      "T-MONEY"
+    ],
+    "event_date": null,
+    "effective_date": null,
+    "effective_date_status": null,
+    "adoption_stage": "출시·단계적 참가 확대"
+  },
+  {
+    "id": "FIN-010",
+    "title": "Welcoming Remarks at “Tokenisation: Banking the Future”",
+    "publisher": "Hong Kong Monetary Authority",
+    "url": "https://www.hkma.gov.hk/eng/news-and-media/speeches/2026/03/20260312-1",
+    "published_at": "2026-03-12",
+    "checked_at": "2026-11-02",
+    "visibility": "public",
+    "read_status": "selected_sections",
+    "source_type": "중앙은행 공식 연설",
+    "read_scope": [
+      "문단 5~11: 토큰화, EnsembleTX, 은행 참여 촉구"
+    ],
+    "summary": "HKMA는 EnsembleTX가 2025년 11월 실물가치 거래를 허용하는 파일럿 단계에 들어갔다고 설명하고, 2026년부터 은행·이용 사례 확대를 추진한다고 밝혔다. 기술 인프라와 은행 감독의 공동 접근을 강조한다.",
+    "used_for": [
+      "기관 설명: 홍콩의 예금토큰·디지털자산 연결은 실물가치 파일럿이라는 채택 단계로 구분한다.",
+      "연구자 추론: 기업 재무·유동성 관리 수요를 검토하되 현지 감독과 결제 연결을 필수 조건으로 둔다."
+    ],
+    "limitations": [
+      "효율·비용·유동성 개선 표현은 연설자의 기대이며 검증된 기업 손익 자료가 아니다.",
+      "2026년 3월 이후의 전체 프로젝트 변경을 포괄하지 않는다."
+    ],
+    "topic_ids": [
+      "T-MONEY",
+      "T-FUNDING"
+    ],
+    "event_date": null,
+    "effective_date": null,
+    "effective_date_status": null,
+    "adoption_stage": "실물가치 파일럿 및 확장 계획"
+  },
+  {
+    "id": "FIN-011",
+    "title": "Statement on Tokenized Securities",
+    "publisher": "SEC Division of Corporation Finance, Division of Investment Management, Division of Trading and Markets",
+    "url": "https://www.sec.gov/newsroom/speeches-statements/corp-fin-statement-tokenized-securities-012826-statement-tokenized-securities",
+    "published_at": "2026-01-28",
+    "checked_at": "2026-11-02",
+    "visibility": "public",
+    "read_status": "selected_sections",
+    "source_type": "SEC 직원 견해",
+    "read_scope": [
+      "Introduction",
+      "Issuer-Sponsored Tokenized Securities",
+      "Third Party-Sponsored Tokenized Securities",
+      "Custodial·Synthetic 모델",
+      "각주 2: 법적 효력·위원회 승인 여부"
+    ],
+    "summary": "발행인 주도 토큰화와 제3자 주도 토큰화를 나누고, 수탁형 권리와 합성 익스포저가 다른 구조임을 설명한다. 토큰 전송과 법적 소유 기록의 갱신 관계를 확인해야 하며, 제3자 모델에는 별도 도산위험이 생길 수 있다.",
+    "used_for": [
+      "감독 직원 견해: 같은 기초 주식 이름을 가진 토큰이라도 보유자가 받는 권리와 상대방 위험이 다를 수 있다.",
+      "연구자 추론: RWA 비교표의 첫 열은 체인보다 법적 청구권·기록 소유자·도산 시 구제로 구성한다."
+    ],
+    "limitations": [
+      "성명 자체는 규칙·법령·위원회 공식 규제지침이 아니며 법적 효력이 없다고 명시한다.",
+      "한국의 권리 구조는 한국 법령·계약을 따로 확인해야 한다."
+    ],
+    "topic_ids": [
+      "T-RIGHTS",
+      "T-OPERATIONS"
+    ],
+    "event_date": null,
+    "effective_date": null,
+    "effective_date_status": null,
+    "adoption_stage": "분류·규제 해석 견해"
+  },
+  {
+    "id": "FIN-012",
+    "title": "Capital Treatment of Tokenized Securities Frequently Asked Questions",
+    "publisher": "Federal Reserve Board / OCC / FDIC",
+    "url": "https://www.federalreserve.gov/supervisionreg/capital-treatment-of-tokenized-securities-faqs.htm",
+    "published_at": "2026-03-05",
+    "checked_at": "2026-11-02",
+    "visibility": "public",
+    "read_status": "full_text",
+    "source_type": "공동 감독 FAQ",
+    "read_scope": [
+      "Introduction",
+      "세 질문과 답변",
+      "각주 2·4",
+      "Last Update: March 05, 2026"
+    ],
+    "summary": "기존 증권과 법적 권리가 동일한 적격 토큰증권은 자본규칙에서 일반적으로 동일한 취급을 받는다. 담보 요건 충족 시 금융담보가 될 수 있으나 같은 헤어컷이 적용된다. 허가형·비허가형 체인 구분 자체가 자본처리를 바꾸지는 않는다.",
+    "used_for": [
+      "감독 FAQ: 토큰화 자체를 자본규제 절감이나 담보가치 상승의 근거로 삼을 수 없다."
+    ],
+    "limitations": [
+      "미국 은행 자본규칙의 적격 토큰증권에 한정된다.",
+      "권리가 다른 토큰은 범위 밖이다. 한국 보험사의 K-ICS·ALM 판단에 직접 대입할 수 없다."
+    ],
+    "topic_ids": [
+      "T-COLLATERAL",
+      "T-REGULATION"
+    ],
+    "event_date": null,
+    "effective_date": null,
+    "effective_date_status": null,
+    "adoption_stage": "감독상 처리 명확화"
+  },
+  {
+    "id": "FIN-013",
+    "title": "Statement on the Innovation Exemption: A Bridge Toward Durable Rulemaking",
+    "publisher": "SEC / Chairman Paul S. Atkins",
+    "url": "https://www.sec.gov/newsroom/speeches-statements/atkins-innovation-exemption-bridge-toward-durable-rulemaking-091726",
+    "published_at": "2026-09-17",
+    "checked_at": "2026-11-02",
+    "visibility": "public",
+    "read_status": "full_text",
+    "source_type": "위원장 성명",
+    "read_scope": [
+      "임시·조건부 면제 설명",
+      "Investor Protection Is Not Optional 조건",
+      "The Path to America’s Continued Leadership"
+    ],
+    "summary": "SEC 위원장은 일부 토큰화 NMS 주식 거래장소와 유동성 공급자에 관한 임시·조건부 면제를 설명했다. 허가된 접근, 기존 주식과 같은 권리, 발행인의 이의 제기, 제재 및 사기·시세조종 규율 등 조건을 제시한다.",
+    "used_for": [
+      "위원장 설명: 미국의 온체인 주식 거래 확대 신호도 대상·기간·조건을 가진 제도 변화로 읽어야 한다.",
+      "연구자 추론: 공개 체인이라는 이유로 누구에게나 무제한 판매·거래할 수 있다고 가정하지 않는다."
+    ],
+    "limitations": [
+      "면제 명령 전문을 읽지 않았으므로 시행 조건의 완전한 법률 요약으로 사용할 수 없다.",
+      "제도 기회와 실제 거래·수익 발생은 별개다."
+    ],
+    "topic_ids": [
+      "T-MARKET",
+      "T-REGULATION"
+    ],
+    "event_date": null,
+    "effective_date": null,
+    "effective_date_status": null,
+    "adoption_stage": "임시·조건부 면제 발표"
+  },
+  {
+    "id": "FIN-014",
+    "title": "III. The next-generation monetary and financial system",
+    "publisher": "BIS Annual Economic Report 2025",
+    "url": "https://www.bis.org/publications/aer-2025/next-generation-monetary-financial-system",
+    "published_at": "2025-06-24",
+    "checked_at": "2026-11-02",
+    "visibility": "public",
+    "read_status": "selected_sections",
+    "source_type": "연차경제보고서 장",
+    "read_scope": [
+      "Key takeaways",
+      "Introduction(HTML 540~577행)",
+      "Money and trust의 첫 문단(580~587행)"
+    ],
+    "summary": "중앙은행 준비금·상업은행 화폐·국채를 결합하는 통합 원장 구상과 화폐의 단일성·탄력성·건전성을 제시한다. 메시지·대사·자산이전을 연결할 수 있다는 설계 논리이며, 통합 원장은 반드시 DLT여야 하는 것은 아니라고 설명한다.",
+    "used_for": [
+      "기관 설계 구상: 자산 토큰과 결제수단·담보·유동성 공급을 하나의 거래 구조에서 함께 보아야 한다."
+    ],
+    "limitations": [
+      "2025년 구상은 현재 상용화의 증거가 아니다.",
+      "2026년 FIN-003·004·009의 진행 상황과 함께 갱신해 사용한다."
+    ],
+    "topic_ids": [
+      "T-MONEY",
+      "T-COLLATERAL"
+    ],
+    "event_date": null,
+    "effective_date": null,
+    "effective_date_status": null,
+    "adoption_stage": "2025년 기준 구조 연구"
+  },
+  {
+    "id": "FIN-015",
+    "title": "DTCC Tokenization Service Goes Live, Marking Major Milestone in the Adoption of Digital Assets",
+    "publisher": "DTCC / DTC",
+    "url": "https://www.dtcc.com/press-releases/2026/dtcc-tokenization-service-goes-live",
+    "published_at": "2026-10-28",
+    "checked_at": "2026-11-02",
+    "visibility": "public",
+    "read_status": "full_text",
+    "source_type": "운영사 서비스 출시 보도자료",
+    "read_scope": [
+      "서비스 출시 및 DTC 수탁 증권의 토큰 표현 설명",
+      "20개 DTC 참가자의 접근 계약",
+      "Supporting a New Interoperable Financial Ecosystem",
+      "규제 협의·기존 제한적 생산 거래 관련 마지막 문단"
+    ],
+    "summary": "DTC는 수탁 증권의 권리를 토큰 형태로 표현하고 기존 형태로 전환할 수 있는 DTS 출시를 발표했다. 20개 참가자가 접근 계약을 체결했다고 밝히고, 현재 Canton Network와 자체 Besu 네트워크 연결을 설명한다. 추가 네트워크는 2027년 계획이다.",
+    "used_for": [
+      "운영사 발표: 기존 수탁·권리·참가자 기반을 활용하는 토큰화 서비스가 출시 단계에 진입한 사례다.",
+      "연구자 추론: 기업 전략에서 새로운 자산을 만드는 역할뿐 아니라 기존 인프라를 연결하는 역할도 비교해야 한다."
+    ],
+    "limitations": [
+      "접근 계약은 실제 이용량·반복 거래·유료 매출을 입증하지 않는다.",
+      "DTC 전체 수탁자산을 토큰화 규모로 해석하지 않는다.",
+      "유동성·자본효율 개선 표현은 운영사 주장이고 독립적인 효과 검증은 없다. SEC 비조치 의견서 원문은 별도 확인 필요."
+    ],
+    "topic_ids": [
+      "T-SETTLEMENT",
+      "T-RIGHTS",
+      "T-OPERATIONS"
+    ],
+    "event_date": null,
+    "effective_date": null,
+    "effective_date_status": null,
+    "adoption_stage": "서비스 출시·접근 계약"
+  },
+  {
+    "id": "FIN-016",
+    "title": "Consultation on supervisory expectations for central counterparties seeking to accept tokenised collateral",
+    "publisher": "Bank of England",
+    "url": "https://www.bankofengland.co.uk/paper/2026/cp/supervisory-expectations-for-ccps-seeking-to-accept-tokenised-collateral",
+    "published_at": "2026-10-29",
+    "checked_at": "2026-11-02",
+    "visibility": "public",
+    "read_status": "selected_sections",
+    "source_type": "중앙은행 감독 협의안",
+    "read_scope": [
+      "1: Purpose, Scope",
+      "2: Industry engagement and feedback",
+      "3: Scope 및 잠재적 새 담보의 stablecoin·tMMF 논의",
+      "4: Next steps",
+      "Annex 1: 3.8~3.16 유동성·추가 신용위험·최종성 및 3.21~3.25 운영·수탁 관련 확인 문단"
+    ],
+    "summary": "영란은행은 CCP의 토큰화 담보 수용에 관한 감독 기대 초안을 제시했다. 기존 적격 담보의 토큰화가 중심이며, 토큰화만으로 담보 적격성이 결정되지 않는다. 가치 실현·법적 최종성·추가 상대방·수탁·운영 복구를 검토하도록 제안한다. MMF 토큰·스테이블코인 등으로 적격 범위를 자동 확대하는 문서는 아니다.",
+    "used_for": [
+      "감독 협의안: 토큰 이전 가능성과 부도 시 담보의 적시 현금화·권리 집행은 다른 검증 항목이다.",
+      "연구자 추론: 담보관리 사업 가설은 자산의 질뿐 아니라 전환·환매·수탁기관·허용 권한에 대한 의존성을 함께 평가해야 한다."
+    ],
+    "limitations": [
+      "협의안이며 확정 감독기준·CCP의 실제 담보 수용을 뜻하지 않는다.",
+      "UK CCP와 관련 인정 CCP 대상이다. 한국 보험·증권사 규제에 직접 대입할 수 없다.",
+      "협의안·부속서 전체 정독은 아니다."
+    ],
+    "topic_ids": [
+      "T-COLLATERAL",
+      "T-REGULATION"
+    ],
+    "event_date": null,
+    "effective_date": null,
+    "effective_date_status": null,
+    "adoption_stage": "감독 협의안 의견 수렴"
+  },
+  {
+    "id": "SRC-CIRCLE-USDC-TERMS",
+    "title": "USDC Terms",
+    "publisher": "Circle",
+    "url": "https://www.circle.com/legal/usdc-terms",
+    "date": "2026-10-15",
+    "date_kind": "last_updated",
+    "published_at": null,
+    "checked_at": "2026-11-02",
+    "visibility": "public",
+    "read_status": "selected_sections",
+    "read_scope": "상단 Last Updated 표시와 §2의 직접 상환 자격·준비자산 수익 귀속 설명.",
+    "summary": [
+      "확인한 페이지의 개정 표시는 2026-10-15이다.",
+      "Circle 직접 상환은 적격 보유자가 Circle Mint 계정을 등록하는 등의 조건을 충족해야 한다.",
+      "USDC 보유 자체가 준비자산에서 발생한 이자나 수익을 받을 권리를 주지는 않는다."
+    ],
+    "used_for": [
+      "지급 스테이블코인 보유와 은행예금·수익형 펀드 지분의 권리를 구분한다.",
+      "토큰 수취와 발행자 상환, 은행 현금 도착을 별도 단계로 조사할 근거로 사용한다."
+    ],
+    "limitations": [
+      "약관의 선택 부분을 읽었으며 개정 전후 모든 조항을 비교하지 않았다.",
+      "개별 한국 기관의 가입·상환 적격성, 실제 상환 소요시간·수수료·현재 거래 가능성을 확인하지 않았다."
+    ],
+    "topic_ids": [
+      "T-MONEY",
+      "T-FUNDING"
+    ]
+  },
+  {
+    "id": "SRC-BOK-HANGANG",
+    "title": "프로젝트 한강의 기관용 디지털화폐, 일반인용 CBDC와 어떻게 다를까",
+    "publisher": "한국은행",
+    "url": "https://www.bok.or.kr/portal/bbs/B0000347/view.do?menuNo=201106&nttId=11065408",
+    "date": "2026-10-08",
+    "date_kind": "published",
+    "published_at": "2026-10-08",
+    "checked_at": "2026-11-02",
+    "visibility": "public",
+    "read_status": "selected_sections",
+    "read_scope": "등록일, 들어가며, 일반인용 CBDC 관련 계획과 예금토큰 중심 전환에 대한 본문 설명.",
+    "summary": [
+      "2026-10-08 등록된 한국은행 설명은 프로젝트 한강 2단계 준비와 연내 재개 예정인 예금토큰 기반 후속 실거래를 다룬다.",
+      "한국은행은 해당 글에서 일반인용 CBDC 도입·발행 계획과 프로젝트 한강의 예금토큰 중심 경로를 구분한다."
+    ],
+    "used_for": [
+      "한국의 디지털화폐 경로를 민간 원화 스테이블코인 하나로 묶지 않는다.",
+      "은행 예금토큰, 기관용 디지털화폐, 일반인용 CBDC를 구분하는 환경 분석에 사용한다."
+    ],
+    "limitations": [
+      "기관의 설계·계획 설명을 읽은 것이며 현재 상용 운영 성과를 독립 검증한 것은 아니다.",
+      "경남은행 등 특정 은행의 참여·투자·인력배치·수익성은 이 읽은 범위로 확인하지 않는다.",
+      "첨부자료의 도표 전체와 해외 CBDC 관련 외부 사례를 별도로 검증하지 않았다."
+    ],
+    "topic_ids": [
+      "T-MONEY",
+      "T-REGULATION"
+    ]
+  },
+  {
+    "id": "SRC-OCC-GENIUS-FINAL",
+    "title": "OCC Advances U.S. Digital Asset Leadership with Final Rule to Implement GENIUS Act",
+    "publisher": "Office of the Comptroller of the Currency",
+    "url": "https://www.occ.treas.gov/news-issuances/news-releases/2026/nr-occ-2026-92.html",
+    "date": "2026-10-21",
+    "date_kind": "published",
+    "published_at": "2026-10-21",
+    "checked_at": "2026-11-02",
+    "visibility": "public",
+    "read_status": "selected_sections",
+    "read_scope": "News Release 2026-92 본문의 최종규칙 발표, 적용 범위, 별도 규칙 작업, 신청 접수 공고 계획 및 효력일.",
+    "summary": [
+      "OCC는 2026-10-21 GENIUS Act 이행 최종규칙을 발표했다.",
+      "해당 발표문은 최종규칙과 법의 효력일을 2027-01-18로 명시한다.",
+      "발표문은 BSA·자금세탁방지·OFAC 제재 관련 사항을 별도 규칙 작업으로 남기고 신청·면제 요청의 접수 개시는 별도 보도자료로 공고하겠다고 설명한다."
+    ],
+    "used_for": [
+      "규칙 발표·효력 발생·신청 접수·개별 발행자 인가를 구분한다.",
+      "미국 지급 스테이블코인 환경의 준비 단계와 실제 사업 허용을 분리해 판단한다."
+    ],
+    "limitations": [
+      "최종규칙 전문과 연방 관보의 세부 조항을 전부 읽지 않았다.",
+      "11월 2일 현재 신청 접수가 개시되었는지, 개별 회사가 인가받았는지는 이 10월 21일 발표문만으로 판정하지 않는다."
+    ],
+    "topic_ids": [
+      "T-MONEY",
+      "T-REGULATION"
+    ]
+  },
+  {
+    "id": "AI-001",
+    "title": "NousResearch/hermes-agent — README and releases",
+    "publisher": "NousResearch",
+    "url": "https://github.com/NousResearch/hermes-agent",
+    "published_at": null,
+    "checked_at": "2026-11-02",
+    "visibility": "public",
+    "read_status": "selected_sections",
+    "source_type": "공식 저장소·README·릴리스·API 메타데이터",
+    "read_scope": [
+      "https://github.com/NousResearch/hermes-agent/blob/main/README.md",
+      "default branch at retrieval, may include unreleased changes",
+      "https://github.com/NousResearch/hermes-agent/releases/tag/v0.22.5",
+      "https://api.github.com/repos/NousResearch/hermes-agent"
+    ],
+    "summary": "공식 README는 기억·스킬·도구·일정·격리된 하위 에이전트를 묶은 실행 환경을 설명한다. 10월 v0.22.5 릴리스에는 위임 백엔드와 모델별 라우팅, Windows 갱신 등의 변경이 포함된다. 기억과 스킬 갱신은 원문 출처 검증을 대신하지 않는다.",
+    "used_for": [
+      "여러 조사 역할의 실행·재개·스킬 재사용",
+      "판정: 시험 — 현재 방식 대비 재개 성공률과 검수 시간을 비교한 뒤 선택"
+    ],
+    "limitations": [
+      "상시 프로세스, 모델·검색 비용, 권한과 기억 관리",
+      "별도 불변 근거 원장과 정정 검증 필요",
+      "현재 실행 환경·Deep Agents·WeKnora 에이전트와 기능 중복",
+      "반복 조사 실행을 한 런타임에 모을 가능성; 정확도 우위 미측정",
+      "실제 금융 자료 성능·비용 시험과 설치는 수행하지 않았다."
+    ],
+    "topic_ids": [
+      "T-AI"
+    ],
+    "latest_observed_release": {
+      "tag": "v0.22.5",
+      "published_at_utc": "2026-10-23T05:28:45Z",
+      "published_date_kst": "2026-10-23",
+      "url": "https://github.com/NousResearch/hermes-agent/releases/tag/v0.22.5",
+      "prerelease_flag": false,
+      "prerelease_tag": false
+    }
+  },
+  {
+    "id": "AI-002",
+    "title": "HKUDS/LightRAG — README and releases",
+    "publisher": "HKUDS",
+    "url": "https://github.com/HKUDS/LightRAG",
+    "published_at": null,
+    "checked_at": "2026-11-02",
+    "visibility": "public",
+    "read_status": "selected_sections",
+    "source_type": "공식 저장소·README·릴리스·API 메타데이터",
+    "read_scope": [
+      "https://github.com/HKUDS/LightRAG/blob/main/README.md",
+      "default branch at retrieval, may include unreleased changes",
+      "https://github.com/HKUDS/LightRAG/releases/tag/v1.5.7",
+      "https://api.github.com/repos/HKUDS/LightRAG"
+    ],
+    "summary": "엔터티·관계와 벡터를 결합하며 증분 갱신, 문서 삭제 후 관련 그래프 재구성, 인용을 설명한다. 2026년 5월 계열에서 다중 형식 분석을 통합했고 최신 v1.5.7은 별도 질의 화면과 그래프 우선 입력 등을 추가했다. 저비용·고품질 주장은 실제 금융 문서로 재검증해야 한다.",
+    "used_for": [
+      "기업·규제·계약·상품 관계를 여러 문서에 걸쳐 검색",
+      "판정: 시험 — 하이브리드 검색이 실패하는 다문서 질문에서만 추가 효과 측정"
+    ],
+    "limitations": [
+      "관계 추출 LLM 호출과 그래프·벡터 인덱스 운영",
+      "원문 ID와 추출 관계 연결을 검증하고 삭제·정정 영향 검사",
+      "WeKnora/RAGFlow 그래프 검색과 중복 가능",
+      "단편 검색이 놓치는 연결을 찾을 가능성; 인과 추론 보장은 아님",
+      "실제 금융 자료 성능·비용 시험과 설치는 수행하지 않았다."
+    ],
+    "topic_ids": [
+      "T-AI"
+    ],
+    "latest_observed_release": {
+      "tag": "v1.5.7",
+      "published_at_utc": "2026-09-02T07:23:55Z",
+      "published_date_kst": "2026-09-02",
+      "url": "https://github.com/HKUDS/LightRAG/releases/tag/v1.5.7",
+      "prerelease_flag": false,
+      "prerelease_tag": false
+    }
+  },
+  {
+    "id": "AI-003",
+    "title": "microsoft/graphrag — README and releases",
+    "publisher": "microsoft",
+    "url": "https://github.com/microsoft/graphrag",
+    "published_at": null,
+    "checked_at": "2026-11-02",
+    "visibility": "public",
+    "read_status": "selected_sections",
+    "source_type": "공식 저장소·README·릴리스·API 메타데이터",
+    "read_scope": [
+      "https://github.com/microsoft/graphrag/blob/main/README.md",
+      "default branch at retrieval, may include unreleased changes",
+      "https://github.com/microsoft/graphrag/releases/tag/v3.3.0",
+      "https://api.github.com/repos/microsoft/graphrag"
+    ],
+    "summary": "2024년부터 이어진 연구 프로젝트다. 공식 README는 현재 유지보수 단계이며 새 기능·새 PR 수용을 중단하고 필요한 버그·의존성 수정을 수행한다고 명시한다. v3.3.0은 SQLite 성능 수정이다. 문서 전체의 주제 구조 탐색에 적합하지만 인덱싱 비용을 별도로 고려해야 한다.",
+    "used_for": [
+      "큰 문서 집합의 공통 주제·구조 탐색",
+      "판정: 보류 — 전역 주제 질문의 독립 시험에서 효과가 명확할 때 재검토"
+    ],
+    "limitations": [
+      "엔터티·관계·커뮤니티 요약 생성과 갱신 부담",
+      "생성된 요약을 원문 사실과 분리하고 인용 역추적 필요",
+      "LightRAG/Graphiti와 다른 목표지만 그래프 저장 계층 중복",
+      "전체 집합 질문의 비교 기준으로 유용; 최신 환경의 기본 선택 근거는 약함",
+      "실제 금융 자료 성능·비용 시험과 설치는 수행하지 않았다."
+    ],
+    "topic_ids": [
+      "T-AI"
+    ],
+    "latest_observed_release": {
+      "tag": "v3.3.0",
+      "published_at_utc": "2026-10-08T18:28:43Z",
+      "published_date_kst": "2026-10-09",
+      "url": "https://github.com/microsoft/graphrag/releases/tag/v3.3.0",
+      "prerelease_flag": false,
+      "prerelease_tag": false
+    }
+  },
+  {
+    "id": "AI-004",
+    "title": "langchain-ai/langgraph — README and releases",
+    "publisher": "langchain-ai",
+    "url": "https://github.com/langchain-ai/langgraph",
+    "published_at": null,
+    "checked_at": "2026-11-02",
+    "visibility": "public",
+    "read_status": "selected_sections",
+    "source_type": "공식 저장소·README·릴리스·API 메타데이터",
+    "read_scope": [
+      "https://github.com/langchain-ai/langgraph/blob/main/README.md",
+      "default branch at retrieval, may include unreleased changes",
+      "https://github.com/langchain-ai/langgraph/releases/tag/1.2.19",
+      "https://api.github.com/repos/langchain-ai/langgraph"
+    ],
+    "summary": "지속 실행, 중단·재개, 사람의 검토, 상태 보존을 제공하는 실행 기반이다. 지식 그래프 검색 도구와 역할이 다르다. 최신 핵심 패키지 1.2.19는 스트림·하위 그래프·도구 상태 관련 수정과 메타데이터 개선을 포함한다.",
+    "used_for": [
+      "수집→검증→해석→반증→병합의 분기·재시도·재개",
+      "판정: 조건부 시험 — 장기 반복 실행에서 실제 재개·상태 관리 요구가 생길 때"
+    ],
+    "limitations": [
+      "상태 스키마·체크포인트·오류 처리 개발 및 운영",
+      "노드별 입력/출력·근거 ID·버전을 상태에 명시해야 함",
+      "Deep Agents 기반 런타임이므로 둘을 별도 완성품처럼 중복 구축하지 않음",
+      "실패 시 전체 작업을 처음부터 반복하지 않을 수 있음",
+      "실제 금융 자료 성능·비용 시험과 설치는 수행하지 않았다."
+    ],
+    "topic_ids": [
+      "T-AI"
+    ],
+    "latest_observed_release": {
+      "tag": "1.2.19",
+      "published_at_utc": "2026-10-30T22:23:43Z",
+      "published_date_kst": "2026-10-31",
+      "url": "https://github.com/langchain-ai/langgraph/releases/tag/1.2.19",
+      "prerelease_flag": false,
+      "prerelease_tag": false
+    }
+  },
+  {
+    "id": "AI-005",
+    "title": "langchain-ai/deepagents — README and releases",
+    "publisher": "langchain-ai",
+    "url": "https://github.com/langchain-ai/deepagents",
+    "published_at": null,
+    "checked_at": "2026-11-02",
+    "visibility": "public",
+    "read_status": "selected_sections",
+    "source_type": "공식 저장소·README·릴리스·API 메타데이터",
+    "read_scope": [
+      "https://github.com/langchain-ai/deepagents/blob/main/README.md",
+      "default branch at retrieval, may include unreleased changes",
+      "https://github.com/langchain-ai/deepagents/releases/tag/deepagents%3D%3D0.7.32",
+      "https://api.github.com/repos/langchain-ai/deepagents"
+    ],
+    "summary": "LangGraph 위에 파일 작업, 격리된 하위 에이전트, 컨텍스트 요약·외부 저장, 기억, 스킬을 묶는다. 핵심 SDK 최신 확인판은 0.7.32이며 같은 저장소의 quickjs·CLI 버전과 구분해야 한다. 8월에는 rubric 평가 연결 기능도 확인된다.",
+    "used_for": [
+      "자료 탐색·해석 역할의 컨텍스트 격리와 위임",
+      "판정: 시험 — Hermes/기존 방식 중 하나와 같은 과제로 비교하고 한 실행 기반 선택"
+    ],
+    "limitations": [
+      "다중 모델 호출, 컨텍스트 요약 손실, 파일·권한 운영",
+      "요약 후에도 근거 위치·사실/가정 구분이 유지되는지 검사",
+      "Hermes 및 현재 에이전트 실행환경과 대체 관계",
+      "분업 운영을 빠르게 구성할 가능성; 독립 검증은 따로 설계",
+      "실제 금융 자료 성능·비용 시험과 설치는 수행하지 않았다."
+    ],
+    "topic_ids": [
+      "T-AI"
+    ],
+    "latest_observed_release": {
+      "tag": "deepagents==0.7.32",
+      "published_at_utc": "2026-10-23T21:30:34Z",
+      "published_date_kst": "2026-10-24",
+      "url": "https://github.com/langchain-ai/deepagents/releases/tag/deepagents%3D%3D0.7.32",
+      "prerelease_flag": false,
+      "prerelease_tag": false
+    }
+  },
+  {
+    "id": "AI-006",
+    "title": "infiniflow/ragflow — README and releases",
+    "publisher": "infiniflow",
+    "url": "https://github.com/infiniflow/ragflow",
+    "published_at": null,
+    "checked_at": "2026-11-02",
+    "visibility": "public",
+    "read_status": "selected_sections",
+    "source_type": "공식 저장소·README·릴리스·API 메타데이터",
+    "read_scope": [
+      "https://github.com/infiniflow/ragflow/blob/main/README.md",
+      "default branch at retrieval, may include unreleased changes",
+      "https://github.com/infiniflow/ragflow/releases/tag/v1.0.0-rc3",
+      "https://api.github.com/repos/infiniflow/ragflow"
+    ],
+    "summary": "8월 v0.27.0은 Wiki·Graph·Tree·Timeline 등의 지식 편집 기능을 도입했다. 10월 v1.0.0-rc2는 Agentic 모드로 기존 사고 수준 선택을 대체했고 rc3는 근거 충분성 판단과 실행 기록을 추가했다. 최신 후보판과 안정 계열 v0.27.3을 구분해야 한다.",
+    "used_for": [
+      "보고서 수집·분석·검색·파생 지식 편집 통합",
+      "판정: 전환 보류·비교 시험 — RC 안정성과 마이그레이션, 기존 저장소 대비 검수 비용 확인"
+    ],
+    "limitations": [
+      "여러 서비스와 문서 분석 자원, 버전 전환·재색인 비용",
+      "인용·청크 검토 기능은 있으나 지식 편집 오류와 정정 전파 시험 필요",
+      "WeKnora와 플랫폼 범위가 크게 겹침",
+      "여러 도구를 조합하는 수고를 줄일 가능성",
+      "실제 금융 자료 성능·비용 시험과 설치는 수행하지 않았다."
+    ],
+    "topic_ids": [
+      "T-AI"
+    ],
+    "latest_observed_release": {
+      "tag": "v1.0.0-rc3",
+      "published_at_utc": "2026-10-30T11:53:15Z",
+      "published_date_kst": "2026-10-30",
+      "url": "https://github.com/infiniflow/ragflow/releases/tag/v1.0.0-rc3",
+      "prerelease_flag": false,
+      "prerelease_tag": true
+    }
+  },
+  {
+    "id": "AI-007",
+    "title": "Tencent/WeKnora — README and releases",
+    "publisher": "Tencent",
+    "url": "https://github.com/Tencent/WeKnora",
+    "published_at": null,
+    "checked_at": "2026-11-02",
+    "visibility": "public",
+    "read_status": "selected_sections",
+    "source_type": "공식 저장소·README·릴리스·API 메타데이터",
+    "read_scope": [
+      "https://github.com/Tencent/WeKnora/blob/main/README.md",
+      "default branch at retrieval, may include unreleased changes",
+      "https://github.com/Tencent/WeKnora/releases/tag/v0.9.0",
+      "https://api.github.com/repos/Tencent/WeKnora"
+    ],
+    "summary": "최신 v0.9.0은 10월29일 공개되었고 공식 README는 다중 에이전트 협업, 자동화, 실행 권한, 파싱·동기화·검색 개선을 설명한다. 청크 편집·비교·되돌리기와 추적 기능도 기술한다. 기존 이용 기록과 현재 설치 버전·동작은 별도로 확인해야 한다.",
+    "used_for": [
+      "기존 문서 기반 위에 조사 역할과 갱신 절차를 연결",
+      "판정: 최우선 비교 시험 — 현재 설치·데이터를 확인하고 복사본에서 최신 기능의 실제 동작 검증"
+    ],
+    "limitations": [
+      "저장소·모델·분석 서비스와 데이터 이전 검증",
+      "청크 변경 기록을 법적 원문 정정 이력과 구분",
+      "외부 harness·별도 RAG 플랫폼을 추가하기 전 중복 확인",
+      "이미 쓰는 자료 기반을 재사용할 수 있으면 전환 부담 감소",
+      "실제 금융 자료 성능·비용 시험과 설치는 수행하지 않았다."
+    ],
+    "topic_ids": [
+      "T-AI"
+    ],
+    "latest_observed_release": {
+      "tag": "v0.9.0",
+      "published_at_utc": "2026-10-29T06:59:12Z",
+      "published_date_kst": "2026-10-29",
+      "url": "https://github.com/Tencent/WeKnora/releases/tag/v0.9.0",
+      "prerelease_flag": false,
+      "prerelease_tag": false
+    }
+  },
+  {
+    "id": "AI-008",
+    "title": "ddsyasas/llm-wiki — README and releases",
+    "publisher": "ddsyasas",
+    "url": "https://github.com/ddsyasas/llm-wiki",
+    "published_at": null,
+    "checked_at": "2026-11-02",
+    "visibility": "public",
+    "read_status": "selected_sections",
+    "source_type": "공식 저장소·README·릴리스·API 메타데이터",
+    "read_scope": [
+      "https://github.com/ddsyasas/llm-wiki/blob/main/README.md",
+      "default branch at retrieval, may include unreleased changes",
+      "https://github.com/ddsyasas/llm-wiki/releases/tag/v1.2.3",
+      "https://api.github.com/repos/ddsyasas/llm-wiki"
+    ],
+    "summary": "Karpathy의 4월4일 Gist와 별개의 5월 생성 저장소다. raw 원문·파생 wiki·운영 규칙을 나누고 입력/질의/점검을 구현한다. v1.2.3, 원문 연결·페이지 이력·비용 표시 등을 확인했다. 현재 67 stars이므로 인기 확산의 대표 구현으로 볼 수 없다.",
+    "used_for": [
+      "주제별 누적 요약, 상충 근거와 판단 변경 기록",
+      "판정: 패턴 채택 권고·앱 도입 보류 — 유지관리 이력과 한국어 문서 처리·정정 전파 품질 확인"
+    ],
+    "limitations": [
+      "입력 때 여러 페이지를 갱신하는 LLM 비용·정합성 점검",
+      "원문 불변·파생 위키 버전 관리 원칙은 유용; 자동 교정은 추가 검증",
+      "현재 근거 카드·연구 원장과 결합 가능; 앱 설치 필수 아님",
+      "매 질문마다 같은 문서를 다시 요약하는 작업 감소 가능",
+      "실제 금융 자료 성능·비용 시험과 설치는 수행하지 않았다."
+    ],
+    "topic_ids": [
+      "T-AI"
+    ],
+    "latest_observed_release": {
+      "tag": "v1.2.3",
+      "published_at_utc": "2026-05-26T22:09:06Z",
+      "published_date_kst": "2026-05-27",
+      "url": "https://github.com/ddsyasas/llm-wiki/releases/tag/v1.2.3",
+      "prerelease_flag": false,
+      "prerelease_tag": false
+    }
+  },
+  {
+    "id": "AI-009",
+    "title": "getzep/graphiti — README and releases",
+    "publisher": "getzep",
+    "url": "https://github.com/getzep/graphiti",
+    "published_at": null,
+    "checked_at": "2026-11-02",
+    "visibility": "public",
+    "read_status": "selected_sections",
+    "source_type": "공식 저장소·README·릴리스·API 메타데이터",
+    "read_scope": [
+      "https://github.com/getzep/graphiti/blob/main/README.md",
+      "default branch at retrieval, may include unreleased changes",
+      "https://github.com/getzep/graphiti/releases/tag/v0.31.2",
+      "https://api.github.com/repos/getzep/graphiti"
+    ],
+    "summary": "엔터티·관계·원문 episode와 유효 시점을 연결하고 과거 사실을 삭제하지 않고 무효화하는 시간 모델을 설명한다. v0.31.2에는 episode 삭제 시 재서술된 사실 보존·요약 재구성과 근거 edge 기록 수정이 포함된다. 자동 관계 추출과 무효화가 사실 정확성을 보장하지 않는다.",
+    "used_for": [
+      "규제·기업 상태가 언제 어떻게 변했는지 추적",
+      "판정: 후순위 시험 — 간단한 사건·정정 원장보다 시간 질의가 유의하게 개선될 때"
+    ],
+    "limitations": [
+      "그래프 DB, 추출 모델, 시점·동일 엔터티 판정 관리",
+      "원문 episode와 관계 연결 및 유효/관측 시점 별도 설계",
+      "사실 원장을 대체하지 않고 검색용 파생 인덱스로 사용",
+      "현재 정보와 당시 정보를 구분한 질의 가능성",
+      "실제 금융 자료 성능·비용 시험과 설치는 수행하지 않았다."
+    ],
+    "topic_ids": [
+      "T-AI"
+    ],
+    "latest_observed_release": {
+      "tag": "v0.31.2",
+      "published_at_utc": "2026-10-20T17:25:21Z",
+      "published_date_kst": "2026-10-21",
+      "url": "https://github.com/getzep/graphiti/releases/tag/v0.31.2",
+      "prerelease_flag": false,
+      "prerelease_tag": false
+    }
+  },
+  {
+    "id": "AI-010",
+    "title": "docling-project/docling — README and releases",
+    "publisher": "docling-project",
+    "url": "https://github.com/docling-project/docling",
+    "published_at": null,
+    "checked_at": "2026-11-02",
+    "visibility": "public",
+    "read_status": "selected_sections",
+    "source_type": "공식 저장소·README·릴리스·API 메타데이터",
+    "read_scope": [
+      "https://github.com/docling-project/docling/blob/main/README.md",
+      "default branch at retrieval, may include unreleased changes",
+      "https://github.com/docling-project/docling/releases/tag/v2.145.0",
+      "https://api.github.com/repos/docling-project/docling"
+    ],
+    "summary": "PDF·Office 등의 본문·표·배치·OCR를 구조화하는 도구다. 최신 v2.145.0은 OCR 방향 탐지, 문서 자원 해제, 표·인용 링크 관련 수정을 포함한다. 문서를 읽을 수 있게 만드는 계층이며 재무 수치나 문맥의 정확한 해석을 대신하지 않는다.",
+    "used_for": [
+      "보고서 표·각주·페이지 위치를 보존한 근거 추출",
+      "판정: 우선 시험 — 한국어 PDF와 금융 표의 수치·각주·페이지 보존 평가"
+    ],
+    "limitations": [
+      "OCR·시각 모델·큰 문서 처리 자원",
+      "원본 파일 해시·페이지·표 셀과 추출 결과 연결",
+      "LightRAG/RAGFlow가 이미 호출하는 파서인지 확인",
+      "단순 텍스트 추출이 놓치는 표·레이아웃을 복원할 가능성",
+      "실제 금융 자료 성능·비용 시험과 설치는 수행하지 않았다."
+    ],
+    "topic_ids": [
+      "T-AI"
+    ],
+    "latest_observed_release": {
+      "tag": "v2.145.0",
+      "published_at_utc": "2026-10-29T14:40:25Z",
+      "published_date_kst": "2026-10-29",
+      "url": "https://github.com/docling-project/docling/releases/tag/v2.145.0",
+      "prerelease_flag": false,
+      "prerelease_tag": false
+    }
+  },
+  {
+    "id": "AI-011",
+    "title": "promptfoo/promptfoo — README and releases",
+    "publisher": "promptfoo",
+    "url": "https://github.com/promptfoo/promptfoo",
+    "published_at": null,
+    "checked_at": "2026-11-02",
+    "visibility": "public",
+    "read_status": "selected_sections",
+    "source_type": "공식 저장소·README·릴리스·API 메타데이터",
+    "read_scope": [
+      "https://github.com/promptfoo/promptfoo/blob/main/README.md",
+      "default branch at retrieval, may include unreleased changes",
+      "https://github.com/promptfoo/promptfoo/releases/tag/0.125.1",
+      "https://api.github.com/repos/promptfoo/promptfoo"
+    ],
+    "summary": "모델·프롬프트·에이전트·RAG의 비교 평가와 자동 검사를 제공한다. 10월 0.125.0은 반복 실행 안정성 보고, 캐시 적중 표시, 추적 조건 검사 등을 추가했고 최신 패치는 0.125.1이다. 자동 평가 기준 자체의 오류와 모델 심사자 편향을 별도 통제해야 한다.",
+    "used_for": [
+      "원문 인용·정정 반영·MOU/실행 구분의 회귀 검사",
+      "판정: 평가 방식 채택 권고·도구 시험 — 정답·모호성·시점 누출을 통제한 소규모 과제 세트부터"
+    ],
+    "limitations": [
+      "반복 모델 호출과 정답 근거 세트 유지 비용",
+      "출처 ID·인용 범위·상태값은 결정적 검사와 사람 검토 병행",
+      "기존 테스트가 있으면 평가 실행층만 보완",
+      "에이전트 추가가 실제 품질을 높였는지 같은 과제로 비교",
+      "실제 금융 자료 성능·비용 시험과 설치는 수행하지 않았다."
+    ],
+    "topic_ids": [
+      "T-AI"
+    ],
+    "latest_observed_release": {
+      "tag": "0.125.1",
+      "published_at_utc": "2026-10-25T01:53:11Z",
+      "published_date_kst": "2026-10-25",
+      "url": "https://github.com/promptfoo/promptfoo/releases/tag/0.125.1",
+      "prerelease_flag": false,
+      "prerelease_tag": false
+    }
+  },
+  {
+    "id": "AI-012",
+    "title": "tobi/qmd — README and releases",
+    "publisher": "tobi",
+    "url": "https://github.com/tobi/qmd",
+    "published_at": null,
+    "checked_at": "2026-11-02",
+    "visibility": "public",
+    "read_status": "selected_sections",
+    "source_type": "공식 저장소·README·릴리스·API 메타데이터",
+    "read_scope": [
+      "https://github.com/tobi/qmd/blob/main/README.md",
+      "default branch at retrieval, may include unreleased changes",
+      "https://github.com/tobi/qmd/releases/tag/v2.8.3",
+      "https://api.github.com/repos/tobi/qmd"
+    ],
+    "summary": "BM25·벡터·재정렬을 결합하는 로컬 문서 검색 도구다. 5월 v2.5.3은 문서 ID·경로·행 번호 출력을 강화했고 최신 공개 릴리스 v2.8.3은 로컬 설정 신뢰·경로 제한 등을 수정했다. 현재 기본 브랜치 기능과 릴리스에 포함된 기능은 구분해야 한다.",
+    "used_for": [
+      "근거 원문·정리된 위키에서 정확한 명칭과 의미 검색",
+      "판정: 우선 비교 시험 — 한국어 금융 용어와 날짜·법인명 검색을 기존 검색과 비교"
+    ],
+    "limitations": [
+      "로컬 임베딩·재정렬 모델과 인덱스 갱신",
+      "문서 ID·행 번호를 원본 버전 해시에 추가 연결",
+      "기존 WeKnora 검색이 충분하면 별도 색인 불필요",
+      "단순 전체 읽기/키워드 검색보다 관련 원문 찾기 개선 가능",
+      "실제 금융 자료 성능·비용 시험과 설치는 수행하지 않았다."
+    ],
+    "topic_ids": [
+      "T-AI"
+    ],
+    "latest_observed_release": {
+      "tag": "v2.8.3",
+      "published_at_utc": "2026-08-16T22:30:34Z",
+      "published_date_kst": "2026-08-17",
+      "url": "https://github.com/tobi/qmd/releases/tag/v2.8.3",
+      "prerelease_flag": false,
+      "prerelease_tag": false
+    }
+  },
+  {
+    "id": "PRIOR-001",
+    "title": "2026년 11월 1일 디지털 금융환경 종합",
+    "publisher": "Eom-TaeJun 공개 연구",
+    "url": "https://github.com/Eom-TaeJun/2026-10/blob/5e4dd5143a57fda97f33151d0e284ba7f7b5576d/reports/digital-finance-institutional-response-2026-11-01.md",
+    "published_at": "2026-11-01",
+    "checked_at": "2026-11-02",
+    "visibility": "public",
+    "read_status": "selected_sections",
+    "source_type": "사용자의 기존 공개 연구",
+    "read_scope": "기존 공개 연구의 금융 기능·현금화·기관 대응·경쟁 가설·공식 출처 부분",
+    "summary": "고객의 권리·현금·비용·위험과 기관 대응을 연결한 이전 연구다.",
+    "used_for": "환경 분석 질문과 변경 비교의 기준선으로 사용한다.",
+    "limitations": "이전 보고서의 사실·실험 결과는 현재 상태나 독립 검증 결과가 아니다.",
+    "topic_ids": [
+      "T-COMPANIES",
+      "T-AI",
+      "T-MONEY"
+    ]
+  },
+  {
+    "id": "PRIOR-002",
+    "title": "STO·AI 연구 보고서 안내",
+    "publisher": "Eom-TaeJun 공개 연구",
+    "url": "https://github.com/Eom-TaeJun/sto-ai-frontier/blob/d64f570467204e2fdfa5be86ea456a501191b9f8/reports/README.md",
+    "published_at": null,
+    "checked_at": "2026-11-02",
+    "visibility": "public",
+    "read_status": "selected_sections",
+    "source_type": "사용자의 기존 공개 연구",
+    "read_scope": "공개 보고서 안내와 연구 범위",
+    "summary": "STO·AI 연구와 관련 결과물의 안내를 확인했다.",
+    "used_for": "기존 조사·프로토타입의 중복을 피하고 후속 원문과 연결한다.",
+    "limitations": "안내 페이지 열람은 연결된 모든 보고서·실험을 읽고 재실행한 것이 아니다.",
+    "topic_ids": [
+      "T-COMPANIES",
+      "T-AI",
+      "T-MONEY"
+    ]
+  },
+  {
+    "id": "PRIOR-003",
+    "title": "교보증권 수익전략의 조건부 연구",
+    "publisher": "Eom-TaeJun 공개 연구",
+    "url": "https://github.com/Eom-TaeJun/sto-ai-frontier/blob/d64f570467204e2fdfa5be86ea456a501191b9f8/docs/KYOBO_PROFIT_STRATEGY.md",
+    "published_at": null,
+    "checked_at": "2026-11-02",
+    "visibility": "public",
+    "read_status": "selected_sections",
+    "source_type": "사용자의 기존 공개 연구",
+    "read_scope": "공개 사업 가설·수익 및 제약 조건",
+    "summary": "교보 적용을 위한 기존 사업 가설과 검토 질문을 확인했다.",
+    "used_for": "기업 적용 단계에서 질문을 재사용하고 현재 공식 신호로 다시 검증한다.",
+    "limitations": "회사 확정 계획·현재 조직 업무·실현 매출의 근거가 아니다.",
+    "topic_ids": [
+      "T-COMPANIES",
+      "T-AI",
+      "T-MONEY"
+    ]
+  }
+]

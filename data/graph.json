@@ -1,0 +1,1013 @@
+{
+  "semantics": "Edges are curated provenance/topic links, not estimated causality.",
+  "nodes": [
+    {
+      "id": "FIN-001",
+      "type": "source",
+      "label": "Tokenized Finance"
+    },
+    {
+      "id": "FIN-002",
+      "type": "source",
+      "label": "What Is Needed for Tokenization to Deliver"
+    },
+    {
+      "id": "FIN-003",
+      "type": "source",
+      "label": "III. Anchoring trust in money: innovation beyond stablecoins"
+    },
+    {
+      "id": "FIN-004",
+      "type": "source",
+      "label": "Project Agorá"
+    },
+    {
+      "id": "FIN-005",
+      "type": "source",
+      "label": "The Financial Stability Implications of Tokenisation"
+    },
+    {
+      "id": "FIN-006",
+      "type": "source",
+      "label": "토큰증권 도입 및 투자계약증권 유통을 위한 ｢전자증권법｣·｢자본시장법｣ 개정안 국회 본회의 통과"
+    },
+    {
+      "id": "FIN-007",
+      "type": "source",
+      "label": "토큰증권 정책방향 발표- 민·관 합동 토큰증권 협의체 3차회의 개최"
+    },
+    {
+      "id": "FIN-008",
+      "type": "source",
+      "label": "토큰증권 관련 전자증권법·자본시장법 하위법규 개정안 입법예고 실시 ※예고기간 ‘26.10.2일 ~ 11.11일"
+    },
+    {
+      "id": "FIN-009",
+      "type": "source",
+      "label": "Eurosystem brings central bank money to tokenised finance"
+    },
+    {
+      "id": "FIN-010",
+      "type": "source",
+      "label": "Welcoming Remarks at “Tokenisation: Banking the Future”"
+    },
+    {
+      "id": "FIN-011",
+      "type": "source",
+      "label": "Statement on Tokenized Securities"
+    },
+    {
+      "id": "FIN-012",
+      "type": "source",
+      "label": "Capital Treatment of Tokenized Securities Frequently Asked Questions"
+    },
+    {
+      "id": "FIN-013",
+      "type": "source",
+      "label": "Statement on the Innovation Exemption: A Bridge Toward Durable Rulemaking"
+    },
+    {
+      "id": "FIN-014",
+      "type": "source",
+      "label": "III. The next-generation monetary and financial system"
+    },
+    {
+      "id": "FIN-015",
+      "type": "source",
+      "label": "DTCC Tokenization Service Goes Live, Marking Major Milestone in the Adoption of Digital Assets"
+    },
+    {
+      "id": "FIN-016",
+      "type": "source",
+      "label": "Consultation on supervisory expectations for central counterparties seeking to accept tokenised collateral"
+    },
+    {
+      "id": "SRC-CIRCLE-USDC-TERMS",
+      "type": "source",
+      "label": "USDC Terms"
+    },
+    {
+      "id": "SRC-BOK-HANGANG",
+      "type": "source",
+      "label": "프로젝트 한강의 기관용 디지털화폐, 일반인용 CBDC와 어떻게 다를까"
+    },
+    {
+      "id": "SRC-OCC-GENIUS-FINAL",
+      "type": "source",
+      "label": "OCC Advances U.S. Digital Asset Leadership with Final Rule to Implement GENIUS Act"
+    },
+    {
+      "id": "AI-001",
+      "type": "source",
+      "label": "NousResearch/hermes-agent — README and releases"
+    },
+    {
+      "id": "AI-002",
+      "type": "source",
+      "label": "HKUDS/LightRAG — README and releases"
+    },
+    {
+      "id": "AI-003",
+      "type": "source",
+      "label": "microsoft/graphrag — README and releases"
+    },
+    {
+      "id": "AI-004",
+      "type": "source",
+      "label": "langchain-ai/langgraph — README and releases"
+    },
+    {
+      "id": "AI-005",
+      "type": "source",
+      "label": "langchain-ai/deepagents — README and releases"
+    },
+    {
+      "id": "AI-006",
+      "type": "source",
+      "label": "infiniflow/ragflow — README and releases"
+    },
+    {
+      "id": "AI-007",
+      "type": "source",
+      "label": "Tencent/WeKnora — README and releases"
+    },
+    {
+      "id": "AI-008",
+      "type": "source",
+      "label": "ddsyasas/llm-wiki — README and releases"
+    },
+    {
+      "id": "AI-009",
+      "type": "source",
+      "label": "getzep/graphiti — README and releases"
+    },
+    {
+      "id": "AI-010",
+      "type": "source",
+      "label": "docling-project/docling — README and releases"
+    },
+    {
+      "id": "AI-011",
+      "type": "source",
+      "label": "promptfoo/promptfoo — README and releases"
+    },
+    {
+      "id": "AI-012",
+      "type": "source",
+      "label": "tobi/qmd — README and releases"
+    },
+    {
+      "id": "PRIOR-001",
+      "type": "source",
+      "label": "2026년 11월 1일 디지털 금융환경 종합"
+    },
+    {
+      "id": "PRIOR-002",
+      "type": "source",
+      "label": "STO·AI 연구 보고서 안내"
+    },
+    {
+      "id": "PRIOR-003",
+      "type": "source",
+      "label": "교보증권 수익전략의 조건부 연구"
+    },
+    {
+      "id": "C-001",
+      "type": "claim",
+      "kind": "fact",
+      "status": "active",
+      "label": "2026-11-02 기준 확인한 한국 토큰증권 하위법규는 10/2~11/11 입법예고 단계이며 안내된 시행 예정일은 2027-02-04다."
+    },
+    {
+      "id": "C-002",
+      "type": "claim",
+      "kind": "institution_statement",
+      "status": "active",
+      "label": "IMF는 관측한 토큰화 시장의 접근 시간 확대와 낮은 유동성·파편화가 함께 존재한다고 설명한다."
+    },
+    {
+      "id": "C-003",
+      "type": "claim",
+      "kind": "institution_statement",
+      "status": "active",
+      "label": "ECB Pontes 출시와 DTCC DTS 출시가 공식 발표됐다."
+    },
+    {
+      "id": "C-004",
+      "type": "claim",
+      "kind": "institution_statement",
+      "status": "active",
+      "label": "BIS Agorá 공식 본문은 2026년 7월 실물가치 시험과 플랫폼 결제 이후 환매·외부 자금 이전을 구분한다."
+    },
+    {
+      "id": "C-005",
+      "type": "claim",
+      "kind": "institution_statement",
+      "status": "active",
+      "label": "미국 공동 감독 FAQ는 기존 증권과 법적 권리가 동일한 적격 토큰증권에 일반적으로 동일한 자본처리와 담보 헤어컷을 적용한다고 설명한다."
+    },
+    {
+      "id": "C-006",
+      "type": "claim",
+      "kind": "institution_statement",
+      "status": "active",
+      "label": "SEC 직원 성명은 발행인 주도·제3자 수탁형·합성형 토큰증권의 권리와 위험을 구분한다."
+    },
+    {
+      "id": "C-007",
+      "type": "claim",
+      "kind": "interpretation",
+      "status": "active",
+      "label": "기존 인프라 자동화와 비교해야 온체인의 추가 편익을 분리할 수 있다."
+    },
+    {
+      "id": "C-008",
+      "type": "claim",
+      "kind": "hypothesis",
+      "status": "active",
+      "label": "발행 이후 권리·명부·분배·공시·환매를 연결하는 서비스가 반복 업무의 보수 기회가 될 수 있다."
+    },
+    {
+      "id": "C-009",
+      "type": "claim",
+      "kind": "hypothesis",
+      "status": "active",
+      "label": "결제·환매·은행현금과 FX를 연결하는 기업 자금관리 서비스가 고객 가치를 만들 수 있다."
+    },
+    {
+      "id": "C-010",
+      "type": "claim",
+      "kind": "hypothesis",
+      "status": "active",
+      "label": "토큰화 담보의 상태·적격성·마진·환매·복구 정보를 연결하는 운영 업무의 중요성이 커질 수 있다."
+    },
+    {
+      "id": "C-011",
+      "type": "claim",
+      "kind": "hypothesis",
+      "status": "active",
+      "label": "토큰화가 성장해도 새 플랫폼이 고객 접점과 가격 결정권을 확보하면 기존 금융기관의 보수가 압박받을 수 있다."
+    },
+    {
+      "id": "C-012",
+      "type": "claim",
+      "kind": "unknown",
+      "status": "active",
+      "label": "교보증권 미래전략 관련 업무, 경남은행 본사업무, 한화생명 블록체인 신사업의 현재 조직·권한·자원 투입은 다음 기업 조사에서 확인한다."
+    },
+    {
+      "id": "C-013",
+      "type": "claim",
+      "kind": "institution_statement",
+      "status": "active",
+      "label": "한국은행은 프로젝트 한강의 예금토큰·기관용 디지털화폐 경로를 일반인용 CBDC와 구분해 설명한다."
+    },
+    {
+      "id": "C-014",
+      "type": "claim",
+      "kind": "institution_statement",
+      "status": "active",
+      "label": "OCC 10/21 발표는 GENIUS Act 이행 최종규칙과 2027-01-18 효력일, 별도 규칙 작업 및 신청 접수 공고 계획을 설명한다."
+    },
+    {
+      "id": "C-015",
+      "type": "claim",
+      "kind": "interpretation",
+      "status": "active",
+      "label": "출처 ID·읽은 범위·파생 위키·정정 이력·독립 검증을 먼저 도입하고 검색·그래프 도구는 실제 실패 과제로 비교한다."
+    },
+    {
+      "id": "C-016",
+      "type": "claim",
+      "kind": "interpretation",
+      "status": "active",
+      "label": "최신 상태 확인 결과 WeKnora 최신판을 우선 비교하고 GraphRAG의 유지보수 단계와 RAGFlow 후보판 여부를 도입 판단에 반영한다."
+    },
+    {
+      "id": "T-RIGHTS",
+      "type": "topic",
+      "label": "기초자산·법적 권리·발행"
+    },
+    {
+      "id": "T-MONEY",
+      "type": "topic",
+      "label": "결제수단·환매·사용 가능한 현금"
+    },
+    {
+      "id": "T-SETTLEMENT",
+      "type": "topic",
+      "label": "결제·대사·상호운용성"
+    },
+    {
+      "id": "T-COLLATERAL",
+      "type": "topic",
+      "label": "담보·자본·유동성위험"
+    },
+    {
+      "id": "T-MARKET",
+      "type": "topic",
+      "label": "유통·접근성·시장 유동성"
+    },
+    {
+      "id": "T-REGULATION",
+      "type": "topic",
+      "label": "한국과 해외 제도·시행 단계"
+    },
+    {
+      "id": "T-OPERATIONS",
+      "type": "topic",
+      "label": "수탁·준법·정보·운영 복구"
+    },
+    {
+      "id": "T-FUNDING",
+      "type": "topic",
+      "label": "은행 조달·고객 자금관리"
+    },
+    {
+      "id": "T-AI",
+      "type": "topic",
+      "label": "AI 연구 하네스·검색·지식 갱신"
+    },
+    {
+      "id": "T-COMPANIES",
+      "type": "topic",
+      "label": "증권·은행·보험과 후보 기업"
+    }
+  ],
+  "edges": [
+    {
+      "from": "FIN-001",
+      "to": "T-SETTLEMENT",
+      "type": "covers"
+    },
+    {
+      "from": "FIN-001",
+      "to": "T-COLLATERAL",
+      "type": "covers"
+    },
+    {
+      "from": "FIN-001",
+      "to": "T-OPERATIONS",
+      "type": "covers"
+    },
+    {
+      "from": "FIN-002",
+      "to": "T-MARKET",
+      "type": "covers"
+    },
+    {
+      "from": "FIN-002",
+      "to": "T-RIGHTS",
+      "type": "covers"
+    },
+    {
+      "from": "FIN-003",
+      "to": "T-MONEY",
+      "type": "covers"
+    },
+    {
+      "from": "FIN-003",
+      "to": "T-SETTLEMENT",
+      "type": "covers"
+    },
+    {
+      "from": "FIN-004",
+      "to": "T-MONEY",
+      "type": "covers"
+    },
+    {
+      "from": "FIN-004",
+      "to": "T-SETTLEMENT",
+      "type": "covers"
+    },
+    {
+      "from": "FIN-004",
+      "to": "T-FUNDING",
+      "type": "covers"
+    },
+    {
+      "from": "FIN-005",
+      "to": "T-COLLATERAL",
+      "type": "covers"
+    },
+    {
+      "from": "FIN-005",
+      "to": "T-OPERATIONS",
+      "type": "covers"
+    },
+    {
+      "from": "FIN-006",
+      "to": "T-REGULATION",
+      "type": "covers"
+    },
+    {
+      "from": "FIN-006",
+      "to": "T-RIGHTS",
+      "type": "covers"
+    },
+    {
+      "from": "FIN-006",
+      "to": "T-MARKET",
+      "type": "covers"
+    },
+    {
+      "from": "FIN-007",
+      "to": "T-REGULATION",
+      "type": "covers"
+    },
+    {
+      "from": "FIN-007",
+      "to": "T-RIGHTS",
+      "type": "covers"
+    },
+    {
+      "from": "FIN-007",
+      "to": "T-COMPANIES",
+      "type": "covers"
+    },
+    {
+      "from": "FIN-008",
+      "to": "T-REGULATION",
+      "type": "covers"
+    },
+    {
+      "from": "FIN-008",
+      "to": "T-OPERATIONS",
+      "type": "covers"
+    },
+    {
+      "from": "FIN-009",
+      "to": "T-SETTLEMENT",
+      "type": "covers"
+    },
+    {
+      "from": "FIN-009",
+      "to": "T-MONEY",
+      "type": "covers"
+    },
+    {
+      "from": "FIN-010",
+      "to": "T-MONEY",
+      "type": "covers"
+    },
+    {
+      "from": "FIN-010",
+      "to": "T-FUNDING",
+      "type": "covers"
+    },
+    {
+      "from": "FIN-011",
+      "to": "T-RIGHTS",
+      "type": "covers"
+    },
+    {
+      "from": "FIN-011",
+      "to": "T-OPERATIONS",
+      "type": "covers"
+    },
+    {
+      "from": "FIN-012",
+      "to": "T-COLLATERAL",
+      "type": "covers"
+    },
+    {
+      "from": "FIN-012",
+      "to": "T-REGULATION",
+      "type": "covers"
+    },
+    {
+      "from": "FIN-013",
+      "to": "T-MARKET",
+      "type": "covers"
+    },
+    {
+      "from": "FIN-013",
+      "to": "T-REGULATION",
+      "type": "covers"
+    },
+    {
+      "from": "FIN-014",
+      "to": "T-MONEY",
+      "type": "covers"
+    },
+    {
+      "from": "FIN-014",
+      "to": "T-COLLATERAL",
+      "type": "covers"
+    },
+    {
+      "from": "FIN-015",
+      "to": "T-SETTLEMENT",
+      "type": "covers"
+    },
+    {
+      "from": "FIN-015",
+      "to": "T-RIGHTS",
+      "type": "covers"
+    },
+    {
+      "from": "FIN-015",
+      "to": "T-OPERATIONS",
+      "type": "covers"
+    },
+    {
+      "from": "FIN-016",
+      "to": "T-COLLATERAL",
+      "type": "covers"
+    },
+    {
+      "from": "FIN-016",
+      "to": "T-REGULATION",
+      "type": "covers"
+    },
+    {
+      "from": "SRC-CIRCLE-USDC-TERMS",
+      "to": "T-MONEY",
+      "type": "covers"
+    },
+    {
+      "from": "SRC-CIRCLE-USDC-TERMS",
+      "to": "T-FUNDING",
+      "type": "covers"
+    },
+    {
+      "from": "SRC-BOK-HANGANG",
+      "to": "T-MONEY",
+      "type": "covers"
+    },
+    {
+      "from": "SRC-BOK-HANGANG",
+      "to": "T-REGULATION",
+      "type": "covers"
+    },
+    {
+      "from": "SRC-OCC-GENIUS-FINAL",
+      "to": "T-MONEY",
+      "type": "covers"
+    },
+    {
+      "from": "SRC-OCC-GENIUS-FINAL",
+      "to": "T-REGULATION",
+      "type": "covers"
+    },
+    {
+      "from": "AI-001",
+      "to": "T-AI",
+      "type": "covers"
+    },
+    {
+      "from": "AI-002",
+      "to": "T-AI",
+      "type": "covers"
+    },
+    {
+      "from": "AI-003",
+      "to": "T-AI",
+      "type": "covers"
+    },
+    {
+      "from": "AI-004",
+      "to": "T-AI",
+      "type": "covers"
+    },
+    {
+      "from": "AI-005",
+      "to": "T-AI",
+      "type": "covers"
+    },
+    {
+      "from": "AI-006",
+      "to": "T-AI",
+      "type": "covers"
+    },
+    {
+      "from": "AI-007",
+      "to": "T-AI",
+      "type": "covers"
+    },
+    {
+      "from": "AI-008",
+      "to": "T-AI",
+      "type": "covers"
+    },
+    {
+      "from": "AI-009",
+      "to": "T-AI",
+      "type": "covers"
+    },
+    {
+      "from": "AI-010",
+      "to": "T-AI",
+      "type": "covers"
+    },
+    {
+      "from": "AI-011",
+      "to": "T-AI",
+      "type": "covers"
+    },
+    {
+      "from": "AI-012",
+      "to": "T-AI",
+      "type": "covers"
+    },
+    {
+      "from": "PRIOR-001",
+      "to": "T-COMPANIES",
+      "type": "covers"
+    },
+    {
+      "from": "PRIOR-001",
+      "to": "T-AI",
+      "type": "covers"
+    },
+    {
+      "from": "PRIOR-001",
+      "to": "T-MONEY",
+      "type": "covers"
+    },
+    {
+      "from": "PRIOR-002",
+      "to": "T-COMPANIES",
+      "type": "covers"
+    },
+    {
+      "from": "PRIOR-002",
+      "to": "T-AI",
+      "type": "covers"
+    },
+    {
+      "from": "PRIOR-002",
+      "to": "T-MONEY",
+      "type": "covers"
+    },
+    {
+      "from": "PRIOR-003",
+      "to": "T-COMPANIES",
+      "type": "covers"
+    },
+    {
+      "from": "PRIOR-003",
+      "to": "T-AI",
+      "type": "covers"
+    },
+    {
+      "from": "PRIOR-003",
+      "to": "T-MONEY",
+      "type": "covers"
+    },
+    {
+      "from": "FIN-006",
+      "to": "C-001",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "FIN-007",
+      "to": "C-001",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "FIN-008",
+      "to": "C-001",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-001",
+      "to": "T-REGULATION",
+      "type": "about"
+    },
+    {
+      "from": "FIN-002",
+      "to": "C-002",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-002",
+      "to": "T-MARKET",
+      "type": "about"
+    },
+    {
+      "from": "FIN-009",
+      "to": "C-003",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "FIN-015",
+      "to": "C-003",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-003",
+      "to": "T-SETTLEMENT",
+      "type": "about"
+    },
+    {
+      "from": "C-003",
+      "to": "T-OPERATIONS",
+      "type": "about"
+    },
+    {
+      "from": "FIN-004",
+      "to": "C-004",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-004",
+      "to": "T-MONEY",
+      "type": "about"
+    },
+    {
+      "from": "C-004",
+      "to": "T-SETTLEMENT",
+      "type": "about"
+    },
+    {
+      "from": "FIN-012",
+      "to": "C-005",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-005",
+      "to": "T-COLLATERAL",
+      "type": "about"
+    },
+    {
+      "from": "C-005",
+      "to": "T-REGULATION",
+      "type": "about"
+    },
+    {
+      "from": "FIN-011",
+      "to": "C-006",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-006",
+      "to": "T-RIGHTS",
+      "type": "about"
+    },
+    {
+      "from": "C-006",
+      "to": "T-OPERATIONS",
+      "type": "about"
+    },
+    {
+      "from": "FIN-003",
+      "to": "C-007",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "FIN-014",
+      "to": "C-007",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-007",
+      "to": "T-SETTLEMENT",
+      "type": "about"
+    },
+    {
+      "from": "C-007",
+      "to": "T-OPERATIONS",
+      "type": "about"
+    },
+    {
+      "from": "FIN-007",
+      "to": "C-008",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "FIN-008",
+      "to": "C-008",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "FIN-011",
+      "to": "C-008",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "FIN-015",
+      "to": "C-008",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-008",
+      "to": "T-RIGHTS",
+      "type": "about"
+    },
+    {
+      "from": "C-008",
+      "to": "T-OPERATIONS",
+      "type": "about"
+    },
+    {
+      "from": "C-008",
+      "to": "T-COMPANIES",
+      "type": "about"
+    },
+    {
+      "from": "FIN-001",
+      "to": "C-009",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "FIN-004",
+      "to": "C-009",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "FIN-010",
+      "to": "C-009",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "SRC-CIRCLE-USDC-TERMS",
+      "to": "C-009",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-009",
+      "to": "T-MONEY",
+      "type": "about"
+    },
+    {
+      "from": "C-009",
+      "to": "T-FUNDING",
+      "type": "about"
+    },
+    {
+      "from": "C-009",
+      "to": "T-SETTLEMENT",
+      "type": "about"
+    },
+    {
+      "from": "FIN-005",
+      "to": "C-010",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "FIN-012",
+      "to": "C-010",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "FIN-016",
+      "to": "C-010",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-010",
+      "to": "T-COLLATERAL",
+      "type": "about"
+    },
+    {
+      "from": "C-010",
+      "to": "T-OPERATIONS",
+      "type": "about"
+    },
+    {
+      "from": "FIN-001",
+      "to": "C-011",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "FIN-002",
+      "to": "C-011",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "PRIOR-001",
+      "to": "C-011",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-011",
+      "to": "T-MARKET",
+      "type": "about"
+    },
+    {
+      "from": "C-011",
+      "to": "T-FUNDING",
+      "type": "about"
+    },
+    {
+      "from": "C-011",
+      "to": "T-COMPANIES",
+      "type": "about"
+    },
+    {
+      "from": "C-012",
+      "to": "T-COMPANIES",
+      "type": "about"
+    },
+    {
+      "from": "SRC-BOK-HANGANG",
+      "to": "C-013",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-013",
+      "to": "T-MONEY",
+      "type": "about"
+    },
+    {
+      "from": "C-013",
+      "to": "T-REGULATION",
+      "type": "about"
+    },
+    {
+      "from": "SRC-OCC-GENIUS-FINAL",
+      "to": "C-014",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-014",
+      "to": "T-REGULATION",
+      "type": "about"
+    },
+    {
+      "from": "C-014",
+      "to": "T-MONEY",
+      "type": "about"
+    },
+    {
+      "from": "AI-008",
+      "to": "C-015",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "AI-009",
+      "to": "C-015",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "AI-011",
+      "to": "C-015",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "AI-012",
+      "to": "C-015",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-015",
+      "to": "T-AI",
+      "type": "about"
+    },
+    {
+      "from": "AI-003",
+      "to": "C-016",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "AI-006",
+      "to": "C-016",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "AI-007",
+      "to": "C-016",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-016",
+      "to": "T-AI",
+      "type": "about"
+    }
+  ]
+}

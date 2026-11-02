@@ -1,0 +1,44 @@
+{
+  "as_of": "2026-11-02",
+  "timezone": "Asia/Seoul",
+  "scope": "RWA·토큰화·온체인 금융환경 1차 공식자료 조사",
+  "method": "공식 원문 URL을 열고 본문 또는 명시한 절을 읽었다. 검색 결과만 확인한 자료는 sources에 포함하지 않았다. 공식 기관의 연구·발표와 연구자의 추론을 구분한다.",
+  "counts": {
+    "primary_source_records": 16,
+    "full_reports_read": 0,
+    "note": "보고서 전체 정독 16건이 아니다. 보고서 선택 절, 공식 요약 페이지, 정책 보도자료, 연설·FAQ·협의안을 포함한 원문 기록 16건이다. 최신 DTCC·BoE 2건을 추가했다."
+  },
+  "access_failures_not_counted": [
+    {
+      "url": "https://www.fsb.org/uploads/P221024-2.pdf",
+      "reason": "반복 시간초과. 공식 요약 페이지를 FIN-005로만 기록."
+    },
+    {
+      "url": "https://www.elibrary.imf.org/abstract/book/9798229055673/CH003.xml",
+      "reason": "403. 검색 결과에 보이는 본문은 정독·검증 자료로 계수하지 않음. FIN-002는 별도의 실제 열람 블로그."
+    },
+    {
+      "url": "https://www.elibrary.imf.org/view/journals/068/2026/001/article-A001-en.xml",
+      "reason": "403. 대신 IMF PDF의 선택 절을 FIN-001로 실제 읽음."
+    },
+    {
+      "url": "https://www.fdic.gov/news/press-releases/2026/agencies-clarify-capital-treatment-tokenized-securities",
+      "reason": "403. FRB 공동 FAQ 본문을 FIN-012로 실제 읽음."
+    },
+    {
+      "url": "https://www.info.gov.hk/gia/general/202511/13/P2025111300366.htm",
+      "reason": "읽을 수 있는 본문 없음. 2026년 HKMA 공식 연설 선택 부분을 FIN-010으로 기록."
+    },
+    {
+      "url": "https://www.bis.org/publ/othp110.pdf",
+      "reason": "보고서 소개 HTML로 이동. 보고서 PDF 전체를 읽었다고 주장하지 않음."
+    }
+  ],
+  "coverage_limits": [
+    "공개 원문 16개 기록의 목적표집이며 RWA·온체인 금융환경의 전수조사가 아니다.",
+    "최신 발행 자료는 BoE 2026-10-29 협의안과 DTCC 2026-10-28 출시 발표까지 확인했다. 각 분야의 가장 최신 발표를 모두 확보했다고 주장하지 않는다.",
+    "국내 법령 원문·보험업법·K-ICS·외국환·회계·세무 규정의 전면 검토는 포함하지 않았다.",
+    "기업별 실제 고객·지출·채용 완료·계약·순수익 판단은 별도 기업 신호 조사와 연결해야 한다.",
+    "원문 전체 파일을 저장하지 않았으며 공개 URL과 읽은 위치·범위를 기록했다."
+  ]
+}

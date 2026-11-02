@@ -1,0 +1,20 @@
+{
+  "as_of_kst": "2026-11-02",
+  "type": "initial_research_and_pipeline",
+  "execution": "실제 호스트 하위 에이전트 3개로 금융 공식자료·AI 도구·기존 GitHub 조사 수행, 후속 독립 검증, 총괄 병합",
+  "sources_registered": 34,
+  "finance_official_sources": 19,
+  "ai_project_candidates": 12,
+  "prior_public_sources": 3,
+  "claims": 16,
+  "candidate_scope": "환경 우선; 회사·직무의 현재 공식 신호 조사 미실행",
+  "review": "독립 코드 검토에서 필수 주제값·갱신 복구·ID 충돌·경로 검사 결함을 발견해 수정. 금융 분석의 단계·귀속도 검토.",
+  "unverified": [
+    "전체 GitHub 월별 인기 순위",
+    "AI 제품들의 실제 금융문서 성능·비용 비교",
+    "정기 자동 수집",
+    "개별 회사의 현재 채용·업무·수익성"
+  ],
+  "private_research_copied": false,
+  "scheduling_enabled": false
+}

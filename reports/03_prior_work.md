@@ -1,0 +1,21 @@
+# 10월 이후 기존 작업과 이번 연구의 연결
+
+연결에서 접근 가능한 63개 저장소의 기본 브랜치를 2026-10-01 KST 이후 커밋 기준으로 확인했다. 변경 11개, 해당 기간 커밋 없음 47개, 빈 저장소 5개였다. 비기본 브랜치·삭제 저장소 전수검사나 모든 코드 재실행을 의미하지 않는다.
+
+이번 공개 저장소에는 이미 공개된 연구와 재확인한 공식 원문만 연결한다. 비공개 원문·개인 필기·지원서·비공개 경로 색인은 옮기지 않았다.
+
+| 기존 공개 작업 | 이어받을 것 | 다시 확인할 것 |
+|---|---|---|
+| [11월 1일 금융환경 종합](https://github.com/Eom-TaeJun/2026-10/blob/5e4dd5143a57fda97f33151d0e284ba7f7b5576d/reports/digital-finance-institutional-response-2026-11-01.md) | 고객 거래 → 권리·현금 → 기관 손익 → 경쟁 가설 → 다음 관측의 틀 | 최근 공식 발표·시행 상태·실제 계약과 비용 |
+| [STO·AI 연구 안내](https://github.com/Eom-TaeJun/sto-ai-frontier/blob/d64f570467204e2fdfa5be86ea456a501191b9f8/reports/README.md) | 기존 연구와 실험의 위치, 중복 작업 회피 | 합성 사례와 실제 운영의 구분, 재실행 여부 |
+| [교보 적용의 조건부 전략](https://github.com/Eom-TaeJun/sto-ai-frontier/blob/d64f570467204e2fdfa5be86ea456a501191b9f8/docs/KYOBO_PROFIT_STRATEGY.md) | 고객 문제·수익 조건·업무 가설 | 현재 조직·채용·공식 사업 신호; 회사 확정 전략과 구분 |
+
+## 이번에 실제로 이어 읽은 공개 원문
+
+금융위 87838은 FIN-008에 통합했다. 다른 URL에서 같은 문서를 확인한 것이므로 독립 증거로 두 번 세지 않았다. Circle USDC 약관, 한국은행 한강 설명, OCC 10월21일 발표는 각각 SRC-CIRCLE-USDC-TERMS, SRC-BOK-HANGANG, SRC-OCC-GENIUS-FINAL로 기록했다.
+
+## 이번 조사가 더한 것
+
+기존 금융 논리를 출처·주장·주제의 구조화된 원장과 연결했고, 최근 IMF·BIS·ECB·DTCC·BoE·국내 정책 자료의 확인 범위를 추가했다. 2026년 AI 도구는 목적별 후보의 월별 이력과 최신판을 비교했다. 경제적 성과나 검색 품질이 이전보다 좋아졌다는 주장은 하지 않는다.
+
+[공개 파일 고정 SHA 색인](../data/prior_public_index.json) · [현재 금융 분석](01_financial_environment.md) · [자료 목록](../sources/README.md)

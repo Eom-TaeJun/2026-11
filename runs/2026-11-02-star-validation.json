@@ -1,0 +1,508 @@
+{
+  "schema_version": 1,
+  "as_of_date": "2026-11-02",
+  "year": 2026,
+  "method": "GitHub history observed at snapshot time, grouped by star creation-date labels derived from week epochs; UTC/KST boundaries and removed-star treatment are not guaranteed. Not historical net growth or global ranking.",
+  "global_monthly_rank_verified": false,
+  "valid": true,
+  "global_errors": [],
+  "monthly_stars": [
+    {
+      "repo": "NousResearch/hermes-agent",
+      "monthly_history_counts": {
+        "2026-01": 0,
+        "2026-02": 1147,
+        "2026-03": 18799,
+        "2026-04": 103880,
+        "2026-05": 47724,
+        "2026-06": 31762,
+        "2026-07": 17394,
+        "2026-08": 16429,
+        "2026-09": 11948,
+        "2026-10": 10158,
+        "2026-11": 327
+      },
+      "month_status": {
+        "2026-01": "covered_api_calendar_labels",
+        "2026-02": "covered_api_calendar_labels",
+        "2026-03": "covered_api_calendar_labels",
+        "2026-04": "covered_api_calendar_labels",
+        "2026-05": "covered_api_calendar_labels",
+        "2026-06": "covered_api_calendar_labels",
+        "2026-07": "covered_api_calendar_labels",
+        "2026-08": "covered_api_calendar_labels",
+        "2026-09": "covered_api_calendar_labels",
+        "2026-10": "covered_api_calendar_labels",
+        "2026-11": "partial_current_month"
+      },
+      "observed_at_utc": "2026-11-02T04:47:40.6071477+00:00",
+      "source_urls": [
+        "https://api.github.com/repos/NousResearch/hermes-agent/stargazers/history?per_page=30&page=1",
+        "https://api.github.com/repos/NousResearch/hermes-agent/stargazers/history?per_page=30&page=2"
+      ]
+    },
+    {
+      "repo": "HKUDS/LightRAG",
+      "monthly_history_counts": {
+        "2026-01": 947,
+        "2026-02": 1055,
+        "2026-03": 2497,
+        "2026-04": 3354,
+        "2026-05": 1445,
+        "2026-06": 1235,
+        "2026-07": 1254,
+        "2026-08": 981,
+        "2026-09": 692,
+        "2026-10": 616,
+        "2026-11": 18
+      },
+      "month_status": {
+        "2026-01": "covered_api_calendar_labels",
+        "2026-02": "covered_api_calendar_labels",
+        "2026-03": "covered_api_calendar_labels",
+        "2026-04": "covered_api_calendar_labels",
+        "2026-05": "covered_api_calendar_labels",
+        "2026-06": "covered_api_calendar_labels",
+        "2026-07": "covered_api_calendar_labels",
+        "2026-08": "covered_api_calendar_labels",
+        "2026-09": "covered_api_calendar_labels",
+        "2026-10": "covered_api_calendar_labels",
+        "2026-11": "partial_current_month"
+      },
+      "observed_at_utc": "2026-11-02T04:47:43.9595734+00:00",
+      "source_urls": [
+        "https://api.github.com/repos/HKUDS/LightRAG/stargazers/history?per_page=30&page=1",
+        "https://api.github.com/repos/HKUDS/LightRAG/stargazers/history?per_page=30&page=2"
+      ]
+    },
+    {
+      "repo": "microsoft/graphrag",
+      "monthly_history_counts": {
+        "2026-01": 616,
+        "2026-02": 546,
+        "2026-03": 818,
+        "2026-04": 817,
+        "2026-05": 733,
+        "2026-06": 780,
+        "2026-07": 1075,
+        "2026-08": 686,
+        "2026-09": 460,
+        "2026-10": 385,
+        "2026-11": 20
+      },
+      "month_status": {
+        "2026-01": "covered_api_calendar_labels",
+        "2026-02": "covered_api_calendar_labels",
+        "2026-03": "covered_api_calendar_labels",
+        "2026-04": "covered_api_calendar_labels",
+        "2026-05": "covered_api_calendar_labels",
+        "2026-06": "covered_api_calendar_labels",
+        "2026-07": "covered_api_calendar_labels",
+        "2026-08": "covered_api_calendar_labels",
+        "2026-09": "covered_api_calendar_labels",
+        "2026-10": "covered_api_calendar_labels",
+        "2026-11": "partial_current_month"
+      },
+      "observed_at_utc": "2026-11-02T04:47:45.0290582+00:00",
+      "source_urls": [
+        "https://api.github.com/repos/microsoft/graphrag/stargazers/history?per_page=30&page=1",
+        "https://api.github.com/repos/microsoft/graphrag/stargazers/history?per_page=30&page=2"
+      ]
+    },
+    {
+      "repo": "langchain-ai/langgraph",
+      "monthly_history_counts": {
+        "2026-01": 1321,
+        "2026-02": 1231,
+        "2026-03": 2795,
+        "2026-04": 2887,
+        "2026-05": 2619,
+        "2026-06": 2695,
+        "2026-07": 2476,
+        "2026-08": 2294,
+        "2026-09": 1784,
+        "2026-10": 1837,
+        "2026-11": 55
+      },
+      "month_status": {
+        "2026-01": "covered_api_calendar_labels",
+        "2026-02": "covered_api_calendar_labels",
+        "2026-03": "covered_api_calendar_labels",
+        "2026-04": "covered_api_calendar_labels",
+        "2026-05": "covered_api_calendar_labels",
+        "2026-06": "covered_api_calendar_labels",
+        "2026-07": "covered_api_calendar_labels",
+        "2026-08": "covered_api_calendar_labels",
+        "2026-09": "covered_api_calendar_labels",
+        "2026-10": "covered_api_calendar_labels",
+        "2026-11": "partial_current_month"
+      },
+      "observed_at_utc": "2026-11-02T04:47:46.9119848+00:00",
+      "source_urls": [
+        "https://api.github.com/repos/langchain-ai/langgraph/stargazers/history?per_page=30&page=1",
+        "https://api.github.com/repos/langchain-ai/langgraph/stargazers/history?per_page=30&page=2"
+      ]
+    },
+    {
+      "repo": "langchain-ai/deepagents",
+      "monthly_history_counts": {
+        "2026-01": 1065,
+        "2026-02": 979,
+        "2026-03": 8555,
+        "2026-04": 3625,
+        "2026-05": 1614,
+        "2026-06": 1933,
+        "2026-07": 1746,
+        "2026-08": 1677,
+        "2026-09": 1162,
+        "2026-10": 1024,
+        "2026-11": 42
+      },
+      "month_status": {
+        "2026-01": "covered_api_calendar_labels",
+        "2026-02": "covered_api_calendar_labels",
+        "2026-03": "covered_api_calendar_labels",
+        "2026-04": "covered_api_calendar_labels",
+        "2026-05": "covered_api_calendar_labels",
+        "2026-06": "covered_api_calendar_labels",
+        "2026-07": "covered_api_calendar_labels",
+        "2026-08": "covered_api_calendar_labels",
+        "2026-09": "covered_api_calendar_labels",
+        "2026-10": "covered_api_calendar_labels",
+        "2026-11": "partial_current_month"
+      },
+      "observed_at_utc": "2026-11-02T04:47:48.3026365+00:00",
+      "source_urls": [
+        "https://api.github.com/repos/langchain-ai/deepagents/stargazers/history?per_page=30&page=1",
+        "https://api.github.com/repos/langchain-ai/deepagents/stargazers/history?per_page=30&page=2"
+      ]
+    },
+    {
+      "repo": "infiniflow/ragflow",
+      "monthly_history_counts": {
+        "2026-01": 1872,
+        "2026-02": 1493,
+        "2026-03": 2944,
+        "2026-04": 2687,
+        "2026-05": 2473,
+        "2026-06": 2516,
+        "2026-07": 2677,
+        "2026-08": 3412,
+        "2026-09": 1952,
+        "2026-10": 1919,
+        "2026-11": 52
+      },
+      "month_status": {
+        "2026-01": "covered_api_calendar_labels",
+        "2026-02": "covered_api_calendar_labels",
+        "2026-03": "covered_api_calendar_labels",
+        "2026-04": "covered_api_calendar_labels",
+        "2026-05": "covered_api_calendar_labels",
+        "2026-06": "covered_api_calendar_labels",
+        "2026-07": "covered_api_calendar_labels",
+        "2026-08": "covered_api_calendar_labels",
+        "2026-09": "covered_api_calendar_labels",
+        "2026-10": "covered_api_calendar_labels",
+        "2026-11": "partial_current_month"
+      },
+      "observed_at_utc": "2026-11-02T04:47:49.3099697+00:00",
+      "source_urls": [
+        "https://api.github.com/repos/infiniflow/ragflow/stargazers/history?per_page=30&page=1",
+        "https://api.github.com/repos/infiniflow/ragflow/stargazers/history?per_page=30&page=2"
+      ]
+    },
+    {
+      "repo": "Tencent/WeKnora",
+      "monthly_history_counts": {
+        "2026-01": 1954,
+        "2026-02": 493,
+        "2026-03": 574,
+        "2026-04": 489,
+        "2026-05": 1722,
+        "2026-06": 1762,
+        "2026-07": 1660,
+        "2026-08": 1914,
+        "2026-09": 10491,
+        "2026-10": 4735,
+        "2026-11": 72
+      },
+      "month_status": {
+        "2026-01": "covered_api_calendar_labels",
+        "2026-02": "covered_api_calendar_labels",
+        "2026-03": "covered_api_calendar_labels",
+        "2026-04": "covered_api_calendar_labels",
+        "2026-05": "covered_api_calendar_labels",
+        "2026-06": "covered_api_calendar_labels",
+        "2026-07": "covered_api_calendar_labels",
+        "2026-08": "covered_api_calendar_labels",
+        "2026-09": "covered_api_calendar_labels",
+        "2026-10": "covered_api_calendar_labels",
+        "2026-11": "partial_current_month"
+      },
+      "observed_at_utc": "2026-11-02T04:47:50.9089884+00:00",
+      "source_urls": [
+        "https://api.github.com/repos/Tencent/WeKnora/stargazers/history?per_page=30&page=1",
+        "https://api.github.com/repos/Tencent/WeKnora/stargazers/history?per_page=30&page=2"
+      ]
+    },
+    {
+      "repo": "ddsyasas/llm-wiki",
+      "monthly_history_counts": {
+        "2026-01": null,
+        "2026-02": null,
+        "2026-03": null,
+        "2026-04": null,
+        "2026-05": 17,
+        "2026-06": 6,
+        "2026-07": 10,
+        "2026-08": 9,
+        "2026-09": 14,
+        "2026-10": 11,
+        "2026-11": 0
+      },
+      "month_status": {
+        "2026-01": "repository_not_created",
+        "2026-02": "repository_not_created",
+        "2026-03": "repository_not_created",
+        "2026-04": "repository_not_created",
+        "2026-05": "covered_api_calendar_labels",
+        "2026-06": "covered_api_calendar_labels",
+        "2026-07": "covered_api_calendar_labels",
+        "2026-08": "covered_api_calendar_labels",
+        "2026-09": "covered_api_calendar_labels",
+        "2026-10": "covered_api_calendar_labels",
+        "2026-11": "partial_current_month"
+      },
+      "observed_at_utc": "2026-11-02T04:47:52.2105110+00:00",
+      "source_urls": [
+        "https://api.github.com/repos/ddsyasas/llm-wiki/stargazers/history?per_page=30&page=1"
+      ]
+    },
+    {
+      "repo": "getzep/graphiti",
+      "monthly_history_counts": {
+        "2026-01": 908,
+        "2026-02": 756,
+        "2026-03": 1271,
+        "2026-04": 1213,
+        "2026-05": 1276,
+        "2026-06": 1412,
+        "2026-07": 1259,
+        "2026-08": 1120,
+        "2026-09": 904,
+        "2026-10": 1149,
+        "2026-11": 18
+      },
+      "month_status": {
+        "2026-01": "covered_api_calendar_labels",
+        "2026-02": "covered_api_calendar_labels",
+        "2026-03": "covered_api_calendar_labels",
+        "2026-04": "covered_api_calendar_labels",
+        "2026-05": "covered_api_calendar_labels",
+        "2026-06": "covered_api_calendar_labels",
+        "2026-07": "covered_api_calendar_labels",
+        "2026-08": "covered_api_calendar_labels",
+        "2026-09": "covered_api_calendar_labels",
+        "2026-10": "covered_api_calendar_labels",
+        "2026-11": "partial_current_month"
+      },
+      "observed_at_utc": "2026-11-02T04:47:53.2157841+00:00",
+      "source_urls": [
+        "https://api.github.com/repos/getzep/graphiti/stargazers/history?per_page=30&page=1",
+        "https://api.github.com/repos/getzep/graphiti/stargazers/history?per_page=30&page=2"
+      ]
+    },
+    {
+      "repo": "docling-project/docling",
+      "monthly_history_counts": {
+        "2026-01": 3187,
+        "2026-02": 2816,
+        "2026-03": 2443,
+        "2026-04": 2138,
+        "2026-05": 1935,
+        "2026-06": 1785,
+        "2026-07": 1741,
+        "2026-08": 1880,
+        "2026-09": 2488,
+        "2026-10": 1849,
+        "2026-11": 41
+      },
+      "month_status": {
+        "2026-01": "covered_api_calendar_labels",
+        "2026-02": "covered_api_calendar_labels",
+        "2026-03": "covered_api_calendar_labels",
+        "2026-04": "covered_api_calendar_labels",
+        "2026-05": "covered_api_calendar_labels",
+        "2026-06": "covered_api_calendar_labels",
+        "2026-07": "covered_api_calendar_labels",
+        "2026-08": "covered_api_calendar_labels",
+        "2026-09": "covered_api_calendar_labels",
+        "2026-10": "covered_api_calendar_labels",
+        "2026-11": "partial_current_month"
+      },
+      "observed_at_utc": "2026-11-02T04:47:54.5246316+00:00",
+      "source_urls": [
+        "https://api.github.com/repos/docling-project/docling/stargazers/history?per_page=30&page=1",
+        "https://api.github.com/repos/docling-project/docling/stargazers/history?per_page=30&page=2"
+      ]
+    },
+    {
+      "repo": "promptfoo/promptfoo",
+      "monthly_history_counts": {
+        "2026-01": 558,
+        "2026-02": 495,
+        "2026-03": 8067,
+        "2026-04": 1851,
+        "2026-05": 1054,
+        "2026-06": 1079,
+        "2026-07": 1040,
+        "2026-08": 948,
+        "2026-09": 933,
+        "2026-10": 1164,
+        "2026-11": 40
+      },
+      "month_status": {
+        "2026-01": "covered_api_calendar_labels",
+        "2026-02": "covered_api_calendar_labels",
+        "2026-03": "covered_api_calendar_labels",
+        "2026-04": "covered_api_calendar_labels",
+        "2026-05": "covered_api_calendar_labels",
+        "2026-06": "covered_api_calendar_labels",
+        "2026-07": "covered_api_calendar_labels",
+        "2026-08": "covered_api_calendar_labels",
+        "2026-09": "covered_api_calendar_labels",
+        "2026-10": "covered_api_calendar_labels",
+        "2026-11": "partial_current_month"
+      },
+      "observed_at_utc": "2026-11-02T04:47:55.9270951+00:00",
+      "source_urls": [
+        "https://api.github.com/repos/promptfoo/promptfoo/stargazers/history?per_page=30&page=1",
+        "https://api.github.com/repos/promptfoo/promptfoo/stargazers/history?per_page=30&page=2"
+      ]
+    },
+    {
+      "repo": "tobi/qmd",
+      "monthly_history_counts": {
+        "2026-01": 4319,
+        "2026-02": 6020,
+        "2026-03": 6180,
+        "2026-04": 6331,
+        "2026-05": 2177,
+        "2026-06": 1440,
+        "2026-07": 1232,
+        "2026-08": 1001,
+        "2026-09": 774,
+        "2026-10": 722,
+        "2026-11": 14
+      },
+      "month_status": {
+        "2026-01": "covered_api_calendar_labels",
+        "2026-02": "covered_api_calendar_labels",
+        "2026-03": "covered_api_calendar_labels",
+        "2026-04": "covered_api_calendar_labels",
+        "2026-05": "covered_api_calendar_labels",
+        "2026-06": "covered_api_calendar_labels",
+        "2026-07": "covered_api_calendar_labels",
+        "2026-08": "covered_api_calendar_labels",
+        "2026-09": "covered_api_calendar_labels",
+        "2026-10": "covered_api_calendar_labels",
+        "2026-11": "partial_current_month"
+      },
+      "observed_at_utc": "2026-11-02T04:47:56.9823983+00:00",
+      "source_urls": [
+        "https://api.github.com/repos/tobi/qmd/stargazers/history?per_page=30&page=1",
+        "https://api.github.com/repos/tobi/qmd/stargazers/history?per_page=30&page=2"
+      ]
+    }
+  ],
+  "star_validation": [
+    {
+      "repo": "NousResearch/hermes-agent",
+      "weeks": 60,
+      "checks_passed": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "repo": "HKUDS/LightRAG",
+      "weeks": 60,
+      "checks_passed": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "repo": "microsoft/graphrag",
+      "weeks": 60,
+      "checks_passed": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "repo": "langchain-ai/langgraph",
+      "weeks": 60,
+      "checks_passed": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "repo": "langchain-ai/deepagents",
+      "weeks": 60,
+      "checks_passed": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "repo": "infiniflow/ragflow",
+      "weeks": 60,
+      "checks_passed": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "repo": "Tencent/WeKnora",
+      "weeks": 60,
+      "checks_passed": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "repo": "ddsyasas/llm-wiki",
+      "weeks": 25,
+      "checks_passed": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "repo": "getzep/graphiti",
+      "weeks": 60,
+      "checks_passed": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "repo": "docling-project/docling",
+      "weeks": 60,
+      "checks_passed": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "repo": "promptfoo/promptfoo",
+      "weeks": 60,
+      "checks_passed": true,
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "repo": "tobi/qmd",
+      "weeks": 48,
+      "checks_passed": true,
+      "errors": [],
+      "warnings": []
+    }
+  ],
+  "comparison": {
+    "matches": true,
+    "differences": []
+  }
+}
