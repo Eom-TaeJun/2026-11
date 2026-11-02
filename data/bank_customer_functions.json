@@ -1,0 +1,281 @@
+{
+  "as_of": "2026-11-02",
+  "target_entity": "BNK경남은행",
+  "region_function_matrix": [
+    {
+      "function": "은행 조달",
+      "customer": "지역 제조업 운영계좌·급여, 소상공인 결제·정산계좌",
+      "source_ids": [
+        "NOV-M01",
+        "KN-002",
+        "KN-004"
+      ],
+      "facts": "소상공인 결제 관련 제휴 발표와 금리 환경 확인. 고객 운영예금의 실제 이동은 미확인.",
+      "hypothesis": "거래계좌를 결제·급여·정산 업무와 연결해 유지할 경우 조달 및 교차판매 가치가 남을 수 있다. 플랫폼이 유통을 지배하면 잔액이 남아도 보상금리·제휴 수수료가 높아질 수 있다.",
+      "payer_and_beneficiary": "고객은 서비스 대가·기회비용을 부담하고 은행은 조달가치·서비스 수입을 얻을 수 있다. 플랫폼은 배분 계약에 따라 이익을 얻는다.",
+      "costs": "예금 보상·획득/제휴비·유동성 관리·운영비·집중 위험",
+      "observe": "경남은행별 평균 결제성 예금, 유효 조달금리, 잔액 잔존기간, 제휴비 차감 기여이익; 공개 분기 공시는 대리변수일 수 있음",
+      "comparator": "기존 계좌+API·자동이체; 예금토큰 전환 자체는 순예금 유출입 증거가 아님"
+    },
+    {
+      "function": "여신·기업금융",
+      "customer": "조선·기계·방산 등 지역 제조업과 수출 중소·중견기업",
+      "source_ids": [
+        "KN-001",
+        "KN-002",
+        "KN-003",
+        "KN-007",
+        "KN-008"
+      ],
+      "facts": "그룹 산업 펀드·개별 제조업 고객 선정·수출 우대금융·정책융자 접수 채널 확인.",
+      "hypothesis": "주문·생산·납품·대금회수 간 시차와 보증조건을 이해하는 지역 관계금융이 필요하다. 디지털 증빙이 서류처리 마찰을 낮출 여지는 있으나 채무자의 상환능력이나 법적 회수권을 자동 개선하지 않는다.",
+      "payer_and_beneficiary": "기업 이자/수수료, 은행 신용마진, 무보 보증과 공공 지원의 비용·위험 분담을 각각 계산",
+      "costs": "조달비·예상 신용손실·자본비용·심사/현장검증·보증료 지원·사후관리",
+      "observe": "실제 신규 실행·회수액, 업종/고객 집중, 보증 이후 잔여손실, 순이자·수수료에서 지원 및 운영비를 차감한 결과",
+      "comparator": "기존 관계형 심사+전자문서·보증 연계; 토큰화 여신 상용사업은 미확인"
+    },
+    {
+      "function": "지급·외환",
+      "customer": "지역 소상공인, 수출입기업 및 원화 급여·세금을 지급하는 기업",
+      "source_ids": [
+        "KN-002",
+        "KN-003",
+        "KN-005",
+        "KN-006"
+      ],
+      "facts": "경남은행의 외국환 수수료 우대 약속과 지역 수출금융 프로그램 확인. 신한의 해외송금은 PoC.",
+      "hypothesis": "지역 고객의 반복 수출입·외화수취 문제를 확인하면 해외 연계 연구로 확장할 수 있다. 송금 토큰만 도착해도 기업이 쓸 은행 현금 입금·FX·반환·준법이 끝난 것은 아니다.",
+      "payer_and_beneficiary": "기업의 총 지불액·은행 순수수료·네트워크/유통 사업자 몫을 분리",
+      "costs": "환전/헤지·중개·현지 지급·선입금·수탁·AML·예외/반환·시스템 비용",
+      "observe": "동일 통화·회랑·금액·고객 승인 흐름의 수취 은행 현금 도착시간, 총 비용, 실패/반환률; 기존 송금 및 계좌 API와 동시 비교",
+      "comparator": "기존 외환/은행 송금, 계좌 API, 시험 승인 범위 내 새 정산망"
+    },
+    {
+      "function": "대사·통제·공공자금",
+      "customer": "정책융자 신청 기업·지자체/공공 지출 주체·가맹점",
+      "source_ids": [
+        "NOV-KR-007",
+        "SRC-BOK-HANGANG",
+        "KN-005",
+        "KN-007"
+      ],
+      "facts": "예금토큰 시험 허용, KB의 국고금 집행 실무 검증 계획, 경남은행 정책융자 접수 사례는 서로 다른 사업.",
+      "hypothesis": "승인·지급목적·수취·반환의 연결이 반복 대사와 오류를 줄이는지 검증할 수 있다. 경남은행의 해당 토큰 기반 공공사업 실행은 확인하지 못했다.",
+      "payer_and_beneficiary": "은행·공공기관·고객 중 시스템 비용 부담자와 절감 수혜자가 다를 수 있음",
+      "costs": "양쪽 원장 대사·접근권한·개인정보·사람 승인·장애복구·감사·반환 처리",
+      "observe": "같은 완료업무당 총 인시와 예외처리, 승인되지 않은 지급·누락·복구시간; 토큰 전송 완료와 최종 은행 잔액 대사",
+      "comparator": "기존 정책자금 시스템+전자문서/API; 법적 권리·감사 요건은 동일하게 유지"
+    }
+  ],
+  "numeric_observations": [
+    {
+      "value": 3,
+      "unit": "%",
+      "metric": "한국은행 기준금리",
+      "period": "2026-10-22 결정",
+      "entity": "한국은행",
+      "kind": "policy_rate",
+      "source_id": "NOV-M01"
+    },
+    {
+      "value": 500,
+      "unit": "억원",
+      "metric": "생산적금융 전략 펀드 결성규모",
+      "period": "2026-07-01 발표",
+      "entity": "BNK 4개 계열사 공동",
+      "kind": "announced_fund_size",
+      "source_id": "KN-001"
+    },
+    {
+      "value": 5,
+      "unit": "억원",
+      "metric": "수출 우대금융 재원인 은행 출연금",
+      "period": "2026-10-15 발표",
+      "entity": "BNK경남은행",
+      "kind": "announced_contribution",
+      "source_id": "KN-003"
+    },
+    {
+      "value": 78,
+      "unit": "억원",
+      "metric": "수출 우대금융 공급 규모",
+      "period": "2026-10-15 발표",
+      "entity": "무보·경남은행 지원 프로그램",
+      "kind": "announced_program_capacity_not_disbursement",
+      "source_id": "KN-003"
+    },
+    {
+      "value": 2355,
+      "unit": "억원",
+      "metric": "당기순이익",
+      "period": "2026년 1~3분기 누적",
+      "entity": "BNK경남은행",
+      "kind": "reported_result",
+      "source_id": "KN-004"
+    },
+    {
+      "value": 2495,
+      "unit": "억원",
+      "metric": "당기순이익 비교기간",
+      "period": "2025년 1~3분기 누적",
+      "entity": "BNK경남은행",
+      "kind": "reported_result",
+      "source_id": "KN-004"
+    },
+    {
+      "value": 12.18,
+      "unit": "%",
+      "metric": "보통주자본비율",
+      "period": "2026년 3분기말",
+      "entity": "BNK금융그룹",
+      "kind": "reported_result",
+      "source_id": "KN-004"
+    },
+    {
+      "value": 1.4,
+      "unit": "%",
+      "metric": "연체대출채권비율",
+      "period": "2026년 3분기말",
+      "entity": "BNK금융그룹",
+      "kind": "reported_result",
+      "source_id": "KN-004"
+    }
+  ],
+  "peer_comparison": [
+    {
+      "entity": "BNK경남은행",
+      "signal": "예금토큰 신규 시험 지정 + 지역 고객·수출금융 협약",
+      "source_ids": [
+        "NOV-KR-007",
+        "KN-002",
+        "KN-003"
+      ],
+      "inference": "실제 고객 업무와 시험 참여를 연결할 조건 조사",
+      "not_proven": "상용화·수익·전담 인력"
+    },
+    {
+      "entity": "BNK부산은행",
+      "signal": "한강 기존 지정의 변경 대상",
+      "source_ids": [
+        "NOV-KR-007"
+      ],
+      "inference": "같은 그룹에서도 참여 이력이 다름",
+      "not_proven": "경남은행과 동일 운영 역량·업무 분담"
+    },
+    {
+      "entity": "KB국민은행",
+      "signal": "PG 가맹점망·국고금 집행 연계 발표",
+      "source_ids": [
+        "KN-005"
+      ],
+      "inference": "유통망/기존 단말 연결을 비교 기준으로 활용",
+      "not_proven": "비용 절감 실현·전체 가맹점 이용"
+    },
+    {
+      "entity": "신한은행",
+      "signal": "기존 기업뱅킹 접점의 스테이블코인 송금 PoC 완료",
+      "source_ids": [
+        "KN-006"
+      ],
+      "inference": "고객 화면과 후단 정산기술을 분리할 수 있다는 설계 사례",
+      "not_proven": "실서비스·경남은행 채택"
+    },
+    {
+      "entity": "농협은행·기업은행",
+      "signal": "함안군 정책융자 공동 접수처",
+      "source_ids": [
+        "KN-007"
+      ],
+      "inference": "지역 정책자금 고객은 지방은행의 독점 고객이 아님",
+      "not_proven": "접수기관별 실행액·시장점유율"
+    }
+  ],
+  "competing_scenarios": [
+    {
+      "id": "KN-H1",
+      "horizon": "향후 6~24개월, 실제 시험/서비스 시작 이후 관측",
+      "type": "conditional_forecast",
+      "path": "은행의 고객 접점 유지",
+      "assumptions": [
+        "지역 기업의 신용·원화 현금·외환 수요가 지속",
+        "은행이 정산 편의와 거래계좌를 묶어 제공",
+        "제휴 후 순편익이 양수"
+      ],
+      "prediction": "반복 결제/수출금융 고객의 계좌 잔존과 업무 완결성이 개선될 수 있음",
+      "falsification": "비슷한 고객·금리조건의 기존 경로 대비 잔존/업무완료가 개선되지 않거나 제휴·운영·위험비 차감 기여이익이 악화되면 확대 가정을 수정",
+      "alternative_explanation": "금리 우대·보조금·지역 경기 회복으로도 고객/잔액 증가 가능",
+      "action": "공통 데이터 정의와 작은 고객군 비교부터 준비"
+    },
+    {
+      "id": "KN-H2",
+      "horizon": "향후 6~24개월, 실제 유통 계약과 사용이 발생한 이후",
+      "type": "conditional_forecast",
+      "path": "플랫폼이 고객 선택과 수익 배분을 더 많이 통제",
+      "assumptions": [
+        "고객이 은행 간 이동하기 쉬움",
+        "플랫폼이 가격·노출·데이터 접근을 통제",
+        "은행이 보상·유통 대가를 높여야 함"
+      ],
+      "prediction": "은행 잔액 유지와 수익성 약화가 함께 나타날 수 있음",
+      "falsification": "은행 자체/비독점 채널에서도 고객 잔존이 유지되고 계약 배분·조달비가 안정되면 강한 플랫폼 지배 경로는 약해짐",
+      "alternative_explanation": "일반 금리경쟁으로 조달비가 오르는 경우와 구별",
+      "action": "독점·가격결정·데이터 사용·이관 조항과 고객별 실효 조달비 확인"
+    },
+    {
+      "id": "KN-H3",
+      "horizon": "첫 비교 시험 및 후속 관측기간",
+      "type": "conditional_forecast",
+      "path": "기존 계좌/API가 비용 대비 더 적합",
+      "assumptions": [
+        "보증 심사·FX·최종 은행 현금·예외처리가 주요 병목",
+        "새 원장 유지와 준법·복구 비용이 큼"
+      ],
+      "prediction": "온체인 처리만 빨라도 동일 최종 업무 비용/시간 개선이 제한될 수 있음",
+      "falsification": "같은 권리·신용·통제·현금 도착 기준에서 새 경로가 반복적으로 총비용과 예외를 낮추면 이 경로를 수정",
+      "alternative_explanation": "초기 구축비·학습기간은 정상 운영비와 구분",
+      "action": "기존 경로를 기준선으로 유지하고 확인된 병목에만 시험"
+    }
+  ],
+  "expansion_gate_for_export_fx": {
+    "priority": "지역 고객 분석의 2차 확장",
+    "reason": "공식 수출금융·외국환 수수료 지원은 해외 연계 고객 수요가 있음을 뒷받침한다.",
+    "required_observations": [
+      "대상 고객·수출입 회랑·통화·반복 지급/수취 규모",
+      "현재 총 비용과 은행 현금 도착·반환 문제",
+      "실제 거래 가능한 상대 은행/중개기관과 법적 허용 범위",
+      "FX·보증·대출·예금의 결합 후 비용과 수익 귀속"
+    ],
+    "not_required": "경남은행 자체의 해외 법인 확장을 먼저 가정할 필요는 없다.",
+    "not_established": "현재 해외 지점·법인 전체 목록은 조사하지 않았으므로 해외사업이 없다고 결론내릴 수 없다."
+  },
+  "gaps_and_access_limits": [
+    {
+      "item": "BNK 2026년 3분기 IR PDF",
+      "url": "https://www.bnkfg.com/download?seq=6765",
+      "status": "timeout",
+      "consequence": "동일 시점 공식 HTML 실적발표는 읽었으나 경남은행별 NIM·예금구성·업종별 대출은 보완 필요"
+    },
+    {
+      "item": "창원시 기업지원 안내 PDF",
+      "url": "https://www.changwon.go.kr/cwportal/_res/biz/data/pdf/p11159_down01_2026_1.pdf",
+      "status": "timeout",
+      "consequence": "검색 요약을 FX 실무체계 근거로 채택하지 않음"
+    },
+    {
+      "item": "경남은행 뉴스 상세 화면",
+      "url": "https://www.knbank.co.kr/ib20/mnu/BHPBKI020300000",
+      "status": "listing_only",
+      "consequence": "제목/날짜/요약만 공식 증거로 사용"
+    },
+    {
+      "item": "기업별 인사·직무 배치",
+      "status": "not_investigated",
+      "consequence": "본사업무를 특정 신사업 팀 배치로 해석하지 않음"
+    },
+    {
+      "item": "상용화·실제 경제성",
+      "status": "not_observed_in_reviewed_sources",
+      "consequence": "관측 공백은 사업 부재·실패 증거가 아님"
+    }
+  ]
+}

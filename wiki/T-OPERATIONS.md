@@ -92,6 +92,14 @@ ECB 2026년 4월 연구는 소규모 유럽 중심 매칭 표본에서 발행 �
 
 다음 관측: 공식 결정 후 인가·현금 기한·반복 유료 사용을 확인. 세 조건이 함께 검증되면 지연·분절 판단을 완화하고 제한적 확대를 검토한다.
 
+### C-043 · institution_statement · active
+
+Bittime은 2026-05 Nobu 가상계좌 이용 가능과 9월 결제망 정비에 따른 일시중단·대체 경로를 발표했다.
+
+근거: [HWA-GEO-006](../sources/cards/HWA-GEO-006.md), [HWA-GEO-007](../sources/cards/HWA-GEO-007.md)
+
+한계: 사업자 측 발표다. 기준일 현재 서비스 상태·거래량·수익·Nobu의 토큰 발행 권한은 미확인. 9월 공지를 현재 장애로 읽지 않는다.
+
 ## 관련 원문
 
 - [FIN-001 · Tokenized Finance](../sources/cards/FIN-001.md)

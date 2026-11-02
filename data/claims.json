@@ -192,12 +192,12 @@
     "id": "C-012",
     "kind": "unknown",
     "status": "active",
-    "text": "교보증권·경남은행·한화생명의 현재 조직·직무·권한·자원 투입은 미확인이다. 경남은행 예금토큰 혁신금융서비스 지정은 별도 C-026에서 확인했다.",
+    "text": "교보증권·경남은행·한화생명의 일부 해외·고객·투자·시험 신호는 확인했다. 현재 팀의 전체 업무권한·정원·예산 및 RWA 관련 비용 후 수익 비교는 미완료다.",
     "source_ids": [],
     "topic_ids": [
       "T-COMPANIES"
     ],
-    "limitations": "회사별 전체 신호 조사는 미완료. 지정 사실을 채용·투자금·매출로 확대하지 않는다.",
+    "limitations": "당시 보도자료의 직함·제휴·투자 발표를 현재 팀 배치·증원·실현 수익으로 대체하지 않는다. 후속 기업 연결은 C-036 이후와 institution_connections.json에서 확인한다.",
     "as_of": "2026-11-02"
   },
   {
@@ -572,5 +572,376 @@
     ],
     "limitations": "영구적 도입 금지가 아니다. 11월 후속 실거래 재개 여부·은행별 수익은 미확인.",
     "as_of": "2026-11-02"
+  },
+  {
+    "id": "C-036",
+    "kind": "institution_statement",
+    "status": "active",
+    "text": "SCBX는 NOBLX에서 교보증권·교보생명을 기관투자자, 싱가포르 SBIDM을 구조화·결제·유동성 관리, 태국 Token X를 토큰 제공·관리 역할로 명시했다.",
+    "source_ids": [
+      "KYO-GEO-003"
+    ],
+    "topic_ids": [
+      "T-COMPANIES",
+      "T-GEOGRAPHY",
+      "T-INSTITUTION-ROLES"
+    ],
+    "limitations": "2025년 운영사 완료 발표다. 2026년 투자잔액·회수·반복수익·교보 판매보수는 미확인.",
+    "as_of": "2026-11-02"
+  },
+  {
+    "id": "C-037",
+    "kind": "institution_statement",
+    "status": "active",
+    "text": "SBI는 교보증권과 싱가포르 후속펀드 설립 및 기존 SBI-NTU-Kyobo 펀드를 통한 Pints AI 투자를 발표했다. 운용자는 SBI Ven Capital이다.",
+    "source_ids": [
+      "KYO-GEO-007",
+      "KYO-GEO-008"
+    ],
+    "topic_ids": [
+      "T-COMPANIES",
+      "T-GEOGRAPHY",
+      "T-INSTITUTION-ROLES"
+    ],
+    "limitations": "목표 모집액은 교보 납입액이 아니다. 투자성과 경로와 운용보수·AI 구매계약을 구분한다.",
+    "as_of": "2026-11-02"
+  },
+  {
+    "id": "C-038",
+    "kind": "institution_statement",
+    "status": "active",
+    "text": "교보증권과 DCG는 2026-04-08 아태 RWA 발굴·토큰화·유통 기술 협력 MOU를 발표했다.",
+    "source_ids": [
+      "KYO-GEO-004"
+    ],
+    "topic_ids": [
+      "T-COMPANIES",
+      "T-GEOGRAPHY",
+      "T-INSTITUTION-ROLES"
+    ],
+    "limitations": "DCG의 홍콩·아부다비 거점은 교보의 현지 영업·인가 근거가 아니다. 구체 상품·보수·실행은 미확인.",
+    "as_of": "2026-11-02"
+  },
+  {
+    "id": "C-039",
+    "kind": "institution_statement",
+    "status": "active",
+    "text": "일본 SBI는 교보생명그룹 협력과 별도로 2026-01-16 교보생명 주식 취득 완료·지분법 편입을 공시했다.",
+    "source_ids": [
+      "KYO-GEO-001",
+      "KYO-GEO-006"
+    ],
+    "topic_ids": [
+      "T-COMPANIES",
+      "T-GEOGRAPHY",
+      "T-INSTITUTION-ROLES"
+    ],
+    "limitations": "교보증권의 직접 일본 영업이나 토큰 사업 매출로 해석하지 않는다.",
+    "as_of": "2026-11-02"
+  },
+  {
+    "id": "C-040",
+    "kind": "institution_statement",
+    "status": "active",
+    "text": "교보생명은 Ripple 인프라를 활용한 국채 토큰화 거래 테스트넷 검증을 2026-04 발표했다.",
+    "source_ids": [
+      "KYO-GEO-005",
+      "KYO-GEO-009"
+    ],
+    "topic_ids": [
+      "T-COMPANIES",
+      "T-GEOGRAPHY",
+      "T-INSTITUTION-ROLES"
+    ],
+    "limitations": "교보증권 참여·미국 국채·미국 영업·실자산 결제 완료는 확인되지 않았다. 두 발표는 동일 협력 사건이다.",
+    "as_of": "2026-11-02"
+  },
+  {
+    "id": "C-041",
+    "kind": "institution_statement",
+    "status": "active",
+    "text": "2026-09 UAE 협력에서 한화생명–ADIO와 한화자산운용–ADGM–하나금융은 다른 협약 당사자다.",
+    "source_ids": [
+      "HWA-GEO-001",
+      "HWA-GEO-003",
+      "HWA-GEO-004"
+    ],
+    "topic_ids": [
+      "T-COMPANIES",
+      "T-GEOGRAPHY",
+      "T-INSTITUTION-ROLES"
+    ],
+    "limitations": "협약·거점은 특정 금융업 허가·RWA 출시·스테이블코인 발행·수익의 근거가 아니다.",
+    "as_of": "2026-11-02"
+  },
+  {
+    "id": "C-042",
+    "kind": "institution_statement",
+    "status": "active",
+    "text": "한화생명은 2025-06 Nobu 40% 취득 완료를 발표했다. 한화투자증권은 Ciptadana 증권·운용의 취득 완료를 각각 설명했다.",
+    "source_ids": [
+      "HWA-GEO-005",
+      "HWA-GEO-010"
+    ],
+    "topic_ids": [
+      "T-COMPANIES",
+      "T-GEOGRAPHY",
+      "T-INSTITUTION-ROLES"
+    ],
+    "limitations": "과거 취득 발표 지분을 현재 주주명부로 대체하지 않는다. Ciptadana 운용 인수자는 한화자산운용이 아니다.",
+    "as_of": "2026-11-02"
+  },
+  {
+    "id": "C-043",
+    "kind": "institution_statement",
+    "status": "active",
+    "text": "Bittime은 2026-05 Nobu 가상계좌 이용 가능과 9월 결제망 정비에 따른 일시중단·대체 경로를 발표했다.",
+    "source_ids": [
+      "HWA-GEO-006",
+      "HWA-GEO-007"
+    ],
+    "topic_ids": [
+      "T-COMPANIES",
+      "T-GEOGRAPHY",
+      "T-MONEY",
+      "T-OPERATIONS"
+    ],
+    "limitations": "사업자 측 발표다. 기준일 현재 서비스 상태·거래량·수익·Nobu의 토큰 발행 권한은 미확인. 9월 공지를 현재 장애로 읽지 않는다.",
+    "as_of": "2026-11-02"
+  },
+  {
+    "id": "C-044",
+    "kind": "institution_statement",
+    "status": "active",
+    "text": "Velocity는 2025-07-30 한화생명 측의 75% 인수 완료를 발표했고 FINRA 기록에는 Hanwha Life US Investment LLC·Nexus Clearing 등을 통한 간접 소유관계가 나타난다.",
+    "source_ids": [
+      "HWA-GEO-008",
+      "HWA-GEO-009"
+    ],
+    "topic_ids": [
+      "T-COMPANIES",
+      "T-GEOGRAPHY",
+      "T-INSTITUTION-ROLES"
+    ],
+    "limitations": "발표 당시 지분과 현재 지분을 구분한다. 한국 보험사의 직접 브로커 영업·포괄적 토큰 업무 허가·인수 수익 실현을 뜻하지 않는다.",
+    "as_of": "2026-11-02"
+  },
+  {
+    "id": "C-045",
+    "kind": "institution_statement",
+    "status": "active",
+    "text": "한화 공식 자료에는 미국 운용·공동 AI 거점, 싱가포르 운용·Pinetree 증권, 베트남 보험·Pinetree 증권 연결이 나타난다.",
+    "source_ids": [
+      "HWA-GEO-003",
+      "HWA-GEO-011",
+      "HWA-GEO-012"
+    ],
+    "topic_ids": [
+      "T-COMPANIES",
+      "T-GEOGRAPHY",
+      "T-INSTITUTION-ROLES"
+    ],
+    "limitations": "법인별 허가 범위·고객·자금·성과는 별도다. 한화생명의 모든 거점 직접 영업으로 합치지 않는다.",
+    "as_of": "2026-11-02"
+  },
+  {
+    "id": "C-046",
+    "kind": "institution_statement",
+    "status": "active",
+    "text": "한화투자증권은 2026-10 GI캐피털매니지먼트 증권 부문 주식 취득 계약을 발표했다.",
+    "source_ids": [
+      "HWA-GEO-012"
+    ],
+    "topic_ids": [
+      "T-COMPANIES",
+      "T-GEOGRAPHY",
+      "T-INSTITUTION-ROLES"
+    ],
+    "limitations": "계약 이후 취득 완료·최종 지분·인가·토큰 서비스는 미확인. 기사 본문의 발표일·게시일·URL 날짜가 다름을 보존한다.",
+    "as_of": "2026-11-02"
+  },
+  {
+    "id": "C-047",
+    "kind": "institution_statement",
+    "status": "active",
+    "text": "무역보험공사는 경남은행 출연금 5억원을 재원으로 동남권 수출기업에 78억원 규모 우대금융과 외국환 수수료 지원을 제공하는 협약을 발표했다.",
+    "source_ids": [
+      "KN-003"
+    ],
+    "topic_ids": [
+      "T-COMPANIES",
+      "T-FUNDING",
+      "T-INSTITUTION-ROLES",
+      "T-GEOGRAPHY"
+    ],
+    "limitations": "공급 규모는 집행 실적·수익이 아니다. 고객 수요의 해외 연결이며 은행의 해외법인 확장 근거는 아니다.",
+    "as_of": "2026-11-02"
+  },
+  {
+    "id": "C-048",
+    "kind": "institution_statement",
+    "status": "active",
+    "text": "BNK의 500억원 전략펀드는 부산은행·경남은행·캐피탈·벤처투자 공동 결성 발표이며 운용은 BNK벤처투자다.",
+    "source_ids": [
+      "KN-001"
+    ],
+    "topic_ids": [
+      "T-COMPANIES",
+      "T-GEOGRAPHY",
+      "T-INSTITUTION-ROLES"
+    ],
+    "limitations": "경남은행 단독 납입액·투자 집행·운용수익은 확인하지 못했다.",
+    "as_of": "2026-11-02"
+  },
+  {
+    "id": "C-049",
+    "kind": "institution_statement",
+    "status": "active",
+    "text": "KB는 가맹점·국고금 연계 확대를, 신한은 기존 기업뱅킹 접점을 활용한 기업 해외송금 PoC 완료를 발표했다.",
+    "source_ids": [
+      "KN-005",
+      "KN-006"
+    ],
+    "topic_ids": [
+      "T-MONEY",
+      "T-SETTLEMENT",
+      "T-COMPANIES",
+      "T-INSTITUTION-ROLES"
+    ],
+    "limitations": "상용 서비스량·순이익·경남은행의 채택 증거가 아니다. 계획과 실증을 구분한다.",
+    "as_of": "2026-11-02"
+  },
+  {
+    "id": "C-050",
+    "kind": "institution_statement",
+    "status": "active",
+    "text": "BNK 실적발표는 경남은행의 2026년 1~3분기 누적 당기순이익을 2,355억원으로 제시한다.",
+    "source_ids": [
+      "KN-004"
+    ],
+    "topic_ids": [
+      "T-COMPANIES",
+      "T-FUNDING"
+    ],
+    "limitations": "그룹 자본·연체비율을 경남은행에 전용하지 않는다. 신사업 손익·NIM·예금구성은 미확인.",
+    "as_of": "2026-11-02"
+  },
+  {
+    "id": "C-051",
+    "kind": "fact",
+    "status": "active",
+    "text": "ADGM 일반 안내는 금융활동 허용을 원칙적 승인(IPA), 조건 충족, Financial Services Permission 단계로 구분한다.",
+    "source_ids": [
+      "GEO-ADGM-PROCESS",
+      "GEO-ADGM-JURISDICTION"
+    ],
+    "topic_ids": [
+      "T-REGULATION",
+      "T-GEOGRAPHY"
+    ],
+    "limitations": "특정 회사의 IPA·FSP를 확인한 것이 아니며 ADIO 협약은 금융업 허가와 별개다.",
+    "as_of": "2026-11-02"
+  },
+  {
+    "id": "C-052",
+    "kind": "institution_statement",
+    "status": "active",
+    "text": "2025년 OJK·BI·Bappebti 공동 발표는 디지털 금융자산·암호자산 및 자본시장 파생상품 감독의 OJK 이관과 단기금융·외환 기초 파생상품의 BI 이관을 설명한다.",
+    "source_ids": [
+      "GEO-ID-SUPERVISION"
+    ],
+    "topic_ids": [
+      "T-REGULATION",
+      "T-GEOGRAPHY",
+      "T-INSTITUTION-ROLES"
+    ],
+    "limitations": "2026년 모든 후속 규정과 개별 은행·상품의 허용 범위를 확인한 것은 아니다.",
+    "as_of": "2026-11-02"
+  },
+  {
+    "id": "C-053",
+    "kind": "interpretation",
+    "status": "active",
+    "text": "기업별 추가 국가를 선택할 때 교보는 일본·싱가포르·태국의 자본·상품 연결, 한화는 UAE·인도네시아·미국의 다른 금융 기능, 경남은행은 국내 지역 고객에서 필요한 외환 회랑을 우선하는 것이 목적에 맞다.",
+    "source_ids": [
+      "KYO-GEO-003",
+      "KYO-GEO-007",
+      "HWA-GEO-001",
+      "HWA-GEO-005",
+      "HWA-GEO-008",
+      "KN-003"
+    ],
+    "topic_ids": [
+      "T-COMPANIES",
+      "T-GEOGRAPHY",
+      "T-INSTITUTION-ROLES"
+    ],
+    "limitations": "조사자 우선순위이며 각 회사의 확정 전략이나 다른 국가의 사업 부재 판정이 아니다.",
+    "as_of": "2026-11-02"
+  },
+  {
+    "id": "C-054",
+    "kind": "hypothesis",
+    "status": "active",
+    "text": "교보증권의 해외 자산·투자자 연결이 실제 발행·판매·관리 계약으로 확대된다면 반복 서비스 보수 후보가 될 수 있다.",
+    "source_ids": [
+      "KYO-GEO-003",
+      "KYO-GEO-004",
+      "KYO-GEO-007",
+      "FIN-008"
+    ],
+    "topic_ids": [
+      "T-COMPANIES",
+      "T-GEOGRAPHY",
+      "T-INSTITUTION-ROLES"
+    ],
+    "limitations": "현재 확인된 기관투자·공동펀드 역할은 투자성과 경로다. 서비스 보수는 별도 계약이 필요하다.",
+    "as_of": "2026-11-02",
+    "alternative": "기존 방식이 더 저렴하거나 수요·유동성이 약해 투자·실사 비용만 늘 수 있다.",
+    "next_observation": "법인별 고객·상품·인가·납입·보수 배분과 실사·운영·시장조성 비용 후 기여를 확인한다."
+  },
+  {
+    "id": "C-055",
+    "kind": "hypothesis",
+    "status": "active",
+    "text": "한화 금융계열사의 미국·인도네시아·UAE 기반은 개별 허가·계약·고객 수요가 갖춰질 때 자산·현금 운영 서비스에 활용될 수 있다.",
+    "source_ids": [
+      "HWA-GEO-001",
+      "HWA-GEO-005",
+      "HWA-GEO-008",
+      "HWA-GEO-009",
+      "GEO-ADGM-PROCESS"
+    ],
+    "topic_ids": [
+      "T-COMPANIES",
+      "T-GEOGRAPHY",
+      "T-INSTITUTION-ROLES"
+    ],
+    "limitations": "통합 상용 서비스·보험계정 자금 이전·실현 수익은 확인되지 않았다.",
+    "as_of": "2026-11-02",
+    "alternative": "국가·법인별 자본·데이터·외환·관련자 거래 제약과 환매 지연이 연결 편익을 상쇄할 수 있다.",
+    "next_observation": "한 고객 업무의 계약 주체·권리·입출금·현금 도착과 자본·헤지·준법 비용을 기존 방식과 비교한다."
+  },
+  {
+    "id": "C-056",
+    "kind": "hypothesis",
+    "status": "active",
+    "text": "경남은행이 지역 기업·가맹점의 지급·수금·외환 문제를 개선하면 거래 관계와 예금 기반 유지에 기여할 수 있다.",
+    "source_ids": [
+      "NOV-KR-007",
+      "KN-002",
+      "KN-003",
+      "KN-006"
+    ],
+    "topic_ids": [
+      "T-COMPANIES",
+      "T-FUNDING",
+      "T-MONEY",
+      "T-INSTITUTION-ROLES"
+    ],
+    "limitations": "토큰화가 필수라는 결론은 아니다. 시험·제휴·보증지원과 실현 성과를 구분한다.",
+    "as_of": "2026-11-02",
+    "alternative": "플랫폼 수수료·금리 보상·준법 비용이 늘거나 고객 잔액이 외부로 이동할 수 있으며 기존 계좌/API가 더 적합할 수 있다.",
+    "next_observation": "동일 고객·통화·금액의 은행현금 도착, 실패·반환, 잔액 유지와 총비용을 비교하고 보조금·금리 효과를 분리한다."
   }
 ]

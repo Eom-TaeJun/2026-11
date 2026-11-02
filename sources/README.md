@@ -68,3 +68,36 @@
 | [NOV-FATF · Outcomes FATF Plenary, 28–30 October 2026](cards/NOV-FATF.md) | 2026-10-30 | selected_sections | 2026-11-02 |
 | [NOV-ECB-COLLATERAL · ECB paves way for acceptance of DLT-based assets as eligible Eurosystem collateral](cards/NOV-ECB-COLLATERAL.md) | 2026-01-27 | full_text | 2026-11-02 |
 | [NOV-ECB-ELIGIBILITY · Marketable assets — Eligibility criteria and assessment procedure](cards/NOV-ECB-ELIGIBILITY.md) | 미확인/동적 | selected_sections | 2026-11-02 |
+| [KYO-GEO-001 · Kyobo Life Insurance Group and Japan’s SBI Group ink strategic partnership](cards/KYO-GEO-001.md) | 2024-07-04 | full_text | 2026-11-02 |
+| [KYO-GEO-002 · Korea’s Climate Tech-Finance — Kyobo Securities | Digital Asset Biz Team](cards/KYO-GEO-002.md) | 미확인/동적 | selected_sections | 2026-11-02 |
+| [KYO-GEO-003 · Token X Announces “NOBLX” – Thailand’s First-Ever Regulated Cross-Border Niche Asset Tokenization, Connecting Europe, Thailand, South Korea, and Singapore](cards/KYO-GEO-003.md) | 2025-09-29 | full_text | 2026-11-02 |
+| [KYO-GEO-004 · Digital Capital Group and Kyobo Securities Sign Strategic Technology Partnership to Advance Tokenized Securities in Asia-Pacific](cards/KYO-GEO-004.md) | 2026-04-08 | full_text | 2026-11-02 |
+| [KYO-GEO-005 · 교보생명, 리플과 실시간 거래 ‘토큰화 국채’ 실험 나선다](cards/KYO-GEO-005.md) | 2026-04-15 | full_text | 2026-11-02 |
+| [KYO-GEO-006 · (Progress of Disclosed Matter) Notice Regarding Recognition of Share of Profit of Associates Accounted for Using the Equity Method (Bargain Purchase Gain) Associated with the Acquisition of Shares of Kyobo Life Insurance Co., Ltd.](cards/KYO-GEO-006.md) | 2026-04-27 | full_text | 2026-11-02 |
+| [KYO-GEO-007 · Announcement of investment in Pints AI a provider of agent-based AI specialized for financial institutions](cards/KYO-GEO-007.md) | 2026-06-19 | full_text | 2026-11-02 |
+| [KYO-GEO-008 · 韓国の教保生命グループとの東南アジアのテック分野のスタートアップに投資する共同ベンチャーファンド設立のお知らせ](cards/KYO-GEO-008.md) | 2026-04-10 | full_text | 2026-11-02 |
+| [KYO-GEO-009 · Ripple and Kyobo Life Insurance Partner to Pioneer Korea's First Tokenised Government Bond Settlement on Blockchain](cards/KYO-GEO-009.md) | 2026-04-15 | full_text | 2026-11-02 |
+| [HWA-GEO-001 · Hanwha Finance expands financial cooperation with Abu Dhabi, connecting Korea and Abu Dhabi through ‘Digital Asset Silk Road’](cards/HWA-GEO-001.md) | 2026-09-21 | selected_sections | 2026-11-02 |
+| [HWA-GEO-002 · Hanwha Finance Announced as Premier Partner for Abu Dhabi Finance Week 2026](cards/HWA-GEO-002.md) | 2026-09-18 | selected_sections | 2026-11-02 |
+| [HWA-GEO-003 · 글로벌 네트워크](cards/HWA-GEO-003.md) | 미확인/동적 | selected_sections | 2026-11-02 |
+| [HWA-GEO-004 · Hanwha Life — Global Network](cards/HWA-GEO-004.md) | 미확인/동적 | selected_sections | 2026-11-02 |
+| [HWA-GEO-005 · 한화생명, 노부은행 지분 투자 마무리](cards/HWA-GEO-005.md) | 2025-06-30 | selected_sections | 2026-11-02 |
+| [HWA-GEO-006 · Kolaborasi Bittime dan Nobu Bank Jembatani Keuangan Tradisional Menuju Tokenisasi Aset Global](cards/HWA-GEO-006.md) | 2026-05-21 | selected_sections | 2026-11-02 |
+| [HWA-GEO-007 · [MAINTENANCE] Penutupan Sementara Layanan Virtual Account (VA) Nobu Bank](cards/HWA-GEO-007.md) | 미확인/동적 | selected_sections | 2026-11-02 |
+| [HWA-GEO-008 · Press Release: Hanwha Life Completes Acquisition of Velocity Clearing](cards/HWA-GEO-008.md) | 2025-07-31 | selected_sections | 2026-11-02 |
+| [HWA-GEO-009 · BrokerCheck Report: VELOCITY CLEARING, LLC — CRD 126588](cards/HWA-GEO-009.md) | 미확인/동적 | selected_sections | 2026-11-02 |
+| [HWA-GEO-010 · 한화투자증권, 인도네시아 칩타다나자산운용 인수 절차 마무리](cards/HWA-GEO-010.md) | 2025-12-16 | selected_sections | 2026-11-02 |
+| [HWA-GEO-011 · Giới thiệu | Bảo hiểm Hanwha Life Việt Nam](cards/HWA-GEO-011.md) | 미확인/동적 | selected_sections | 2026-11-02 |
+| [HWA-GEO-012 · 한화투자증권, 日 종합금융투자회사 GI캐피털매니지먼트 증권 부문 주식매매계약 체결](cards/HWA-GEO-012.md) | 2026-10-14 | selected_sections | 2026-11-02 |
+| [KN-001 · BNK금융그룹, 동남권 전략산업 육성 위한 ‘생산적금융 전략 펀드’ 결성](cards/KN-001.md) | 2026-07-01 | full_text | 2026-11-02 |
+| [KN-002 · BNK경남은행 뉴스: 토스플레이스 공동마케팅 협약·대성테크 유망중소기업 선정](cards/KN-002.md) | 미확인/동적 | official_summary | 2026-11-02 |
+| [KN-003 · 무보, BNK경남은행과 동남권 수출기업 특별 우대금융 지원 개시](cards/KN-003.md) | 2026-10-15 | full_text | 2026-11-02 |
+| [KN-004 · BNK금융그룹_2026년 3분기 실적발표](cards/KN-004.md) | 2026-10-26 | full_text | 2026-11-02 |
+| [KN-005 · KB국민은행, ‘프로젝트 한강’ 2단계 참여…디지털화폐 시장 확대 주도](cards/KN-005.md) | 2026-03-20 | full_text | 2026-11-02 |
+| [KN-006 · 신한은행, 스테이블코인 활용 ‘기업 해외송금 전 과정’ 구현](cards/KN-006.md) | 2026-09-30 | full_text | 2026-11-02 |
+| [KN-007 · [경남] 함안군 2026년 상반기 중소기업 육성자금 융자 지원계획 공고](cards/KN-007.md) | 2025-12-30 | official_summary | 2026-11-02 |
+| [KN-008 · 금융위원회, 제3차 금융업권 생산적 금융협의체 개최](cards/KN-008.md) | 2026-03-10 | selected_sections | 2026-11-02 |
+| [GEO-ADGM-PROCESS · FSRA General Application Process](cards/GEO-ADGM-PROCESS.md) | 미확인/동적 | selected_sections | 2026-11-02 |
+| [GEO-ADGM-JURISDICTION · Our Jurisdiction](cards/GEO-ADGM-JURISDICTION.md) | 미확인/동적 | selected_sections | 2026-11-02 |
+| [GEO-ID-SUPERVISION · Bappebti transfers regulation and supervision duties on digital financial assets, crypto assets and derivatives to OJK and BI](cards/GEO-ID-SUPERVISION.md) | 2025-01-10 | selected_sections | 2026-11-02 |
+| [PRIOR-004 · 교보증권 기존 사업과 수익구조 기준선](cards/PRIOR-004.md) | 미확인/동적 | selected_sections | 2026-11-02 |

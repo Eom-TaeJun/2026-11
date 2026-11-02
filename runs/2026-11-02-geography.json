@@ -1,0 +1,153 @@
+{
+  "run_id": "2026-11-02-geography",
+  "as_of": "2026-11-02",
+  "purpose": "기존 작업을 재사용해 관심 금융기관과 연결된 국가·관할·법인·기능별 조사 우선순위를 구체화",
+  "prior_repository_head": "1586ccc0752cec99ed7f8036898212265e075603",
+  "execution": "호스트 하위 에이전트 3개가 교보·한화·경남을 병렬 조사. 총괄이 근거와 역할을 병합하고 일부 핵심 원문을 재확인. 이후 별도 담당이 법인·단계·수익 경계를 검토.",
+  "agents": [
+    {
+      "role": "교보 기존 작업·국가·파트너 조사",
+      "agent": "source_design",
+      "reviewed_sources": 9
+    },
+    {
+      "role": "한화 기존 작업·법인·해외 기능 조사",
+      "agent": "mechanism_design",
+      "reviewed_sources": 12
+    },
+    {
+      "role": "경남은행·BOK·동종은행·지역 고객 조사",
+      "agent": "validation_design",
+      "reviewed_sources": 11,
+      "existing_source_references": 3
+    },
+    {
+      "role": "총괄·관할 절차·병합·검증",
+      "agent": "root",
+      "new_context_sources": 3,
+      "public_prior_work_added": 1
+    }
+  ],
+  "source_coverage": {
+    "new_financial_records": 32,
+    "new_public_prior_work_records": 1,
+    "reused_existing_financial_records": 3,
+    "total_sources_after": 97,
+    "read_state_counts_all_sources": {
+      "selected_sections": 69,
+      "official_summary": 7,
+      "full_text": 20,
+      "metadata_only": 1
+    },
+    "meaning": "URL 및 읽은 범위 기준 출처 수. 보고서 전문 정독 수·독립 사건 수가 아님. 회사의 동일 사건 상대방 발표는 효과의 독립 검증이 아니다."
+  },
+  "registry_counts": {
+    "claims": 56,
+    "topics": 13,
+    "institution_connections": 25,
+    "institution_roles": 5
+  },
+  "deliverables": [
+    "reports/07_company_geography.md",
+    "reports/08_role_based_focus.md",
+    "data/institution_connections.json",
+    "data/institution_focus.json",
+    "data/bank_customer_functions.json"
+  ],
+  "prior_work_reuse": {
+    "method": "관련 기존 파일에서 원문 경로를 복원한 뒤 현재 열람한 공개 공식·사업자 자료로 독립 재확인",
+    "public_index": "data/prior_public_index.json",
+    "private_material_exported": false,
+    "detail": "교보 SBI/Token X, 한화 UAE/미국, 공개 11월1일 은행 송금 자료를 재사용했다. 인도네시아·지역 고객은 이번 자료로 구체화했다."
+  },
+  "review_resolutions": [
+    "미국은 공통 비교시장인지 직접 소유·사업 관계인지 구분",
+    "교보 NOBLX·펀드의 투자성과 경로와 미확인 발행·유통 보수 병기",
+    "한화 싱가포르·베트남에 증권 계열사의 Pinetree 기능 보존",
+    "Velocity 소유 연결은 확인, 토큰 서비스·한국 보험계정 자금연결은 미확인으로 분리",
+    "한화 일본 계약은 완료로 승격하지 않음",
+    "최종 검토에서 한화생명–ADIO 연결에 붙인 ADGM 관할을 제거했다. 구체 사업의 적용 금융 관할은 미확인이고 운용사–ADGM 연결은 별도로 유지한다."
+  ],
+  "scope_limits": [
+    "공개 공식자료 목적표집이며 교보의 전체 해외법인·지점·영업허가·모든 투자관계 전수조사가 아니다.",
+    "확인일은 2026-11-02이며 과거 발표가 현재 계속 운영 중임을 자동 증명하지 않는다.",
+    "파트너 발표의 성과·시장 선도·감독체계 진술은 독립 감사·규제문서 검증과 구분한다.",
+    "피투자사 Pints AI가 소개한 싱가포르·인도·홍콩·미국 도입과 DCG의 아부다비 거점은 교보의 직접 진출국으로 편입하지 않았다.",
+    "와인 거래의 건지 발행·스위스 사모·프랑스/이탈리아 자산 세부는 2차 자료에서 발견했으나 해당 1차 원문을 이번에 확보하지 못해 확정 연결에서 제외했다.",
+    "2024 교보증권–SBIDM MOU 원문은 403으로 재검증하지 못했다. 별개의 SCBX 프로젝트 원문과 회사 발표자료로 확인되는 범위만 사용했다.",
+    "최신 주주명부를 모두 확인하지 않아 과거 거래 발표의 지분을 현재 지분으로 대체하지 않았다.",
+    "UAE MENA 법인의 등록과 정확한 FSRA 업무허가, 싱가포르 각 법인의 MAS 허가 범위는 이번 12건으로 확정하지 않았다.",
+    "Nobu–Bittime의 2026-11-02 운영 상태, 실제 거래·수수료·수익 및 출금·환매 계약은 미확인이다.",
+    "일본 GI 증권 부문 인수는 계약 단계 이후의 완료·승인·최종 지분을 확인하지 않았다.",
+    "모든 해외 거점의 고객·자금·인가·데이터를 한화생명 한 회사가 사용할 수 있다고 가정하지 않았다.",
+    "RWA·온체인 관련 실현 매출·이익은 본 자료로 확인되지 않았다.",
+    "산업 계열사의 다른 해외 국가 연결은 금융 신사업과의 직접 기능적 근거가 없어 조사 범위에 포함하지 않았다."
+  ],
+  "access_limits": [
+    {
+      "url": "https://sbidm.com/press-releases/kyobo-securities-signs-mou-with-sbi-digital-markets/",
+      "result": "403 Forbidden; www 변형도 접근 실패",
+      "use": "근거 수에 미포함"
+    },
+    {
+      "url": "https://www.sbigroup.co.jp/company/group/sbidigitalmarkets.html",
+      "result": "검색은 본문을 노출하나 open은 iframe만 반환",
+      "use": "원문 읽은 자료로 미포함; 소재지는 SCBX 본문으로 확인"
+    },
+    {
+      "url": "https://apctt.org/sites/default/files/2025-04/Kyobo.pdf",
+      "result": "텍스트 읽기 성공, p8 screenshot cache miss",
+      "use": "텍스트상 Business Goals와 지역 명칭만 사용"
+    },
+    {
+      "item": "BNK 2026년 3분기 IR PDF",
+      "url": "https://www.bnkfg.com/download?seq=6765",
+      "status": "timeout",
+      "consequence": "동일 시점 공식 HTML 실적발표는 읽었으나 경남은행별 NIM·예금구성·업종별 대출은 보완 필요"
+    },
+    {
+      "item": "창원시 기업지원 안내 PDF",
+      "url": "https://www.changwon.go.kr/cwportal/_res/biz/data/pdf/p11159_down01_2026_1.pdf",
+      "status": "timeout",
+      "consequence": "검색 요약을 FX 실무체계 근거로 채택하지 않음"
+    },
+    {
+      "item": "경남은행 뉴스 상세 화면",
+      "url": "https://www.knbank.co.kr/ib20/mnu/BHPBKI020300000",
+      "status": "listing_only",
+      "consequence": "제목/날짜/요약만 공식 증거로 사용"
+    },
+    {
+      "item": "기업별 인사·직무 배치",
+      "status": "not_investigated",
+      "consequence": "본사업무를 특정 신사업 팀 배치로 해석하지 않음"
+    },
+    {
+      "item": "상용화·실제 경제성",
+      "status": "not_observed_in_reviewed_sources",
+      "consequence": "관측 공백은 사업 부재·실패 증거가 아님"
+    },
+    "BI의 인도네시아어 공동발표 HTML은 timeout. OJK 공식 영문 PDF 본문으로 대체했다.",
+    "OJK 30/2024 공식 소개 페이지는 열었으나 상세 PDF 연결은 timeout. 특정 한화 법인에 대한 금융복합기업 지주 의무를 확정하는 데 사용하지 않았다.",
+    "ADGM의 과거 FAQ에 Al Maryah만 언급된 범위가 있어 현재 Our Jurisdiction 페이지의 Al Reem 포함 설명을 사용했다."
+  ],
+  "checks": {
+    "status": "passed",
+    "source_claim_topic_validation": "97 sources, 56 claims, 13 topics",
+    "required_unit_checks": "9 passed; implementation unchanged",
+    "auxiliary_records_and_links": {
+      "source_references_valid": true,
+      "markdown_links_checked": 915,
+      "connections": 25,
+      "privacy_marker_scan_passed": true,
+      "errors": [],
+      "limitations": "참조 정합성과 알려진 표식 검사다. 경제적 인과·법적 적법성·모든 개인정보 부재를 자동 증명하지 않는다."
+    },
+    "independent_review": "중대한 관할 귀속 오류 1건 수정. 기타 검토 범위에서 중대한 오류 미발견.",
+    "remote_publication": "publication prepared; branch and blob hashes to be checked after update"
+  },
+  "scheduling": {
+    "enabled": false,
+    "note": "지침과 다음 관측을 저장했으며 상시 감시 프로세스를 생성하지 않음"
+  }
+}

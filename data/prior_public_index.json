@@ -64,6 +64,24 @@
       "blob_sha": "e92fac1e8dd392660d57c64de0dd5b6ed7fe3c67",
       "immutable_file_url": "https://github.com/Eom-TaeJun/tech-digest/blob/cedd4b56e4ecbd76489381a26e48fd04a7c15bd8/digest/2026-11-02.summary.md",
       "read_extent": "body_reviewed"
+    },
+    {
+      "repository_full_name": "Eom-TaeJun/sto-ai-frontier",
+      "path": "docs/KYOBO_BUSINESS_BASELINE.md",
+      "snapshot_commit": "d64f570467204e2fdfa5be86ea456a501191b9f8",
+      "blob_sha": "70603c4882dec2567f3f78d72c51ed5dea13b8a2",
+      "immutable_file_url": "https://github.com/Eom-TaeJun/sto-ai-frontier/blob/d64f570467204e2fdfa5be86ea456a501191b9f8/docs/KYOBO_BUSINESS_BASELINE.md",
+      "read_extent": "SBI 협력·그룹 관계·해외선물 구분 관련 단락 선택",
+      "read_at": "2026-11-02"
+    },
+    {
+      "repository_full_name": "Eom-TaeJun/sto-ai-frontier",
+      "path": "reports/source/reviewed_snapshot.json",
+      "snapshot_commit": "d64f570467204e2fdfa5be86ea456a501191b9f8",
+      "blob_sha": "83bd0982844a63ae5faac1342b03e7e7b11af98c",
+      "immutable_file_url": "https://github.com/Eom-TaeJun/sto-ai-frontier/blob/d64f570467204e2fdfa5be86ea456a501191b9f8/reports/source/reviewed_snapshot.json",
+      "read_extent": "교보/SBI/Token X/국가 키워드 문자열 노드 및 자료 구조 선택",
+      "read_at": "2026-11-02"
     }
   ]
 }

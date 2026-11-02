@@ -84,6 +84,34 @@ FOMC는 2026-10-28 연방기금금리 목표범위를 3.75~4.00%로 유지했다
 
 한계: 공식 요약만 읽었다. 모든 원화 스테이블코인 수요의 원화 절하 효과·정량 인과를 증명하지 않는다.
 
+### C-047 · institution_statement · active
+
+무역보험공사는 경남은행 출연금 5억원을 재원으로 동남권 수출기업에 78억원 규모 우대금융과 외국환 수수료 지원을 제공하는 협약을 발표했다.
+
+근거: [KN-003](../sources/cards/KN-003.md)
+
+한계: 공급 규모는 집행 실적·수익이 아니다. 고객 수요의 해외 연결이며 은행의 해외법인 확장 근거는 아니다.
+
+### C-050 · institution_statement · active
+
+BNK 실적발표는 경남은행의 2026년 1~3분기 누적 당기순이익을 2,355억원으로 제시한다.
+
+근거: [KN-004](../sources/cards/KN-004.md)
+
+한계: 그룹 자본·연체비율을 경남은행에 전용하지 않는다. 신사업 손익·NIM·예금구성은 미확인.
+
+### C-056 · hypothesis · active
+
+경남은행이 지역 기업·가맹점의 지급·수금·외환 문제를 개선하면 거래 관계와 예금 기반 유지에 기여할 수 있다.
+
+근거: [NOV-KR-007](../sources/cards/NOV-KR-007.md), [KN-002](../sources/cards/KN-002.md), [KN-003](../sources/cards/KN-003.md), [KN-006](../sources/cards/KN-006.md)
+
+한계: 토큰화가 필수라는 결론은 아니다. 시험·제휴·보증지원과 실현 성과를 구분한다.
+
+다른 설명: 플랫폼 수수료·금리 보상·준법 비용이 늘거나 고객 잔액이 외부로 이동할 수 있으며 기존 계좌/API가 더 적합할 수 있다.
+
+다음 관측: 동일 고객·통화·금액의 은행현금 도착, 실패·반환, 잔액 유지와 총비용을 비교하고 보조금·금리 효과를 분리한다.
+
 ## 관련 원문
 
 - [FIN-004 · Project Agorá](../sources/cards/FIN-004.md)
@@ -96,5 +124,13 @@ FOMC는 2026-10-28 연방기금금리 목표범위를 3.75~4.00%로 유지했다
 - [NOV-M05 · World Economic Outlook, October 2026: Resilience Under Strain, Urgent Choices — Executive Summary](../sources/cards/NOV-M05.md)
 - [NOV-M06 · Global Financial Stability Report, October 2026: Resilience, Risk, and Transformation — Executive Summary](../sources/cards/NOV-M06.md)
 - [NOV-M08 · [제2026-22호] 달러 스테이블코인과 외환시장 간 연계성: 글로벌 거래소의 역할을 중심으로](../sources/cards/NOV-M08.md)
+- [KN-001 · BNK금융그룹, 동남권 전략산업 육성 위한 ‘생산적금융 전략 펀드’ 결성](../sources/cards/KN-001.md)
+- [KN-002 · BNK경남은행 뉴스: 토스플레이스 공동마케팅 협약·대성테크 유망중소기업 선정](../sources/cards/KN-002.md)
+- [KN-003 · 무보, BNK경남은행과 동남권 수출기업 특별 우대금융 지원 개시](../sources/cards/KN-003.md)
+- [KN-004 · BNK금융그룹_2026년 3분기 실적발표](../sources/cards/KN-004.md)
+- [KN-005 · KB국민은행, ‘프로젝트 한강’ 2단계 참여…디지털화폐 시장 확대 주도](../sources/cards/KN-005.md)
+- [KN-006 · 신한은행, 스테이블코인 활용 ‘기업 해외송금 전 과정’ 구현](../sources/cards/KN-006.md)
+- [KN-007 · [경남] 함안군 2026년 상반기 중소기업 육성자금 융자 지원계획 공고](../sources/cards/KN-007.md)
+- [KN-008 · 금융위원회, 제3차 금융업권 생산적 금융협의체 개최](../sources/cards/KN-008.md)
 
 [전체 주제 지도](INDEX.md)

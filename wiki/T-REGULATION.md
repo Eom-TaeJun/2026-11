@@ -116,6 +116,22 @@ FATF는 2026-10-30 가상자산 기준 이행의 표적 검토와 신속 후속�
 
 한계: 영구적 도입 금지가 아니다. 11월 후속 실거래 재개 여부·은행별 수익은 미확인.
 
+### C-051 · fact · active
+
+ADGM 일반 안내는 금융활동 허용을 원칙적 승인(IPA), 조건 충족, Financial Services Permission 단계로 구분한다.
+
+근거: [GEO-ADGM-PROCESS](../sources/cards/GEO-ADGM-PROCESS.md), [GEO-ADGM-JURISDICTION](../sources/cards/GEO-ADGM-JURISDICTION.md)
+
+한계: 특정 회사의 IPA·FSP를 확인한 것이 아니며 ADIO 협약은 금융업 허가와 별개다.
+
+### C-052 · institution_statement · active
+
+2025년 OJK·BI·Bappebti 공동 발표는 디지털 금융자산·암호자산 및 자본시장 파생상품 감독의 OJK 이관과 단기금융·외환 기초 파생상품의 BI 이관을 설명한다.
+
+근거: [GEO-ID-SUPERVISION](../sources/cards/GEO-ID-SUPERVISION.md)
+
+한계: 2026년 모든 후속 규정과 개별 은행·상품의 허용 범위를 확인한 것은 아니다.
+
 ## 관련 원문
 
 - [FIN-006 · 토큰증권 도입 및 투자계약증권 유통을 위한 ｢전자증권법｣·｢자본시장법｣ 개정안 국회 본회의 통과](../sources/cards/FIN-006.md)
@@ -147,5 +163,8 @@ FATF는 2026-10-30 가상자산 기준 이행의 표적 검토와 신속 후속�
 - [NOV-FATF · Outcomes FATF Plenary, 28–30 October 2026](../sources/cards/NOV-FATF.md)
 - [NOV-ECB-COLLATERAL · ECB paves way for acceptance of DLT-based assets as eligible Eurosystem collateral](../sources/cards/NOV-ECB-COLLATERAL.md)
 - [NOV-ECB-ELIGIBILITY · Marketable assets — Eligibility criteria and assessment procedure](../sources/cards/NOV-ECB-ELIGIBILITY.md)
+- [GEO-ADGM-PROCESS · FSRA General Application Process](../sources/cards/GEO-ADGM-PROCESS.md)
+- [GEO-ADGM-JURISDICTION · Our Jurisdiction](../sources/cards/GEO-ADGM-JURISDICTION.md)
+- [GEO-ID-SUPERVISION · Bappebti transfers regulation and supervision duties on digital financial assets, crypto assets and derivatives to OJK and BI](../sources/cards/GEO-ID-SUPERVISION.md)
 
 [전체 주제 지도](INDEX.md)

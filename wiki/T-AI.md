@@ -37,5 +37,6 @@
 - [PRIOR-001 · 2026년 11월 1일 디지털 금융환경 종합](../sources/cards/PRIOR-001.md)
 - [PRIOR-002 · STO·AI 연구 보고서 안내](../sources/cards/PRIOR-002.md)
 - [PRIOR-003 · 교보증권 수익전략의 조건부 연구](../sources/cards/PRIOR-003.md)
+- [KYO-GEO-007 · Announcement of investment in Pints AI a provider of agent-based AI specialized for financial institutions](../sources/cards/KYO-GEO-007.md)
 
 [전체 주제 지도](INDEX.md)

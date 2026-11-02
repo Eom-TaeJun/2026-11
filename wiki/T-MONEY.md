@@ -88,6 +88,34 @@ FCA PS26/10의 스테이블코인 발행 최종 규칙 부속 문서에는 2027-
 
 한계: 영구적 도입 금지가 아니다. 11월 후속 실거래 재개 여부·은행별 수익은 미확인.
 
+### C-043 · institution_statement · active
+
+Bittime은 2026-05 Nobu 가상계좌 이용 가능과 9월 결제망 정비에 따른 일시중단·대체 경로를 발표했다.
+
+근거: [HWA-GEO-006](../sources/cards/HWA-GEO-006.md), [HWA-GEO-007](../sources/cards/HWA-GEO-007.md)
+
+한계: 사업자 측 발표다. 기준일 현재 서비스 상태·거래량·수익·Nobu의 토큰 발행 권한은 미확인. 9월 공지를 현재 장애로 읽지 않는다.
+
+### C-049 · institution_statement · active
+
+KB는 가맹점·국고금 연계 확대를, 신한은 기존 기업뱅킹 접점을 활용한 기업 해외송금 PoC 완료를 발표했다.
+
+근거: [KN-005](../sources/cards/KN-005.md), [KN-006](../sources/cards/KN-006.md)
+
+한계: 상용 서비스량·순이익·경남은행의 채택 증거가 아니다. 계획과 실증을 구분한다.
+
+### C-056 · hypothesis · active
+
+경남은행이 지역 기업·가맹점의 지급·수금·외환 문제를 개선하면 거래 관계와 예금 기반 유지에 기여할 수 있다.
+
+근거: [NOV-KR-007](../sources/cards/NOV-KR-007.md), [KN-002](../sources/cards/KN-002.md), [KN-003](../sources/cards/KN-003.md), [KN-006](../sources/cards/KN-006.md)
+
+한계: 토큰화가 필수라는 결론은 아니다. 시험·제휴·보증지원과 실현 성과를 구분한다.
+
+다른 설명: 플랫폼 수수료·금리 보상·준법 비용이 늘거나 고객 잔액이 외부로 이동할 수 있으며 기존 계좌/API가 더 적합할 수 있다.
+
+다음 관측: 동일 고객·통화·금액의 은행현금 도착, 실패·반환, 잔액 유지와 총비용을 비교하고 보조금·금리 효과를 분리한다.
+
 ## 관련 원문
 
 - [FIN-003 · III. Anchoring trust in money: innovation beyond stablecoins](../sources/cards/FIN-003.md)
@@ -120,5 +148,9 @@ FCA PS26/10의 스테이블코인 발행 최종 규칙 부속 문서에는 2027-
 - [NOV-UK-FCA · PS26/10: Stablecoin issuance](../sources/cards/NOV-UK-FCA.md)
 - [NOV-UK-BOE · Sterling-denominated systemic stablecoins](../sources/cards/NOV-UK-BOE.md)
 - [NOV-UK-JOINT · Bank of England and Financial Conduct Authority’s approach to joint regulation of systemic stablecoin issuers](../sources/cards/NOV-UK-JOINT.md)
+- [HWA-GEO-006 · Kolaborasi Bittime dan Nobu Bank Jembatani Keuangan Tradisional Menuju Tokenisasi Aset Global](../sources/cards/HWA-GEO-006.md)
+- [HWA-GEO-007 · [MAINTENANCE] Penutupan Sementara Layanan Virtual Account (VA) Nobu Bank](../sources/cards/HWA-GEO-007.md)
+- [HWA-GEO-008 · Press Release: Hanwha Life Completes Acquisition of Velocity Clearing](../sources/cards/HWA-GEO-008.md)
+- [GEO-ID-SUPERVISION · Bappebti transfers regulation and supervision duties on digital financial assets, crypto assets and derivatives to OJK and BI](../sources/cards/GEO-ID-SUPERVISION.md)
 
 [전체 주제 지도](INDEX.md)
