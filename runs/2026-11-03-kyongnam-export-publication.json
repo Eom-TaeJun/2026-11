@@ -1,0 +1,42 @@
+{
+  "record_type": "publication_verification",
+  "verified_at_utc": "2026-11-03 12:02:49 UTC",
+  "repository": "Eom-TaeJun/2026-11",
+  "content_commit": "3c25009d8b3d87183ddffe46ce3d044ccb285647",
+  "content_tree": "3c50c80776c196698246b66f9213d523a16b8ad0",
+  "prior_head": "51596f3c511b10a5b80373758073e1c0522ee35d",
+  "guarded_fast_forward": true,
+  "local_checks": {
+    "records_and_links": "passed",
+    "unit_tests": 15,
+    "supplemental_business_plan_and_cash_case": "passed",
+    "baseline_paths_preserved": 254,
+    "private_path_and_credential_pattern_checks": "passed"
+  },
+  "remote_verification": {
+    "blob_count": 287,
+    "all_expected_paths_and_blob_hashes_match": true,
+    "unexpected_paths": 0,
+    "exact_content_readback_paths": [
+      "reports/16_kyongnam_export_treasury_business_plan.md",
+      "reports/17_kyongnam_multiasset_cash_case.md",
+      "data/kyongnam_export_business_plan.json",
+      "data/kyongnam_export_cash_case_results.json",
+      "README.md",
+      "runs/2026-11-03-kyongnam-export.json",
+      "data/strategy_decisions_2027.json"
+    ],
+    "main_head_matches_content_commit": true,
+    "public_readme": {
+      "http_status": 200,
+      "business_report_link_present": true,
+      "cash_case_link_present": true,
+      "updated_source_count_present": true,
+      "commit_title_text_match": false,
+      "browser_visual_layout_audit": false
+    },
+    "public_readme_note": "공개 HTML의 새 보고서 링크·출처 수를 확인. 커밋 제목 문자열 일치는 확인되지 않았으며 실제 HEAD는 GitHub API로 별도 확인."
+  },
+  "scope": "검증 대상은 content_commit이다. 이 확인 파일을 추가하는 후속 커밋은 연구 내용을 바꾸지 않으며 별도로 원격 존재·내용을 확인한다.",
+  "limits": "선택 원문·보고서·산술과 저장 무결성의 검증. 실제 고객 운영·내부 계약·개별 인가·수익성 감사가 아니다."
+}
