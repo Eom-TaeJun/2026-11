@@ -29,3 +29,8 @@
 
 10월 1일 이후 GitHub 활동은 저장소의 pushed 메타데이터로 후보 12개를 찾고 관련 중심 저장소의 커밋 메타데이터 89건에서 필요한 교수형 연구·전략 문서를 선택 읽었다. 관련 라이브러리·채팅·로컬 작업도 공식 원문을 복원하는 데 활용했다. 모든 후보의 전체 커밋·문서를 읽었다는 뜻은 아니다. 아래의 기존 조사 통계는 당시의 기록으로 유지한다. 비공개 원문·경로·개인 지원서는 공개하지 않는다.
 
+## 교보 심화에서 다시 사용한 공개 작업
+
+PRIOR-003의 [KYOBO_PROFIT_STRATEGY.md](https://github.com/Eom-TaeJun/sto-ai-frontier/blob/d64f570467204e2fdfa5be86ea456a501191b9f8/docs/KYOBO_PROFIT_STRATEGY.md) 1~6절을 다시 읽고, 기존 고객 자금·증거금 방어와 반복 발행·기관 MMF, 보수·원장 대가·자기 위험의 구분을 이어 썼다. 해당 공개 파일의 blob은 `dad08f99a93d97e20c0be6add079ca254b78a4e5`다. 회사 확정 계획으로 재분류하지 않았다.
+
+중앙 [finance 안내](https://github.com/Eom-TaeJun/finance/blob/main/docs/FINANCE_AI_HANDOFF.md)의 소개·선택 범위와 [지식 지도](https://github.com/Eom-TaeJun/finance/blob/main/finance_economics/knowledge-map.json)의 증권·AI 경로도 확인했다. 이번에는 기존 색인을 활용했으며 모든10월 이후 커밋·채팅·라이브러리를 다시 완독한 것이 아니다. 새 자본·그룹·레일 판단은 실제 읽은 공식자료와 [교보 사업안](18_kyobo_future_strategy_business_plan.md)에 연결했다.

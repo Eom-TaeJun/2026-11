@@ -217,7 +217,7 @@
     "publisher": "금융위원회",
     "url": "https://www.fsc.go.kr/no010101/87650?curPage=&srchBeginDt=&srchCtgry=&srchEndDt=&srchKey=all&srchText=%EC%A4%91%EA%B0%9C",
     "published_at": "2026-09-04",
-    "checked_at": "2026-11-02",
+    "checked_at": "2026-11-03",
     "visibility": "public",
     "read_status": "selected_sections",
     "source_type": "정부 정책 발표",
@@ -226,12 +226,14 @@
       "회의 개요",
       "토큰증권의 개념",
       "발행 인프라 단계별 구축 계획 첫 부분",
-      "향후계획"
+      "향후계획",
+      "2026-11-03 재확인: 공식 HTML 296~406행. 1~3단계 인프라, 비금전신탁 집합화·장래채권 조건과 투자계약증권 쟁점, 기존 인가의 업무범위 및 장외거래소 구분. 첨부 세부 모범규준 전문 미독."
     ],
     "summary": "조각투자뿐 아니라 주식·채권·펀드의 토큰화 인프라를 단계적으로 구축하는 방향을 제시한다. 2027년 2월 1단계 예시에 기관투자자 전용 사모MMF·사채 등이 포함된다. 기존 인가 범위 내 업무와 예탁원·증권사 인프라 연계가 중요하다.",
     "used_for": [
       "정책 방향: 한국의 초기 검토 대상이 비정형 조각투자만으로 한정되지 않는다.",
-      "연구자 추론: 증권·펀드의 권리관리와 기존 계좌·예탁 인프라 연결을 사업 후보로 조사할 이유가 생긴다."
+      "연구자 추론: 증권·펀드의 권리관리와 기존 계좌·예탁 인프라 연결을 사업 후보로 조사할 이유가 생긴다.",
+      "IP의 법적 구조별 경로와 2027년 1단계 상품·그 이후 현금결제 연결을 분리"
     ],
     "limitations": [
       "인프라 구축 계획이며 실제 상품 출시·거래량·수익을 입증하지 않는다.",
@@ -265,15 +267,23 @@
     ],
     "effective_at": null,
     "read_status": "selected_sections",
-    "read_scope": "보도자료 본문의 예고기간·초안 핵심 항목·시행 준비 절차. 첨부 하위법규 조문 전체는 미독.",
+    "read_scope": [
+      "보도자료 본문의 예고기간·초안 핵심 항목·시행 준비 절차. 첨부 하위법규 조문 전체는 미독.",
+      "2026-11-03 재확인: 공식 HTML 296~354행. 10/2~11/11 입법예고, 분산원장 직접 대가 제한과 발행인계좌관리 경로·후속 절차. 첨부 조문 전체는 미독."
+    ],
     "summary": "2026-10-02~11-11 하위법규 예고다. 발행인계좌관리기관 자기자본 40억원, 계좌관리 1명·내부통제 1명·전산 2명, 원장 참여구성, 개인 장외거래소별 연간 순매수 1억원 등은 초안이다.",
-    "used_for": "STO는 법률 공포 후 세부 진입·운영 조건을 정하는 단계 허가·원장·계좌관리·유통 기능의 조건부 사업 기회",
-    "limitations": "최종 규칙이 아니며 모법의 10억원 위임 하한을 대체하는 확정 법규가 아니다. 분산원장 이용의 직접 대가 제한을 모든 서비스 수수료 금지로 확대하지 않는다.",
+    "used_for": [
+      "STO는 법률 공포 후 세부 진입·운영 조건을 정하는 단계 허가·원장·계좌관리·유통 기능의 조건부 사업 기회",
+      "교보의 노드·기록 대가와 별도 실사·구조화·사후업무 보수를 구분하고 최종 규칙·인가 관문 유지"
+    ],
+    "limitations": [
+      "최종 규칙이 아니며 모법의 10억원 위임 하한을 대체하는 확정 법규가 아니다. 분산원장 이용의 직접 대가 제한을 모든 서비스 수수료 금지로 확대하지 않는다."
+    ],
     "topic_ids": [
       "T-REGULATION",
       "T-MONEY"
     ],
-    "checked_at": "2026-11-02",
+    "checked_at": "2026-11-03",
     "primary_source": true,
     "alternate_urls": [],
     "visibility": "public",
@@ -1189,19 +1199,28 @@
     "publisher": "Eom-TaeJun 공개 연구",
     "url": "https://github.com/Eom-TaeJun/sto-ai-frontier/blob/d64f570467204e2fdfa5be86ea456a501191b9f8/docs/KYOBO_PROFIT_STRATEGY.md",
     "published_at": null,
-    "checked_at": "2026-11-02",
+    "checked_at": "2026-11-03",
     "visibility": "public",
-    "read_status": "selected_sections",
-    "source_type": "사용자의 기존 공개 연구",
-    "read_scope": "공개 사업 가설·수익 및 제약 조건",
+    "read_status": "full_text",
+    "source_type": "public_prior_analysis_not_primary",
+    "read_scope": [
+      "공개 사업 가설·수익 및 제약 조건",
+      "고정 commit d64f570467204e2fdfa5be86ea456a501191b9f8의 KYOBO_PROFIT_STRATEGY.md 1~6절 전체. GitHub connector로 blob dad08f99a93d97e20c0be6add079ca254b78a4e5 재조회. 링크된 모든 문서·계산을 읽거나 재실행한 것은 아님."
+    ],
     "summary": "교보 적용을 위한 기존 사업 가설과 검토 질문을 확인했다.",
-    "used_for": "기업 적용 단계에서 질문을 재사용하고 현재 공식 신호로 다시 검증한다.",
-    "limitations": "회사 확정 계획·현재 조직 업무·실현 매출의 근거가 아니다.",
+    "used_for": [
+      "기업 적용 단계에서 질문을 재사용하고 현재 공식 신호로 다시 검증한다.",
+      "기존 거래 수익 방어·반복 발행·수수료와 자본위험·예고 과금 경계를 복원해 심화사업안으로 연결"
+    ],
+    "limitations": [
+      "회사 확정 계획·현재 조직 업무·실현 매출의 근거가 아니다."
+    ],
     "topic_ids": [
       "T-COMPANIES",
       "T-AI",
       "T-MONEY"
-    ]
+    ],
+    "blob_sha": "dad08f99a93d97e20c0be6add079ca254b78a4e5"
   },
   {
     "id": "NOV-KR-001",
@@ -4480,14 +4499,16 @@
     "read_status": "selected_sections",
     "source_type": "official_primary",
     "read_scope": [
-      "II.1 사업의 개요 본문과 부문표",
-      "II.2 영업의 현황: 별도 위탁매매 표의 주식·해외선물·전체 수수료, 자금 조달 개요",
-      "III.1 요약연결·별도재무정보",
-      "연결 주석4 영업부문,18 차입부채,25 순수수료손익; 별도 재무상태표",
-      "DART 목차에서 dcmNo=11536829, eleId=10,11,16,26,40,47,64 열람. 영업현황 전체 항목을 검증한 것은 아님"
+      "이전 읽기 범위(이번 전부 재열람 아님): II.1 사업의 개요 본문과 부문표",
+      "이전 읽기 범위(이번 전부 재열람 아님): II.2 영업의 현황: 별도 위탁매매 표의 주식·해외선물·전체 수수료, 자금 조달 개요",
+      "이전 읽기 범위(이번 전부 재열람 아님): III.1 요약연결·별도재무정보",
+      "이전 읽기 범위(이번 전부 재열람 아님): 연결 주석4 영업부문,18 차입부채,25 순수수료손익; 별도 재무상태표",
+      "이전 읽기 범위(이번 전부 재열람 아님): DART 목차에서 dcmNo=11536829, eleId=10,11,16,26,40,47,64 열람. 영업현황 전체 항목을 검증한 것은 아님",
+      "이번 재확인: DART dcmNo=11536829 eleId=10(II.1 사업개요·연결 영업부문표), eleId=11(II.2 별도 위탁매매 수수료표와 해당 단위·기간), eleId=16(별도 재무상태표 자본 및 손익)",
+      "previous_read_scope는 선행 연구의 읽기 이력이다. 이번에는 주석4·18·25 등 그 범위를 전부 재열람하지 않았다."
     ],
-    "summary": "2026년 상반기 여러 증권업 기능과 별도 자본, 중개 수수료, 연결 부문손익 및 차입 구조를 확인했다. 전체 수탁수수료 약1,610.64억원 중 해외선물 688.28억원이다. 별도 자본은 6월말 약2.2406조원이다.",
-    "meaning": "2026년 상반기 여러 증권업 기능과 별도 자본, 중개 수수료, 연결 부문손익 및 차입 구조를 확인했다. 전체 수탁수수료 약1,610.64억원 중 해외선물 688.28억원이다. 별도 자본은 6월말 약2.2406조원이다.",
+    "summary": "2026년 반기 별도 자본은 2,240,633,642천원, 별도 위탁매매 전체 수수료는 161,064백만원이며 해외선물 68,828백만원·주식 78,656백만원이다. 연결 부문표의 위탁매매 영업이익은 108,049,352천원, IB는 34,004,082천원이다. 통화·단위·연결/별도와 거래액/수수료/이익을 구분했다.",
+    "meaning": "기존 거래·IB 고객의 반복 업무와 신규 사업의 자본·비용 기회비용을 확인하는 역사적 기준선.",
     "used_for": [
       "현재 수익 기반과 신규사업 기회비용",
       "해외선물 운영·증거금 개선 후보",
@@ -4496,13 +4517,24 @@
     "limitations": [
       "고객별 수익·유지율·기관/개인 비중 미확인",
       "분기 이후 자본·손익, 감독상 인정자본 및 지정 여부를 증명하지 않음",
-      "부문 간 헤지·비용배부 상세 미검증"
+      "부문 간 헤지·비용배부 상세 미검증",
+      "2026년 반기 보고서이며 11월 현재 자본·손익이나 감독 인정자본을 증명하지 않는다.",
+      "고객 수·기관/개인 구성·거래별 순기여·유지율·현재 기관 API/레일 기능은 선택 범위에서 미확인.",
+      "연결 부문손익과 별도 수탁수수료는 합산하거나 서로 같은 이익으로 취급하지 않는다."
     ],
     "topic_ids": [
       "T-COMPANIES",
       "T-FUNDING",
       "T-OPERATIONS"
-    ]
+    ],
+    "previous_read_scope": [
+      "II.1 사업의 개요 본문과 부문표",
+      "II.2 영업의 현황: 별도 위탁매매 표의 주식·해외선물·전체 수수료, 자금 조달 개요",
+      "III.1 요약연결·별도재무정보",
+      "연결 주석4 영업부문,18 차입부채,25 순수수료손익; 별도 재무상태표",
+      "DART 목차에서 dcmNo=11536829, eleId=10,11,16,26,40,47,64 열람. 영업현황 전체 항목을 검증한 것은 아님"
+    ],
+    "recheck_type": "live_primary_selected_sections"
   },
   {
     "id": "ST-KY-002",
@@ -4515,8 +4547,10 @@
     "read_status": "selected_sections",
     "source_type": "official_primary",
     "read_scope": [
-      "dcmNo11624780, eleId2 유상증자 결정: 발행액·주식 종류·납입일·배당·상환·전환 조건, 자금사용 목적과 배정대상 표",
-      "공시 본문 선택 구간; 첨부 이사회 의사록 미독"
+      "이전 읽기 범위(이번 전부 재열람 아님): dcmNo11624780, eleId2 유상증자 결정: 발행액·주식 종류·납입일·배당·상환·전환 조건, 자금사용 목적과 배정대상 표",
+      "이전 읽기 범위(이번 전부 재열람 아님): 공시 본문 선택 구간; 첨부 이사회 의사록 미독",
+      "이번 재확인: DART 원 공시 main 문서 선택 목록 및 유상증자 결정 eleId=2의 발행 종류·금액·납입일·상환권·전환기간·배당·운영자금 목적 선택 구간",
+      "첫 공시 dcmNo=11624780, 두 번째 dcmNo=11624786. 이사회 의사록 등 첨부 전문 미독. 해당 공시 문서 목록 확인은 별도 후속 공시 전수조사가 아니다."
     ],
     "summary": "약1,000억원 RCPS 발행 결정, 납입일10/30, 최초 우선배당률5.814%, 회사 상환권2028/10/30부터와 이후 배당률 상승 구조를 확인했다. 기존 사업경쟁력 강화 등 운영자금 목적이다.",
     "meaning": "약1,000억원 RCPS 발행 결정, 납입일10/30, 최초 우선배당률5.814%, 회사 상환권2028/10/30부터와 이후 배당률 상승 구조를 확인했다. 기존 사업경쟁력 강화 등 운영자금 목적이다.",
@@ -4528,12 +4562,21 @@
     "limitations": [
       "후속 실제 납입·회계/감독상 자본 인정 미확인",
       "배당률은 배당 조건과 함께 읽어야 하며 이미 발생한 이자비용 아님",
-      "디지털 사업별 배분 미기재"
+      "디지털 사업별 배분 미기재",
+      "10/30은 결정 공시의 납입 일정이며 실제 납입·발행 완료·이후 회계/감독 인정자본을 이번 선택 조회에서 완결 확인하지 못했다.",
+      "회사의 상환권과 투자자의 상환청구권 또는 확정 만기는 다르다.",
+      "배당가능이익·배당 결의 등 조건에 따른 우선배당률이며 발생 확정 이자비용 또는 신사업별 자본비용으로 대체하지 않는다.",
+      "특정 디지털 사업 투자예산·향후 수익은 확인되지 않는다."
     ],
     "topic_ids": [
       "T-COMPANIES",
       "T-FUNDING"
-    ]
+    ],
+    "previous_read_scope": [
+      "dcmNo11624780, eleId2 유상증자 결정: 발행액·주식 종류·납입일·배당·상환·전환 조건, 자금사용 목적과 배정대상 표",
+      "공시 본문 선택 구간; 첨부 이사회 의사록 미독"
+    ],
+    "recheck_type": "live_primary_selected_sections"
   },
   {
     "id": "ST-KY-003",
@@ -4546,8 +4589,10 @@
     "read_status": "selected_sections",
     "source_type": "official_primary",
     "read_scope": [
-      "dcmNo11624786, eleId2: 발행액·주식 종류·납입일·우선배당·회사 상환권·자금사용 목적·배정대상 선택 구간",
-      "이사회 첨부 미독"
+      "이전 읽기 범위(이번 전부 재열람 아님): dcmNo11624786, eleId2: 발행액·주식 종류·납입일·우선배당·회사 상환권·자금사용 목적·배정대상 선택 구간",
+      "이전 읽기 범위(이번 전부 재열람 아님): 이사회 첨부 미독",
+      "이번 재확인: DART 원 공시 main 문서 선택 목록 및 유상증자 결정 eleId=2의 발행 종류·금액·납입일·상환권·전환기간·배당·운영자금 목적 선택 구간",
+      "첫 공시 dcmNo=11624780, 두 번째 dcmNo=11624786. 이사회 의사록 등 첨부 전문 미독. 해당 공시 문서 목록 확인은 별도 후속 공시 전수조사가 아니다."
     ],
     "summary": "약2,000억원 RCPS 발행 결정, 납입일10/30, 최초 우선배당률5.993%, 회사 상환권2029/10/30부터와 이후 배당률 상승 조건이다. 운영자금 목적이며 특정 디지털 투자예산은 확인되지 않았다.",
     "meaning": "약2,000억원 RCPS 발행 결정, 납입일10/30, 최초 우선배당률5.993%, 회사 상환권2029/10/30부터와 이후 배당률 상승 조건이다. 운영자금 목적이며 특정 디지털 투자예산은 확인되지 않았다.",
@@ -4558,12 +4603,21 @@
     "limitations": [
       "후속 납입 결과 미확인",
       "배당·상환의 실제 실행 미확인",
-      "조건부 자본규모 단순 합산을 현재 자본으로 쓰지 않음"
+      "조건부 자본규모 단순 합산을 현재 자본으로 쓰지 않음",
+      "10/30은 결정 공시의 납입 일정이며 실제 납입·발행 완료·이후 회계/감독 인정자본을 이번 선택 조회에서 완결 확인하지 못했다.",
+      "회사의 상환권과 투자자의 상환청구권 또는 확정 만기는 다르다.",
+      "배당가능이익·배당 결의 등 조건에 따른 우선배당률이며 발생 확정 이자비용 또는 신사업별 자본비용으로 대체하지 않는다.",
+      "특정 디지털 사업 투자예산·향후 수익은 확인되지 않는다."
     ],
     "topic_ids": [
       "T-COMPANIES",
       "T-FUNDING"
-    ]
+    ],
+    "previous_read_scope": [
+      "dcmNo11624786, eleId2: 발행액·주식 종류·납입일·우선배당·회사 상환권·자금사용 목적·배정대상 선택 구간",
+      "이사회 첨부 미독"
+    ],
+    "recheck_type": "live_primary_selected_sections"
   },
   {
     "id": "ST-KY-004",
@@ -4576,8 +4630,10 @@
     "read_status": "selected_sections",
     "source_type": "official_primary",
     "read_scope": [
-      "보도자료 본문1~2절 및 모험자본 공급 추가방안 선택 구간",
-      "3조·4조·8조 업무, 2개 결산일·단계별 영위기간 설명, 한투·미래·키움 지정/인가"
+      "이전 읽기 범위(이번 전부 재열람 아님): 보도자료 본문1~2절 및 모험자본 공급 추가방안 선택 구간",
+      "이전 읽기 범위(이번 전부 재열람 아님): 3조·4조·8조 업무, 2개 결산일·단계별 영위기간 설명, 한투·미래·키움 지정/인가",
+      "이번 재확인: 금융위 HTML 보도자료 본문, 시행령 개정안 의결 및 종투사 지정·단기금융업 인가 설명(본문 306–343행 기준)",
+      "당시 3/4/8조 단계·비자본 요건·모험자본 공급·한투/미래/키움 개별 결정 설명. 모든 첨부 전문 미독."
     ],
     "summary": "금융위는 규모별 업무와 지정 요건 강화, 모험자본 공급 확대 및 특정 회사의 지정·단기금융업 인가를 구분해 설명했다.",
     "meaning": "금융위는 규모별 업무와 지정 요건 강화, 모험자본 공급 확대 및 특정 회사의 지정·단기금융업 인가를 구분해 설명했다.",
@@ -4587,12 +4643,20 @@
     ],
     "limitations": [
       "발표시점 시행령은 국무회의 의결 후 공포·시행 예정 설명. 이후 통합법령 전체를 재검증하지 않음",
-      "교보의 현재 지정 여부를 직접 증명하지 않음"
+      "교보의 현재 지정 여부를 직접 증명하지 않음",
+      "2025-11-19 발표 당시 시행령 공포·시행은 예정 단계의 설명이다. 현행 조문·경과조치는 이번 KYX-A-001~004로 별도 확인했다.",
+      "교보의 2026-11-03 현재 지정·인가를 직접 증명하지 않는다.",
+      "지정·인가는 실제 조달액·반복 고객·이익의 증거가 아니다."
     ],
     "topic_ids": [
       "T-REGULATION",
       "T-FUNDING"
-    ]
+    ],
+    "previous_read_scope": [
+      "보도자료 본문1~2절 및 모험자본 공급 추가방안 선택 구간",
+      "3조·4조·8조 업무, 2개 결산일·단계별 영위기간 설명, 한투·미래·키움 지정/인가"
+    ],
+    "recheck_type": "live_primary_selected_sections"
   },
   {
     "id": "ST-KY-005",
@@ -4605,7 +4669,9 @@
     "read_status": "selected_sections",
     "source_type": "official_primary",
     "read_scope": [
-      "보도자료 본문 및 종투사 지정 현황표, 3/18 심의·의결 설명"
+      "이전 읽기 범위(이번 전부 재열람 아님): 보도자료 본문 및 종투사 지정 현황표, 3/18 심의·의결 설명",
+      "이번 재확인: 금융위 HTML 본문 및 종투사 지정 현황표(296–365행 기준), 2026-03-18 심의·의결과 인력·설비·통제 기준 설명",
+      "보도자료 본문 선택 범위이며 첨부 전문·11월 현행 전체 인가명부는 미검증."
     ],
     "summary": "NH의 8조원 종투사 지정에서 자본·인력·설비·내부통제·이해상충방지 요건을 확인했다고 발표했다. 당시 현황표에 교보는 포함되지 않는다.",
     "meaning": "NH의 8조원 종투사 지정에서 자본·인력·설비·내부통제·이해상충방지 요건을 확인했다고 발표했다. 당시 현황표에 교보는 포함되지 않는다.",
@@ -4620,7 +4686,11 @@
     "topic_ids": [
       "T-REGULATION",
       "T-COMPANIES"
-    ]
+    ],
+    "previous_read_scope": [
+      "보도자료 본문 및 종투사 지정 현황표, 3/18 심의·의결 설명"
+    ],
+    "recheck_type": "live_primary_selected_sections"
   },
   {
     "id": "ST-KY-006",
@@ -4724,13 +4794,15 @@
     "source_type": "official_primary",
     "read_scope": [
       "보도자료 II~V 중 책임·규제검토·AI 가이드라인 주요내용·원칙표·시행예정 설명",
-      "첨부 가이드라인 전문 미독"
+      "첨부 가이드라인 전문 미독",
+      "2026-11-03 교보 심화 재확인: 공식 HTML 318~358행. 대외 AI 에이전트 책임·업종 규율 검토, 자율규제 성격·보조수단성과 인적 책임. 첨부 가이드라인 전문·후속 실제 적용은 미확인."
     ],
     "summary": "금융위는 AI의 보조수단성, 임직원 최종 결정·책임, 신뢰·금융안정·소비자 이익 등 원칙과 자율규제 성격을 설명했다. 대외 에이전트 업무의 규제·책임 불확실성도 논의했다.",
     "meaning": "금융위는 AI의 보조수단성, 임직원 최종 결정·책임, 신뢰·금융안정·소비자 이익 등 원칙과 자율규제 성격을 설명했다. 대외 에이전트 업무의 규제·책임 불확실성도 논의했다.",
     "used_for": [
       "상품 구성 AI의 책임·승인·검증 설계",
-      "가이드라인·법적 의무·향후 제도개선 분리"
+      "가이드라인·법적 의무·향후 제도개선 분리",
+      "현재 직원 책임과 허가 충족 미래의 위임·견적·실행·사후관리 접점 구분"
     ],
     "limitations": [
       "6/22 시행 예정이라는 당시 발표이며 이후 개별 회사 적용·후속 법령 전수 확인 아님",
@@ -5633,5 +5705,711 @@
       "작성·갱신일 미표기. 명단에 없는 것을 현재 경남은행 미연계의 확정 증거로 삼지 않음",
       "접수 경로 외 내부 처리시간·오류·제휴 계획과 개별 승인 미확인"
     ]
+  },
+  {
+    "id": "KYX-A-001",
+    "title": "자본시장법 시행령 — 제77조의3 지정 요건 및 2025-11-25 부칙 경과조치",
+    "publisher": "법제처 국가법령정보센터 / 금융위원회",
+    "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=03&joNo=0077&lsiSeq=291081&urlMode=lsScJoRltInfoR",
+    "published_at": "2026-10-13",
+    "checked_at": "2026-11-03",
+    "visibility": "public",
+    "read_status": "selected_sections",
+    "source_type": "official_law_or_guidance_selected",
+    "read_scope": [
+      "현재 연결된 대통령령 제36756호(2026-10-13 시행) 헤더; 제77조의3 제1~9항",
+      "같은 현행 통합본문의 대통령령 제35872호(2025-11-25) 부칙 제1조·제2조 제1~3항. 전체 시행령 전문이나 모든 경과조치를 정독한 것은 아님."
+    ],
+    "summary": "3/4/8조 단계는 최근 두 사업연도 결산일의 자본, 인력·전산·통제·이해상충·사업계획 등을 요구한다. 4조는 3조 단계, 8조는 4조 단계 업무의 지정일 이후 2년 계속 영위 요건이 있다. 2025-11-25 전 신청자에는 종전 지정 규칙을 적용하고 관련 신청자·기존 지정자에는 지정 취소 판단의 5년 경과조치가 있다.",
+    "meaning": "자본 증액과 지정·업무별 권한을 분리하고 기존 신청·경과조치를 모르면 최단 지정일을 계산하지 않는다.",
+    "used_for": [
+      "3/4/8조 단계의 현재 법적 기준",
+      "자본액만으로 권한·시점을 확정하는 오류 차단",
+      "신청일·업무 단계·경과조치 다음 관측"
+    ],
+    "limitations": [
+      "2026-10-13은 읽은 통합판 시행일이고 핵심 강화 조항·부칙은 2025-11-25 개정이다.",
+      "교보의 신청일·적용 경과조치·최종 지정은 확인하지 못했다.",
+      "비자본 요건의 위임 기준·별표와 시행세칙 전체를 확인한 법률 의견이 아니다."
+    ],
+    "topic_ids": [
+      "T-REGULATION",
+      "T-FUNDING",
+      "T-COMPANIES"
+    ],
+    "effective_date": "2026-10-13",
+    "effective_date_status": "in_force_version_not_each_clause_origin",
+    "adoption_stage": "law_in_force",
+    "related_urls": [
+      "https://www.law.go.kr/LSW/lsInfoR.do?ancYnChk=0&chrClsCd=010202&efYd=20261013&lsiSeq=291081"
+    ],
+    "same_instrument_source_ids": [
+      "KYX-A-002"
+    ]
+  },
+  {
+    "id": "KYX-A-002",
+    "title": "자본시장법 시행령 — 제77조의6 단기금융·종합투자계좌(IMA) 업무",
+    "publisher": "법제처 국가법령정보센터 / 금융위원회",
+    "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=06&joNo=0077&lsiSeq=291081&urlMode=lsScJoRltInfoR",
+    "published_at": "2026-10-13",
+    "checked_at": "2026-11-03",
+    "visibility": "public",
+    "read_status": "selected_sections",
+    "source_type": "official_law_or_guidance_selected",
+    "read_scope": [
+      "현재 통합판 헤더 및 제77조의6 제1~3항. 특히 제2항 조달·운용·유동성, 제3항 합산 조달·분리관리·기업금융·평가·집중·장기자산·손실보전 요건",
+      "제2·3항의 하위 위임 중 이번 판단에 필요한 내용은 KYX-A-003 선택 조문으로 교차 확인."
+    ],
+    "summary": "단기금융 조달은 자기자본 200% 이내, IMA 업무에서는 단기금융과 IMA 조달 합계가 300% 이내다. 기업금융 비중은 원칙상 각각 50%와70%이며 규정상 예외가 있다. IMA에는 분리관리·평가·집중·장기자산·유동성 기준과 고객 요청 중도해지 예외를 둔 손실보전이 요구된다.",
+    "meaning": "조달 확대를 매출·자유 운용 예산과 구분하고 원금 지급·손실·유동성 책임을 미래 사업 설계에 반영한다.",
+    "used_for": [
+      "발행어음과 IMA 조달 한도 혼합 방지",
+      "조달-자산-지급 계약의 사업 모델",
+      "수탁금·자기자본·위험 부담 구분"
+    ],
+    "limitations": [
+      "구체적 한도 산정·제외 자산·개시 초기 유예는 하위규정에 따라 달라진다.",
+      "교보의 지정·인가·상품 판매·실제 고객 사용을 증명하지 않는다.",
+      "같은 현행 시행령의 다른 조문 카드인 KYX-A-001과 독립된 원문 증거 수를 늘리는 자료가 아니다."
+    ],
+    "topic_ids": [
+      "T-REGULATION",
+      "T-FUNDING",
+      "T-COMPANIES"
+    ],
+    "effective_date": "2026-10-13",
+    "effective_date_status": "in_force_version_not_each_clause_origin",
+    "adoption_stage": "law_in_force",
+    "same_instrument_source_ids": [
+      "KYX-A-001"
+    ]
+  },
+  {
+    "id": "KYX-A-003",
+    "title": "금융투자업규정 — 종투사 자기자본·단기금융·IMA·모험자본 및 경과비율",
+    "publisher": "법제처 국가법령정보센터 / 금융위원회",
+    "url": "https://www.law.go.kr/LSW/admRulLsInfoR.do?admRulId=36022&admRulSeq=2100000285020&chrClsCd=010202&joTpYn=Y&languageType=KO",
+    "published_at": "2026-09-09",
+    "checked_at": "2026-11-03",
+    "visibility": "public",
+    "read_status": "selected_sections",
+    "source_type": "official_law_or_guidance_selected",
+    "read_scope": [
+      "고시 제2026-38호(2026-09-09, 2026-09-15 시행) 통합판 헤더",
+      "제4-102조의2~5(자본·신청·사업계획 평가·전담신용), 제4-102조의8 제1~6항, 제4-102조의9 제1~11항의 단기금융/IMA 규율",
+      "제4-102조의10 제1~3항 모험자본 기준; 부칙 제2025-35호(2025-11-25) 제1조·제3조. 제4-102조의9의 참조 평가조문 및 시행세칙·별표 전체는 미독."
+    ],
+    "summary": "지정용 자본은 최근 연말 자본에 특정 신청일까지 증감을 반영하며 자본 처리된 조건부자본증권 조달액을 제외한다. 단기금융/IMA에 운용·유동성·분리관리와 개시 초기 유예가 있다. 모험자본 경과비율은 2026년10%,2027년20%, 본칙25%; 단기금융 부동산 상한은 2026년15%, 이후10%다. IMA의 원본5% 충당·준비금과 원본5% 고유재산 수익권 매수는 별도 의무다.",
+    "meaning": "RCPS의 법적 분류·감독 인정은 별도 확인하고, 2027년 이후 운용 제약과 실제 손실흡수 비용을 미래 조달 사업의 조건으로 둔다.",
+    "used_for": [
+      "자본금/회계자본/지정인정자본 구분",
+      "2027~2028 경과비율과 본칙 구분",
+      "IMA 두5% 의무와 유동성·고유재산 구분"
+    ],
+    "limitations": [
+      "RCPS라는 명칭만으로 조건부자본증권 제외 조항에 해당하거나 자본 전액 인정된다고 판정하지 않는다.",
+      "2026-09-15는 통합판 시행일로 모든 선택 조항의 신설일이 아니다.",
+      "모든 자산에 대한 기업금융·모험자본 적격성이나 세부 산정·신용등급을 판정하지 않았다.",
+      "규정 전체·세칙·별표를 전수 검토하지 않았다. 2027 이후는 현행 규정이 유지되는 조건이다."
+    ],
+    "topic_ids": [
+      "T-REGULATION",
+      "T-FUNDING",
+      "T-COMPANIES"
+    ],
+    "effective_date": "2026-09-15",
+    "effective_date_status": "in_force_version_with_confirmed_transitional_ratios",
+    "adoption_stage": "regulation_in_force"
+  },
+  {
+    "id": "KYX-A-004",
+    "title": "자본시장법 — 제77조의2·제77조의3·제360조 지정·기업신용·계열 제한·단기금융 인가",
+    "publisher": "법제처 국가법령정보센터 / 금융위원회",
+    "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=02&joNo=0077&lsiSeq=288615&urlMode=lsScJoRltInfoR",
+    "published_at": "2026-08-04",
+    "checked_at": "2026-11-03",
+    "visibility": "public",
+    "read_status": "selected_sections",
+    "source_type": "official_law_or_guidance_selected",
+    "read_scope": [
+      "법률 제21857호(2026-08-04, 2026-10-02 시행) 헤더; 제77조의2 제1~6항",
+      "제77조의3 제1~11항(특히 신용공여 총한도 제5항, 별도 한도 제6항, 계열 제한 제9항); 제360조 제1~10항",
+      "공식 조문별 HTML을 직접 요청하여 읽음. 관련 모든 시행령 예외·하위규정·판례 전문 검토 아님."
+    ],
+    "summary": "종투사는 신청·지정과 자본·업무요건 체계다. 관련 신용공여 총합의 자기자본200% 및 기업금융/중소기업 신용을 제외한100% 한도가 있다. 계열법인 기업신용공여·계열 운용 일반사모펀드의 PBS를 제한하되 지배 해외현지법인 예외를 별도로 둔다. 단기금융업은 법360조에 따른 별도 인가가 필요하다.",
+    "meaning": "그룹 협업의 서비스·인수·신용을 분리하고 4조 지정과 단기금융업 인가를 같은 사건으로 합치지 않는다.",
+    "used_for": [
+      "계열 IP 협업과 계열 기업대출의 경계",
+      "기업신용 총한도 및 사업별 자본 사용",
+      "별도 단기금융업 인가와 실제 조건"
+    ],
+    "limitations": [
+      "교보 개별 지정·인가·현재 업무범위를 증명하는 자료가 아니다.",
+      "계열 제한의 거래 실질·해외 예외·모든 세부 범위에 대한 법률 판단은 별도 필요하다.",
+      "10/2는 읽은 통합판 효력일이며 인용 조항 모두의 신규 도입일이 아니다.",
+      "KNX-V-004와 같은 법의 다른 조문 선택 범위이며 독립된 법률로 취급하지 않는다."
+    ],
+    "topic_ids": [
+      "T-REGULATION",
+      "T-FUNDING",
+      "T-COMPANIES"
+    ],
+    "effective_date": "2026-10-02",
+    "effective_date_status": "in_force_version_not_each_clause_origin",
+    "adoption_stage": "law_in_force",
+    "related_urls": [
+      "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=03&joNo=0077&lsiSeq=288615&urlMode=lsScJoRltInfoR",
+      "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0360&lsiSeq=288615&urlMode=lsScJoRltInfoR"
+    ]
+  },
+  {
+    "id": "KYX-M-001",
+    "title": "바로출판POD FAQ — 개인·출판사 정산 및 출간 절차",
+    "publisher": "교보문고",
+    "url": "https://www.kyobobook.co.kr/cscenter/faq/22",
+    "published_at": null,
+    "checked_at": "2026-11-03",
+    "visibility": "public",
+    "read_status": "selected_sections",
+    "read_scope": [
+      "Chrome의 실제 공개 FAQ 답변을 열어 읽음: 개인작가 정산금(질문1033), 출판사파트너 정산(1032), POD 출간 진행 방식/출판사(1039)",
+      "웹 텍스트 추출은 질문 목록만 제공했으므로 답변은 브라우저 본문으로 확인"
+    ],
+    "summary": "법인·공동대표 출판사는 전자계약 후 콘텐츠를 공급하며 주문 후 제작되고 파트너시스템에서 정산한다. 출판사 안내에는 정가의 20%와 계산서 발행 시 익월 25일 지급이 제시된다. 개인작가는 1만원 이상 발생 시 익월 20일, 휴일이면 전 영업일이며 원천징수 후 등록 계좌로 받는다고 안내한다.",
+    "used_for": [
+      "권리자가 받을 청구권과 플랫폼의 정산 업무가 존재한다는 운영 근거",
+      "개인작가와 출판사 계약·일정을 분리",
+      "공개 안내의 지급일 불일치 식별"
+    ],
+    "limitations": [
+      "특정 당사자가 체결한 계약·정산 원장·채권 양도 조항·실제 입금은 미확인",
+      "익월25일 안내와 연결된 2022년 공지의 20일경 안내가 달라 출판사 개별 채권 지급일은 null",
+      "입금자 표시 '교보전자책'만으로 계약 채무자 법인을 확정하지 않음",
+      "계정 로그인·비공개 판매 데이터 조회는 하지 않음"
+    ],
+    "topic_ids": [
+      "T-COMPANIES",
+      "T-RIGHTS",
+      "T-OPERATIONS",
+      "T-MONEY"
+    ]
+  },
+  {
+    "id": "KYX-M-002",
+    "title": "정산금(판매대금) 지급 관련 안내",
+    "publisher": "교보문고",
+    "url": "https://store.kyobobook.co.kr/pod/notice/1000210",
+    "published_at": "2022-10-09",
+    "checked_at": "2026-11-03",
+    "visibility": "public",
+    "read_status": "full_text",
+    "read_scope": [
+      "공개 공지 본문 Q&A 및 게시일 전체; 첨부 역발행 계산서 PDF는 미독"
+    ],
+    "summary": "공지에는 POD 정가의 20% 지급, 개인작가 누적 1만원 이상 익월20일경, 출판사는 계산서 발행 시 다음 달20일경 지급이라고 적혀 있다. 역발행 계산서 무료 서비스도 설명한다.",
+    "used_for": [
+      "정산 업무·계산서 조건 확인",
+      "현행 FAQ와 지급일 차이를 보존"
+    ],
+    "limitations": [
+      "과거 게시일이며 현행 FAQ에서 연결되지만 개별 최신 계약을 대신하지 않음",
+      "공지의 20일경을 확정 만기나 모든 출판 계약의 공통 조건으로 사용하지 않음"
+    ],
+    "topic_ids": [
+      "T-OPERATIONS",
+      "T-MONEY"
+    ]
+  },
+  {
+    "id": "KYX-M-003",
+    "title": "Pubple 이용 약관 변경 안내 — 저작권료 지급금액 기준 변경",
+    "publisher": "교보문고",
+    "url": "https://store.kyobobook.co.kr/pod/notice/1000199",
+    "published_at": "2022-10-09",
+    "checked_at": "2026-11-03",
+    "visibility": "public",
+    "read_status": "full_text",
+    "read_scope": [
+      "공지 본문과 과거 이용약관 제18조 발췌 전체"
+    ],
+    "summary": "페이지 게시일은2022-10-09이나 변경 적용일은2018-02-26으로 설명한다. 당시 사용료 지급 기준·지정계좌·원천징수·출판사 계산서 발행 조건을 제시한다.",
+    "used_for": [
+      "게시일과 과거 적용일 분리",
+      "구 약관의 지급일을 최신 거래에 전용하지 않도록 대조"
+    ],
+    "limitations": [
+      "현행 약관 전문이 아니며 양도 가능성을 확인하지 못함",
+      "2018년 적용 규정을 2026년 확정 조건으로 쓰지 않음"
+    ],
+    "topic_ids": [
+      "T-RIGHTS",
+      "T-OPERATIONS"
+    ]
+  },
+  {
+    "id": "KYX-M-004",
+    "title": "민법 제449조 — 채권의 양도성",
+    "publisher": "법제처 국가법령정보센터",
+    "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0449&lsiSeq=284415&urlMode=lsScJoRltInfoR",
+    "published_at": "2026-03-17",
+    "checked_at": "2026-11-03",
+    "visibility": "public",
+    "read_status": "selected_sections",
+    "read_scope": [
+      "민법 시행2026-03-17/법률21454호 표제 및 제449조1·2항"
+    ],
+    "summary": "채권 양도 원칙과 채권 성질·양도금지 의사표시에 따른 제한 및 선의 제3자 관련 조항을 규정한다.",
+    "used_for": [
+      "금융화 전 채권 양도 가능성과 계약상 금지 확인"
+    ],
+    "limitations": [
+      "개별 POD 계약의 양도 제한·선의 요건·분쟁에 대한 법률판단은 별도",
+      "발행일 필드는 법령 표제의 개정일이고 해당 조문의 신설일 의미가 아님"
+    ],
+    "topic_ids": [
+      "T-REGULATION",
+      "T-RIGHTS"
+    ]
+  },
+  {
+    "id": "KYX-M-005",
+    "title": "민법 제450조 — 지명채권양도의 대항요건",
+    "publisher": "법제처 국가법령정보센터",
+    "url": "https://www.law.go.kr/lsLinkCommonInfo.do?chrClsCd=010202&lsJoLnkSeq=1032403261",
+    "published_at": "2026-03-17",
+    "checked_at": "2026-11-03",
+    "visibility": "public",
+    "read_status": "selected_sections",
+    "read_scope": [
+      "민법 시행2026-03-17 표제 및 제450조1·2항"
+    ],
+    "summary": "채무자에 대한 양도인 통지 또는 채무자 승낙, 채무자 이외 제3자에 대한 확정일자 있는 증서 요건을 구분한다.",
+    "used_for": [
+      "토큰 기록과 법적 대항요건의 구분",
+      "증빙과 수금계좌 변경을 금융 실행의 선행 조건으로 설계"
+    ],
+    "limitations": [
+      "동산채권담보법·자산유동화 특례·신탁·도산법 전체 검토는 하지 않음",
+      "개별 구조에서 적용되는 요건은 별도 판단"
+    ],
+    "topic_ids": [
+      "T-REGULATION",
+      "T-RIGHTS"
+    ]
+  },
+  {
+    "id": "KYX-M-006",
+    "title": "저작권법 제45조 — 저작재산권의 양도",
+    "publisher": "법제처 국가법령정보센터",
+    "url": "https://www.law.go.kr/LSW/lsLinkCommonInfo.do?chrClsCd=010202&lsJoLnkSeq=1033063607",
+    "published_at": "2026-04-28",
+    "checked_at": "2026-11-03",
+    "visibility": "public",
+    "read_status": "selected_sections",
+    "read_scope": [
+      "현행 표제 시행2026-10-29/법률21595호와 제45조1·2항"
+    ],
+    "summary": "저작재산권은 전부 또는 일부 양도할 수 있으며 전부 양도 시에도 특약 없는2차적저작물 작성·이용권의 취급을 별도로 규정한다.",
+    "used_for": [
+      "서점 유통·자체IP 소개를 모든 저작권·영상화 권리 보유로 확대하지 않음",
+      "매체·권리별 계약 확인"
+    ],
+    "limitations": [
+      "개별 저작물 계약·권리자·등록 확인은 미수행",
+      "검색색인의2026-08-11 표제 대신 실제 연 조문 페이지의2026-10-29표제를 사용"
+    ],
+    "topic_ids": [
+      "T-REGULATION",
+      "T-RIGHTS"
+    ]
+  },
+  {
+    "id": "KYX-M-007",
+    "title": "20년 뒤 내 보험금, 보험사는 어떻게 준비할까?",
+    "publisher": "교보생명 뉴스룸",
+    "url": "https://news.kyobo.com/보험회사-재무건전성/",
+    "published_at": "2026-09-04",
+    "checked_at": "2026-11-03",
+    "visibility": "public",
+    "read_status": "selected_sections",
+    "read_scope": [
+      "본문 ALM·현금흐름·듀레이션·리스크 한도·위기시나리오·비상계획·ORSA 절, 웹 추출35~138행"
+    ],
+    "summary": "교보생명은 미래 보험금 지급 시점과 자산 현금흐름·기간을 함께 관리하고 연간 위험한도·위기시나리오 및 ORSA를 활용한다고 설명한다.",
+    "used_for": [
+      "생명의 투자 검토를 부채·유동성·자본 관점으로 제한",
+      "IP 투자와 운영 실험을 분리"
+    ],
+    "limitations": [
+      "회사 설명이며 내부 한도·현행 자산배분·신규 IP투자 의사·승인 절차 전문은 미확인",
+      "페이지의 교육용 시뮬레이션·신용등급·K-ICS 수치는 본 사업의 성과 근거로 사용하지 않음"
+    ],
+    "topic_ids": [
+      "T-COMPANIES",
+      "T-FUNDING",
+      "T-INSTITUTION-ROLES"
+    ]
+  },
+  {
+    "id": "KYX-M-008",
+    "title": "FY2025 실적 설명자료 — 보장성 보험 확대·선제적 투자 리밸런싱",
+    "publisher": "교보생명 뉴스룸",
+    "url": "https://news.kyobo.com/fy2025-실적-설명자료/",
+    "published_at": "2026-03-31",
+    "checked_at": "2026-11-03",
+    "visibility": "public",
+    "read_status": "selected_sections",
+    "read_scope": [
+      "기사 본문 불릿과2025/2024실적표, 웹37~62행"
+    ],
+    "summary": "교보생명은 장단기 채권·주식·대체투자 등 포트폴리오 조정과 ALM 원칙을2025년 투자손익 설명에 연결한다.",
+    "used_for": [
+      "기관 투자 기능과 자본변동 관리가 실제 기존 사업이라는 회사 설명 확인"
+    ],
+    "limitations": [
+      "2025년 실적 설명이고2026년 현행 포지션 자료가 아님",
+      "공시 재무제표·투자 세부를 추가 대조하지 않아 금액·투자수익 예측에 사용하지 않음",
+      "보험자산을 그룹 IP금융의 자유로운 조달원으로 사용하지 않음"
+    ],
+    "topic_ids": [
+      "T-COMPANIES",
+      "T-FUNDING"
+    ]
+  },
+  {
+    "id": "KYX-M-009",
+    "title": "정산/판매내역 조회방법 안내",
+    "publisher": "교보문고",
+    "url": "https://store.kyobobook.co.kr/pod/notice/1001541",
+    "published_at": "2023-11-10",
+    "checked_at": "2026-11-03",
+    "visibility": "public",
+    "read_status": "selected_sections",
+    "read_scope": [
+      "POD 판매내역·정산내역·장부내역 세 메뉴 설명, 채널·집계시차·지급조건, 웹33~112행"
+    ],
+    "summary": "공개 안내는 B2C/B2B/OFF 판매·정산·지급장부를 분리한다. 주문 즉시 판매내역이 갱신되지 않으며 B2C 배송완료 후 최대10영업일, B2B/OFF 마감후D+2, 정산내역D+3을 안내한다. 출판사는 계산서 발행 또는 승인 조건이 있다.",
+    "used_for": [
+      "판매 이벤트와 확정 정산·실제 입금의 구별",
+      "AI 입력 데이터 신선도·은행대조·계산서 확인 설계"
+    ],
+    "limitations": [
+      "표시 게시일2023-11-10이나 본문에2025년 예시가 있어 수정일은 미확인",
+      "안내 시차를 해당 거래의 확정 SLA로 쓰지 않음",
+      "파트너 계정 내부 원장은 조회하지 않음"
+    ],
+    "topic_ids": [
+      "T-OPERATIONS",
+      "T-MONEY"
+    ]
+  },
+  {
+    "id": "KYX-M-010",
+    "title": "민법 제451조 — 승낙, 통지의 효과",
+    "publisher": "법제처 국가법령정보센터",
+    "url": "https://www.law.go.kr/LSW//lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0451&lsiSeq=284415&urlMode=lsScJoRltInfoR",
+    "published_at": "2026-03-17",
+    "checked_at": "2026-11-03",
+    "visibility": "public",
+    "read_status": "selected_sections",
+    "read_scope": [
+      "민법 시행2026-03-17 표제 및 제451조1·2항"
+    ],
+    "summary": "이의 보류 없는 승낙과 양도통지만 있는 경우의 항변 관련 효과를 구분한다.",
+    "used_for": [
+      "상계·환불·분쟁 등을 채무자에게 확인해야 하는 이유",
+      "단순 통지 완료를 모든 항변 소멸로 오인하지 않음"
+    ],
+    "limitations": [
+      "개별 계약·사건에서 항변 절단 여부의 법률 의견을 제공한 것은 아님"
+    ],
+    "topic_ids": [
+      "T-RIGHTS",
+      "T-REGULATION"
+    ]
+  },
+  {
+    "id": "KYX-M-011",
+    "title": "저작권법 제46조 — 저작물의 이용허락",
+    "publisher": "법제처 국가법령정보센터",
+    "url": "https://www.law.go.kr/LSW//lsSideInfoP.do?docCls=jo&joBrNo=00&joNo=0046&lsiSeq=285693&urlMode=lsScJoRltInfoR",
+    "published_at": "2026-04-28",
+    "checked_at": "2026-11-03",
+    "visibility": "public",
+    "read_status": "selected_sections",
+    "read_scope": [
+      "현재 법령 링크에서 lawService를 따라간 표제 시행2026-10-29 및 제46조1~3항"
+    ],
+    "summary": "이용허락은 허락받은 방법·조건 안에서 행사하며, 이용할 권리의 제3자 양도에는 저작재산권자 동의가 필요하다고 규정한다.",
+    "used_for": [
+      "출판·유통 이용권과 저작재산권 소유 및 금전채권 양도를 분리"
+    ],
+    "limitations": [
+      "이용권의 양도와 이미 발생한 금전채권 양도는 동일한 검토가 아님",
+      "특정 교보 계약에 대한 결론을 내리지 않음"
+    ],
+    "topic_ids": [
+      "T-RIGHTS",
+      "T-REGULATION"
+    ]
+  },
+  {
+    "id": "KYX-V-001",
+    "title": "Stablecoin Deposits — IBKR 공식 중국어 안내",
+    "publisher": "Interactive Brokers",
+    "url": "https://www.interactivebrokers.com/cn/trading/stablecoin.php",
+    "published_at": null,
+    "checked_at": "2026-11-03",
+    "visibility": "public",
+    "read_status": "selected_sections",
+    "source_type": "official_product_or_contract",
+    "read_scope": "HTML 68–115,128–134: 경로·수수료·체인·위험. 영문 같은 경로는 본문 접근이 불안정해 검색 인덱스와 대조하고 중국어 본문을 읽음.",
+    "summary": "적격 IBLLC 고객의 USDC를 zerohash가 USD로 바꿔 증권계좌에 입금하는 경로를 설명한다. 수수료는 최초 5천달러 0.35%, 다음 1만5천달러 0.20%, 2만달러 초과분 0.10%; IBKR 입금료는 없고 망 비용은 별도. Ethereum·Solana·Base를 열거한다.",
+    "used_for": "현재 표시된 입금 구조와 비용 주체를 과거 1월 발표와 구분.",
+    "limitations": "갱신일 미표시. RLUSD/PYUSD는 여전히 향후 계획으로 표시해 7월 발표와 시점 불일치. 특정 계좌의 실시간 지원·한도·가격·출금·직접 토큰 담보 인정은 확인하지 않음.",
+    "topic_ids": [
+      "T-COMPANIES",
+      "T-OPERATIONS",
+      "T-SETTLEMENT"
+    ],
+    "event_date": null,
+    "effective_date": null,
+    "adoption_stage": "current_public_product_page_observed",
+    "alternate_url": "https://www.interactivebrokers.com/en/trading/stablecoin.php"
+  },
+  {
+    "id": "KYX-V-002",
+    "title": "Fund with Stablecoin — Client Portal User Guide",
+    "publisher": "Interactive Brokers",
+    "url": "https://www.ibkrguides.com/clientportal/transferandpay/stablecoin.htm",
+    "published_at": null,
+    "checked_at": "2026-11-03",
+    "visibility": "public",
+    "read_status": "selected_sections",
+    "source_type": "official_product_or_contract",
+    "read_scope": "HTML 28–80: 절차와 최종갱신일.",
+    "summary": "USD 기준통화 고객용 입금 절차에서 Deposit Limits and Holds 확인 뒤 자산·네트워크를 선택하고 외부지갑에서 지정 주소로 전송하도록 안내한다.",
+    "used_for": "상품 일반 안내와 개별 계좌의 조건·실행을 구별.",
+    "limitations": "2026-05-12 갱신. 텍스트는 전체 지원 자산·망·고객 국적·금액별 현재 견적을 열거하지 않는다. 로그인·실거래 검증 없음.",
+    "topic_ids": [
+      "T-COMPANIES",
+      "T-OPERATIONS",
+      "T-SETTLEMENT"
+    ],
+    "event_date": null,
+    "effective_date": null,
+    "updated_at": "2026-05-12",
+    "adoption_stage": "operating_instructions"
+  },
+  {
+    "id": "KYX-V-003",
+    "title": "USD Deposits and Withdrawals — IBKR Campus",
+    "publisher": "Interactive Brokers",
+    "url": "https://www.interactivebrokers.com/campus/gabe-funding-demo/",
+    "published_at": null,
+    "checked_at": "2026-11-03",
+    "visibility": "public",
+    "read_status": "selected_sections",
+    "source_type": "official_product_or_contract",
+    "read_scope": "HTML 549–559 stablecoin 절, 560–584 출금 안내 도입부.",
+    "summary": "공식 Campus 표는 IBLLC, 24시간 입금, 도착 후 거래 가능, 출금 보류 30영업일을 표시한다. 표의 수수료는 0.3%·최소1달러로 구간요율 안내와 다르다.",
+    "used_for": "거래 가능과 출금 가능을 분리하고 공식 공개문서 충돌을 기록.",
+    "limitations": "URL에 demo가 있고 갱신일 미표시. 최소10달러·일/건2.5만달러·월25만달러도 표시되지만 모든 고객의 최신 계약조건으로 채택하지 않음. 최신 일반 요율이나 30영업일의 보편 적용 여부를 이 문서로 확정하지 않음.",
+    "topic_ids": [
+      "T-COMPANIES",
+      "T-OPERATIONS",
+      "T-SETTLEMENT"
+    ],
+    "event_date": null,
+    "effective_date": null,
+    "adoption_stage": "public_guidance_conflicting_currentness"
+  },
+  {
+    "id": "KYX-V-004",
+    "title": "Interactive Brokers Builds Out One of the Most Comprehensive and Low-Cost Solutions for Accessing Cryptocurrency Available",
+    "publisher": "Interactive Brokers",
+    "url": "https://investors.interactivebrokers.com/en/general/about/mediaRelations/7-15-26.php",
+    "published_at": "2026-07-14",
+    "checked_at": "2026-11-03",
+    "visibility": "public",
+    "read_status": "selected_sections",
+    "source_type": "official_product_or_contract",
+    "read_scope": "HTML 59–68,96–102: 발표일·stablecoin 양방향 funding·법인 제한.",
+    "summary": "7월14일 발표는 USD를 USDC/PYUSD/RLUSD로 자동 전환해 외부지갑으로 출금하고 세 코인으로 양방향 funding한다고 설명했다. UK·Ireland 법인의 양방향 서비스 제외도 명시했다.",
+    "used_for": "1월 입금 발표 이후 출금 기능 발표가 있었음을 보존.",
+    "limitations": "URL의 7-15와 달리 본문 발표일은7/14. 고객별 11월3일 현재 가동·출금 가격·지원 체인·예외는 확인하지 않음. 암호자산 거래수수료를 stablecoin 전환수수료로 사용하지 않음.",
+    "topic_ids": [
+      "T-COMPANIES",
+      "T-OPERATIONS",
+      "T-SETTLEMENT"
+    ],
+    "event_date": "2026-07-14",
+    "effective_date": null,
+    "adoption_stage": "company_launch_announcement_historical"
+  },
+  {
+    "id": "KYX-V-005",
+    "title": "Account Funding — zerohash Documentation",
+    "publisher": "zerohash",
+    "url": "https://docs.zerohash.com/docs/fund-overview",
+    "published_at": null,
+    "checked_at": "2026-11-03",
+    "visibility": "public",
+    "read_status": "selected_sections",
+    "source_type": "official_product_or_contract",
+    "read_scope": "HTML 23–30,50–146: onboarding·원장 흐름·비용 지급자·플랫폼 법정통화 정산.",
+    "summary": "고객의 즉시 법정통화 잔액 표시와 플랫폼의 하루 단위 법정통화 정산을 구분한다. 전환 비용은 플랫폼 또는 고객이 부담하도록 구성할 수 있으며, 주말·휴일의 은행 정산은 별도다.",
+    "used_for": "빠른 고객 사용 가능액 뒤의 정산·유동성·비용 분담을 분석.",
+    "limitations": "일반 제품 문서이며 IBKR나 교보의 개별 정산계약을 확인하지 않음. 상대적 갱신 표시만 있어 정확한 발표일은 비움. 일반 USDT 지원을 IBKR/교보 지원으로 옮기지 않음.",
+    "topic_ids": [
+      "T-COMPANIES",
+      "T-OPERATIONS",
+      "T-SETTLEMENT"
+    ],
+    "event_date": null,
+    "effective_date": null,
+    "adoption_stage": "generic_product_technical_documentation"
+  },
+  {
+    "id": "KYX-V-006",
+    "title": "zerohash US User Agreement — IBKR 공개 양식 4438",
+    "publisher": "zerohash / Interactive Brokers",
+    "url": "https://gdcdyn.interactivebrokers.com/Universal/servlet/Registration_v2.formSampleView?formdb=4438",
+    "published_at": null,
+    "checked_at": "2026-11-03",
+    "visibility": "public",
+    "read_status": "selected_sections",
+    "source_type": "official_product_or_contract",
+    "read_scope": "PDF 표지·첫 설명(p.1–2), §8.4.3–8.4.5(p.32–33; PDF 0기준31–32). 그 외 전문 미독.",
+    "summary": "IBKR와 zerohash 서비스 주체를 구분하며 stablecoin/법정통화 전환에 발행자·유동성공급자·은행의 지연과 비용이 개입할 수 있고 최종 수취 시각·가격을 보장하지 않는다고 설명한다.",
+    "used_for": "고객의 토큰 도착·전환·증권 현금·최종 출금 간 단계를 구분.",
+    "limitations": "표지 갱신일2025-12-11, 66쪽 중 선택 절만 확인. 특정 고객 서명본·최신 개별조건·사법상 효력을 확정한 법률검토가 아님.",
+    "topic_ids": [
+      "T-COMPANIES",
+      "T-OPERATIONS",
+      "T-SETTLEMENT"
+    ],
+    "event_date": null,
+    "effective_date": null,
+    "updated_at": "2025-12-11",
+    "adoption_stage": "published_contract_form"
+  },
+  {
+    "id": "KYX-V-007",
+    "title": "Interactive Brokers Opens AI Connectivity to Any Tool Built on the MCP Standard",
+    "publisher": "Interactive Brokers",
+    "url": "https://investors.interactivebrokers.com/en/general/about/mediaRelations/7-28-26.php",
+    "published_at": "2026-07-28",
+    "checked_at": "2026-11-03",
+    "visibility": "public",
+    "read_status": "selected_sections",
+    "source_type": "official_product_or_contract",
+    "read_scope": "HTML 61–75,85: MCP 확대·분석/지시 초안·각 주문 고객 검토.",
+    "summary": "7월 발표는 MCP를 통한 계좌 연결과 AI의 지시 초안을 설명하고 고객이 IBKR 플랫폼에서 각 지시를 검토해 주문으로 바꾼다고 명시했다.",
+    "used_for": "과거 승인형 AI 범위를 이후 자동거래 문서와 별도로 보존.",
+    "limitations": "7월 발표를 현재 모든 AI 기능의 한계로 일반화하지 않음. 해당 발표 자체는 자동 무승인 거래를 확인하지 않음.",
+    "topic_ids": [
+      "T-AI",
+      "T-AGENT-FINANCE",
+      "T-OPERATIONS"
+    ],
+    "event_date": "2026-07-28",
+    "effective_date": null,
+    "adoption_stage": "company_launch_announcement_historical"
+  },
+  {
+    "id": "KYX-V-008",
+    "title": "AI Integration and IBKR Autonomous Trading — 현재 공식 안내",
+    "publisher": "Interactive Brokers",
+    "url": "https://www.interactivebrokers.com/en/trading/ai-integrations.php",
+    "published_at": null,
+    "checked_at": "2026-11-03",
+    "visibility": "public",
+    "read_status": "selected_sections",
+    "source_type": "official_product_or_contract",
+    "read_scope": "HTML 94–127,330–400: 적격성·추가 연결료·일반/자동 모드·상품/철회/관할 제한.",
+    "summary": "일반 승인형과 지정 현금 AI Partition의 주문별 승인 없는 모드를 구분한다. 개인 비마진계좌·경험요건과 상품 제약을 제시하고, 연결 추가료는 없지만 시장데이터·거래·AI 공급자 비용은 별도라고 설명한다.",
+    "used_for": "미래 고객 접점·위임·무료 연결과 실행 보수 분리의 경쟁 신호.",
+    "limitations": "갱신일 미표시. 같은 페이지의 관할 FAQ는 IBLLC/호주/싱가포르/UK 적격 고객을 planned라고 써 전체관할 현재 출시는 확정하지 않음. 개인 고객 조건을 교보 법인/기관 고객·한국 권한에 대입하지 않음.",
+    "topic_ids": [
+      "T-AI",
+      "T-AGENT-FINANCE",
+      "T-OPERATIONS"
+    ],
+    "event_date": null,
+    "effective_date": null,
+    "adoption_stage": "current_product_and_planned_availability_mixed"
+  },
+  {
+    "id": "KYX-V-009",
+    "title": "AI Trading Supplement — Form 4923",
+    "publisher": "Interactive Brokers",
+    "url": "https://ndcdyn.interactivebrokers.com/Universal/servlet/Registration_v2.formSampleView?formdb=4923&preferredFormat=html",
+    "published_at": null,
+    "checked_at": "2026-11-03",
+    "visibility": "public",
+    "read_status": "selected_sections",
+    "source_type": "official_product_or_contract",
+    "read_scope": "HTML 0–60, §1–7: 표지 문서일·partition·주문 승인·책임·통제·위험·중단·법정권리 유보.",
+    "summary": "2026-09-25 표시 약관은 AI Partition의 자동 주문과 고객 책임을 규정한다. 다른 IBKR 계좌 채무에 partition 자산을 사용할 수 있고, 미결제·열린 포지션으로 이전이 지연될 수 있다. 법으로 배제할 수 없는 책임과 권리는 남긴다.",
+    "used_for": "사전 위임을 주문별 승인과 구분하고 계정 분리의 한계·손실/복구 책임 검토.",
+    "limitations": "문서 표시일을 모든 고객의 효력·출시일로 확정하지 않음. 실제 서명·활성화·거래·수익성 미확인. 공급자의 면책 문구가 감독당국의 승인이나 한국에서의 책임 면제를 증명하지 않음.",
+    "topic_ids": [
+      "T-AI",
+      "T-AGENT-FINANCE",
+      "T-OPERATIONS"
+    ],
+    "event_date": null,
+    "effective_date": null,
+    "document_date": "2026-09-25",
+    "adoption_stage": "published_contract_form"
+  },
+  {
+    "id": "KYX-V-010",
+    "title": "Fees — Tether",
+    "publisher": "Tether",
+    "url": "https://tether.to/en/fees/",
+    "published_at": null,
+    "checked_at": "2026-11-03",
+    "visibility": "public",
+    "read_status": "selected_sections",
+    "source_type": "official_product_or_contract",
+    "read_scope": "HTML 42–62: 직접 취득·상환 최소금액·요율·인증료·계정 심사·오입금.",
+    "summary": "공개표의 직접 취득/상환 최소금액은10만달러, 상환료는1000달러와0.1% 중 큰 값, 취득료0.1%, 인증료150달러다. 계정 승인은 Tether 재량이며 토큰 출금도 별도 심사·시간을 요구한다.",
+    "used_for": "직접 발행자 상환과 거래소/전환사업자 현금화 가격이 다름을 구체화.",
+    "limitations": "갱신일 미표시. 교보의 적격 계정·계약·고객 가격이나 일반 USDT 보유자의 직접 상환권을 증명하지 않음. 별도 은행/망/거래소 비용·시세·세금은 포함하지 않음.",
+    "topic_ids": [
+      "T-COMPANIES",
+      "T-OPERATIONS",
+      "T-SETTLEMENT"
+    ],
+    "event_date": null,
+    "effective_date": null,
+    "adoption_stage": "current_public_fee_page_observed"
+  },
+  {
+    "id": "KYX-V-011",
+    "title": "AI Instructions — Client Portal User Guide",
+    "publisher": "Interactive Brokers",
+    "url": "https://www.ibkrguides.com/clientportal/gen-ai-instructions.htm",
+    "published_at": null,
+    "checked_at": "2026-11-03",
+    "visibility": "public",
+    "read_status": "selected_sections",
+    "source_type": "official_product_or_contract",
+    "read_scope": "HTML 28–79: 일반 AI instructions의 동의·계좌 선택·Review & Submit·철회·갱신일.",
+    "summary": "9월23일 갱신 가이드는 외부 AI의 구속력 없는 지시와 IBKR 화면에서 고객이 승인·주문 제출하는 일반 모드를 설명한다.",
+    "used_for": "9월25일 자동거래 보충약관과 일반 모드를 구분.",
+    "limitations": "자동 모드의 현재 출시범위는 이 안내만으로 알 수 없음. 실제 사용성·고객 성과·수익은 확인하지 않음.",
+    "topic_ids": [
+      "T-AI",
+      "T-AGENT-FINANCE",
+      "T-OPERATIONS"
+    ],
+    "event_date": null,
+    "effective_date": null,
+    "updated_at": "2026-09-23",
+    "adoption_stage": "operating_instructions"
   }
 ]

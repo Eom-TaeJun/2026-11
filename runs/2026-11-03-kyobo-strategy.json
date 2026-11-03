@@ -1,0 +1,304 @@
+{
+  "run_id": "2026-11-03-kyobo-strategy",
+  "as_of": "2026-11-03",
+  "prior_repository_head": "7f10b492291c3d45d88071687017b2738f4e7601",
+  "purpose": "STR-KY-01~05를 자본·업무권한·그룹 RWA·USDC/USDT·AI 고객접점의 미래전략팀 사업안으로 구체화",
+  "execution": {
+    "logical_roles": 8,
+    "workers_including_coordinator": 4,
+    "assignments": [
+      "총괄: 기존 공개 전략·중앙 연구 경로·정책 원문·통합 사업안·병합·검증·원격 확인",
+      "source_design: 자본·인가·기존 실적·선택 법령 및 보고서18/21 검토",
+      "mechanism_design: 문고 정산·IP 권리·생명 ALM·한 거래 설계",
+      "validation_design: 레일·AI 계약·경쟁 및 보고서18/19 독립 검토"
+    ],
+    "execution_note": "하위 작업 초기화가 지연되어 총괄이 독립 조사와 초안을 진행했고 기존 작업을 재개해 실제 자료팩·교차검토를 수령했다. 동의 인원을 독립 증거 수로 세지 않는다.",
+    "customer_trial_performed": false,
+    "transactions_executed": false,
+    "scheduled_monitoring_enabled": false
+  },
+  "source_coverage": {
+    "new_sources": 26,
+    "updated_existing_sources": 9,
+    "new_source_ids": [
+      "KYX-A-001",
+      "KYX-A-002",
+      "KYX-A-003",
+      "KYX-A-004",
+      "KYX-M-001",
+      "KYX-M-002",
+      "KYX-M-003",
+      "KYX-M-004",
+      "KYX-M-005",
+      "KYX-M-006",
+      "KYX-M-007",
+      "KYX-M-008",
+      "KYX-M-009",
+      "KYX-M-010",
+      "KYX-M-011",
+      "KYX-V-001",
+      "KYX-V-002",
+      "KYX-V-003",
+      "KYX-V-004",
+      "KYX-V-005",
+      "KYX-V-006",
+      "KYX-V-007",
+      "KYX-V-008",
+      "KYX-V-009",
+      "KYX-V-010",
+      "KYX-V-011"
+    ],
+    "updated_source_ids": [
+      "ST-KY-001",
+      "ST-KY-002",
+      "ST-KY-003",
+      "ST-KY-004",
+      "ST-KY-005",
+      "FIN-007",
+      "FIN-008",
+      "ST-KY-009",
+      "PRIOR-003"
+    ],
+    "new_claims": 45,
+    "updated_claims": 3,
+    "new_claim_ids": [
+      "C-201",
+      "C-202",
+      "C-203",
+      "C-204",
+      "C-205",
+      "C-206",
+      "C-207",
+      "C-208",
+      "C-209",
+      "C-210",
+      "C-211",
+      "C-212",
+      "C-213",
+      "C-214",
+      "C-215",
+      "C-216",
+      "C-217",
+      "C-218",
+      "C-219",
+      "C-220",
+      "C-221",
+      "C-222",
+      "C-223",
+      "C-224",
+      "C-225",
+      "C-226",
+      "C-227",
+      "C-228",
+      "C-229",
+      "C-230",
+      "C-231",
+      "C-232",
+      "C-233",
+      "C-234",
+      "C-235",
+      "C-236",
+      "C-237",
+      "C-238",
+      "C-239",
+      "C-240",
+      "C-241",
+      "C-242",
+      "C-243",
+      "C-244",
+      "C-245"
+    ],
+    "updated_claim_ids": [
+      "C-126",
+      "C-127",
+      "C-128"
+    ],
+    "meaning": "출처 카드/읽은 범위 수. 같은 법령의 다른 조문·같은 회사 안내를 독립 실증으로 세지 않는다. 첨부·법령 전수 정독 수가 아님.",
+    "existing_context_reuse": "SBI·NOBLX·DCG·Ripple 및 기존 원장은 맥락으로 재사용하고 일부를 선택 재열람했다. 세부 위치는 context_reuse_detail. 카드 신규/갱신 수와 전체 재열람 횟수를 동일시하지 않음.",
+    "public_prior_work": {
+      "source_id": "PRIOR-003",
+      "ref": "d64f570467204e2fdfa5be86ea456a501191b9f8",
+      "blob_sha": "dad08f99a93d97e20c0be6add079ca254b78a4e5",
+      "scope": "KYOBO_PROFIT_STRATEGY.md 1~6절 전체"
+    },
+    "central_navigation": "Eom-TaeJun/finance의 AGENTS, FINANCE_AI_HANDOFF 소개/선택 범위, knowledge-map의 증권·AI 경로를 확인. 이 턴에 모든10월 이후 커밋·개인 채팅·자료를 재정독하지 않음.",
+    "context_reuse_detail": {
+      "ST-KY-007": {
+        "checked_at": "2026-11-03",
+        "scope": "사업소개 본문40~56행 재독"
+      },
+      "KYO-GEO-003": {
+        "checked_at": "2026-11-03",
+        "scope": "SCBX본문182~206행, 발표일173행과 Strategic Partner Roles 재독"
+      },
+      "KYO-GEO-004": {
+        "checked_at": "2026-11-03",
+        "scope": "DCG기사본문5~22행 및 하단법인표시71행 재독"
+      },
+      "KYO-GEO-005": {
+        "checked_at": "2026-11-03",
+        "scope": "공식기사37~58행 재독"
+      },
+      "KYO-GEO-007": {
+        "checked_at": "2026-11-03",
+        "scope": "공식PDF1쪽 및2쪽36~45행 펀드소개 재독"
+      },
+      "KYO-GEO-008": {
+        "checked_at": "2026-11-03",
+        "scope": "일본어공식PDF2쪽 전체 재독"
+      },
+      "FIN-007": {
+        "checked_at": "2026-11-03",
+        "scope": "공식HTML296~405행, 단계·집합화·장래채권·투자계약증권 한계 재독. 공용원장 갱신은 총괄담당"
+      },
+      "FIN-008": {
+        "scope": "기존 원장 선택읽기 기록과 보고서18/공개고정SHA전략의 과금 경계 재사용. 이번담당의 새독립전문검증 아님"
+      },
+      "ST-KY-009": {
+        "scope": "기존원장 및 보고서13/공개고정SHA전략 재사용. 이번담당의 가이드라인전문 새검증 아님"
+      },
+      "PRIOR-003": {
+        "checked_at": "2026-11-03",
+        "scope": "고정commit d64f570467204e2fdfa5be86ea456a501191b9f8의KYOBO_PROFIT_STRATEGY.md 전체반환본문 읽음. blob dad08f99a93d97e20c0be6add079ca254b78a4e5. 공식회사사실 아닌 이전연구"
+      },
+      "KYX-A-004": {
+        "scope": "자본 담당의 직접원문 선택읽기 패킷 재사용. 본담당 웹 재요청은 URL접근오류; 독립적으로 본문을 읽었다고 표시하지 않음"
+      }
+    }
+  },
+  "reports": [
+    "reports/18_kyobo_future_strategy_business_plan.md",
+    "reports/19_kyobo_group_rwa_deal_design.md",
+    "reports/20_kyobo_rails_agent_business.md",
+    "reports/21_kyobo_capital_and_permissions.md"
+  ],
+  "records": [
+    "data/kyobo_strategy_business_plan.json",
+    "data/kyobo_ip_deal_checklist.json",
+    "data/strategy_decisions_2027.json"
+  ],
+  "independent_review": [
+    {
+      "scope": "보고서18·21 자본·보수·한도·경제식",
+      "finding": "계열 기업신용 제한을 그룹 협업과 함께 명시",
+      "resolution": "법77조의3 제9항 및 거래실질/예외 심사 반영. 최종 두 보고서 정합성 재확인"
+    },
+    {
+      "scope": "보고서18·20 레일·AI",
+      "finding": "IBKR 과거/현재 요율·토큰·출금보류 및 승인형/자동형/관할 planned 차이",
+      "resolution": "현재 고객조건 미확인과 문서별 시점을 보존. 완전한 재산절연·철회=주문취소 가정 제거"
+    },
+    {
+      "scope": "보고서19 권리·수금·배분",
+      "finding": "준비금 요구/실제 적립/부족 구분, 소멸채권 중복발행과 적법한 대체발행 구분",
+      "resolution": "최종 본문에 비용·준비금 부족과 재발행 경계 반영"
+    }
+  ],
+  "root_spot_checks": [
+    "법77조의3 공식 HTML에서 추출한 조문을 직접 읽고 제9항 범위 확인",
+    "IBKR 현행 AI 안내·보충약관 및 중국어 입금 안내 선택 원문 대조",
+    "FIN-007 정책 단계·FIN-008 예고·ST-KY-009 AI원칙 선택 본문 재확인"
+  ],
+  "unresolved": [
+    "RCPS 실제 납입·회계/감독 인정·교보 최신 지정/인가 완결 확인",
+    "교보 직접 Circle Mint·USDT 계약·지원 고객/체인/가격·반복 매출",
+    "POD 최신 개별 계약·채무자·지급일·양도·상계·정산/입금·금융수요",
+    "그룹 내부 승인·자본·원가·실제 유료 고객·개발비·ROI",
+    "모든 법령·판례·인가·하위규칙 전수검토 및 국가별 규제원장 전체 갱신 미수행"
+  ],
+  "access_limits": {
+    "A": [
+      {
+        "scope": "후속 교보 지정·인가",
+        "status": "not_completely_verified",
+        "checked_at": "2026-11-03",
+        "method": "금융위 공식 도메인 선택 검색, 종투사 지정/교보/2026 키워드 및 기존 지정 보도자료 재열람",
+        "limit": "최신 교보 최종 결정 원문을 확보하지 못했다. 3월 표를11월 미지정 증거로 확대하지 않음."
+      },
+      {
+        "scope": "RCPS 후속 납입·발행 완료·회계/감독 분류",
+        "status": "not_completely_verified",
+        "checked_at": "2026-11-03",
+        "method": "DART 두 원 공시 main 문서 목록 및 viewer 본문 재확인, DART/KIND/교보 도메인의 10/30 납입·발행결과 선택 검색",
+        "limit": "원 결정 문서 목록은 전체 후속 공시 목록이 아니다. https://dart.fss.or.kr/dsab002/main.do 시도는 URL 오류 페이지를 반환해 전체 후속 목록 확인을 완료하지 못함."
+      },
+      {
+        "scope": "교보 공식 고객 기능",
+        "url": "https://www.iprovest.com/",
+        "status": "site_request_blocked",
+        "checked_at": "2026-11-03",
+        "method": "공개 홈페이지 HTTP 읽기",
+        "limit": "HTTP200이지만 비정상 요청/잠시 후 안내가 반환됨. 우회하지 않았고 현재 기관API·지원 체인·토큰 입출금·24시간 자금기능은 미확인."
+      },
+      {
+        "scope": "국가법령정보센터",
+        "status": "selected_primary_read_completed",
+        "checked_at": "2026-11-03",
+        "method": "web open 일부 Internal Error 후 공개 URL 직접 HTTP 읽기로 선택 조문·부칙 확인",
+        "limit": "법령 전체·시행세칙·별표·모든 예외를 전수 읽지 않았다."
+      },
+      {
+        "scope": "영업 성과·상용 기능",
+        "status": "internal_evidence_unavailable",
+        "checked_at": "2026-11-03",
+        "limit": "고객별 가격·원가·활성 수·기관/개인 비중·기능 사용·자금 사건·손실·개발비·고객 실험은 미확인. 거래 실행·모집·계좌 접속 없음."
+      }
+    ],
+    "M": [
+      "공개 계약 개요·FAQ·법령·공식 발표를 읽었으며 실제 출판사 계약·특정 작품·개인/기관 고객정보·정산 원장·양도/신탁계약·내부 투자 승인 자료는 확보하지 않았다.",
+      "FAQ 답변은 Chrome 공개 페이지에서 직접 펼쳐 읽었다. 일반 웹 추출은 질문 목록만 반환했다. 최초 onk 도메인 직접 HTTP 요청은 DNS 해석 실패, 브라우저에서는 www공식 페이지의 답변 확인에 성공했다.",
+      "교보생명 FY2023 영문 Annual Report 및2024영문 Sustainability Report의 웹 열기는 각각13,175,818/41,566,001바이트 크기로 실패했다. FY2024영문연차보고서 외부협회호스팅도10,995,195바이트크기로 실패했다. 검색요약을 본문 근거로 채택하지 않고2026-09-04와2026-03-31공식HTML본문으로 ALM 설명을 확인했다.",
+      "민법·저작권법의 관련 조문만 선택 읽었다. 신탁·유동화·도산·금융투자·보험업·세법의 전 조문 및 판례 전수검토나 특정거래 적법성 확정은 하지 않았다.",
+      "공개 이전 연구는 주장·가설의 맥락으로 재사용했으며 회사의 공식 사실과 분리했다. 비공개 채팅·경로·원문은 산출물에 수록하지 않았다.",
+      "FIN-007과FIN-008 원장 자체 갱신은 총괄 담당이다. 본 패킷의 재사용은 특정 IP청구권 적격성·인가·토큰 발행 허가를 확인했다는 뜻이 아니다.",
+      "KYX-A-004의 자본시장법77조의3 관련URL 직접 웹 열기는 접근 오류. 다른 담당자가 공식원문을 읽은 source packet을 동일ID로 재사용했다."
+    ],
+    "V": [
+      "영문 stablecoin/fund-my-account 일부 URL은 쿠키본문만 반환. 중국어 공식 stablecoin 본문을 이용했고 검색 snippet만 확인한 현재최소수수료는 채택하지 않음.",
+      "IBKR FAQ는 본문을 반환하지 않음. 로그인·계좌 생성·입출금·주문·고객지원 문의 없음.",
+      "교보 직접 Circle/Tether 관계 검색은 기존 공개 원장·선택 공식 교보/SBI/SCBX/DCG 자료 및 교보·Tether 공식 도메인 검색 범위. 비공개 계약 전수조사 아님.",
+      "비공식 기사·게시판은 채택하지 않음. 미래 날짜 문서를 실제 발표로 사용하지 않음.",
+      "FIN-008/ST-KY-009의 이번 재확인은 총괄 담당이며 이 packet에서 별도 수정하지 않음."
+    ],
+    "R": [
+      "기존 finance AGENTS·인수인계 도입부·knowledge map의 증권/agent 경로도 선택 확인. 독립 기업 사실 근거로 새로 세지 않음."
+    ]
+  },
+  "validation": {
+    "pipeline": {
+      "build": "passed",
+      "validate": "passed",
+      "sources": 222,
+      "claims": 245,
+      "topics": 14
+    },
+    "tests": {
+      "status": "passed",
+      "count": 15,
+      "scope": "기존 연구 무결성9개와 기존 경남 현금사례6개. 교보의 실제 경제성과·허가를 검증한 테스트가 아님."
+    },
+    "supplementary": {
+      "status": "passed",
+      "previous_paths_preserved": 288,
+      "current_files": 323,
+      "changed_files": 85,
+      "sources": 222,
+      "claims": 245,
+      "new_history_snapshots": 1,
+      "references": {
+        "source_refs": 106,
+        "claim_refs": 90,
+        "strategy_refs": 5
+      },
+      "actual_results_remain_unknown": true,
+      "public_pattern_scan": "no matches in changed files",
+      "limits": "Reference, stage, encoding, preservation and known privacy-pattern checks; not legal approval or economic outcome validation."
+    },
+    "manual_review": "보고서18/21 자본·계열 제한,19 권리·배분,20 레일/AI의 조건·지급자·비용·반증 교차검토"
+  },
+  "publication": {
+    "status": "locally_validated_receipt_separate",
+    "receipt": "runs/2026-11-03-kyobo-publication.json",
+    "meaning": "원격 게시·본문 확인 결과는 후속 receipt에 기록. 이 파일의 로컬 검증으로 원격 완료를 주장하지 않음."
+  }
+}

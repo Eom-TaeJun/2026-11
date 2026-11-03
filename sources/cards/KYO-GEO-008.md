@@ -27,5 +27,6 @@ SBI는 교보증권과 동남아 테크기업에 투자하는 후속 공동 벤�
 ## 연결된 주장
 
 - **C-037 / institution_statement / active**: SBI는 교보증권과 싱가포르 후속펀드 설립 및 기존 SBI-NTU-Kyobo 펀드를 통한 Pints AI 투자를 발표했다. 운용자는 SBI Ven Capital이다.
+- **C-219 / institution_statement / active**: 교보생명의 Ripple 국채 프로젝트는2026년4월 공식 발표상 테스트넷 기술 검증이며, NOBLX에서 생명·증권은 발표상 전략적 기관투자자다. DCG제휴는 MOU, SBI연결은 펀드와 피투자사 투자 발표로 확인된다.
 
 [전체 자료 목록](../README.md)

@@ -172,6 +172,19 @@ Circle의 2026-10-19 이후 공개 환매 구조는 처리시간과 은행결제
 
 한계: 계약의 지급수단·수량·평가·완료 시점과 준거법을 확인해야 한다. 모범법은 한국에 자동 적용하지 않는다.
 
+### C-225 · hypothesis · active
+
+여러기관이 같은 권리·보유·배분상태를 공유해야 하는 경우에 온체인이 기존장부+AI보다 추가편익을 낼 수 있으나, 월별 정산·법적양도·은행현금이 병목이면 기존API·장부가 더 효율적일 수 있다.
+
+근거: [FIN-007](../sources/cards/FIN-007.md), [FIN-008](../sources/cards/FIN-008.md), [KYX-M-009](../sources/cards/KYX-M-009.md), [KYO-GEO-005](../sources/cards/KYO-GEO-005.md)
+
+한계: - 토큰화와24시간은행현금·시장유동성·상계편익을 동일시하지 않음
+- 원장 직접 대가 제한을 관리보수로 우회하는 모델 제외
+
+다른 설명: 이중장부·키·보안·정정·복구·외부연계비용이 대사절감보다 클 수 있다.
+
+다음 관측: 동일채권·투자자·결제조건에서 계약부터은행회수까지 총비용·오류·예외처리 비교
+
 ## 관련 원문
 
 - [FIN-001 · Tokenized Finance](../sources/cards/FIN-001.md)
@@ -194,5 +207,12 @@ Circle의 2026-10-19 이후 공개 환매 구조는 처리시간과 은행결제
 - [ST-TD-007 · How Agentic AI Will Reshape Payments](../sources/cards/ST-TD-007.md)
 - [KNX-M-002 · Circle Announces USDC Smart Contract for Transfers by BlackRock’s BUIDL Fund Investors](../sources/cards/KNX-M-002.md)
 - [KNX-M-004 · USD withdrawals | FAQs](../sources/cards/KNX-M-004.md)
+- [KYX-V-001 · Stablecoin Deposits — IBKR 공식 중국어 안내](../sources/cards/KYX-V-001.md)
+- [KYX-V-002 · Fund with Stablecoin — Client Portal User Guide](../sources/cards/KYX-V-002.md)
+- [KYX-V-003 · USD Deposits and Withdrawals — IBKR Campus](../sources/cards/KYX-V-003.md)
+- [KYX-V-004 · Interactive Brokers Builds Out One of the Most Comprehensive and Low-Cost Solutions for Accessing Cryptocurrency Available](../sources/cards/KYX-V-004.md)
+- [KYX-V-005 · Account Funding — zerohash Documentation](../sources/cards/KYX-V-005.md)
+- [KYX-V-006 · zerohash US User Agreement — IBKR 공개 양식 4438](../sources/cards/KYX-V-006.md)
+- [KYX-V-010 · Fees — Tether](../sources/cards/KYX-V-010.md)
 
 [전체 주제 지도](INDEX.md)

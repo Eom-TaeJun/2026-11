@@ -332,6 +332,143 @@ AI 기반 비교·자금배분이 보편화되면 고객의 유휴 잔액과 은
 
 한계: 미확인은 부재·금지 판정이 아니다. 기존 fERP·한강 설명을 포괄 디지털자산 권한으로 전용하지 않는다.
 
+### C-219 · institution_statement · active
+
+교보생명의 Ripple 국채 프로젝트는2026년4월 공식 발표상 테스트넷 기술 검증이며, NOBLX에서 생명·증권은 발표상 전략적 기관투자자다. DCG제휴는 MOU, SBI연결은 펀드와 피투자사 투자 발표로 확인된다.
+
+근거: [KYO-GEO-003](../sources/cards/KYO-GEO-003.md), [KYO-GEO-004](../sources/cards/KYO-GEO-004.md), [KYO-GEO-005](../sources/cards/KYO-GEO-005.md), [KYO-GEO-007](../sources/cards/KYO-GEO-007.md), [KYO-GEO-008](../sources/cards/KYO-GEO-008.md)
+
+한계: - 법인·상품별 계약권·보수·실제회수·상용결제·한국판매권으로 확대하지 않음
+- 국채를 미국국채로 특정하지 않음
+
+### C-223 · hypothesis · active
+
+생명은 별도투자계정·ALM·자본·계열이해상충 조건을 통과할 때만 다른 외부기관과 동일한 조건으로 검토할 투자자 후보이며, 단기POD채권의 편익은 기존 적격단기자산 대비 비용·위험 후에 판단해야 한다.
+
+근거: [KYX-M-007](../sources/cards/KYX-M-007.md), [KYX-M-008](../sources/cards/KYX-M-008.md), [KYO-GEO-005](../sources/cards/KYO-GEO-005.md)
+
+한계: - 투자 약정·앵커 역할·손실 보증은 확인되지 않음
+
+다른 설명: 규모·유동성·집중·재투자·자본부담 때문에 생명은 국채나 다른자산을 선호할 수 있다.
+
+다음 관측: 별도계정의 투자기준·자본비용·외부비교가격·독립 승인 여부
+
+### C-228 · unknown · active
+
+선택한 교보 공식 행사·제휴 자료와 기존 공개 분석에서 교보증권의 직접 Circle Mint·USDT 발행자/유통사 계약, 고객 입출금·가격·수익을 확인하지 못했다.
+
+근거: [ST-KY-006](../sources/cards/ST-KY-006.md), [KYO-GEO-001](../sources/cards/KYO-GEO-001.md), [KYO-GEO-003](../sources/cards/KYO-GEO-003.md), [KYO-GEO-004](../sources/cards/KYO-GEO-004.md)
+
+한계: bounded unknown이며 계약이나 관계가 없다는 증거가 아님.
+
+### C-229 · institution_statement · active
+
+현재 IBKR 입금 안내는 적격 IBLLC 고객의 USDC→zerohash→USD 증권계좌 경로와 Ethereum·Solana·Base를 제시한다.
+
+근거: [KYX-V-001](../sources/cards/KYX-V-001.md), [KYX-V-002](../sources/cards/KYX-V-002.md)
+
+한계: 특정 고객 실제 자격·지원 목록·토큰 자체 증거금 인정·한국 교보 적용은 미확인.
+
+### C-230 · interpretation · active
+
+IBKR 공개 안내 사이에 요율·지원 토큰·출금보류 설명이 달라 1월 수수료나 한 페이지를 11월 모든 고객의 통합 계약조건으로 쓸 수 없다.
+
+근거: [ST-KY-008](../sources/cards/ST-KY-008.md), [KYX-V-001](../sources/cards/KYX-V-001.md), [KYX-V-003](../sources/cards/KYX-V-003.md), [KYX-V-004](../sources/cards/KYX-V-004.md)
+
+한계: 거짓 문서로 단정하지 않고 날짜·대상 고객·갱신 차이를 남김.
+
+### C-231 · institution_statement · active
+
+IBKR는 7월14일 USDC·PYUSD·RLUSD를 통한 양방향 funding과 USD의 토큰 전환 후 외부지갑 출금을 발표했다.
+
+근거: [KYX-V-004](../sources/cards/KYX-V-004.md)
+
+한계: UK·Ireland 제외; 11월3일 특정 계좌의 현재 가동·가격·망을 확인하지 않음.
+
+### C-232 · interpretation · active
+
+즉시 표시되는 고객 달러잔액과 플랫폼 은행 정산은 다른 사건이다. 선지급·신용·유동성 여유가 필요하면 그 재원·손실·비용 주체를 계약으로 확인해야 한다.
+
+근거: [KYX-V-005](../sources/cards/KYX-V-005.md), [KYX-V-006](../sources/cards/KYX-V-006.md)
+
+한계: generic zerohash 문서로 IBKR나 교보의 실제 정산·선지급계약을 추정하지 않음.
+
+### C-233 · institution_statement · active
+
+IBKR의 7월 발표·9월23일 일반 가이드는 고객 주문별 승인을 요구하지만 9월25일 표시 보충약관과 현재 안내는 별도 지정 자금에서 자동 주문하는 조건을 제시한다.
+
+근거: [KYX-V-007](../sources/cards/KYX-V-007.md), [KYX-V-008](../sources/cards/KYX-V-008.md), [KYX-V-009](../sources/cards/KYX-V-009.md), [KYX-V-011](../sources/cards/KYX-V-011.md)
+
+한계: 현재 안내에 관할별 planned 문구가 있어 전체 관할·고객의 실제 가동으로 일반화하지 않음.
+
+### C-234 · interpretation · active
+
+AI Partition은 거래 권한을 제한하는 장치이지만 다른 계좌 채무와 완전히 절연된 법적 재산이라고 볼 수 없다. 연결 철회도 이미 대기·부분체결된 주문의 자동 취소와 다르다.
+
+근거: [KYX-V-008](../sources/cards/KYX-V-008.md), [KYX-V-009](../sources/cards/KYX-V-009.md)
+
+한계: IBKR 공개 약관·안내에 대한 선택적 해석이며 다른 회사 구조를 확정하지 않음.
+
+### C-235 · institution_statement · active
+
+IBKR는 지원 AI 연결 자체의 추가료가 없다고 안내하며 AI 공급자 구독·시장데이터·계좌·거래 비용은 별도로 남긴다.
+
+근거: [KYX-V-008](../sources/cards/KYX-V-008.md)
+
+한계: 모든 기능/기관 계약의 무료 또는 거래 비용 0을 뜻하지 않음.
+
+### C-236 · interpretation · active
+
+USDC·USDT 직접 상환은 발행자 자격·계약·규모·은행시간을 필요로 하며, 보유자가 지급한 전환수수료와 발행자의 준비금수익은 증권사의 수익으로 자동 귀속되지 않는다.
+
+근거: [SRC-CIRCLE-USDC-TERMS](../sources/cards/SRC-CIRCLE-USDC-TERMS.md), [KNX-M-003](../sources/cards/KNX-M-003.md), [ST-HW-013](../sources/cards/ST-HW-013.md), [KYX-V-010](../sources/cards/KYX-V-010.md)
+
+한계: 교보의 상환자격·분배계약·실제 수수료와 모든 원가 미확인.
+
+### C-237 · hypothesis · active
+
+필요한 인가·계약·수요가 성립하면 교보는 자체 앱 밖 고객에게도 적격 상품의 유효 견적·현금 가용시각·실행·사후관리 기능을 공급해 반복 중개·기관 업무를 확보할 수 있다.
+
+근거: [KYX-V-004](../sources/cards/KYX-V-004.md), [KYX-V-008](../sources/cards/KYX-V-008.md), [ST-KY-006](../sources/cards/ST-KY-006.md)
+
+한계: 교보 확정사업이 아니라 강한 미래 가정하 연구 제안.
+
+다른 설명: 글로벌 브로커·대형 IB·발행자가 같은 기능을 더 싸게 제공하고 AI 플랫폼이 고객접점과 배분수익을 가져갈 수 있다.
+
+다음 관측: 동일 고객의 기존+AI 대비 완결 거래 성공·재이용·고객 총비용·외부 채널 배분 후 순기여·이관권을 비교.
+
+### C-238 · hypothesis · active
+
+상품 정보와 주문 연결이 표준화될수록 단순 데이터·소개 수수료는 압축되고 원권리 검증·실행 확약·사후관리·예외 복구의 검증된 품질이 가격 방어 근거가 될 수 있다.
+
+근거: [KYX-V-008](../sources/cards/KYX-V-008.md), [KYX-V-009](../sources/cards/KYX-V-009.md), [FIN-008](../sources/cards/FIN-008.md), [ST-KY-009](../sources/cards/ST-KY-009.md)
+
+한계: 유료계약과 업무권한 없는 관리비 부과 또는 제한된 원장 이용료 우회안을 뜻하지 않음.
+
+다른 설명: 오류가 적고 자산이 표준화되면 예외처리도 공동기반으로 흡수돼 특화 보수마저 줄 수 있다.
+
+다음 관측: 실제 계약 지급자·오류/분쟁/회수 비용·대체 공급자 견적·보수 인하 후 고객별 기여.
+
+### C-239 · hypothesis · active
+
+고객의 분산된 기존 토큰을 증권계좌 현금으로 연결하면 자금 준비의 마찰을 줄일 수 있지만 고객 가격인하·전환사업자 배분·선지급 유동성·기존 중개/FX 수익 잠식 후에만 교보의 증분 기여를 판단할 수 있다.
+
+근거: [KYX-V-001](../sources/cards/KYX-V-001.md), [KYX-V-005](../sources/cards/KYX-V-005.md), [KYX-V-006](../sources/cards/KYX-V-006.md)
+
+한계: 토큰 발행량·이체액·예수금 총액을 매출로 보지 않음.
+
+다른 설명: 은행 송금/API와 기존+AI만으로 같은 성과를 더 낮은 원가로 낼 수 있다.
+
+다음 관측: 같은 통화·금액·시간·고객의 사용가능현금과 출금완료까지 총비용, 교보 대체수익 포함 순기여, 장애·고객지원 비용.
+
+### C-240 · interpretation · active
+
+유한한 원자산에 다수 상품을 설계해도 순자산과 독립 현금흐름이 같은 수만큼 늘지는 않는다. 별도 청구권·우선순위·손실배분·효용 변화와 동일 위험의 재포장을 구분해야 한다.
+
+근거: [ST-TD-001](../sources/cards/ST-TD-001.md), [ST-TD-003](../sources/cards/ST-TD-003.md), [ST-KY-007](../sources/cards/ST-KY-007.md)
+
+한계: 금융기능에 관한 연구자 재구성이며 교수의 현재 발언·특정 거래의 법적 권리 확인이 아님.
+
 ## 관련 원문
 
 - [KYO-GEO-001 · Kyobo Life Insurance Group and Japan’s SBI Group ink strategic partnership](../sources/cards/KYO-GEO-001.md)
@@ -373,5 +510,6 @@ AI 기반 비교·자금배분이 보편화되면 고객의 유휴 잔액과 은
 - [ST-KN-003 · BNK금융그룹 2026년 하반기 조직개편 실시](../sources/cards/ST-KN-003.md)
 - [ST-TD-002 · AI Agent 강의 — Coase와 통제된 자율성](../sources/cards/ST-TD-002.md)
 - [ST-TD-005 · Banks in the Age of Stablecoins: Some Possible Implications for Deposits, Credit, and Financial Intermediation](../sources/cards/ST-TD-005.md)
+- [KYX-M-007 · 20년 뒤 내 보험금, 보험사는 어떻게 준비할까?](../sources/cards/KYX-M-007.md)
 
 [전체 주제 지도](INDEX.md)

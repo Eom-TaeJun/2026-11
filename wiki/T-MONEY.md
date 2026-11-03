@@ -254,6 +254,36 @@ Circle의 2024년 BUIDL 기능 발표는 지분의 2차 매각과 USDC 수취를
 
 한계: 설명용 자금정책 설계이며 현재 법정 회계 분류나 모든 기업에 동일한 비중을 제안하지 않는다.
 
+### C-214 · institution_statement · active
+
+교보문고 POD 공개 FAQ는 법인 출판사의 전자계약, 콘텐츠 공급·주문 후 제작, 파트너 정산 및 계산서 절차와 정가20% 정산을 안내한다. 공개 판매·정산·지급장부 안내는 각 단계와 집계시차를 구분한다.
+
+근거: [KYX-M-001](../sources/cards/KYX-M-001.md), [KYX-M-009](../sources/cards/KYX-M-009.md)
+
+한계: - 특정 P의 계약·판매·잔액·계산서·입금 원장을 확인한 것은 아님
+- 20%는 안내상의 POD정산 기준으로 투자수익률·순수령액·다른 상품의 조건으로 전용하지 않음
+
+### C-221 · hypothesis · active
+
+필요한 법적 권한·유효한 양도·수금통제·외부기관 수요가 성립하면, 증권사는 반복 채권 검증·구조화·주선·수금대조·분쟁관리 업무에서 계약상 보수를 얻을 수 있다.
+
+근거: [KYX-M-004](../sources/cards/KYX-M-004.md), [KYX-M-005](../sources/cards/KYX-M-005.md), [KYX-M-009](../sources/cards/KYX-M-009.md), [PRIOR-003](../sources/cards/PRIOR-003.md)
+
+한계: - 확보한 유료 계약·보수율·수익성은 없음
+- 자기자금 인수·보증·그룹 내부 보수를 외부 서비스 이익과 구분
+
+다른 설명: 대형 플랫폼의 직접 조기정산이나 기존 금융회사의 저렴한 매입이 증권사 역할·가격을 축소할 수 있다.
+
+다음 관측: 생명 매입약정 없이 제시된 외부기관 가격·반복 유료계약·비용후기여·회수결과
+
+### C-226 · unknown · active
+
+특정출판사P·계약채무자·기초계약·채권금액·만기·양도제한·기존담보·저자인세순위·수금통제·발행분류·투자자확약·가격·보수·생명투자약정은 확보되지 않았다.
+
+근거: [KYX-M-001](../sources/cards/KYX-M-001.md), [KYX-M-009](../sources/cards/KYX-M-009.md), [ST-KY-007](../sources/cards/ST-KY-007.md)
+
+한계: - 공개일반안내를 실제거래실사·고객동의·권한확인으로 대체하지 않음
+
 ## 관련 원문
 
 - [FIN-003 · III. Anchoring trust in money: innovation beyond stablecoins](../sources/cards/FIN-003.md)
@@ -320,5 +350,8 @@ Circle의 2024년 BUIDL 기능 발표는 지분의 2차 매각과 USDC 수취를
 - [KNX-M-002 · Circle Announces USDC Smart Contract for Transfers by BlackRock’s BUIDL Fund Investors](../sources/cards/KNX-M-002.md)
 - [KNX-M-003 · USDC / EURC redemption structure](../sources/cards/KNX-M-003.md)
 - [KNX-M-004 · USD withdrawals | FAQs](../sources/cards/KNX-M-004.md)
+- [KYX-M-001 · 바로출판POD FAQ — 개인·출판사 정산 및 출간 절차](../sources/cards/KYX-M-001.md)
+- [KYX-M-002 · 정산금(판매대금) 지급 관련 안내](../sources/cards/KYX-M-002.md)
+- [KYX-M-009 · 정산/판매내역 조회방법 안내](../sources/cards/KYX-M-009.md)
 
 [전체 주제 지도](INDEX.md)

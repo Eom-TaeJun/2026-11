@@ -982,6 +982,136 @@
       "label": "수출신용보증(포괄매입) 이용절차"
     },
     {
+      "id": "KYX-A-001",
+      "type": "source",
+      "label": "자본시장법 시행령 — 제77조의3 지정 요건 및 2025-11-25 부칙 경과조치"
+    },
+    {
+      "id": "KYX-A-002",
+      "type": "source",
+      "label": "자본시장법 시행령 — 제77조의6 단기금융·종합투자계좌(IMA) 업무"
+    },
+    {
+      "id": "KYX-A-003",
+      "type": "source",
+      "label": "금융투자업규정 — 종투사 자기자본·단기금융·IMA·모험자본 및 경과비율"
+    },
+    {
+      "id": "KYX-A-004",
+      "type": "source",
+      "label": "자본시장법 — 제77조의2·제77조의3·제360조 지정·기업신용·계열 제한·단기금융 인가"
+    },
+    {
+      "id": "KYX-M-001",
+      "type": "source",
+      "label": "바로출판POD FAQ — 개인·출판사 정산 및 출간 절차"
+    },
+    {
+      "id": "KYX-M-002",
+      "type": "source",
+      "label": "정산금(판매대금) 지급 관련 안내"
+    },
+    {
+      "id": "KYX-M-003",
+      "type": "source",
+      "label": "Pubple 이용 약관 변경 안내 — 저작권료 지급금액 기준 변경"
+    },
+    {
+      "id": "KYX-M-004",
+      "type": "source",
+      "label": "민법 제449조 — 채권의 양도성"
+    },
+    {
+      "id": "KYX-M-005",
+      "type": "source",
+      "label": "민법 제450조 — 지명채권양도의 대항요건"
+    },
+    {
+      "id": "KYX-M-006",
+      "type": "source",
+      "label": "저작권법 제45조 — 저작재산권의 양도"
+    },
+    {
+      "id": "KYX-M-007",
+      "type": "source",
+      "label": "20년 뒤 내 보험금, 보험사는 어떻게 준비할까?"
+    },
+    {
+      "id": "KYX-M-008",
+      "type": "source",
+      "label": "FY2025 실적 설명자료 — 보장성 보험 확대·선제적 투자 리밸런싱"
+    },
+    {
+      "id": "KYX-M-009",
+      "type": "source",
+      "label": "정산/판매내역 조회방법 안내"
+    },
+    {
+      "id": "KYX-M-010",
+      "type": "source",
+      "label": "민법 제451조 — 승낙, 통지의 효과"
+    },
+    {
+      "id": "KYX-M-011",
+      "type": "source",
+      "label": "저작권법 제46조 — 저작물의 이용허락"
+    },
+    {
+      "id": "KYX-V-001",
+      "type": "source",
+      "label": "Stablecoin Deposits — IBKR 공식 중국어 안내"
+    },
+    {
+      "id": "KYX-V-002",
+      "type": "source",
+      "label": "Fund with Stablecoin — Client Portal User Guide"
+    },
+    {
+      "id": "KYX-V-003",
+      "type": "source",
+      "label": "USD Deposits and Withdrawals — IBKR Campus"
+    },
+    {
+      "id": "KYX-V-004",
+      "type": "source",
+      "label": "Interactive Brokers Builds Out One of the Most Comprehensive and Low-Cost Solutions for Accessing Cryptocurrency Available"
+    },
+    {
+      "id": "KYX-V-005",
+      "type": "source",
+      "label": "Account Funding — zerohash Documentation"
+    },
+    {
+      "id": "KYX-V-006",
+      "type": "source",
+      "label": "zerohash US User Agreement — IBKR 공개 양식 4438"
+    },
+    {
+      "id": "KYX-V-007",
+      "type": "source",
+      "label": "Interactive Brokers Opens AI Connectivity to Any Tool Built on the MCP Standard"
+    },
+    {
+      "id": "KYX-V-008",
+      "type": "source",
+      "label": "AI Integration and IBKR Autonomous Trading — 현재 공식 안내"
+    },
+    {
+      "id": "KYX-V-009",
+      "type": "source",
+      "label": "AI Trading Supplement — Form 4923"
+    },
+    {
+      "id": "KYX-V-010",
+      "type": "source",
+      "label": "Fees — Tether"
+    },
+    {
+      "id": "KYX-V-011",
+      "type": "source",
+      "label": "AI Instructions — Client Portal User Guide"
+    },
+    {
       "id": "C-001",
       "type": "claim",
       "kind": "fact",
@@ -1861,21 +1991,21 @@
       "type": "claim",
       "kind": "fact",
       "status": "active",
-      "label": "2026-06말 별도자본은 약2.2406조원이며 상반기 전체 수탁수수료 약1,610.64억원 중 해외선물688.28억원이다."
+      "label": "2026-06말 교보증권 별도 자본은 2,240,633,642천원이다. 반기 별도 위탁매매 수수료 161,064백만원 중 해외선물68,828백만원·주식78,656백만원이며, 연결 부문 영업이익은 위탁매매108,049,352천원·IB34,004,082천원이다."
     },
     {
       "id": "C-127",
       "type": "claim",
       "kind": "fact",
       "status": "active",
-      "label": "10/22 RCPS 약1,000억·2,000억원 발행 결정 공시는 납입일10/30, 최초 우선배당률5.814%·5.993%, 회사 상환권 개시2028/10/30·2029/10/30 조건을 담는다."
+      "label": "10/22 RCPS 결정 공시는 약1,000억·2,000억원 운영자금, 10/30 납입 일정, 최초 우선배당률5.814%·5.993%, 2028/10/30·2029/10/30 이후 회사 상환권과 배당률 상승 조건을 담는다."
     },
     {
       "id": "C-128",
       "type": "claim",
       "kind": "unknown",
       "status": "active",
-      "label": "교보의 최신 종투사 지정 및 발행어음·IMA 권한은 이번 공식 검색에서 확인하지 못했다. 3월 지정표 누락을11월 미지정의 확정증거로 쓰지 않는다."
+      "label": "2026-11-03 선택 공식 검색·공시 재확인으로 교보의 RCPS 실제 납입 완료·회계 및 감독 인정자본·종투사 지정·단기금융업 인가·IMA 실제 영업의 최신 완결 증거를 확보하지 못했다."
     },
     {
       "id": "C-129",
@@ -2380,6 +2510,321 @@
       "kind": "hypothesis",
       "status": "active",
       "label": "고객이 예금 밖 자산을 보유해도 경남은행이 자금계획·외환·적정 신용·복구의 접점으로 선택되면 관계 기여를 유지할 수 있다."
+    },
+    {
+      "id": "C-201",
+      "type": "claim",
+      "kind": "fact",
+      "status": "active",
+      "label": "현행 선택 시행령상 종투사 3/4/8조 단계에는 최근 두 사업연도 결산일 연속 자본요건과 비자본 요건이 있고, 4조/8조 단계에는 직전 단계 업무의 지정일 이후 2년 계속 영위요건이 있다."
+    },
+    {
+      "id": "C-202",
+      "type": "claim",
+      "kind": "fact",
+      "status": "active",
+      "label": "2025-11-25 시행령 부칙은 시행 전 지정 신청자에 종전 지정 기준을 적용하며 해당 신청자와 기존 지정자의 지정 취소 판단에 별도 5년 경과조치를 둔다."
+    },
+    {
+      "id": "C-203",
+      "type": "claim",
+      "kind": "interpretation",
+      "status": "active",
+      "label": "종투사 자기자본 산식은 최근 연말 재무상태표에 특정 신청일까지 증감을 반영하며 자본 처리된 조건부자본증권 조달액을 제외하므로, RCPS 명칭과 납입 예정액만으로 전액 인정 또는 제외를 확정할 수 없다."
+    },
+    {
+      "id": "C-204",
+      "type": "claim",
+      "kind": "fact",
+      "status": "active",
+      "label": "법77조의3은 관련 신용공여 합계의 자기자본200% 한도와 기업금융·중소기업 신용을 제외한100% 한도를 두며, 계열법인 기업신용공여와 계열 운용 일반사모펀드 PBS를 제한한다."
+    },
+    {
+      "id": "C-205",
+      "type": "claim",
+      "kind": "interpretation",
+      "status": "active",
+      "label": "교보문고 자산 발굴·증권 주선/관리·생명 기관투자의 역할 제안은 계열사 직접 기업신용공여 허용을 뜻하지 않는다. 그룹 신용·인수·보증·SPV는 서비스 계약과 분리해 법적 실질·한도·위험을 심사해야 한다."
+    },
+    {
+      "id": "C-206",
+      "type": "claim",
+      "kind": "fact",
+      "status": "active",
+      "label": "4조 단계 지정과 법360조 단기금융업 인가는 별개다. 단기금융 조달 한도는 자기자본200%이며 IMA를 하는 경우 IMA·단기금융 조달 합계 한도는300%다."
+    },
+    {
+      "id": "C-207",
+      "type": "claim",
+      "kind": "fact",
+      "status": "active",
+      "label": "기업금융 운용비중은 단기금융 원칙50%, IMA 원칙70%이고 개시 초기 유예가 있다. 현행 규정의 모험자본 비율은 2026년10%·2027년20%·이후 본칙25%; 단기금융 부동산 상한은 2026년15%·이후10%다."
+    },
+    {
+      "id": "C-208",
+      "type": "claim",
+      "kind": "fact",
+      "status": "active",
+      "label": "IMA에는 고객 요청 중도해지 예외를 둔 손실보전, 분리관리·평가·집중·장기자산·유동성 기준이 붙는다. 원본5% 이상 충당금/준비금 합계 유지와 원본5% 이상 고유재산 신탁수익권 매수는 서로 다른 의무다."
+    },
+    {
+      "id": "C-209",
+      "type": "claim",
+      "kind": "hypothesis",
+      "status": "active",
+      "label": "기존 해외선물 고객의 자금·증거금·출금 실패를 줄이는 업무는 확인된 수수료 기반과 가까워, 신규 토큰 플랫폼보다 먼저 검증할 사업 후보가 된다."
+    },
+    {
+      "id": "C-210",
+      "type": "claim",
+      "kind": "hypothesis",
+      "status": "active",
+      "label": "반복 발행인의 권리·자료·약정·수금·사후관리 기록을 재사용하면 기존 IB에서 주선·자문·적법한 관리계약의 단위 비용을 낮추고 재발행 관계를 강화할 수 있다."
+    },
+    {
+      "id": "C-211",
+      "type": "claim",
+      "kind": "interpretation",
+      "status": "active",
+      "label": "조달액·고객예탁금·IMA 수탁금·발행인 조달액·투자자 거래액은 교보 매출이 아니다. 주선/관리 보수·자기 인수 성과·기업신용/보증 기여는 각 비용·손실·자본을 반영해 별도 평가해야 한다."
+    },
+    {
+      "id": "C-212",
+      "type": "claim",
+      "kind": "hypothesis",
+      "status": "active",
+      "label": "향후 지정·인가·계약·고객 수요가 성립하더라도 조달 한도를 채우기보다 반복 발행·우량 자산·정확한 권리/현금 운영을 먼저 확보하는 전략이 자본과 유동성 부담을 줄일 수 있다."
+    },
+    {
+      "id": "C-213",
+      "type": "claim",
+      "kind": "institution_statement",
+      "status": "active",
+      "label": "교보문고는 자체 발굴IP의 출판·해외번역·2차저작물 확장과 주문형출판POD를 사업으로 소개한다."
+    },
+    {
+      "id": "C-214",
+      "type": "claim",
+      "kind": "institution_statement",
+      "status": "active",
+      "label": "교보문고 POD 공개 FAQ는 법인 출판사의 전자계약, 콘텐츠 공급·주문 후 제작, 파트너 정산 및 계산서 절차와 정가20% 정산을 안내한다. 공개 판매·정산·지급장부 안내는 각 단계와 집계시차를 구분한다."
+    },
+    {
+      "id": "C-215",
+      "type": "claim",
+      "kind": "unknown",
+      "status": "active",
+      "label": "출판사 지급일은 현재 FAQ의 익월25일과 연결된 공식 지급공지의20일경 설명이 달라, 특정 계약과 채무자 확인 전 확정하지 않는다. 개인작가의 별도 조건과 과거2018년 적용 약관도 출판사 최신 거래에 자동 적용하지 않는다."
+    },
+    {
+      "id": "C-216",
+      "type": "claim",
+      "kind": "fact",
+      "status": "active",
+      "label": "민법449~451조는 채권 양도 가능성과 제한, 통지·승낙 및 제3자 대항요건, 승낙·통지에 따른 항변 관련 효과를 구분한다."
+    },
+    {
+      "id": "C-217",
+      "type": "claim",
+      "kind": "fact",
+      "status": "active",
+      "label": "저작권법45·46조는 저작재산권 양도와 저작물 이용허락을 구분하며 일부 권리·허락 범위·제3자 양도 동의 등의 조건을 규정한다."
+    },
+    {
+      "id": "C-218",
+      "type": "claim",
+      "kind": "institution_statement",
+      "status": "active",
+      "label": "교보생명은 ALM을 통해 자산과 보험부채의 기간·현금흐름을 관리하고 위험한도·위기시나리오·ORSA를 활용한다고 설명한다."
+    },
+    {
+      "id": "C-219",
+      "type": "claim",
+      "kind": "institution_statement",
+      "status": "active",
+      "label": "교보생명의 Ripple 국채 프로젝트는2026년4월 공식 발표상 테스트넷 기술 검증이며, NOBLX에서 생명·증권은 발표상 전략적 기관투자자다. DCG제휴는 MOU, SBI연결은 펀드와 피투자사 투자 발표로 확인된다."
+    },
+    {
+      "id": "C-220",
+      "type": "claim",
+      "kind": "hypothesis",
+      "status": "active",
+      "label": "이미 발생·정산 확정된 법인 출판사의 특정월POD판매정산채권은 원권리·양도·지급자·수금을 연결하는 최초 검증 후보가 될 수 있다. 실제 금융수요·규모·기간·비용이 확인된 우선 금융상품이라는 뜻은 아니다."
+    },
+    {
+      "id": "C-221",
+      "type": "claim",
+      "kind": "hypothesis",
+      "status": "active",
+      "label": "필요한 법적 권한·유효한 양도·수금통제·외부기관 수요가 성립하면, 증권사는 반복 채권 검증·구조화·주선·수금대조·분쟁관리 업무에서 계약상 보수를 얻을 수 있다."
+    },
+    {
+      "id": "C-222",
+      "type": "claim",
+      "kind": "interpretation",
+      "status": "active",
+      "label": "여러 작품의 청구권을 묶더라도 지급자가 같으면 채무자 신용 집중은 남는다. 진정한 양도·수금계좌 분리·SPV는 각각 법적 검토 대상이며 지급자의 미지급 위험까지 제거하지 않는다."
+    },
+    {
+      "id": "C-223",
+      "type": "claim",
+      "kind": "hypothesis",
+      "status": "active",
+      "label": "생명은 별도투자계정·ALM·자본·계열이해상충 조건을 통과할 때만 다른 외부기관과 동일한 조건으로 검토할 투자자 후보이며, 단기POD채권의 편익은 기존 적격단기자산 대비 비용·위험 후에 판단해야 한다."
+    },
+    {
+      "id": "C-224",
+      "type": "claim",
+      "kind": "hypothesis",
+      "status": "active",
+      "label": "AI가 상품 비교·조합을 늘려도 한정된 원권리의 현금은 늘지 않는다. 권리별 중복 양도·담보·배분, 실제수금·정정·회수의 지속 검증이 관리 서비스의 가치 후보가 된다."
+    },
+    {
+      "id": "C-225",
+      "type": "claim",
+      "kind": "hypothesis",
+      "status": "active",
+      "label": "여러기관이 같은 권리·보유·배분상태를 공유해야 하는 경우에 온체인이 기존장부+AI보다 추가편익을 낼 수 있으나, 월별 정산·법적양도·은행현금이 병목이면 기존API·장부가 더 효율적일 수 있다."
+    },
+    {
+      "id": "C-226",
+      "type": "claim",
+      "kind": "unknown",
+      "status": "active",
+      "label": "특정출판사P·계약채무자·기초계약·채권금액·만기·양도제한·기존담보·저자인세순위·수금통제·발행분류·투자자확약·가격·보수·생명투자약정은 확보되지 않았다."
+    },
+    {
+      "id": "C-227",
+      "type": "claim",
+      "kind": "interpretation",
+      "status": "active",
+      "label": "그룹RWA의 주선·관리와 자기자금인수·대출·보증은 구분해야 하며, 문고직접금융·계열SPV·제3자출판사채권 경유라도 실질 계열기업신용공여·위험이전을 별도 검토해야 한다."
+    },
+    {
+      "id": "C-228",
+      "type": "claim",
+      "kind": "unknown",
+      "status": "active",
+      "label": "선택한 교보 공식 행사·제휴 자료와 기존 공개 분석에서 교보증권의 직접 Circle Mint·USDT 발행자/유통사 계약, 고객 입출금·가격·수익을 확인하지 못했다."
+    },
+    {
+      "id": "C-229",
+      "type": "claim",
+      "kind": "institution_statement",
+      "status": "active",
+      "label": "현재 IBKR 입금 안내는 적격 IBLLC 고객의 USDC→zerohash→USD 증권계좌 경로와 Ethereum·Solana·Base를 제시한다."
+    },
+    {
+      "id": "C-230",
+      "type": "claim",
+      "kind": "interpretation",
+      "status": "active",
+      "label": "IBKR 공개 안내 사이에 요율·지원 토큰·출금보류 설명이 달라 1월 수수료나 한 페이지를 11월 모든 고객의 통합 계약조건으로 쓸 수 없다."
+    },
+    {
+      "id": "C-231",
+      "type": "claim",
+      "kind": "institution_statement",
+      "status": "active",
+      "label": "IBKR는 7월14일 USDC·PYUSD·RLUSD를 통한 양방향 funding과 USD의 토큰 전환 후 외부지갑 출금을 발표했다."
+    },
+    {
+      "id": "C-232",
+      "type": "claim",
+      "kind": "interpretation",
+      "status": "active",
+      "label": "즉시 표시되는 고객 달러잔액과 플랫폼 은행 정산은 다른 사건이다. 선지급·신용·유동성 여유가 필요하면 그 재원·손실·비용 주체를 계약으로 확인해야 한다."
+    },
+    {
+      "id": "C-233",
+      "type": "claim",
+      "kind": "institution_statement",
+      "status": "active",
+      "label": "IBKR의 7월 발표·9월23일 일반 가이드는 고객 주문별 승인을 요구하지만 9월25일 표시 보충약관과 현재 안내는 별도 지정 자금에서 자동 주문하는 조건을 제시한다."
+    },
+    {
+      "id": "C-234",
+      "type": "claim",
+      "kind": "interpretation",
+      "status": "active",
+      "label": "AI Partition은 거래 권한을 제한하는 장치이지만 다른 계좌 채무와 완전히 절연된 법적 재산이라고 볼 수 없다. 연결 철회도 이미 대기·부분체결된 주문의 자동 취소와 다르다."
+    },
+    {
+      "id": "C-235",
+      "type": "claim",
+      "kind": "institution_statement",
+      "status": "active",
+      "label": "IBKR는 지원 AI 연결 자체의 추가료가 없다고 안내하며 AI 공급자 구독·시장데이터·계좌·거래 비용은 별도로 남긴다."
+    },
+    {
+      "id": "C-236",
+      "type": "claim",
+      "kind": "interpretation",
+      "status": "active",
+      "label": "USDC·USDT 직접 상환은 발행자 자격·계약·규모·은행시간을 필요로 하며, 보유자가 지급한 전환수수료와 발행자의 준비금수익은 증권사의 수익으로 자동 귀속되지 않는다."
+    },
+    {
+      "id": "C-237",
+      "type": "claim",
+      "kind": "hypothesis",
+      "status": "active",
+      "label": "필요한 인가·계약·수요가 성립하면 교보는 자체 앱 밖 고객에게도 적격 상품의 유효 견적·현금 가용시각·실행·사후관리 기능을 공급해 반복 중개·기관 업무를 확보할 수 있다."
+    },
+    {
+      "id": "C-238",
+      "type": "claim",
+      "kind": "hypothesis",
+      "status": "active",
+      "label": "상품 정보와 주문 연결이 표준화될수록 단순 데이터·소개 수수료는 압축되고 원권리 검증·실행 확약·사후관리·예외 복구의 검증된 품질이 가격 방어 근거가 될 수 있다."
+    },
+    {
+      "id": "C-239",
+      "type": "claim",
+      "kind": "hypothesis",
+      "status": "active",
+      "label": "고객의 분산된 기존 토큰을 증권계좌 현금으로 연결하면 자금 준비의 마찰을 줄일 수 있지만 고객 가격인하·전환사업자 배분·선지급 유동성·기존 중개/FX 수익 잠식 후에만 교보의 증분 기여를 판단할 수 있다."
+    },
+    {
+      "id": "C-240",
+      "type": "claim",
+      "kind": "interpretation",
+      "status": "active",
+      "label": "유한한 원자산에 다수 상품을 설계해도 순자산과 독립 현금흐름이 같은 수만큼 늘지는 않는다. 별도 청구권·우선순위·손실배분·효용 변화와 동일 위험의 재포장을 구분해야 한다."
+    },
+    {
+      "id": "C-241",
+      "type": "claim",
+      "kind": "interpretation",
+      "status": "active",
+      "label": "교보의 자본 확대·종투사 지정, 토큰증권 운영, 스테이블코인 레일, AI 위임은 서로 다른 업무 관문이다. 한 단계가 성립했다는 이유로 다른 권한·고객계약을 채울 수 없다."
+    },
+    {
+      "id": "C-242",
+      "type": "claim",
+      "kind": "interpretation",
+      "status": "active",
+      "label": "전자등록 원장 이용의 직접 대가 제한을 담은 예고안 아래에서는 실제 구매되는 실사·구조화·모집·사후업무와 기록 대가를 구별해야 한다. 관리비라는 이름만으로 과금 가능성을 확정하지 않는다."
+    },
+    {
+      "id": "C-243",
+      "type": "claim",
+      "kind": "hypothesis",
+      "status": "active",
+      "label": "외부 AI가 상품과 견적을 비교하는 미래에 교보가 정확한 권리·현금 조건과 실제 실행·사후관리 상태를 제공하면 자체 앱 밖에서도 고객 업무를 확보할 수 있다."
+    },
+    {
+      "id": "C-244",
+      "type": "claim",
+      "kind": "interpretation",
+      "status": "active",
+      "label": "발행 주선·판매·사후관리와 자기 인수·재고·보증·유동성 약정은 서로 다른 자본·현금·손실 사업이다. 그룹 내 거래와 고객 자산을 제거하고 같은 기간의 비용 후 기여로 비교한다."
+    },
+    {
+      "id": "C-245",
+      "type": "claim",
+      "kind": "interpretation",
+      "status": "active",
+      "label": "IP 상품은 신탁 가능한 특정 청구권, 장래매출채권, 공동사업 투자계약증권의 법적 구조를 구분해야 한다. 토큰 형식·집합화 허용 방향만으로 동일 권리·도산절연·환금성이 생기지 않는다."
     },
     {
       "id": "T-RIGHTS",
@@ -5006,6 +5451,356 @@
     {
       "from": "KNX-R-002",
       "to": "T-COMPANIES",
+      "type": "covers"
+    },
+    {
+      "from": "KYX-A-001",
+      "to": "T-REGULATION",
+      "type": "covers"
+    },
+    {
+      "from": "KYX-A-001",
+      "to": "T-FUNDING",
+      "type": "covers"
+    },
+    {
+      "from": "KYX-A-001",
+      "to": "T-COMPANIES",
+      "type": "covers"
+    },
+    {
+      "from": "KYX-A-002",
+      "to": "T-REGULATION",
+      "type": "covers"
+    },
+    {
+      "from": "KYX-A-002",
+      "to": "T-FUNDING",
+      "type": "covers"
+    },
+    {
+      "from": "KYX-A-002",
+      "to": "T-COMPANIES",
+      "type": "covers"
+    },
+    {
+      "from": "KYX-A-003",
+      "to": "T-REGULATION",
+      "type": "covers"
+    },
+    {
+      "from": "KYX-A-003",
+      "to": "T-FUNDING",
+      "type": "covers"
+    },
+    {
+      "from": "KYX-A-003",
+      "to": "T-COMPANIES",
+      "type": "covers"
+    },
+    {
+      "from": "KYX-A-004",
+      "to": "T-REGULATION",
+      "type": "covers"
+    },
+    {
+      "from": "KYX-A-004",
+      "to": "T-FUNDING",
+      "type": "covers"
+    },
+    {
+      "from": "KYX-A-004",
+      "to": "T-COMPANIES",
+      "type": "covers"
+    },
+    {
+      "from": "KYX-M-001",
+      "to": "T-COMPANIES",
+      "type": "covers"
+    },
+    {
+      "from": "KYX-M-001",
+      "to": "T-RIGHTS",
+      "type": "covers"
+    },
+    {
+      "from": "KYX-M-001",
+      "to": "T-OPERATIONS",
+      "type": "covers"
+    },
+    {
+      "from": "KYX-M-001",
+      "to": "T-MONEY",
+      "type": "covers"
+    },
+    {
+      "from": "KYX-M-002",
+      "to": "T-OPERATIONS",
+      "type": "covers"
+    },
+    {
+      "from": "KYX-M-002",
+      "to": "T-MONEY",
+      "type": "covers"
+    },
+    {
+      "from": "KYX-M-003",
+      "to": "T-RIGHTS",
+      "type": "covers"
+    },
+    {
+      "from": "KYX-M-003",
+      "to": "T-OPERATIONS",
+      "type": "covers"
+    },
+    {
+      "from": "KYX-M-004",
+      "to": "T-REGULATION",
+      "type": "covers"
+    },
+    {
+      "from": "KYX-M-004",
+      "to": "T-RIGHTS",
+      "type": "covers"
+    },
+    {
+      "from": "KYX-M-005",
+      "to": "T-REGULATION",
+      "type": "covers"
+    },
+    {
+      "from": "KYX-M-005",
+      "to": "T-RIGHTS",
+      "type": "covers"
+    },
+    {
+      "from": "KYX-M-006",
+      "to": "T-REGULATION",
+      "type": "covers"
+    },
+    {
+      "from": "KYX-M-006",
+      "to": "T-RIGHTS",
+      "type": "covers"
+    },
+    {
+      "from": "KYX-M-007",
+      "to": "T-COMPANIES",
+      "type": "covers"
+    },
+    {
+      "from": "KYX-M-007",
+      "to": "T-FUNDING",
+      "type": "covers"
+    },
+    {
+      "from": "KYX-M-007",
+      "to": "T-INSTITUTION-ROLES",
+      "type": "covers"
+    },
+    {
+      "from": "KYX-M-008",
+      "to": "T-COMPANIES",
+      "type": "covers"
+    },
+    {
+      "from": "KYX-M-008",
+      "to": "T-FUNDING",
+      "type": "covers"
+    },
+    {
+      "from": "KYX-M-009",
+      "to": "T-OPERATIONS",
+      "type": "covers"
+    },
+    {
+      "from": "KYX-M-009",
+      "to": "T-MONEY",
+      "type": "covers"
+    },
+    {
+      "from": "KYX-M-010",
+      "to": "T-RIGHTS",
+      "type": "covers"
+    },
+    {
+      "from": "KYX-M-010",
+      "to": "T-REGULATION",
+      "type": "covers"
+    },
+    {
+      "from": "KYX-M-011",
+      "to": "T-RIGHTS",
+      "type": "covers"
+    },
+    {
+      "from": "KYX-M-011",
+      "to": "T-REGULATION",
+      "type": "covers"
+    },
+    {
+      "from": "KYX-V-001",
+      "to": "T-COMPANIES",
+      "type": "covers"
+    },
+    {
+      "from": "KYX-V-001",
+      "to": "T-OPERATIONS",
+      "type": "covers"
+    },
+    {
+      "from": "KYX-V-001",
+      "to": "T-SETTLEMENT",
+      "type": "covers"
+    },
+    {
+      "from": "KYX-V-002",
+      "to": "T-COMPANIES",
+      "type": "covers"
+    },
+    {
+      "from": "KYX-V-002",
+      "to": "T-OPERATIONS",
+      "type": "covers"
+    },
+    {
+      "from": "KYX-V-002",
+      "to": "T-SETTLEMENT",
+      "type": "covers"
+    },
+    {
+      "from": "KYX-V-003",
+      "to": "T-COMPANIES",
+      "type": "covers"
+    },
+    {
+      "from": "KYX-V-003",
+      "to": "T-OPERATIONS",
+      "type": "covers"
+    },
+    {
+      "from": "KYX-V-003",
+      "to": "T-SETTLEMENT",
+      "type": "covers"
+    },
+    {
+      "from": "KYX-V-004",
+      "to": "T-COMPANIES",
+      "type": "covers"
+    },
+    {
+      "from": "KYX-V-004",
+      "to": "T-OPERATIONS",
+      "type": "covers"
+    },
+    {
+      "from": "KYX-V-004",
+      "to": "T-SETTLEMENT",
+      "type": "covers"
+    },
+    {
+      "from": "KYX-V-005",
+      "to": "T-COMPANIES",
+      "type": "covers"
+    },
+    {
+      "from": "KYX-V-005",
+      "to": "T-OPERATIONS",
+      "type": "covers"
+    },
+    {
+      "from": "KYX-V-005",
+      "to": "T-SETTLEMENT",
+      "type": "covers"
+    },
+    {
+      "from": "KYX-V-006",
+      "to": "T-COMPANIES",
+      "type": "covers"
+    },
+    {
+      "from": "KYX-V-006",
+      "to": "T-OPERATIONS",
+      "type": "covers"
+    },
+    {
+      "from": "KYX-V-006",
+      "to": "T-SETTLEMENT",
+      "type": "covers"
+    },
+    {
+      "from": "KYX-V-007",
+      "to": "T-AI",
+      "type": "covers"
+    },
+    {
+      "from": "KYX-V-007",
+      "to": "T-AGENT-FINANCE",
+      "type": "covers"
+    },
+    {
+      "from": "KYX-V-007",
+      "to": "T-OPERATIONS",
+      "type": "covers"
+    },
+    {
+      "from": "KYX-V-008",
+      "to": "T-AI",
+      "type": "covers"
+    },
+    {
+      "from": "KYX-V-008",
+      "to": "T-AGENT-FINANCE",
+      "type": "covers"
+    },
+    {
+      "from": "KYX-V-008",
+      "to": "T-OPERATIONS",
+      "type": "covers"
+    },
+    {
+      "from": "KYX-V-009",
+      "to": "T-AI",
+      "type": "covers"
+    },
+    {
+      "from": "KYX-V-009",
+      "to": "T-AGENT-FINANCE",
+      "type": "covers"
+    },
+    {
+      "from": "KYX-V-009",
+      "to": "T-OPERATIONS",
+      "type": "covers"
+    },
+    {
+      "from": "KYX-V-010",
+      "to": "T-COMPANIES",
+      "type": "covers"
+    },
+    {
+      "from": "KYX-V-010",
+      "to": "T-OPERATIONS",
+      "type": "covers"
+    },
+    {
+      "from": "KYX-V-010",
+      "to": "T-SETTLEMENT",
+      "type": "covers"
+    },
+    {
+      "from": "KYX-V-011",
+      "to": "T-AI",
+      "type": "covers"
+    },
+    {
+      "from": "KYX-V-011",
+      "to": "T-AGENT-FINANCE",
+      "type": "covers"
+    },
+    {
+      "from": "KYX-V-011",
+      "to": "T-OPERATIONS",
       "type": "covers"
     },
     {
@@ -7956,6 +8751,16 @@
       "type": "about"
     },
     {
+      "from": "C-126",
+      "to": "T-FUNDING",
+      "type": "about"
+    },
+    {
+      "from": "C-126",
+      "to": "T-REGULATION",
+      "type": "about"
+    },
+    {
       "from": "ST-KY-002",
       "to": "C-127",
       "type": "grounds",
@@ -7978,6 +8783,11 @@
       "type": "about"
     },
     {
+      "from": "C-127",
+      "to": "T-REGULATION",
+      "type": "about"
+    },
+    {
       "from": "ST-KY-004",
       "to": "C-128",
       "type": "grounds",
@@ -7996,6 +8806,18 @@
       "note": "provenance, not proof of causation"
     },
     {
+      "from": "ST-KY-002",
+      "to": "C-128",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "ST-KY-003",
+      "to": "C-128",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
       "from": "C-128",
       "to": "T-REGULATION",
       "type": "about"
@@ -8003,6 +8825,11 @@
     {
       "from": "C-128",
       "to": "T-COMPANIES",
+      "type": "about"
+    },
+    {
+      "from": "C-128",
+      "to": "T-FUNDING",
       "type": "about"
     },
     {
@@ -10077,6 +10904,1326 @@
     },
     {
       "from": "C-200",
+      "to": "T-COMPANIES",
+      "type": "about"
+    },
+    {
+      "from": "KYX-A-001",
+      "to": "C-201",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "KYX-A-004",
+      "to": "C-201",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-201",
+      "to": "T-COMPANIES",
+      "type": "about"
+    },
+    {
+      "from": "C-201",
+      "to": "T-FUNDING",
+      "type": "about"
+    },
+    {
+      "from": "C-201",
+      "to": "T-REGULATION",
+      "type": "about"
+    },
+    {
+      "from": "KYX-A-001",
+      "to": "C-202",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-202",
+      "to": "T-COMPANIES",
+      "type": "about"
+    },
+    {
+      "from": "C-202",
+      "to": "T-FUNDING",
+      "type": "about"
+    },
+    {
+      "from": "C-202",
+      "to": "T-REGULATION",
+      "type": "about"
+    },
+    {
+      "from": "KYX-A-003",
+      "to": "C-203",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "ST-KY-002",
+      "to": "C-203",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "ST-KY-003",
+      "to": "C-203",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-203",
+      "to": "T-COMPANIES",
+      "type": "about"
+    },
+    {
+      "from": "C-203",
+      "to": "T-FUNDING",
+      "type": "about"
+    },
+    {
+      "from": "C-203",
+      "to": "T-REGULATION",
+      "type": "about"
+    },
+    {
+      "from": "KYX-A-004",
+      "to": "C-204",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-204",
+      "to": "T-COMPANIES",
+      "type": "about"
+    },
+    {
+      "from": "C-204",
+      "to": "T-FUNDING",
+      "type": "about"
+    },
+    {
+      "from": "C-204",
+      "to": "T-REGULATION",
+      "type": "about"
+    },
+    {
+      "from": "KYX-A-004",
+      "to": "C-205",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "KYX-A-002",
+      "to": "C-205",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-205",
+      "to": "T-COMPANIES",
+      "type": "about"
+    },
+    {
+      "from": "C-205",
+      "to": "T-FUNDING",
+      "type": "about"
+    },
+    {
+      "from": "C-205",
+      "to": "T-REGULATION",
+      "type": "about"
+    },
+    {
+      "from": "KYX-A-001",
+      "to": "C-206",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "KYX-A-002",
+      "to": "C-206",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "KYX-A-003",
+      "to": "C-206",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "KYX-A-004",
+      "to": "C-206",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-206",
+      "to": "T-COMPANIES",
+      "type": "about"
+    },
+    {
+      "from": "C-206",
+      "to": "T-FUNDING",
+      "type": "about"
+    },
+    {
+      "from": "C-206",
+      "to": "T-REGULATION",
+      "type": "about"
+    },
+    {
+      "from": "KYX-A-002",
+      "to": "C-207",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "KYX-A-003",
+      "to": "C-207",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-207",
+      "to": "T-COMPANIES",
+      "type": "about"
+    },
+    {
+      "from": "C-207",
+      "to": "T-FUNDING",
+      "type": "about"
+    },
+    {
+      "from": "C-207",
+      "to": "T-REGULATION",
+      "type": "about"
+    },
+    {
+      "from": "KYX-A-002",
+      "to": "C-208",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "KYX-A-003",
+      "to": "C-208",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-208",
+      "to": "T-COMPANIES",
+      "type": "about"
+    },
+    {
+      "from": "C-208",
+      "to": "T-FUNDING",
+      "type": "about"
+    },
+    {
+      "from": "C-208",
+      "to": "T-REGULATION",
+      "type": "about"
+    },
+    {
+      "from": "ST-KY-001",
+      "to": "C-209",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-209",
+      "to": "T-COMPANIES",
+      "type": "about"
+    },
+    {
+      "from": "C-209",
+      "to": "T-FUNDING",
+      "type": "about"
+    },
+    {
+      "from": "C-209",
+      "to": "T-REGULATION",
+      "type": "about"
+    },
+    {
+      "from": "ST-KY-001",
+      "to": "C-210",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "KYX-A-004",
+      "to": "C-210",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-210",
+      "to": "T-COMPANIES",
+      "type": "about"
+    },
+    {
+      "from": "C-210",
+      "to": "T-FUNDING",
+      "type": "about"
+    },
+    {
+      "from": "C-210",
+      "to": "T-REGULATION",
+      "type": "about"
+    },
+    {
+      "from": "ST-KY-001",
+      "to": "C-211",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "KYX-A-002",
+      "to": "C-211",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "KYX-A-003",
+      "to": "C-211",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "KYX-A-004",
+      "to": "C-211",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-211",
+      "to": "T-COMPANIES",
+      "type": "about"
+    },
+    {
+      "from": "C-211",
+      "to": "T-FUNDING",
+      "type": "about"
+    },
+    {
+      "from": "C-211",
+      "to": "T-REGULATION",
+      "type": "about"
+    },
+    {
+      "from": "KYX-A-001",
+      "to": "C-212",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "KYX-A-002",
+      "to": "C-212",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "KYX-A-003",
+      "to": "C-212",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "ST-KY-001",
+      "to": "C-212",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-212",
+      "to": "T-COMPANIES",
+      "type": "about"
+    },
+    {
+      "from": "C-212",
+      "to": "T-FUNDING",
+      "type": "about"
+    },
+    {
+      "from": "C-212",
+      "to": "T-REGULATION",
+      "type": "about"
+    },
+    {
+      "from": "ST-KY-007",
+      "to": "C-213",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-213",
+      "to": "T-COMPANIES",
+      "type": "about"
+    },
+    {
+      "from": "C-213",
+      "to": "T-RIGHTS",
+      "type": "about"
+    },
+    {
+      "from": "KYX-M-001",
+      "to": "C-214",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "KYX-M-009",
+      "to": "C-214",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-214",
+      "to": "T-OPERATIONS",
+      "type": "about"
+    },
+    {
+      "from": "C-214",
+      "to": "T-MONEY",
+      "type": "about"
+    },
+    {
+      "from": "KYX-M-001",
+      "to": "C-215",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "KYX-M-002",
+      "to": "C-215",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "KYX-M-003",
+      "to": "C-215",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-215",
+      "to": "T-OPERATIONS",
+      "type": "about"
+    },
+    {
+      "from": "C-215",
+      "to": "T-RIGHTS",
+      "type": "about"
+    },
+    {
+      "from": "KYX-M-004",
+      "to": "C-216",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "KYX-M-005",
+      "to": "C-216",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "KYX-M-010",
+      "to": "C-216",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-216",
+      "to": "T-RIGHTS",
+      "type": "about"
+    },
+    {
+      "from": "C-216",
+      "to": "T-REGULATION",
+      "type": "about"
+    },
+    {
+      "from": "KYX-M-006",
+      "to": "C-217",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "KYX-M-011",
+      "to": "C-217",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-217",
+      "to": "T-RIGHTS",
+      "type": "about"
+    },
+    {
+      "from": "C-217",
+      "to": "T-REGULATION",
+      "type": "about"
+    },
+    {
+      "from": "KYX-M-007",
+      "to": "C-218",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "KYX-M-008",
+      "to": "C-218",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-218",
+      "to": "T-FUNDING",
+      "type": "about"
+    },
+    {
+      "from": "C-218",
+      "to": "T-COMPANIES",
+      "type": "about"
+    },
+    {
+      "from": "KYO-GEO-003",
+      "to": "C-219",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "KYO-GEO-004",
+      "to": "C-219",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "KYO-GEO-005",
+      "to": "C-219",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "KYO-GEO-007",
+      "to": "C-219",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "KYO-GEO-008",
+      "to": "C-219",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-219",
+      "to": "T-COMPANIES",
+      "type": "about"
+    },
+    {
+      "from": "C-219",
+      "to": "T-GEOGRAPHY",
+      "type": "about"
+    },
+    {
+      "from": "C-219",
+      "to": "T-INSTITUTION-ROLES",
+      "type": "about"
+    },
+    {
+      "from": "KYX-M-001",
+      "to": "C-220",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "KYX-M-009",
+      "to": "C-220",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "ST-KY-007",
+      "to": "C-220",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-220",
+      "to": "T-MARKET",
+      "type": "about"
+    },
+    {
+      "from": "C-220",
+      "to": "T-RIGHTS",
+      "type": "about"
+    },
+    {
+      "from": "C-220",
+      "to": "T-FUNDING",
+      "type": "about"
+    },
+    {
+      "from": "KYX-M-004",
+      "to": "C-221",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "KYX-M-005",
+      "to": "C-221",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "KYX-M-009",
+      "to": "C-221",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "PRIOR-003",
+      "to": "C-221",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-221",
+      "to": "T-OPERATIONS",
+      "type": "about"
+    },
+    {
+      "from": "C-221",
+      "to": "T-MONEY",
+      "type": "about"
+    },
+    {
+      "from": "KYX-M-004",
+      "to": "C-222",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "KYX-M-005",
+      "to": "C-222",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "KYX-M-010",
+      "to": "C-222",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "FIN-007",
+      "to": "C-222",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-222",
+      "to": "T-RIGHTS",
+      "type": "about"
+    },
+    {
+      "from": "C-222",
+      "to": "T-COLLATERAL",
+      "type": "about"
+    },
+    {
+      "from": "C-222",
+      "to": "T-OPERATIONS",
+      "type": "about"
+    },
+    {
+      "from": "KYX-M-007",
+      "to": "C-223",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "KYX-M-008",
+      "to": "C-223",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "KYO-GEO-005",
+      "to": "C-223",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-223",
+      "to": "T-FUNDING",
+      "type": "about"
+    },
+    {
+      "from": "C-223",
+      "to": "T-INSTITUTION-ROLES",
+      "type": "about"
+    },
+    {
+      "from": "KYX-M-004",
+      "to": "C-224",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "KYX-M-005",
+      "to": "C-224",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "KYX-M-009",
+      "to": "C-224",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "ST-KY-009",
+      "to": "C-224",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-224",
+      "to": "T-AI",
+      "type": "about"
+    },
+    {
+      "from": "C-224",
+      "to": "T-AGENT-FINANCE",
+      "type": "about"
+    },
+    {
+      "from": "C-224",
+      "to": "T-RIGHTS",
+      "type": "about"
+    },
+    {
+      "from": "FIN-007",
+      "to": "C-225",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "FIN-008",
+      "to": "C-225",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "KYX-M-009",
+      "to": "C-225",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "KYO-GEO-005",
+      "to": "C-225",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-225",
+      "to": "T-SETTLEMENT",
+      "type": "about"
+    },
+    {
+      "from": "C-225",
+      "to": "T-OPERATIONS",
+      "type": "about"
+    },
+    {
+      "from": "C-225",
+      "to": "T-AI",
+      "type": "about"
+    },
+    {
+      "from": "KYX-M-001",
+      "to": "C-226",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "KYX-M-009",
+      "to": "C-226",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "ST-KY-007",
+      "to": "C-226",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-226",
+      "to": "T-RIGHTS",
+      "type": "about"
+    },
+    {
+      "from": "C-226",
+      "to": "T-MONEY",
+      "type": "about"
+    },
+    {
+      "from": "C-226",
+      "to": "T-MARKET",
+      "type": "about"
+    },
+    {
+      "from": "KYX-A-004",
+      "to": "C-227",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-227",
+      "to": "T-COMPANIES",
+      "type": "about"
+    },
+    {
+      "from": "C-227",
+      "to": "T-FUNDING",
+      "type": "about"
+    },
+    {
+      "from": "C-227",
+      "to": "T-REGULATION",
+      "type": "about"
+    },
+    {
+      "from": "ST-KY-006",
+      "to": "C-228",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "KYO-GEO-001",
+      "to": "C-228",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "KYO-GEO-003",
+      "to": "C-228",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "KYO-GEO-004",
+      "to": "C-228",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-228",
+      "to": "T-INSTITUTION-ROLES",
+      "type": "about"
+    },
+    {
+      "from": "C-228",
+      "to": "T-OPERATIONS",
+      "type": "about"
+    },
+    {
+      "from": "KYX-V-001",
+      "to": "C-229",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "KYX-V-002",
+      "to": "C-229",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-229",
+      "to": "T-INSTITUTION-ROLES",
+      "type": "about"
+    },
+    {
+      "from": "C-229",
+      "to": "T-OPERATIONS",
+      "type": "about"
+    },
+    {
+      "from": "ST-KY-008",
+      "to": "C-230",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "KYX-V-001",
+      "to": "C-230",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "KYX-V-003",
+      "to": "C-230",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "KYX-V-004",
+      "to": "C-230",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-230",
+      "to": "T-INSTITUTION-ROLES",
+      "type": "about"
+    },
+    {
+      "from": "C-230",
+      "to": "T-OPERATIONS",
+      "type": "about"
+    },
+    {
+      "from": "KYX-V-004",
+      "to": "C-231",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-231",
+      "to": "T-INSTITUTION-ROLES",
+      "type": "about"
+    },
+    {
+      "from": "C-231",
+      "to": "T-OPERATIONS",
+      "type": "about"
+    },
+    {
+      "from": "KYX-V-005",
+      "to": "C-232",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "KYX-V-006",
+      "to": "C-232",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-232",
+      "to": "T-INSTITUTION-ROLES",
+      "type": "about"
+    },
+    {
+      "from": "C-232",
+      "to": "T-OPERATIONS",
+      "type": "about"
+    },
+    {
+      "from": "KYX-V-007",
+      "to": "C-233",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "KYX-V-008",
+      "to": "C-233",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "KYX-V-009",
+      "to": "C-233",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "KYX-V-011",
+      "to": "C-233",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-233",
+      "to": "T-INSTITUTION-ROLES",
+      "type": "about"
+    },
+    {
+      "from": "C-233",
+      "to": "T-OPERATIONS",
+      "type": "about"
+    },
+    {
+      "from": "KYX-V-008",
+      "to": "C-234",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "KYX-V-009",
+      "to": "C-234",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-234",
+      "to": "T-INSTITUTION-ROLES",
+      "type": "about"
+    },
+    {
+      "from": "C-234",
+      "to": "T-OPERATIONS",
+      "type": "about"
+    },
+    {
+      "from": "KYX-V-008",
+      "to": "C-235",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-235",
+      "to": "T-INSTITUTION-ROLES",
+      "type": "about"
+    },
+    {
+      "from": "C-235",
+      "to": "T-OPERATIONS",
+      "type": "about"
+    },
+    {
+      "from": "SRC-CIRCLE-USDC-TERMS",
+      "to": "C-236",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "KNX-M-003",
+      "to": "C-236",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "ST-HW-013",
+      "to": "C-236",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "KYX-V-010",
+      "to": "C-236",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-236",
+      "to": "T-INSTITUTION-ROLES",
+      "type": "about"
+    },
+    {
+      "from": "C-236",
+      "to": "T-OPERATIONS",
+      "type": "about"
+    },
+    {
+      "from": "KYX-V-004",
+      "to": "C-237",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "KYX-V-008",
+      "to": "C-237",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "ST-KY-006",
+      "to": "C-237",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-237",
+      "to": "T-INSTITUTION-ROLES",
+      "type": "about"
+    },
+    {
+      "from": "C-237",
+      "to": "T-OPERATIONS",
+      "type": "about"
+    },
+    {
+      "from": "KYX-V-008",
+      "to": "C-238",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "KYX-V-009",
+      "to": "C-238",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "FIN-008",
+      "to": "C-238",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "ST-KY-009",
+      "to": "C-238",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-238",
+      "to": "T-INSTITUTION-ROLES",
+      "type": "about"
+    },
+    {
+      "from": "C-238",
+      "to": "T-OPERATIONS",
+      "type": "about"
+    },
+    {
+      "from": "KYX-V-001",
+      "to": "C-239",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "KYX-V-005",
+      "to": "C-239",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "KYX-V-006",
+      "to": "C-239",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-239",
+      "to": "T-INSTITUTION-ROLES",
+      "type": "about"
+    },
+    {
+      "from": "C-239",
+      "to": "T-OPERATIONS",
+      "type": "about"
+    },
+    {
+      "from": "ST-TD-001",
+      "to": "C-240",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "ST-TD-003",
+      "to": "C-240",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "ST-KY-007",
+      "to": "C-240",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-240",
+      "to": "T-INSTITUTION-ROLES",
+      "type": "about"
+    },
+    {
+      "from": "C-240",
+      "to": "T-OPERATIONS",
+      "type": "about"
+    },
+    {
+      "from": "ST-KY-004",
+      "to": "C-241",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "ST-KY-005",
+      "to": "C-241",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "FIN-008",
+      "to": "C-241",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "ST-KY-009",
+      "to": "C-241",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-241",
+      "to": "T-REGULATION",
+      "type": "about"
+    },
+    {
+      "from": "C-241",
+      "to": "T-COMPANIES",
+      "type": "about"
+    },
+    {
+      "from": "C-241",
+      "to": "T-AGENT-FINANCE",
+      "type": "about"
+    },
+    {
+      "from": "FIN-008",
+      "to": "C-242",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "PRIOR-003",
+      "to": "C-242",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-242",
+      "to": "T-REGULATION",
+      "type": "about"
+    },
+    {
+      "from": "C-242",
+      "to": "T-OPERATIONS",
+      "type": "about"
+    },
+    {
+      "from": "C-242",
+      "to": "T-COMPANIES",
+      "type": "about"
+    },
+    {
+      "from": "ST-KY-009",
+      "to": "C-243",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "ST-TD-002",
+      "to": "C-243",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "PRIOR-003",
+      "to": "C-243",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-243",
+      "to": "T-AGENT-FINANCE",
+      "type": "about"
+    },
+    {
+      "from": "C-243",
+      "to": "T-COMPANIES",
+      "type": "about"
+    },
+    {
+      "from": "C-243",
+      "to": "T-OPERATIONS",
+      "type": "about"
+    },
+    {
+      "from": "ST-KY-001",
+      "to": "C-244",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "ST-KY-002",
+      "to": "C-244",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "ST-KY-003",
+      "to": "C-244",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "PRIOR-003",
+      "to": "C-244",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-244",
+      "to": "T-FUNDING",
+      "type": "about"
+    },
+    {
+      "from": "C-244",
+      "to": "T-COMPANIES",
+      "type": "about"
+    },
+    {
+      "from": "C-244",
+      "to": "T-OPERATIONS",
+      "type": "about"
+    },
+    {
+      "from": "FIN-007",
+      "to": "C-245",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "FIN-008",
+      "to": "C-245",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "ST-KY-007",
+      "to": "C-245",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-245",
+      "to": "T-RIGHTS",
+      "type": "about"
+    },
+    {
+      "from": "C-245",
+      "to": "T-REGULATION",
+      "type": "about"
+    },
+    {
+      "from": "C-245",
       "to": "T-COMPANIES",
       "type": "about"
     }

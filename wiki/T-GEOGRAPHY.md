@@ -548,6 +548,15 @@ Nobu–Bittime의 은행 가상계좌 연결을 지급 스테이블코인 발행
 
 다음 관측: 동의 가능한 실제 고객의 보장 부족·소득·견적 수락·유지·청구·비용 데이터
 
+### C-219 · institution_statement · active
+
+교보생명의 Ripple 국채 프로젝트는2026년4월 공식 발표상 테스트넷 기술 검증이며, NOBLX에서 생명·증권은 발표상 전략적 기관투자자다. DCG제휴는 MOU, SBI연결은 펀드와 피투자사 투자 발표로 확인된다.
+
+근거: [KYO-GEO-003](../sources/cards/KYO-GEO-003.md), [KYO-GEO-004](../sources/cards/KYO-GEO-004.md), [KYO-GEO-005](../sources/cards/KYO-GEO-005.md), [KYO-GEO-007](../sources/cards/KYO-GEO-007.md), [KYO-GEO-008](../sources/cards/KYO-GEO-008.md)
+
+한계: - 법인·상품별 계약권·보수·실제회수·상용결제·한국판매권으로 확대하지 않음
+- 국채를 미국국채로 특정하지 않음
+
 ## 관련 원문
 
 - [KYO-GEO-001 · Kyobo Life Insurance Group and Japan’s SBI Group ink strategic partnership](../sources/cards/KYO-GEO-001.md)

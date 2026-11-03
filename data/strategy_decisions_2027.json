@@ -152,11 +152,18 @@
       "revenue_or_defense_path": "기존 고객 유지와 운영 개선; 레일 자체 보수와 분리",
       "source_ids": [
         "ST-KY-001",
-        "ST-KY-008"
+        "ST-KY-008",
+        "KYX-V-001",
+        "KYX-V-003",
+        "KYX-V-005",
+        "KYX-V-006"
       ],
       "claim_ids": [
         "C-126",
-        "C-135"
+        "C-135",
+        "C-209",
+        "C-230",
+        "C-239"
       ],
       "required_assumptions": [
         "해당 법인·업무·고객의 허용과 계약",
@@ -171,7 +178,20 @@
       "baseline_metrics": null,
       "budget": null,
       "measured_net_profit": null,
-      "actual_customer_trial_performed": false
+      "actual_customer_trial_performed": false,
+      "business_refinement": {
+        "as_of": "2026-11-03",
+        "case_id": "KYOBO-FS-BP-01",
+        "business_id": "KY-BIZ-01",
+        "record": "data/kyobo_strategy_business_plan.json",
+        "reports": [
+          "reports/18_kyobo_future_strategy_business_plan.md",
+          "reports/19_kyobo_group_rwa_deal_design.md",
+          "reports/20_kyobo_rails_agent_business.md",
+          "reports/21_kyobo_capital_and_permissions.md"
+        ],
+        "status": "analyst_proposal_no_customer_trial"
+      }
     },
     {
       "id": "STR-KY-02",
@@ -187,11 +207,17 @@
       "revenue_or_defense_path": "주선·판매·계약상 사후관리 보수",
       "source_ids": [
         "ST-KY-001",
-        "KYO-GEO-004"
+        "KYO-GEO-004",
+        "FIN-008",
+        "FIN-007",
+        "KYX-A-004"
       ],
       "claim_ids": [
         "C-135",
-        "C-138"
+        "C-138",
+        "C-210",
+        "C-242",
+        "C-244"
       ],
       "required_assumptions": [
         "해당 법인·업무·고객의 허용과 계약",
@@ -206,7 +232,20 @@
       "baseline_metrics": null,
       "budget": null,
       "measured_net_profit": null,
-      "actual_customer_trial_performed": false
+      "actual_customer_trial_performed": false,
+      "business_refinement": {
+        "as_of": "2026-11-03",
+        "case_id": "KYOBO-FS-BP-01",
+        "business_id": "KY-BIZ-02",
+        "record": "data/kyobo_strategy_business_plan.json",
+        "reports": [
+          "reports/18_kyobo_future_strategy_business_plan.md",
+          "reports/19_kyobo_group_rwa_deal_design.md",
+          "reports/20_kyobo_rails_agent_business.md",
+          "reports/21_kyobo_capital_and_permissions.md"
+        ],
+        "status": "analyst_proposal_no_customer_trial"
+      }
     },
     {
       "id": "STR-KY-03",
@@ -223,11 +262,19 @@
       "source_ids": [
         "ST-KY-001",
         "KYO-GEO-005",
-        "SRC-CIRCLE-USDC-TERMS"
+        "SRC-CIRCLE-USDC-TERMS",
+        "KNX-M-001",
+        "KNX-M-003",
+        "KYX-V-008",
+        "KYX-V-009",
+        "KYX-M-007"
       ],
       "claim_ids": [
         "C-135",
-        "C-138"
+        "C-138",
+        "C-237",
+        "C-236",
+        "C-243"
       ],
       "required_assumptions": [
         "해당 법인·업무·고객의 허용과 계약",
@@ -242,7 +289,20 @@
       "baseline_metrics": null,
       "budget": null,
       "measured_net_profit": null,
-      "actual_customer_trial_performed": false
+      "actual_customer_trial_performed": false,
+      "business_refinement": {
+        "as_of": "2026-11-03",
+        "case_id": "KYOBO-FS-BP-01",
+        "business_id": "KY-BIZ-03",
+        "record": "data/kyobo_strategy_business_plan.json",
+        "reports": [
+          "reports/18_kyobo_future_strategy_business_plan.md",
+          "reports/19_kyobo_group_rwa_deal_design.md",
+          "reports/20_kyobo_rails_agent_business.md",
+          "reports/21_kyobo_capital_and_permissions.md"
+        ],
+        "status": "analyst_proposal_no_customer_trial"
+      }
     },
     {
       "id": "STR-KY-04",
@@ -258,11 +318,38 @@
       "revenue_or_defense_path": "실사·구조화·판매·관리 대가; 그룹 보장 없음",
       "source_ids": [
         "ST-KY-007",
-        "ST-KY-001"
+        "ST-KY-001",
+        "KYX-A-004",
+        "KYX-M-001",
+        "KYX-M-002",
+        "KYX-M-003",
+        "KYX-M-004",
+        "KYX-M-005",
+        "KYX-M-006",
+        "KYX-M-007",
+        "KYX-M-008",
+        "KYX-M-009",
+        "KYX-M-010",
+        "KYX-M-011"
       ],
       "claim_ids": [
         "C-132",
-        "C-136"
+        "C-136",
+        "C-213",
+        "C-214",
+        "C-215",
+        "C-216",
+        "C-217",
+        "C-218",
+        "C-219",
+        "C-220",
+        "C-221",
+        "C-222",
+        "C-223",
+        "C-224",
+        "C-225",
+        "C-226",
+        "C-227"
       ],
       "required_assumptions": [
         "해당 법인·업무·고객의 허용과 계약",
@@ -277,7 +364,20 @@
       "baseline_metrics": null,
       "budget": null,
       "measured_net_profit": null,
-      "actual_customer_trial_performed": false
+      "actual_customer_trial_performed": false,
+      "business_refinement": {
+        "as_of": "2026-11-03",
+        "case_id": "KYOBO-FS-BP-01",
+        "business_id": "KY-BIZ-04",
+        "record": "data/kyobo_strategy_business_plan.json",
+        "reports": [
+          "reports/18_kyobo_future_strategy_business_plan.md",
+          "reports/19_kyobo_group_rwa_deal_design.md",
+          "reports/20_kyobo_rails_agent_business.md",
+          "reports/21_kyobo_capital_and_permissions.md"
+        ],
+        "status": "analyst_proposal_no_customer_trial"
+      }
     },
     {
       "id": "STR-KY-05",
@@ -294,12 +394,18 @@
       "source_ids": [
         "KYO-GEO-003",
         "KYO-GEO-004",
-        "ST-KY-008"
+        "ST-KY-008",
+        "KYX-V-004",
+        "KYX-V-010",
+        "KYX-V-008"
       ],
       "claim_ids": [
         "C-130",
         "C-131",
-        "C-133"
+        "C-133",
+        "C-228",
+        "C-236",
+        "C-237"
       ],
       "required_assumptions": [
         "해당 법인·업무·고객의 허용과 계약",
@@ -314,7 +420,20 @@
       "baseline_metrics": null,
       "budget": null,
       "measured_net_profit": null,
-      "actual_customer_trial_performed": false
+      "actual_customer_trial_performed": false,
+      "business_refinement": {
+        "as_of": "2026-11-03",
+        "case_id": "KYOBO-FS-BP-01",
+        "business_id": "KY-BIZ-05",
+        "record": "data/kyobo_strategy_business_plan.json",
+        "reports": [
+          "reports/18_kyobo_future_strategy_business_plan.md",
+          "reports/19_kyobo_group_rwa_deal_design.md",
+          "reports/20_kyobo_rails_agent_business.md",
+          "reports/21_kyobo_capital_and_permissions.md"
+        ],
+        "status": "analyst_proposal_no_customer_trial"
+      }
     },
     {
       "id": "STR-HW-01",

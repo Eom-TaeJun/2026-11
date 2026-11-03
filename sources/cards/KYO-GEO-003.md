@@ -32,5 +32,7 @@ NOBLX 완료 발표는 유럽 와인을 기초로 태국에서 사모 디지털�
 - **C-100 / hypothesis / active**: 거래 규모가 커져도 고객 접점과 계약을 가진 유통 주체가 보수 대부분을 가져갈 수 있다.
 - **C-131 / institution_statement / active**: NOBLX의 교보생명·교보증권 역할은 발표상 전략적 기관투자자이며 DCG 연결은 기술제휴 MOU다.
 - **C-135 / interpretation / active**: 우선순위는 기존 거래고객의 자금·증거금 운영, 반복 IB 및 사후관리, 기관 유동성, 검증 가능한 IP, 국경간 확대 순으로 검토한다.
+- **C-219 / institution_statement / active**: 교보생명의 Ripple 국채 프로젝트는2026년4월 공식 발표상 테스트넷 기술 검증이며, NOBLX에서 생명·증권은 발표상 전략적 기관투자자다. DCG제휴는 MOU, SBI연결은 펀드와 피투자사 투자 발표로 확인된다.
+- **C-228 / unknown / active**: 선택한 교보 공식 행사·제휴 자료와 기존 공개 분석에서 교보증권의 직접 Circle Mint·USDT 발행자/유통사 계약, 고객 입출금·가격·수익을 확인하지 못했다.
 
 [전체 자료 목록](../README.md)

@@ -630,6 +630,202 @@ K-SURE 포괄매입 안내는 수입자 미결제와 별개로 수출자의 최�
 
 다음 관측: 외부자산 보유 고객의 통화별 지급 실패·유료 재이용·평잔·FTP 기여·제휴 및 운영비 후 증분 관계 기여
 
+### C-214 · institution_statement · active
+
+교보문고 POD 공개 FAQ는 법인 출판사의 전자계약, 콘텐츠 공급·주문 후 제작, 파트너 정산 및 계산서 절차와 정가20% 정산을 안내한다. 공개 판매·정산·지급장부 안내는 각 단계와 집계시차를 구분한다.
+
+근거: [KYX-M-001](../sources/cards/KYX-M-001.md), [KYX-M-009](../sources/cards/KYX-M-009.md)
+
+한계: - 특정 P의 계약·판매·잔액·계산서·입금 원장을 확인한 것은 아님
+- 20%는 안내상의 POD정산 기준으로 투자수익률·순수령액·다른 상품의 조건으로 전용하지 않음
+
+### C-215 · unknown · active
+
+출판사 지급일은 현재 FAQ의 익월25일과 연결된 공식 지급공지의20일경 설명이 달라, 특정 계약과 채무자 확인 전 확정하지 않는다. 개인작가의 별도 조건과 과거2018년 적용 약관도 출판사 최신 거래에 자동 적용하지 않는다.
+
+근거: [KYX-M-001](../sources/cards/KYX-M-001.md), [KYX-M-002](../sources/cards/KYX-M-002.md), [KYX-M-003](../sources/cards/KYX-M-003.md)
+
+한계: - 현재 특정 출판사의 지급일은 null
+- 지급일 차이가 실제 연체를 뜻하지 않음
+
+### C-221 · hypothesis · active
+
+필요한 법적 권한·유효한 양도·수금통제·외부기관 수요가 성립하면, 증권사는 반복 채권 검증·구조화·주선·수금대조·분쟁관리 업무에서 계약상 보수를 얻을 수 있다.
+
+근거: [KYX-M-004](../sources/cards/KYX-M-004.md), [KYX-M-005](../sources/cards/KYX-M-005.md), [KYX-M-009](../sources/cards/KYX-M-009.md), [PRIOR-003](../sources/cards/PRIOR-003.md)
+
+한계: - 확보한 유료 계약·보수율·수익성은 없음
+- 자기자금 인수·보증·그룹 내부 보수를 외부 서비스 이익과 구분
+
+다른 설명: 대형 플랫폼의 직접 조기정산이나 기존 금융회사의 저렴한 매입이 증권사 역할·가격을 축소할 수 있다.
+
+다음 관측: 생명 매입약정 없이 제시된 외부기관 가격·반복 유료계약·비용후기여·회수결과
+
+### C-222 · interpretation · active
+
+여러 작품의 청구권을 묶더라도 지급자가 같으면 채무자 신용 집중은 남는다. 진정한 양도·수금계좌 분리·SPV는 각각 법적 검토 대상이며 지급자의 미지급 위험까지 제거하지 않는다.
+
+근거: [KYX-M-004](../sources/cards/KYX-M-004.md), [KYX-M-005](../sources/cards/KYX-M-005.md), [KYX-M-010](../sources/cards/KYX-M-010.md), [FIN-007](../sources/cards/FIN-007.md)
+
+한계: - 도산법·세법·신탁법 전체 검토나 특정구조의 도산절연 확정은 아님
+
+### C-225 · hypothesis · active
+
+여러기관이 같은 권리·보유·배분상태를 공유해야 하는 경우에 온체인이 기존장부+AI보다 추가편익을 낼 수 있으나, 월별 정산·법적양도·은행현금이 병목이면 기존API·장부가 더 효율적일 수 있다.
+
+근거: [FIN-007](../sources/cards/FIN-007.md), [FIN-008](../sources/cards/FIN-008.md), [KYX-M-009](../sources/cards/KYX-M-009.md), [KYO-GEO-005](../sources/cards/KYO-GEO-005.md)
+
+한계: - 토큰화와24시간은행현금·시장유동성·상계편익을 동일시하지 않음
+- 원장 직접 대가 제한을 관리보수로 우회하는 모델 제외
+
+다른 설명: 이중장부·키·보안·정정·복구·외부연계비용이 대사절감보다 클 수 있다.
+
+다음 관측: 동일채권·투자자·결제조건에서 계약부터은행회수까지 총비용·오류·예외처리 비교
+
+### C-228 · unknown · active
+
+선택한 교보 공식 행사·제휴 자료와 기존 공개 분석에서 교보증권의 직접 Circle Mint·USDT 발행자/유통사 계약, 고객 입출금·가격·수익을 확인하지 못했다.
+
+근거: [ST-KY-006](../sources/cards/ST-KY-006.md), [KYO-GEO-001](../sources/cards/KYO-GEO-001.md), [KYO-GEO-003](../sources/cards/KYO-GEO-003.md), [KYO-GEO-004](../sources/cards/KYO-GEO-004.md)
+
+한계: bounded unknown이며 계약이나 관계가 없다는 증거가 아님.
+
+### C-229 · institution_statement · active
+
+현재 IBKR 입금 안내는 적격 IBLLC 고객의 USDC→zerohash→USD 증권계좌 경로와 Ethereum·Solana·Base를 제시한다.
+
+근거: [KYX-V-001](../sources/cards/KYX-V-001.md), [KYX-V-002](../sources/cards/KYX-V-002.md)
+
+한계: 특정 고객 실제 자격·지원 목록·토큰 자체 증거금 인정·한국 교보 적용은 미확인.
+
+### C-230 · interpretation · active
+
+IBKR 공개 안내 사이에 요율·지원 토큰·출금보류 설명이 달라 1월 수수료나 한 페이지를 11월 모든 고객의 통합 계약조건으로 쓸 수 없다.
+
+근거: [ST-KY-008](../sources/cards/ST-KY-008.md), [KYX-V-001](../sources/cards/KYX-V-001.md), [KYX-V-003](../sources/cards/KYX-V-003.md), [KYX-V-004](../sources/cards/KYX-V-004.md)
+
+한계: 거짓 문서로 단정하지 않고 날짜·대상 고객·갱신 차이를 남김.
+
+### C-231 · institution_statement · active
+
+IBKR는 7월14일 USDC·PYUSD·RLUSD를 통한 양방향 funding과 USD의 토큰 전환 후 외부지갑 출금을 발표했다.
+
+근거: [KYX-V-004](../sources/cards/KYX-V-004.md)
+
+한계: UK·Ireland 제외; 11월3일 특정 계좌의 현재 가동·가격·망을 확인하지 않음.
+
+### C-232 · interpretation · active
+
+즉시 표시되는 고객 달러잔액과 플랫폼 은행 정산은 다른 사건이다. 선지급·신용·유동성 여유가 필요하면 그 재원·손실·비용 주체를 계약으로 확인해야 한다.
+
+근거: [KYX-V-005](../sources/cards/KYX-V-005.md), [KYX-V-006](../sources/cards/KYX-V-006.md)
+
+한계: generic zerohash 문서로 IBKR나 교보의 실제 정산·선지급계약을 추정하지 않음.
+
+### C-233 · institution_statement · active
+
+IBKR의 7월 발표·9월23일 일반 가이드는 고객 주문별 승인을 요구하지만 9월25일 표시 보충약관과 현재 안내는 별도 지정 자금에서 자동 주문하는 조건을 제시한다.
+
+근거: [KYX-V-007](../sources/cards/KYX-V-007.md), [KYX-V-008](../sources/cards/KYX-V-008.md), [KYX-V-009](../sources/cards/KYX-V-009.md), [KYX-V-011](../sources/cards/KYX-V-011.md)
+
+한계: 현재 안내에 관할별 planned 문구가 있어 전체 관할·고객의 실제 가동으로 일반화하지 않음.
+
+### C-234 · interpretation · active
+
+AI Partition은 거래 권한을 제한하는 장치이지만 다른 계좌 채무와 완전히 절연된 법적 재산이라고 볼 수 없다. 연결 철회도 이미 대기·부분체결된 주문의 자동 취소와 다르다.
+
+근거: [KYX-V-008](../sources/cards/KYX-V-008.md), [KYX-V-009](../sources/cards/KYX-V-009.md)
+
+한계: IBKR 공개 약관·안내에 대한 선택적 해석이며 다른 회사 구조를 확정하지 않음.
+
+### C-235 · institution_statement · active
+
+IBKR는 지원 AI 연결 자체의 추가료가 없다고 안내하며 AI 공급자 구독·시장데이터·계좌·거래 비용은 별도로 남긴다.
+
+근거: [KYX-V-008](../sources/cards/KYX-V-008.md)
+
+한계: 모든 기능/기관 계약의 무료 또는 거래 비용 0을 뜻하지 않음.
+
+### C-236 · interpretation · active
+
+USDC·USDT 직접 상환은 발행자 자격·계약·규모·은행시간을 필요로 하며, 보유자가 지급한 전환수수료와 발행자의 준비금수익은 증권사의 수익으로 자동 귀속되지 않는다.
+
+근거: [SRC-CIRCLE-USDC-TERMS](../sources/cards/SRC-CIRCLE-USDC-TERMS.md), [KNX-M-003](../sources/cards/KNX-M-003.md), [ST-HW-013](../sources/cards/ST-HW-013.md), [KYX-V-010](../sources/cards/KYX-V-010.md)
+
+한계: 교보의 상환자격·분배계약·실제 수수료와 모든 원가 미확인.
+
+### C-237 · hypothesis · active
+
+필요한 인가·계약·수요가 성립하면 교보는 자체 앱 밖 고객에게도 적격 상품의 유효 견적·현금 가용시각·실행·사후관리 기능을 공급해 반복 중개·기관 업무를 확보할 수 있다.
+
+근거: [KYX-V-004](../sources/cards/KYX-V-004.md), [KYX-V-008](../sources/cards/KYX-V-008.md), [ST-KY-006](../sources/cards/ST-KY-006.md)
+
+한계: 교보 확정사업이 아니라 강한 미래 가정하 연구 제안.
+
+다른 설명: 글로벌 브로커·대형 IB·발행자가 같은 기능을 더 싸게 제공하고 AI 플랫폼이 고객접점과 배분수익을 가져갈 수 있다.
+
+다음 관측: 동일 고객의 기존+AI 대비 완결 거래 성공·재이용·고객 총비용·외부 채널 배분 후 순기여·이관권을 비교.
+
+### C-238 · hypothesis · active
+
+상품 정보와 주문 연결이 표준화될수록 단순 데이터·소개 수수료는 압축되고 원권리 검증·실행 확약·사후관리·예외 복구의 검증된 품질이 가격 방어 근거가 될 수 있다.
+
+근거: [KYX-V-008](../sources/cards/KYX-V-008.md), [KYX-V-009](../sources/cards/KYX-V-009.md), [FIN-008](../sources/cards/FIN-008.md), [ST-KY-009](../sources/cards/ST-KY-009.md)
+
+한계: 유료계약과 업무권한 없는 관리비 부과 또는 제한된 원장 이용료 우회안을 뜻하지 않음.
+
+다른 설명: 오류가 적고 자산이 표준화되면 예외처리도 공동기반으로 흡수돼 특화 보수마저 줄 수 있다.
+
+다음 관측: 실제 계약 지급자·오류/분쟁/회수 비용·대체 공급자 견적·보수 인하 후 고객별 기여.
+
+### C-239 · hypothesis · active
+
+고객의 분산된 기존 토큰을 증권계좌 현금으로 연결하면 자금 준비의 마찰을 줄일 수 있지만 고객 가격인하·전환사업자 배분·선지급 유동성·기존 중개/FX 수익 잠식 후에만 교보의 증분 기여를 판단할 수 있다.
+
+근거: [KYX-V-001](../sources/cards/KYX-V-001.md), [KYX-V-005](../sources/cards/KYX-V-005.md), [KYX-V-006](../sources/cards/KYX-V-006.md)
+
+한계: 토큰 발행량·이체액·예수금 총액을 매출로 보지 않음.
+
+다른 설명: 은행 송금/API와 기존+AI만으로 같은 성과를 더 낮은 원가로 낼 수 있다.
+
+다음 관측: 같은 통화·금액·시간·고객의 사용가능현금과 출금완료까지 총비용, 교보 대체수익 포함 순기여, 장애·고객지원 비용.
+
+### C-240 · interpretation · active
+
+유한한 원자산에 다수 상품을 설계해도 순자산과 독립 현금흐름이 같은 수만큼 늘지는 않는다. 별도 청구권·우선순위·손실배분·효용 변화와 동일 위험의 재포장을 구분해야 한다.
+
+근거: [ST-TD-001](../sources/cards/ST-TD-001.md), [ST-TD-003](../sources/cards/ST-TD-003.md), [ST-KY-007](../sources/cards/ST-KY-007.md)
+
+한계: 금융기능에 관한 연구자 재구성이며 교수의 현재 발언·특정 거래의 법적 권리 확인이 아님.
+
+### C-242 · interpretation · active
+
+전자등록 원장 이용의 직접 대가 제한을 담은 예고안 아래에서는 실제 구매되는 실사·구조화·모집·사후업무와 기록 대가를 구별해야 한다. 관리비라는 이름만으로 과금 가능성을 확정하지 않는다.
+
+근거: [FIN-008](../sources/cards/FIN-008.md), [PRIOR-003](../sources/cards/PRIOR-003.md)
+
+한계: 예고안은 최종 규칙이 아니며 별도 보수도 법인 권한·행위·계약과 고객 지불 의사를 확인해야 한다.
+
+### C-243 · hypothesis · active
+
+외부 AI가 상품과 견적을 비교하는 미래에 교보가 정확한 권리·현금 조건과 실제 실행·사후관리 상태를 제공하면 자체 앱 밖에서도 고객 업무를 확보할 수 있다.
+
+근거: [ST-KY-009](../sources/cards/ST-KY-009.md), [ST-TD-002](../sources/cards/ST-TD-002.md), [PRIOR-003](../sources/cards/PRIOR-003.md)
+
+한계: 현재 교보의 외부 AI 연동·유료 반복 고객은 확인하지 않았다.
+
+다른 설명: 표준화로 공급자가 대체되기 쉬워지고 플랫폼 배분·가격 인하가 효율 이득을 가져갈 수 있다.
+
+다음 관측: 외부 채널의 실제 적격 주문·정시 완료·고객 재이용·플랫폼 배분 후 순기여와 오류 책임
+
+### C-244 · interpretation · active
+
+발행 주선·판매·사후관리와 자기 인수·재고·보증·유동성 약정은 서로 다른 자본·현금·손실 사업이다. 그룹 내 거래와 고객 자산을 제거하고 같은 기간의 비용 후 기여로 비교한다.
+
+근거: [ST-KY-001](../sources/cards/ST-KY-001.md), [ST-KY-002](../sources/cards/ST-KY-002.md), [ST-KY-003](../sources/cards/ST-KY-003.md), [PRIOR-003](../sources/cards/PRIOR-003.md)
+
+한계: 분석용 관리회계 원칙이며 회사 내부 배분자본·계약가격·회계손익을 확보한 것은 아니다.
+
 ## 관련 원문
 
 - [FIN-001 · Tokenized Finance](../sources/cards/FIN-001.md)
@@ -687,5 +883,20 @@ K-SURE 포괄매입 안내는 수입자 미결제와 별개로 수출자의 최�
 - [KNX-V-009 · 가상자산 이용자 보호 등에 관한 법률 — 제2조 정의](../sources/cards/KNX-V-009.md)
 - [KNX-R-001 · 수출신용보증(포괄매입) 제도개요](../sources/cards/KNX-R-001.md)
 - [KNX-R-002 · 수출신용보증(포괄매입) 이용절차](../sources/cards/KNX-R-002.md)
+- [KYX-M-001 · 바로출판POD FAQ — 개인·출판사 정산 및 출간 절차](../sources/cards/KYX-M-001.md)
+- [KYX-M-002 · 정산금(판매대금) 지급 관련 안내](../sources/cards/KYX-M-002.md)
+- [KYX-M-003 · Pubple 이용 약관 변경 안내 — 저작권료 지급금액 기준 변경](../sources/cards/KYX-M-003.md)
+- [KYX-M-009 · 정산/판매내역 조회방법 안내](../sources/cards/KYX-M-009.md)
+- [KYX-V-001 · Stablecoin Deposits — IBKR 공식 중국어 안내](../sources/cards/KYX-V-001.md)
+- [KYX-V-002 · Fund with Stablecoin — Client Portal User Guide](../sources/cards/KYX-V-002.md)
+- [KYX-V-003 · USD Deposits and Withdrawals — IBKR Campus](../sources/cards/KYX-V-003.md)
+- [KYX-V-004 · Interactive Brokers Builds Out One of the Most Comprehensive and Low-Cost Solutions for Accessing Cryptocurrency Available](../sources/cards/KYX-V-004.md)
+- [KYX-V-005 · Account Funding — zerohash Documentation](../sources/cards/KYX-V-005.md)
+- [KYX-V-006 · zerohash US User Agreement — IBKR 공개 양식 4438](../sources/cards/KYX-V-006.md)
+- [KYX-V-007 · Interactive Brokers Opens AI Connectivity to Any Tool Built on the MCP Standard](../sources/cards/KYX-V-007.md)
+- [KYX-V-008 · AI Integration and IBKR Autonomous Trading — 현재 공식 안내](../sources/cards/KYX-V-008.md)
+- [KYX-V-009 · AI Trading Supplement — Form 4923](../sources/cards/KYX-V-009.md)
+- [KYX-V-010 · Fees — Tether](../sources/cards/KYX-V-010.md)
+- [KYX-V-011 · AI Instructions — Client Portal User Guide](../sources/cards/KYX-V-011.md)
 
 [전체 주제 지도](INDEX.md)

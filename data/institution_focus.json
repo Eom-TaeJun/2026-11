@@ -198,7 +198,7 @@
       "conditional_expansion": [
         "EU는 회사 발표의 탐색 지역·기초자산 지역. 특정 회원국의 계약·발행인이 확인될 때 확장"
       ],
-      "next_deliverable": "가장 우선인 고객 업무의 계약·최종 현금·총비용 기준선과 대안 비교; 실제 자료 접근 전에는 검증 설계로 유지",
+      "next_deliverable": "자본·인가 후속증거, 기존 거래 고객 한 유형의 자금 기준선, 반복 발행인 유료 수요, 계약상 특정 IP채권의 권리·정산·은행수금과 외부기관 가격. 현재 연구 설계를 실제 자료로 갱신.",
       "strategy_decision_ids": [
         "STR-KY-01",
         "STR-KY-02",
@@ -206,7 +206,18 @@
         "STR-KY-04",
         "STR-KY-05"
       ],
-      "strategy_report": "reports/13_kyobo_future_strategy.md"
+      "strategy_report": "reports/13_kyobo_future_strategy.md",
+      "business_refinement": {
+        "as_of": "2026-11-03",
+        "reports": [
+          "reports/18_kyobo_future_strategy_business_plan.md",
+          "reports/19_kyobo_group_rwa_deal_design.md",
+          "reports/20_kyobo_rails_agent_business.md",
+          "reports/21_kyobo_capital_and_permissions.md"
+        ],
+        "record": "data/kyobo_strategy_business_plan.json",
+        "status": "analyst_proposal"
+      }
     },
     {
       "target": "한화생명",

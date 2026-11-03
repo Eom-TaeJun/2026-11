@@ -28,5 +28,6 @@
 
 - **C-133 / institution_statement / active**: IBKR는 적격 IB LLC 고객 USDC를 zerohash 경로에서 달러로 바꿔 증권계좌에 입금하는 기능을 발표했다.
 - **C-138 / hypothesis / active**: 현행+AI와 온체인+AI를 같은 업무로 비교하고 총비용·예외·은행현금·유료 반복고객에서 추가 편익이 있을 때 확대한다.
+- **C-230 / interpretation / active**: IBKR 공개 안내 사이에 요율·지원 토큰·출금보류 설명이 달라 1월 수수료나 한 페이지를 11월 모든 고객의 통합 계약조건으로 쓸 수 없다.
 
 [전체 자료 목록](../README.md)

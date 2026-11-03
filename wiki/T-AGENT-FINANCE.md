@@ -132,10 +132,47 @@ AI는 증빙·조건·대안과 예외를 제안하고, 통화·잔액·달력·
 
 한계: 저자 연구와 상품의 기관 승인 절차를 참고한 설계이며 안전성 인증·법정 요건의 완전 목록은 아니다.
 
+### C-224 · hypothesis · active
+
+AI가 상품 비교·조합을 늘려도 한정된 원권리의 현금은 늘지 않는다. 권리별 중복 양도·담보·배분, 실제수금·정정·회수의 지속 검증이 관리 서비스의 가치 후보가 된다.
+
+근거: [KYX-M-004](../sources/cards/KYX-M-004.md), [KYX-M-005](../sources/cards/KYX-M-005.md), [KYX-M-009](../sources/cards/KYX-M-009.md), [ST-KY-009](../sources/cards/ST-KY-009.md)
+
+한계: - 온체인 밖 담보나 미신고 계약을 원장만으로 자동 탐지할 수 있다고 가정하지 않음
+- 권리·투자결정 책임과 결정론적 계산·한도 집행을 구분
+
+다른 설명: 정보·관리 자동화가 보편화되면 보수도 하락해 절감 편익이 고객·플랫폼에 이전될 수 있다.
+
+다음 관측: 원권리 연결 누락·중복편입·오배분·정정시간·유료 반복사용과 보수의 변화
+
+### C-241 · interpretation · active
+
+교보의 자본 확대·종투사 지정, 토큰증권 운영, 스테이블코인 레일, AI 위임은 서로 다른 업무 관문이다. 한 단계가 성립했다는 이유로 다른 권한·고객계약을 채울 수 없다.
+
+근거: [ST-KY-004](../sources/cards/ST-KY-004.md), [ST-KY-005](../sources/cards/ST-KY-005.md), [FIN-008](../sources/cards/FIN-008.md), [ST-KY-009](../sources/cards/ST-KY-009.md)
+
+한계: 선택 공식 자료에 근거한 사업 설계이며 모든 개별 인가 판정이 아니다.
+
+### C-243 · hypothesis · active
+
+외부 AI가 상품과 견적을 비교하는 미래에 교보가 정확한 권리·현금 조건과 실제 실행·사후관리 상태를 제공하면 자체 앱 밖에서도 고객 업무를 확보할 수 있다.
+
+근거: [ST-KY-009](../sources/cards/ST-KY-009.md), [ST-TD-002](../sources/cards/ST-TD-002.md), [PRIOR-003](../sources/cards/PRIOR-003.md)
+
+한계: 현재 교보의 외부 AI 연동·유료 반복 고객은 확인하지 않았다.
+
+다른 설명: 표준화로 공급자가 대체되기 쉬워지고 플랫폼 배분·가격 인하가 효율 이득을 가져갈 수 있다.
+
+다음 관측: 외부 채널의 실제 적격 주문·정시 완료·고객 재이용·플랫폼 배분 후 순기여와 오류 책임
+
 ## 관련 원문
 
 - [ST-HW-004 · 한화투자증권, 모바일 투자 앱 개편… 이제 디지털자산도 ‘한화투자증권 MTS’ 에서](../sources/cards/ST-HW-004.md)
 - [ST-HW-010 · 한화생명, 증여 자산관리 플랫폼 ‘파이’ 출시](../sources/cards/ST-HW-010.md)
 - [ST-HW-014 · Implementation Considerations](../sources/cards/ST-HW-014.md)
+- [KYX-V-007 · Interactive Brokers Opens AI Connectivity to Any Tool Built on the MCP Standard](../sources/cards/KYX-V-007.md)
+- [KYX-V-008 · AI Integration and IBKR Autonomous Trading — 현재 공식 안내](../sources/cards/KYX-V-008.md)
+- [KYX-V-009 · AI Trading Supplement — Form 4923](../sources/cards/KYX-V-009.md)
+- [KYX-V-011 · AI Instructions — Client Portal User Guide](../sources/cards/KYX-V-011.md)
 
 [전체 주제 지도](INDEX.md)

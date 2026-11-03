@@ -2114,51 +2114,61 @@
     "id": "C-126",
     "kind": "fact",
     "status": "active",
-    "text": "2026-06말 별도자본은 약2.2406조원이며 상반기 전체 수탁수수료 약1,610.64억원 중 해외선물688.28억원이다.",
+    "text": "2026-06말 교보증권 별도 자본은 2,240,633,642천원이다. 반기 별도 위탁매매 수수료 161,064백만원 중 해외선물68,828백만원·주식78,656백만원이며, 연결 부문 영업이익은 위탁매매108,049,352천원·IB34,004,082천원이다.",
     "source_ids": [
       "ST-KY-001"
     ],
     "topic_ids": [
-      "T-COMPANIES"
+      "T-COMPANIES",
+      "T-FUNDING",
+      "T-REGULATION"
     ],
-    "limitations": "별도 영업현황의 총수수료이며 거래액·순이익 아님. 11월 현재 자본 아님.",
-    "as_of": "2026-11-02",
-    "draft_id": "KY-C-001"
+    "limitations": "역사적 반기 자료. 거래액·수수료·이익과 별도·연결을 합산하지 않는다. 고객별 순기여·현재 자본 미확인.",
+    "as_of": "2026-11-03",
+    "draft_id": "KYA-C-001",
+    "previous_draft_id": "KY-C-001"
   },
   {
     "id": "C-127",
     "kind": "fact",
     "status": "active",
-    "text": "10/22 RCPS 약1,000억·2,000억원 발행 결정 공시는 납입일10/30, 최초 우선배당률5.814%·5.993%, 회사 상환권 개시2028/10/30·2029/10/30 조건을 담는다.",
+    "text": "10/22 RCPS 결정 공시는 약1,000억·2,000억원 운영자금, 10/30 납입 일정, 최초 우선배당률5.814%·5.993%, 2028/10/30·2029/10/30 이후 회사 상환권과 배당률 상승 조건을 담는다.",
     "source_ids": [
       "ST-KY-002",
       "ST-KY-003"
     ],
     "topic_ids": [
       "T-FUNDING",
-      "T-COMPANIES"
+      "T-COMPANIES",
+      "T-REGULATION"
     ],
-    "limitations": "후속 납입완료·자본 인정 미확인. 실제 배당·상환과 구분.",
-    "as_of": "2026-11-02",
-    "draft_id": "KY-C-002"
+    "limitations": "실제 납입완료·자본 인정과 배당 발생은 확인되지 않았다. 투자자 풋 또는 확정 만기가 아니다.",
+    "as_of": "2026-11-03",
+    "draft_id": "KYA-C-002",
+    "previous_draft_id": "KY-C-002"
   },
   {
     "id": "C-128",
     "kind": "unknown",
     "status": "active",
-    "text": "교보의 최신 종투사 지정 및 발행어음·IMA 권한은 이번 공식 검색에서 확인하지 못했다. 3월 지정표 누락을11월 미지정의 확정증거로 쓰지 않는다.",
+    "text": "2026-11-03 선택 공식 검색·공시 재확인으로 교보의 RCPS 실제 납입 완료·회계 및 감독 인정자본·종투사 지정·단기금융업 인가·IMA 실제 영업의 최신 완결 증거를 확보하지 못했다.",
     "source_ids": [
       "ST-KY-004",
       "ST-KY-005",
-      "ST-KY-001"
+      "ST-KY-001",
+      "ST-KY-002",
+      "ST-KY-003"
     ],
     "topic_ids": [
       "T-REGULATION",
-      "T-COMPANIES"
+      "T-COMPANIES",
+      "T-FUNDING"
     ],
-    "limitations": "지정·인가·현행 회사 공시 추가 확인 필요.",
-    "as_of": "2026-11-02",
-    "draft_id": "KY-C-003"
+    "limitations": "DART 목록 조회와 교보 홈페이지 접근 공백이 있고 후속 공시·인가 전수 조회가 아니다. 미확인은 미납입·미지정·미인가의 확정이 아니다.",
+    "as_of": "2026-11-03",
+    "draft_id": "KYA-C-003",
+    "next_observation": "후속 발행/납입 공시, 최신 재무제표·자본 인정 내역, 금융위 지정/인가 결정 및 조건",
+    "previous_draft_id": "KY-C-003"
   },
   {
     "id": "C-129",
@@ -3524,5 +3534,893 @@
     "as_of": "2026-11-03",
     "alternative": "외부 ERP/AI가 고객 접점을 가지고 은행을 가격으로 비교하거나 관리 수익보다 예금 조달 손실·제휴비가 큼",
     "next_observation": "외부자산 보유 고객의 통화별 지급 실패·유료 재이용·평잔·FTP 기여·제휴 및 운영비 후 증분 관계 기여"
+  },
+  {
+    "id": "C-201",
+    "kind": "fact",
+    "status": "active",
+    "text": "현행 선택 시행령상 종투사 3/4/8조 단계에는 최근 두 사업연도 결산일 연속 자본요건과 비자본 요건이 있고, 4조/8조 단계에는 직전 단계 업무의 지정일 이후 2년 계속 영위요건이 있다.",
+    "source_ids": [
+      "KYX-A-001",
+      "KYX-A-004"
+    ],
+    "topic_ids": [
+      "T-COMPANIES",
+      "T-FUNDING",
+      "T-REGULATION"
+    ],
+    "limitations": "2025-11-25 전 신청자 등의 경과조치를 함께 적용해야 한다. 교보에 적용해 최초 지정 가능일을 산출하지 않았다.",
+    "as_of": "2026-11-03",
+    "draft_id": "KYA-C-004"
+  },
+  {
+    "id": "C-202",
+    "kind": "fact",
+    "status": "active",
+    "text": "2025-11-25 시행령 부칙은 시행 전 지정 신청자에 종전 지정 기준을 적용하며 해당 신청자와 기존 지정자의 지정 취소 판단에 별도 5년 경과조치를 둔다.",
+    "source_ids": [
+      "KYX-A-001"
+    ],
+    "topic_ids": [
+      "T-COMPANIES",
+      "T-FUNDING",
+      "T-REGULATION"
+    ],
+    "limitations": "교보의 신청일·대상 단계·경과조치 해당 여부는 미확인.",
+    "as_of": "2026-11-03",
+    "draft_id": "KYA-C-005"
+  },
+  {
+    "id": "C-203",
+    "kind": "interpretation",
+    "status": "active",
+    "text": "종투사 자기자본 산식은 최근 연말 재무상태표에 특정 신청일까지 증감을 반영하며 자본 처리된 조건부자본증권 조달액을 제외하므로, RCPS 명칭과 납입 예정액만으로 전액 인정 또는 제외를 확정할 수 없다.",
+    "source_ids": [
+      "KYX-A-003",
+      "ST-KY-002",
+      "ST-KY-003"
+    ],
+    "topic_ids": [
+      "T-COMPANIES",
+      "T-FUNDING",
+      "T-REGULATION"
+    ],
+    "limitations": "실제 증권 분류·회계·감독상 적용을 확인한 판정이 아니라 필요한 확인 조건이다.",
+    "as_of": "2026-11-03",
+    "draft_id": "KYA-C-006"
+  },
+  {
+    "id": "C-204",
+    "kind": "fact",
+    "status": "active",
+    "text": "법77조의3은 관련 신용공여 합계의 자기자본200% 한도와 기업금융·중소기업 신용을 제외한100% 한도를 두며, 계열법인 기업신용공여와 계열 운용 일반사모펀드 PBS를 제한한다.",
+    "source_ids": [
+      "KYX-A-004"
+    ],
+    "topic_ids": [
+      "T-COMPANIES",
+      "T-FUNDING",
+      "T-REGULATION"
+    ],
+    "limitations": "동일차주·예외·산정 규율이 추가된다. 지배 해외현지법인 예외와 개별 거래의 실질은 별도 검토.",
+    "as_of": "2026-11-03",
+    "draft_id": "KYA-C-007"
+  },
+  {
+    "id": "C-205",
+    "kind": "interpretation",
+    "status": "active",
+    "text": "교보문고 자산 발굴·증권 주선/관리·생명 기관투자의 역할 제안은 계열사 직접 기업신용공여 허용을 뜻하지 않는다. 그룹 신용·인수·보증·SPV는 서비스 계약과 분리해 법적 실질·한도·위험을 심사해야 한다.",
+    "source_ids": [
+      "KYX-A-004",
+      "KYX-A-002"
+    ],
+    "topic_ids": [
+      "T-COMPANIES",
+      "T-FUNDING",
+      "T-REGULATION"
+    ],
+    "limitations": "특정 그룹 거래 구조를 적법하다고 확인한 것이 아니며 계열 제한 회피를 가정하지 않는다.",
+    "as_of": "2026-11-03",
+    "draft_id": "KYA-C-008"
+  },
+  {
+    "id": "C-206",
+    "kind": "fact",
+    "status": "active",
+    "text": "4조 단계 지정과 법360조 단기금융업 인가는 별개다. 단기금융 조달 한도는 자기자본200%이며 IMA를 하는 경우 IMA·단기금융 조달 합계 한도는300%다.",
+    "source_ids": [
+      "KYX-A-001",
+      "KYX-A-002",
+      "KYX-A-003",
+      "KYX-A-004"
+    ],
+    "topic_ids": [
+      "T-COMPANIES",
+      "T-FUNDING",
+      "T-REGULATION"
+    ],
+    "limitations": "규정상 산정·일부 자산 제외·일시 초과 등 세부조건을 따른다. 한도를500%로 더하지 않으며 교보의 실제 권한·조달액은 미확인.",
+    "as_of": "2026-11-03",
+    "draft_id": "KYA-C-009"
+  },
+  {
+    "id": "C-207",
+    "kind": "fact",
+    "status": "active",
+    "text": "기업금융 운용비중은 단기금융 원칙50%, IMA 원칙70%이고 개시 초기 유예가 있다. 현행 규정의 모험자본 비율은 2026년10%·2027년20%·이후 본칙25%; 단기금융 부동산 상한은 2026년15%·이후10%다.",
+    "source_ids": [
+      "KYX-A-002",
+      "KYX-A-003"
+    ],
+    "topic_ids": [
+      "T-COMPANIES",
+      "T-FUNDING",
+      "T-REGULATION"
+    ],
+    "limitations": "IMA 부동산10%에 단기금융15% 경과비율을 적용하지 않는다. 2027 이후 현행 규정 유지 조건이며 IP/토큰이라는 이유만으로 적격 자산이 아니다.",
+    "as_of": "2026-11-03",
+    "draft_id": "KYA-C-010"
+  },
+  {
+    "id": "C-208",
+    "kind": "fact",
+    "status": "active",
+    "text": "IMA에는 고객 요청 중도해지 예외를 둔 손실보전, 분리관리·평가·집중·장기자산·유동성 기준이 붙는다. 원본5% 이상 충당금/준비금 합계 유지와 원본5% 이상 고유재산 신탁수익권 매수는 서로 다른 의무다.",
+    "source_ids": [
+      "KYX-A-002",
+      "KYX-A-003"
+    ],
+    "topic_ids": [
+      "T-COMPANIES",
+      "T-FUNDING",
+      "T-REGULATION"
+    ],
+    "limitations": "두 의무를10% 현금 준비금으로 합치지 않는다. 교보의 IMA 계약·실운영·판매를 확인한 사실이 아니다.",
+    "as_of": "2026-11-03",
+    "draft_id": "KYA-C-011"
+  },
+  {
+    "id": "C-209",
+    "kind": "hypothesis",
+    "status": "active",
+    "text": "기존 해외선물 고객의 자금·증거금·출금 실패를 줄이는 업무는 확인된 수수료 기반과 가까워, 신규 토큰 플랫폼보다 먼저 검증할 사업 후보가 된다.",
+    "source_ids": [
+      "ST-KY-001"
+    ],
+    "topic_ids": [
+      "T-COMPANIES",
+      "T-FUNDING",
+      "T-REGULATION"
+    ],
+    "limitations": "우선순위는 연구 제안. 기관 API·24시간 토큰 입출금·고객별 원가 및 실제 개선 효과 미확인.",
+    "as_of": "2026-11-03",
+    "alternative": "은행/환전 경로 개선만으로 충분하거나 고객 지불 의사가 없고 경쟁 수수료 인하로 절감 이익이 고객에게 이전될 수 있다.",
+    "next_observation": "같은 고객·통화·금액·시각의 거래 가능액 도착과 증거금 인정, 실패/복구 비용, 고객별 순기여·유지 변화",
+    "draft_id": "KYA-C-012"
+  },
+  {
+    "id": "C-210",
+    "kind": "hypothesis",
+    "status": "active",
+    "text": "반복 발행인의 권리·자료·약정·수금·사후관리 기록을 재사용하면 기존 IB에서 주선·자문·적법한 관리계약의 단위 비용을 낮추고 재발행 관계를 강화할 수 있다.",
+    "source_ids": [
+      "ST-KY-001",
+      "KYX-A-004"
+    ],
+    "topic_ids": [
+      "T-COMPANIES",
+      "T-FUNDING",
+      "T-REGULATION"
+    ],
+    "limitations": "실제 고객·유료 계약·절감액 미확인. 자기 인수·보증·기업신용은 별도 자본 사업이다.",
+    "as_of": "2026-11-03",
+    "alternative": "발행인이 직접 자료를 표준화하거나 대형 IB가 낮은 가격과 큰 인수 한도를 제시하면 보수가 줄고 재사용 투자의 기여가 사라질 수 있다.",
+    "next_observation": "재발행·정시 수금·실사 재사용 이후 총비용, 실제 지급자 계약, 미매각/보증/회수 손실",
+    "draft_id": "KYA-C-013"
+  },
+  {
+    "id": "C-211",
+    "kind": "interpretation",
+    "status": "active",
+    "text": "조달액·고객예탁금·IMA 수탁금·발행인 조달액·투자자 거래액은 교보 매출이 아니다. 주선/관리 보수·자기 인수 성과·기업신용/보증 기여는 각 비용·손실·자본을 반영해 별도 평가해야 한다.",
+    "source_ids": [
+      "ST-KY-001",
+      "KYX-A-002",
+      "KYX-A-003",
+      "KYX-A-004"
+    ],
+    "topic_ids": [
+      "T-COMPANIES",
+      "T-FUNDING",
+      "T-REGULATION"
+    ],
+    "limitations": "프로젝트별 실제 가격·원가·손실·배분자본이 없어 현재 ROI·손익분기·예산을 수치화하지 않았다.",
+    "as_of": "2026-11-03",
+    "draft_id": "KYA-C-014"
+  },
+  {
+    "id": "C-212",
+    "kind": "hypothesis",
+    "status": "active",
+    "text": "향후 지정·인가·계약·고객 수요가 성립하더라도 조달 한도를 채우기보다 반복 발행·우량 자산·정확한 권리/현금 운영을 먼저 확보하는 전략이 자본과 유동성 부담을 줄일 수 있다.",
+    "source_ids": [
+      "KYX-A-001",
+      "KYX-A-002",
+      "KYX-A-003",
+      "ST-KY-001"
+    ],
+    "topic_ids": [
+      "T-COMPANIES",
+      "T-FUNDING",
+      "T-REGULATION"
+    ],
+    "limitations": "회사 확정 전략이나 자본확대 일정이 아니다. 조건 성립 후 경쟁과 가격 반응까지 포함한 연구 가설.",
+    "as_of": "2026-11-03",
+    "alternative": "고정비와 자금조달 규모의 경제가 커 대형사가 가격·인수력으로 시장을 선점하면 특화 업무만으로 충분한 기여를 만들지 못할 수 있다.",
+    "next_observation": "유료 반복 고객·적격 자산 공급·회수/미매각·조달원가·만기별 유동성·경쟁 견적을 같은 기간의 자본 점유와 비교",
+    "draft_id": "KYA-C-015"
+  },
+  {
+    "id": "C-213",
+    "kind": "institution_statement",
+    "status": "active",
+    "text": "교보문고는 자체 발굴IP의 출판·해외번역·2차저작물 확장과 주문형출판POD를 사업으로 소개한다.",
+    "source_ids": [
+      "ST-KY-007"
+    ],
+    "topic_ids": [
+      "T-COMPANIES",
+      "T-RIGHTS"
+    ],
+    "limitations": [
+      "개별 작품의 저작권·이용권·금융화 가능한 담보와 그룹 데이터 이용권은 미확인"
+    ],
+    "as_of": "2026-11-03",
+    "draft_id": "KYM-C-001"
+  },
+  {
+    "id": "C-214",
+    "kind": "institution_statement",
+    "status": "active",
+    "text": "교보문고 POD 공개 FAQ는 법인 출판사의 전자계약, 콘텐츠 공급·주문 후 제작, 파트너 정산 및 계산서 절차와 정가20% 정산을 안내한다. 공개 판매·정산·지급장부 안내는 각 단계와 집계시차를 구분한다.",
+    "source_ids": [
+      "KYX-M-001",
+      "KYX-M-009"
+    ],
+    "topic_ids": [
+      "T-OPERATIONS",
+      "T-MONEY"
+    ],
+    "limitations": [
+      "특정 P의 계약·판매·잔액·계산서·입금 원장을 확인한 것은 아님",
+      "20%는 안내상의 POD정산 기준으로 투자수익률·순수령액·다른 상품의 조건으로 전용하지 않음"
+    ],
+    "as_of": "2026-11-03",
+    "draft_id": "KYM-C-002"
+  },
+  {
+    "id": "C-215",
+    "kind": "unknown",
+    "status": "active",
+    "text": "출판사 지급일은 현재 FAQ의 익월25일과 연결된 공식 지급공지의20일경 설명이 달라, 특정 계약과 채무자 확인 전 확정하지 않는다. 개인작가의 별도 조건과 과거2018년 적용 약관도 출판사 최신 거래에 자동 적용하지 않는다.",
+    "source_ids": [
+      "KYX-M-001",
+      "KYX-M-002",
+      "KYX-M-003"
+    ],
+    "topic_ids": [
+      "T-OPERATIONS",
+      "T-RIGHTS"
+    ],
+    "limitations": [
+      "현재 특정 출판사의 지급일은 null",
+      "지급일 차이가 실제 연체를 뜻하지 않음"
+    ],
+    "as_of": "2026-11-03",
+    "draft_id": "KYM-C-003"
+  },
+  {
+    "id": "C-216",
+    "kind": "fact",
+    "status": "active",
+    "text": "민법449~451조는 채권 양도 가능성과 제한, 통지·승낙 및 제3자 대항요건, 승낙·통지에 따른 항변 관련 효과를 구분한다.",
+    "source_ids": [
+      "KYX-M-004",
+      "KYX-M-005",
+      "KYX-M-010"
+    ],
+    "topic_ids": [
+      "T-RIGHTS",
+      "T-REGULATION"
+    ],
+    "limitations": [
+      "특정 POD채권의 유효한 양도·우선순위·항변 소멸을 확인한 법률 의견은 아님"
+    ],
+    "as_of": "2026-11-03",
+    "draft_id": "KYM-C-004"
+  },
+  {
+    "id": "C-217",
+    "kind": "fact",
+    "status": "active",
+    "text": "저작권법45·46조는 저작재산권 양도와 저작물 이용허락을 구분하며 일부 권리·허락 범위·제3자 양도 동의 등의 조건을 규정한다.",
+    "source_ids": [
+      "KYX-M-006",
+      "KYX-M-011"
+    ],
+    "topic_ids": [
+      "T-RIGHTS",
+      "T-REGULATION"
+    ],
+    "limitations": [
+      "문고의 모든 판매도서 권리 보유를 뜻하지 않음",
+      "이미 발생한 금전청구권 양도와 이용권 양도는 별도 검토"
+    ],
+    "as_of": "2026-11-03",
+    "draft_id": "KYM-C-005"
+  },
+  {
+    "id": "C-218",
+    "kind": "institution_statement",
+    "status": "active",
+    "text": "교보생명은 ALM을 통해 자산과 보험부채의 기간·현금흐름을 관리하고 위험한도·위기시나리오·ORSA를 활용한다고 설명한다.",
+    "source_ids": [
+      "KYX-M-007",
+      "KYX-M-008"
+    ],
+    "topic_ids": [
+      "T-FUNDING",
+      "T-COMPANIES"
+    ],
+    "limitations": [
+      "특정 IP투자 한도·계정·투자승인·자본배분은 미확인",
+      "2025실적 설명을2026현재포지션으로 쓰지 않음"
+    ],
+    "as_of": "2026-11-03",
+    "draft_id": "KYM-C-006"
+  },
+  {
+    "id": "C-219",
+    "kind": "institution_statement",
+    "status": "active",
+    "text": "교보생명의 Ripple 국채 프로젝트는2026년4월 공식 발표상 테스트넷 기술 검증이며, NOBLX에서 생명·증권은 발표상 전략적 기관투자자다. DCG제휴는 MOU, SBI연결은 펀드와 피투자사 투자 발표로 확인된다.",
+    "source_ids": [
+      "KYO-GEO-003",
+      "KYO-GEO-004",
+      "KYO-GEO-005",
+      "KYO-GEO-007",
+      "KYO-GEO-008"
+    ],
+    "topic_ids": [
+      "T-COMPANIES",
+      "T-GEOGRAPHY",
+      "T-INSTITUTION-ROLES"
+    ],
+    "limitations": [
+      "법인·상품별 계약권·보수·실제회수·상용결제·한국판매권으로 확대하지 않음",
+      "국채를 미국국채로 특정하지 않음"
+    ],
+    "as_of": "2026-11-03",
+    "draft_id": "KYM-C-007"
+  },
+  {
+    "id": "C-220",
+    "kind": "hypothesis",
+    "status": "active",
+    "text": "이미 발생·정산 확정된 법인 출판사의 특정월POD판매정산채권은 원권리·양도·지급자·수금을 연결하는 최초 검증 후보가 될 수 있다. 실제 금융수요·규모·기간·비용이 확인된 우선 금융상품이라는 뜻은 아니다.",
+    "source_ids": [
+      "KYX-M-001",
+      "KYX-M-009",
+      "ST-KY-007"
+    ],
+    "topic_ids": [
+      "T-MARKET",
+      "T-RIGHTS",
+      "T-FUNDING"
+    ],
+    "limitations": [
+      "선정된 출판사·작품·계약·금액은 없으며 체크리스트 값은 null"
+    ],
+    "as_of": "2026-11-03",
+    "alternative": "POD의 초기 비용·재고 부담 감소와 짧은 지급 시차 때문에 고객은 기다리거나 단순 조기정산·기존팩토링을 선택할 수 있다.",
+    "next_observation": "실제 출판사의 필요금액·사용시점·기존대안가격·확정채권규모와 총비용 견적",
+    "draft_id": "KYM-C-008"
+  },
+  {
+    "id": "C-221",
+    "kind": "hypothesis",
+    "status": "active",
+    "text": "필요한 법적 권한·유효한 양도·수금통제·외부기관 수요가 성립하면, 증권사는 반복 채권 검증·구조화·주선·수금대조·분쟁관리 업무에서 계약상 보수를 얻을 수 있다.",
+    "source_ids": [
+      "KYX-M-004",
+      "KYX-M-005",
+      "KYX-M-009",
+      "PRIOR-003"
+    ],
+    "topic_ids": [
+      "T-OPERATIONS",
+      "T-MONEY"
+    ],
+    "limitations": [
+      "확보한 유료 계약·보수율·수익성은 없음",
+      "자기자금 인수·보증·그룹 내부 보수를 외부 서비스 이익과 구분"
+    ],
+    "as_of": "2026-11-03",
+    "alternative": "대형 플랫폼의 직접 조기정산이나 기존 금융회사의 저렴한 매입이 증권사 역할·가격을 축소할 수 있다.",
+    "next_observation": "생명 매입약정 없이 제시된 외부기관 가격·반복 유료계약·비용후기여·회수결과",
+    "draft_id": "KYM-C-009"
+  },
+  {
+    "id": "C-222",
+    "kind": "interpretation",
+    "status": "active",
+    "text": "여러 작품의 청구권을 묶더라도 지급자가 같으면 채무자 신용 집중은 남는다. 진정한 양도·수금계좌 분리·SPV는 각각 법적 검토 대상이며 지급자의 미지급 위험까지 제거하지 않는다.",
+    "source_ids": [
+      "KYX-M-004",
+      "KYX-M-005",
+      "KYX-M-010",
+      "FIN-007"
+    ],
+    "topic_ids": [
+      "T-RIGHTS",
+      "T-COLLATERAL",
+      "T-OPERATIONS"
+    ],
+    "limitations": [
+      "도산법·세법·신탁법 전체 검토나 특정구조의 도산절연 확정은 아님"
+    ],
+    "as_of": "2026-11-03",
+    "draft_id": "KYM-C-010"
+  },
+  {
+    "id": "C-223",
+    "kind": "hypothesis",
+    "status": "active",
+    "text": "생명은 별도투자계정·ALM·자본·계열이해상충 조건을 통과할 때만 다른 외부기관과 동일한 조건으로 검토할 투자자 후보이며, 단기POD채권의 편익은 기존 적격단기자산 대비 비용·위험 후에 판단해야 한다.",
+    "source_ids": [
+      "KYX-M-007",
+      "KYX-M-008",
+      "KYO-GEO-005"
+    ],
+    "topic_ids": [
+      "T-FUNDING",
+      "T-INSTITUTION-ROLES"
+    ],
+    "limitations": [
+      "투자 약정·앵커 역할·손실 보증은 확인되지 않음"
+    ],
+    "as_of": "2026-11-03",
+    "alternative": "규모·유동성·집중·재투자·자본부담 때문에 생명은 국채나 다른자산을 선호할 수 있다.",
+    "next_observation": "별도계정의 투자기준·자본비용·외부비교가격·독립 승인 여부",
+    "draft_id": "KYM-C-011"
+  },
+  {
+    "id": "C-224",
+    "kind": "hypothesis",
+    "status": "active",
+    "text": "AI가 상품 비교·조합을 늘려도 한정된 원권리의 현금은 늘지 않는다. 권리별 중복 양도·담보·배분, 실제수금·정정·회수의 지속 검증이 관리 서비스의 가치 후보가 된다.",
+    "source_ids": [
+      "KYX-M-004",
+      "KYX-M-005",
+      "KYX-M-009",
+      "ST-KY-009"
+    ],
+    "topic_ids": [
+      "T-AI",
+      "T-AGENT-FINANCE",
+      "T-RIGHTS"
+    ],
+    "limitations": [
+      "온체인 밖 담보나 미신고 계약을 원장만으로 자동 탐지할 수 있다고 가정하지 않음",
+      "권리·투자결정 책임과 결정론적 계산·한도 집행을 구분"
+    ],
+    "as_of": "2026-11-03",
+    "alternative": "정보·관리 자동화가 보편화되면 보수도 하락해 절감 편익이 고객·플랫폼에 이전될 수 있다.",
+    "next_observation": "원권리 연결 누락·중복편입·오배분·정정시간·유료 반복사용과 보수의 변화",
+    "draft_id": "KYM-C-012"
+  },
+  {
+    "id": "C-225",
+    "kind": "hypothesis",
+    "status": "active",
+    "text": "여러기관이 같은 권리·보유·배분상태를 공유해야 하는 경우에 온체인이 기존장부+AI보다 추가편익을 낼 수 있으나, 월별 정산·법적양도·은행현금이 병목이면 기존API·장부가 더 효율적일 수 있다.",
+    "source_ids": [
+      "FIN-007",
+      "FIN-008",
+      "KYX-M-009",
+      "KYO-GEO-005"
+    ],
+    "topic_ids": [
+      "T-SETTLEMENT",
+      "T-OPERATIONS",
+      "T-AI"
+    ],
+    "limitations": [
+      "토큰화와24시간은행현금·시장유동성·상계편익을 동일시하지 않음",
+      "원장 직접 대가 제한을 관리보수로 우회하는 모델 제외"
+    ],
+    "as_of": "2026-11-03",
+    "alternative": "이중장부·키·보안·정정·복구·외부연계비용이 대사절감보다 클 수 있다.",
+    "next_observation": "동일채권·투자자·결제조건에서 계약부터은행회수까지 총비용·오류·예외처리 비교",
+    "draft_id": "KYM-C-013"
+  },
+  {
+    "id": "C-226",
+    "kind": "unknown",
+    "status": "active",
+    "text": "특정출판사P·계약채무자·기초계약·채권금액·만기·양도제한·기존담보·저자인세순위·수금통제·발행분류·투자자확약·가격·보수·생명투자약정은 확보되지 않았다.",
+    "source_ids": [
+      "KYX-M-001",
+      "KYX-M-009",
+      "ST-KY-007"
+    ],
+    "topic_ids": [
+      "T-RIGHTS",
+      "T-MONEY",
+      "T-MARKET"
+    ],
+    "limitations": [
+      "공개일반안내를 실제거래실사·고객동의·권한확인으로 대체하지 않음"
+    ],
+    "as_of": "2026-11-03",
+    "draft_id": "KYM-C-014"
+  },
+  {
+    "id": "C-227",
+    "kind": "interpretation",
+    "status": "active",
+    "text": "그룹RWA의 주선·관리와 자기자금인수·대출·보증은 구분해야 하며, 문고직접금융·계열SPV·제3자출판사채권 경유라도 실질 계열기업신용공여·위험이전을 별도 검토해야 한다.",
+    "source_ids": [
+      "KYX-A-004"
+    ],
+    "topic_ids": [
+      "T-COMPANIES",
+      "T-FUNDING",
+      "T-REGULATION"
+    ],
+    "limitations": [
+      "원문 선택읽기 담당자의 source packet 재사용; 본 담당자의 같은URL 웹 재열기는 접근 오류",
+      "77조의3제9항의 개별거래 적용·예외 및 모든하위규정은 법무검토 필요",
+      "종투사 지정을 그룹자본공유허가로 취급하지 않음"
+    ],
+    "as_of": "2026-11-03",
+    "draft_id": "KYM-C-015"
+  },
+  {
+    "id": "C-228",
+    "kind": "unknown",
+    "status": "active",
+    "text": "선택한 교보 공식 행사·제휴 자료와 기존 공개 분석에서 교보증권의 직접 Circle Mint·USDT 발행자/유통사 계약, 고객 입출금·가격·수익을 확인하지 못했다.",
+    "source_ids": [
+      "ST-KY-006",
+      "KYO-GEO-001",
+      "KYO-GEO-003",
+      "KYO-GEO-004"
+    ],
+    "topic_ids": [
+      "T-INSTITUTION-ROLES",
+      "T-OPERATIONS"
+    ],
+    "limitations": "bounded unknown이며 계약이나 관계가 없다는 증거가 아님.",
+    "as_of": "2026-11-03",
+    "draft_id": "KYV-C-001"
+  },
+  {
+    "id": "C-229",
+    "kind": "institution_statement",
+    "status": "active",
+    "text": "현재 IBKR 입금 안내는 적격 IBLLC 고객의 USDC→zerohash→USD 증권계좌 경로와 Ethereum·Solana·Base를 제시한다.",
+    "source_ids": [
+      "KYX-V-001",
+      "KYX-V-002"
+    ],
+    "topic_ids": [
+      "T-INSTITUTION-ROLES",
+      "T-OPERATIONS"
+    ],
+    "limitations": "특정 고객 실제 자격·지원 목록·토큰 자체 증거금 인정·한국 교보 적용은 미확인.",
+    "as_of": "2026-11-03",
+    "draft_id": "KYV-C-002"
+  },
+  {
+    "id": "C-230",
+    "kind": "interpretation",
+    "status": "active",
+    "text": "IBKR 공개 안내 사이에 요율·지원 토큰·출금보류 설명이 달라 1월 수수료나 한 페이지를 11월 모든 고객의 통합 계약조건으로 쓸 수 없다.",
+    "source_ids": [
+      "ST-KY-008",
+      "KYX-V-001",
+      "KYX-V-003",
+      "KYX-V-004"
+    ],
+    "topic_ids": [
+      "T-INSTITUTION-ROLES",
+      "T-OPERATIONS"
+    ],
+    "limitations": "거짓 문서로 단정하지 않고 날짜·대상 고객·갱신 차이를 남김.",
+    "as_of": "2026-11-03",
+    "draft_id": "KYV-C-003"
+  },
+  {
+    "id": "C-231",
+    "kind": "institution_statement",
+    "status": "active",
+    "text": "IBKR는 7월14일 USDC·PYUSD·RLUSD를 통한 양방향 funding과 USD의 토큰 전환 후 외부지갑 출금을 발표했다.",
+    "source_ids": [
+      "KYX-V-004"
+    ],
+    "topic_ids": [
+      "T-INSTITUTION-ROLES",
+      "T-OPERATIONS"
+    ],
+    "limitations": "UK·Ireland 제외; 11월3일 특정 계좌의 현재 가동·가격·망을 확인하지 않음.",
+    "as_of": "2026-11-03",
+    "draft_id": "KYV-C-004"
+  },
+  {
+    "id": "C-232",
+    "kind": "interpretation",
+    "status": "active",
+    "text": "즉시 표시되는 고객 달러잔액과 플랫폼 은행 정산은 다른 사건이다. 선지급·신용·유동성 여유가 필요하면 그 재원·손실·비용 주체를 계약으로 확인해야 한다.",
+    "source_ids": [
+      "KYX-V-005",
+      "KYX-V-006"
+    ],
+    "topic_ids": [
+      "T-INSTITUTION-ROLES",
+      "T-OPERATIONS"
+    ],
+    "limitations": "generic zerohash 문서로 IBKR나 교보의 실제 정산·선지급계약을 추정하지 않음.",
+    "as_of": "2026-11-03",
+    "draft_id": "KYV-C-005"
+  },
+  {
+    "id": "C-233",
+    "kind": "institution_statement",
+    "status": "active",
+    "text": "IBKR의 7월 발표·9월23일 일반 가이드는 고객 주문별 승인을 요구하지만 9월25일 표시 보충약관과 현재 안내는 별도 지정 자금에서 자동 주문하는 조건을 제시한다.",
+    "source_ids": [
+      "KYX-V-007",
+      "KYX-V-008",
+      "KYX-V-009",
+      "KYX-V-011"
+    ],
+    "topic_ids": [
+      "T-INSTITUTION-ROLES",
+      "T-OPERATIONS"
+    ],
+    "limitations": "현재 안내에 관할별 planned 문구가 있어 전체 관할·고객의 실제 가동으로 일반화하지 않음.",
+    "as_of": "2026-11-03",
+    "draft_id": "KYV-C-006"
+  },
+  {
+    "id": "C-234",
+    "kind": "interpretation",
+    "status": "active",
+    "text": "AI Partition은 거래 권한을 제한하는 장치이지만 다른 계좌 채무와 완전히 절연된 법적 재산이라고 볼 수 없다. 연결 철회도 이미 대기·부분체결된 주문의 자동 취소와 다르다.",
+    "source_ids": [
+      "KYX-V-008",
+      "KYX-V-009"
+    ],
+    "topic_ids": [
+      "T-INSTITUTION-ROLES",
+      "T-OPERATIONS"
+    ],
+    "limitations": "IBKR 공개 약관·안내에 대한 선택적 해석이며 다른 회사 구조를 확정하지 않음.",
+    "as_of": "2026-11-03",
+    "draft_id": "KYV-C-007"
+  },
+  {
+    "id": "C-235",
+    "kind": "institution_statement",
+    "status": "active",
+    "text": "IBKR는 지원 AI 연결 자체의 추가료가 없다고 안내하며 AI 공급자 구독·시장데이터·계좌·거래 비용은 별도로 남긴다.",
+    "source_ids": [
+      "KYX-V-008"
+    ],
+    "topic_ids": [
+      "T-INSTITUTION-ROLES",
+      "T-OPERATIONS"
+    ],
+    "limitations": "모든 기능/기관 계약의 무료 또는 거래 비용 0을 뜻하지 않음.",
+    "as_of": "2026-11-03",
+    "draft_id": "KYV-C-008"
+  },
+  {
+    "id": "C-236",
+    "kind": "interpretation",
+    "status": "active",
+    "text": "USDC·USDT 직접 상환은 발행자 자격·계약·규모·은행시간을 필요로 하며, 보유자가 지급한 전환수수료와 발행자의 준비금수익은 증권사의 수익으로 자동 귀속되지 않는다.",
+    "source_ids": [
+      "SRC-CIRCLE-USDC-TERMS",
+      "KNX-M-003",
+      "ST-HW-013",
+      "KYX-V-010"
+    ],
+    "topic_ids": [
+      "T-INSTITUTION-ROLES",
+      "T-OPERATIONS"
+    ],
+    "limitations": "교보의 상환자격·분배계약·실제 수수료와 모든 원가 미확인.",
+    "as_of": "2026-11-03",
+    "draft_id": "KYV-C-009"
+  },
+  {
+    "id": "C-237",
+    "kind": "hypothesis",
+    "status": "active",
+    "text": "필요한 인가·계약·수요가 성립하면 교보는 자체 앱 밖 고객에게도 적격 상품의 유효 견적·현금 가용시각·실행·사후관리 기능을 공급해 반복 중개·기관 업무를 확보할 수 있다.",
+    "source_ids": [
+      "KYX-V-004",
+      "KYX-V-008",
+      "ST-KY-006"
+    ],
+    "topic_ids": [
+      "T-INSTITUTION-ROLES",
+      "T-OPERATIONS"
+    ],
+    "limitations": "교보 확정사업이 아니라 강한 미래 가정하 연구 제안.",
+    "as_of": "2026-11-03",
+    "alternative": "글로벌 브로커·대형 IB·발행자가 같은 기능을 더 싸게 제공하고 AI 플랫폼이 고객접점과 배분수익을 가져갈 수 있다.",
+    "next_observation": "동일 고객의 기존+AI 대비 완결 거래 성공·재이용·고객 총비용·외부 채널 배분 후 순기여·이관권을 비교.",
+    "draft_id": "KYV-C-010"
+  },
+  {
+    "id": "C-238",
+    "kind": "hypothesis",
+    "status": "active",
+    "text": "상품 정보와 주문 연결이 표준화될수록 단순 데이터·소개 수수료는 압축되고 원권리 검증·실행 확약·사후관리·예외 복구의 검증된 품질이 가격 방어 근거가 될 수 있다.",
+    "source_ids": [
+      "KYX-V-008",
+      "KYX-V-009",
+      "FIN-008",
+      "ST-KY-009"
+    ],
+    "topic_ids": [
+      "T-INSTITUTION-ROLES",
+      "T-OPERATIONS"
+    ],
+    "limitations": "유료계약과 업무권한 없는 관리비 부과 또는 제한된 원장 이용료 우회안을 뜻하지 않음.",
+    "as_of": "2026-11-03",
+    "alternative": "오류가 적고 자산이 표준화되면 예외처리도 공동기반으로 흡수돼 특화 보수마저 줄 수 있다.",
+    "next_observation": "실제 계약 지급자·오류/분쟁/회수 비용·대체 공급자 견적·보수 인하 후 고객별 기여.",
+    "draft_id": "KYV-C-011"
+  },
+  {
+    "id": "C-239",
+    "kind": "hypothesis",
+    "status": "active",
+    "text": "고객의 분산된 기존 토큰을 증권계좌 현금으로 연결하면 자금 준비의 마찰을 줄일 수 있지만 고객 가격인하·전환사업자 배분·선지급 유동성·기존 중개/FX 수익 잠식 후에만 교보의 증분 기여를 판단할 수 있다.",
+    "source_ids": [
+      "KYX-V-001",
+      "KYX-V-005",
+      "KYX-V-006"
+    ],
+    "topic_ids": [
+      "T-INSTITUTION-ROLES",
+      "T-OPERATIONS"
+    ],
+    "limitations": "토큰 발행량·이체액·예수금 총액을 매출로 보지 않음.",
+    "as_of": "2026-11-03",
+    "alternative": "은행 송금/API와 기존+AI만으로 같은 성과를 더 낮은 원가로 낼 수 있다.",
+    "next_observation": "같은 통화·금액·시간·고객의 사용가능현금과 출금완료까지 총비용, 교보 대체수익 포함 순기여, 장애·고객지원 비용.",
+    "draft_id": "KYV-C-012"
+  },
+  {
+    "id": "C-240",
+    "kind": "interpretation",
+    "status": "active",
+    "text": "유한한 원자산에 다수 상품을 설계해도 순자산과 독립 현금흐름이 같은 수만큼 늘지는 않는다. 별도 청구권·우선순위·손실배분·효용 변화와 동일 위험의 재포장을 구분해야 한다.",
+    "source_ids": [
+      "ST-TD-001",
+      "ST-TD-003",
+      "ST-KY-007"
+    ],
+    "topic_ids": [
+      "T-INSTITUTION-ROLES",
+      "T-OPERATIONS"
+    ],
+    "limitations": "금융기능에 관한 연구자 재구성이며 교수의 현재 발언·특정 거래의 법적 권리 확인이 아님.",
+    "as_of": "2026-11-03",
+    "draft_id": "KYV-C-013"
+  },
+  {
+    "id": "C-241",
+    "kind": "interpretation",
+    "status": "active",
+    "text": "교보의 자본 확대·종투사 지정, 토큰증권 운영, 스테이블코인 레일, AI 위임은 서로 다른 업무 관문이다. 한 단계가 성립했다는 이유로 다른 권한·고객계약을 채울 수 없다.",
+    "source_ids": [
+      "ST-KY-004",
+      "ST-KY-005",
+      "FIN-008",
+      "ST-KY-009"
+    ],
+    "topic_ids": [
+      "T-REGULATION",
+      "T-COMPANIES",
+      "T-AGENT-FINANCE"
+    ],
+    "limitations": "선택 공식 자료에 근거한 사업 설계이며 모든 개별 인가 판정이 아니다.",
+    "as_of": "2026-11-03",
+    "draft_id": "KYR-C-001"
+  },
+  {
+    "id": "C-242",
+    "kind": "interpretation",
+    "status": "active",
+    "text": "전자등록 원장 이용의 직접 대가 제한을 담은 예고안 아래에서는 실제 구매되는 실사·구조화·모집·사후업무와 기록 대가를 구별해야 한다. 관리비라는 이름만으로 과금 가능성을 확정하지 않는다.",
+    "source_ids": [
+      "FIN-008",
+      "PRIOR-003"
+    ],
+    "topic_ids": [
+      "T-REGULATION",
+      "T-OPERATIONS",
+      "T-COMPANIES"
+    ],
+    "limitations": "예고안은 최종 규칙이 아니며 별도 보수도 법인 권한·행위·계약과 고객 지불 의사를 확인해야 한다.",
+    "as_of": "2026-11-03",
+    "draft_id": "KYR-C-002"
+  },
+  {
+    "id": "C-243",
+    "kind": "hypothesis",
+    "status": "active",
+    "text": "외부 AI가 상품과 견적을 비교하는 미래에 교보가 정확한 권리·현금 조건과 실제 실행·사후관리 상태를 제공하면 자체 앱 밖에서도 고객 업무를 확보할 수 있다.",
+    "source_ids": [
+      "ST-KY-009",
+      "ST-TD-002",
+      "PRIOR-003"
+    ],
+    "topic_ids": [
+      "T-AGENT-FINANCE",
+      "T-COMPANIES",
+      "T-OPERATIONS"
+    ],
+    "limitations": "현재 교보의 외부 AI 연동·유료 반복 고객은 확인하지 않았다.",
+    "as_of": "2026-11-03",
+    "alternative": "표준화로 공급자가 대체되기 쉬워지고 플랫폼 배분·가격 인하가 효율 이득을 가져갈 수 있다.",
+    "next_observation": "외부 채널의 실제 적격 주문·정시 완료·고객 재이용·플랫폼 배분 후 순기여와 오류 책임",
+    "draft_id": "KYR-C-003"
+  },
+  {
+    "id": "C-244",
+    "kind": "interpretation",
+    "status": "active",
+    "text": "발행 주선·판매·사후관리와 자기 인수·재고·보증·유동성 약정은 서로 다른 자본·현금·손실 사업이다. 그룹 내 거래와 고객 자산을 제거하고 같은 기간의 비용 후 기여로 비교한다.",
+    "source_ids": [
+      "ST-KY-001",
+      "ST-KY-002",
+      "ST-KY-003",
+      "PRIOR-003"
+    ],
+    "topic_ids": [
+      "T-FUNDING",
+      "T-COMPANIES",
+      "T-OPERATIONS"
+    ],
+    "limitations": "분석용 관리회계 원칙이며 회사 내부 배분자본·계약가격·회계손익을 확보한 것은 아니다.",
+    "as_of": "2026-11-03",
+    "draft_id": "KYR-C-004"
+  },
+  {
+    "id": "C-245",
+    "kind": "interpretation",
+    "status": "active",
+    "text": "IP 상품은 신탁 가능한 특정 청구권, 장래매출채권, 공동사업 투자계약증권의 법적 구조를 구분해야 한다. 토큰 형식·집합화 허용 방향만으로 동일 권리·도산절연·환금성이 생기지 않는다.",
+    "source_ids": [
+      "FIN-007",
+      "FIN-008",
+      "ST-KY-007"
+    ],
+    "topic_ids": [
+      "T-RIGHTS",
+      "T-REGULATION",
+      "T-COMPANIES"
+    ],
+    "limitations": "정책 방향과 선택 예고 내용을 거래 설계에 적용한 해석이며 개별 IP 상품 적격성·최종 규칙·인가를 확인한 것은 아니다.",
+    "as_of": "2026-11-03",
+    "draft_id": "KYR-C-005"
   }
 ]

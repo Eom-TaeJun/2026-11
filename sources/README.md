@@ -10,8 +10,8 @@
 | [FIN-004 · Project Agorá](cards/FIN-004.md) | 미확인/동적 | selected_sections | 2026-11-02 |
 | [FIN-005 · The Financial Stability Implications of Tokenisation](cards/FIN-005.md) | 2024-10-22 | official_summary | 2026-11-02 |
 | [FIN-006 · 토큰증권 도입 및 투자계약증권 유통을 위한 ｢전자증권법｣·｢자본시장법｣ 개정안 국회 본회의 통과](cards/FIN-006.md) | 2026-01-15 | full_text | 2026-11-02 |
-| [FIN-007 · 토큰증권 정책방향 발표- 민·관 합동 토큰증권 협의체 3차회의 개최](cards/FIN-007.md) | 2026-09-04 | selected_sections | 2026-11-02 |
-| [FIN-008 · 토큰증권 관련 전자증권법·자본시장법 하위법규 개정안 입법예고 실시 ※예고기간 ‘26.10.2일 ~ 11.11일](cards/FIN-008.md) | 2026-10-01 | selected_sections | 2026-11-02 |
+| [FIN-007 · 토큰증권 정책방향 발표- 민·관 합동 토큰증권 협의체 3차회의 개최](cards/FIN-007.md) | 2026-09-04 | selected_sections | 2026-11-03 |
+| [FIN-008 · 토큰증권 관련 전자증권법·자본시장법 하위법규 개정안 입법예고 실시 ※예고기간 ‘26.10.2일 ~ 11.11일](cards/FIN-008.md) | 2026-10-01 | selected_sections | 2026-11-03 |
 | [FIN-009 · Eurosystem brings central bank money to tokenised finance](cards/FIN-009.md) | 2026-09-21 | selected_sections | 2026-11-02 |
 | [FIN-010 · Welcoming Remarks at “Tokenisation: Banking the Future”](cards/FIN-010.md) | 2026-03-12 | selected_sections | 2026-11-02 |
 | [FIN-011 · Statement on Tokenized Securities](cards/FIN-011.md) | 2026-01-28 | selected_sections | 2026-11-02 |
@@ -37,7 +37,7 @@
 | [AI-012 · tobi/qmd — README and releases](cards/AI-012.md) | 미확인/동적 | selected_sections | 2026-11-02 |
 | [PRIOR-001 · 디지털 금융환경의 변화와 한국 금융기관의 대응](cards/PRIOR-001.md) | 2026-11-01 | selected_sections | 2026-11-03 |
 | [PRIOR-002 · STO·AI 연구 보고서 안내](cards/PRIOR-002.md) | 미확인/동적 | selected_sections | 2026-11-02 |
-| [PRIOR-003 · 교보증권 수익전략의 조건부 연구](cards/PRIOR-003.md) | 미확인/동적 | selected_sections | 2026-11-02 |
+| [PRIOR-003 · 교보증권 수익전략의 조건부 연구](cards/PRIOR-003.md) | 미확인/동적 | full_text | 2026-11-03 |
 | [NOV-KR-001 · 주식ㆍ사채 등의 전자등록에 관한 법률 [법률 제21318호]](cards/NOV-KR-001.md) | 2026-02-03 | selected_sections | 2026-11-02 |
 | [NOV-KR-003 · 스테이블코인 발행주체 등 2단계법 주요내용은 확정된 바 없습니다.](cards/NOV-KR-003.md) | 2026-01-06 | selected_sections | 2026-11-02 |
 | [NOV-KR-004 · 26년 제1차 「가상자산위원회」 개최](cards/NOV-KR-004.md) | 2026-03-04 | selected_sections | 2026-11-02 |
@@ -200,3 +200,29 @@
 | [KNX-V-009 · 가상자산 이용자 보호 등에 관한 법률 — 제2조 정의](cards/KNX-V-009.md) | 2026-08-04 | selected_sections | 2026-11-03 |
 | [KNX-R-001 · 수출신용보증(포괄매입) 제도개요](cards/KNX-R-001.md) | 미확인/동적 | selected_sections | 2026-11-03 |
 | [KNX-R-002 · 수출신용보증(포괄매입) 이용절차](cards/KNX-R-002.md) | 미확인/동적 | selected_sections | 2026-11-03 |
+| [KYX-A-001 · 자본시장법 시행령 — 제77조의3 지정 요건 및 2025-11-25 부칙 경과조치](cards/KYX-A-001.md) | 2026-10-13 | selected_sections | 2026-11-03 |
+| [KYX-A-002 · 자본시장법 시행령 — 제77조의6 단기금융·종합투자계좌(IMA) 업무](cards/KYX-A-002.md) | 2026-10-13 | selected_sections | 2026-11-03 |
+| [KYX-A-003 · 금융투자업규정 — 종투사 자기자본·단기금융·IMA·모험자본 및 경과비율](cards/KYX-A-003.md) | 2026-09-09 | selected_sections | 2026-11-03 |
+| [KYX-A-004 · 자본시장법 — 제77조의2·제77조의3·제360조 지정·기업신용·계열 제한·단기금융 인가](cards/KYX-A-004.md) | 2026-08-04 | selected_sections | 2026-11-03 |
+| [KYX-M-001 · 바로출판POD FAQ — 개인·출판사 정산 및 출간 절차](cards/KYX-M-001.md) | 미확인/동적 | selected_sections | 2026-11-03 |
+| [KYX-M-002 · 정산금(판매대금) 지급 관련 안내](cards/KYX-M-002.md) | 2022-10-09 | full_text | 2026-11-03 |
+| [KYX-M-003 · Pubple 이용 약관 변경 안내 — 저작권료 지급금액 기준 변경](cards/KYX-M-003.md) | 2022-10-09 | full_text | 2026-11-03 |
+| [KYX-M-004 · 민법 제449조 — 채권의 양도성](cards/KYX-M-004.md) | 2026-03-17 | selected_sections | 2026-11-03 |
+| [KYX-M-005 · 민법 제450조 — 지명채권양도의 대항요건](cards/KYX-M-005.md) | 2026-03-17 | selected_sections | 2026-11-03 |
+| [KYX-M-006 · 저작권법 제45조 — 저작재산권의 양도](cards/KYX-M-006.md) | 2026-04-28 | selected_sections | 2026-11-03 |
+| [KYX-M-007 · 20년 뒤 내 보험금, 보험사는 어떻게 준비할까?](cards/KYX-M-007.md) | 2026-09-04 | selected_sections | 2026-11-03 |
+| [KYX-M-008 · FY2025 실적 설명자료 — 보장성 보험 확대·선제적 투자 리밸런싱](cards/KYX-M-008.md) | 2026-03-31 | selected_sections | 2026-11-03 |
+| [KYX-M-009 · 정산/판매내역 조회방법 안내](cards/KYX-M-009.md) | 2023-11-10 | selected_sections | 2026-11-03 |
+| [KYX-M-010 · 민법 제451조 — 승낙, 통지의 효과](cards/KYX-M-010.md) | 2026-03-17 | selected_sections | 2026-11-03 |
+| [KYX-M-011 · 저작권법 제46조 — 저작물의 이용허락](cards/KYX-M-011.md) | 2026-04-28 | selected_sections | 2026-11-03 |
+| [KYX-V-001 · Stablecoin Deposits — IBKR 공식 중국어 안내](cards/KYX-V-001.md) | 미확인/동적 | selected_sections | 2026-11-03 |
+| [KYX-V-002 · Fund with Stablecoin — Client Portal User Guide](cards/KYX-V-002.md) | 미확인/동적 | selected_sections | 2026-11-03 |
+| [KYX-V-003 · USD Deposits and Withdrawals — IBKR Campus](cards/KYX-V-003.md) | 미확인/동적 | selected_sections | 2026-11-03 |
+| [KYX-V-004 · Interactive Brokers Builds Out One of the Most Comprehensive and Low-Cost Solutions for Accessing Cryptocurrency Available](cards/KYX-V-004.md) | 2026-07-14 | selected_sections | 2026-11-03 |
+| [KYX-V-005 · Account Funding — zerohash Documentation](cards/KYX-V-005.md) | 미확인/동적 | selected_sections | 2026-11-03 |
+| [KYX-V-006 · zerohash US User Agreement — IBKR 공개 양식 4438](cards/KYX-V-006.md) | 미확인/동적 | selected_sections | 2026-11-03 |
+| [KYX-V-007 · Interactive Brokers Opens AI Connectivity to Any Tool Built on the MCP Standard](cards/KYX-V-007.md) | 2026-07-28 | selected_sections | 2026-11-03 |
+| [KYX-V-008 · AI Integration and IBKR Autonomous Trading — 현재 공식 안내](cards/KYX-V-008.md) | 미확인/동적 | selected_sections | 2026-11-03 |
+| [KYX-V-009 · AI Trading Supplement — Form 4923](cards/KYX-V-009.md) | 미확인/동적 | selected_sections | 2026-11-03 |
+| [KYX-V-010 · Fees — Tether](cards/KYX-V-010.md) | 미확인/동적 | selected_sections | 2026-11-03 |
+| [KYX-V-011 · AI Instructions — Client Portal User Guide](cards/KYX-V-011.md) | 미확인/동적 | selected_sections | 2026-11-03 |

@@ -1,0 +1,566 @@
+{
+  "schema_version": "1.0",
+  "case_id": "KYOBO-FS-BP-01",
+  "as_of": "2026-11-03",
+  "status": "reviewed_research_proposal",
+  "institution": "교보증권",
+  "perspective": "사용자가 지정한 미래전략팀; 현행 조직 소관 확인과 별개",
+  "reports": [
+    "reports/18_kyobo_future_strategy_business_plan.md",
+    "reports/19_kyobo_group_rwa_deal_design.md",
+    "reports/20_kyobo_rails_agent_business.md",
+    "reports/21_kyobo_capital_and_permissions.md"
+  ],
+  "prior_work": [
+    "reports/13_kyobo_future_strategy.md",
+    "data/strategy_decisions_2027.json",
+    "PRIOR-003"
+  ],
+  "decision": "거래·기관 고객 자금 및 반복 발행·사후관리의 공통 기반을 우선 검증하고, 그룹·해외 RWA는 권리·현금·유료 수요가 입증된 범위에서 확장",
+  "investment_buckets": [
+    {
+      "type": "service_and_operations",
+      "items": [
+        "거래·증거금 상태",
+        "반복 발행 실사·사후관리",
+        "기관 상품·환매 연결"
+      ],
+      "decision_basis": "고객이 완료하는 업무·반복 구매·총비용"
+    },
+    {
+      "type": "principal_capital",
+      "items": [
+        "자기 인수·재고",
+        "보증·유동성 약정",
+        "제휴 지분"
+      ],
+      "decision_basis": "손실·조달·헤지·유동성·자본 점유를 서비스와 분리"
+    },
+    {
+      "type": "shared_foundation",
+      "items": [
+        "권리·계약·현금·고객 자격 데이터",
+        "승인·대사·복구",
+        "공급자 전환·감사"
+      ],
+      "decision_basis": "기존+AI에도 쓸 수 있고 업무/법인별 권한을 통제"
+    }
+  ],
+  "businesses": [
+    {
+      "id": "KY-BIZ-01",
+      "strategy_id": "STR-KY-01",
+      "title": "거래 고객 자금·증거금",
+      "status": "analyst_proposal",
+      "customer": "해외거래 고객과 담당자",
+      "workflow": "자금 준비→사용 가능 달러→거래·증거금→출금·예외 해결",
+      "payer_and_price_basis": "고객의 기존 중개 보수와 실제 별도 기관 운영계약",
+      "incremental_value_hypothesis": "기존 거래 유지·예외 처리 개선",
+      "cost_and_risk": "전환·결제·선자금·고객지원·오류비용",
+      "source_ids": [
+        "ST-KY-001",
+        "ST-KY-008",
+        "KYX-V-001",
+        "KYX-V-003",
+        "KYX-V-005",
+        "KYX-V-006"
+      ],
+      "next_observation": "고객별 자금 문제·이탈·순기여와 실제 입출금/증거금 조건",
+      "actual_contract": null,
+      "active_customers": null,
+      "realized_revenue": null,
+      "incremental_contribution": null,
+      "budget": null,
+      "claim_ids": [
+        "C-209",
+        "C-230",
+        "C-239"
+      ]
+    },
+    {
+      "id": "KY-BIZ-02",
+      "strategy_id": "STR-KY-02",
+      "title": "반복 발행·사후관리",
+      "status": "analyst_proposal",
+      "customer": "기업 발행인과 적격 투자자",
+      "workflow": "자료·실사→조건·매수자→발행→수금·분배→재발행",
+      "payer_and_price_basis": "발행인의 자문·주선·인수·허용되는 별도 사후업무 보수",
+      "incremental_value_hypothesis": "반복 업무·정산의 비용 감소와 유료 재발행",
+      "cost_and_risk": "외부법률·평가·판매배분·사후관리·인수재고·신용손실",
+      "source_ids": [
+        "ST-KY-001",
+        "FIN-008",
+        "FIN-007",
+        "KYX-A-004"
+      ],
+      "next_observation": "실제 지급자·매수자·반복 계약·미매각·회수",
+      "actual_contract": null,
+      "active_customers": null,
+      "realized_revenue": null,
+      "incremental_contribution": null,
+      "budget": null,
+      "claim_ids": [
+        "C-210",
+        "C-242",
+        "C-244"
+      ]
+    },
+    {
+      "id": "KY-BIZ-03",
+      "strategy_id": "STR-KY-03",
+      "title": "기관 자금·상품 관리",
+      "status": "analyst_proposal",
+      "customer": "교보생명을 포함한 독립 심사 기관 고객",
+      "workflow": "만기·통화·지급의무→상품비교→매수→환매·현금",
+      "payer_and_price_basis": "적법한 판매·중개 계약 또는 기관의 별도 관리업무 구매",
+      "incremental_value_hypothesis": "상품·현금 연결과 기관 관계",
+      "cost_and_risk": "판매/수탁배분·환매·결제·통합·실패복구",
+      "source_ids": [
+        "KYO-GEO-005",
+        "KNX-M-001",
+        "KNX-M-003",
+        "KYX-V-008",
+        "KYX-V-009",
+        "KYX-M-007"
+      ],
+      "next_observation": "동일 통화·권리·기한의 실제 현금·총비용·재이용",
+      "actual_contract": null,
+      "active_customers": null,
+      "realized_revenue": null,
+      "incremental_contribution": null,
+      "budget": null,
+      "claim_ids": [
+        "C-237",
+        "C-236",
+        "C-243"
+      ]
+    },
+    {
+      "id": "KY-BIZ-04",
+      "strategy_id": "STR-KY-04",
+      "title": "선별 IP 정산채권",
+      "status": "analyst_proposal",
+      "customer": "저자·출판사·권리자와 적격 투자자",
+      "workflow": "권리·정산→양도/구조→수금통제→발행/배분→분쟁/회수",
+      "payer_and_price_basis": "권리자·발행인의 구조화·모집·허용되는 관리 대가",
+      "incremental_value_hypothesis": "권리·정산 이해를 반복 발행 업무에 재사용",
+      "cost_and_risk": "권리확인·독립평가·법률·수금통제·분쟁·회수·브랜드 위험",
+      "source_ids": [
+        "ST-KY-007",
+        "ST-KY-001",
+        "KYX-A-004",
+        "KYX-M-001",
+        "KYX-M-002",
+        "KYX-M-003",
+        "KYX-M-004",
+        "KYX-M-005",
+        "KYX-M-006",
+        "KYX-M-007",
+        "KYX-M-008",
+        "KYX-M-009",
+        "KYX-M-010",
+        "KYX-M-011"
+      ],
+      "next_observation": "양도·대항요건·순위·순현금·고객 수요와 그룹 계약",
+      "actual_contract": null,
+      "active_customers": null,
+      "realized_revenue": null,
+      "incremental_contribution": null,
+      "budget": null,
+      "claim_ids": [
+        "C-213",
+        "C-214",
+        "C-215",
+        "C-216",
+        "C-217",
+        "C-218",
+        "C-219",
+        "C-220",
+        "C-221",
+        "C-222",
+        "C-223",
+        "C-224",
+        "C-225",
+        "C-226",
+        "C-227"
+      ]
+    },
+    {
+      "id": "KY-BIZ-05",
+      "strategy_id": "STR-KY-05",
+      "title": "국경간 자산·레일 연결",
+      "status": "analyst_proposal",
+      "customer": "적격 해외 발행인·기관·거래 고객",
+      "workflow": "자산·투자자→양국 역할/권한→수탁·외환·결제→회수",
+      "payer_and_price_basis": "서비스 계약 지급자와 자기 투자성과를 분리",
+      "incremental_value_hypothesis": "해외 자산·기관 수요의 적법한 연결",
+      "cost_and_risk": "현지/국내법률·수탁·FX·유동성·파트너·복구",
+      "source_ids": [
+        "KYO-GEO-003",
+        "KYO-GEO-004",
+        "ST-KY-008",
+        "KYX-V-004",
+        "KYX-V-010",
+        "KYX-V-008"
+      ],
+      "next_observation": "MOU 이후 실제 업무·보수·고객·반복 사용·최종 현금",
+      "actual_contract": null,
+      "active_customers": null,
+      "realized_revenue": null,
+      "incremental_contribution": null,
+      "budget": null,
+      "claim_ids": [
+        "C-228",
+        "C-236",
+        "C-237"
+      ]
+    }
+  ],
+  "capital_permission_boundary": {
+    "accounting_equity_is_regulatory_authorization": false,
+    "capital_raise_decision_is_payment_completion": false,
+    "customer_assets_are_company_funding": false,
+    "comprehensive_ib_is_bank_license": false,
+    "tokenization_replaces_capital_requirement": false,
+    "latest_kyobo_designation_completion": null,
+    "latest_rcps_payment_completion": null,
+    "bill_issuance_authorization": null,
+    "ima_authorization": null,
+    "status_note": "선택 공식 자료로 확인한 상태는 보고서18의 자본·인가표에 보존. null은 부재나 미인가 확정이 아님.",
+    "affiliate_credit_is_automatically_permitted": false,
+    "affiliate_gate": "법77조의3 제9항 계열법인 기업신용 및 계열 운용 일반사모펀드 PBS 제한. 서비스·인수·보증·SPV의 실질과 예외는 별도 검토.",
+    "capital_report": "reports/21_kyobo_capital_and_permissions.md",
+    "source_ids": [
+      "KYX-A-001",
+      "KYX-A-002",
+      "KYX-A-003",
+      "KYX-A-004"
+    ],
+    "company_application_date_and_transition_applicability": null,
+    "current_capital_or_authority_is_inferred_from_historical_equity": false
+  },
+  "independent_gates": [
+    "자본·지정·개별 업무",
+    "증권 권리·발행·유통",
+    "고객·관할별 판매 적격성",
+    "스테이블코인 보유·전환·외환",
+    "AI 위임·정보·고객 승인",
+    "수탁·현금·분쟁·복구 계약",
+    "계열 거래·기업신용·실질 위험 이전"
+  ],
+  "group_roles": [
+    {
+      "entity": "교보증권",
+      "candidate_role": "허용된 실사·구조화·주선·판매·사후관리",
+      "not_automatic": "원금보장·무제한재고·발행자준비금수익"
+    },
+    {
+      "entity": "교보문고",
+      "candidate_role": "계약상 가능한 권리·정산 자료·산업 관계 제공",
+      "not_automatic": "모든 판매도서 저작권·독자정보의 증권사 이전·채무 보증"
+    },
+    {
+      "entity": "교보생명",
+      "candidate_role": "독립 투자심사·ALM·기관 상품 수요 또는 경험 공유",
+      "not_automatic": "앵커 투자약속·고객손실 보전·공동자본·일반데이터 공유"
+    }
+  ],
+  "customer_touchpoints": [
+    {
+      "step": "탐색",
+      "offer": "원권리·발행인·통화·만기·비용·평가시각·환매·유통조건",
+      "control": "출처·시점·미확인·고객별 적격성"
+    },
+    {
+      "step": "비교·견적",
+      "offer": "실제 실행 수량·총비용·현금도착·위험",
+      "control": "유효 견적·재고·제휴배분·이해상충"
+    },
+    {
+      "step": "승인·실행",
+      "offer": "승인된 상품·금액·상대·기간과 처리 상태",
+      "control": "한도·권한·중복·가격변경·취소 경계"
+    },
+    {
+      "step": "보유·분배·환매",
+      "offer": "계약변경·수금·담보·은행수취·복구",
+      "control": "명부·원장·권리·현금 대사와 책임자"
+    },
+    {
+      "step": "재발행·재투자",
+      "offer": "다음 의무·만기와 재사용 가능한 자료",
+      "control": "새 적합성·계약·중복권리·자금 확인"
+    }
+  ],
+  "agent_boundary": {
+    "current_ai_role": "원문·대안·설명·예외 보조; 현재 책임 규율과 미래 위임 확대 구분",
+    "deterministic_checks": [
+      "수량·잔액",
+      "기한·견적",
+      "수수료·한도",
+      "자격·권한",
+      "중복 지시·권리 노출"
+    ],
+    "financial_claims": "같은 자산을 고정한 조합 증가는 기초현금흐름 증가가 아니다. 신규 생산투자는 별도 사업 위험이다.",
+    "customers_or_platforms_pay_contract_fees_not_the_ai_itself": true,
+    "overseas_benchmark": {
+      "institution": "IBKR",
+      "observed_at": "2026-11-03",
+      "facts_scope": "승인형 안내와 제한적 자동거래 약관/현재 안내가 공존. 관할 FAQ planned와 고객·계좌·상품 제한 보존.",
+      "not_assumed": [
+        "모든 관할 현재 출시",
+        "교보 적용 권한",
+        "구획의 완전한 재산 절연",
+        "연결 철회의 미체결 주문 자동 취소"
+      ],
+      "commercial_implication": "별도 AI 연결료 없음이라는 안내는 연결 자체 유료화의 경쟁 압박 근거. 실제 실행·데이터·계약상 관리 보수와 분리.",
+      "source_ids": [
+        "KYX-V-007",
+        "KYX-V-008",
+        "KYX-V-009",
+        "KYX-V-011"
+      ]
+    }
+  },
+  "comparison": {
+    "arms": [
+      "A 현행",
+      "B 현행+AI",
+      "C 온체인+기존 승인",
+      "D 온체인+AI"
+    ],
+    "matched": [
+      "고객 업무",
+      "권리",
+      "통화",
+      "기간",
+      "최종 수취 수단",
+      "위험"
+    ],
+    "onchain_incremental_baseline": "B 현행+AI",
+    "outcomes": [
+      "완료 업무당 총비용",
+      "정시 수금·현금",
+      "재발행·재이용",
+      "정정·복구",
+      "비용 후 기여"
+    ],
+    "actual_trial_performed": false
+  },
+  "economics": {
+    "formula": "Δ계약상 서비스 순수입 + Δ중개·판매 순기여 + Δ자기자금 투자·인수 기여 − Δ공통·지원·준법·운영비 − Δ아직 반영하지 않은 기대손실·경제적 자본비용",
+    "definitions": [
+      "순항목의 외부 배분·조달·헤지·결제·관리 비용 포함 범위를 먼저 고정",
+      "고객 유지 효과와 같은 거래의 중개 기여 중복 금지",
+      "자기 투자 원금 회수는 수익이 아니며 실현·평가·현금흐름을 같은 기간으로 대사",
+      "그룹 내 보수는 연결 기준에서 제거",
+      "자본비용 차감 후 기여에 같은 요구수익률 재차 차감 금지",
+      "고객 순편익과 회사 기여는 별도"
+    ],
+    "roi": null,
+    "break_even_volume": null,
+    "budget": null,
+    "measured_profit": null
+  },
+  "competition": [
+    {
+      "path": "대형 IB의 가격·인수한도 경쟁",
+      "response": "특정 자산의 반복 실사·회수·공동 배분",
+      "observe": "미매각·자본 점유·고객별 순기여"
+    },
+    {
+      "path": "AI·플랫폼의 비교 무료화",
+      "response": "정확한 견적·실행·사후관리 공급",
+      "observe": "채널별 계약·배분·고객 이전권·순기여"
+    },
+    {
+      "path": "발행인·IP 권리자 직접 유통",
+      "response": "실제로 구매하는 심사·적합성·관리 업무",
+      "observe": "서명된 유료 계약과 재발행"
+    },
+    {
+      "path": "글로벌 브로커의 입출금 개선",
+      "response": "은행 개선과 적법한 토큰 경로 동시 비교",
+      "observe": "최종 사용 가능액·시각·총비용·복구"
+    }
+  ],
+  "execution_proposal": [
+    {
+      "days": "1–30",
+      "deliverable": "자본·인가 증거표와 거래고객/반복발행/기관/IP 자료",
+      "functions": [
+        "미래전략",
+        "재무",
+        "해외상품",
+        "IB",
+        "기관영업",
+        "법무"
+      ]
+    },
+    {
+      "days": "31–60",
+      "deliverable": "동일 업무 비교와 권리·가격·현금·오류·복구 검증",
+      "functions": [
+        "사업부",
+        "운영",
+        "IT",
+        "보안",
+        "리스크",
+        "준법"
+      ]
+    },
+    {
+      "days": "61–90",
+      "deliverable": "제한 운영 후보의 역할·보수·책임 계약과 확대/중단 심사",
+      "functions": [
+        "사업책임자",
+        "독립리스크",
+        "소비자보호",
+        "재무",
+        "투자심사"
+      ]
+    }
+  ],
+  "decision_rules": {
+    "expand": [
+      "반복 수요·계약상 지급자",
+      "정시 수금과 실제 현금",
+      "고객 총편익·비용 후 기여",
+      "권한·복구 능력"
+    ],
+    "stop_execution": [
+      "권리 입증 실패",
+      "무권한 실행",
+      "고객자산 혼용",
+      "해결되지 않은 현금·권리 불일치"
+    ],
+    "revise_business": [
+      "지불의사 부족",
+      "보수 압축·플랫폼 배분",
+      "기존+AI 대비 온체인 추가 편익 부족",
+      "과잉 자본·유동성 점유"
+    ],
+    "quantitative_thresholds": null
+  },
+  "limits": [
+    "실제 고객·가격·계약·활성도·원가·투자 성과 미확인",
+    "공개 안내·MOU·시험·투자자 역할을 상용 서비스 수익으로 전환하지 않음",
+    "계좌·지갑·주문·모니터링 자동 실행 미구현"
+  ],
+  "source_ids": [
+    "ST-KY-001",
+    "ST-KY-008",
+    "FIN-008",
+    "KYO-GEO-005",
+    "KNX-M-001",
+    "KNX-M-003",
+    "ST-KY-007",
+    "KYO-GEO-003",
+    "KYO-GEO-004",
+    "ST-KY-002",
+    "ST-KY-003",
+    "ST-KY-004",
+    "ST-KY-005",
+    "KYX-A-001",
+    "KYX-A-002",
+    "KYX-A-003",
+    "KYX-A-004",
+    "KYX-M-001",
+    "KYX-M-002",
+    "KYX-M-003",
+    "KYX-M-004",
+    "KYX-M-005",
+    "KYX-M-006",
+    "KYX-M-007",
+    "KYX-M-008",
+    "KYX-M-009",
+    "KYX-M-010",
+    "KYX-M-011",
+    "KYX-V-001",
+    "KYX-V-002",
+    "KYX-V-003",
+    "KYX-V-004",
+    "KYX-V-005",
+    "KYX-V-006",
+    "KYX-V-007",
+    "KYX-V-008",
+    "KYX-V-009",
+    "KYX-V-010",
+    "KYX-V-011",
+    "FIN-007",
+    "ST-KY-009",
+    "PRIOR-003"
+  ],
+  "claim_ids": [
+    "C-126",
+    "C-127",
+    "C-128",
+    "C-201",
+    "C-202",
+    "C-203",
+    "C-204",
+    "C-205",
+    "C-206",
+    "C-207",
+    "C-208",
+    "C-209",
+    "C-210",
+    "C-211",
+    "C-212",
+    "C-213",
+    "C-214",
+    "C-215",
+    "C-216",
+    "C-217",
+    "C-218",
+    "C-219",
+    "C-220",
+    "C-221",
+    "C-222",
+    "C-223",
+    "C-224",
+    "C-225",
+    "C-226",
+    "C-227",
+    "C-228",
+    "C-229",
+    "C-230",
+    "C-231",
+    "C-232",
+    "C-233",
+    "C-234",
+    "C-235",
+    "C-236",
+    "C-237",
+    "C-238",
+    "C-239",
+    "C-240",
+    "C-241",
+    "C-242",
+    "C-243",
+    "C-244",
+    "C-245"
+  ],
+  "ip_deal_checklist": "data/kyobo_ip_deal_checklist.json",
+  "rail_status": {
+    "as_of": "2026-11-03",
+    "kyobo_circle_mint_contract": null,
+    "kyobo_usdt_direct_contract": null,
+    "kyobo_customer_supported_assets_chains_and_prices": null,
+    "meaning": "선택 공개자료 내 미확인. 계약·영업의 부재를 증명하지 않음.",
+    "comparison_conflicts": [
+      "IBKR 1월/Campus와 현재 표시 전환요율 차이",
+      "7월 양방향 토큰 발표와 현재 USDC만/추후추가 안내 차이",
+      "Campus 출금보류와 개별 최신계좌 조건 미확인"
+    ],
+    "source_ids": [
+      "ST-KY-006",
+      "KYO-GEO-003",
+      "KYO-GEO-004",
+      "KYX-V-001",
+      "KYX-V-002",
+      "KYX-V-003",
+      "KYX-V-004"
+    ]
+  }
+}

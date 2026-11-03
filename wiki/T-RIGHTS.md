@@ -108,6 +108,89 @@ Circle의 2024년 BUIDL 기능 발표는 지분의 2차 매각과 USDC 수취를
 
 한계: 시스템 설계 원칙이다. 실제 경남은행·고객 데이터의 중복을 발견했다는 주장이 아니다.
 
+### C-213 · institution_statement · active
+
+교보문고는 자체 발굴IP의 출판·해외번역·2차저작물 확장과 주문형출판POD를 사업으로 소개한다.
+
+근거: [ST-KY-007](../sources/cards/ST-KY-007.md)
+
+한계: - 개별 작품의 저작권·이용권·금융화 가능한 담보와 그룹 데이터 이용권은 미확인
+
+### C-215 · unknown · active
+
+출판사 지급일은 현재 FAQ의 익월25일과 연결된 공식 지급공지의20일경 설명이 달라, 특정 계약과 채무자 확인 전 확정하지 않는다. 개인작가의 별도 조건과 과거2018년 적용 약관도 출판사 최신 거래에 자동 적용하지 않는다.
+
+근거: [KYX-M-001](../sources/cards/KYX-M-001.md), [KYX-M-002](../sources/cards/KYX-M-002.md), [KYX-M-003](../sources/cards/KYX-M-003.md)
+
+한계: - 현재 특정 출판사의 지급일은 null
+- 지급일 차이가 실제 연체를 뜻하지 않음
+
+### C-216 · fact · active
+
+민법449~451조는 채권 양도 가능성과 제한, 통지·승낙 및 제3자 대항요건, 승낙·통지에 따른 항변 관련 효과를 구분한다.
+
+근거: [KYX-M-004](../sources/cards/KYX-M-004.md), [KYX-M-005](../sources/cards/KYX-M-005.md), [KYX-M-010](../sources/cards/KYX-M-010.md)
+
+한계: - 특정 POD채권의 유효한 양도·우선순위·항변 소멸을 확인한 법률 의견은 아님
+
+### C-217 · fact · active
+
+저작권법45·46조는 저작재산권 양도와 저작물 이용허락을 구분하며 일부 권리·허락 범위·제3자 양도 동의 등의 조건을 규정한다.
+
+근거: [KYX-M-006](../sources/cards/KYX-M-006.md), [KYX-M-011](../sources/cards/KYX-M-011.md)
+
+한계: - 문고의 모든 판매도서 권리 보유를 뜻하지 않음
+- 이미 발생한 금전청구권 양도와 이용권 양도는 별도 검토
+
+### C-220 · hypothesis · active
+
+이미 발생·정산 확정된 법인 출판사의 특정월POD판매정산채권은 원권리·양도·지급자·수금을 연결하는 최초 검증 후보가 될 수 있다. 실제 금융수요·규모·기간·비용이 확인된 우선 금융상품이라는 뜻은 아니다.
+
+근거: [KYX-M-001](../sources/cards/KYX-M-001.md), [KYX-M-009](../sources/cards/KYX-M-009.md), [ST-KY-007](../sources/cards/ST-KY-007.md)
+
+한계: - 선정된 출판사·작품·계약·금액은 없으며 체크리스트 값은 null
+
+다른 설명: POD의 초기 비용·재고 부담 감소와 짧은 지급 시차 때문에 고객은 기다리거나 단순 조기정산·기존팩토링을 선택할 수 있다.
+
+다음 관측: 실제 출판사의 필요금액·사용시점·기존대안가격·확정채권규모와 총비용 견적
+
+### C-222 · interpretation · active
+
+여러 작품의 청구권을 묶더라도 지급자가 같으면 채무자 신용 집중은 남는다. 진정한 양도·수금계좌 분리·SPV는 각각 법적 검토 대상이며 지급자의 미지급 위험까지 제거하지 않는다.
+
+근거: [KYX-M-004](../sources/cards/KYX-M-004.md), [KYX-M-005](../sources/cards/KYX-M-005.md), [KYX-M-010](../sources/cards/KYX-M-010.md), [FIN-007](../sources/cards/FIN-007.md)
+
+한계: - 도산법·세법·신탁법 전체 검토나 특정구조의 도산절연 확정은 아님
+
+### C-224 · hypothesis · active
+
+AI가 상품 비교·조합을 늘려도 한정된 원권리의 현금은 늘지 않는다. 권리별 중복 양도·담보·배분, 실제수금·정정·회수의 지속 검증이 관리 서비스의 가치 후보가 된다.
+
+근거: [KYX-M-004](../sources/cards/KYX-M-004.md), [KYX-M-005](../sources/cards/KYX-M-005.md), [KYX-M-009](../sources/cards/KYX-M-009.md), [ST-KY-009](../sources/cards/ST-KY-009.md)
+
+한계: - 온체인 밖 담보나 미신고 계약을 원장만으로 자동 탐지할 수 있다고 가정하지 않음
+- 권리·투자결정 책임과 결정론적 계산·한도 집행을 구분
+
+다른 설명: 정보·관리 자동화가 보편화되면 보수도 하락해 절감 편익이 고객·플랫폼에 이전될 수 있다.
+
+다음 관측: 원권리 연결 누락·중복편입·오배분·정정시간·유료 반복사용과 보수의 변화
+
+### C-226 · unknown · active
+
+특정출판사P·계약채무자·기초계약·채권금액·만기·양도제한·기존담보·저자인세순위·수금통제·발행분류·투자자확약·가격·보수·생명투자약정은 확보되지 않았다.
+
+근거: [KYX-M-001](../sources/cards/KYX-M-001.md), [KYX-M-009](../sources/cards/KYX-M-009.md), [ST-KY-007](../sources/cards/ST-KY-007.md)
+
+한계: - 공개일반안내를 실제거래실사·고객동의·권한확인으로 대체하지 않음
+
+### C-245 · interpretation · active
+
+IP 상품은 신탁 가능한 특정 청구권, 장래매출채권, 공동사업 투자계약증권의 법적 구조를 구분해야 한다. 토큰 형식·집합화 허용 방향만으로 동일 권리·도산절연·환금성이 생기지 않는다.
+
+근거: [FIN-007](../sources/cards/FIN-007.md), [FIN-008](../sources/cards/FIN-008.md), [ST-KY-007](../sources/cards/ST-KY-007.md)
+
+한계: 정책 방향과 선택 예고 내용을 거래 설계에 적용한 해석이며 개별 IP 상품 적격성·최종 규칙·인가를 확인한 것은 아니다.
+
 ## 관련 원문
 
 - [FIN-002 · What Is Needed for Tokenization to Deliver](../sources/cards/FIN-002.md)
@@ -138,5 +221,12 @@ Circle의 2024년 BUIDL 기능 발표는 지분의 2차 매각과 USDC 수취를
 - [KNX-M-002 · Circle Announces USDC Smart Contract for Transfers by BlackRock’s BUIDL Fund Investors](../sources/cards/KNX-M-002.md)
 - [KNX-M-005 · UNIDROIT Model Law on Factoring](../sources/cards/KNX-M-005.md)
 - [KNX-M-006 · UNIDROIT Principles on Digital Assets and Private Law](../sources/cards/KNX-M-006.md)
+- [KYX-M-001 · 바로출판POD FAQ — 개인·출판사 정산 및 출간 절차](../sources/cards/KYX-M-001.md)
+- [KYX-M-003 · Pubple 이용 약관 변경 안내 — 저작권료 지급금액 기준 변경](../sources/cards/KYX-M-003.md)
+- [KYX-M-004 · 민법 제449조 — 채권의 양도성](../sources/cards/KYX-M-004.md)
+- [KYX-M-005 · 민법 제450조 — 지명채권양도의 대항요건](../sources/cards/KYX-M-005.md)
+- [KYX-M-006 · 저작권법 제45조 — 저작재산권의 양도](../sources/cards/KYX-M-006.md)
+- [KYX-M-010 · 민법 제451조 — 승낙, 통지의 효과](../sources/cards/KYX-M-010.md)
+- [KYX-M-011 · 저작권법 제46조 — 저작물의 이용허락](../sources/cards/KYX-M-011.md)
 
 [전체 주제 지도](INDEX.md)

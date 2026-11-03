@@ -114,6 +114,32 @@ AI는 증빙·조건·대안과 예외를 제안하고, 통화·잔액·달력·
 
 한계: 저자 연구와 상품의 기관 승인 절차를 참고한 설계이며 안전성 인증·법정 요건의 완전 목록은 아니다.
 
+### C-224 · hypothesis · active
+
+AI가 상품 비교·조합을 늘려도 한정된 원권리의 현금은 늘지 않는다. 권리별 중복 양도·담보·배분, 실제수금·정정·회수의 지속 검증이 관리 서비스의 가치 후보가 된다.
+
+근거: [KYX-M-004](../sources/cards/KYX-M-004.md), [KYX-M-005](../sources/cards/KYX-M-005.md), [KYX-M-009](../sources/cards/KYX-M-009.md), [ST-KY-009](../sources/cards/ST-KY-009.md)
+
+한계: - 온체인 밖 담보나 미신고 계약을 원장만으로 자동 탐지할 수 있다고 가정하지 않음
+- 권리·투자결정 책임과 결정론적 계산·한도 집행을 구분
+
+다른 설명: 정보·관리 자동화가 보편화되면 보수도 하락해 절감 편익이 고객·플랫폼에 이전될 수 있다.
+
+다음 관측: 원권리 연결 누락·중복편입·오배분·정정시간·유료 반복사용과 보수의 변화
+
+### C-225 · hypothesis · active
+
+여러기관이 같은 권리·보유·배분상태를 공유해야 하는 경우에 온체인이 기존장부+AI보다 추가편익을 낼 수 있으나, 월별 정산·법적양도·은행현금이 병목이면 기존API·장부가 더 효율적일 수 있다.
+
+근거: [FIN-007](../sources/cards/FIN-007.md), [FIN-008](../sources/cards/FIN-008.md), [KYX-M-009](../sources/cards/KYX-M-009.md), [KYO-GEO-005](../sources/cards/KYO-GEO-005.md)
+
+한계: - 토큰화와24시간은행현금·시장유동성·상계편익을 동일시하지 않음
+- 원장 직접 대가 제한을 관리보수로 우회하는 모델 제외
+
+다른 설명: 이중장부·키·보안·정정·복구·외부연계비용이 대사절감보다 클 수 있다.
+
+다음 관측: 동일채권·투자자·결제조건에서 계약부터은행회수까지 총비용·오류·예외처리 비교
+
 ## 관련 원문
 
 - [AI-001 · NousResearch/hermes-agent — README and releases](../sources/cards/AI-001.md)
@@ -139,5 +165,9 @@ AI는 증빙·조건·대안과 예외를 제안하고, 통화·잔액·달력·
 - [ST-TD-002 · AI Agent 강의 — Coase와 통제된 자율성](../sources/cards/ST-TD-002.md)
 - [ST-TD-006 · Introducing the Machine Payments Protocol](../sources/cards/ST-TD-006.md)
 - [ST-TD-007 · How Agentic AI Will Reshape Payments](../sources/cards/ST-TD-007.md)
+- [KYX-V-007 · Interactive Brokers Opens AI Connectivity to Any Tool Built on the MCP Standard](../sources/cards/KYX-V-007.md)
+- [KYX-V-008 · AI Integration and IBKR Autonomous Trading — 현재 공식 안내](../sources/cards/KYX-V-008.md)
+- [KYX-V-009 · AI Trading Supplement — Form 4923](../sources/cards/KYX-V-009.md)
+- [KYX-V-011 · AI Instructions — Client Portal User Guide](../sources/cards/KYX-V-011.md)
 
 [전체 주제 지도](INDEX.md)

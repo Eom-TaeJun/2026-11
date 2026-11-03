@@ -74,6 +74,14 @@ IMF 10월 GFSR은 전반적으로 완화적인 금융여건과 높은 금융안�
 
 다음 관측: 같은 통화·시한·위험에서 실제 견적, 순수취 현금, 총비용, 스트레스 자금과 대체 경로
 
+### C-222 · interpretation · active
+
+여러 작품의 청구권을 묶더라도 지급자가 같으면 채무자 신용 집중은 남는다. 진정한 양도·수금계좌 분리·SPV는 각각 법적 검토 대상이며 지급자의 미지급 위험까지 제거하지 않는다.
+
+근거: [KYX-M-004](../sources/cards/KYX-M-004.md), [KYX-M-005](../sources/cards/KYX-M-005.md), [KYX-M-010](../sources/cards/KYX-M-010.md), [FIN-007](../sources/cards/FIN-007.md)
+
+한계: - 도산법·세법·신탁법 전체 검토나 특정구조의 도산절연 확정은 아님
+
 ## 관련 원문
 
 - [FIN-001 · Tokenized Finance](../sources/cards/FIN-001.md)
