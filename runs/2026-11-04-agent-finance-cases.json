@@ -1,14 +1,14 @@
 {
   "as_of": "2026-11-04",
   "timezone": "Asia/Seoul",
-  "status": "validated_pending_remote_publication",
+  "status": "published_and_verified",
   "request": "규제·인프라 성립 이후 AI 에이전트 고객의 돈·수익 이동과 경쟁 및 잠식 사례를 GitHub에 축적",
   "baseline_head": "2491cb37b8605363289951bee0fc3aac2ccf8d95",
   "baseline_files": 410,
   "workers": [
     {
       "name": "coordinator",
-      "work": "공통 가정·수익 귀속·경쟁 합성, 단일 작성 병합·검증·게시 상태 관리"
+      "work": "공통 가정·수익 귀속·경쟁 합성, 단일 작성 병합·검증·GitHub 게시 및 원격 내용 대조"
     },
     {
       "name": "source_design",
@@ -263,9 +263,25 @@
   },
   "review": "runs/2026-11-04-agent-finance-review.md",
   "publication": {
-    "status": "pending",
+    "status": "content_published_and_verified",
     "repository": "Eom-TaeJun/2026-11",
-    "branch": "main"
+    "branch": "main",
+    "content_commit": "2613f89cdfa28ef69443e6ef8f349fc9850f15d6",
+    "content_tree": "02ebc34e0803eb853dc4e0d0cb7acb819a1a0841",
+    "remote_blob_verification": {
+      "files": 419,
+      "mismatch": 0,
+      "extra": 0
+    },
+    "exact_text_readbacks": 8,
+    "public_html": {
+      "status": 200,
+      "title": true,
+      "report_links": true,
+      "rendered_body_marker": true,
+      "method": "HTTP returned GitHub HTML, not interactive browser testing"
+    },
+    "receipt": "runs/2026-11-04-agent-finance-publication.json"
   },
   "not_performed": [
     "actual customer trial",
@@ -323,5 +339,6 @@
     "보험 비교/청구 접점 변경과 기존 계약/유통보수의 자동 이전 구분",
     "보험 장기 손익과 건당 운영기여 식 분리",
     "신규 발행의 자금 용도는 준비자산/펀드기초자산/원채권자 조기현금화 등 상품별 구분"
-  ]
+  ],
+  "independent_review_final": "Merged reports and two structured ledgers reviewed; six corrections reflected; no material unresolved contradiction or broken local link found in reviewed scope."
 }
