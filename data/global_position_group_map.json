@@ -226,5 +226,22 @@
     "국가별 규제 기준선 2026-11-02 유지; 이번 선택 재열람만 갱신",
     "전체 계열·국가의 개별 상품 인가·계약 전수 확인 아님",
     "교수 육성 발언·내부 전략·실제 고객 시험 미확인"
-  ]
+  ],
+  "agent_finance_followup": {
+    "as_of": "2026-11-04",
+    "report": "reports/31_agent_finance_customer_money_2027.md",
+    "case_record": "data/agent_finance_2027_cases.json",
+    "value_capture_record": "data/agent_finance_value_capture.json",
+    "case_ids": [
+      "AFX-BNK-CASE-01",
+      "AFX-KY-01",
+      "AFX-KY-02",
+      "AFX-HW-ID-01",
+      "AFX-HW-AE-01",
+      "AFX-HW-US-01"
+    ],
+    "classification": "conditional_case_refinement",
+    "priority_change": false,
+    "note": "기존 사실 확인일·전략 순위·미확인값을 유지하고 고객·돈·경쟁·잠식 사례만 연결."
+  }
 }

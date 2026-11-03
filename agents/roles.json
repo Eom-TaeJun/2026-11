@@ -1,6 +1,6 @@
 {
   "title": "금융환경 변화와 기업 신호 분석 에이전트 팀",
-  "version": "1.8",
+  "version": "1.9",
   "created_date": "2026-11-02",
   "artifact_type": "재사용 가능한 역할 및 작업 명세",
   "execution_status": {
@@ -8,7 +8,7 @@
     "installed_runtime_configuration": false,
     "target_company_research_started": true,
     "scheduled_monitoring_enabled": false,
-    "note": "최근 실행: runs/2026-11-04-ondo-position-integration.json. 총괄+3개 하위 에이전트가 교수 원문·상품 경제성·그룹 적용·교차검토를 수행. 역할 명세는 상시 프로세스가 아님.",
+    "note": "최근 실행: runs/2026-11-04-agent-finance-cases.json. 총괄+3개 하위 담당이 조건부 고객·원금·수익·경쟁·잠식 사례와 교차검토를 수행. 상시 실행 명세가 아님.",
     "target_company_research_scope": "탑다운 미래와 경남 본사·교보 미래전략·한화 생명 신사업의 기존 고객·기반·권리·현금·수익·경쟁·검증 제안. 실제 고객 시험·계약가격·전체 인가·팀 정원·예산·신사업 이익은 미확인."
   },
   "mission": "금융환경 변화가 고객의 문제와 금융기관의 선택을 어떻게 바꾸는지 설명하고, 특정 기업의 실제 신호·기존 역량과 연결해 사용자에게 필요한 판단과 행동으로 수렴한다.",
@@ -23,7 +23,7 @@
     ],
     "geography": "한국·미국을 공통 분석 축으로 두고 institution_focus.json의 법인별 확인 관계와 고객 흐름에 따라 추가 국가·관할을 고른다.",
     "currency": null,
-    "observation_period": "사건 기준 2026-11-02 및 자료별 관측일 보존; 추가 원문 확인 2026-11-03. 전 관할 최신화는 아님.",
+    "observation_period": "기존 사건·관측 시점을 보존. 추가 원문 선택 확인 2026-11-04; 전 관할·전 상품의 최신화는 아님.",
     "forecast_horizon": "2027년 초의 개별 적용과 그 이후 제도·레일·AI 위임이 정착한 조건부 미래",
     "baseline_judgment": null,
     "priority_questions": [

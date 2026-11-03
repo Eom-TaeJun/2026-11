@@ -173,7 +173,7 @@
 | [ST-TD-002 · AI Agent 강의 — Coase와 통제된 자율성](cards/ST-TD-002.md) | 미확인/동적 | selected_sections | 2026-11-03 |
 | [ST-TD-003 · The Future of Financial Markets — Infinite Assets / 24-7 / Models](cards/ST-TD-003.md) | 미확인/동적 | selected_sections | 2026-11-04 |
 | [ST-TD-004 · Stablecoins: Promise, Risks, and Policy Choices for Emerging Markets](cards/ST-TD-004.md) | 2026-08-07 | selected_sections | 2026-11-03 |
-| [ST-TD-005 · Banks in the Age of Stablecoins: Some Possible Implications for Deposits, Credit, and Financial Intermediation](cards/ST-TD-005.md) | 2025-12-17 | selected_sections | 2026-11-03 |
+| [ST-TD-005 · Banks in the Age of Stablecoins: Some Possible Implications for Deposits, Credit, and Financial Intermediation](cards/ST-TD-005.md) | 2025-12-17 | selected_sections | 2026-11-04 |
 | [ST-TD-006 · Introducing the Machine Payments Protocol](cards/ST-TD-006.md) | 2026-03-18 | selected_sections | 2026-11-03 |
 | [ST-TD-007 · How Agentic AI Will Reshape Payments](cards/ST-TD-007.md) | 미확인/동적 | selected_sections | 2026-11-03 |
 | [KNX-S-001 · 수출환어음매입](cards/KNX-S-001.md) | 미확인/동적 | selected_sections | 2026-11-03 |
@@ -182,7 +182,7 @@
 | [KNX-S-004 · 전자무역서비스(PTB서비스)](cards/KNX-S-004.md) | 미확인/동적 | selected_sections | 2026-11-03 |
 | [KNX-S-005 · 외화예금안내](cards/KNX-S-005.md) | 미확인/동적 | selected_sections | 2026-11-03 |
 | [KNX-S-006 · 이종통화송금서비스](cards/KNX-S-006.md) | 미확인/동적 | selected_sections | 2026-11-03 |
-| [KNX-S-007 · e-branch 상품안내](cards/KNX-S-007.md) | 미확인/동적 | selected_sections | 2026-11-03 |
+| [KNX-S-007 · e-branch 상품안내](cards/KNX-S-007.md) | 미확인/동적 | selected_sections | 2026-11-04 |
 | [KNX-M-001 · Franklin OnChain U.S. Government Money Fund — Prospectus August 1, 2026](cards/KNX-M-001.md) | 2026-08-01 | selected_sections | 2026-11-03 |
 | [KNX-M-002 · Circle Announces USDC Smart Contract for Transfers by BlackRock’s BUIDL Fund Investors](cards/KNX-M-002.md) | 2024-04-11 | full_text | 2026-11-04 |
 | [KNX-M-003 · USDC / EURC redemption structure](cards/KNX-M-003.md) | 미확인/동적 | selected_sections | 2026-11-03 |
@@ -205,7 +205,7 @@
 | [KYX-A-003 · 금융투자업규정 — 종투사 자기자본·단기금융·IMA·모험자본 및 경과비율](cards/KYX-A-003.md) | 2026-09-09 | selected_sections | 2026-11-03 |
 | [KYX-A-004 · 자본시장법 — 제77조의2·제77조의3·제360조 지정·기업신용·계열 제한·단기금융 인가](cards/KYX-A-004.md) | 2026-08-04 | selected_sections | 2026-11-03 |
 | [KYX-M-001 · 바로출판POD FAQ — 개인·출판사 정산 및 출간 절차](cards/KYX-M-001.md) | 미확인/동적 | selected_sections | 2026-11-03 |
-| [KYX-M-002 · 정산금(판매대금) 지급 관련 안내](cards/KYX-M-002.md) | 2022-10-09 | full_text | 2026-11-03 |
+| [KYX-M-002 · 정산금(판매대금) 지급 관련 안내](cards/KYX-M-002.md) | 2022-10-09 | full_text | 2026-11-04 |
 | [KYX-M-003 · Pubple 이용 약관 변경 안내 — 저작권료 지급금액 기준 변경](cards/KYX-M-003.md) | 2022-10-09 | full_text | 2026-11-03 |
 | [KYX-M-004 · 민법 제449조 — 채권의 양도성](cards/KYX-M-004.md) | 2026-03-17 | selected_sections | 2026-11-03 |
 | [KYX-M-005 · 민법 제450조 — 지명채권양도의 대항요건](cards/KYX-M-005.md) | 2026-03-17 | selected_sections | 2026-11-03 |
@@ -222,17 +222,17 @@
 | [KYX-V-005 · Account Funding — zerohash Documentation](cards/KYX-V-005.md) | 미확인/동적 | selected_sections | 2026-11-03 |
 | [KYX-V-006 · zerohash US User Agreement — IBKR 공개 양식 4438](cards/KYX-V-006.md) | 미확인/동적 | selected_sections | 2026-11-03 |
 | [KYX-V-007 · Interactive Brokers Opens AI Connectivity to Any Tool Built on the MCP Standard](cards/KYX-V-007.md) | 2026-07-28 | selected_sections | 2026-11-03 |
-| [KYX-V-008 · AI Integration and IBKR Autonomous Trading — 현재 공식 안내](cards/KYX-V-008.md) | 미확인/동적 | selected_sections | 2026-11-03 |
-| [KYX-V-009 · AI Trading Supplement — Form 4923](cards/KYX-V-009.md) | 미확인/동적 | selected_sections | 2026-11-03 |
+| [KYX-V-008 · AI Integration and IBKR Autonomous Trading — 현재 공식 안내](cards/KYX-V-008.md) | 미확인/동적 | selected_sections | 2026-11-04 |
+| [KYX-V-009 · AI Trading Supplement — Form 4923](cards/KYX-V-009.md) | 미확인/동적 | selected_sections | 2026-11-04 |
 | [KYX-V-010 · Fees — Tether](cards/KYX-V-010.md) | 미확인/동적 | selected_sections | 2026-11-03 |
 | [KYX-V-011 · AI Instructions — Client Portal User Guide](cards/KYX-V-011.md) | 미확인/동적 | selected_sections | 2026-11-03 |
-| [HWX-A-001 · Clearing & Custody](cards/HWX-A-001.md) | 미확인/동적 | selected_sections | 2026-11-03 |
+| [HWX-A-001 · Clearing & Custody](cards/HWX-A-001.md) | 미확인/동적 | selected_sections | 2026-11-04 |
 | [HWX-A-002 · Trading Technology](cards/HWX-A-002.md) | 미확인/동적 | selected_sections | 2026-11-03 |
 | [HWX-A-003 · Circle Internet MEA Ltd — FSRA public register / firm profile](cards/HWX-A-003.md) | 미확인/동적 | selected_sections | 2026-11-03 |
 | [HWX-A-004 · Exchange Traded Concepts Takes Client ETFs to the Abu Dhabi Securities Exchange](cards/HWX-A-004.md) | 2026-11-02 | selected_sections | 2026-11-04 |
 | [HWX-A-006 · PLUS Korea Defense Industry Index ETF — Summary Prospectus, March 30, 2026](cards/HWX-A-006.md) | 2026-03-30 | selected_sections | 2026-11-03 |
 | [HWX-A-007 · ADX welcomes listing of two Korean ETFs](cards/HWX-A-007.md) | 2026-11-02 | selected_sections | 2026-11-03 |
-| [HWX-A-008 · Exchange Listed Funds Trust Form N-1A — KDEF Prospectus, Fund Management](cards/HWX-A-008.md) | 2026-03-27 | selected_sections | 2026-11-03 |
+| [HWX-A-008 · Exchange Listed Funds Trust Form N-1A — KDEF Prospectus, Fund Management](cards/HWX-A-008.md) | 2026-03-27 | selected_sections | 2026-11-04 |
 | [HWX-M-001 · PT Lippo General Insurance Tbk — Laporan Keberlanjutan 2025](cards/HWX-M-001.md) | 미확인/동적 | selected_sections | 2026-11-03 |
 | [HWX-M-002 · QRIS Nobu: Solusi QRIS Terintegrasi untuk Pembayaran Digital](cards/HWX-M-002.md) | 미확인/동적 | selected_sections | 2026-11-03 |
 | [HWX-M-003 · Proyek Garuda: Menavigasi Arsitektur Rupiah Digital](cards/HWX-M-003.md) | 미확인/동적 | selected_sections | 2026-11-03 |

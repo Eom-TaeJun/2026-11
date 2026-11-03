@@ -4821,7 +4821,8 @@
     "read_scope": [
       "공식 서비스 안내의 개요와 U-CASH fERP 연동 기능 목록, HTML 76~107행",
       "이번 재확인: 공식 HTML 76~107행 개요·U-CASH fERP 연동 목록. 기존 ID 유지.",
-      "2026-11-04 공식 HTML76–107행: 서비스 개요·다은행 조회/집금/배분·대출·회계/재고. 사용량·가격·권한·효율 실측 없음."
+      "2026-11-04 공식 HTML76–107행: 서비스 개요·다은행 조회/집금/배분·대출·회계/재고. 사용량·가격·권한·효율 실측 없음.",
+      "이번 실제 재열람: 공식 HTML 76–107행의 서비스 개요, 여러 은행 계좌 조회·집금/배분·대출·회계·재고 기능."
     ],
     "summary": "기업 인터넷뱅킹과 자금·영업·재고·회계, 여러 은행 계좌 조회·집금/배분·대출·B2B·전자세금계산서의 연동을 안내한다.",
     "used_for": [
@@ -4841,11 +4842,18 @@
       "T-OPERATIONS"
     ],
     "adoption_stage": "published_service_description",
-    "previous_checked_at": "2026-11-03",
-    "change_reason": "기능별 국내 적용 메모를 위한 공식 본문 선택 재열람. 기존 사건과 출처ID 보존; 신규 성과·인가로 확대하지 않음.",
+    "previous_checked_at": "2026-11-04",
+    "change_reason": "강한 미래 가정 아래 수출기업의 자금 이동·경쟁 재선택 사례를 위한 선택 원문 재확인. 새 서비스 출시·효과를 뜻하지 않음.",
     "review_readers": [
-      "G"
-    ]
+      "G",
+      "AFX-bnk"
+    ],
+    "previous_read_scope": [
+      "공식 서비스 안내의 개요와 U-CASH fERP 연동 기능 목록, HTML 76~107행",
+      "이번 재확인: 공식 HTML 76~107행 개요·U-CASH fERP 연동 목록. 기존 ID 유지.",
+      "2026-11-04 공식 HTML76–107행: 서비스 개요·다은행 조회/집금/배분·대출·회계/재고. 사용량·가격·권한·효율 실측 없음."
+    ],
+    "reuse_mode": "same_url_live_selected_recheck"
   },
   {
     "id": "ST-KN-003",
@@ -5408,11 +5416,14 @@
     "publisher": "Federal Reserve Board / Jessie Jiaxu Wang (staff views)",
     "url": "https://www.federalreserve.gov/econres/notes/feds-notes/banks-in-the-age-of-stablecoins-implications-for-deposits-credit-and-financial-intermediation-20251217.html",
     "published_at": "2025-12-17",
-    "checked_at": "2026-11-03",
+    "checked_at": "2026-11-04",
     "visibility": "public",
     "read_status": "selected_sections",
     "source_type": "FEDS Notes 연구",
-    "read_scope": "2.1–2.4절(수요 출처, 준비자산 배분, 예금 구성, 경쟁 대응); disclaimer 확인. 표·정량 대출승수 재현 제외",
+    "read_scope": [
+      "2.1–2.4절(수요 출처, 준비자산 배분, 예금 구성, 경쟁 대응); disclaimer 확인. 표·정량 대출승수 재현 제외",
+      "이번 실제 재열람: 웹행 17–29의 수요 출처·준비자산 배분, 39–62의 중앙은행 계좌 가정·예금 분포/구성·경쟁 대응. 정량 승수·당시 발행사 준비금 비율은 사용하지 않음."
+    ],
     "summary": "예금 영향은 자금 출처와 준비자산 배분에 달리며 총량이 유지돼도 은행별 분포·소매/도매 구성이 바뀔 수 있다. 은행의 금리·기술·제휴 대응을 분석한다.",
     "used_for": [
       "한국 시중·지방은행의 조건부 조달 경로와 반대 대응 질문"
@@ -5430,7 +5441,14 @@
     "event_date": null,
     "effective_date": null,
     "effective_date_status": null,
-    "adoption_stage": "분석·교육 또는 발표; 개별 운영 성과와 구분"
+    "adoption_stage": "분석·교육 또는 발표; 개별 운영 성과와 구분",
+    "previous_read_scope": "2.1–2.4절(수요 출처, 준비자산 배분, 예금 구성, 경쟁 대응); disclaimer 확인. 표·정량 대출승수 재현 제외",
+    "previous_checked_at": "2026-11-03",
+    "reuse_mode": "same_url_live_selected_recheck",
+    "change_reason": "강한 미래 가정 아래 수출기업의 자금 이동·경쟁 재선택 사례를 위한 선택 원문 재확인. 새 서비스 출시·효과를 뜻하지 않음.",
+    "review_readers": [
+      "AFX-bnk"
+    ]
   },
   {
     "id": "ST-TD-006",
@@ -5668,11 +5686,12 @@
     "publisher": "IBK기업은행",
     "url": "https://kiup.ibk.co.kr/uib/jsp/guest/cms/cms20/ECMS201001_i.jsp",
     "published_at": null,
-    "checked_at": "2026-11-03",
+    "checked_at": "2026-11-04",
     "visibility": "public",
     "read_status": "selected_sections",
     "read_scope": [
-      "공식 HTML 1092~1300행: 개요·주요서비스·메뉴 구성도·유지운영 및 선택 적용 설명. 로그인 후 화면·실행은 확인하지 않음."
+      "공식 HTML 1092~1300행: 개요·주요서비스·메뉴 구성도·유지운영 및 선택 적용 설명. 로그인 후 화면·실행은 확인하지 않음.",
+      "이번 실제 재열람: HTML 1092–1138 개요·주요서비스, 1143–1300 업무 메뉴·유지운영·선택 적용, 1323–1325 심의 표시/약관 안내. 로그인·실행·가격 미확인."
     ],
     "summary": "기업 내부 구축형 통합자금관리와 ERP 연계 회계전표 자동화를 안내한다. L/C·B/L, 미인수·미입금, 무역금융 한도, 외화계좌·집금, 수출입 관리·EDI 등을 기능으로 열거한다.",
     "used_for": [
@@ -5688,7 +5707,16 @@
       "T-OPERATIONS",
       "T-FUNDING"
     ],
-    "adoption_stage": "published_service_description"
+    "adoption_stage": "published_service_description",
+    "previous_read_scope": [
+      "공식 HTML 1092~1300행: 개요·주요서비스·메뉴 구성도·유지운영 및 선택 적용 설명. 로그인 후 화면·실행은 확인하지 않음."
+    ],
+    "previous_checked_at": "2026-11-03",
+    "reuse_mode": "same_url_live_selected_recheck",
+    "change_reason": "강한 미래 가정 아래 수출기업의 자금 이동·경쟁 재선택 사례를 위한 선택 원문 재확인. 새 서비스 출시·효과를 뜻하지 않음.",
+    "review_readers": [
+      "AFX-bnk"
+    ]
   },
   {
     "id": "KNX-M-001",
@@ -6391,11 +6419,12 @@
     "publisher": "교보문고",
     "url": "https://store.kyobobook.co.kr/pod/notice/1000210",
     "published_at": "2022-10-09",
-    "checked_at": "2026-11-03",
+    "checked_at": "2026-11-04",
     "visibility": "public",
     "read_status": "full_text",
     "read_scope": [
-      "공개 공지 본문 Q&A 및 게시일 전체; 첨부 역발행 계산서 PDF는 미독"
+      "공개 공지 본문 Q&A 및 게시일 전체; 첨부 역발행 계산서 PDF는 미독",
+      "AFX 교보 사례에서 2026-11-04 공식 공지 본문 L33–68 재열람: 게시일·판매대금·개인/출판사 지급·계산서. 첨부 PDF 미독."
     ],
     "summary": "공지에는 POD 정가의 20% 지급, 개인작가 누적 1만원 이상 익월20일경, 출판사는 계산서 발행 시 다음 달20일경 지급이라고 적혀 있다. 역발행 계산서 무료 서비스도 설명한다.",
     "used_for": [
@@ -6409,6 +6438,9 @@
     "topic_ids": [
       "T-OPERATIONS",
       "T-MONEY"
+    ],
+    "review_readers": [
+      "AFX-kyobo"
     ]
   },
   {
@@ -6814,14 +6846,21 @@
     "publisher": "Interactive Brokers",
     "url": "https://www.interactivebrokers.com/en/trading/ai-integrations.php",
     "published_at": null,
-    "checked_at": "2026-11-03",
+    "checked_at": "2026-11-04",
     "visibility": "public",
     "read_status": "selected_sections",
     "source_type": "official_product_or_contract",
-    "read_scope": "HTML 94–127,330–400: 적격성·추가 연결료·일반/자동 모드·상품/철회/관할 제한.",
+    "read_scope": [
+      "HTML 94–127,330–400: 적격성·추가 연결료·일반/자동 모드·상품/철회/관할 제한.",
+      "2026-11-04 본문94–127·330–400행 재열람: 추가 연결료 없음, 일반 승인과 자금/상품제한 자동 방식, 관할 planned, 철회와 기존 주문 취소 구분."
+    ],
     "summary": "일반 승인형과 지정 현금 AI Partition의 주문별 승인 없는 모드를 구분한다. 개인 비마진계좌·경험요건과 상품 제약을 제시하고, 연결 추가료는 없지만 시장데이터·거래·AI 공급자 비용은 별도라고 설명한다.",
-    "used_for": "미래 고객 접점·위임·무료 연결과 실행 보수 분리의 경쟁 신호.",
-    "limitations": "갱신일 미표시. 같은 페이지의 관할 FAQ는 IBLLC/호주/싱가포르/UK 적격 고객을 planned라고 써 전체관할 현재 출시는 확정하지 않음. 개인 고객 조건을 교보 법인/기관 고객·한국 권한에 대입하지 않음.",
+    "used_for": [
+      "미래 고객 접점·위임·무료 연결과 실행 보수 분리의 경쟁 신호."
+    ],
+    "limitations": [
+      "갱신일 미표시. 같은 페이지의 관할 FAQ는 IBLLC/호주/싱가포르/UK 적격 고객을 planned라고 써 전체관할 현재 출시는 확정하지 않음. 개인 고객 조건을 교보 법인/기관 고객·한국 권한에 대입하지 않음."
+    ],
     "topic_ids": [
       "T-AI",
       "T-AGENT-FINANCE",
@@ -6829,7 +6868,13 @@
     ],
     "event_date": null,
     "effective_date": null,
-    "adoption_stage": "current_product_and_planned_availability_mixed"
+    "adoption_stage": "current_product_and_planned_availability_mixed",
+    "previous_checked_at": "2026-11-03",
+    "previous_read_scope": "HTML 94–127,330–400: 적격성·추가 연결료·일반/자동 모드·상품/철회/관할 제한.",
+    "reuse_mode": "selected_primary_recheck_for_conditional_future_cases",
+    "review_readers": [
+      "AFX-root"
+    ]
   },
   {
     "id": "KYX-V-009",
@@ -6837,14 +6882,21 @@
     "publisher": "Interactive Brokers",
     "url": "https://ndcdyn.interactivebrokers.com/Universal/servlet/Registration_v2.formSampleView?formdb=4923&preferredFormat=html",
     "published_at": null,
-    "checked_at": "2026-11-03",
+    "checked_at": "2026-11-04",
     "visibility": "public",
     "read_status": "selected_sections",
     "source_type": "official_product_or_contract",
-    "read_scope": "HTML 0–60, §1–7: 표지 문서일·partition·주문 승인·책임·통제·위험·중단·법정권리 유보.",
+    "read_scope": [
+      "HTML 0–60, §1–7: 표지 문서일·partition·주문 승인·책임·통제·위험·중단·법정권리 유보.",
+      "2026-11-04 약관 양식0–60행 재열람: 사전 위임·AI Partition, 중복/오류 주문, 미결제 이전 지연, 책임과 배제할 수 없는 법정 권리. 실제 체결계약 미확인."
+    ],
     "summary": "2026-09-25 표시 약관은 AI Partition의 자동 주문과 고객 책임을 규정한다. 다른 IBKR 계좌 채무에 partition 자산을 사용할 수 있고, 미결제·열린 포지션으로 이전이 지연될 수 있다. 법으로 배제할 수 없는 책임과 권리는 남긴다.",
-    "used_for": "사전 위임을 주문별 승인과 구분하고 계정 분리의 한계·손실/복구 책임 검토.",
-    "limitations": "문서 표시일을 모든 고객의 효력·출시일로 확정하지 않음. 실제 서명·활성화·거래·수익성 미확인. 공급자의 면책 문구가 감독당국의 승인이나 한국에서의 책임 면제를 증명하지 않음.",
+    "used_for": [
+      "사전 위임을 주문별 승인과 구분하고 계정 분리의 한계·손실/복구 책임 검토."
+    ],
+    "limitations": [
+      "문서 표시일을 모든 고객의 효력·출시일로 확정하지 않음. 실제 서명·활성화·거래·수익성 미확인. 공급자의 면책 문구가 감독당국의 승인이나 한국에서의 책임 면제를 증명하지 않음."
+    ],
     "topic_ids": [
       "T-AI",
       "T-AGENT-FINANCE",
@@ -6853,7 +6905,13 @@
     "event_date": null,
     "effective_date": null,
     "document_date": "2026-09-25",
-    "adoption_stage": "published_contract_form"
+    "adoption_stage": "published_contract_form",
+    "previous_checked_at": "2026-11-03",
+    "previous_read_scope": "HTML 0–60, §1–7: 표지 문서일·partition·주문 승인·책임·통제·위험·중단·법정권리 유보.",
+    "reuse_mode": "selected_primary_recheck_for_conditional_future_cases",
+    "review_readers": [
+      "AFX-root"
+    ]
   },
   {
     "id": "KYX-V-010",
@@ -6930,18 +6988,20 @@
     "publisher": "Velocity Clearing",
     "url": "https://www.velocityclearingllc.com/services/clearing/",
     "published_at": null,
-    "checked_at": "2026-11-03",
+    "checked_at": "2026-11-04",
     "visibility": "public",
     "read_status": "selected_sections",
     "read_scope": [
-      "공식 서비스 웹행28–61"
+      "공식 서비스 웹행28–61",
+      "2026-11-04 공식 HTML 28–61행: 주식·ETF·관련 옵션, 채권·뮤추얼펀드 COMING SOON, 선물 IB–FCM 관계, fully disclosed/omnibus/direct 고객 모델."
     ],
     "summary": "주식·ETF·관련 옵션을 소개한다. 채권·뮤추얼펀드는 COMING SOON으로 표시하며 선물은 IB–FCM 관계다. Fully disclosed·omnibus·기관 직접 고객 모델을 구분한다.",
     "used_for": [
       "현재 제품 범위와 미래·외부 의존 기능을 나눈다."
     ],
     "limitations": [
-      "서비스 안내이며 실제 고객별 계약·수익·적격·SLA는 미확인. 등록 업종 전체와 상용 메뉴가 일치한다고 단정하지 않는다."
+      "서비스 안내이며 실제 고객별 계약·수익·적격·SLA는 미확인. 등록 업종 전체와 상용 메뉴가 일치한다고 단정하지 않는다.",
+      "회사 서비스 안내의 선택 재열람. 특정 고객 계약·요율·현금/SLA·토큰 지원·KDEF/KMCA 청산은 미확인."
     ],
     "topic_ids": [
       "T-COMPANIES",
@@ -6951,7 +7011,18 @@
       "T-SETTLEMENT"
     ],
     "meaning": "현재 제품 범위와 미래·외부 의존 기능을 나눈다.",
-    "adoption_stage": "advertised_current_services_with_planned_items"
+    "adoption_stage": "advertised_current_services_with_planned_items",
+    "previous_checked_at": "2026-11-03",
+    "reuse_verification": {
+      "checked_at": "2026-11-04",
+      "mode": "official_original_selected_reread",
+      "read_scope": "2026-11-04 공식 HTML 28–61행: 주식·ETF·관련 옵션, 채권·뮤추얼펀드 COMING SOON, 선물 IB–FCM 관계, fully disclosed/omnibus/direct 고객 모델.",
+      "limitations": "회사 서비스 안내의 선택 재열람. 특정 고객 계약·요율·현금/SLA·토큰 지원·KDEF/KMCA 청산은 미확인."
+    },
+    "change_reason": "규제·위임 성립 이후 한화 고객 선택 사례를 위해 기존 공식 근거의 기능·비용 경계만 선택 재확인. 신규 계약·성과로 확대하지 않음.",
+    "review_readers": [
+      "AFX-hanwha"
+    ]
   },
   {
     "id": "HWX-A-002",
@@ -7111,19 +7182,21 @@
     "publisher": "Exchange Listed Funds Trust / SEC EDGAR",
     "url": "https://www.sec.gov/Archives/edgar/data/1547950/000121390026035567/ea0282658-01_485bpos.htm",
     "published_at": "2026-03-27",
-    "checked_at": "2026-11-03",
+    "checked_at": "2026-11-04",
     "visibility": "public",
     "read_status": "selected_sections",
     "read_scope": [
       "제출 표지·3/30 효력 체크",
-      "합본 중 KDEF Fund Management 인쇄p21, 웹행6021–6033; 지수 설명5648–5652, 매매6072–6074"
+      "합본 중 KDEF Fund Management 인쇄p21, 웹행6021–6033; 지수 설명5648–5652, 매매6072–6074",
+      "2026-11-04 SEC 제출 HTML 6023–6033행(인쇄21쪽) adviser/sponsor/비용, 6072–6077·6092행의 시장매매·NAV 비용·AP 설정환매를 선택 재열람."
     ],
     "summary": "ETC의0.65% adviser 보수와 한화운용의 sponsor 계약을 명시한다. 한화는 제외비용 외 펀드 비용과 해당 시 ETC 최소보수를 부담하고 ETC로부터 AUM 연동 보수를 받는다.",
     "used_for": [
       "지급자·수취자·비용 부담을 닫아 교차상장 경제성을 판단한다."
     ],
     "limitations": [
-      "한화 보수율·최소보수액·실현수입은 이 절에 미공개다. 합본 전체와 계약 부속서·후속 변경은 읽지 않았다. KMCA에 그대로 적용하지 않는다."
+      "한화 보수율·최소보수액·실현수입은 이 절에 미공개다. 합본 전체와 계약 부속서·후속 변경은 읽지 않았다. KMCA에 그대로 적용하지 않는다.",
+      "2026-03-27 제출문서의 KDEF 선택 절. 2027 조건·한화 요율·최소보수·실현수입·KMCA 동일 적용은 확인하지 않음."
     ],
     "topic_ids": [
       "T-RIGHTS",
@@ -7131,7 +7204,18 @@
       "T-COMPANIES"
     ],
     "meaning": "지급자·수취자·비용 부담을 닫아 교차상장 경제성을 판단한다.",
-    "effective_date": "2026-03-30"
+    "effective_date": "2026-03-30",
+    "previous_checked_at": "2026-11-03",
+    "reuse_verification": {
+      "checked_at": "2026-11-04",
+      "mode": "official_original_selected_reread",
+      "read_scope": "2026-11-04 SEC 제출 HTML 6023–6033행(인쇄21쪽) adviser/sponsor/비용, 6072–6077·6092행의 시장매매·NAV 비용·AP 설정환매를 선택 재열람.",
+      "limitations": "2026-03-27 제출문서의 KDEF 선택 절. 2027 조건·한화 요율·최소보수·실현수입·KMCA 동일 적용은 확인하지 않음."
+    },
+    "change_reason": "규제·위임 성립 이후 한화 고객 선택 사례를 위해 기존 공식 근거의 기능·비용 경계만 선택 재확인. 신규 계약·성과로 확대하지 않음.",
+    "review_readers": [
+      "AFX-hanwha"
+    ]
   },
   {
     "checked_at": "2026-11-03",
@@ -7882,7 +7966,8 @@
     "read_status": "selected_sections",
     "read_scope": [
       "웹 본문 137–169행: 투자·상환 09:30–15:45 ET, 기초자산 휴장·거래정지와 플랫폼 제한.",
-      "발행환매 ET09:30~15:45·개별 종목 정지 시 묶음 정지·야간 미지원·2차 이전"
+      "발행환매 ET09:30~15:45·개별 종목 정지 시 묶음 정지·야간 미지원·2차 이전",
+      "AFX 교보 사례에서 2026-11-04 본문 L137–184 재열람: 발행환매 창·구성종목 정지·off-hours 제외·2차 이전/거래와 괴리."
     ],
     "summary": "직접 발행·환매는 일반적으로 미국 정규시장 영업일 ET09:30~15:45이며 구성자산 하나라도 거래 불가하면 포트폴리오가 정지될 수 있다. 제한 조건 아래 온체인 이전·2차 거래는 상시 가능하나 이는 직접 환매와 다르다.",
     "used_for": [
@@ -7905,7 +7990,8 @@
     "source_type": "official_product_documentation",
     "review_readers": [
       "P",
-      "E"
+      "E",
+      "AFX-kyobo"
     ],
     "prior_or_parallel_summary": [
       "직접 투자·상환은 미국 거래일의 정해진 창구로 제한된다. 구성자산 거래정지나 플랫폼 조건으로 전체 포트폴리오 처리가 중단될 수 있다."

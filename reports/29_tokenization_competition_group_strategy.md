@@ -103,3 +103,7 @@ IMF 2026년10월 연구의 시장구조·레포 분석은 법적 책임이 남�
 
 
 연결: [전체 환경 판단](29_tokenization_competition_group_strategy.md) · [상품 경제성](../data/blackrock_ondo_product_economics.json) · [그룹 대응 원장](../data/global_position_group_map.json) · [실행·검증](../runs/2026-11-04-ondo-position-integration.json)
+
+## 2027년 이후 고객 AI의 선택·돈·수익 이동
+
+필요한 권한·위임·인프라가 성립한 강한 가정 아래 [고객·경쟁·잠식 통합 사례](31_agent_finance_customer_money_2027.md)를 이어 썼다. [BNK](32_bnk_agent_customer_cash.md), [교보](33_kyobo_agent_assets_business.md), [한화](34_hanwha_agent_insurance_global.md)의 실제 기반을 출발점으로 쓰되 미래의 가격·거래·고객·이익은 관측 사실과 구분했다.

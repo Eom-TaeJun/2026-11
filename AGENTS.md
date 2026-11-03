@@ -51,3 +51,5 @@ GitHub 인기는 목적 적합성의 보조 지표다. 현재 누적 스타, 기
 그룹·국가 후속 연구는 `agents/group_country_opportunity_workflow.md`와 `data/group_country_opportunities.json`을 따른다. 한화 상세는 reports/22~26 및 `data/hanwha_blockchain_business_plan.json`이다. BNK지주·교보그룹·한화그룹을 법적 단일 회사나 동일 연결손익으로 합치지 않는다. 국가 수요에서 새로운 고객 업무를 찾고 기존 STR 12개 순위는 사실 없이 바꾸지 않는다.
 
 교수 Ondo·글로벌 상품 비교 후속은 `agents/position_comparison_workflow.md`, reports/27~30, `data/professor_ondo_lineage.json`, `data/blackrock_ondo_product_economics.json`, `data/global_position_group_map.json`에서 이어간다. 강의의 역사적 숫자·계획과 현재 상품 조건을 나누고 동일 URL·동일 기초자산·중복 비용을 합산하지 않는다.
+
+2027년 이후 고객 AI 시나리오는 reports/31~34와 `data/agent_finance_2027_cases.json`, `data/agent_finance_value_capture.json`에서 이어간다. 시나리오를 실제 고객·회사 계획·예측치로 승격하지 않고, 기존+AI 기준선·경쟁 후 재선택·기존 사업 잠식을 유지한다.

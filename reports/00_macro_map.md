@@ -91,3 +91,7 @@ flowchart TD
 ## 2026-11-04 Ondo 원문과 기능별 비교 보완
 
 [교수 원문 계보](27_professor_ondo_lineage.md)와 [BlackRock·Ondo 비교](28_blackrock_ondo_positions.md)를 [환경·경쟁 분석](29_tokenization_competition_group_strategy.md), [세 그룹 실제 사례·대응](30_group_position_responses.md)에 연결했다. 기존 판단의 출처를 소급 변경하지 않고, 새 비교와 후속 관측을 추가한다. 2027년 일괄 개방이나 그룹 전체의 단일 권한·손익을 가정하지 않는다.
+
+## 2027년 이후 고객 AI의 선택·돈·수익 이동
+
+필요한 권한·위임·인프라가 성립한 강한 가정 아래 [고객·경쟁·잠식 통합 사례](31_agent_finance_customer_money_2027.md)를 이어 썼다. [BNK](32_bnk_agent_customer_cash.md), [교보](33_kyobo_agent_assets_business.md), [한화](34_hanwha_agent_insurance_global.md)의 실제 기반을 출발점으로 쓰되 미래의 가격·거래·고객·이익은 관측 사실과 구분했다.

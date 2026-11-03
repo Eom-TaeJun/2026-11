@@ -6,6 +6,10 @@ RWA·토큰화·온체인 금융의 환경 변화를 먼저 분석하고, 고객
 
 | 읽고 싶은 내용 | 문서 |
 |---|---|
+| AI가 선택·거래하는 2027년 이후 고객·돈·수익·경쟁 | [조건부 미래 통합 사례](reports/31_agent_finance_customer_money_2027.md) |
+| 기업 원금100·수금 지연·자산 매각/차입과 시중은행 대응 | [BNK 고객·현금](reports/32_bnk_agent_customer_cash.md) |
+| 표준상품 이탈·외부상품 관리와 문고 정산채권의 수익 | [교보 고객·자산](reports/33_kyobo_agent_assets_business.md) |
+| 인니 보험·UAE ETF·미국 기관의 돈과 계약별 수입 | [한화 고객·보장·기관](reports/34_hanwha_agent_insurance_global.md) |
 | 교수 Ondo 원문에서 2027년 경쟁과 세 그룹의 선택까지 | [통합 환경 분석](reports/29_tokenization_competition_group_strategy.md) |
 | 교수 OIP 17쪽·Mastercard 강의의 계보와 현재 교정 | [원문 복원](reports/27_professor_ondo_lineage.md) · [원문 계보 원장](data/professor_ondo_lineage.json) |
 | BlackRock·Ondo 상품별 포지션·권리·수익·현금 | [상품 비교](reports/28_blackrock_ondo_positions.md) · [경제성 원장](data/blackrock_ondo_product_economics.json) |
@@ -43,7 +47,9 @@ RWA·토큰화·온체인 금융의 환경 변화를 먼저 분석하고, 고객
 | 다음에도 갱신하는 방법 | [파이프라인 운영](PIPELINE.md) |
 | 역할별 입력·출력·판단 기준 | [8개 에이전트 명세](agents/roles.json) · [호스트 지침](AGENTS.md) |
 
-현재 **출처 283건, 주장·가설 358개, 주제 14개**를 기록했다. 이번 Ondo 연결 보완은 **신규 출처 34건·기존 출처 7건 선택 재확인, 주장 53개 추가**다. 교수 공개 원문 4개 중 1개는 기존 카드를 유지했고, 중복 공식 URL 4개를 합쳤다. 이 수는 보고서 전문 정독 수가 아니다. [이번 실행·독립 검토](runs/2026-11-04-ondo-position-integration.json).
+이번 후속은 **조건부 고객 사례 6개, 주장·가설 23개 추가, 기존 출처 9건 선택 재확인**이다. 새로운 시장 실적이나 규제 일괄 시행을 주장하지 않는다. 같은 고객의 기존+AI·그룹 적응·경쟁사 대응과 재선택, 원금·수익·잠식을 구분했다. [사례 원장](data/agent_finance_2027_cases.json) · [수익 귀속](data/agent_finance_value_capture.json) · [실행·검토](runs/2026-11-04-agent-finance-cases.json).
+
+현재 **출처 283건, 주장·가설 381개, 주제 14개**를 기록했다. 앞선 Ondo 연결 보완은 **신규 출처 34건·기존 출처 7건 선택 재확인, 주장 53개 추가**다. 교수 공개 원문 4개 중 1개는 기존 카드를 유지했고, 중복 공식 URL 4개를 합쳤다. 이 수는 보고서 전문 정독 수가 아니다. [이번 실행·독립 검토](runs/2026-11-04-ondo-position-integration.json).
 
 이전 한화·그룹 심화는 **출처 카드27건 추가·기존28건 갱신, 주장60개 추가**다. 기존28건 중27건은 선택 범위를 실제 재열람했고1건은 기존 검증 기록을 재사용했다. 카드별 읽은 범위를 표시한다. 이 수는 보고서·법령 전문 정독 수가 아니다. 이전 교보 심화(출처26건 추가·기존9건 갱신·주장45개 추가/3개 갱신), 경남 심화(출처24건 추가·기존3건 갱신·주장45개 추가)는 각 실행 기록을 보존한다. **전략 검토 과제12개**의 기존 순위를 유지하고 한화 STR-HW-01~04를 구체화했다. **제도 경로41개·관측 일정18개·경쟁 시나리오5개**의 국가별 규제 원장은11월2일 기준이며 일부 조문만 재열람했다. 같은 원문의 대체 URL은 한 자료로 합친다.
 

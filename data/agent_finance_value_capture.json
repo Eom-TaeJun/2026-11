@@ -1,0 +1,104 @@
+{
+  "as_of": "2026-11-04",
+  "report": "reports/31_agent_finance_customer_money_2027.md",
+  "classification": "analytical_contract_flows_and_conditional_hypotheses",
+  "case_record": "data/agent_finance_2027_cases.json",
+  "claim_ids": [
+    "C-377",
+    "C-378",
+    "C-379",
+    "C-380",
+    "C-381"
+  ],
+  "contract_models": [
+    {
+      "id": "AFX-PAYER-1",
+      "payer": "customer",
+      "payee": "independent AI provider legal entity",
+      "fee_type": "optional subscription or agreed service price",
+      "actual_fee": null,
+      "financial_group_effect": "total-cost comparison may reduce distribution/packaging rents",
+      "conflict": "ranking quality and customer mandate; multiple AI providers can contest access"
+    },
+    {
+      "id": "AFX-PAYER-2",
+      "payer": "financial institution",
+      "payee": "technology supplier",
+      "fee_type": "B2B technology/service contract",
+      "actual_fee": null,
+      "financial_group_effect": "cost savings may be passed to customers; cannot assume all retained as profit",
+      "conflict": "own-product preference and incomplete comparison"
+    },
+    {
+      "id": "AFX-PAYER-3",
+      "payer": "party under permitted distribution/referral contract",
+      "payee": "platform legal entity",
+      "fee_type": "only lawful agreed distribution/referral consideration",
+      "actual_fee": null,
+      "financial_group_effect": "partner share may absorb margin even when volume grows",
+      "conflict": "paid ranking; compliance/disclosure/appropriateness and prohibited fees remain"
+    }
+  ],
+  "contribution_model": {
+    "scope": "single comparable repeatable operating task, legal entity, currency, customer cohort and period; not insurance-contract accounting profit",
+    "formula": "delta = N * (p - c) - F - L",
+    "p": "actual average earned revenue per completed paid task",
+    "c": "non-overlapping task-level costs, partner share and applicable risk/funding/capital burden",
+    "F": "incremental period fixed cost not already included in c",
+    "L": "old-business net contribution lost; savings in that business reflected once",
+    "N": "completed paid tasks in the same period",
+    "positive_condition": "if p > c, N > (F + L) / (p - c)",
+    "actual_inputs": {
+      "p": null,
+      "c": null,
+      "F": null,
+      "L": null,
+      "N": null
+    },
+    "calculated_forecast": null,
+    "limits": [
+      "No fixed-cost, FTP, capital or loss double counting",
+      "Whole-company before/after already contains cannibalization; do not subtract it twice",
+      "Do not combine stock-based, transaction-based and insurance quantities in one N",
+      "Prices and costs can change with quantity; threshold is conditional, not estimated"
+    ]
+  },
+  "competitive_rounds": [
+    {
+      "round": 1,
+      "customer_action": "AI compares eligible purpose/right/cash/cost combinations",
+      "incumbent_effect": "customer relationship fragments by function"
+    },
+    {
+      "round": 2,
+      "competitor_action": "free connection/CMS, direct distribution, bundled price, higher deposit rate or cheaper FX/credit, improved claims/operations",
+      "incumbent_effect": "new service revenue and retained customer count may rise while margins fall"
+    },
+    {
+      "round": 3,
+      "customer_action": "reselect using actual price, final cash, servicing and switching costs",
+      "incumbent_choice": "keep differentiating function, buy external function, reprice or exit unprofitable work"
+    }
+  ],
+  "separate_books": [
+    "customer assets and debt",
+    "cash payer and recipient",
+    "contract revenue and cost",
+    "risk and recovery responsibility"
+  ],
+  "group_checks": {
+    "BNK": "separate individual-bank funding from total-system deposits and issuer reserves",
+    "Kyobo": "service-covered balances can overlap underlying AUM; distinguish actual origination and repeated claims",
+    "Hanwha": "premium cash, insurance revenue, liabilities, cohorts and investment results differ; ETF secondary trade is not automatically fund creation"
+  },
+  "observations": [
+    "same-customer function-specific balance and transaction migration",
+    "effective total price and partner share",
+    "repeat paid completion and final usable cash",
+    "cannibalization and avoidable costs in one scope",
+    "legal rights, mistakes, loss and recovery",
+    "insurance long-term cohort and underwriting mix"
+  ],
+  "actual_contracts_confirmed_for_proposals": false,
+  "scheduled_monitoring_enabled": false
+}

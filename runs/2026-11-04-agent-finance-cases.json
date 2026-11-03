@@ -1,0 +1,327 @@
+{
+  "as_of": "2026-11-04",
+  "timezone": "Asia/Seoul",
+  "status": "validated_pending_remote_publication",
+  "request": "규제·인프라 성립 이후 AI 에이전트 고객의 돈·수익 이동과 경쟁 및 잠식 사례를 GitHub에 축적",
+  "baseline_head": "2491cb37b8605363289951bee0fc3aac2ccf8d95",
+  "baseline_files": 410,
+  "workers": [
+    {
+      "name": "coordinator",
+      "work": "공통 가정·수익 귀속·경쟁 합성, 단일 작성 병합·검증·게시 상태 관리"
+    },
+    {
+      "name": "source_design",
+      "work": "BNK 고객·원금·부채·조달·경쟁, 통합초안 독립 검토"
+    },
+    {
+      "name": "mechanism_design",
+      "work": "교보 표준상품·비정형 권리·투자자·수익, 통합초안 독립 검토"
+    },
+    {
+      "name": "validation_design",
+      "work": "한화 인니·UAE·미국의 고객·계약·경쟁, 통합 및 교보 초안 독립 검토"
+    }
+  ],
+  "actual_workers": 4,
+  "logical_roles": 8,
+  "new_source_ids": [],
+  "updated_source_ids": [
+    "ST-KN-002",
+    "ST-TD-005",
+    "KNX-S-007",
+    "KYX-M-002",
+    "OBX-P-007",
+    "HWX-A-001",
+    "HWX-A-008",
+    "KYX-V-008",
+    "KYX-V-009"
+  ],
+  "source_aliases": {},
+  "claim_id_map": {
+    "AFX-BNK-C-001": "C-359",
+    "AFX-BNK-C-002": "C-360",
+    "AFX-BNK-C-003": "C-361",
+    "AFX-BNK-C-004": "C-362",
+    "AFX-BNK-C-005": "C-363",
+    "AFX-BNK-C-006": "C-364",
+    "AFX-KY-C-001": "C-365",
+    "AFX-KY-C-002": "C-366",
+    "AFX-KY-C-003": "C-367",
+    "AFX-KY-C-004": "C-368",
+    "AFX-KY-C-005": "C-369",
+    "AFX-KY-C-006": "C-370",
+    "AFX-HW-C-001": "C-371",
+    "AFX-HW-C-002": "C-372",
+    "AFX-HW-C-003": "C-373",
+    "AFX-HW-C-004": "C-374",
+    "AFX-HW-C-005": "C-375",
+    "AFX-HW-C-006": "C-376",
+    "AFX-R-C-001": "C-377",
+    "AFX-R-C-002": "C-378",
+    "AFX-R-C-003": "C-379",
+    "AFX-R-C-004": "C-380",
+    "AFX-R-C-005": "C-381"
+  },
+  "counts": {
+    "sources_before": 283,
+    "sources_after": 283,
+    "claims_before": 358,
+    "claims_after": 381,
+    "new_claims": 23,
+    "conditional_cases": 6,
+    "new_sources": 0,
+    "existing_sources_rechecked": 9,
+    "topics": 14
+  },
+  "source_reuse": {
+    "bnk": {
+      "reused_ids": [
+        {
+          "id": "ST-KN-002",
+          "mode": "live_selected_primary_recheck",
+          "checked_at": "2026-11-04",
+          "read_scope": "이번 실제 재열람: 공식 HTML 76–107행의 서비스 개요, 여러 은행 계좌 조회·집금/배분·대출·회계·재고 기능."
+        },
+        {
+          "id": "ST-TD-005",
+          "mode": "live_selected_primary_recheck",
+          "checked_at": "2026-11-04",
+          "read_scope": "이번 실제 재열람: 웹행 17–29의 수요 출처·준비자산 배분, 39–62의 중앙은행 계좌 가정·예금 분포/구성·경쟁 대응. 정량 승수·당시 발행사 준비금 비율은 사용하지 않음."
+        },
+        {
+          "id": "KNX-S-007",
+          "mode": "live_selected_primary_recheck",
+          "checked_at": "2026-11-04",
+          "read_scope": "이번 실제 재열람: HTML 1092–1138 개요·주요서비스, 1143–1300 업무 메뉴·유지운영·선택 적용, 1323–1325 심의 표시/약관 안내. 로그인·실행·가격 미확인."
+        },
+        {
+          "id": "KNX-S-001",
+          "mode": "existing_public_ledger_context_only",
+          "checked_at_changed": false,
+          "limit": "이번 외부 원문 재열람 아님. 기존 원장 읽기 범위와 확인일을 유지."
+        },
+        {
+          "id": "KNX-S-002",
+          "mode": "existing_public_ledger_context_only",
+          "checked_at_changed": false,
+          "limit": "이번 외부 원문 재열람 아님. 기존 원장 읽기 범위와 확인일을 유지."
+        },
+        {
+          "id": "ST-KN-005",
+          "mode": "existing_public_ledger_context_only",
+          "checked_at_changed": false,
+          "limit": "이번 외부 원문 재열람 아님. 기존 원장 읽기 범위와 확인일을 유지."
+        },
+        {
+          "id": "KNX-M-001",
+          "mode": "existing_public_ledger_context_only",
+          "checked_at_changed": false,
+          "limit": "이번 외부 원문 재열람 아님. 기존 원장 읽기 범위와 확인일을 유지."
+        },
+        {
+          "id": "KNX-M-003",
+          "mode": "existing_public_ledger_context_only",
+          "checked_at_changed": false,
+          "limit": "이번 외부 원문 재열람 아님. 기존 원장 읽기 범위와 확인일을 유지."
+        },
+        {
+          "id": "KNX-R-001",
+          "mode": "existing_public_ledger_context_only",
+          "checked_at_changed": false,
+          "limit": "이번 외부 원문 재열람 아님. 기존 원장 읽기 범위와 확인일을 유지."
+        },
+        {
+          "id": "HWX-R-002",
+          "mode": "existing_public_ledger_context_only",
+          "checked_at_changed": false,
+          "limit": "이번 외부 원문 재열람 아님. 기존 원장 읽기 범위와 확인일을 유지."
+        },
+        {
+          "id": "HWX-R-003",
+          "mode": "existing_public_ledger_context_only",
+          "checked_at_changed": false,
+          "limit": "이번 외부 원문 재열람 아님. 기존 원장 읽기 범위와 확인일을 유지."
+        },
+        {
+          "id": "HWX-R-004",
+          "mode": "existing_public_ledger_context_only",
+          "checked_at_changed": false,
+          "limit": "이번 외부 원문 재열람 아님. 기존 원장 읽기 범위와 확인일을 유지."
+        },
+        {
+          "id": "ST-TD-007",
+          "mode": "existing_public_ledger_context_only",
+          "checked_at_changed": false,
+          "limit": "이번 외부 원문 재열람 아님. 기존 원장 읽기 범위와 확인일을 유지."
+        },
+        {
+          "id": "SRC-BOK-HANGANG",
+          "mode": "existing_public_ledger_context_only",
+          "checked_at_changed": false,
+          "limit": "이번 외부 원문 재열람 아님. 기존 원장 읽기 범위와 확인일을 유지."
+        }
+      ],
+      "limits": [
+        "새 원문은 추가하지 않고 기존 공식 원문 3개를 실제 선택 재열람했다.",
+        "기존 보고서16/17/29/30 및 관련 원장·주장을 선택 읽었으며 실제 기업 자료·계약·거래를 확보하지 않았다.",
+        "정규화 수치는 현금·부채의 일관성 확인용. 시장가격·수익률·최적 배분·실적 추정이 아니다.",
+        "예금 총량·중앙은행 계정·국고 결제의 결과는 관할·준비자산·거래 상대방에 따라 다르며 불변 총량으로 모델링하지 않았다."
+      ]
+    },
+    "kyobo": {
+      "reused_ids": [
+        "KYX-M-001",
+        "KYX-M-002",
+        "KYX-M-004",
+        "KYX-M-005",
+        "KYX-M-009",
+        "KYX-A-004",
+        "ST-KY-001",
+        "FIN-008",
+        "OBX-E-001",
+        "OBX-E-002",
+        "OBX-E-004",
+        "OBX-E-005",
+        "OBX-E-007",
+        "OBX-E-019",
+        "OBX-E-020",
+        "OBX-P-005",
+        "OBX-P-007",
+        "KYX-V-008"
+      ],
+      "limits": []
+    },
+    "hanwha": {
+      "reused_ids": [
+        "HWX-A-001",
+        "HWX-A-002",
+        "HWX-A-004",
+        "HWX-A-008",
+        "HWX-R-008",
+        "HWX-V-003",
+        "HWX-V-005",
+        "KYX-V-008",
+        "NOV-M07",
+        "OBX-E-020",
+        "ST-HW-006",
+        "ST-HW-007",
+        "ST-HW-015"
+      ],
+      "limits": [
+        "공식 원문2건 선택재열람+1건실패. 그 외 기존공개근거를 재사용했으며 규제·기업전수갱신 아님.",
+        "실제고객 정보·위임·견적·거래·실험·제휴·가격·예산·성과 미확인.",
+        "보험 장기성과·스트레스 회수는90일 초기검증으로 입증되지 않음.",
+        "교수형 경제질문을 적용한 연구자 해석이며 특정교수의현재견해·기업확정전략 아님."
+      ]
+    },
+    "root": {
+      "reused_ids": [
+        "NOV-M07",
+        "ST-TD-005",
+        "ST-KN-002",
+        "ST-HW-007",
+        "HWX-R-008",
+        "OBX-E-006"
+      ],
+      "limits": []
+    }
+  },
+  "reports": [
+    "reports/31_agent_finance_customer_money_2027.md",
+    "reports/32_bnk_agent_customer_cash.md",
+    "reports/33_kyobo_agent_assets_business.md",
+    "reports/34_hanwha_agent_insurance_global.md"
+  ],
+  "records": [
+    "data/agent_finance_2027_cases.json",
+    "data/agent_finance_value_capture.json"
+  ],
+  "validation": {
+    "ledger": "passed: 283 sources / 381 claims / 14 topics",
+    "links": "passed",
+    "unit_tests": "15 passed",
+    "principal_arithmetic": {
+      "BNK_states_checked": 11,
+      "BNK_start_cash": 100,
+      "separate_receivable": 20,
+      "outgoing_principal": 70,
+      "ending_tracked_net_financial_assets_each_branch": 50,
+      "Kyobo_allocations_checked": 4,
+      "Kyobo_each_total": 100,
+      "Kyobo_purpose_totals": [
+        60,
+        40
+      ],
+      "Kyobo_service_overlap_not_added_to_assets": true,
+      "meaning": "Illustrative pre-cost principal; not observed return, zero actual costs or profitable outcomes"
+    },
+    "cross_references": "source/claim/strategy/case references in five ledgers resolved",
+    "preservation": "all 410 prior files and 358 prior claims retained; no source deletion or priority reassignment",
+    "public_content": "no private path or credential markers in changed files",
+    "limits": "Automated checks do not validate source truth, legal rights, demand or actual profit."
+  },
+  "review": "runs/2026-11-04-agent-finance-review.md",
+  "publication": {
+    "status": "pending",
+    "repository": "Eom-TaeJun/2026-11",
+    "branch": "main"
+  },
+  "not_performed": [
+    "actual customer trial",
+    "financial transactions",
+    "account connection",
+    "partner contact",
+    "new agent server installation",
+    "scheduled monitoring",
+    "all-country regulation refresh"
+  ],
+  "source_access_attempts": {
+    "kyobo": [
+      {
+        "source_id": "KYX-A-004",
+        "attempted_at": "2026-11-04",
+        "url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=03&joNo=0077&lsiSeq=288615&urlMode=lsScJoRltInfoR",
+        "result": "web_tool_internal_error",
+        "consequence": "11/3 기존 선택 확인 기록 재사용; checked_at 갱신 안 함",
+        "canonical_record_url": "https://www.law.go.kr/LSW/lsSideInfoP.do?docCls=jo&joBrNo=02&joNo=0077&lsiSeq=288615&urlMode=lsScJoRltInfoR",
+        "note": "인접 조문 URL의 시도 실패. 공개 사례의 출처 링크는 기존 canonical로 유지하며 이번에 어느 조문도 새 확인으로 처리하지 않음."
+      }
+    ],
+    "hanwha": [
+      {
+        "id": "HWX-A-001",
+        "url": "https://www.velocityclearingllc.com/services/clearing/",
+        "attempted_at": "2026-11-04",
+        "result": "selected_original_read",
+        "read_scope": "2026-11-04 공식 HTML 28–61행: 주식·ETF·관련 옵션, 채권·뮤추얼펀드 COMING SOON, 선물 IB–FCM 관계, fully disclosed/omnibus/direct 고객 모델.",
+        "limitations": "회사 서비스 안내의 선택 재열람. 특정 고객 계약·요율·현금/SLA·토큰 지원·KDEF/KMCA 청산은 미확인."
+      },
+      {
+        "id": "HWX-A-008",
+        "url": "https://www.sec.gov/Archives/edgar/data/1547950/000121390026035567/ea0282658-01_485bpos.htm",
+        "attempted_at": "2026-11-04",
+        "result": "selected_original_read",
+        "read_scope": "2026-11-04 SEC 제출 HTML 6023–6033행(인쇄21쪽) adviser/sponsor/비용, 6072–6077·6092행의 시장매매·NAV 비용·AP 설정환매를 선택 재열람.",
+        "limitations": "2026-03-27 제출문서의 KDEF 선택 절. 2027 조건·한화 요율·최소보수·실현수입·KMCA 동일 적용은 확인하지 않음."
+      },
+      {
+        "id": "ST-HW-007",
+        "url": "https://www.nobubank.com/id/perorangan/wealth-management/bancassurance/",
+        "attempted_at": "2026-11-04",
+        "result": "access_failed_timeout",
+        "read_scope": null,
+        "prior_checked_at_retained": "2026-11-03",
+        "consequence": "11/3 공개 원장 확인범위 재사용. 이번 성공 재확인으로 집계하거나 checked_at 변경하지 않음."
+      }
+    ]
+  },
+  "independent_review_corrections": [
+    "관리료 상한은 해당 관리료 차감 전 고객 순편익으로 정의",
+    "생명→외부 출판사의 현금유출은 보존하고 실제 연결범위의 내부 구간만 제거",
+    "취소불가 거래와 추가 출금권한 승인 분리",
+    "보험 비교/청구 접점 변경과 기존 계약/유통보수의 자동 이전 구분",
+    "보험 장기 손익과 건당 운영기여 식 분리",
+    "신규 발행의 자금 용도는 준비자산/펀드기초자산/원채권자 조기현금화 등 상품별 구분"
+  ]
+}
