@@ -3,7 +3,7 @@
   "as_of": "2026-11-03",
   "cutoff_timezone": "Asia/Seoul",
   "scope": "한화생명 블록체인팀 관점의 국가별 고객 업무 및 BNK·교보·한화 그룹 기회 발굴",
-  "status": "validated_ready_for_publication",
+  "status": "published_and_remote_verified",
   "base_remote_commit": "b5b9cd2f870115ebb6728b77d748a35dd561d964",
   "agent_execution": {
     "actual_workers": 4,
@@ -345,5 +345,12 @@
     "한화 직접 Circle/Tether 계약과 Velocity 코인입금",
     "MENA 개별 FSP 범위",
     "LGI 신규 Nobu 채널 계약과 산업 현금흐름 RWA 계약"
-  ]
+  ],
+  "publication": {
+    "content_commit": "02e55a90be7692ecfcb069d2f68185f7a79437b6",
+    "receipt": "runs/2026-11-03-hanwha-publication.json",
+    "all_content_blobs_verified": 363,
+    "exact_key_file_readbacks": 9,
+    "public_html_verified": true
+  }
 }

@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0",
+  "research_as_of": "2026-11-03",
+  "verified_at_utc": "2026-11-03T14:58:06Z",
+  "repository": "Eom-TaeJun/2026-11",
+  "branch": "main",
+  "content_commit": "02e55a90be7692ecfcb069d2f68185f7a79437b6",
+  "content_tree": "b677b1eacf6ca24635758baab7bef9ceb8f7c408",
+  "base_commit": "b5b9cd2f870115ebb6728b77d748a35dd561d964",
+  "verification": {
+    "all_content_tree_blobs": 363,
+    "blob_mismatches": 0,
+    "unexpected_paths": 0,
+    "retained_existing_paths": 324,
+    "intentional_existing_file_updates": 66,
+    "new_content_files": 39,
+    "exact_content_and_sha_readback": [
+      "README.md",
+      "reports/22_hanwha_group_business_plan.md",
+      "reports/23_hanwha_indonesia_business.md",
+      "reports/24_hanwha_us_uae_rails.md",
+      "reports/25_group_country_opportunity_discovery.md",
+      "reports/26_hanwha_ai_group_competition.md",
+      "data/hanwha_blockchain_business_plan.json",
+      "data/group_country_opportunities.json",
+      "agents/group_country_opportunity_workflow.md"
+    ],
+    "public_html": {
+      "url": "https://github.com/Eom-TaeJun/2026-11/blob/main/reports/22_hanwha_group_business_plan.md",
+      "http_status": 200,
+      "report_title_present": true,
+      "indonesia_report_link_present": true,
+      "scope": "공개 HTML 응답의 제목·연결 확인; 모든 브라우저 화면·Mermaid 시각 렌더링 전수 검사는 아님"
+    },
+    "research_build_validate": "passed:249 sources/305 claims/14 topics",
+    "tests": "15 passed",
+    "structured_source_claim_links": "passed",
+    "relative_links": "passed",
+    "public_boundary_scan": "passed",
+    "independent_mechanism_review": "completed with corrections and sampled-source limits"
+  },
+  "publication_note": "이 기록과 실행 기록의 게시 완료 상태는 검증한 본문 커밋 다음 커밋에 저장한다. 이 기록의 자기 커밋 SHA를 본문에 순환 삽입하지 않는다.",
+  "scope_limits": [
+    "실제 고객 시험·보험판매·거래·외부 연락·예약 감시 없음",
+    "고객·계약가격·예산·ROI·실현이익 미확인",
+    "국가별 규제 전체 최신화·전수 법률/재무 감사 아님"
+  ]
+}
