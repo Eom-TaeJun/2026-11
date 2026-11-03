@@ -1,0 +1,322 @@
+{
+  "as_of": "2026-11-04",
+  "timezone": "Asia/Seoul",
+  "request": "교수 Ondo 원문과 BlackRock/Ondo 포지션·수익을 세 그룹 실제 사례·방향성과 연결해 GitHub 반영",
+  "status": "validated_pending_remote_publication",
+  "baseline_head": "2d93239c350f8394d88ae5b891788765c4c05bf5",
+  "baseline_files": 364,
+  "workers": [
+    {
+      "role": "coordinator",
+      "performed": "환경 합성·원문 교차확인·단일 작성 병합·검증. 원격 게시 상태는 publication 필드에서 별도 확인."
+    },
+    {
+      "role": "source_design",
+      "performed": "교수 공개 원문 4개·현재 공식 설명·파일럿 복원, 상품 비교 독립 검토"
+    },
+    {
+      "role": "mechanism_design",
+      "performed": "상품별 발행법인·권리·보수·현금, 환경/그룹 적용 교차검토"
+    },
+    {
+      "role": "validation_design",
+      "performed": "그룹 사례·기능 적용, 글로벌 4개 원문과 통합 보고서 독립 검토"
+    }
+  ],
+  "logical_roles": 8,
+  "actual_concurrent_workers_including_coordinator": 4,
+  "new_source_ids": [
+    "OBX-P-001",
+    "OBX-P-002",
+    "OBX-P-003",
+    "OBX-P-004",
+    "OBX-P-005",
+    "OBX-P-006",
+    "OBX-P-007",
+    "OBX-P-008",
+    "OBX-P-009",
+    "OBX-E-001",
+    "OBX-E-002",
+    "OBX-E-003",
+    "OBX-E-004",
+    "OBX-E-005",
+    "OBX-E-006",
+    "OBX-E-007",
+    "OBX-E-008",
+    "OBX-E-009",
+    "OBX-E-010",
+    "OBX-E-011",
+    "OBX-E-012",
+    "OBX-E-013",
+    "OBX-E-014",
+    "OBX-E-015",
+    "OBX-E-016",
+    "OBX-E-018",
+    "OBX-E-019",
+    "OBX-E-020",
+    "OBX-E-022",
+    "OBX-E-024",
+    "OBX-E-026",
+    "OBX-E-027",
+    "OBX-E-028",
+    "OBX-R-001"
+  ],
+  "updated_source_ids": [
+    "ST-TD-003",
+    "KNX-M-002",
+    "KYO-GEO-003",
+    "HWX-A-004",
+    "ST-KN-002",
+    "FIN-011",
+    "NOV-M07"
+  ],
+  "source_aliases": {
+    "OBX-E-017": "OBX-P-004",
+    "OBX-E-021": "OBX-P-005",
+    "OBX-E-023": "OBX-P-006",
+    "OBX-E-025": "OBX-P-007"
+  },
+  "claim_id_map": {
+    "OBX-P-C-001": "C-306",
+    "OBX-P-C-002": "C-307",
+    "OBX-P-C-003": "C-308",
+    "OBX-P-C-004": "C-309",
+    "OBX-P-C-005": "C-310",
+    "OBX-P-C-006": "C-311",
+    "OBX-P-C-007": "C-312",
+    "OBX-P-C-008": "C-313",
+    "OBX-P-C-009": "C-314",
+    "OBX-P-C-010": "C-315",
+    "OBX-P-C-011": "C-316",
+    "OBX-P-C-012": "C-317",
+    "OBX-P-C-013": "C-318",
+    "OBX-E-C-001": "C-319",
+    "OBX-E-C-002": "C-320",
+    "OBX-E-C-003": "C-321",
+    "OBX-E-C-004": "C-322",
+    "OBX-E-C-005": "C-323",
+    "OBX-E-C-006": "C-324",
+    "OBX-E-C-007": "C-325",
+    "OBX-E-C-008": "C-326",
+    "OBX-E-C-009": "C-327",
+    "OBX-E-C-010": "C-328",
+    "OBX-E-C-011": "C-329",
+    "OBX-E-C-012": "C-330",
+    "OBX-E-C-013": "C-331",
+    "OBX-E-C-014": "C-332",
+    "OBX-E-C-015": "C-333",
+    "OBX-E-C-016": "C-334",
+    "OBX-E-C-017": "C-335",
+    "OBX-E-C-018": "C-336",
+    "OBX-E-C-019": "C-337",
+    "OBX-E-C-020": "C-338",
+    "OBX-G-C-001": "C-339",
+    "OBX-G-C-002": "C-340",
+    "OBX-G-C-003": "C-341",
+    "OBX-G-C-004": "C-342",
+    "OBX-G-C-005": "C-343",
+    "OBX-G-C-006": "C-344",
+    "OBX-G-C-007": "C-345",
+    "OBX-G-C-008": "C-346",
+    "OBX-G-C-009": "C-347",
+    "OBX-G-C-010": "C-348",
+    "OBX-G-C-011": "C-349",
+    "OBX-G-C-012": "C-350",
+    "OBX-G-C-013": "C-351",
+    "OBX-G-C-014": "C-352",
+    "OBX-R-C-001": "C-353",
+    "OBX-R-C-002": "C-354",
+    "OBX-R-C-003": "C-355",
+    "OBX-R-C-004": "C-356",
+    "OBX-R-C-005": "C-357",
+    "OBX-R-C-006": "C-358"
+  },
+  "counts": {
+    "sources_before": 249,
+    "sources_after": 283,
+    "new_unique_sources": 34,
+    "existing_sources_rechecked": 7,
+    "claims_before": 305,
+    "claims_after": 358,
+    "new_claims": 53,
+    "topics": 14,
+    "strategy_priorities_preserved": 12
+  },
+  "reports": [
+    "reports/27_professor_ondo_lineage.md",
+    "reports/28_blackrock_ondo_positions.md",
+    "reports/29_tokenization_competition_group_strategy.md",
+    "reports/30_group_position_responses.md"
+  ],
+  "structured_records": [
+    "data/professor_ondo_lineage.json",
+    "data/blackrock_ondo_product_economics.json",
+    "data/global_position_group_map.json"
+  ],
+  "source_reuse": {
+    "group_existing_reused_ids": [
+      "KYO-GEO-003",
+      "HWX-A-004",
+      "HWX-A-008",
+      "ST-KN-002",
+      "KNX-S-001",
+      "KNX-S-002",
+      "KNX-S-004",
+      "ST-TD-005",
+      "HWX-R-001",
+      "ST-KY-001",
+      "ST-KY-002",
+      "ST-KY-003",
+      "KYX-M-001",
+      "KYX-M-002",
+      "KYX-A-004",
+      "KYX-V-008",
+      "KYO-GEO-001",
+      "KYO-GEO-006",
+      "KYO-GEO-007",
+      "KYO-GEO-008",
+      "ST-KY-006",
+      "ST-HW-006",
+      "ST-HW-007",
+      "ST-HW-015",
+      "HWX-A-001",
+      "HWX-A-002",
+      "KNX-M-002",
+      "KYX-V-009",
+      "KNX-S-003",
+      "KNX-S-007",
+      "HWX-R-002",
+      "HWX-R-003",
+      "HWX-R-004",
+      "HWX-R-005",
+      "HWX-R-006",
+      "HWX-R-008",
+      "FIN-008"
+    ],
+    "group_recheck_scopes": {
+      "ST-KN-002": "2026-11-04 공식 HTML76–107행: 서비스 개요·다은행 조회/집금/배분·대출·회계/재고. 사용량·가격·권한·효율 실측 없음.",
+      "KYO-GEO-003": "2026-11-04 공식 HTML173–206행: 페이지게시9/29, 본문발표9/26, 프로젝트 설명과 Token X/SBIDM/교보 역할. 후속성과·규제원문 미검증.",
+      "HWX-A-004": "2026-11-04 공식 HTML0–18 및41–54행:11/2 거래개시 발표·외부 파트너·adviser/distributor. 거래실적·보수·신규토큰화 미검증."
+    },
+    "global_crosschecks": [
+      {
+        "id": "OBX-E-001",
+        "source_owner": "E packet; register once by root",
+        "title": "BlackRock Launches Its First Tokenized Fund, BUIDL, on the Ethereum Network",
+        "url": "https://investors.securitize.io/news/news-details/2024/BlackRock-Launches-Its-First-Tokenized-Fund-BUIDL-on-the-Ethereum-Network-03-20-2024/default.aspx",
+        "published_at": "2024-03-20",
+        "checked_at": "2026-11-04",
+        "visibility": "public",
+        "read_status": "selected_sections",
+        "read_scope": "공식 HTML7–17·34–40행: 출시일·운용/수탁/관리/이전대행/판매대행·법적 제한.",
+        "limitations": "역사적 출시 역할. 현재 모든 계약·보수·권한의 재검증 아님."
+      },
+      {
+        "id": "OBX-E-004",
+        "source_owner": "E packet; register once by root",
+        "title": "OUSG — portfolio and legal structure",
+        "url": "https://ondo.finance/ousg",
+        "published_at": null,
+        "checked_at": "2026-11-04",
+        "visibility": "public",
+        "read_status": "selected_sections",
+        "read_scope": "공식 HTML65–108·181–294·344–352·391–407행:11/2구성표·LP/법인·현금경로·내부 FAQ 차이.",
+        "limitations": "11/2표에는 복수 기초상품, FAQ345행에는 BUIDL 다수/TFDXX 설명이 남아 차이가 있음. 날짜 표의 공존 사실만 채택. 독립 attestation/계약전문 미독. 동적 상단0값·APY를 채택하지 않음."
+      },
+      {
+        "id": "OBX-E-019",
+        "source_owner": "E packet; register once by root",
+        "title": "Ondo Intelligent Portfolios Overview",
+        "url": "https://docs.ondo.finance/intelligent-portfolios/overview",
+        "published_at": null,
+        "checked_at": "2026-11-04",
+        "visibility": "public",
+        "read_status": "selected_sections",
+        "read_scope": "공식 HTML133–150행:OGM(BVI)발행·경제적 노출·기초주식직접소유아님·모델/구현 분리.",
+        "limitations": "무일자 안내의11/4열람. 적격고객 제공 offering documents 전문 미독. 현지 판매권·실현성과 확인 아님."
+      },
+      {
+        "id": "OBX-E-020",
+        "source_owner": "E packet; register once by root",
+        "title": "Ondo Intelligent Portfolios Model Providers",
+        "url": "https://docs.ondo.finance/intelligent-portfolios/model-providers",
+        "published_at": null,
+        "checked_at": "2026-11-04",
+        "visibility": "public",
+        "read_status": "selected_sections",
+        "read_scope": "공식 HTML137–156행:모델개발·Ondo구현/재조정/발행환매·모델제공자의 토큰역할 제외·모델목록.",
+        "limitations": "모델제공 관계를 라이선스보수 존재·요율·지급자의 증거로 확대하지 않음. 무일자 안내의11/4열람."
+      }
+    ],
+    "all_sources_full_read": false,
+    "all_existing_cards_rechecked": false
+  },
+  "independent_review": {
+    "report": "runs/2026-11-04-ondo-position-review.md",
+    "corrections": [
+      "최초 3개 OIP와 현재 7개를 시점별 구분",
+      "기간 중 고객성과에 기초 보유가치를 포함",
+      "증분 기여와 기존 사업 잠식의 이중 차감 방지",
+      "상품별 직접 은행현금 경로와 지급 토큰 후 전환 경로 구분",
+      "법인명과 브랜드 이름을 구분",
+      "현재 보수·구성 미확인은 null 보존"
+    ]
+  },
+  "validation": {
+    "ledger": "passed: 283 sources, 358 claims, 14 topics",
+    "local_links": "passed",
+    "unit_tests": "15 passed",
+    "cross_references": "all source/claim/strategy references in five affected auxiliary ledgers resolved",
+    "preservation": "all 364 baseline files retained; prior 305 claims unchanged; 12 strategy priorities retained",
+    "public_content_scan": "no private path or credential markers in changed public files",
+    "illustrative_math": "V=100 A=25 w=0.60 target=0.50 gives 0.58; not observed performance",
+    "automated_checks_do_not_establish": "Legal enforceability, source truth, economics or customer demand"
+  },
+  "publication": {
+    "status": "pending",
+    "repository": "Eom-TaeJun/2026-11",
+    "branch": "main",
+    "content_commit": null,
+    "remote_blob_verification": null
+  },
+  "limits": {
+    "P": [
+      "GitHub PDF는 connector의 원본·메타데이터와 보관된 동일 바이트를 대조한 후 17쪽 텍스트·선택 6쪽 화면을 읽었다.",
+      "일부 Ondo .md URL은 접근 실패했으나 동일 문서 일반 HTML에서 해당 본문을 실제 읽었다.",
+      "추가 클릭한 Model Providers·Legal & Regulatory·Rebalancing & Reconstitution 문서는 결과 표시가 잘려 읽기 완료 자료로 집계하지 않았다.",
+      "BlackRock/BUIDL HTML의 내장 이미지·외부 인용 원문 전체는 검증하지 않았다.",
+      "USDY의 개별 발행 계약·현행 전체 조건을 이 계보 패킷에서 확정하지 않는다. 다른 Ondo 상품 설명을 전용하지 않는다.",
+      "현재 상품별 보수율·면제 종료일·실거래/수익성·온체인 계약 및 법률 적격성 전수 확인은 하지 않았다."
+    ],
+    "E": [
+      "기업의 공개 문서·발표를 확인했다. BUIDL 사모설명서·개별 계약과 Ondo 가입 후 Sales Terms 전문, 현재 OIP 앱별 ETF 비중/실제 요율은 읽지 않았다.",
+      "발표일 없는 문서는 2026-11-04에 읽은 변경 가능한 공식 문서이며 고정된 당시 계약 사본이 아니다.",
+      "OUSG의 날짜 있는 포트폴리오 표와 일반 FAQ의 자산 설명이 충돌한다. USDY의 일반 미국 소재 표시와 발행시점별 BVI 경로가 병존한다.",
+      "Securitize BUIDL 공개 표에 서로 다른 최소금액·요율이 보여 단일 실제 계약 수치로 사용하지 않았다.",
+      "문서 URL 일부는 직접 요청 실패 후 메뉴 링크로 본문 확인했다. OIP legal-regulatory 문서는 탐색 메뉴만 반환되어 주장 근거로 채택하지 않았다.",
+      "원문 출판일이 2026-11-04 이후인 자료는 사용하지 않았다. 사이트 상대 업데이트 시각은 사건일로 사용하지 않았다.",
+      "source_records의 공개 설명은 당사자 주장 범위이며 실제 가동률·개별 계약 적법성·수익성·수탁자 독립 확인을 대체하지 않는다."
+    ],
+    "G": [
+      "상품별 글로벌 비교는 보고서28·상품 경제성 원장과 연결 완료. 최종 약관·계약가격·현재 실제 운영성과 미확인은 유지.",
+      "BNK·교보 전 계열·전 국가 조사 완료가 아니며 한화 인니/미국/UAE 심화와 동일한 깊이를 주장하지 않음.",
+      "신규 계약·고객·가격·성과·허가를 조사하지 않았으며11/4법령·공시 전수갱신 아님."
+    ],
+    "R": [
+      {
+        "url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/11/20261102-4/",
+        "read_status": "metadata_only",
+        "attempts": [
+          "linked page timeout",
+          "direct open timeout"
+        ],
+        "consequence": "SAGE 제목 링크만 발견; 본문 사실·기능·일정은 채택하지 않음"
+      }
+    ]
+  },
+  "no_customer_trial": true,
+  "no_trades": true,
+  "no_partner_contact": true,
+  "no_runtime_installation": true,
+  "no_scheduled_monitoring": true
+}

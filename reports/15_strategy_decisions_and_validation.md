@@ -141,3 +141,7 @@ flowchart TD
 기존 STR-HW-01~04 순위는 유지하고 [한화 사업안](22_hanwha_group_business_plan.md)의 현지 보장·청구, 미국 사후처리, UAE 실제 유통, AI 실행/복구, ALM, 산업계약 후보로 세분화했다. [구조화 원장](../data/hanwha_blockchain_business_plan.json)에 지급자·법인·총비용·반증을 보존한다. 90일 초기 운영 검증으로 장기 보험 유지·보험손익을 입증했다고 판단하지 않는다.
 
 BNK지주의 지역 산업금융, 교보의 정산권리·장기 목적 관리, 한화의 현지·산업 업무 후보 10건은 [그룹 기회 원장](../data/group_country_opportunities.json)과 [보고서25](25_group_country_opportunity_discovery.md)에 연결했다. 기존 12개 전략 과제의 순위나 예산을 자동 변경하지 않았다.
+
+## 2026-11-04 Ondo 원문과 기능별 비교 보완
+
+[교수 원문 계보](27_professor_ondo_lineage.md)와 [BlackRock·Ondo 비교](28_blackrock_ondo_positions.md)를 [환경·경쟁 분석](29_tokenization_competition_group_strategy.md), [세 그룹 실제 사례·대응](30_group_position_responses.md)에 연결했다. 기존 판단의 출처를 소급 변경하지 않고, 새 비교와 후속 관측을 추가한다. 2027년 일괄 개방이나 그룹 전체의 단일 권한·손익을 가정하지 않는다.

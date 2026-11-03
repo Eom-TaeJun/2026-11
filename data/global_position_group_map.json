@@ -1,0 +1,230 @@
+{
+  "as_of": "2026-11-04",
+  "environment_report": "reports/29_tokenization_competition_group_strategy.md",
+  "application_report": "reports/30_group_position_responses.md",
+  "semantics": "Global-to-group comparisons are analytical analogies, not evidence of contracts or ownership. Group entities have separate permissions and economics.",
+  "functions": [
+    "asset_origination",
+    "underwriting_and_capital",
+    "investment_management_and_ALM",
+    "legal_structuring",
+    "distribution",
+    "cash_and_FX",
+    "collateral_and_liquidity",
+    "servicing_and_recovery"
+  ],
+  "groups": [
+    {
+      "id": "OBX-BNK",
+      "group": "BNK금융지주",
+      "viewpoint": "경남은행 본사에서 출발한 그룹 기능 검토",
+      "confirmed_examples": [
+        "경남 fERP",
+        "수출환어음 매입·전자무역",
+        "그룹 산업금융 계획 및 계열 기능 소개"
+      ],
+      "proposal": "외부 자산을 포함한 지급일 현금·FX·신용·회수 서비스",
+      "payer": "기업 고객의 실제 대출·FX·관리 계약",
+      "economics": "서비스·신용 기여와 예금조달 기여 감소를 같은 기간 대사. 내부 FTP와 대체조달비 중복 차감 금지.",
+      "alternative": "대형은행 CMS·ERP 및 외부 금융기관이 더 낮은 총비용으로 완결",
+      "next_observation": "동일 고객·통화·권리의 최종 지급·회수·오류·재이용·은행 전체 증분 기여",
+      "source_ids": [
+        "ST-KN-002",
+        "KNX-S-001",
+        "KNX-S-004",
+        "ST-TD-005",
+        "HWX-R-001",
+        "OBX-R-001"
+      ],
+      "claim_ids": [
+        "C-340",
+        "C-341",
+        "C-357"
+      ],
+      "strategy_ids": [
+        "STR-KN-01"
+      ],
+      "opportunity_prefixes": [
+        "BNK-G-"
+      ],
+      "detail_reports": [
+        "reports/16_kyongnam_export_treasury_business_plan.md",
+        "reports/17_kyongnam_multiasset_cash_case.md"
+      ],
+      "classification": "analyst_proposal_from_public_evidence",
+      "actual_new_contract": null,
+      "actual_customer_trial": false,
+      "measured_revenue": null,
+      "measured_net_profit": null,
+      "budget": null
+    },
+    {
+      "id": "OBX-KYO",
+      "group": "교보그룹",
+      "viewpoint": "교보증권 미래전략에서 생명·문고·파트너의 별도 계약 검토",
+      "confirmed_examples": [
+        "기존 위탁매매·IB 사업",
+        "POD 정산 안내",
+        "NOBLX에서 생명·증권의 기관투자 참여"
+      ],
+      "proposal": "검증 가능한 원권리 발굴·구조화·기관배분·수금·회수, 기존 거래 고객의 자금·증거금 관리",
+      "payer": "발행인·적격 투자자·기관의 주선/중개/관리 계약. 자기인수 성과 별도.",
+      "economics": "포장만의 추가 보수와 권리·인수·회수 대가 구분. 계열 투자로 외부 수요를 대체하지 않음.",
+      "alternative": "직접 ETF·기존 팩토링·글로벌 저가 플랫폼·대형 증권 인수",
+      "next_observation": "실제 양도 가능 권리와 독립 투자자 견적·반복 발행·수금·순보수·자본 소모",
+      "source_ids": [
+        "KYO-GEO-003",
+        "ST-KY-001",
+        "KYX-M-001",
+        "KYX-A-004",
+        "OBX-E-004",
+        "OBX-E-020"
+      ],
+      "claim_ids": [
+        "C-342",
+        "C-343",
+        "C-344",
+        "C-345"
+      ],
+      "strategy_ids": [
+        "STR-KY-01",
+        "STR-KY-02",
+        "STR-KY-03",
+        "STR-KY-04",
+        "STR-KY-05"
+      ],
+      "opportunity_prefixes": [
+        "KYO-G-"
+      ],
+      "detail_reports": [
+        "reports/18_kyobo_future_strategy_business_plan.md",
+        "reports/19_kyobo_group_rwa_deal_design.md",
+        "reports/20_kyobo_rails_agent_business.md",
+        "reports/21_kyobo_capital_and_permissions.md"
+      ],
+      "classification": "analyst_proposal_from_public_evidence",
+      "actual_new_contract": null,
+      "actual_customer_trial": false,
+      "measured_revenue": null,
+      "measured_net_profit": null,
+      "budget": null
+    },
+    {
+      "id": "OBX-HW",
+      "group": "한화그룹",
+      "viewpoint": "한화생명 블록체인·신사업에서 현지 보험·은행·운용·증권·산업 법인 구분",
+      "confirmed_examples": [
+        "인도네시아 Nobu의 한화생명 방카 상품",
+        "Velocity의 지원 상품·기관 청산 서비스",
+        "11/2 KDEF·KMCA ADX 개시 발표와 KDEF sponsor/adviser 계약 구분"
+      ],
+      "proposal": "인니 보장·IDR 납입/청구, 미국 기관 사후처리, UAE 상품 공급·유통의 유료 업무",
+      "payer": "보험계약자·유통계약 상대·기관/브로커·상품 sponsor 계약별 분리",
+      "economics": "보험 위험 인수 후 성과, 은행 유통 보수, 기관 운영 대가, ETF 공급 수익/비용을 별도 법인에 귀속",
+      "alternative": "현지 은행·보험의 기존 서비스와 외부 ETF·청산 플랫폼의 통합가격",
+      "next_observation": "적합성·유지/청구·기관 재계약·계약상 수입에서 현지/파트너/자본 비용 차감",
+      "source_ids": [
+        "ST-HW-007",
+        "ST-HW-015",
+        "HWX-A-001",
+        "HWX-A-004",
+        "HWX-A-008",
+        "HWX-R-006"
+      ],
+      "claim_ids": [
+        "C-346",
+        "C-347",
+        "C-350"
+      ],
+      "strategy_ids": [
+        "STR-HW-01",
+        "STR-HW-02",
+        "STR-HW-03",
+        "STR-HW-04"
+      ],
+      "opportunity_prefixes": [
+        "HW-G-"
+      ],
+      "detail_reports": [
+        "reports/22_hanwha_group_business_plan.md",
+        "reports/23_hanwha_indonesia_business.md",
+        "reports/24_hanwha_us_uae_rails.md",
+        "reports/26_hanwha_ai_group_competition.md"
+      ],
+      "classification": "analyst_proposal_from_public_evidence",
+      "actual_new_contract": null,
+      "actual_customer_trial": false,
+      "measured_revenue": null,
+      "measured_net_profit": null,
+      "budget": null
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "OBX-S1",
+      "title": "개방형 비교와 전문화",
+      "assumption": "적법한 접근·고객 위임·권리·현금 경로 성립",
+      "mechanism": "AI 비교가 표준 포장 보수를 압박하고 전문 기능을 조합",
+      "alternative": "대형 플랫폼의 묶음가격과 기존+AI가 더 유리",
+      "next_observation": "동일 노출 실효보수·유료 반복·갈아타는 비용",
+      "claim_ids": [
+        "C-356",
+        "C-349"
+      ],
+      "source_ids": [
+        "NOV-M07",
+        "FIN-011",
+        "OBX-E-020"
+      ]
+    },
+    {
+      "id": "OBX-S2",
+      "title": "운용사·플랫폼 수직 통합",
+      "assumption": "대형 기관이 직접 고객·기술·자본 기능을 연결",
+      "mechanism": "공급자가 고객 접점도 소유하여 중간 배분 축소 가능",
+      "alternative": "독립 플랫폼의 복수 공급자 비교가 고객을 확보",
+      "next_observation": "직접판매·제휴요율·독점/출구·배분 후 순기여",
+      "claim_ids": [
+        "C-352",
+        "C-358"
+      ],
+      "source_ids": [
+        "OBX-E-001",
+        "OBX-E-004",
+        "OBX-E-020",
+        "NOV-M07"
+      ]
+    },
+    {
+      "id": "OBX-S3",
+      "title": "여러 돈과 관할의 혼합",
+      "assumption": "국가별 권한과 계약에 맞는 연결이 성립",
+      "mechanism": "예금·중앙은행 결제·스테이블코인·증권이 목적별 공존",
+      "alternative": "특정 민간 경로의 네트워크 효과 또는 기존 은행 경로가 우세",
+      "next_observation": "최종 현금·환매중단·상시운영 자금·예금 이동",
+      "claim_ids": [
+        "C-353",
+        "C-354",
+        "C-357"
+      ],
+      "source_ids": [
+        "OBX-R-001",
+        "ST-TD-005",
+        "NOV-M07"
+      ]
+    }
+  ],
+  "common_observations": [
+    "상품 버전과 법적 권리",
+    "실효 보수 및 면제",
+    "자금 원천과 평균 잔액",
+    "최종 고객 결과",
+    "경쟁자의 조건 변경",
+    "법인별 외부 기여와 위험"
+  ],
+  "scope_limits": [
+    "국가별 규제 기준선 2026-11-02 유지; 이번 선택 재열람만 갱신",
+    "전체 계열·국가의 개별 상품 인가·계약 전수 확인 아님",
+    "교수 육성 발언·내부 전략·실제 고객 시험 미확인"
+  ]
+}

@@ -945,6 +945,14 @@ PBI10/2025 122조는 해당 국내 지급 처리와 데이터센터·재해복�
 
 한계: 개별 업무·해외 인가 또는 그룹 전체 단일 법인·단일 자금풀을 뜻하지 않음.
 
+### C-316 · unknown · active
+
+BUIDL 강의의 준비금 비중 숫자·유동성 자금 부담자·일반적인 24/7 표현만으로 현재 법령이나 USDC 환매의 최종 은행현금 경로를 확정할 수 없다.
+
+근거: [OBX-P-003](../sources/cards/OBX-P-003.md), [OBX-P-002](../sources/cards/OBX-P-002.md)
+
+한계: - 이 패킷은 해당 현재 법령·계약·실거래를 새로 확인하지 않았다.
+
 ## 관련 원문
 
 - [FIN-006 · 토큰증권 도입 및 투자계약증권 유통을 위한 ｢전자증권법｣·｢자본시장법｣ 개정안 국회 본회의 통과](../sources/cards/FIN-006.md)
@@ -1045,5 +1053,7 @@ PBI10/2025 122조는 해당 국내 지급 처리와 데이터센터·재해복�
 - [HWX-A-003 · Circle Internet MEA Ltd — FSRA public register / firm profile](../sources/cards/HWX-A-003.md)
 - [HWX-M-003 · Proyek Garuda: Menavigasi Arsitektur Rupiah Digital](../sources/cards/HWX-M-003.md)
 - [HWX-R-008 · 2026년도 금융복합기업집단 지정](../sources/cards/HWX-R-008.md)
+- [OBX-P-003 · 토큰화 준비금 & BlackRock BUIDL 전략](../sources/cards/OBX-P-003.md)
+- [OBX-P-008 · Ondo Intelligent Portfolios](../sources/cards/OBX-P-008.md)
 
 [전체 주제 지도](INDEX.md)

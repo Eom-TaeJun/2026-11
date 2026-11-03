@@ -166,3 +166,7 @@ flowchart LR
 **이번에 남긴 의사결정:** 기존 방카슈랑스의 실제 고객 문제를 먼저 좁히고, UAE의 교차상장을 기존 증권 기준선으로 삼으며, 미국의 실제 기능 범위 안에서 기관 업무를 고른다. AI·온체인은 그 일을 더 잘 끝내는지 검증한다. 그룹 확장은 자산·고객을 무조건 합치는 계획이 아니라 각 법인의 권리·현금·책임을 연결하고 외부 대안과 비교하는 과정이다.
 
 자료의 읽은 범위·출처별 활용·미확인·교차검토는 [이번 실행 기록](../runs/2026-11-03-hanwha-group-strategy.json), [자료 카드](../sources/README.md), [주장 원장](../data/claims.json)에 보존한다. 기존 공개 연구의 링크는 [연구 계보](03_prior_work.md)에서 이어간다.
+
+## 2026-11-04 Ondo 원문과 기능별 비교 보완
+
+[교수 원문 계보](27_professor_ondo_lineage.md)와 [BlackRock·Ondo 비교](28_blackrock_ondo_positions.md)를 [환경·경쟁 분석](29_tokenization_competition_group_strategy.md), [세 그룹 실제 사례·대응](30_group_position_responses.md)에 연결했다. 기존 판단의 출처를 소급 변경하지 않고, 새 비교와 후속 관측을 추가한다. 2027년 일괄 개방이나 그룹 전체의 단일 권한·손익을 가정하지 않는다.

@@ -1120,6 +1120,150 @@ Qcells의 8월19일 발표는 Microsoft와 신규 전력 공급·VPP 모델을 �
 
 다음 관측: 실계약·계량 분쟁·현금 정산과 기존 금융 대비 비용·위험
 
+### C-339 · interpretation · active
+
+BlackRock/Ondo 비교를 세 그룹에 적용할 단위는 자산발굴·인수·운용·구조화·유통·은행현금·담보·사후관리의 계약 기능이다.
+
+근거: [KYO-GEO-003](../sources/cards/KYO-GEO-003.md), [HWX-A-004](../sources/cards/HWX-A-004.md), [HWX-A-008](../sources/cards/HWX-A-008.md), [ST-KN-002](../sources/cards/ST-KN-002.md)
+
+한계: 글로벌 두 회사의 실제 상품별 기능 배정은 별도 최신 원문 패킷에서 확인한다. 이 주장은 국내 적용 방법의 해석이다.
+
+### C-340 · institution_statement · active
+
+경남은행 fERP 공식 안내는 여러 은행의 계좌·집금/배분·대출과 회계·재고의 연결을 설명한다.
+
+근거: [ST-KN-002](../sources/cards/ST-KN-002.md)
+
+한계: 2026-11-04 선택 본문 재열람. 가입·활성 이용·가격·실현 효율·새 AI/온체인 기능을 확인한 것은 아니다.
+
+### C-341 · hypothesis · active
+
+BNK는 지역기업의 지급일 현금·신용·회수 업무를 맡고 외부 투자상품은 그 목적을 돕는 선택지로 연결할 수 있다. 서비스·신용 기여가 예금조달 잠식을 상쇄하는지는 별도 검증해야 한다.
+
+근거: [ST-KN-002](../sources/cards/ST-KN-002.md), [KNX-S-001](../sources/cards/KNX-S-001.md), [KNX-S-002](../sources/cards/KNX-S-002.md), [KNX-S-004](../sources/cards/KNX-S-004.md), [ST-TD-005](../sources/cards/ST-TD-005.md), [HWX-R-001](../sources/cards/HWX-R-001.md)
+
+한계: 실제 고객·가격·FTP·대체조달·손실과 신규 업무권한은 미확인. 지역 관계만으로 경쟁우위를 확정하지 않는다.
+
+다른 설명: 기업자료 표준화로 대형은행·외부 ERP가 같은 심사·현금 업무를 더 낮은 가격에 제공하고 지역은행의 조달 이탈이 커질 수 있다.
+
+다음 관측: 동일 고객·권리·통화·기한에서 최종현금·예외처리·총비용·은행 전체 증분 기여와 고객 재이용을 비교한다.
+
+### C-342 · interpretation · active
+
+교보의 기존 거래·IB 수익 기반, POD 정산 절차, RCPS 결정은 서로 다른 출발 증거다. 이를 기관 고객 구성·특정 양도 가능 채권·현재 가용자본·신규 인가의 완결 확인으로 바꾸지 않는다.
+
+근거: [ST-KY-001](../sources/cards/ST-KY-001.md), [ST-KY-002](../sources/cards/ST-KY-002.md), [ST-KY-003](../sources/cards/ST-KY-003.md), [KYX-M-001](../sources/cards/KYX-M-001.md), [KYX-M-002](../sources/cards/KYX-M-002.md), [KYX-A-004](../sources/cards/KYX-A-004.md)
+
+한계: 11월3일까지 확인한 선택 범위 재사용. 11월4일 신규 납입·지정·계약 전수검색을 수행하지 않았다.
+
+### C-343 · institution_statement · active
+
+NOBLX 발표에서 Token X는 태국 구조화·관리, SBIDM은 국경간 구조·결제·유동성, 교보생명·교보증권은 기관투자자로 소개된다.
+
+근거: [KYO-GEO-003](../sources/cards/KYO-GEO-003.md)
+
+한계: 2025년 발표를2026-11-04 다시 읽었다. 회사의 완료·상업성 설명이며 규제문서·서비스 보수·분배·회수 성과의 독립 검증은 아니다.
+
+### C-344 · hypothesis · active
+
+교보는 확인된 특정 원권리의 실사·구조화·기관 배분·수금·회수와 기존 고객의 거래/증거금 업무에서 대가를 확보할 수 있다. 동일 외부 상품의 포장만 추가하는 사업은 비교 경쟁으로 보수가 압박될 수 있다.
+
+근거: [KYX-M-001](../sources/cards/KYX-M-001.md), [KYX-M-002](../sources/cards/KYX-M-002.md), [ST-KY-001](../sources/cards/ST-KY-001.md), [KYX-A-004](../sources/cards/KYX-A-004.md), [KYX-V-008](../sources/cards/KYX-V-008.md)
+
+한계: 특정 금융상품 추천이나 실행된 신규 사업이 아니다. 기관 고객 분모·실제 지급 의사·거래 가격·성과는 미확인.
+
+다른 설명: 원권리자·운용사의 직접 판매 또는 대형 증권사의 인수/유통이 더 효율적이고 작은 정산채권의 실사 비용이 금융편익을 초과할 수 있다.
+
+다음 관측: 외부 투자자의 독립 견적과 반복 발행·수금/회수·실사 재사용·순보수·자본 소모를 기존 팩토링/직접 판매와 비교한다.
+
+### C-345 · interpretation · active
+
+SBI 협약·공동펀드와 투자, NOBLX 참여, Circle 행사 연결은 필요한 외부 기능을 계약으로 조달할 선택지의 근거이며 교보가 파트너의 고객·인가·기술·운영 보수를 이미 소유한다는 뜻은 아니다.
+
+근거: [KYO-GEO-001](../sources/cards/KYO-GEO-001.md), [KYO-GEO-003](../sources/cards/KYO-GEO-003.md), [KYO-GEO-006](../sources/cards/KYO-GEO-006.md), [KYO-GEO-007](../sources/cards/KYO-GEO-007.md), [KYO-GEO-008](../sources/cards/KYO-GEO-008.md), [ST-KY-006](../sources/cards/ST-KY-006.md)
+
+한계: 원장상2026-11-02~03 확인 범위 선택 재사용. 개별 계약·지분·현행 권한 변경은 전수 갱신하지 않음.
+
+### C-346 · institution_statement · active
+
+ETC는 KDEF·KMCA의2026-11-02 ADX 거래 개시를 발표했고 ETC·시장조성자·법률대표 등 외부 주체의 역할을 설명했다.
+
+근거: [HWX-A-004](../sources/cards/HWX-A-004.md)
+
+한계: 2026-11-04 본문 재열람. 기존 ETF의 교차상장이며 토큰화·Velocity 참여·반복 고객·한화 순이익을 확인하지 않는다.
+
+### C-347 · hypothesis · active
+
+한화는 인니의 보장·IDR 납입/청구, 미국 기관의 실제 지원 상품 사후처리, UAE 상품 공급·유통을 별도 계약으로 개선할 수 있다. 보험 의무와 자금·상품·청산의 손익을 하나의 온체인망으로 합치지 않아야 한다.
+
+근거: [ST-HW-006](../sources/cards/ST-HW-006.md), [ST-HW-007](../sources/cards/ST-HW-007.md), [ST-HW-015](../sources/cards/ST-HW-015.md), [HWX-A-001](../sources/cards/HWX-A-001.md), [HWX-A-002](../sources/cards/HWX-A-002.md), [HWX-A-004](../sources/cards/HWX-A-004.md), [HWX-A-008](../sources/cards/HWX-A-008.md)
+
+한계: 실제 블록체인팀 소관·신규 고객·보수·통합 계약 미확인. 국가별 신규 허가의 확인도 아니다.
+
+다른 설명: 현지 은행/보험자·기존 ETF·외부 청산 플랫폼의 조합이 더 싸고 안정적이며 그룹 연결비가 편익보다 클 수 있다.
+
+다음 관측: 인니 적합성·납입/청구와 장기 계약 성과, 미국 기관 재계약·예외비용, UAE 한화 계약상 순기여를 각각 비교한다.
+
+### C-349 · hypothesis · active
+
+AI가 상품 탐색·조건 비교를 쉽게 하면 단순 포장·정보 전달 보수는 압박받고 권리 실사·인수·회수·필요 시각의 유동성·예외 복구가 수익 후보로 남을 수 있다.
+
+근거: [KYX-V-008](../sources/cards/KYX-V-008.md), [KYX-V-009](../sources/cards/KYX-V-009.md), [KNX-S-001](../sources/cards/KNX-S-001.md), [HWX-A-001](../sources/cards/HWX-A-001.md), [HWX-A-008](../sources/cards/HWX-A-008.md)
+
+한계: 수익의 크기·독점·실제 인과효과를 측정한 것은 아니다.
+
+다른 설명: 기초자료와 금융 인프라까지 표준화되면 해당 기능도 저가화되며, 외부 AI 플랫폼이 고객 접근과 보수 배분을 장악할 수 있다.
+
+다음 관측: 고객의 실제 외부 비교견적·중개/관리 순보수·반복구매·복구 비용·전체 증분 기여와 고정비를 관측한다.
+
+### C-350 · hypothesis · active
+
+법인별 권리·인가·현금·담보·고객 AI 위임이 실제 성립한 강한 미래에서도 원화/IDR 지급 의무·보험부채·신용한도·자금조달은 남으며 세 그룹은 이를 고객 업무에서 해결해야 한다.
+
+근거: [ST-TD-005](../sources/cards/ST-TD-005.md), [ST-HW-015](../sources/cards/ST-HW-015.md), [KYX-V-009](../sources/cards/KYX-V-009.md), [KNX-S-001](../sources/cards/KNX-S-001.md), [ST-HW-007](../sources/cards/ST-HW-007.md)
+
+한계: 2027년 일괄 개방 예측이 아니라 명시한 조건부 가정이다. 단위보수 하락이 총기여 감소를 뜻하지는 않는다.
+
+다른 설명: 규제는 성립해도 유동성 분절·이중 원장·복구 비용 때문에 기존+AI 경로가 우세하거나 대형기관에 집중될 수 있다.
+
+다음 관측: 동일 고객 업무의 최종현금·권리 보전·피크 선자금·고객 총비용·법인별 전체 순기여를 비교해 기술 선택을 바꾼다.
+
+### C-351 · unknown · active
+
+세 그룹의 제안별 실제 신규 계약·고객 수·계약가격·예산·순이익·ROI와 특정 글로벌 상품의 고객별 이용 적격성은 이번 연결 메모에서 확인되지 않았다.
+
+근거: [ST-KN-002](../sources/cards/ST-KN-002.md), [KYX-M-001](../sources/cards/KYX-M-001.md), [HWX-A-004](../sources/cards/HWX-A-004.md)
+
+한계: 미확인은 부재·실패의 증거가 아니다. 공개 사례를 기반으로 한 연구 제안이며 실제 고객 시험·거래는 수행하지 않았다.
+
+### C-352 · interpretation · active
+
+BUIDL의 다자분업, OUSG의 복수 기초상품, OIP의 모델 제공자와 발행·구현 주체 구분은 세 그룹의 자산·모델 공급, 고객 조합, 실행·사후관리와 보수 계약을 기능별로 선택할 근거다. 회사 이름 하나로 모든 책임과 수입을 묶지 않는다.
+
+근거: [OBX-E-001](../sources/cards/OBX-E-001.md), [OBX-E-004](../sources/cards/OBX-E-004.md), [OBX-E-019](../sources/cards/OBX-E-019.md), [OBX-E-020](../sources/cards/OBX-E-020.md), [HWX-A-008](../sources/cards/HWX-A-008.md), [KYO-GEO-003](../sources/cards/KYO-GEO-003.md)
+
+한계: 각 자료의 시점·법적 형태를 유지한 연구자 해석. BUIDL2024출시가2026모든조건과 동일하다는 주장 아님. 모델 제공 보수의 존재·요율·지급자 및 한국 고객의 실제 적격성 미확인.
+
+### C-357 · hypothesis · active
+
+BNK의 고객 자산이 외부 상품으로 이동해도 원화 지급·FX·신용·회수 업무를 유지할 수 있으나 추가 서비스·금융 기여가 예금조달 가치 감소를 보상하는지 따져야 한다.
+
+근거: [ST-TD-005](../sources/cards/ST-TD-005.md), [OBX-R-001](../sources/cards/OBX-R-001.md), [KNX-S-001](../sources/cards/KNX-S-001.md), [HWX-R-001](../sources/cards/HWX-R-001.md)
+
+한계: 미국의 분석·홍콩 파일럿·기존 국내서비스를 결합한 연구 가설이며 한국은행 정책/BNK 성과의 인과 추정 아님.
+
+다른 설명: 대형은행·외부 플랫폼이 같은 기능을 더 낮은 총비용으로 제공해 고객 관계와 잔액을 함께 가져갈 수 있음.
+
+다음 관측: 같은 기업의 잔액·조달비·신용·FX·관리 수입·외부지급자 재구매와 손실
+
+### C-358 · interpretation · active
+
+기술이 줄인 단위비용만으로 플랫폼이나 금융그룹 이익 증가를 결론낼 수 없다. 유료 고객·평균 잔액·실효가격·비용·기존사업 잠식·자본을 같은 기간으로 비교해야 한다.
+
+근거: [NOV-M07](../sources/cards/NOV-M07.md), [HWX-R-008](../sources/cards/HWX-R-008.md)
+
+한계: 경제적 기여 분석 틀. 동일 손실/자본 비용의 중복 차감을 피하고 실제 연결범위를 확인해야 함.
+
 ## 관련 원문
 
 - [FIN-007 · 토큰증권 정책방향 발표- 민·관 합동 토큰증권 협의체 3차회의 개최](../sources/cards/FIN-007.md)

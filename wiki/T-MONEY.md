@@ -380,6 +380,207 @@ Nobu 가맹점의 IDR 수납 대사와 운영자금 가시성은 보험 외 유�
 
 한계: - 거래별 회계·세무·계약 검토가 필요하다.
 
+### C-316 · unknown · active
+
+BUIDL 강의의 준비금 비중 숫자·유동성 자금 부담자·일반적인 24/7 표현만으로 현재 법령이나 USDC 환매의 최종 은행현금 경로를 확정할 수 없다.
+
+근거: [OBX-P-003](../sources/cards/OBX-P-003.md), [OBX-P-002](../sources/cards/OBX-P-002.md)
+
+한계: - 이 패킷은 해당 현재 법령·계약·실거래를 새로 확인하지 않았다.
+
+### C-318 · fact · active
+
+Ondo의 2026-05-06 공식 발표는 Ripple의 XRPL상 OUSG 환매를 MTN·Kinexys로 연결해 Ondo의 Blockchain Deposit Account를 차감하고 싱가포르 은행계좌로 USD를 지급한 파일럿 완료를 보고한다.
+
+근거: [OBX-P-009](../sources/cards/OBX-P-009.md), [OBX-P-002](../sources/cards/OBX-P-002.md)
+
+한계: - 발표 사실이며 독립 거래 검증은 아니다. XRPL 자산 leg 5초 미만을 전체 완료 시간으로 확대하지 않는다.
+- 실험에서 일반 고객 상용 개방·반복 사용·용량·보수 수익은 확인되지 않는다.
+
+### C-319 · fact · active
+
+BUIDL의 운용·수탁관리·이전대행토큰화·판매대행은 서로 다른 역할이다. 2024 발표는 각각 BlackRock Financial Management, BNY Mellon, Securitize, Securitize Markets를 명시한다.
+
+근거: [OBX-E-001](../sources/cards/OBX-E-001.md), [OBX-E-002](../sources/cards/OBX-E-002.md)
+
+한계: 2024 역할 공시와 2026 펀드 조건을 대조했으며 최신 모든 서비스 계약 변경 여부를 보증하지 않는다.
+
+### C-320 · fact · active
+
+BUIDL 지분은 특정 미국 국채에 대한 직접 소유·현물 인도 권리나 USDC·은행예금이 아니다.
+
+근거: [OBX-E-002](../sources/cards/OBX-E-002.md)
+
+한계: 사모설명서 전체 조항은 미확인.
+
+### C-321 · fact · active
+
+Circle의 2024 발표는 BUIDL 지분을 Circle에 넘겨 USDC를 받는 2차시장 경로다. 펀드 직접 환매 및 은행 달러 입금과 다르다.
+
+근거: [KNX-M-002](../sources/cards/KNX-M-002.md)
+
+한계: 현재 고객별 가격·유동성·접근 계약은 미확인.
+
+### C-322 · fact · active
+
+OUSG는 Ondo I LP가 발행하며 accredited investor와 qualified purchaser 조건을 모두 요구한다. 2026-11-02 16:00 EST 공식 표에는 SWEEP 47.79%, BUIDL 32.16%, BENJI 11.59%, FYOXX 7.44%가 기재됐다.
+
+근거: [OBX-E-004](../sources/cards/OBX-E-004.md)
+
+한계: 동적 회사 표이며 독립 수탁 확인이 아니다. 오래된 FAQ 문구와 구성 설명 충돌을 보존한다.
+
+### C-323 · fact · active
+
+OUSG 문서는 0.15% 관리보수를 2027-01-01까지 면제하고, 별도 0.15% 펀드비용 상한과 기초펀드 비용을 구분한다.
+
+근거: [OBX-E-005](../sources/cards/OBX-E-005.md)
+
+한계: 2027년 실제 부과·연장 여부와 총 실효비용은 미확인. 관리보수의 비용상한 포함관계를 최종 계약에서 확인하기 전 총 0.30%로 단순 합산하지 않는다.
+
+### C-324 · fact · active
+
+OUSG 즉시 환매는 USDC 수취 경로이며 글로벌·개별 24시간 한도와 남은 용량 조건이 있다.
+
+근거: [OBX-E-006](../sources/cards/OBX-E-006.md), [OBX-E-007](../sources/cards/OBX-E-007.md)
+
+한계: 24/7는 무제한·무조건·은행현금 수취 보장이 아니다.
+
+### C-325 · fact · active
+
+현 USDY 문서는 2025-12-15 Stocks 범주 편입, 발행일에 따른 담보 차이, Ondo USDY LLC의 비미국 은행계좌 USD 환매와 Ondo Global Markets (BVI) Limited의 USDC 환매를 나눠 설명한다.
+
+근거: [OBX-E-008](../sources/cards/OBX-E-008.md)
+
+한계: 모든 과거 발행분의 자동 경개·동일 담보를 추론하지 않는다.
+
+### C-326 · interpretation · active
+
+USDY의 실제 권리는 티커만으로 확정할 수 없다. 발행시점·청약약관·발행/환매 상대방을 확인한 뒤 신규·기존분을 분리해야 한다.
+
+근거: [OBX-E-008](../sources/cards/OBX-E-008.md), [OBX-E-009](../sources/cards/OBX-E-009.md), [OBX-E-011](../sources/cards/OBX-E-011.md)
+
+한계: 미국 소재 일반 표시와 BVI 경로의 병존은 개별 계약 확인을 요구하며 어느 한 법인이 모든 경우의 유일 채무자라는 판단을 유보한다.
+
+### C-327 · fact · active
+
+Ondo Stocks는 Ondo Global Markets (BVI) Limited 발행 구조화 채권이며, 기초 주식·ETF의 주주 의결권을 직접 부여하는 증권은 아니다.
+
+근거: [OBX-E-012](../sources/cards/OBX-E-012.md), [OBX-E-015](../sources/cards/OBX-E-015.md)
+
+한계: 최종 Sales Terms와 모든 도산·집행 조항은 미독.
+
+### C-328 · fact · active
+
+Stocks의 기본 발행환매는 USDon을 사용하고 USDC 경로는 유동성 있는 교환을 묶는 방식이다. 직접 USDon 교환 승인과 은행송금은 별도 조건이다.
+
+근거: [OBX-E-014](../sources/cards/OBX-E-014.md)
+
+한계: USDon의 완전한 법적·준비자산 검증을 수행한 것은 아니다.
+
+### C-329 · fact · active
+
+OIP는 2026-09-24 출시, 10-29 Solana 확장이 공식 발표됐다. 발행자는 Ondo Global Markets (BVI) Limited이며 펀드·ETF 자체가 아닌 포트폴리오 토큰이다.
+
+근거: [OBX-P-004](../sources/cards/OBX-P-004.md), [OBX-E-018](../sources/cards/OBX-E-018.md), [OBX-E-019](../sources/cards/OBX-E-019.md)
+
+한계: 회사 발표·설명 범위이며 실제 순유입·가동률·운용 성과는 미확인.
+
+### C-330 · fact · active
+
+OIP에서 BlackRock은 세 모델 제공자다. 공식 문서는 모델 제공자가 포트폴리오 토큰의 발행·후원·운용·관리·수탁자가 아니며 보유자와의 계약관계가 아니라고 명시한다.
+
+근거: [OBX-E-020](../sources/cards/OBX-E-020.md)
+
+한계: 모델 공급 계약의 보수·지급 법인·라이선스 조건은 미확인.
+
+### C-331 · fact · active
+
+OIP는 연간 서비스비 외에 기초토큰 발행환매 비용·호가 차이·가스·원천징수를 구분한다. 상품별 실제 서비스 요율은 이번 조사에서 확인하지 못했다.
+
+근거: [OBX-P-005](../sources/cards/OBX-P-005.md)
+
+한계: 모든 비용이 Ondo 매출로 귀속하는 것은 아니다.
+
+### C-332 · fact · active
+
+OIP 발행은 목표 비중, 환매는 현재 비중을 사용한다. 직접 발행환매는 일반적으로 미국 시장 영업일 ET09:30–15:45이고 구성종목 정지 등이 전체 포트폴리오를 멈출 수 있다.
+
+근거: [OBX-P-006](../sources/cards/OBX-P-006.md), [OBX-P-007](../sources/cards/OBX-P-007.md)
+
+한계: 온체인 이전·2차 거래의 상시 가능성과 발행자 환매를 혼동하지 않는다.
+
+### C-333 · fact · active
+
+OIP 2차 취득은 직접 발행자 환매 자격이 아니다. Stocks와 같은 국가·투자자 조건 및 KYC가 적용된다.
+
+근거: [OBX-E-016](../sources/cards/OBX-E-016.md), [OBX-E-024](../sources/cards/OBX-E-024.md)
+
+한계: 한국 판매·중개·외환 허용은 별도로 확인해야 한다.
+
+### C-334 · fact · active
+
+ONDO의 공식 판매 위험 고지는 보유자가 회사·계열사·플랫폼 매출이나 이익에 대한 권리를 얻지 않는다고 명시하며, 공식 토큰 설명은 거버넌스 기능을 제시한다.
+
+근거: [OBX-E-026](../sources/cards/OBX-E-026.md), [OBX-E-027](../sources/cards/OBX-E-027.md)
+
+한계: 해당 판매 문서 범위이며 미래 거버넌스 변화와 시장 가격을 예측하지 않는다.
+
+### C-335 · fact · active
+
+Ondo는 2026-07-27 Network 발표에서 Chain 구상과 달라졌으며 당시 Network는 블록체인이 아니라고 설명하고 Perps를 첫 실서비스로 제시했다.
+
+근거: [OBX-E-028](../sources/cards/OBX-E-028.md)
+
+한계: 독립 보안·거래 성과·수익 검증은 아니다. ONDO 가스·수익 귀속을 추론하지 않는다.
+
+### C-336 · hypothesis · active
+
+고객이 기존 ETF/펀드의 접근·보관·담보·실행 제약을 해결하기 위해 추가 비용을 지불한다면 Ondo 포장·운영 계층과 BlackRock 기초운용 계층이 함께 성장할 수 있다.
+
+근거: [OBX-E-004](../sources/cards/OBX-E-004.md), [OBX-E-012](../sources/cards/OBX-E-012.md), [OBX-E-019](../sources/cards/OBX-E-019.md), [OBX-E-020](../sources/cards/OBX-E-020.md), [OBX-P-005](../sources/cards/OBX-P-005.md)
+
+한계: 합법적 접근·청구권·수탁·현금전환과 유료 고객 수요가 성립한 조건부 분석.
+
+다른 설명: 동일 접근을 기존 펀드·ETF와 API가 더 낮은 총비용으로 제공하면 고객은 추가 포장을 선택하지 않는다.
+
+다음 관측: 동일 고객·통화·기간·자격의 기존 경로와 온체인 경로에서 순수익, 전체 비용, 실제 출금 시각, 실패·회수 비용 및 보수 재계약을 비교한다.
+
+### C-337 · hypothesis · active
+
+발행자가 직접 온체인 접근과 상호운용성을 개선하고 유통 경쟁이 심해지면 중간 포장 보수는 압박받고, 고객 적격성·다상품 비교·유동성·회수 운영이 차별화 요인이 될 수 있다.
+
+근거: [OBX-E-002](../sources/cards/OBX-E-002.md), [OBX-E-004](../sources/cards/OBX-E-004.md), [OBX-E-014](../sources/cards/OBX-E-014.md), [OBX-P-007](../sources/cards/OBX-P-007.md)
+
+한계: 비용 인하가 모두 고객에게 이전되거나 사업자가 반드시 퇴출된다고 단정하지 않는다.
+
+다른 설명: 유통자 고객관계·청구권 관리·유동성 제공의 규모효과가 오히려 집중을 강화할 수 있다.
+
+다음 관측: 동일 고객·통화·기간·자격의 기존 경로와 온체인 경로에서 순수익, 전체 비용, 실제 출금 시각, 실패·회수 비용 및 보수 재계약을 비교한다.
+
+### C-338 · interpretation · active
+
+기초자산의 담보권, 고객의 토큰 담보대출, 스테이블코인 발행자의 법정 준비자산 적격성은 서로 다른 판단이다. 토큰화나 Circle 교환 가능만으로 셋을 동시에 충족하지 않는다.
+
+근거: [OBX-E-002](../sources/cards/OBX-E-002.md), [OBX-E-012](../sources/cards/OBX-E-012.md), [OBX-E-015](../sources/cards/OBX-E-015.md), [KNX-M-002](../sources/cards/KNX-M-002.md)
+
+한계: 특정 관할의 준비자산·담보 규정 전체를 이 조사에서 판정하지 않았다.
+
+### C-353 · institution_statement · active
+
+HKMA는11월2일 EnsembleTX가 토큰화 중앙은행화폐로24/7 은행간 토큰화 예금 결제를 지원하는 새 단계에 진입했다고 발표했다. 기존 실가치 파일럿 참여 예시에 BlackRock이 포함된다.
+
+근거: [OBX-R-001](../sources/cards/OBX-R-001.md)
+
+한계: 공식 발표 범위. 한국 참가권·모든 상품 상용화·비용후 이익을 의미하지 않음.
+
+### C-354 · interpretation · active
+
+은행예금·중앙은행 결제와 토큰자산의 연결 사례는 BlackRock의 활동이나 온체인 금융 전체를 한 민간 달러 스테이블코인 경로로 고정할 근거가 없음을 보여준다.
+
+근거: [OBX-R-001](../sources/cards/OBX-R-001.md), [NOV-M07](../sources/cards/NOV-M07.md)
+
+한계: 상품별 계약과 참가권한을 확인해야 하며 한국의 미래 구조를 확정한 진술이 아님.
+
 ## 관련 원문
 
 - [FIN-003 · III. Anchoring trust in money: innovation beyond stablecoins](../sources/cards/FIN-003.md)
@@ -454,5 +655,37 @@ Nobu 가맹점의 IDR 수납 대사와 운영자금 가시성은 보험 외 유�
 - [HWX-A-003 · Circle Internet MEA Ltd — FSRA public register / firm profile](../sources/cards/HWX-A-003.md)
 - [HWX-M-002 · QRIS Nobu: Solusi QRIS Terintegrasi untuk Pembayaran Digital](../sources/cards/HWX-M-002.md)
 - [HWX-M-003 · Proyek Garuda: Menavigasi Arsitektur Rupiah Digital](../sources/cards/HWX-M-003.md)
+- [OBX-P-002 · ondo_buidl_mastercard_interactive_slides.html — 공개 강의](../sources/cards/OBX-P-002.md)
+- [OBX-P-003 · 토큰화 준비금 & BlackRock BUIDL 전략](../sources/cards/OBX-P-003.md)
+- [OBX-P-004 · Introducing Ondo Intelligent Portfolios](../sources/cards/OBX-P-004.md)
+- [OBX-P-005 · Ondo Intelligent Portfolios Fees and Taxes](../sources/cards/OBX-P-005.md)
+- [OBX-P-006 · Ondo Intelligent Portfolios Investing and Redeeming](../sources/cards/OBX-P-006.md)
+- [OBX-P-007 · Ondo Intelligent Portfolios Market Hours and Trading Availability](../sources/cards/OBX-P-007.md)
+- [OBX-P-009 · Ondo, Kinexys by J.P. Morgan, Mastercard, and Ripple Complete First Cross-Border, Cross-Bank Redemption of Tokenized U.S. Treasuries](../sources/cards/OBX-P-009.md)
+- [OBX-E-001 · BlackRock Launches Its First Tokenized Fund, BUIDL, on the Ethereum Network](../sources/cards/OBX-E-001.md)
+- [OBX-E-002 · Tempo expands onchain yield offering with BlackRock’s BUIDL fund](../sources/cards/OBX-E-002.md)
+- [OBX-E-003 · BlackRock BUIDL](../sources/cards/OBX-E-003.md)
+- [OBX-E-004 · OUSG | Tokenized Treasuries for Institutions](../sources/cards/OBX-E-004.md)
+- [OBX-E-005 · OUSG Fees and Taxes](../sources/cards/OBX-E-005.md)
+- [OBX-E-006 · OUSG Instant Limits](../sources/cards/OBX-E-006.md)
+- [OBX-E-007 · OUSG Redeeming](../sources/cards/OBX-E-007.md)
+- [OBX-E-008 · USDY Basics](../sources/cards/OBX-E-008.md)
+- [OBX-E-009 · USDY Important Notes](../sources/cards/OBX-E-009.md)
+- [OBX-E-010 · USDY Eligibility](../sources/cards/OBX-E-010.md)
+- [OBX-E-011 · USDY | Tokenized US Dollar Yield](../sources/cards/OBX-E-011.md)
+- [OBX-E-012 · Ondo Stocks Legal and Regulatory](../sources/cards/OBX-E-012.md)
+- [OBX-E-013 · Ondo Stocks Fees and Taxes](../sources/cards/OBX-E-013.md)
+- [OBX-E-014 · Ondo Stocks Investing and Redeeming](../sources/cards/OBX-E-014.md)
+- [OBX-E-015 · Ondo Stocks Trust and Transparency](../sources/cards/OBX-E-015.md)
+- [OBX-E-016 · Ondo Stocks Eligibility](../sources/cards/OBX-E-016.md)
+- [OBX-E-018 · Intelligent Portfolios Go Live on Solana](../sources/cards/OBX-E-018.md)
+- [OBX-E-019 · Ondo Intelligent Portfolios Overview](../sources/cards/OBX-E-019.md)
+- [OBX-E-020 · Ondo Intelligent Portfolios Model Providers](../sources/cards/OBX-E-020.md)
+- [OBX-E-022 · Ondo Intelligent Portfolios Available Assets](../sources/cards/OBX-E-022.md)
+- [OBX-E-024 · Ondo Intelligent Portfolios Eligibility](../sources/cards/OBX-E-024.md)
+- [OBX-E-026 · ONDO Token](../sources/cards/OBX-E-026.md)
+- [OBX-E-027 · CoinList Risk Factors](../sources/cards/OBX-E-027.md)
+- [OBX-E-028 · Introducing the Ondo Network](../sources/cards/OBX-E-028.md)
+- [OBX-R-001 · HKMA advances Project Ensemble pilot phase to 24/7 settlement in tokenised Central Bank Money](../sources/cards/OBX-R-001.md)
 
 [전체 주제 지도](INDEX.md)

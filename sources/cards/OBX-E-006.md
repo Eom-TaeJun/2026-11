@@ -1,0 +1,27 @@
+# OBX-E-006 · OUSG Instant Limits
+
+[원문](https://docs.ondo.finance/qualified-access-products/ousg/instant-limits) · Ondo Finance
+
+발행일: 미확인/동적 · 확인일: 2026-11-04
+
+읽기 상태: **selected_sections**
+
+읽은 위치: - 본문 거래별 최소액과 글로벌·개별 24시간 한도
+
+## 자료의 핵심 내용
+
+즉시 발행·환매 최소액은 각각 5천 달러다. 공개 문서의 글로벌 24시간 한도는 5천만 달러, 개인 한도는 2천5백만 달러이며 가용 잔여 한도에 제약된다.
+
+## 이번 연구에 활용한 내용
+
+- BlackRock·Ondo 상품별 법적 권리·현금·보수 및 사업 역할 비교
+
+## 해석의 한계
+
+- 고객별 승인이나 현재 남은 용량·항상 가능한 유동성을 보증하지 않는다.
+
+## 연결된 주장
+
+- **C-324 / fact / active**: OUSG 즉시 환매는 USDC 수취 경로이며 글로벌·개별 24시간 한도와 남은 용량 조건이 있다.
+
+[전체 자료 목록](../README.md)

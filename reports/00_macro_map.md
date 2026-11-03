@@ -87,3 +87,7 @@ flowchart TD
 인도네시아의 보장·납입·가맹점 수납·고용주 건강보험, UAE의 현지 상품 접근, 미국 기관의 거래 후 현금과 복구에서 한화 기회를 좁혔다. BNK는 지역 산업의 수금·설비·운전자금, 교보는 권리·정산과 장기 고객 목적을 같은 방식으로 검증한다. [한화 통합 사업안](22_hanwha_group_business_plan.md) · [그룹·국가 기회 지도](25_group_country_opportunity_discovery.md).
 
 국가 수요와 회사 자원 사이에는 접근가능 고객·상품권한·계약·현금·경쟁가격이 필요하다. 제도·AI·온체인 연결이 성립해도 인수·실사·유동성·복구의 비용과 책임이 남는다. 인가나 토큰 전송만으로 반복 수익을 추론하지 않는다.
+
+## 2026-11-04 Ondo 원문과 기능별 비교 보완
+
+[교수 원문 계보](27_professor_ondo_lineage.md)와 [BlackRock·Ondo 비교](28_blackrock_ondo_positions.md)를 [환경·경쟁 분석](29_tokenization_competition_group_strategy.md), [세 그룹 실제 사례·대응](30_group_position_responses.md)에 연결했다. 기존 판단의 출처를 소급 변경하지 않고, 새 비교와 후속 관측을 추가한다. 2027년 일괄 개방이나 그룹 전체의 단일 권한·손익을 가정하지 않는다.

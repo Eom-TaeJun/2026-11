@@ -38,3 +38,7 @@ PRIOR-003의 [KYOBO_PROFIT_STRATEGY.md](https://github.com/Eom-TaeJun/sto-ai-fro
 ## 한화·그룹 심화의 기존 작업 재사용
 
 [기존 공개 기관 대응 보고서](https://github.com/Eom-TaeJun/2026-10/blob/5e4dd5143a57fda97f33151d0e284ba7f7b5576d/reports/digital-finance-institutional-response-2026-11-01.md)를 고정 커밋 `5e4dd5143a57fda97f33151d0e284ba7f7b5576d`에서 선택 읽었다. 권리·현금·금융 기능의 분석 질문과 공개 원문 경로를 이어받았으며 현재 기업 사실을 대신 입증하는 근거로 세지 않았다. 이 저장소의 14번 한화 전략, 16~17번 경남, 18~21번 교보와 출처 원장을 연결해 [22~26번 후속 사업안](22_hanwha_group_business_plan.md)을 작성했다. 이번 작업이 모든 개인 채팅·비공개 라이브러리·10월 이후 전체 저장소를 다시 검색한 것은 아니다.
+
+## 2026-11-04 Ondo 원문과 기능별 비교 보완
+
+[교수 원문 계보](27_professor_ondo_lineage.md)와 [BlackRock·Ondo 비교](28_blackrock_ondo_positions.md)를 [환경·경쟁 분석](29_tokenization_competition_group_strategy.md), [세 그룹 실제 사례·대응](30_group_position_responses.md)에 연결했다. 기존 판단의 출처를 소급 변경하지 않고, 새 비교와 후속 관측을 추가한다. 2027년 일괄 개방이나 그룹 전체의 단일 권한·손익을 가정하지 않는다.

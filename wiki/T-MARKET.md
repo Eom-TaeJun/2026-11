@@ -220,6 +220,106 @@ Nobu 고객구성·유료전환·보험료·보수율·LGI 신규채널계약·�
 
 한계: - 미확인은 부재나 사업 실패의 증거가 아니다.
 
+### C-306 · fact · active
+
+공개 17쪽 OIP 강의자료의 데이터 기준은 2026-09-28이다. 현재 사실과 혼합하지 않고 페이지별 논지·회사 인용·교육 계산을 구분한다.
+
+근거: [OBX-P-001](../sources/cards/OBX-P-001.md)
+
+한계: - 정확한 공개 게시일과 강의자의 구두 발언은 확인하지 않았다.
+
+### C-307 · institution_statement · active
+
+Ondo 현재 고지는 BlackRock 모델 공급, Ondo 구현·발행, 토큰 투자자의 권리를 분리한다. BlackRock 브랜드는 해당 토큰에 대한 BlackRock의 투자자 자문 관계나 기초 ETF 직접 청구권을 뜻하지 않는다.
+
+근거: [OBX-P-008](../sources/cards/OBX-P-008.md), [OBX-P-004](../sources/cards/OBX-P-004.md), [OBX-P-001](../sources/cards/OBX-P-001.md)
+
+한계: - 공식 설명과 고지 범위이며 개별 계약·보호 규정의 법률 의견이 아니다.
+
+### C-308 · institution_statement · active
+
+Ondo 문서는 서비스 보수 외 구성 토큰 거래 비용·스프레드·가스 등을 설명한다. 배당 원천징수 설명을 전체 수익률의 일률 30% 차감으로 적용할 수 없다.
+
+근거: [OBX-P-005](../sources/cards/OBX-P-005.md)
+
+한계: - 개별 보수율·최종 고객 세금·실제 총비용 미검증.
+
+### C-309 · unknown · active
+
+강의의 9월 보수율·면제·AUM·구성 비중은 역사적 스냅샷이다. 이 패킷은 그 수치가 11월 4일에도 동일하다고 확인하지 않았다.
+
+근거: [OBX-P-001](../sources/cards/OBX-P-001.md), [OBX-P-005](../sources/cards/OBX-P-005.md)
+
+한계: - 미확인은 변경·폐지의 증거가 아니다.
+
+### C-310 · institution_statement · active
+
+현재 문서는 신규 투자에 목표 비중, 상환에 현재 비중을 적용한다고 설명한다.
+
+근거: [OBX-P-006](../sources/cards/OBX-P-006.md)
+
+한계: - 개별 체결 원장이나 실행 품질 검증이 아니다.
+
+### C-311 · interpretation · active
+
+가격 고정·비용 제외·신규 유입 전액을 목표 비중으로 투자한다는 가정에서 기존 비중과 목표의 차이는 V/(V+A) 배가 된다. 이는 강의의 부분 리밸런싱 추론이며 자동 경제적 차익거래나 초과성과의 증명이 아니다.
+
+근거: [OBX-P-001](../sources/cards/OBX-P-001.md), [OBX-P-006](../sources/cards/OBX-P-006.md)
+
+한계: - 실제 가격 변화·수수료·입출금·체결 지연은 식의 결론을 바꿀 수 있다.
+
+### C-312 · institution_statement · active
+
+직접 투자·상환 창구는 미국 거래일 09:30–15:45 ET이며 구성자산 거래정지와 플랫폼 제한의 영향을 받는다. 토큰의 상시 이전 가능성과 구분한다.
+
+근거: [OBX-P-007](../sources/cards/OBX-P-007.md)
+
+한계: - 고객 은행현금 입금까지의 시간은 이 창구 표기로 확인되지 않는다.
+
+### C-313 · institution_statement · active
+
+9월 강의의 Solana 예정 표시는 11월 4일 공식 제품 페이지의 사용 가능 표시로 갱신할 필요가 있다.
+
+근거: [OBX-P-001](../sources/cards/OBX-P-001.md), [OBX-P-008](../sources/cards/OBX-P-008.md)
+
+한계: - 공식 페이지 표시를 확인한 것이며 체인별 모든 상품·거래 깊이·최초 출시일을 검증한 것은 아니다.
+
+### C-314 · interpretation · active
+
+2026-09-24 출시 발표와 09-28 강의가 다룬 첫 세 상품의 고정 구성·정기 리밸런싱은 당시 로드맵의 동적 구성·파생상품·중첩 전략과 구분해야 한다. 현재 공식 제품 페이지의 7개 라인업을 첫 세 상품으로 축소하지 않는다.
+
+근거: [OBX-P-004](../sources/cards/OBX-P-004.md), [OBX-P-001](../sources/cards/OBX-P-001.md), [OBX-P-008](../sources/cards/OBX-P-008.md)
+
+한계: - 첫 출시 설명 이후 각 후속 기능의 개별 도입 여부는 이번 범위에서 전수 확인하지 않았다.
+
+### C-317 · hypothesis · active
+
+ETF 경제 노출을 이미 저렴하게 구현할 수 있는 고객에게 OIP의 추가 비용을 정당화하려면, 실제 지갑·담보·업무 자동화 사용이 고객의 총비용이나 완료 시간을 충분히 줄여야 한다.
+
+근거: [OBX-P-001](../sources/cards/OBX-P-001.md), [OBX-P-005](../sources/cards/OBX-P-005.md), [OBX-P-007](../sources/cards/OBX-P-007.md)
+
+한계: - 분석 가설이며 현재 고객의 수요·사용·수익성을 관측한 결과가 아니다.
+
+다른 설명: 기존 증권계좌의 자동 리밸런싱·담보·은행 송금이 더 저렴하거나, 토큰의 추가 비용·시간 제약이 사용성 이익보다 클 수 있다.
+
+다음 관측: 동일 고객·동일 위험노출·동일 기간에서 직접 ETF, 기존계좌+AI, 토큰+AI의 세후 비용·현금화 완료 시간·반복 사용·총 순기여를 비교한다.
+
+### C-348 · interpretation · active
+
+같은 원천 채권·펀드·담보의 포장을 늘려도 독립된 기초 현금흐름은 자동으로 증가하지 않는다. 맞춤 효용·위험배분과 총청구·레버리지·집중·기한 불일치를 분리해 평가해야 한다.
+
+근거: [KYX-M-001](../sources/cards/KYX-M-001.md), [KNX-M-002](../sources/cards/KNX-M-002.md), [HWX-A-008](../sources/cards/HWX-A-008.md)
+
+한계: 경제적 해석이며 모든 토큰 상품의 구체적 법적 권리를 동일하게 분류하는 주장이 아니다.
+
+### C-355 · interpretation · active
+
+같은 기초자산의 ETF·발행상품·포트폴리오·담보 잔액을 더해 신규 독립 자산이나 외부 순유입으로 계산할 수 없다.
+
+근거: [NOV-M07](../sources/cards/NOV-M07.md), [FIN-011](../sources/cards/FIN-011.md)
+
+한계: 규모 통계를 이번에 추정하지 않았으며 상품·회계 범위별 look-through 대사가 필요.
+
 ## 관련 원문
 
 - [FIN-002 · What Is Needed for Tokenization to Deliver](../sources/cards/FIN-002.md)
@@ -247,7 +347,7 @@ Nobu 고객구성·유료전환·보험료·보수율·LGI 신규채널계약·�
 - [ST-HW-004 · 한화투자증권, 모바일 투자 앱 개편… 이제 디지털자산도 ‘한화투자증권 MTS’ 에서](../sources/cards/ST-HW-004.md)
 - [ST-HW-008 · Siaran Pers Bersama: Indeks Literasi dan Inklusi Keuangan Masyarakat Meningkat, OJK, LPS, dan BPS Umumkan Hasil Survei Nasional Literasi dan Inklusi Keuangan (SNLIK) Tahun 2026](../sources/cards/ST-HW-008.md)
 - [ST-HW-009 · Asuransi / Bancassurance](../sources/cards/ST-HW-009.md)
-- [ST-TD-003 · The Future of Financial Markets — Module 01 Infinite Assets](../sources/cards/ST-TD-003.md)
+- [ST-TD-003 · The Future of Financial Markets — Infinite Assets / 24-7 / Models](../sources/cards/ST-TD-003.md)
 - [KNX-M-001 · Franklin OnChain U.S. Government Money Fund — Prospectus August 1, 2026](../sources/cards/KNX-M-001.md)
 - [KNX-M-003 · USDC / EURC redemption structure](../sources/cards/KNX-M-003.md)
 - [HWX-A-004 · Exchange Traded Concepts Takes Client ETFs to the Abu Dhabi Securities Exchange](../sources/cards/HWX-A-004.md)
@@ -256,5 +356,10 @@ Nobu 고객구성·유료전환·보험료·보수율·LGI 신규채널계약·�
 - [HWX-M-002 · QRIS Nobu: Solusi QRIS Terintegrasi untuk Pembayaran Digital](../sources/cards/HWX-M-002.md)
 - [HWX-M-004 · HealthPlus+ Business](../sources/cards/HWX-M-004.md)
 - [HWX-M-005 · Panduan Mobile JKN — Administrasi Kepesertaan JKN](../sources/cards/HWX-M-005.md)
+- [OBX-P-001 · 온도 인텔리전트 포트폴리오 (강의 슬라이드)](../sources/cards/OBX-P-001.md)
+- [OBX-P-004 · Introducing Ondo Intelligent Portfolios](../sources/cards/OBX-P-004.md)
+- [OBX-P-006 · Ondo Intelligent Portfolios Investing and Redeeming](../sources/cards/OBX-P-006.md)
+- [OBX-P-007 · Ondo Intelligent Portfolios Market Hours and Trading Availability](../sources/cards/OBX-P-007.md)
+- [OBX-P-008 · Ondo Intelligent Portfolios](../sources/cards/OBX-P-008.md)
 
 [전체 주제 지도](INDEX.md)

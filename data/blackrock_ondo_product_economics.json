@@ -1,0 +1,173 @@
+{
+  "as_of": "2026-11-04",
+  "report": "reports/28_blackrock_ondo_positions.md",
+  "evidence_status": "Official public descriptions with scope/version limits; final subscription and partnership contracts not fully read.",
+  "products": [
+    {
+      "product": "BUIDL",
+      "issuer": "BlackRock USD Institutional Digital Liquidity Fund Ltd.",
+      "manager": "BlackRock Financial Management, Inc.",
+      "right": "fund share",
+      "management_fee_rate": null,
+      "fee_unknown_reason": "공개 페이지의 여러 표 간 클래스 구분 미확인; 사모 계약 전문 미독",
+      "placement_fee_payer": "investment manager",
+      "placement_fee_recipient": "Securitize Markets, LLC",
+      "placement_fee_rate": null,
+      "placement_fee_note": "선급 정액은 후속 NAV 연동액에서 공제하므로 중복 합산하지 않음",
+      "bank_cash_route": "펀드 직접 USD 유동성 조건 확인 필요; Circle의 별도 지분 매각은 USDC로 종료",
+      "source_ids": [
+        "OBX-E-001",
+        "OBX-E-002",
+        "OBX-E-003",
+        "KNX-M-002"
+      ]
+    },
+    {
+      "product": "OUSG",
+      "issuer": "Ondo I LP",
+      "manager": "Ondo Capital Management LLC",
+      "right": "limited partnership interest",
+      "stated_management_fee_annual": 0.0015,
+      "management_fee_waived_until": "2027-01-01",
+      "fund_expense_cap_annual": 0.0015,
+      "underlying_fund_expenses_additional": true,
+      "actual_total_expense": null,
+      "instant_redemption_asset": "USDC",
+      "holdings_snapshot_at": "2026-11-02T16:00:00-05:00",
+      "holdings_selected_percent": {
+        "SWEEP": 47.79,
+        "BUIDL": 32.16,
+        "BENJI": 11.59,
+        "FYOXX": 7.44
+      },
+      "source_ids": [
+        "OBX-E-004",
+        "OBX-E-005",
+        "OBX-E-006",
+        "OBX-E-007"
+      ],
+      "management_fee_included_in_expense_cap": null
+    },
+    {
+      "product": "USDY",
+      "issuer_for_each_issuance": null,
+      "legacy_issuer": "Ondo USDY LLC",
+      "current_web_app_terms": "Ondo Stocks",
+      "usdc_redemption_counterparty": "Ondo Global Markets (BVI) Limited",
+      "usd_redemption_counterparty": "Ondo USDY LLC; non-US bank account only",
+      "right": "tokenized note; issuance-specific terms required",
+      "management_fee_rate": null,
+      "spread": null,
+      "profit_recipient": null,
+      "warning": "기초자산 수익률과 설정 APY 차이 전액을 회사 순익으로 취급하지 않음",
+      "source_ids": [
+        "OBX-E-008",
+        "OBX-E-009",
+        "OBX-E-010",
+        "OBX-E-011"
+      ]
+    },
+    {
+      "product": "Ondo Stocks / Global Markets",
+      "issuer": "Ondo Global Markets (BVI) Limited",
+      "right": "structured note, not underlying shareholder rights",
+      "base_settlement_asset": "USDon",
+      "usdc_route": "atomic conversion subject to inventory; direct swaps need separate approval",
+      "fee_rate": null,
+      "spread": null,
+      "retained_by_in_docs": "platform",
+      "exact_fee_recipient_entity": null,
+      "source_ids": [
+        "OBX-E-012",
+        "OBX-E-013",
+        "OBX-E-014",
+        "OBX-E-015"
+      ]
+    },
+    {
+      "product": "Ondo Intelligent Portfolios",
+      "issuer": "Ondo Global Markets (BVI) Limited",
+      "right": "portfolio token; not fund or ETF share",
+      "models_as_of": "2026-11-04",
+      "blackrock_models": [
+        "BLKHIon",
+        "BLKDIGon",
+        "BLKGRWon"
+      ],
+      "ondo_models": [
+        "MAG7Xon",
+        "BRAINon",
+        "YLD5on",
+        "YLD8on"
+      ],
+      "current_constituent_etfs_and_weights": null,
+      "service_fee_annual_rate": null,
+      "blackrock_model_fee_payer": null,
+      "blackrock_model_fee_rate": null,
+      "constituent_mint_redeem_fee_rate": null,
+      "mint_redeem_window": "US market business days generally 09:30:00–15:45:00 ET",
+      "secondary_acquisition_confers_direct_redemption": false,
+      "source_ids": [
+        "OBX-P-004",
+        "OBX-E-018",
+        "OBX-E-019",
+        "OBX-E-020",
+        "OBX-P-005",
+        "OBX-E-022",
+        "OBX-P-006",
+        "OBX-E-024",
+        "OBX-P-007"
+      ]
+    }
+  ],
+  "claim_ids": [
+    "C-319",
+    "C-320",
+    "C-321",
+    "C-322",
+    "C-323",
+    "C-324",
+    "C-325",
+    "C-326",
+    "C-327",
+    "C-328",
+    "C-329",
+    "C-330",
+    "C-331",
+    "C-332",
+    "C-333",
+    "C-334",
+    "C-335",
+    "C-336",
+    "C-337",
+    "C-338"
+  ],
+  "boundary_sources": {
+    "ONDO": [
+      "OBX-E-026",
+      "OBX-E-027"
+    ],
+    "Network": [
+      "OBX-E-028"
+    ]
+  },
+  "boundaries": [
+    "AUM, customer principal, underlying investment yield and issuer revenue are different.",
+    "Governance token does not automatically convey product or company revenue.",
+    "Transfer, secondary sale, issuer redemption and usable bank cash are different.",
+    "2027 fee-waiver expiry is a stated condition to recheck, not observed future revenue."
+  ],
+  "access_limits": [
+    "기업의 공개 문서·발표를 확인했다. BUIDL 사모설명서·개별 계약과 Ondo 가입 후 Sales Terms 전문, 현재 OIP 앱별 ETF 비중/실제 요율은 읽지 않았다.",
+    "발표일 없는 문서는 2026-11-04에 읽은 변경 가능한 공식 문서이며 고정된 당시 계약 사본이 아니다.",
+    "OUSG의 날짜 있는 포트폴리오 표와 일반 FAQ의 자산 설명이 충돌한다. USDY의 일반 미국 소재 표시와 발행시점별 BVI 경로가 병존한다.",
+    "Securitize BUIDL 공개 표에 서로 다른 최소금액·요율이 보여 단일 실제 계약 수치로 사용하지 않았다.",
+    "문서 URL 일부는 직접 요청 실패 후 메뉴 링크로 본문 확인했다. OIP legal-regulatory 문서는 탐색 메뉴만 반환되어 주장 근거로 채택하지 않았다.",
+    "원문 출판일이 2026-11-04 이후인 자료는 사용하지 않았다. 사이트 상대 업데이트 시각은 사건일로 사용하지 않았다.",
+    "source_records의 공개 설명은 당사자 주장 범위이며 실제 가동률·개별 계약 적법성·수익성·수탁자 독립 확인을 대체하지 않는다."
+  ],
+  "calculation_conventions": {
+    "customer_period_result": "기간 중 범위 밖으로 지급된 분배·매각·환매 현금 + 기말 잔존가치 - 기초 보유가치 - 기간 중 외부 추가납입 - 아직 반영하지 않은 직접비용",
+    "boundary": "평가할 자산·포트폴리오, 기간, 통화와 세전/세후를 고정한다. 내부 재투자·자산교환·기말가치에 포함된 유보현금을 외부 현금흐름에 중복 포함하지 않는다. NAV·가격·수취현금에 이미 반영된 비용은 다시 빼지 않는다."
+  }
+}

@@ -100,3 +100,7 @@ POD 공개 안내의 지급일 차이와 IBKR 요율·지원 토큰·출금보�
 ## 국가 수요에서 그룹 사업까지 이어가기
 
 [그룹·국가 작업 지침](agents/group_country_opportunity_workflow.md)에 따라 기존 국가 관계→실제 고객 문제→그룹/외부 기능→권리·현금·손익→경쟁·검증을 갱신한다. [기회 원장](data/group_country_opportunities.json)은 BNK·교보·한화의 후보 10건이며 확정 사업·예산 목록이 아니다. [한화 실행 기록](runs/2026-11-03-hanwha-group-strategy.json)에 이번 실제 분업·읽기 범위·독립 검토·한계를 보존한다.
+
+## 교수 원문과 글로벌 비교 갱신
+
+[포지션 비교 절차](agents/position_comparison_workflow.md)를 따른다. 원문 계보 → 현재 상품 조건 → 경제 메커니즘 → 그룹의 고객 업무 → 독립 검토를 연결하고, 당시 설명과 현재 정정은 별도로 남긴다. [이번 실행](runs/2026-11-04-ondo-position-integration.json)의 중복 출처 통합·읽기 범위·검증을 참고한다.

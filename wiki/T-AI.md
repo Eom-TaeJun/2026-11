@@ -196,6 +196,7 @@ PBI10/2025 122조는 해당 국내 지급 처리와 데이터센터·재해복�
 - [ST-KN-004 · BNK금융그룹 AI 대전환 통해 일하는 방식 바꾼다](../sources/cards/ST-KN-004.md)
 - [ST-TD-001 · Hermes Agent Economics Lecture — delegation, slides 13–14](../sources/cards/ST-TD-001.md)
 - [ST-TD-002 · AI Agent 강의 — Coase와 통제된 자율성](../sources/cards/ST-TD-002.md)
+- [ST-TD-003 · The Future of Financial Markets — Infinite Assets / 24-7 / Models](../sources/cards/ST-TD-003.md)
 - [ST-TD-006 · Introducing the Machine Payments Protocol](../sources/cards/ST-TD-006.md)
 - [ST-TD-007 · How Agentic AI Will Reshape Payments](../sources/cards/ST-TD-007.md)
 - [KYX-V-007 · Interactive Brokers Opens AI Connectivity to Any Tool Built on the MCP Standard](../sources/cards/KYX-V-007.md)

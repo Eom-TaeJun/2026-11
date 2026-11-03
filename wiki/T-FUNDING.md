@@ -803,6 +803,26 @@ BNK 관점에서는 수출 수금·FX·운전자금에 설비 리스와 자본�
 
 다음 관측: 고객별 반복 자금 문제, 외부 비교 견적, 담보 순위, 계열 거래 제거 후 기여
 
+### C-354 · interpretation · active
+
+은행예금·중앙은행 결제와 토큰자산의 연결 사례는 BlackRock의 활동이나 온체인 금융 전체를 한 민간 달러 스테이블코인 경로로 고정할 근거가 없음을 보여준다.
+
+근거: [OBX-R-001](../sources/cards/OBX-R-001.md), [NOV-M07](../sources/cards/NOV-M07.md)
+
+한계: 상품별 계약과 참가권한을 확인해야 하며 한국의 미래 구조를 확정한 진술이 아님.
+
+### C-357 · hypothesis · active
+
+BNK의 고객 자산이 외부 상품으로 이동해도 원화 지급·FX·신용·회수 업무를 유지할 수 있으나 추가 서비스·금융 기여가 예금조달 가치 감소를 보상하는지 따져야 한다.
+
+근거: [ST-TD-005](../sources/cards/ST-TD-005.md), [OBX-R-001](../sources/cards/OBX-R-001.md), [KNX-S-001](../sources/cards/KNX-S-001.md), [HWX-R-001](../sources/cards/HWX-R-001.md)
+
+한계: 미국의 분석·홍콩 파일럿·기존 국내서비스를 결합한 연구 가설이며 한국은행 정책/BNK 성과의 인과 추정 아님.
+
+다른 설명: 대형은행·외부 플랫폼이 같은 기능을 더 낮은 총비용으로 제공해 고객 관계와 잔액을 함께 가져갈 수 있음.
+
+다음 관측: 같은 기업의 잔액·조달비·신용·FX·관리 수입·외부지급자 재구매와 손실
+
 ## 관련 원문
 
 - [FIN-004 · Project Agorá](../sources/cards/FIN-004.md)
@@ -861,5 +881,6 @@ BNK 관점에서는 수출 수금·FX·운전자금에 설비 리스와 자본�
 - [KYX-M-007 · 20년 뒤 내 보험금, 보험사는 어떻게 준비할까?](../sources/cards/KYX-M-007.md)
 - [KYX-M-008 · FY2025 실적 설명자료 — 보장성 보험 확대·선제적 투자 리밸런싱](../sources/cards/KYX-M-008.md)
 - [HWX-R-001 · BNK금융그룹 부울경 경제 도약 BNK프로젝트 가동](../sources/cards/HWX-R-001.md)
+- [OBX-P-003 · 토큰화 준비금 & BlackRock BUIDL 전략](../sources/cards/OBX-P-003.md)
 
 [전체 주제 지도](INDEX.md)

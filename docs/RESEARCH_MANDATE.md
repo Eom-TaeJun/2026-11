@@ -33,3 +33,7 @@
 한화생명 블록체인팀 관점에서 UAE·아부다비, 인도네시아 Nobu, 미국과 USDC·USDT 연결을 심화한다. 방카슈랑스는 사용자가 제시한 출발 아이디어이며 현지 상황에서 다른 고객 문제와 기회도 독립적으로 발굴한다. 같은 방법을 경남은행을 포함한 BNK금융지주, 증권·생명·문고를 포함한 교보그룹, 금융·산업을 포함한 한화그룹에 적용한다.
 
 고객 접점·지급자·계약·현금·법인별 수입/비용·그룹 외부 기여·경쟁·위험·검증을 보존한다. 시장 규모·계열 소속만으로 고객·권한·자산·매출을 연결하지 않는다. [한화 사업안](../reports/22_hanwha_group_business_plan.md), [그룹 기회 발굴](../reports/25_group_country_opportunity_discovery.md), [반복 작업 지침](../agents/group_country_opportunity_workflow.md)에서 이어간다.
+
+## 2026-11-04 추가 방향: 교수 Ondo 원문과 세 그룹의 선택
+
+기존 강의의 원문·시점·계산 가정과 현재 공식 상품 조건을 구분하고 BlackRock·Ondo의 상품별 법인·권리·현금·보수와 경쟁/보완 관계를 비교한다. 이를 BNK·교보·한화의 실제 기반과 고객·수익·위험·판단 변경 관측에 연결한다. [통합 분석](../reports/29_tokenization_competition_group_strategy.md)과 [반복 작업 절차](../agents/position_comparison_workflow.md)를 출발점으로 삼는다.

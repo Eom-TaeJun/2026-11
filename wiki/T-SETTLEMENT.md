@@ -233,6 +233,39 @@ Bittime는 Nobu VA 제공을 발표하고 IDR→USDT 교환을 홍보한다. 이
 
 다음 관측: 개별 승인 후 실제 가용 현금 시간·총비용·사고 복구·예금 잔액 순변화를 비교
 
+### C-312 · institution_statement · active
+
+직접 투자·상환 창구는 미국 거래일 09:30–15:45 ET이며 구성자산 거래정지와 플랫폼 제한의 영향을 받는다. 토큰의 상시 이전 가능성과 구분한다.
+
+근거: [OBX-P-007](../sources/cards/OBX-P-007.md)
+
+한계: - 고객 은행현금 입금까지의 시간은 이 창구 표기로 확인되지 않는다.
+
+### C-316 · unknown · active
+
+BUIDL 강의의 준비금 비중 숫자·유동성 자금 부담자·일반적인 24/7 표현만으로 현재 법령이나 USDC 환매의 최종 은행현금 경로를 확정할 수 없다.
+
+근거: [OBX-P-003](../sources/cards/OBX-P-003.md), [OBX-P-002](../sources/cards/OBX-P-002.md)
+
+한계: - 이 패킷은 해당 현재 법령·계약·실거래를 새로 확인하지 않았다.
+
+### C-318 · fact · active
+
+Ondo의 2026-05-06 공식 발표는 Ripple의 XRPL상 OUSG 환매를 MTN·Kinexys로 연결해 Ondo의 Blockchain Deposit Account를 차감하고 싱가포르 은행계좌로 USD를 지급한 파일럿 완료를 보고한다.
+
+근거: [OBX-P-009](../sources/cards/OBX-P-009.md), [OBX-P-002](../sources/cards/OBX-P-002.md)
+
+한계: - 발표 사실이며 독립 거래 검증은 아니다. XRPL 자산 leg 5초 미만을 전체 완료 시간으로 확대하지 않는다.
+- 실험에서 일반 고객 상용 개방·반복 사용·용량·보수 수익은 확인되지 않는다.
+
+### C-353 · institution_statement · active
+
+HKMA는11월2일 EnsembleTX가 토큰화 중앙은행화폐로24/7 은행간 토큰화 예금 결제를 지원하는 새 단계에 진입했다고 발표했다. 기존 실가치 파일럿 참여 예시에 BlackRock이 포함된다.
+
+근거: [OBX-R-001](../sources/cards/OBX-R-001.md)
+
+한계: 공식 발표 범위. 한국 참가권·모든 상품 상용화·비용후 이익을 의미하지 않음.
+
 ## 관련 원문
 
 - [FIN-001 · Tokenized Finance](../sources/cards/FIN-001.md)
@@ -269,5 +302,9 @@ Bittime는 Nobu VA 제공을 발표하고 IDR→USDT 교환을 홍보한다. 이
 - [HWX-A-002 · Trading Technology](../sources/cards/HWX-A-002.md)
 - [HWX-M-002 · QRIS Nobu: Solusi QRIS Terintegrasi untuk Pembayaran Digital](../sources/cards/HWX-M-002.md)
 - [HWX-M-003 · Proyek Garuda: Menavigasi Arsitektur Rupiah Digital](../sources/cards/HWX-M-003.md)
+- [OBX-P-002 · ondo_buidl_mastercard_interactive_slides.html — 공개 강의](../sources/cards/OBX-P-002.md)
+- [OBX-P-007 · Ondo Intelligent Portfolios Market Hours and Trading Availability](../sources/cards/OBX-P-007.md)
+- [OBX-P-009 · Ondo, Kinexys by J.P. Morgan, Mastercard, and Ripple Complete First Cross-Border, Cross-Bank Redemption of Tokenized U.S. Treasuries](../sources/cards/OBX-P-009.md)
+- [OBX-R-001 · HKMA advances Project Ensemble pilot phase to 24/7 settlement in tokenised Central Bank Money](../sources/cards/OBX-R-001.md)
 
 [전체 주제 지도](INDEX.md)

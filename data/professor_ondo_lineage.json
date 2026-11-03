@@ -1,0 +1,98 @@
+{
+  "as_of": "2026-11-04",
+  "report": "reports/27_professor_ondo_lineage.md",
+  "attribution": "교수 공개 저장소의 교육 자료. 육성 발언·개별 문장 집필·현재 견해를 확인한 것이 아님.",
+  "originals": [
+    {
+      "id": "OBX-P-001",
+      "title": "온도 인텔리전트 포트폴리오 (강의 슬라이드)",
+      "url": "https://github.com/cschung7/2026-2nd/blob/95d4f2d97d20b4f142e15d457a0ffe1354d3aa43/AI-Finance-GSE/%EC%98%A8%EB%8F%84%20%EC%9D%B8%ED%85%94%EB%A6%AC%EC%A0%84%ED%8A%B8%20%ED%8F%AC%ED%8A%B8%ED%8F%B4%EB%A6%AC%EC%98%A4%20%28%EA%B0%95%EC%9D%98%20%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C%29.pdf",
+      "data_as_of": "2026-09-28",
+      "published_at": null,
+      "read_scope": "실제 PDF 17쪽 전체 텍스트. PDF 렌더 화면은 5·8·10·11·13·14쪽을 선택 확인. 링크 주석도 추출하여 인용 원문 연결 확인.",
+      "source_commit": "95d4f2d97d20b4f142e15d457a0ffe1354d3aa43",
+      "blob_sha": "36e173f261d22900661f666be61e936cf4276292",
+      "sha256": "8b39ec9241f36fae4c1ad81afcfd8470fe7bc300787850330e02a9bf4748888a",
+      "same_blob_duplicate": "AI-Finance-PHD/AssetManager/온도 인텔리전트 포트폴리오 (강의 슬라이드).pdf",
+      "verification": "GitHub fetch_file 반환 blob SHA와 보관된 원본 바이트의 Git blob/SHA256 일치 확인."
+    },
+    {
+      "id": "OBX-P-002",
+      "title": "ondo_buidl_mastercard_interactive_slides.html — 공개 강의",
+      "url": "https://github.com/cschung7/2026-class-UG-AIFinance/blob/3200cf6953b1b45257fcd25a3c7c961942f7bff7/blockchain/ondo_buidl_mastercard_interactive_slides.html",
+      "published_at": null,
+      "read_scope": "공개 pinned HTML 원문 23개 슬라이드의 본문·구조와 관련 JavaScript. 브라우저 렌더나 외부 인용 자료 전수 검증은 하지 않음.",
+      "source_commit": "3200cf6953b1b45257fcd25a3c7c961942f7bff7",
+      "blob_sha": "53916ac17b75838a369d67ff181650e1a010989c",
+      "sha256": "a050f25015aa192697d56aaa08d95f46d9b14dbb096695b83ffbaeaaac0f4d5e"
+    },
+    {
+      "id": "OBX-P-003",
+      "title": "토큰화 준비금 & BlackRock BUIDL 전략",
+      "url": "https://github.com/cschung7/2026-class-UG-AIFinance/blob/3200cf6953b1b45257fcd25a3c7c961942f7bff7/blockchain/Blackrock-build-genius-act.html.html",
+      "published_at": null,
+      "read_scope": "공개 pinned HTML 제목·2026년 5월 표기 및 296–448행의 OCC 준비금 논의, BUIDL 구조와 Circle 연결 부분. 내장 이미지의 내용은 별도 시각 검증하지 않음.",
+      "source_commit": "3200cf6953b1b45257fcd25a3c7c961942f7bff7",
+      "blob_sha": "6a625f956f1415bfc91a903801c3a624ada27fca",
+      "sha256": "1efaa32ec33a8fc3ea6b883ccf80695fc3a00dd6d24fd1b407f48133ecb87b30"
+    },
+    {
+      "id": "ST-TD-003",
+      "title": "The Future of Financial Markets — Infinite Assets / 24-7 / Models",
+      "url": "https://github.com/cschung7/2026-class-UG-AIFinance/blob/6cf6eaf6e508aeda486721f193b3309a1a7f017f/blockchain/future_markets_series.html",
+      "published_at": null,
+      "read_scope": [
+        "HTML 605–767행 중 Module01 표제·자산 증가 도식·가능 요인 설명; 코드 실행 없음",
+        "Module 01 Infinite Assets, Module 02 24/7 Markets, Module 03 Models의 본문 및 SVG 도식 텍스트를 HTML 원문에서 읽음. 3200cf... 커밋 원문과 canonical 6cf6... 커밋 파일의 동일 Git blob 확인. JavaScript 실행·외부 도표 원자료 검증 없음."
+      ],
+      "source_commit": "6cf6eaf6e508aeda486721f193b3309a1a7f017f",
+      "blob_sha": "9db106ada489c92c31148608d9b969797e4f066f",
+      "sha256": "0583267d469c32c7d4dc94f3a8aef33be17de58b8cf17ce3e768b40ce4b5f76b"
+    }
+  ],
+  "claim_ids": [
+    "C-306",
+    "C-307",
+    "C-308",
+    "C-309",
+    "C-310",
+    "C-311",
+    "C-312",
+    "C-313",
+    "C-314",
+    "C-315",
+    "C-316",
+    "C-317",
+    "C-318"
+  ],
+  "reading_limits": [
+    "GitHub PDF는 connector의 원본·메타데이터와 보관된 동일 바이트를 대조한 후 17쪽 텍스트·선택 6쪽 화면을 읽었다.",
+    "일부 Ondo .md URL은 접근 실패했으나 동일 문서 일반 HTML에서 해당 본문을 실제 읽었다.",
+    "추가 클릭한 Model Providers·Legal & Regulatory·Rebalancing & Reconstitution 문서는 결과 표시가 잘려 읽기 완료 자료로 집계하지 않았다.",
+    "BlackRock/BUIDL HTML의 내장 이미지·외부 인용 원문 전체는 검증하지 않았다.",
+    "USDY의 개별 발행 계약·현행 전체 조건을 이 계보 패킷에서 확정하지 않는다. 다른 Ondo 상품 설명을 전용하지 않는다.",
+    "현재 상품별 보수율·면제 종료일·실거래/수익성·온체인 계약 및 법률 적격성 전수 확인은 하지 않았다."
+  ],
+  "lineage_policy": {
+    "public_teaching": "공개 저장소 강의자료의 본문을 페이지·절과 연결. 구두 발언이나 모든 문장의 직접 집필로 단정하지 않음.",
+    "embedded_attribution": "교재가 인용하는 회사 발표·언론·데이터를 교재 저자의 독립 검증 결과로 승격하지 않음.",
+    "private_discovery": "개인 학습자료·과거 AI 정리는 원문 찾기의 단서로만 사용. 비공개 원문·경로·고유 분석은 공개 패킷에 복제하지 않음.",
+    "researcher_interpretation": "현재 공식 자료와의 대조, 계산 가정, 사업 가설은 이번 연구자의 해석으로 표시."
+  },
+  "math_example": {
+    "classification": "illustrative_not_observed",
+    "V": 100,
+    "A": 25,
+    "current_weight": 0.6,
+    "target_weight": 0.5,
+    "result_weight": 0.58,
+    "assumptions": [
+      "fixed prices",
+      "all inflow invested at target weights",
+      "no costs or simultaneous redemptions"
+    ],
+    "source_ids": [
+      "OBX-P-001"
+    ]
+  }
+}

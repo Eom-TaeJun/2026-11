@@ -778,5 +778,6 @@ Qcells의 8월19일 발표는 Microsoft와 신규 전력 공급·VPP 모델을 �
 - [HWX-A-007 · ADX welcomes listing of two Korean ETFs](../sources/cards/HWX-A-007.md)
 - [HWX-M-001 · PT Lippo General Insurance Tbk — Laporan Keberlanjutan 2025](../sources/cards/HWX-M-001.md)
 - [HWX-R-006 · Qcells Expands Alliance with Microsoft to Explore New Approach for Adding Energy Capacity Alongside AI Infrastructure](../sources/cards/HWX-R-006.md)
+- [OBX-R-001 · HKMA advances Project Ensemble pilot phase to 24/7 settlement in tokenised Central Bank Money](../sources/cards/OBX-R-001.md)
 
 [전체 주제 지도](INDEX.md)

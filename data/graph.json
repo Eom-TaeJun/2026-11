@@ -839,7 +839,7 @@
     {
       "id": "ST-TD-003",
       "type": "source",
-      "label": "The Future of Financial Markets — Module 01 Infinite Assets"
+      "label": "The Future of Financial Markets — Infinite Assets / 24-7 / Models"
     },
     {
       "id": "ST-TD-004",
@@ -1245,6 +1245,176 @@
       "id": "HWX-R-008",
       "type": "source",
       "label": "2026년도 금융복합기업집단 지정"
+    },
+    {
+      "id": "OBX-P-001",
+      "type": "source",
+      "label": "온도 인텔리전트 포트폴리오 (강의 슬라이드)"
+    },
+    {
+      "id": "OBX-P-002",
+      "type": "source",
+      "label": "ondo_buidl_mastercard_interactive_slides.html — 공개 강의"
+    },
+    {
+      "id": "OBX-P-003",
+      "type": "source",
+      "label": "토큰화 준비금 & BlackRock BUIDL 전략"
+    },
+    {
+      "id": "OBX-P-004",
+      "type": "source",
+      "label": "Introducing Ondo Intelligent Portfolios"
+    },
+    {
+      "id": "OBX-P-005",
+      "type": "source",
+      "label": "Ondo Intelligent Portfolios Fees and Taxes"
+    },
+    {
+      "id": "OBX-P-006",
+      "type": "source",
+      "label": "Ondo Intelligent Portfolios Investing and Redeeming"
+    },
+    {
+      "id": "OBX-P-007",
+      "type": "source",
+      "label": "Ondo Intelligent Portfolios Market Hours and Trading Availability"
+    },
+    {
+      "id": "OBX-P-008",
+      "type": "source",
+      "label": "Ondo Intelligent Portfolios"
+    },
+    {
+      "id": "OBX-P-009",
+      "type": "source",
+      "label": "Ondo, Kinexys by J.P. Morgan, Mastercard, and Ripple Complete First Cross-Border, Cross-Bank Redemption of Tokenized U.S. Treasuries"
+    },
+    {
+      "id": "OBX-E-001",
+      "type": "source",
+      "label": "BlackRock Launches Its First Tokenized Fund, BUIDL, on the Ethereum Network"
+    },
+    {
+      "id": "OBX-E-002",
+      "type": "source",
+      "label": "Tempo expands onchain yield offering with BlackRock’s BUIDL fund"
+    },
+    {
+      "id": "OBX-E-003",
+      "type": "source",
+      "label": "BlackRock BUIDL"
+    },
+    {
+      "id": "OBX-E-004",
+      "type": "source",
+      "label": "OUSG | Tokenized Treasuries for Institutions"
+    },
+    {
+      "id": "OBX-E-005",
+      "type": "source",
+      "label": "OUSG Fees and Taxes"
+    },
+    {
+      "id": "OBX-E-006",
+      "type": "source",
+      "label": "OUSG Instant Limits"
+    },
+    {
+      "id": "OBX-E-007",
+      "type": "source",
+      "label": "OUSG Redeeming"
+    },
+    {
+      "id": "OBX-E-008",
+      "type": "source",
+      "label": "USDY Basics"
+    },
+    {
+      "id": "OBX-E-009",
+      "type": "source",
+      "label": "USDY Important Notes"
+    },
+    {
+      "id": "OBX-E-010",
+      "type": "source",
+      "label": "USDY Eligibility"
+    },
+    {
+      "id": "OBX-E-011",
+      "type": "source",
+      "label": "USDY | Tokenized US Dollar Yield"
+    },
+    {
+      "id": "OBX-E-012",
+      "type": "source",
+      "label": "Ondo Stocks Legal and Regulatory"
+    },
+    {
+      "id": "OBX-E-013",
+      "type": "source",
+      "label": "Ondo Stocks Fees and Taxes"
+    },
+    {
+      "id": "OBX-E-014",
+      "type": "source",
+      "label": "Ondo Stocks Investing and Redeeming"
+    },
+    {
+      "id": "OBX-E-015",
+      "type": "source",
+      "label": "Ondo Stocks Trust and Transparency"
+    },
+    {
+      "id": "OBX-E-016",
+      "type": "source",
+      "label": "Ondo Stocks Eligibility"
+    },
+    {
+      "id": "OBX-E-018",
+      "type": "source",
+      "label": "Intelligent Portfolios Go Live on Solana"
+    },
+    {
+      "id": "OBX-E-019",
+      "type": "source",
+      "label": "Ondo Intelligent Portfolios Overview"
+    },
+    {
+      "id": "OBX-E-020",
+      "type": "source",
+      "label": "Ondo Intelligent Portfolios Model Providers"
+    },
+    {
+      "id": "OBX-E-022",
+      "type": "source",
+      "label": "Ondo Intelligent Portfolios Available Assets"
+    },
+    {
+      "id": "OBX-E-024",
+      "type": "source",
+      "label": "Ondo Intelligent Portfolios Eligibility"
+    },
+    {
+      "id": "OBX-E-026",
+      "type": "source",
+      "label": "ONDO Token"
+    },
+    {
+      "id": "OBX-E-027",
+      "type": "source",
+      "label": "CoinList Risk Factors"
+    },
+    {
+      "id": "OBX-E-028",
+      "type": "source",
+      "label": "Introducing the Ondo Network"
+    },
+    {
+      "id": "OBX-R-001",
+      "type": "source",
+      "label": "HKMA advances Project Ensemble pilot phase to 24/7 settlement in tokenised Central Bank Money"
     },
     {
       "id": "C-001",
@@ -3380,6 +3550,377 @@
       "kind": "interpretation",
       "status": "active",
       "label": "그룹 사업성은 법인별 수입·비용을 표시한 뒤 내부거래를 제거한 외부 기여, 손실·자본·기존사업 잠식을 별도로 판단해야 한다. 법적 연결범위 밖 계열사와 지분법 대상에는 같은 연결 제거를 기계적으로 적용하지 않는다."
+    },
+    {
+      "id": "C-306",
+      "type": "claim",
+      "kind": "fact",
+      "status": "active",
+      "label": "공개 17쪽 OIP 강의자료의 데이터 기준은 2026-09-28이다. 현재 사실과 혼합하지 않고 페이지별 논지·회사 인용·교육 계산을 구분한다."
+    },
+    {
+      "id": "C-307",
+      "type": "claim",
+      "kind": "institution_statement",
+      "status": "active",
+      "label": "Ondo 현재 고지는 BlackRock 모델 공급, Ondo 구현·발행, 토큰 투자자의 권리를 분리한다. BlackRock 브랜드는 해당 토큰에 대한 BlackRock의 투자자 자문 관계나 기초 ETF 직접 청구권을 뜻하지 않는다."
+    },
+    {
+      "id": "C-308",
+      "type": "claim",
+      "kind": "institution_statement",
+      "status": "active",
+      "label": "Ondo 문서는 서비스 보수 외 구성 토큰 거래 비용·스프레드·가스 등을 설명한다. 배당 원천징수 설명을 전체 수익률의 일률 30% 차감으로 적용할 수 없다."
+    },
+    {
+      "id": "C-309",
+      "type": "claim",
+      "kind": "unknown",
+      "status": "active",
+      "label": "강의의 9월 보수율·면제·AUM·구성 비중은 역사적 스냅샷이다. 이 패킷은 그 수치가 11월 4일에도 동일하다고 확인하지 않았다."
+    },
+    {
+      "id": "C-310",
+      "type": "claim",
+      "kind": "institution_statement",
+      "status": "active",
+      "label": "현재 문서는 신규 투자에 목표 비중, 상환에 현재 비중을 적용한다고 설명한다."
+    },
+    {
+      "id": "C-311",
+      "type": "claim",
+      "kind": "interpretation",
+      "status": "active",
+      "label": "가격 고정·비용 제외·신규 유입 전액을 목표 비중으로 투자한다는 가정에서 기존 비중과 목표의 차이는 V/(V+A) 배가 된다. 이는 강의의 부분 리밸런싱 추론이며 자동 경제적 차익거래나 초과성과의 증명이 아니다."
+    },
+    {
+      "id": "C-312",
+      "type": "claim",
+      "kind": "institution_statement",
+      "status": "active",
+      "label": "직접 투자·상환 창구는 미국 거래일 09:30–15:45 ET이며 구성자산 거래정지와 플랫폼 제한의 영향을 받는다. 토큰의 상시 이전 가능성과 구분한다."
+    },
+    {
+      "id": "C-313",
+      "type": "claim",
+      "kind": "institution_statement",
+      "status": "active",
+      "label": "9월 강의의 Solana 예정 표시는 11월 4일 공식 제품 페이지의 사용 가능 표시로 갱신할 필요가 있다."
+    },
+    {
+      "id": "C-314",
+      "type": "claim",
+      "kind": "interpretation",
+      "status": "active",
+      "label": "2026-09-24 출시 발표와 09-28 강의가 다룬 첫 세 상품의 고정 구성·정기 리밸런싱은 당시 로드맵의 동적 구성·파생상품·중첩 전략과 구분해야 한다. 현재 공식 제품 페이지의 7개 라인업을 첫 세 상품으로 축소하지 않는다."
+    },
+    {
+      "id": "C-315",
+      "type": "claim",
+      "kind": "interpretation",
+      "status": "active",
+      "label": "무한 에셋은 상품 표현과 조합의 증가를 설명하는 개념으로 읽을 수 있지만, 현금흐름·담보·현금화 능력이 무한해진다는 결론은 도출되지 않는다."
+    },
+    {
+      "id": "C-316",
+      "type": "claim",
+      "kind": "unknown",
+      "status": "active",
+      "label": "BUIDL 강의의 준비금 비중 숫자·유동성 자금 부담자·일반적인 24/7 표현만으로 현재 법령이나 USDC 환매의 최종 은행현금 경로를 확정할 수 없다."
+    },
+    {
+      "id": "C-317",
+      "type": "claim",
+      "kind": "hypothesis",
+      "status": "active",
+      "label": "ETF 경제 노출을 이미 저렴하게 구현할 수 있는 고객에게 OIP의 추가 비용을 정당화하려면, 실제 지갑·담보·업무 자동화 사용이 고객의 총비용이나 완료 시간을 충분히 줄여야 한다."
+    },
+    {
+      "id": "C-318",
+      "type": "claim",
+      "kind": "fact",
+      "status": "active",
+      "label": "Ondo의 2026-05-06 공식 발표는 Ripple의 XRPL상 OUSG 환매를 MTN·Kinexys로 연결해 Ondo의 Blockchain Deposit Account를 차감하고 싱가포르 은행계좌로 USD를 지급한 파일럿 완료를 보고한다."
+    },
+    {
+      "id": "C-319",
+      "type": "claim",
+      "kind": "fact",
+      "status": "active",
+      "label": "BUIDL의 운용·수탁관리·이전대행토큰화·판매대행은 서로 다른 역할이다. 2024 발표는 각각 BlackRock Financial Management, BNY Mellon, Securitize, Securitize Markets를 명시한다."
+    },
+    {
+      "id": "C-320",
+      "type": "claim",
+      "kind": "fact",
+      "status": "active",
+      "label": "BUIDL 지분은 특정 미국 국채에 대한 직접 소유·현물 인도 권리나 USDC·은행예금이 아니다."
+    },
+    {
+      "id": "C-321",
+      "type": "claim",
+      "kind": "fact",
+      "status": "active",
+      "label": "Circle의 2024 발표는 BUIDL 지분을 Circle에 넘겨 USDC를 받는 2차시장 경로다. 펀드 직접 환매 및 은행 달러 입금과 다르다."
+    },
+    {
+      "id": "C-322",
+      "type": "claim",
+      "kind": "fact",
+      "status": "active",
+      "label": "OUSG는 Ondo I LP가 발행하며 accredited investor와 qualified purchaser 조건을 모두 요구한다. 2026-11-02 16:00 EST 공식 표에는 SWEEP 47.79%, BUIDL 32.16%, BENJI 11.59%, FYOXX 7.44%가 기재됐다."
+    },
+    {
+      "id": "C-323",
+      "type": "claim",
+      "kind": "fact",
+      "status": "active",
+      "label": "OUSG 문서는 0.15% 관리보수를 2027-01-01까지 면제하고, 별도 0.15% 펀드비용 상한과 기초펀드 비용을 구분한다."
+    },
+    {
+      "id": "C-324",
+      "type": "claim",
+      "kind": "fact",
+      "status": "active",
+      "label": "OUSG 즉시 환매는 USDC 수취 경로이며 글로벌·개별 24시간 한도와 남은 용량 조건이 있다."
+    },
+    {
+      "id": "C-325",
+      "type": "claim",
+      "kind": "fact",
+      "status": "active",
+      "label": "현 USDY 문서는 2025-12-15 Stocks 범주 편입, 발행일에 따른 담보 차이, Ondo USDY LLC의 비미국 은행계좌 USD 환매와 Ondo Global Markets (BVI) Limited의 USDC 환매를 나눠 설명한다."
+    },
+    {
+      "id": "C-326",
+      "type": "claim",
+      "kind": "interpretation",
+      "status": "active",
+      "label": "USDY의 실제 권리는 티커만으로 확정할 수 없다. 발행시점·청약약관·발행/환매 상대방을 확인한 뒤 신규·기존분을 분리해야 한다."
+    },
+    {
+      "id": "C-327",
+      "type": "claim",
+      "kind": "fact",
+      "status": "active",
+      "label": "Ondo Stocks는 Ondo Global Markets (BVI) Limited 발행 구조화 채권이며, 기초 주식·ETF의 주주 의결권을 직접 부여하는 증권은 아니다."
+    },
+    {
+      "id": "C-328",
+      "type": "claim",
+      "kind": "fact",
+      "status": "active",
+      "label": "Stocks의 기본 발행환매는 USDon을 사용하고 USDC 경로는 유동성 있는 교환을 묶는 방식이다. 직접 USDon 교환 승인과 은행송금은 별도 조건이다."
+    },
+    {
+      "id": "C-329",
+      "type": "claim",
+      "kind": "fact",
+      "status": "active",
+      "label": "OIP는 2026-09-24 출시, 10-29 Solana 확장이 공식 발표됐다. 발행자는 Ondo Global Markets (BVI) Limited이며 펀드·ETF 자체가 아닌 포트폴리오 토큰이다."
+    },
+    {
+      "id": "C-330",
+      "type": "claim",
+      "kind": "fact",
+      "status": "active",
+      "label": "OIP에서 BlackRock은 세 모델 제공자다. 공식 문서는 모델 제공자가 포트폴리오 토큰의 발행·후원·운용·관리·수탁자가 아니며 보유자와의 계약관계가 아니라고 명시한다."
+    },
+    {
+      "id": "C-331",
+      "type": "claim",
+      "kind": "fact",
+      "status": "active",
+      "label": "OIP는 연간 서비스비 외에 기초토큰 발행환매 비용·호가 차이·가스·원천징수를 구분한다. 상품별 실제 서비스 요율은 이번 조사에서 확인하지 못했다."
+    },
+    {
+      "id": "C-332",
+      "type": "claim",
+      "kind": "fact",
+      "status": "active",
+      "label": "OIP 발행은 목표 비중, 환매는 현재 비중을 사용한다. 직접 발행환매는 일반적으로 미국 시장 영업일 ET09:30–15:45이고 구성종목 정지 등이 전체 포트폴리오를 멈출 수 있다."
+    },
+    {
+      "id": "C-333",
+      "type": "claim",
+      "kind": "fact",
+      "status": "active",
+      "label": "OIP 2차 취득은 직접 발행자 환매 자격이 아니다. Stocks와 같은 국가·투자자 조건 및 KYC가 적용된다."
+    },
+    {
+      "id": "C-334",
+      "type": "claim",
+      "kind": "fact",
+      "status": "active",
+      "label": "ONDO의 공식 판매 위험 고지는 보유자가 회사·계열사·플랫폼 매출이나 이익에 대한 권리를 얻지 않는다고 명시하며, 공식 토큰 설명은 거버넌스 기능을 제시한다."
+    },
+    {
+      "id": "C-335",
+      "type": "claim",
+      "kind": "fact",
+      "status": "active",
+      "label": "Ondo는 2026-07-27 Network 발표에서 Chain 구상과 달라졌으며 당시 Network는 블록체인이 아니라고 설명하고 Perps를 첫 실서비스로 제시했다."
+    },
+    {
+      "id": "C-336",
+      "type": "claim",
+      "kind": "hypothesis",
+      "status": "active",
+      "label": "고객이 기존 ETF/펀드의 접근·보관·담보·실행 제약을 해결하기 위해 추가 비용을 지불한다면 Ondo 포장·운영 계층과 BlackRock 기초운용 계층이 함께 성장할 수 있다."
+    },
+    {
+      "id": "C-337",
+      "type": "claim",
+      "kind": "hypothesis",
+      "status": "active",
+      "label": "발행자가 직접 온체인 접근과 상호운용성을 개선하고 유통 경쟁이 심해지면 중간 포장 보수는 압박받고, 고객 적격성·다상품 비교·유동성·회수 운영이 차별화 요인이 될 수 있다."
+    },
+    {
+      "id": "C-338",
+      "type": "claim",
+      "kind": "interpretation",
+      "status": "active",
+      "label": "기초자산의 담보권, 고객의 토큰 담보대출, 스테이블코인 발행자의 법정 준비자산 적격성은 서로 다른 판단이다. 토큰화나 Circle 교환 가능만으로 셋을 동시에 충족하지 않는다."
+    },
+    {
+      "id": "C-339",
+      "type": "claim",
+      "kind": "interpretation",
+      "status": "active",
+      "label": "BlackRock/Ondo 비교를 세 그룹에 적용할 단위는 자산발굴·인수·운용·구조화·유통·은행현금·담보·사후관리의 계약 기능이다."
+    },
+    {
+      "id": "C-340",
+      "type": "claim",
+      "kind": "institution_statement",
+      "status": "active",
+      "label": "경남은행 fERP 공식 안내는 여러 은행의 계좌·집금/배분·대출과 회계·재고의 연결을 설명한다."
+    },
+    {
+      "id": "C-341",
+      "type": "claim",
+      "kind": "hypothesis",
+      "status": "active",
+      "label": "BNK는 지역기업의 지급일 현금·신용·회수 업무를 맡고 외부 투자상품은 그 목적을 돕는 선택지로 연결할 수 있다. 서비스·신용 기여가 예금조달 잠식을 상쇄하는지는 별도 검증해야 한다."
+    },
+    {
+      "id": "C-342",
+      "type": "claim",
+      "kind": "interpretation",
+      "status": "active",
+      "label": "교보의 기존 거래·IB 수익 기반, POD 정산 절차, RCPS 결정은 서로 다른 출발 증거다. 이를 기관 고객 구성·특정 양도 가능 채권·현재 가용자본·신규 인가의 완결 확인으로 바꾸지 않는다."
+    },
+    {
+      "id": "C-343",
+      "type": "claim",
+      "kind": "institution_statement",
+      "status": "active",
+      "label": "NOBLX 발표에서 Token X는 태국 구조화·관리, SBIDM은 국경간 구조·결제·유동성, 교보생명·교보증권은 기관투자자로 소개된다."
+    },
+    {
+      "id": "C-344",
+      "type": "claim",
+      "kind": "hypothesis",
+      "status": "active",
+      "label": "교보는 확인된 특정 원권리의 실사·구조화·기관 배분·수금·회수와 기존 고객의 거래/증거금 업무에서 대가를 확보할 수 있다. 동일 외부 상품의 포장만 추가하는 사업은 비교 경쟁으로 보수가 압박될 수 있다."
+    },
+    {
+      "id": "C-345",
+      "type": "claim",
+      "kind": "interpretation",
+      "status": "active",
+      "label": "SBI 협약·공동펀드와 투자, NOBLX 참여, Circle 행사 연결은 필요한 외부 기능을 계약으로 조달할 선택지의 근거이며 교보가 파트너의 고객·인가·기술·운영 보수를 이미 소유한다는 뜻은 아니다."
+    },
+    {
+      "id": "C-346",
+      "type": "claim",
+      "kind": "institution_statement",
+      "status": "active",
+      "label": "ETC는 KDEF·KMCA의2026-11-02 ADX 거래 개시를 발표했고 ETC·시장조성자·법률대표 등 외부 주체의 역할을 설명했다."
+    },
+    {
+      "id": "C-347",
+      "type": "claim",
+      "kind": "hypothesis",
+      "status": "active",
+      "label": "한화는 인니의 보장·IDR 납입/청구, 미국 기관의 실제 지원 상품 사후처리, UAE 상품 공급·유통을 별도 계약으로 개선할 수 있다. 보험 의무와 자금·상품·청산의 손익을 하나의 온체인망으로 합치지 않아야 한다."
+    },
+    {
+      "id": "C-348",
+      "type": "claim",
+      "kind": "interpretation",
+      "status": "active",
+      "label": "같은 원천 채권·펀드·담보의 포장을 늘려도 독립된 기초 현금흐름은 자동으로 증가하지 않는다. 맞춤 효용·위험배분과 총청구·레버리지·집중·기한 불일치를 분리해 평가해야 한다."
+    },
+    {
+      "id": "C-349",
+      "type": "claim",
+      "kind": "hypothesis",
+      "status": "active",
+      "label": "AI가 상품 탐색·조건 비교를 쉽게 하면 단순 포장·정보 전달 보수는 압박받고 권리 실사·인수·회수·필요 시각의 유동성·예외 복구가 수익 후보로 남을 수 있다."
+    },
+    {
+      "id": "C-350",
+      "type": "claim",
+      "kind": "hypothesis",
+      "status": "active",
+      "label": "법인별 권리·인가·현금·담보·고객 AI 위임이 실제 성립한 강한 미래에서도 원화/IDR 지급 의무·보험부채·신용한도·자금조달은 남으며 세 그룹은 이를 고객 업무에서 해결해야 한다."
+    },
+    {
+      "id": "C-351",
+      "type": "claim",
+      "kind": "unknown",
+      "status": "active",
+      "label": "세 그룹의 제안별 실제 신규 계약·고객 수·계약가격·예산·순이익·ROI와 특정 글로벌 상품의 고객별 이용 적격성은 이번 연결 메모에서 확인되지 않았다."
+    },
+    {
+      "id": "C-352",
+      "type": "claim",
+      "kind": "interpretation",
+      "status": "active",
+      "label": "BUIDL의 다자분업, OUSG의 복수 기초상품, OIP의 모델 제공자와 발행·구현 주체 구분은 세 그룹의 자산·모델 공급, 고객 조합, 실행·사후관리와 보수 계약을 기능별로 선택할 근거다. 회사 이름 하나로 모든 책임과 수입을 묶지 않는다."
+    },
+    {
+      "id": "C-353",
+      "type": "claim",
+      "kind": "institution_statement",
+      "status": "active",
+      "label": "HKMA는11월2일 EnsembleTX가 토큰화 중앙은행화폐로24/7 은행간 토큰화 예금 결제를 지원하는 새 단계에 진입했다고 발표했다. 기존 실가치 파일럿 참여 예시에 BlackRock이 포함된다."
+    },
+    {
+      "id": "C-354",
+      "type": "claim",
+      "kind": "interpretation",
+      "status": "active",
+      "label": "은행예금·중앙은행 결제와 토큰자산의 연결 사례는 BlackRock의 활동이나 온체인 금융 전체를 한 민간 달러 스테이블코인 경로로 고정할 근거가 없음을 보여준다."
+    },
+    {
+      "id": "C-355",
+      "type": "claim",
+      "kind": "interpretation",
+      "status": "active",
+      "label": "같은 기초자산의 ETF·발행상품·포트폴리오·담보 잔액을 더해 신규 독립 자산이나 외부 순유입으로 계산할 수 없다."
+    },
+    {
+      "id": "C-356",
+      "type": "claim",
+      "kind": "hypothesis",
+      "status": "active",
+      "label": "상품·권리·실효비용을 고객 AI가 비교하고 적법하게 위임할 수 있다면 표준 구현·설명 보수는 경쟁 압력을 받고 실사·인수·현금·복구 기능의 가격이 더 중요해질 수 있다."
+    },
+    {
+      "id": "C-357",
+      "type": "claim",
+      "kind": "hypothesis",
+      "status": "active",
+      "label": "BNK의 고객 자산이 외부 상품으로 이동해도 원화 지급·FX·신용·회수 업무를 유지할 수 있으나 추가 서비스·금융 기여가 예금조달 가치 감소를 보상하는지 따져야 한다."
+    },
+    {
+      "id": "C-358",
+      "type": "claim",
+      "kind": "interpretation",
+      "status": "active",
+      "label": "기술이 줄인 단위비용만으로 플랫폼이나 금융그룹 이익 증가를 결론낼 수 없다. 유료 고객·평균 잔액·실효가격·비용·기존사업 잠식·자본을 같은 기간으로 비교해야 한다."
     },
     {
       "id": "T-RIGHTS",
@@ -5694,6 +6235,11 @@
       "type": "covers"
     },
     {
+      "from": "ST-TD-003",
+      "to": "T-AI",
+      "type": "covers"
+    },
+    {
       "from": "ST-TD-004",
       "to": "T-MONEY",
       "type": "covers"
@@ -6946,6 +7492,561 @@
     {
       "from": "HWX-R-008",
       "to": "T-COLLATERAL",
+      "type": "covers"
+    },
+    {
+      "from": "OBX-P-001",
+      "to": "T-RIGHTS",
+      "type": "covers"
+    },
+    {
+      "from": "OBX-P-001",
+      "to": "T-MARKET",
+      "type": "covers"
+    },
+    {
+      "from": "OBX-P-001",
+      "to": "T-OPERATIONS",
+      "type": "covers"
+    },
+    {
+      "from": "OBX-P-002",
+      "to": "T-MONEY",
+      "type": "covers"
+    },
+    {
+      "from": "OBX-P-002",
+      "to": "T-SETTLEMENT",
+      "type": "covers"
+    },
+    {
+      "from": "OBX-P-002",
+      "to": "T-AGENT-FINANCE",
+      "type": "covers"
+    },
+    {
+      "from": "OBX-P-003",
+      "to": "T-MONEY",
+      "type": "covers"
+    },
+    {
+      "from": "OBX-P-003",
+      "to": "T-FUNDING",
+      "type": "covers"
+    },
+    {
+      "from": "OBX-P-003",
+      "to": "T-REGULATION",
+      "type": "covers"
+    },
+    {
+      "from": "OBX-P-004",
+      "to": "T-RIGHTS",
+      "type": "covers"
+    },
+    {
+      "from": "OBX-P-004",
+      "to": "T-MARKET",
+      "type": "covers"
+    },
+    {
+      "from": "OBX-P-004",
+      "to": "T-AGENT-FINANCE",
+      "type": "covers"
+    },
+    {
+      "from": "OBX-P-004",
+      "to": "T-MONEY",
+      "type": "covers"
+    },
+    {
+      "from": "OBX-P-004",
+      "to": "T-INSTITUTION-ROLES",
+      "type": "covers"
+    },
+    {
+      "from": "OBX-P-005",
+      "to": "T-RIGHTS",
+      "type": "covers"
+    },
+    {
+      "from": "OBX-P-005",
+      "to": "T-OPERATIONS",
+      "type": "covers"
+    },
+    {
+      "from": "OBX-P-005",
+      "to": "T-MONEY",
+      "type": "covers"
+    },
+    {
+      "from": "OBX-P-005",
+      "to": "T-INSTITUTION-ROLES",
+      "type": "covers"
+    },
+    {
+      "from": "OBX-P-006",
+      "to": "T-MARKET",
+      "type": "covers"
+    },
+    {
+      "from": "OBX-P-006",
+      "to": "T-OPERATIONS",
+      "type": "covers"
+    },
+    {
+      "from": "OBX-P-006",
+      "to": "T-RIGHTS",
+      "type": "covers"
+    },
+    {
+      "from": "OBX-P-006",
+      "to": "T-MONEY",
+      "type": "covers"
+    },
+    {
+      "from": "OBX-P-006",
+      "to": "T-INSTITUTION-ROLES",
+      "type": "covers"
+    },
+    {
+      "from": "OBX-P-007",
+      "to": "T-MARKET",
+      "type": "covers"
+    },
+    {
+      "from": "OBX-P-007",
+      "to": "T-SETTLEMENT",
+      "type": "covers"
+    },
+    {
+      "from": "OBX-P-007",
+      "to": "T-OPERATIONS",
+      "type": "covers"
+    },
+    {
+      "from": "OBX-P-007",
+      "to": "T-RIGHTS",
+      "type": "covers"
+    },
+    {
+      "from": "OBX-P-007",
+      "to": "T-MONEY",
+      "type": "covers"
+    },
+    {
+      "from": "OBX-P-007",
+      "to": "T-INSTITUTION-ROLES",
+      "type": "covers"
+    },
+    {
+      "from": "OBX-P-008",
+      "to": "T-RIGHTS",
+      "type": "covers"
+    },
+    {
+      "from": "OBX-P-008",
+      "to": "T-MARKET",
+      "type": "covers"
+    },
+    {
+      "from": "OBX-P-008",
+      "to": "T-REGULATION",
+      "type": "covers"
+    },
+    {
+      "from": "OBX-P-009",
+      "to": "T-MONEY",
+      "type": "covers"
+    },
+    {
+      "from": "OBX-P-009",
+      "to": "T-SETTLEMENT",
+      "type": "covers"
+    },
+    {
+      "from": "OBX-P-009",
+      "to": "T-OPERATIONS",
+      "type": "covers"
+    },
+    {
+      "from": "OBX-E-001",
+      "to": "T-RIGHTS",
+      "type": "covers"
+    },
+    {
+      "from": "OBX-E-001",
+      "to": "T-MONEY",
+      "type": "covers"
+    },
+    {
+      "from": "OBX-E-001",
+      "to": "T-INSTITUTION-ROLES",
+      "type": "covers"
+    },
+    {
+      "from": "OBX-E-002",
+      "to": "T-RIGHTS",
+      "type": "covers"
+    },
+    {
+      "from": "OBX-E-002",
+      "to": "T-MONEY",
+      "type": "covers"
+    },
+    {
+      "from": "OBX-E-002",
+      "to": "T-INSTITUTION-ROLES",
+      "type": "covers"
+    },
+    {
+      "from": "OBX-E-003",
+      "to": "T-RIGHTS",
+      "type": "covers"
+    },
+    {
+      "from": "OBX-E-003",
+      "to": "T-MONEY",
+      "type": "covers"
+    },
+    {
+      "from": "OBX-E-003",
+      "to": "T-INSTITUTION-ROLES",
+      "type": "covers"
+    },
+    {
+      "from": "OBX-E-004",
+      "to": "T-RIGHTS",
+      "type": "covers"
+    },
+    {
+      "from": "OBX-E-004",
+      "to": "T-MONEY",
+      "type": "covers"
+    },
+    {
+      "from": "OBX-E-004",
+      "to": "T-INSTITUTION-ROLES",
+      "type": "covers"
+    },
+    {
+      "from": "OBX-E-005",
+      "to": "T-RIGHTS",
+      "type": "covers"
+    },
+    {
+      "from": "OBX-E-005",
+      "to": "T-MONEY",
+      "type": "covers"
+    },
+    {
+      "from": "OBX-E-005",
+      "to": "T-INSTITUTION-ROLES",
+      "type": "covers"
+    },
+    {
+      "from": "OBX-E-006",
+      "to": "T-RIGHTS",
+      "type": "covers"
+    },
+    {
+      "from": "OBX-E-006",
+      "to": "T-MONEY",
+      "type": "covers"
+    },
+    {
+      "from": "OBX-E-006",
+      "to": "T-INSTITUTION-ROLES",
+      "type": "covers"
+    },
+    {
+      "from": "OBX-E-007",
+      "to": "T-RIGHTS",
+      "type": "covers"
+    },
+    {
+      "from": "OBX-E-007",
+      "to": "T-MONEY",
+      "type": "covers"
+    },
+    {
+      "from": "OBX-E-007",
+      "to": "T-INSTITUTION-ROLES",
+      "type": "covers"
+    },
+    {
+      "from": "OBX-E-008",
+      "to": "T-RIGHTS",
+      "type": "covers"
+    },
+    {
+      "from": "OBX-E-008",
+      "to": "T-MONEY",
+      "type": "covers"
+    },
+    {
+      "from": "OBX-E-008",
+      "to": "T-INSTITUTION-ROLES",
+      "type": "covers"
+    },
+    {
+      "from": "OBX-E-009",
+      "to": "T-RIGHTS",
+      "type": "covers"
+    },
+    {
+      "from": "OBX-E-009",
+      "to": "T-MONEY",
+      "type": "covers"
+    },
+    {
+      "from": "OBX-E-009",
+      "to": "T-INSTITUTION-ROLES",
+      "type": "covers"
+    },
+    {
+      "from": "OBX-E-010",
+      "to": "T-RIGHTS",
+      "type": "covers"
+    },
+    {
+      "from": "OBX-E-010",
+      "to": "T-MONEY",
+      "type": "covers"
+    },
+    {
+      "from": "OBX-E-010",
+      "to": "T-INSTITUTION-ROLES",
+      "type": "covers"
+    },
+    {
+      "from": "OBX-E-011",
+      "to": "T-RIGHTS",
+      "type": "covers"
+    },
+    {
+      "from": "OBX-E-011",
+      "to": "T-MONEY",
+      "type": "covers"
+    },
+    {
+      "from": "OBX-E-011",
+      "to": "T-INSTITUTION-ROLES",
+      "type": "covers"
+    },
+    {
+      "from": "OBX-E-012",
+      "to": "T-RIGHTS",
+      "type": "covers"
+    },
+    {
+      "from": "OBX-E-012",
+      "to": "T-MONEY",
+      "type": "covers"
+    },
+    {
+      "from": "OBX-E-012",
+      "to": "T-INSTITUTION-ROLES",
+      "type": "covers"
+    },
+    {
+      "from": "OBX-E-013",
+      "to": "T-RIGHTS",
+      "type": "covers"
+    },
+    {
+      "from": "OBX-E-013",
+      "to": "T-MONEY",
+      "type": "covers"
+    },
+    {
+      "from": "OBX-E-013",
+      "to": "T-INSTITUTION-ROLES",
+      "type": "covers"
+    },
+    {
+      "from": "OBX-E-014",
+      "to": "T-RIGHTS",
+      "type": "covers"
+    },
+    {
+      "from": "OBX-E-014",
+      "to": "T-MONEY",
+      "type": "covers"
+    },
+    {
+      "from": "OBX-E-014",
+      "to": "T-INSTITUTION-ROLES",
+      "type": "covers"
+    },
+    {
+      "from": "OBX-E-015",
+      "to": "T-RIGHTS",
+      "type": "covers"
+    },
+    {
+      "from": "OBX-E-015",
+      "to": "T-MONEY",
+      "type": "covers"
+    },
+    {
+      "from": "OBX-E-015",
+      "to": "T-INSTITUTION-ROLES",
+      "type": "covers"
+    },
+    {
+      "from": "OBX-E-016",
+      "to": "T-RIGHTS",
+      "type": "covers"
+    },
+    {
+      "from": "OBX-E-016",
+      "to": "T-MONEY",
+      "type": "covers"
+    },
+    {
+      "from": "OBX-E-016",
+      "to": "T-INSTITUTION-ROLES",
+      "type": "covers"
+    },
+    {
+      "from": "OBX-E-018",
+      "to": "T-RIGHTS",
+      "type": "covers"
+    },
+    {
+      "from": "OBX-E-018",
+      "to": "T-MONEY",
+      "type": "covers"
+    },
+    {
+      "from": "OBX-E-018",
+      "to": "T-INSTITUTION-ROLES",
+      "type": "covers"
+    },
+    {
+      "from": "OBX-E-019",
+      "to": "T-RIGHTS",
+      "type": "covers"
+    },
+    {
+      "from": "OBX-E-019",
+      "to": "T-MONEY",
+      "type": "covers"
+    },
+    {
+      "from": "OBX-E-019",
+      "to": "T-INSTITUTION-ROLES",
+      "type": "covers"
+    },
+    {
+      "from": "OBX-E-020",
+      "to": "T-RIGHTS",
+      "type": "covers"
+    },
+    {
+      "from": "OBX-E-020",
+      "to": "T-MONEY",
+      "type": "covers"
+    },
+    {
+      "from": "OBX-E-020",
+      "to": "T-INSTITUTION-ROLES",
+      "type": "covers"
+    },
+    {
+      "from": "OBX-E-022",
+      "to": "T-RIGHTS",
+      "type": "covers"
+    },
+    {
+      "from": "OBX-E-022",
+      "to": "T-MONEY",
+      "type": "covers"
+    },
+    {
+      "from": "OBX-E-022",
+      "to": "T-INSTITUTION-ROLES",
+      "type": "covers"
+    },
+    {
+      "from": "OBX-E-024",
+      "to": "T-RIGHTS",
+      "type": "covers"
+    },
+    {
+      "from": "OBX-E-024",
+      "to": "T-MONEY",
+      "type": "covers"
+    },
+    {
+      "from": "OBX-E-024",
+      "to": "T-INSTITUTION-ROLES",
+      "type": "covers"
+    },
+    {
+      "from": "OBX-E-026",
+      "to": "T-RIGHTS",
+      "type": "covers"
+    },
+    {
+      "from": "OBX-E-026",
+      "to": "T-MONEY",
+      "type": "covers"
+    },
+    {
+      "from": "OBX-E-026",
+      "to": "T-INSTITUTION-ROLES",
+      "type": "covers"
+    },
+    {
+      "from": "OBX-E-027",
+      "to": "T-RIGHTS",
+      "type": "covers"
+    },
+    {
+      "from": "OBX-E-027",
+      "to": "T-MONEY",
+      "type": "covers"
+    },
+    {
+      "from": "OBX-E-027",
+      "to": "T-INSTITUTION-ROLES",
+      "type": "covers"
+    },
+    {
+      "from": "OBX-E-028",
+      "to": "T-RIGHTS",
+      "type": "covers"
+    },
+    {
+      "from": "OBX-E-028",
+      "to": "T-MONEY",
+      "type": "covers"
+    },
+    {
+      "from": "OBX-E-028",
+      "to": "T-INSTITUTION-ROLES",
+      "type": "covers"
+    },
+    {
+      "from": "OBX-R-001",
+      "to": "T-MONEY",
+      "type": "covers"
+    },
+    {
+      "from": "OBX-R-001",
+      "to": "T-SETTLEMENT",
+      "type": "covers"
+    },
+    {
+      "from": "OBX-R-001",
+      "to": "T-INSTITUTION-ROLES",
+      "type": "covers"
+    },
+    {
+      "from": "OBX-R-001",
+      "to": "T-GEOGRAPHY",
       "type": "covers"
     },
     {
@@ -15021,6 +16122,1558 @@
     {
       "from": "C-305",
       "to": "T-COLLATERAL",
+      "type": "about"
+    },
+    {
+      "from": "OBX-P-001",
+      "to": "C-306",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-306",
+      "to": "T-RIGHTS",
+      "type": "about"
+    },
+    {
+      "from": "C-306",
+      "to": "T-MARKET",
+      "type": "about"
+    },
+    {
+      "from": "OBX-P-008",
+      "to": "C-307",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "OBX-P-004",
+      "to": "C-307",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "OBX-P-001",
+      "to": "C-307",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-307",
+      "to": "T-RIGHTS",
+      "type": "about"
+    },
+    {
+      "from": "C-307",
+      "to": "T-MARKET",
+      "type": "about"
+    },
+    {
+      "from": "OBX-P-005",
+      "to": "C-308",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-308",
+      "to": "T-RIGHTS",
+      "type": "about"
+    },
+    {
+      "from": "C-308",
+      "to": "T-MARKET",
+      "type": "about"
+    },
+    {
+      "from": "OBX-P-001",
+      "to": "C-309",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "OBX-P-005",
+      "to": "C-309",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-309",
+      "to": "T-RIGHTS",
+      "type": "about"
+    },
+    {
+      "from": "C-309",
+      "to": "T-MARKET",
+      "type": "about"
+    },
+    {
+      "from": "OBX-P-006",
+      "to": "C-310",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-310",
+      "to": "T-RIGHTS",
+      "type": "about"
+    },
+    {
+      "from": "C-310",
+      "to": "T-MARKET",
+      "type": "about"
+    },
+    {
+      "from": "OBX-P-001",
+      "to": "C-311",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "OBX-P-006",
+      "to": "C-311",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-311",
+      "to": "T-RIGHTS",
+      "type": "about"
+    },
+    {
+      "from": "C-311",
+      "to": "T-MARKET",
+      "type": "about"
+    },
+    {
+      "from": "OBX-P-007",
+      "to": "C-312",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-312",
+      "to": "T-MARKET",
+      "type": "about"
+    },
+    {
+      "from": "C-312",
+      "to": "T-SETTLEMENT",
+      "type": "about"
+    },
+    {
+      "from": "OBX-P-001",
+      "to": "C-313",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "OBX-P-008",
+      "to": "C-313",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-313",
+      "to": "T-RIGHTS",
+      "type": "about"
+    },
+    {
+      "from": "C-313",
+      "to": "T-MARKET",
+      "type": "about"
+    },
+    {
+      "from": "OBX-P-004",
+      "to": "C-314",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "OBX-P-001",
+      "to": "C-314",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "OBX-P-008",
+      "to": "C-314",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-314",
+      "to": "T-RIGHTS",
+      "type": "about"
+    },
+    {
+      "from": "C-314",
+      "to": "T-MARKET",
+      "type": "about"
+    },
+    {
+      "from": "ST-TD-003",
+      "to": "C-315",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-315",
+      "to": "T-RIGHTS",
+      "type": "about"
+    },
+    {
+      "from": "C-315",
+      "to": "T-COLLATERAL",
+      "type": "about"
+    },
+    {
+      "from": "C-315",
+      "to": "T-AGENT-FINANCE",
+      "type": "about"
+    },
+    {
+      "from": "OBX-P-003",
+      "to": "C-316",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "OBX-P-002",
+      "to": "C-316",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-316",
+      "to": "T-MONEY",
+      "type": "about"
+    },
+    {
+      "from": "C-316",
+      "to": "T-REGULATION",
+      "type": "about"
+    },
+    {
+      "from": "C-316",
+      "to": "T-SETTLEMENT",
+      "type": "about"
+    },
+    {
+      "from": "OBX-P-001",
+      "to": "C-317",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "OBX-P-005",
+      "to": "C-317",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "OBX-P-007",
+      "to": "C-317",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-317",
+      "to": "T-OPERATIONS",
+      "type": "about"
+    },
+    {
+      "from": "C-317",
+      "to": "T-MARKET",
+      "type": "about"
+    },
+    {
+      "from": "OBX-P-009",
+      "to": "C-318",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "OBX-P-002",
+      "to": "C-318",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-318",
+      "to": "T-MONEY",
+      "type": "about"
+    },
+    {
+      "from": "C-318",
+      "to": "T-SETTLEMENT",
+      "type": "about"
+    },
+    {
+      "from": "C-318",
+      "to": "T-OPERATIONS",
+      "type": "about"
+    },
+    {
+      "from": "OBX-E-001",
+      "to": "C-319",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "OBX-E-002",
+      "to": "C-319",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-319",
+      "to": "T-RIGHTS",
+      "type": "about"
+    },
+    {
+      "from": "C-319",
+      "to": "T-MONEY",
+      "type": "about"
+    },
+    {
+      "from": "C-319",
+      "to": "T-INSTITUTION-ROLES",
+      "type": "about"
+    },
+    {
+      "from": "OBX-E-002",
+      "to": "C-320",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-320",
+      "to": "T-RIGHTS",
+      "type": "about"
+    },
+    {
+      "from": "C-320",
+      "to": "T-MONEY",
+      "type": "about"
+    },
+    {
+      "from": "C-320",
+      "to": "T-INSTITUTION-ROLES",
+      "type": "about"
+    },
+    {
+      "from": "KNX-M-002",
+      "to": "C-321",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-321",
+      "to": "T-RIGHTS",
+      "type": "about"
+    },
+    {
+      "from": "C-321",
+      "to": "T-MONEY",
+      "type": "about"
+    },
+    {
+      "from": "C-321",
+      "to": "T-INSTITUTION-ROLES",
+      "type": "about"
+    },
+    {
+      "from": "OBX-E-004",
+      "to": "C-322",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-322",
+      "to": "T-RIGHTS",
+      "type": "about"
+    },
+    {
+      "from": "C-322",
+      "to": "T-MONEY",
+      "type": "about"
+    },
+    {
+      "from": "C-322",
+      "to": "T-INSTITUTION-ROLES",
+      "type": "about"
+    },
+    {
+      "from": "OBX-E-005",
+      "to": "C-323",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-323",
+      "to": "T-RIGHTS",
+      "type": "about"
+    },
+    {
+      "from": "C-323",
+      "to": "T-MONEY",
+      "type": "about"
+    },
+    {
+      "from": "C-323",
+      "to": "T-INSTITUTION-ROLES",
+      "type": "about"
+    },
+    {
+      "from": "OBX-E-006",
+      "to": "C-324",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "OBX-E-007",
+      "to": "C-324",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-324",
+      "to": "T-RIGHTS",
+      "type": "about"
+    },
+    {
+      "from": "C-324",
+      "to": "T-MONEY",
+      "type": "about"
+    },
+    {
+      "from": "C-324",
+      "to": "T-INSTITUTION-ROLES",
+      "type": "about"
+    },
+    {
+      "from": "OBX-E-008",
+      "to": "C-325",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-325",
+      "to": "T-RIGHTS",
+      "type": "about"
+    },
+    {
+      "from": "C-325",
+      "to": "T-MONEY",
+      "type": "about"
+    },
+    {
+      "from": "C-325",
+      "to": "T-INSTITUTION-ROLES",
+      "type": "about"
+    },
+    {
+      "from": "OBX-E-008",
+      "to": "C-326",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "OBX-E-009",
+      "to": "C-326",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "OBX-E-011",
+      "to": "C-326",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-326",
+      "to": "T-RIGHTS",
+      "type": "about"
+    },
+    {
+      "from": "C-326",
+      "to": "T-MONEY",
+      "type": "about"
+    },
+    {
+      "from": "C-326",
+      "to": "T-INSTITUTION-ROLES",
+      "type": "about"
+    },
+    {
+      "from": "OBX-E-012",
+      "to": "C-327",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "OBX-E-015",
+      "to": "C-327",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-327",
+      "to": "T-RIGHTS",
+      "type": "about"
+    },
+    {
+      "from": "C-327",
+      "to": "T-MONEY",
+      "type": "about"
+    },
+    {
+      "from": "C-327",
+      "to": "T-INSTITUTION-ROLES",
+      "type": "about"
+    },
+    {
+      "from": "OBX-E-014",
+      "to": "C-328",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-328",
+      "to": "T-RIGHTS",
+      "type": "about"
+    },
+    {
+      "from": "C-328",
+      "to": "T-MONEY",
+      "type": "about"
+    },
+    {
+      "from": "C-328",
+      "to": "T-INSTITUTION-ROLES",
+      "type": "about"
+    },
+    {
+      "from": "OBX-P-004",
+      "to": "C-329",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "OBX-E-018",
+      "to": "C-329",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "OBX-E-019",
+      "to": "C-329",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-329",
+      "to": "T-RIGHTS",
+      "type": "about"
+    },
+    {
+      "from": "C-329",
+      "to": "T-MONEY",
+      "type": "about"
+    },
+    {
+      "from": "C-329",
+      "to": "T-INSTITUTION-ROLES",
+      "type": "about"
+    },
+    {
+      "from": "OBX-E-020",
+      "to": "C-330",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-330",
+      "to": "T-RIGHTS",
+      "type": "about"
+    },
+    {
+      "from": "C-330",
+      "to": "T-MONEY",
+      "type": "about"
+    },
+    {
+      "from": "C-330",
+      "to": "T-INSTITUTION-ROLES",
+      "type": "about"
+    },
+    {
+      "from": "OBX-P-005",
+      "to": "C-331",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-331",
+      "to": "T-RIGHTS",
+      "type": "about"
+    },
+    {
+      "from": "C-331",
+      "to": "T-MONEY",
+      "type": "about"
+    },
+    {
+      "from": "C-331",
+      "to": "T-INSTITUTION-ROLES",
+      "type": "about"
+    },
+    {
+      "from": "OBX-P-006",
+      "to": "C-332",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "OBX-P-007",
+      "to": "C-332",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-332",
+      "to": "T-RIGHTS",
+      "type": "about"
+    },
+    {
+      "from": "C-332",
+      "to": "T-MONEY",
+      "type": "about"
+    },
+    {
+      "from": "C-332",
+      "to": "T-INSTITUTION-ROLES",
+      "type": "about"
+    },
+    {
+      "from": "OBX-E-016",
+      "to": "C-333",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "OBX-E-024",
+      "to": "C-333",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-333",
+      "to": "T-RIGHTS",
+      "type": "about"
+    },
+    {
+      "from": "C-333",
+      "to": "T-MONEY",
+      "type": "about"
+    },
+    {
+      "from": "C-333",
+      "to": "T-INSTITUTION-ROLES",
+      "type": "about"
+    },
+    {
+      "from": "OBX-E-026",
+      "to": "C-334",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "OBX-E-027",
+      "to": "C-334",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-334",
+      "to": "T-RIGHTS",
+      "type": "about"
+    },
+    {
+      "from": "C-334",
+      "to": "T-MONEY",
+      "type": "about"
+    },
+    {
+      "from": "C-334",
+      "to": "T-INSTITUTION-ROLES",
+      "type": "about"
+    },
+    {
+      "from": "OBX-E-028",
+      "to": "C-335",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-335",
+      "to": "T-RIGHTS",
+      "type": "about"
+    },
+    {
+      "from": "C-335",
+      "to": "T-MONEY",
+      "type": "about"
+    },
+    {
+      "from": "C-335",
+      "to": "T-INSTITUTION-ROLES",
+      "type": "about"
+    },
+    {
+      "from": "OBX-E-004",
+      "to": "C-336",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "OBX-E-012",
+      "to": "C-336",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "OBX-E-019",
+      "to": "C-336",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "OBX-E-020",
+      "to": "C-336",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "OBX-P-005",
+      "to": "C-336",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-336",
+      "to": "T-RIGHTS",
+      "type": "about"
+    },
+    {
+      "from": "C-336",
+      "to": "T-MONEY",
+      "type": "about"
+    },
+    {
+      "from": "C-336",
+      "to": "T-INSTITUTION-ROLES",
+      "type": "about"
+    },
+    {
+      "from": "OBX-E-002",
+      "to": "C-337",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "OBX-E-004",
+      "to": "C-337",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "OBX-E-014",
+      "to": "C-337",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "OBX-P-007",
+      "to": "C-337",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-337",
+      "to": "T-RIGHTS",
+      "type": "about"
+    },
+    {
+      "from": "C-337",
+      "to": "T-MONEY",
+      "type": "about"
+    },
+    {
+      "from": "C-337",
+      "to": "T-INSTITUTION-ROLES",
+      "type": "about"
+    },
+    {
+      "from": "OBX-E-002",
+      "to": "C-338",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "OBX-E-012",
+      "to": "C-338",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "OBX-E-015",
+      "to": "C-338",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "KNX-M-002",
+      "to": "C-338",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-338",
+      "to": "T-RIGHTS",
+      "type": "about"
+    },
+    {
+      "from": "C-338",
+      "to": "T-MONEY",
+      "type": "about"
+    },
+    {
+      "from": "C-338",
+      "to": "T-INSTITUTION-ROLES",
+      "type": "about"
+    },
+    {
+      "from": "KYO-GEO-003",
+      "to": "C-339",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "HWX-A-004",
+      "to": "C-339",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "HWX-A-008",
+      "to": "C-339",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "ST-KN-002",
+      "to": "C-339",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-339",
+      "to": "T-COMPANIES",
+      "type": "about"
+    },
+    {
+      "from": "C-339",
+      "to": "T-INSTITUTION-ROLES",
+      "type": "about"
+    },
+    {
+      "from": "C-339",
+      "to": "T-OPERATIONS",
+      "type": "about"
+    },
+    {
+      "from": "ST-KN-002",
+      "to": "C-340",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-340",
+      "to": "T-COMPANIES",
+      "type": "about"
+    },
+    {
+      "from": "C-340",
+      "to": "T-INSTITUTION-ROLES",
+      "type": "about"
+    },
+    {
+      "from": "C-340",
+      "to": "T-OPERATIONS",
+      "type": "about"
+    },
+    {
+      "from": "ST-KN-002",
+      "to": "C-341",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "KNX-S-001",
+      "to": "C-341",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "KNX-S-002",
+      "to": "C-341",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "KNX-S-004",
+      "to": "C-341",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "ST-TD-005",
+      "to": "C-341",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "HWX-R-001",
+      "to": "C-341",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-341",
+      "to": "T-COMPANIES",
+      "type": "about"
+    },
+    {
+      "from": "C-341",
+      "to": "T-INSTITUTION-ROLES",
+      "type": "about"
+    },
+    {
+      "from": "C-341",
+      "to": "T-OPERATIONS",
+      "type": "about"
+    },
+    {
+      "from": "ST-KY-001",
+      "to": "C-342",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "ST-KY-002",
+      "to": "C-342",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "ST-KY-003",
+      "to": "C-342",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "KYX-M-001",
+      "to": "C-342",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "KYX-M-002",
+      "to": "C-342",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "KYX-A-004",
+      "to": "C-342",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-342",
+      "to": "T-COMPANIES",
+      "type": "about"
+    },
+    {
+      "from": "C-342",
+      "to": "T-INSTITUTION-ROLES",
+      "type": "about"
+    },
+    {
+      "from": "C-342",
+      "to": "T-OPERATIONS",
+      "type": "about"
+    },
+    {
+      "from": "KYO-GEO-003",
+      "to": "C-343",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-343",
+      "to": "T-COMPANIES",
+      "type": "about"
+    },
+    {
+      "from": "C-343",
+      "to": "T-INSTITUTION-ROLES",
+      "type": "about"
+    },
+    {
+      "from": "C-343",
+      "to": "T-OPERATIONS",
+      "type": "about"
+    },
+    {
+      "from": "KYX-M-001",
+      "to": "C-344",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "KYX-M-002",
+      "to": "C-344",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "ST-KY-001",
+      "to": "C-344",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "KYX-A-004",
+      "to": "C-344",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "KYX-V-008",
+      "to": "C-344",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-344",
+      "to": "T-COMPANIES",
+      "type": "about"
+    },
+    {
+      "from": "C-344",
+      "to": "T-INSTITUTION-ROLES",
+      "type": "about"
+    },
+    {
+      "from": "C-344",
+      "to": "T-OPERATIONS",
+      "type": "about"
+    },
+    {
+      "from": "KYO-GEO-001",
+      "to": "C-345",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "KYO-GEO-003",
+      "to": "C-345",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "KYO-GEO-006",
+      "to": "C-345",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "KYO-GEO-007",
+      "to": "C-345",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "KYO-GEO-008",
+      "to": "C-345",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "ST-KY-006",
+      "to": "C-345",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-345",
+      "to": "T-COMPANIES",
+      "type": "about"
+    },
+    {
+      "from": "C-345",
+      "to": "T-INSTITUTION-ROLES",
+      "type": "about"
+    },
+    {
+      "from": "C-345",
+      "to": "T-OPERATIONS",
+      "type": "about"
+    },
+    {
+      "from": "HWX-A-004",
+      "to": "C-346",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-346",
+      "to": "T-COMPANIES",
+      "type": "about"
+    },
+    {
+      "from": "C-346",
+      "to": "T-INSTITUTION-ROLES",
+      "type": "about"
+    },
+    {
+      "from": "C-346",
+      "to": "T-OPERATIONS",
+      "type": "about"
+    },
+    {
+      "from": "ST-HW-006",
+      "to": "C-347",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "ST-HW-007",
+      "to": "C-347",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "ST-HW-015",
+      "to": "C-347",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "HWX-A-001",
+      "to": "C-347",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "HWX-A-002",
+      "to": "C-347",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "HWX-A-004",
+      "to": "C-347",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "HWX-A-008",
+      "to": "C-347",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-347",
+      "to": "T-COMPANIES",
+      "type": "about"
+    },
+    {
+      "from": "C-347",
+      "to": "T-INSTITUTION-ROLES",
+      "type": "about"
+    },
+    {
+      "from": "C-347",
+      "to": "T-OPERATIONS",
+      "type": "about"
+    },
+    {
+      "from": "KYX-M-001",
+      "to": "C-348",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "KNX-M-002",
+      "to": "C-348",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "HWX-A-008",
+      "to": "C-348",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-348",
+      "to": "T-RIGHTS",
+      "type": "about"
+    },
+    {
+      "from": "C-348",
+      "to": "T-COLLATERAL",
+      "type": "about"
+    },
+    {
+      "from": "C-348",
+      "to": "T-MARKET",
+      "type": "about"
+    },
+    {
+      "from": "KYX-V-008",
+      "to": "C-349",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "KYX-V-009",
+      "to": "C-349",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "KNX-S-001",
+      "to": "C-349",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "HWX-A-001",
+      "to": "C-349",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "HWX-A-008",
+      "to": "C-349",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-349",
+      "to": "T-COMPANIES",
+      "type": "about"
+    },
+    {
+      "from": "C-349",
+      "to": "T-INSTITUTION-ROLES",
+      "type": "about"
+    },
+    {
+      "from": "C-349",
+      "to": "T-OPERATIONS",
+      "type": "about"
+    },
+    {
+      "from": "ST-TD-005",
+      "to": "C-350",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "ST-HW-015",
+      "to": "C-350",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "KYX-V-009",
+      "to": "C-350",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "KNX-S-001",
+      "to": "C-350",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "ST-HW-007",
+      "to": "C-350",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-350",
+      "to": "T-COMPANIES",
+      "type": "about"
+    },
+    {
+      "from": "C-350",
+      "to": "T-INSTITUTION-ROLES",
+      "type": "about"
+    },
+    {
+      "from": "C-350",
+      "to": "T-OPERATIONS",
+      "type": "about"
+    },
+    {
+      "from": "ST-KN-002",
+      "to": "C-351",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "KYX-M-001",
+      "to": "C-351",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "HWX-A-004",
+      "to": "C-351",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-351",
+      "to": "T-COMPANIES",
+      "type": "about"
+    },
+    {
+      "from": "C-351",
+      "to": "T-INSTITUTION-ROLES",
+      "type": "about"
+    },
+    {
+      "from": "C-351",
+      "to": "T-OPERATIONS",
+      "type": "about"
+    },
+    {
+      "from": "OBX-E-001",
+      "to": "C-352",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "OBX-E-004",
+      "to": "C-352",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "OBX-E-019",
+      "to": "C-352",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "OBX-E-020",
+      "to": "C-352",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "HWX-A-008",
+      "to": "C-352",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "KYO-GEO-003",
+      "to": "C-352",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-352",
+      "to": "T-COMPANIES",
+      "type": "about"
+    },
+    {
+      "from": "C-352",
+      "to": "T-INSTITUTION-ROLES",
+      "type": "about"
+    },
+    {
+      "from": "C-352",
+      "to": "T-RIGHTS",
+      "type": "about"
+    },
+    {
+      "from": "OBX-R-001",
+      "to": "C-353",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-353",
+      "to": "T-MONEY",
+      "type": "about"
+    },
+    {
+      "from": "C-353",
+      "to": "T-SETTLEMENT",
+      "type": "about"
+    },
+    {
+      "from": "C-353",
+      "to": "T-INSTITUTION-ROLES",
+      "type": "about"
+    },
+    {
+      "from": "OBX-R-001",
+      "to": "C-354",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "NOV-M07",
+      "to": "C-354",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-354",
+      "to": "T-MONEY",
+      "type": "about"
+    },
+    {
+      "from": "C-354",
+      "to": "T-FUNDING",
+      "type": "about"
+    },
+    {
+      "from": "C-354",
+      "to": "T-INSTITUTION-ROLES",
+      "type": "about"
+    },
+    {
+      "from": "NOV-M07",
+      "to": "C-355",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "FIN-011",
+      "to": "C-355",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-355",
+      "to": "T-RIGHTS",
+      "type": "about"
+    },
+    {
+      "from": "C-355",
+      "to": "T-MARKET",
+      "type": "about"
+    },
+    {
+      "from": "C-355",
+      "to": "T-COLLATERAL",
+      "type": "about"
+    },
+    {
+      "from": "NOV-M07",
+      "to": "C-356",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "FIN-011",
+      "to": "C-356",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "ST-TD-005",
+      "to": "C-356",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-356",
+      "to": "T-AGENT-FINANCE",
+      "type": "about"
+    },
+    {
+      "from": "C-356",
+      "to": "T-INSTITUTION-ROLES",
+      "type": "about"
+    },
+    {
+      "from": "ST-TD-005",
+      "to": "C-357",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "OBX-R-001",
+      "to": "C-357",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "KNX-S-001",
+      "to": "C-357",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "HWX-R-001",
+      "to": "C-357",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-357",
+      "to": "T-FUNDING",
+      "type": "about"
+    },
+    {
+      "from": "C-357",
+      "to": "T-COMPANIES",
+      "type": "about"
+    },
+    {
+      "from": "NOV-M07",
+      "to": "C-358",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "HWX-R-008",
+      "to": "C-358",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-358",
+      "to": "T-INSTITUTION-ROLES",
+      "type": "about"
+    },
+    {
+      "from": "C-358",
+      "to": "T-COMPANIES",
       "type": "about"
     }
   ]

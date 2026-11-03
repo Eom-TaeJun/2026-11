@@ -366,14 +366,22 @@
     "publisher": "SEC Division of Corporation Finance, Division of Investment Management, Division of Trading and Markets",
     "url": "https://www.sec.gov/newsroom/speeches-statements/corp-fin-statement-tokenized-securities-012826-statement-tokenized-securities",
     "published_at": "2026-01-28",
-    "checked_at": "2026-11-02",
+    "checked_at": "2026-11-04",
     "visibility": "public",
     "read_status": "selected_sections",
     "source_type": "SEC 직원 견해",
-    "read_scope": "Introduction Issuer-Sponsored Tokenized Securities Third Party-Sponsored Tokenized Securities Custodial·Synthetic 모델 각주 2: 법적 효력·위원회 승인 여부",
+    "read_scope": [
+      "Introduction Issuer-Sponsored Tokenized Securities Third Party-Sponsored Tokenized Securities Custodial·Synthetic 모델 각주 2: 법적 효력·위원회 승인 여부",
+      "2026-11-04 실제 재열람: SEC HTML20–59·75–80행. issuer-sponsored/third-party·custodial/linked security의 권리 구분, 직원 견해의 비구속성과 적용범위."
+    ],
     "summary": "발행인 주도 토큰화와 제3자 주도 토큰화를 나누고, 수탁형 권리와 합성 익스포저가 다른 구조임을 설명한다. 토큰 전송과 법적 소유 기록의 갱신 관계를 확인해야 하며, 제3자 모델에는 별도 도산위험이 생길 수 있다.",
-    "used_for": "감독 직원 견해: 같은 기초 주식 이름을 가진 토큰이라도 보유자가 받는 권리와 상대방 위험이 다를 수 있다. 연구자 추론: RWA 비교표의 첫 열은 체인보다 법적 청구권·기록 소유자·도산 시 구제로 구성한다.",
-    "limitations": "성명 자체는 규칙·법령·위원회 공식 규제지침이 아니며 법적 효력이 없다고 명시한다. 한국의 권리 구조는 한국 법령·계약을 따로 확인해야 한다.",
+    "used_for": [
+      "감독 직원 견해: 같은 기초 주식 이름을 가진 토큰이라도 보유자가 받는 권리와 상대방 위험이 다를 수 있다. 연구자 추론: RWA 비교표의 첫 열은 체인보다 법적 청구권·기록 소유자·도산 시 구제로 구성한다.",
+      "BlackRock·Ondo 상품의 경제적 노출과 원발행자 권리·도산상대방을 분리하는 분류 틀; 개별 상품의 미국법상 최종 분류는 계약·별도 검토 필요."
+    ],
+    "limitations": [
+      "성명 자체는 규칙·법령·위원회 공식 규제지침이 아니며 법적 효력이 없다고 명시한다. 한국의 권리 구조는 한국 법령·계약을 따로 확인해야 한다."
+    ],
     "topic_ids": [
       "T-RIGHTS",
       "T-OPERATIONS"
@@ -381,7 +389,13 @@
     "event_date": null,
     "effective_date": null,
     "effective_date_status": null,
-    "adoption_stage": "분류·규제 해석 견해"
+    "adoption_stage": "분류·규제 해석 견해",
+    "previous_read_scope": "Introduction Issuer-Sponsored Tokenized Securities Third Party-Sponsored Tokenized Securities Custodial·Synthetic 모델 각주 2: 법적 효력·위원회 승인 여부",
+    "previous_checked_at": "2026-11-02",
+    "reuse_mode": "same_url_selected_primary_recheck",
+    "review_readers": [
+      "R"
+    ]
   },
   {
     "id": "FIN-012",
@@ -1955,13 +1969,15 @@
     "reference_period": "2026-10 분석; 실증 표본기간 미독",
     "read_scope": [
       "PDF 인쇄쪽43–45의 요약·소개, 53쪽 위험체계 일부, 57–59쪽 도입경로·정책 일부. 총28쪽 전문 독해 아님.",
-      "2026-11-03 추가: 인쇄 64쪽(PDF 22번째 쪽) Box 3.2 본문 순액상계·빠른 양자결제·사전조달·배치·중앙청산, 인쇄63쪽 말미의 집중 네트워크 문단. 도표 값·회귀 미검증."
+      "2026-11-03 추가: 인쇄 64쪽(PDF 22번째 쪽) Box 3.2 본문 순액상계·빠른 양자결제·사전조달·배치·중앙청산, 인쇄63쪽 말미의 집중 네트워크 문단. 도표 값·회귀 미검증.",
+      "2026-11-04 추가 선택 재열람: PDF p1(인쇄43) 서두, p4(인쇄46) Ondo/xStocks와 권리 설명, p20~22(인쇄62~64) 유동성·시장구조 Box3.1·레포상계 Box3.2. 표·그림 수치를 이번 신규 실측으로 사용하지 않음. 웹 메타 제목은April로 잘못 표시되나 원문 본문October2026 Chapter3 확인."
     ],
     "summary": "토큰화 시장은 작고 분절되어 있다. 법적 확실성·규제 명확성·상호운용성·결제자산이 제약. 토큰화 주식의 초기 관측을 모든 RWA에 일반화할 수 없다.",
     "used_for": [
       "토큰화 효과와 전통위험 분리",
       "담보·결제·분절 검증 항목",
-      "추가 해석: 원자성·총액/순액·즉시성은 별도 설계축. 동일 업무에서 상계·유동성 비용을 비교."
+      "추가 해석: 원자성·총액/순액·즉시성은 별도 설계축. 동일 업무에서 상계·유동성 비용을 비교.",
+      "상품 증가 이후 중개 기능의 재배치·경쟁/집중·현금/담보 비용의 반대 경로. 현재 회사 손익이나 보편적 효율 향상의 실증으로 사용하지 않음."
     ],
     "limitations": [
       "도구의 PDF 메타 제목은 April 2026 Chapter 2로 잘못 표시됐으나 PDF 본문 표제와 페이지 헤더는 October 2026 Chapter 3이다.",
@@ -1970,7 +1986,7 @@
       "웹 추출 메타 제목은 April/Chapter2로 표시됐으나 PDF 본문은 October2026 Chapter3·Box3.2 및 인쇄64쪽으로 확인. 본문 제목을 기준으로 사용."
     ],
     "published_at": "2026-10-13",
-    "checked_at": "2026-11-03",
+    "checked_at": "2026-11-04",
     "read_status": "selected_sections",
     "topic_ids": [
       "T-MACRO",
@@ -1978,7 +1994,16 @@
       "T-SETTLEMENT"
     ],
     "source_type": "official_policy_statistics_or_research",
-    "rechecked_existing_source": true
+    "rechecked_existing_source": true,
+    "previous_read_scope": [
+      "PDF 인쇄쪽43–45의 요약·소개, 53쪽 위험체계 일부, 57–59쪽 도입경로·정책 일부. 총28쪽 전문 독해 아님.",
+      "2026-11-03 추가: 인쇄 64쪽(PDF 22번째 쪽) Box 3.2 본문 순액상계·빠른 양자결제·사전조달·배치·중앙청산, 인쇄63쪽 말미의 집중 네트워크 문단. 도표 값·회귀 미검증."
+    ],
+    "previous_checked_at": "2026-11-03",
+    "reuse_mode": "same_url_selected_primary_recheck",
+    "review_readers": [
+      "R"
+    ]
   },
   {
     "accessed_at": "2026-11-02",
@@ -2163,11 +2188,14 @@
     "title": "Token X Announces “NOBLX” – Thailand’s First-Ever Regulated Cross-Border Niche Asset Tokenization, Connecting Europe, Thailand, South Korea, and Singapore",
     "publisher": "SCBX / Token X",
     "published_at": "2025-09-29",
-    "checked_at": "2026-11-02",
+    "checked_at": "2026-11-04",
     "visibility": "public",
     "primary_source": true,
-    "read_status": "full_text",
-    "read_scope": "발표 본문·Strategic Partner Roles·임원 발언 전체와 게시일. 동적 추천 기사 제외.",
+    "read_status": "selected_sections",
+    "read_scope": [
+      "발표 본문·Strategic Partner Roles·임원 발언 전체와 게시일. 동적 추천 기사 제외.",
+      "2026-11-04 공식 HTML173–206행: 페이지게시9/29, 본문발표9/26, 프로젝트 설명과 Token X/SBIDM/교보 역할. 후속성과·규제원문 미검증."
+    ],
     "summary": "NOBLX 완료 발표는 유럽 와인을 기초로 태국에서 사모 디지털토큰을 제공한다고 설명한다. Token X는 태국 ICO 포털과 구조화·관리, SBIDM은 싱가포르의 국경간 구조화·결제·유동성 관리, 교보생명과 교보증권은 전략적 기관투자자 역할로 명시된다.",
     "used_for": [
       "교보증권 직접 참여와 교보생명 동시 참여",
@@ -2191,7 +2219,12 @@
         "event": "본문 발표 사건일"
       }
     ],
-    "reuse_mode": "Previously read public primary source; existing identifier retained."
+    "reuse_mode": "Previously read public primary source; existing identifier retained.",
+    "previous_checked_at": "2026-11-02",
+    "change_reason": "기능별 국내 적용 메모를 위한 공식 본문 선택 재열람. 기존 사건과 출처ID 보존; 신규 성과·인가로 확대하지 않음.",
+    "review_readers": [
+      "G"
+    ]
   },
   {
     "id": "KYO-GEO-004",
@@ -4782,12 +4815,13 @@
     "publisher": "BNK경남은행",
     "url": "https://www.knbank.co.kr/ib20/mnu/BHPFIS110103001?DUP_CHK=N",
     "published_at": null,
-    "checked_at": "2026-11-03",
+    "checked_at": "2026-11-04",
     "visibility": "public",
     "read_status": "selected_sections",
     "read_scope": [
       "공식 서비스 안내의 개요와 U-CASH fERP 연동 기능 목록, HTML 76~107행",
-      "이번 재확인: 공식 HTML 76~107행 개요·U-CASH fERP 연동 목록. 기존 ID 유지."
+      "이번 재확인: 공식 HTML 76~107행 개요·U-CASH fERP 연동 목록. 기존 ID 유지.",
+      "2026-11-04 공식 HTML76–107행: 서비스 개요·다은행 조회/집금/배분·대출·회계/재고. 사용량·가격·권한·효율 실측 없음."
     ],
     "summary": "기업 인터넷뱅킹과 자금·영업·재고·회계, 여러 은행 계좌 조회·집금/배분·대출·B2B·전자세금계산서의 연동을 안내한다.",
     "used_for": [
@@ -4806,7 +4840,12 @@
       "T-FUNDING",
       "T-OPERATIONS"
     ],
-    "adoption_stage": "published_service_description"
+    "adoption_stage": "published_service_description",
+    "previous_checked_at": "2026-11-03",
+    "change_reason": "기능별 국내 적용 메모를 위한 공식 본문 선택 재열람. 기존 사건과 출처ID 보존; 신규 성과·인가로 확대하지 않음.",
+    "review_readers": [
+      "G"
+    ]
   },
   {
     "id": "ST-KN-003",
@@ -5284,34 +5323,55 @@
   },
   {
     "id": "ST-TD-003",
-    "title": "The Future of Financial Markets — Module 01 Infinite Assets",
+    "title": "The Future of Financial Markets — Infinite Assets / 24-7 / Models",
     "publisher": "cschung7 공개 AI Finance 강의 저장소",
     "url": "https://github.com/cschung7/2026-class-UG-AIFinance/blob/6cf6eaf6e508aeda486721f193b3309a1a7f017f/blockchain/future_markets_series.html",
     "published_at": null,
-    "checked_at": "2026-11-03",
+    "checked_at": "2026-11-04",
     "visibility": "public",
     "read_status": "selected_sections",
-    "source_type": "고정 커밋 공개 강의",
-    "read_scope": "HTML 605–767행 중 Module01 표제·자산 증가 도식·가능 요인 설명; 코드 실행 없음",
-    "summary": "스테이블코인 표시단위, 스마트계약, 허가 없는 시장, 현금흐름 토큰화를 상품 범위 확대 요인으로 설명한다.",
+    "source_type": "public_teaching_material",
+    "read_scope": [
+      "HTML 605–767행 중 Module01 표제·자산 증가 도식·가능 요인 설명; 코드 실행 없음",
+      "Module 01 Infinite Assets, Module 02 24/7 Markets, Module 03 Models의 본문 및 SVG 도식 텍스트를 HTML 원문에서 읽음. 3200cf... 커밋 원문과 canonical 6cf6... 커밋 파일의 동일 Git blob 확인. JavaScript 실행·외부 도표 원자료 검증 없음."
+    ],
+    "summary": "스마트계약·시장 접근·상품 조합이 투자 가능한 표현을 넓히고, 상시 시장에서 위험모델의 가정을 다시 점검하게 한다는 교육 논지다.",
     "used_for": [
-      "기술적 발행 한계비용과 금융상품의 권리·법·실사·유통 비용을 구분하는 연구자 교정"
+      "기술적 발행 한계비용과 금융상품의 권리·법·실사·유통 비용을 구분하는 연구자 교정",
+      "상품 조합의 확대와 기초 현금흐름·담보·유동성의 유한성을 분리하는 연구자 해석",
+      "기존 모델을 폐기하기보다 입력·시장시간·실행 제약을 재검토"
     ],
     "limitations": [
       "도식의 자산 수 추정과 각 인용기관 원자료는 재검증하지 않아 수치를 재사용하지 않는다.",
       "‘발행 비용 사실상0’은 법적 발행·상장·판매의 포괄 허용이나 전체 비용0의 증거가 아니다.",
-      "후속 교정은 이번 분석이며 강의자의 수정된 입장으로 귀속하지 않는다."
+      "후속 교정은 이번 분석이며 강의자의 수정된 입장으로 귀속하지 않는다.",
+      "도식의 상품 수 추정은 통일된 정의·원자료를 재검증하지 않아 수치로 사용하지 않는다.",
+      "기술적 발행 한계비용과 법적 발행·판매·평가·사후관리 총비용은 다르다.",
+      "24/7 표기가 모든 시장의 유동성·기초자산 거래·은행현금화를 보장하지 않는다.",
+      "이번 교정은 연구자 해석이며 강의자의 최신 견해로 귀속하지 않는다."
     ],
     "topic_ids": [
       "T-RIGHTS",
-      "T-MARKET"
+      "T-MARKET",
+      "T-AI"
     ],
     "event_date": null,
     "effective_date": null,
     "effective_date_status": null,
     "adoption_stage": "분석·교육 또는 발표; 개별 운영 성과와 구분",
     "source_commit": "6cf6eaf6e508aeda486721f193b3309a1a7f017f",
-    "blob_sha": "9db106ada489c92c31148608d9b969797e4f066f"
+    "blob_sha": "9db106ada489c92c31148608d9b969797e4f066f",
+    "sha256": "0583267d469c32c7d4dc94f3a8aef33be17de58b8cf17ce3e768b40ce4b5f76b",
+    "read_version_url": "https://github.com/cschung7/2026-class-UG-AIFinance/blob/3200cf6953b1b45257fcd25a3c7c961942f7bff7/blockchain/future_markets_series.html",
+    "reuse_mode": "original_reread_same_blob",
+    "previous_read_scope": "Module 01 HTML 605–767행 선택 읽기",
+    "previous_checked_at": "2026-11-03",
+    "prior_or_parallel_summary": [
+      "스테이블코인 표시단위, 스마트계약, 허가 없는 시장, 현금흐름 토큰화를 상품 범위 확대 요인으로 설명한다."
+    ],
+    "review_readers": [
+      "P"
+    ]
   },
   {
     "id": "ST-TD-004",
@@ -5669,11 +5729,12 @@
     "publisher": "Circle",
     "url": "https://www.circle.com/pressroom/circle-announces-usdc-smart-contract-for-transfers-by-blackrocks-buidl-fund-investors",
     "published_at": "2024-04-11",
-    "checked_at": "2026-11-03",
+    "checked_at": "2026-11-04",
     "visibility": "public",
     "read_status": "full_text",
     "read_scope": [
-      "발표 본문 L0–9: BUIDL 지분을 Circle에 이전하고 USDC 수취, secondary market 명시"
+      "발표 본문 L0–9: BUIDL 지분을 Circle에 이전하고 USDC 수취, secondary market 명시",
+      "2026-11-04 동일 공식 발표 재열람: 발행자 직접환매와 구분된 Circle secondary-market 지분 인수"
     ],
     "summary": "Circle은 BUIDL 보유자가 2차시장에서 지분을 Circle에 넘기고 USDC를 받는 기능을 발표했다. 그 경로의 종료 자산은 USDC이며 펀드 직접 환매나 은행 달러 수취가 아니다.",
     "used_for": [
@@ -5689,7 +5750,10 @@
       "T-RIGHTS"
     ],
     "source_type": "company_press_release",
-    "adoption_stage": "historical_functionality_announcement"
+    "adoption_stage": "historical_functionality_announcement",
+    "review_readers": [
+      "E"
+    ]
   },
   {
     "id": "KNX-M-003",
@@ -6958,11 +7022,12 @@
     "publisher": "Exchange Traded Concepts",
     "url": "https://www.exchangetradedconcepts.com/posts/exchange-traded-concepts-takes-client-etfs-to-the-abu-dhabi-securities-exchange",
     "published_at": "2026-11-02",
-    "checked_at": "2026-11-03",
+    "checked_at": "2026-11-04",
     "visibility": "public",
     "read_status": "selected_sections",
     "read_scope": [
-      "본문 웹행0–18, 위험·운영법인 설명41–54"
+      "본문 웹행0–18, 위험·운영법인 설명41–54",
+      "2026-11-04 공식 HTML0–18 및41–54행:11/2 거래개시 발표·외부 파트너·adviser/distributor. 거래실적·보수·신규토큰화 미검증."
     ],
     "summary": "ETC는 자사가 adviser인 한화 KDEF·KMCA가11/2 ADX 거래를 시작했다고 발표했다. ADX·시장조성자 Oceane·법률대표 Waystone과 상장을 조정했다. Foreside는 distributor다.",
     "used_for": [
@@ -6979,7 +7044,12 @@
     ],
     "meaning": "UAE를 MOU만으로 보지 않고 기존 ETF 운영 사업을 출발점으로 삼는다.",
     "event_date": "2026-11-02",
-    "adoption_stage": "cross_listing_trading_started_institution_statement"
+    "adoption_stage": "cross_listing_trading_started_institution_statement",
+    "previous_checked_at": "2026-11-03",
+    "change_reason": "기능별 국내 적용 메모를 위한 공식 본문 선택 재열람. 기존 사건과 출처ID 보존; 신규 성과·인가로 확대하지 않음.",
+    "review_readers": [
+      "G"
+    ]
   },
   {
     "id": "HWX-A-006",
@@ -7574,5 +7644,1065 @@
     "event_date": "2026-07-15",
     "effective_date": null,
     "adoption_stage": "designation_official_statement"
+  },
+  {
+    "id": "OBX-P-001",
+    "title": "온도 인텔리전트 포트폴리오 (강의 슬라이드)",
+    "publisher": "cschung7 공개 강의 저장소",
+    "url": "https://github.com/cschung7/2026-2nd/blob/95d4f2d97d20b4f142e15d457a0ffe1354d3aa43/AI-Finance-GSE/%EC%98%A8%EB%8F%84%20%EC%9D%B8%ED%85%94%EB%A6%AC%EC%A0%84%ED%8A%B8%20%ED%8F%AC%ED%8A%B8%ED%8F%B4%EB%A6%AC%EC%98%A4%20%28%EA%B0%95%EC%9D%98%20%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C%29.pdf",
+    "published_at": null,
+    "checked_at": "2026-11-04",
+    "visibility": "public",
+    "read_status": "full_text",
+    "read_scope": "실제 PDF 17쪽 전체 텍스트. PDF 렌더 화면은 5·8·10·11·13·14쪽을 선택 확인. 링크 주석도 추출하여 인용 원문 연결 확인.",
+    "summary": "9월 28일 자료로 OIP의 모델 제공·실행·토큰 권리를 분리하고, 기존 ETF 대비 추가 보수·세금과 온체인 사용성의 교환관계를 검토한다. 10쪽의 신규 유입 부분 리밸런싱은 추론으로 표시한다.",
+    "used_for": [
+      "교수 공개 자료의 중심 논지와 페이지별 귀속 복원",
+      "역사적 상품 수치와 현재 운영 조건 분리",
+      "교육 계산식의 조건·비용 중복 검토"
+    ],
+    "limitations": [
+      "공개 저장소 강의자료이지 구두 발언 녹취가 아니다. 개별 문장의 직접 집필 여부까지 확인하지 않았다.",
+      "자료 내 회사 발표·제3자 보도 인용은 독립 회사계약 검증과 다르다.",
+      "데이터 기준 2026-09-28. 보수율·AUM·체인 계획을 현재 값으로 재사용하지 않는다.",
+      "화면 검토는 6쪽에 한정. PDF 전문을 재배포하지 않는다."
+    ],
+    "topic_ids": [
+      "T-RIGHTS",
+      "T-MARKET",
+      "T-OPERATIONS"
+    ],
+    "source_type": "public_teaching_material",
+    "document_month": "2026-09",
+    "data_as_of": "2026-09-28",
+    "source_commit": "95d4f2d97d20b4f142e15d457a0ffe1354d3aa43",
+    "blob_sha": "36e173f261d22900661f666be61e936cf4276292",
+    "sha256": "8b39ec9241f36fae4c1ad81afcfd8470fe7bc300787850330e02a9bf4748888a",
+    "original_file": "AI-Finance-GSE/온도 인텔리전트 포트폴리오 (강의 슬라이드).pdf",
+    "same_blob_duplicate": "AI-Finance-PHD/AssetManager/온도 인텔리전트 포트폴리오 (강의 슬라이드).pdf",
+    "verification": "GitHub fetch_file 반환 blob SHA와 보관된 원본 바이트의 Git blob/SHA256 일치 확인.",
+    "review_readers": [
+      "P"
+    ]
+  },
+  {
+    "id": "OBX-P-002",
+    "title": "ondo_buidl_mastercard_interactive_slides.html — 공개 강의",
+    "publisher": "cschung7 공개 AI Finance 강의 저장소",
+    "url": "https://github.com/cschung7/2026-class-UG-AIFinance/blob/3200cf6953b1b45257fcd25a3c7c961942f7bff7/blockchain/ondo_buidl_mastercard_interactive_slides.html",
+    "published_at": null,
+    "checked_at": "2026-11-04",
+    "visibility": "public",
+    "read_status": "full_text",
+    "read_scope": "공개 pinned HTML 원문 23개 슬라이드의 본문·구조와 관련 JavaScript. 브라우저 렌더나 외부 인용 자료 전수 검증은 하지 않음.",
+    "summary": "국채·BUIDL·Ondo·은행 결제 연결과 AI의 의사결정·실행 분리를 설명한다. OUSG, XRPL, Mastercard MTN, Kinexys 경로는 실험 사례로 제시한다.",
+    "used_for": [
+      "토큰화 상품·준비자산·은행 결제와 AI 실행을 서로 다른 기능으로 분해",
+      "실험을 현재 모든 고객에게 개방된 상용 결제로 오인하지 않는 검증 질문"
+    ],
+    "limitations": [
+      "이 자료의 회사별 사실·수치 전부를 이번에 회사 원문으로 검증한 것은 아니다.",
+      "토큰 이전이 법정통화 은행현금 수령이나 채무 소멸을 자동 보증하지 않는다.",
+      "강의자료의 일반화와 우리 기관 적용 해석을 구분한다."
+    ],
+    "topic_ids": [
+      "T-MONEY",
+      "T-SETTLEMENT",
+      "T-AGENT-FINANCE"
+    ],
+    "source_type": "public_teaching_material",
+    "source_commit": "3200cf6953b1b45257fcd25a3c7c961942f7bff7",
+    "blob_sha": "53916ac17b75838a369d67ff181650e1a010989c",
+    "sha256": "a050f25015aa192697d56aaa08d95f46d9b14dbb096695b83ffbaeaaac0f4d5e",
+    "review_readers": [
+      "P"
+    ]
+  },
+  {
+    "id": "OBX-P-003",
+    "title": "토큰화 준비금 & BlackRock BUIDL 전략",
+    "publisher": "cschung7 공개 AI Finance 강의 저장소",
+    "url": "https://github.com/cschung7/2026-class-UG-AIFinance/blob/3200cf6953b1b45257fcd25a3c7c961942f7bff7/blockchain/Blackrock-build-genius-act.html.html",
+    "published_at": null,
+    "checked_at": "2026-11-04",
+    "visibility": "public",
+    "read_status": "selected_sections",
+    "read_scope": "공개 pinned HTML 제목·2026년 5월 표기 및 296–448행의 OCC 준비금 논의, BUIDL 구조와 Circle 연결 부분. 내장 이미지의 내용은 별도 시각 검증하지 않음.",
+    "summary": "준비자산 규칙이 자산운용사와 지급 토큰의 역할·수익 배분에 미치는 영향을 논의한다. BUIDL 보유자와 USDC 교환 연결을 설명한다.",
+    "used_for": [
+      "준비자산 자격·은행현금 환매·유동성 제공자·수익 귀속을 확인할 질문 복원"
+    ],
+    "limitations": [
+      "20% 규제 숫자, BUIDL 당시 규모·수익률, Circle 자기자본 설명은 이 강의의 주장으로만 보존한다. 이번 패킷은 현재 법령·실제 자금 조달 출처로 검증하지 않았다.",
+      "교육 자료 표기 2026년 5월은 정확한 게시일이 아니다.",
+      "OIP·BUIDL·OUSG·USDY의 권리와 수익구조를 동일시할 수 없다."
+    ],
+    "topic_ids": [
+      "T-MONEY",
+      "T-FUNDING",
+      "T-REGULATION"
+    ],
+    "source_type": "public_teaching_material",
+    "document_month": "2026-05",
+    "source_commit": "3200cf6953b1b45257fcd25a3c7c961942f7bff7",
+    "blob_sha": "6a625f956f1415bfc91a903801c3a624ada27fca",
+    "sha256": "1efaa32ec33a8fc3ea6b883ccf80695fc3a00dd6d24fd1b407f48133ecb87b30",
+    "review_readers": [
+      "P"
+    ]
+  },
+  {
+    "id": "OBX-P-004",
+    "title": "Introducing Ondo Intelligent Portfolios",
+    "publisher": "Ondo Finance",
+    "url": "https://ondo.finance/blog/introducing-ondo-intelligent-portfolios",
+    "published_at": "2026-09-24",
+    "checked_at": "2026-11-04",
+    "visibility": "public",
+    "read_status": "selected_sections",
+    "read_scope": [
+      "발표 본문 웹행 30–92. 첫 상품군, 모델·구현·토큰 구성 및 앞으로의 동적 전략·파생상품·중첩 포트폴리오 계획.",
+      "출시 발표 본문: 모델·토큰화 기초상품·단일 포트폴리오 토큰 및 초기 BlackRock 세 모델"
+    ],
+    "summary": "OIP 출시와 BlackRock 제공 세 모델에 기초한 포트폴리오를 발표했다. 모델·기초상품·포트폴리오 토큰을 별도 층으로 설명한다.",
+    "used_for": [
+      "현재 상품과 미래 구상을 분리",
+      "모델 공급·구현·보유 토큰의 역할 구분",
+      "BlackRock·Ondo 상품별 법적 권리·현금·보수 및 사업 역할 비교"
+    ],
+    "limitations": [
+      "회사 발표이며 독립 성과 검증이 아니다.",
+      "로드맵 언급은 각 기능의 출시·인가·수익을 증명하지 않는다.",
+      "회사 출시 발표다. 운용 성과·고객 채택·총비용 우위를 독립 검증하지 않았다."
+    ],
+    "topic_ids": [
+      "T-RIGHTS",
+      "T-MARKET",
+      "T-AGENT-FINANCE",
+      "T-MONEY",
+      "T-INSTITUTION-ROLES"
+    ],
+    "source_type": "company_press_release",
+    "event_date": "2026-09-24",
+    "review_readers": [
+      "P",
+      "E"
+    ],
+    "prior_or_parallel_summary": [
+      "첫 세 BlackRock 기반 포트폴리오와 Ondo 구현 층을 소개한다. 출시 상품은 고정 구성·정기 리밸런싱이며 더 복잡한 전략은 발전 방향으로 제시된다."
+    ]
+  },
+  {
+    "id": "OBX-P-005",
+    "title": "Ondo Intelligent Portfolios Fees and Taxes",
+    "publisher": "Ondo Finance",
+    "url": "https://docs.ondo.finance/intelligent-portfolios/fees-taxes",
+    "published_at": null,
+    "checked_at": "2026-11-04",
+    "visibility": "public",
+    "read_status": "selected_sections",
+    "read_scope": [
+      "웹 본문 137–154행: service fee, constituent mint/redemption fees, gas/secondary fees, daily accrual, BVI dividend withholding.",
+      "본문 연간 서비스비·일별 가치 차감·기초토큰 발행환매비·스프레드·원천징수"
+    ],
+    "summary": "OIP 서비스비는 일별로 토큰 가치에 반영되고 상품별 요율이 다르다. 기초토큰 발행환매 비용과 호가 차이, 가스, 배당 원천징수도 구별해야 한다.",
+    "used_for": [
+      "포트폴리오 보수·기초자산 비용·거래 비용 구분",
+      "30%를 총수익이나 모든 분배에 적용하지 않음",
+      "BlackRock·Ondo 상품별 법적 권리·현금·보수 및 사업 역할 비교"
+    ],
+    "limitations": [
+      "동적 문서의 발행·수정일 미확인.",
+      "개별 상품 현재 보수율은 이 문서가 상품 페이지로 안내한다. 9월 강의 숫자를 현재 값으로 확정하지 않는다.",
+      "국내 투자자 세금·개별 세율 판단 자료가 아니다.",
+      "각 앱 상품 페이지의 실제 요율은 미확인 null이다. 서비스비 전액이 특정 Ondo 법인의 순익이라는 뜻이 아니다."
+    ],
+    "topic_ids": [
+      "T-RIGHTS",
+      "T-OPERATIONS",
+      "T-MONEY",
+      "T-INSTITUTION-ROLES"
+    ],
+    "source_type": "official_product_documentation",
+    "review_readers": [
+      "P",
+      "E"
+    ],
+    "prior_or_parallel_summary": [
+      "서비스 보수는 일별 누적으로 NAV에 반영된다. 구성 토큰 거래 비용·스프레드·가스 등이 추가될 수 있다. 미국 기업 배당은 일반적으로 30% 원천징수 설명과 일부 채권형 예외가 있다."
+    ]
+  },
+  {
+    "id": "OBX-P-006",
+    "title": "Ondo Intelligent Portfolios Investing and Redeeming",
+    "publisher": "Ondo Finance",
+    "url": "https://docs.ondo.finance/intelligent-portfolios/investing-redeeming",
+    "published_at": null,
+    "checked_at": "2026-11-04",
+    "visibility": "public",
+    "read_status": "selected_sections",
+    "read_scope": [
+      "웹 본문 134–148행: base/current weights, 투자·상환 구성, 정기 리밸런싱.",
+      "목표/현재 비중·발행/환매 차이·대략 분기 재조정"
+    ],
+    "summary": "신규 발행은 모델 목표 비중, 환매는 당시 실제 비중에 따라 처리된다고 설명한다. 대략 분기 단위로 목표 비중을 회복하도록 설계한다.",
+    "used_for": [
+      "강의 10쪽 부분 리밸런싱 추론의 운영 전제를 현재 문서와 대조",
+      "BlackRock·Ondo 상품별 법적 권리·현금·보수 및 사업 역할 비교"
+    ],
+    "limitations": [
+      "실제 체결 가격·비용·시간·동시 상환을 검증한 거래 원장이 아니다.",
+      "기계적 비중 변화가 고객 초과수익이나 강제 차익거래를 증명하지 않는다.",
+      "신규유입으로 전체 편차가 완전히 제거된다거나 무비용·무세금 재조정을 보장하지 않는다."
+    ],
+    "topic_ids": [
+      "T-MARKET",
+      "T-OPERATIONS",
+      "T-RIGHTS",
+      "T-MONEY",
+      "T-INSTITUTION-ROLES"
+    ],
+    "source_type": "official_product_documentation",
+    "review_readers": [
+      "P",
+      "E"
+    ],
+    "prior_or_parallel_summary": [
+      "목표 비중과 현재 비중을 구분한다. 신규 투자는 목표 비중, 상환은 현재 비중을 사용한다고 설명한다."
+    ]
+  },
+  {
+    "id": "OBX-P-007",
+    "title": "Ondo Intelligent Portfolios Market Hours and Trading Availability",
+    "publisher": "Ondo Finance",
+    "url": "https://docs.ondo.finance/intelligent-portfolios/market-hours",
+    "published_at": null,
+    "checked_at": "2026-11-04",
+    "visibility": "public",
+    "read_status": "selected_sections",
+    "read_scope": [
+      "웹 본문 137–169행: 투자·상환 09:30–15:45 ET, 기초자산 휴장·거래정지와 플랫폼 제한.",
+      "발행환매 ET09:30~15:45·개별 종목 정지 시 묶음 정지·야간 미지원·2차 이전"
+    ],
+    "summary": "직접 발행·환매는 일반적으로 미국 정규시장 영업일 ET09:30~15:45이며 구성자산 하나라도 거래 불가하면 포트폴리오가 정지될 수 있다. 제한 조건 아래 온체인 이전·2차 거래는 상시 가능하나 이는 직접 환매와 다르다.",
+    "used_for": [
+      "토큰 이전·2차 거래 가능성과 1차 발행·상환·은행현금화를 구분",
+      "BlackRock·Ondo 상품별 법적 권리·현금·보수 및 사업 역할 비교"
+    ],
+    "limitations": [
+      "동적 문서 발행일 미확인. 기초자산 휴장일과 실제 주문·상환 완료 SLA를 따로 확인해야 한다.",
+      "연중무휴 즉시 은행현금 지급의 증거가 아니다.",
+      "상시 거래 가능 설명은 실제 호가·유동성·동일 가격 보장이 아니다."
+    ],
+    "topic_ids": [
+      "T-MARKET",
+      "T-SETTLEMENT",
+      "T-OPERATIONS",
+      "T-RIGHTS",
+      "T-MONEY",
+      "T-INSTITUTION-ROLES"
+    ],
+    "source_type": "official_product_documentation",
+    "review_readers": [
+      "P",
+      "E"
+    ],
+    "prior_or_parallel_summary": [
+      "직접 투자·상환은 미국 거래일의 정해진 창구로 제한된다. 구성자산 거래정지나 플랫폼 조건으로 전체 포트폴리오 처리가 중단될 수 있다."
+    ]
+  },
+  {
+    "id": "OBX-P-008",
+    "title": "Ondo Intelligent Portfolios",
+    "publisher": "Ondo Finance",
+    "url": "https://ondo.finance/intelligent-portfolios",
+    "published_at": null,
+    "checked_at": "2026-11-04",
+    "visibility": "public",
+    "read_status": "selected_sections",
+    "read_scope": "웹행 98–111의 체인 표시, 267–334의 제품·참여 설명, 358–370의 BlackRock 역할·권리·법률 고지.",
+    "summary": "공식 페이지는 Ethereum·BNB Chain·Solana 사용 가능을 표시한다. BlackRock의 모델 제공과 Ondo 발행 증권의 권리·판매 제한을 분리한다.",
+    "used_for": [
+      "9월 Solana 계획 표시를 11월 공식 사용 가능 표시로 갱신",
+      "브랜드·모델 공급을 펀드 직접 소유권이나 판매 자격으로 바꾸지 않음"
+    ],
+    "limitations": [
+      "체인별 계약·유동성·모든 상품 지원을 온체인 검증하지 않았다.",
+      "광범위한 홍보 문구는 적격성·관할·직접 투자 조건에 종속된다.",
+      "현재 페이지 확인이며 각 기능의 최초 개시일·실제 거래·매출은 확인하지 않았다."
+    ],
+    "topic_ids": [
+      "T-RIGHTS",
+      "T-MARKET",
+      "T-REGULATION"
+    ],
+    "source_type": "company_product_and_legal_disclosure",
+    "observed_state": "2026-11-04 공식 제품 페이지 표시",
+    "review_readers": [
+      "P"
+    ]
+  },
+  {
+    "id": "OBX-P-009",
+    "title": "Ondo, Kinexys by J.P. Morgan, Mastercard, and Ripple Complete First Cross-Border, Cross-Bank Redemption of Tokenized U.S. Treasuries",
+    "publisher": "Ondo Finance",
+    "url": "https://ondo.finance/blog/ondo-jpmorgan-mastercard-ripple-tokenization",
+    "published_at": "2026-05-06",
+    "checked_at": "2026-11-04",
+    "visibility": "public",
+    "read_status": "full_text",
+    "read_scope": "공식 발표 전체 본문 웹행 20–49: 제목·날짜, 요약, 파일럿 흐름, 당사자 인용, 확장 설계 설명. 실제 거래 원장·계약은 미열람.",
+    "summary": "Ondo는 Ripple의 XRPL상 OUSG 일부 환매 지시를 Mastercard MTN·Kinexys와 연결해 싱가포르 은행계좌에 USD를 지급한 파일럿을 발표했다. 자산 처리 구간은 5초 미만이라고 설명한다.",
+    "used_for": [
+      "강의의 OUSG–XRPL–MTN–Kinexys 사례를 공식 발표와 대조",
+      "Ondo 예금계정 차감·은행 지급을 토큰 이전과 구분"
+    ],
+    "limitations": [
+      "회사 발표이며 거래 해시·금액·정확한 실행일·전체 소요시간·비용을 독립 검증하지 않았다.",
+      "5초 미만은 XRPL 자산 구간이다. 전체 은행현금 도착 시간을 뜻하지 않는다.",
+      "특정 당사자의 완료된 파일럿이다. 24/7 확장 설계는 일반 고객 상용 개방·무제한 용량·반복 수익을 증명하지 않는다.",
+      "Ondo 예금계정 차감은 해당 예금의 최종 조달원천이나 자동 재충전·기초펀드 환매 경로까지 밝히지 않는다."
+    ],
+    "topic_ids": [
+      "T-MONEY",
+      "T-SETTLEMENT",
+      "T-OPERATIONS"
+    ],
+    "source_type": "company_pilot_announcement",
+    "event_date": null,
+    "event_date_note": "2026-05-06은 발표일; 정확한 파일럿 실행일은 본문 미공개.",
+    "adoption_stage": "completed_pilot_reported_by_company",
+    "review_readers": [
+      "P"
+    ]
+  },
+  {
+    "id": "OBX-E-001",
+    "title": "BlackRock Launches Its First Tokenized Fund, BUIDL, on the Ethereum Network",
+    "publisher": "Securitize",
+    "url": "https://investors.securitize.io/news/news-details/2024/BlackRock-Launches-Its-First-Tokenized-Fund-BUIDL-on-the-Ethereum-Network-03-20-2024/default.aspx",
+    "published_at": "2024-03-20",
+    "checked_at": "2026-11-04",
+    "visibility": "public",
+    "read_status": "selected_sections",
+    "read_scope": [
+      "본문의 투자운용자·BNY·Securitize 역할 및 Rule 506(c)/3(c)(7), 판매대행 보상 공시"
+    ],
+    "summary": "BUIDL 투자운용자는 BlackRock Financial Management, Inc.이고 BNY Mellon은 수탁·관리, Securitize는 이전대행·토큰화, Securitize Markets는 판매대행을 맡는다고 발표했다. 운용자가 판매대행자에게 선급 정액과 소개 투자자 NAV에 따른 보상을 지급하며 선급액을 후속액에서 공제한다.",
+    "used_for": [
+      "BlackRock·Ondo 상품별 법적 권리·현금·보수 및 사업 역할 비교"
+    ],
+    "limitations": [
+      "2024 출시 당시 역할·조건이며 현행 클래스별 계약·요율 전문은 미확인."
+    ],
+    "topic_ids": [
+      "T-RIGHTS",
+      "T-MONEY",
+      "T-INSTITUTION-ROLES"
+    ],
+    "source_type": "company_press_release",
+    "review_readers": [
+      "E"
+    ]
+  },
+  {
+    "id": "OBX-E-002",
+    "title": "Tempo expands onchain yield offering with BlackRock’s BUIDL fund",
+    "publisher": "Securitize",
+    "url": "https://investors.securitize.io/news/news-details/2026/Tempo-expands-onchain-yield-offering-with-BlackRocks-BUIDL-fund/default.aspx",
+    "published_at": "2026-07-30",
+    "checked_at": "2026-11-04",
+    "visibility": "public",
+    "read_status": "selected_sections",
+    "read_scope": [
+      "본문 자산·정확한 펀드명 및 하단 투자위험·법적 권리·화이트리스트 고지"
+    ],
+    "summary": "BlackRock USD Institutional Digital Liquidity Fund Ltd.는 현금·미국 단기국채·repo를 보유한다. 토큰은 펀드 지분이며 스테이블코인·은행예금이 아니고 특정 기초자산을 직접 받을 권리도 아니다. 적격 투자자와 허용 지갑 조건이 있다.",
+    "used_for": [
+      "BlackRock·Ondo 상품별 법적 권리·현금·보수 및 사업 역할 비교"
+    ],
+    "limitations": [
+      "운용 보고서나 사모설명서 전문을 읽지 않았다. 출시 발표는 반복 사용·수익성 검증이 아니다."
+    ],
+    "topic_ids": [
+      "T-RIGHTS",
+      "T-MONEY",
+      "T-INSTITUTION-ROLES"
+    ],
+    "source_type": "company_press_release",
+    "review_readers": [
+      "E"
+    ]
+  },
+  {
+    "id": "OBX-E-003",
+    "title": "BlackRock BUIDL",
+    "publisher": "Securitize",
+    "url": "https://securitize.io/blackrock/buidl",
+    "published_at": null,
+    "checked_at": "2026-11-04",
+    "visibility": "public",
+    "read_status": "selected_sections",
+    "read_scope": [
+      "목표가격·화이트리스트·USD 유동성·수수료와 최소금액 표들 및 위험 고지"
+    ],
+    "summary": "펀드 지분의 목표가격과 제한된 투자자 이전을 안내한다. 공개 페이지에는 네트워크별 보수와 최소금액이 다른 복수 표가 있어 동일 클래스·조건인지 확정할 수 없다.",
+    "used_for": [
+      "BlackRock·Ondo 상품별 법적 권리·현금·보수 및 사업 역할 비교"
+    ],
+    "limitations": [
+      "적용 클래스가 불명확한 중복 표에서 단일 현행 요율·최소금액을 만들지 않았다. 실제 계약 요율은 null."
+    ],
+    "topic_ids": [
+      "T-RIGHTS",
+      "T-MONEY",
+      "T-INSTITUTION-ROLES"
+    ],
+    "source_type": "official_product_documentation",
+    "review_readers": [
+      "E"
+    ]
+  },
+  {
+    "id": "OBX-E-004",
+    "title": "OUSG | Tokenized Treasuries for Institutions",
+    "publisher": "Ondo Finance",
+    "url": "https://ondo.finance/ousg",
+    "published_at": null,
+    "checked_at": "2026-11-04",
+    "visibility": "public",
+    "read_status": "selected_sections",
+    "read_scope": [
+      "11월 2일 16:00 EST 포트폴리오 표, 상품 조건, FAQ 및 하단 발행자·운용자 법적 고지"
+    ],
+    "summary": "OUSG 발행자는 Delaware의 Ondo I LP이며 Ondo Capital Management LLC가 투자자문사다. 공개 표에는 SWEEP·BUIDL·BENJI·FYOXX 등 여러 펀드가 공존한다. Accredited investor와 qualified purchaser 조건을 함께 명시한다.",
+    "used_for": [
+      "BlackRock·Ondo 상품별 법적 권리·현금·보수 및 사업 역할 비교"
+    ],
+    "limitations": [
+      "11월 2일 표와 BUIDL 중심이라는 오래된 FAQ 문구가 공존한다. 특정 시점 표를 현재 영구 구성으로 일반화하지 않는다."
+    ],
+    "topic_ids": [
+      "T-RIGHTS",
+      "T-MONEY",
+      "T-INSTITUTION-ROLES"
+    ],
+    "source_type": "official_product_documentation",
+    "review_readers": [
+      "E"
+    ]
+  },
+  {
+    "id": "OBX-E-005",
+    "title": "OUSG Fees and Taxes",
+    "publisher": "Ondo Finance",
+    "url": "https://docs.ondo.finance/qualified-access-products/ousg/fees-and-taxes",
+    "published_at": null,
+    "checked_at": "2026-11-04",
+    "visibility": "public",
+    "read_status": "selected_sections",
+    "read_scope": [
+      "본문 보수·비용상한·기초펀드 비용·추가 즉시거래 비용"
+    ],
+    "summary": "연 0.15% 관리보수는 2027-01-01까지 면제한다고 기재한다. 펀드 비용은 연 0.15% 상한이며 기초펀드 비용은 그 기초펀드 수익에서 차감된다. 즉시 발행·환매 추가 비용 가능성을 안내한다.",
+    "used_for": [
+      "BlackRock·Ondo 상품별 법적 권리·현금·보수 및 사업 역할 비교"
+    ],
+    "limitations": [
+      "면제 후 실제 부과 개시나 재연장, 총 실효비용과 계약별 수취자 배분은 미확인.",
+      "공개 문장만으로 관리보수와 펀드비용 상한의 포함관계를 확정하지 않았다. 면제 종료 뒤 두 0.15%를 기계적으로 더해 총 0.30%라고 하지 않는다."
+    ],
+    "topic_ids": [
+      "T-RIGHTS",
+      "T-MONEY",
+      "T-INSTITUTION-ROLES"
+    ],
+    "source_type": "official_product_documentation",
+    "review_readers": [
+      "E"
+    ]
+  },
+  {
+    "id": "OBX-E-006",
+    "title": "OUSG Instant Limits",
+    "publisher": "Ondo Finance",
+    "url": "https://docs.ondo.finance/qualified-access-products/ousg/instant-limits",
+    "published_at": null,
+    "checked_at": "2026-11-04",
+    "visibility": "public",
+    "read_status": "selected_sections",
+    "read_scope": [
+      "본문 거래별 최소액과 글로벌·개별 24시간 한도"
+    ],
+    "summary": "즉시 발행·환매 최소액은 각각 5천 달러다. 공개 문서의 글로벌 24시간 한도는 5천만 달러, 개인 한도는 2천5백만 달러이며 가용 잔여 한도에 제약된다.",
+    "used_for": [
+      "BlackRock·Ondo 상품별 법적 권리·현금·보수 및 사업 역할 비교"
+    ],
+    "limitations": [
+      "고객별 승인이나 현재 남은 용량·항상 가능한 유동성을 보증하지 않는다."
+    ],
+    "topic_ids": [
+      "T-RIGHTS",
+      "T-MONEY",
+      "T-INSTITUTION-ROLES"
+    ],
+    "source_type": "official_product_documentation",
+    "review_readers": [
+      "E"
+    ]
+  },
+  {
+    "id": "OBX-E-007",
+    "title": "OUSG Redeeming",
+    "publisher": "Ondo Finance",
+    "url": "https://docs.ondo.finance/qualified-access-products/ousg/redeeming",
+    "published_at": null,
+    "checked_at": "2026-11-04",
+    "visibility": "public",
+    "read_status": "selected_sections",
+    "read_scope": [
+      "본문 즉시 USDC 환매 및 비즉시 영업일 처리 설명"
+    ],
+    "summary": "즉시 경로는 OUSG를 제출하고 USDC를 받는다. 비즉시 환매는 미국 동부시간 마감과 영업일 처리에 따른다.",
+    "used_for": [
+      "BlackRock·Ondo 상품별 법적 권리·현금·보수 및 사업 역할 비교"
+    ],
+    "limitations": [
+      "일반적 처리 설명이며 실제 은행 입금 보장 시각·특정 고객 SLA를 확인하지 않았다."
+    ],
+    "topic_ids": [
+      "T-RIGHTS",
+      "T-MONEY",
+      "T-INSTITUTION-ROLES"
+    ],
+    "source_type": "official_product_documentation",
+    "review_readers": [
+      "E"
+    ]
+  },
+  {
+    "id": "OBX-E-008",
+    "title": "USDY Basics",
+    "publisher": "Ondo Finance",
+    "url": "https://docs.ondo.finance/general-access-products/usdy/basics",
+    "published_at": null,
+    "checked_at": "2026-11-04",
+    "visibility": "public",
+    "read_status": "selected_sections",
+    "read_scope": [
+      "본문 발행시점별 담보, 2025-12-15 Stocks 편입, 현재 앱 약관, LLC 달러환매/BVI USDC환매 및 rUSDY"
+    ],
+    "summary": "현재 문서는 USDY를 과거 Ondo USDY LLC 발행 채권으로 설명하며 2025-12-15 Stocks 범주 편입과 발행시점별 담보 차이를 명시한다. LLC의 USD 환매는 비미국 은행계좌로, USDC 환매는 Ondo Global Markets (BVI) Limited 경로로 구분한다.",
+    "used_for": [
+      "BlackRock·Ondo 상품별 법적 권리·현금·보수 및 사업 역할 비교"
+    ],
+    "limitations": [
+      "과거 발행분이 모두 자동 경개됐다는 증거가 아니다. 개별 발행시점·청약약관·수익권 계약은 미확인."
+    ],
+    "topic_ids": [
+      "T-RIGHTS",
+      "T-MONEY",
+      "T-INSTITUTION-ROLES"
+    ],
+    "source_type": "official_product_documentation",
+    "review_readers": [
+      "E"
+    ]
+  },
+  {
+    "id": "OBX-E-009",
+    "title": "USDY Important Notes",
+    "publisher": "Ondo Finance",
+    "url": "https://docs.ondo.finance/general-access-products/usdy/important-notes",
+    "published_at": null,
+    "checked_at": "2026-11-04",
+    "visibility": "public",
+    "read_status": "selected_sections",
+    "read_scope": [
+      "본문 투자자 제한·국채에 대한 경제적 노출과 직접 권리의 차이"
+    ],
+    "summary": "USDY는 국채 자체가 아니고 국채 현물 인도를 요구하는 권리도 아니다. 국가와 투자자 유형별 판매 제한을 고지한다.",
+    "used_for": [
+      "BlackRock·Ondo 상품별 법적 권리·현금·보수 및 사업 역할 비교"
+    ],
+    "limitations": [
+      "개별 투자자의 자격·현지 판매허가를 판정하지 않았다."
+    ],
+    "topic_ids": [
+      "T-RIGHTS",
+      "T-MONEY",
+      "T-INSTITUTION-ROLES"
+    ],
+    "source_type": "official_product_documentation",
+    "review_readers": [
+      "E"
+    ]
+  },
+  {
+    "id": "OBX-E-010",
+    "title": "USDY Eligibility",
+    "publisher": "Ondo Finance",
+    "url": "https://docs.ondo.finance/general-access-products/usdy/eligibility",
+    "published_at": null,
+    "checked_at": "2026-11-04",
+    "visibility": "public",
+    "read_status": "selected_sections",
+    "read_scope": [
+      "미국인·미국 내 주문·캐나다·제재 및 국가별 전문투자자 제한"
+    ],
+    "summary": "USDY는 적격 비미국 투자자를 대상으로 하며 단순히 비미국인이면 모든 나라에서 일반 개인이 가입 가능한 것은 아니다.",
+    "used_for": [
+      "BlackRock·Ondo 상품별 법적 권리·현금·보수 및 사업 역할 비교"
+    ],
+    "limitations": [
+      "제외·제한 국가 전체의 현지 법률을 별도로 검증하지 않았다."
+    ],
+    "topic_ids": [
+      "T-RIGHTS",
+      "T-MONEY",
+      "T-INSTITUTION-ROLES"
+    ],
+    "source_type": "official_product_documentation",
+    "review_readers": [
+      "E"
+    ]
+  },
+  {
+    "id": "OBX-E-011",
+    "title": "USDY | Tokenized US Dollar Yield",
+    "publisher": "Ondo Finance",
+    "url": "https://ondo.finance/usdy",
+    "published_at": null,
+    "checked_at": "2026-11-04",
+    "visibility": "public",
+    "read_status": "selected_sections",
+    "read_scope": [
+      "상품 안내·11월 2일 기초자산 표·미국 소재 표시·APY 결정 방식"
+    ],
+    "summary": "공개 상품 페이지는 단기국채·SHVon·은행예금 등을 표시하고 적용 APY를 Ondo가 계약에 따라 월별 설정한다고 설명한다.",
+    "used_for": [
+      "BlackRock·Ondo 상품별 법적 권리·현금·보수 및 사업 역할 비교"
+    ],
+    "limitations": [
+      "일반 정보의 미국 소재 표시는 최신 Basics의 BVI 환매 경로와 병존한다. 발행분별 계약이 우선이며 운용수익-표시 APY를 회사 순익으로 계산하지 않는다."
+    ],
+    "topic_ids": [
+      "T-RIGHTS",
+      "T-MONEY",
+      "T-INSTITUTION-ROLES"
+    ],
+    "source_type": "official_product_documentation",
+    "review_readers": [
+      "E"
+    ]
+  },
+  {
+    "id": "OBX-E-012",
+    "title": "Ondo Stocks Legal and Regulatory",
+    "publisher": "Ondo Finance",
+    "url": "https://docs.ondo.finance/ondo-stocks/legal-and-regulatory",
+    "published_at": null,
+    "checked_at": "2026-11-04",
+    "visibility": "public",
+    "read_status": "selected_sections",
+    "read_scope": [
+      "본문 발행자·구조화채권·담보·보유자 권리·Regulation S",
+      "11/4 재열람 L136·152: 공식 법인명 Ondo Global Markets (BVI) Limited 및 문서상 약칭 OGM 확인"
+    ],
+    "summary": "발행자는 Ondo Global Markets (BVI) Limited다. 상품은 주식·ETF에 연동되는 구조화 채권이며 보유자는 해당 기업의 주주권을 갖지 않는다. 발행자 자산의 분리와 담보권·환매청구 구조를 설명한다.",
+    "used_for": [
+      "BlackRock·Ondo 상품별 법적 권리·현금·보수 및 사업 역할 비교"
+    ],
+    "limitations": [
+      "가입 후 제공되는 최종 Sales Terms와 전체 발행 문서는 읽지 않았다. 국가별 개별 판매허가를 증명하지 않는다."
+    ],
+    "topic_ids": [
+      "T-RIGHTS",
+      "T-MONEY",
+      "T-INSTITUTION-ROLES"
+    ],
+    "source_type": "official_product_documentation",
+    "review_readers": [
+      "E"
+    ]
+  },
+  {
+    "id": "OBX-E-013",
+    "title": "Ondo Stocks Fees and Taxes",
+    "publisher": "Ondo Finance",
+    "url": "https://docs.ondo.finance/ondo-stocks/fees-and-taxes",
+    "published_at": null,
+    "checked_at": "2026-11-04",
+    "visibility": "public",
+    "read_status": "selected_sections",
+    "read_scope": [
+      "본문 매수·매도 호가와 기초거래가격 차이·플랫폼 수수료·가스·배당 원천징수"
+    ],
+    "summary": "호가와 기초자산 집행가격 차이 및 수수료는 플랫폼이 취득한다고 설명한다. 투자자 가스비와 제3자 거래비용, 기초자산 배당 원천징수도 존재한다.",
+    "used_for": [
+      "BlackRock·Ondo 상품별 법적 권리·현금·보수 및 사업 역할 비교"
+    ],
+    "limitations": [
+      "거래별 정확한 스프레드·수취 법인·순마진·모든 기초자산 세율은 미확인."
+    ],
+    "topic_ids": [
+      "T-RIGHTS",
+      "T-MONEY",
+      "T-INSTITUTION-ROLES"
+    ],
+    "source_type": "official_product_documentation",
+    "review_readers": [
+      "E"
+    ]
+  },
+  {
+    "id": "OBX-E-014",
+    "title": "Ondo Stocks Investing and Redeeming",
+    "publisher": "Ondo Finance",
+    "url": "https://docs.ondo.finance/ondo-stocks/investing-and-redeeming",
+    "published_at": null,
+    "checked_at": "2026-11-04",
+    "visibility": "public",
+    "read_status": "selected_sections",
+    "read_scope": [
+      "본문 USDon 기본 결제·USDC 원자적 교환·유동성·은행송금·직접 USDon 거래 승인 조건"
+    ],
+    "summary": "기본 발행·환매의 결제수단은 USDon이며 USDC 사용 시 1:1 교환을 묶을 수 있다. 교환은 상대 토큰 재고에 의존한다. 직접 USDon 교환은 별도 승인이 필요하며 은행송금 안내도 별개다.",
+    "used_for": [
+      "BlackRock·Ondo 상품별 법적 권리·현금·보수 및 사업 역할 비교"
+    ],
+    "limitations": [
+      "USDon 법적 발행조건·준비자산을 별도 원문으로 완전 검증하지 않았다. USDC 수취가 은행 달러 입금은 아니다."
+    ],
+    "topic_ids": [
+      "T-RIGHTS",
+      "T-MONEY",
+      "T-INSTITUTION-ROLES"
+    ],
+    "source_type": "official_product_documentation",
+    "review_readers": [
+      "E"
+    ]
+  },
+  {
+    "id": "OBX-E-015",
+    "title": "Ondo Stocks Trust and Transparency",
+    "publisher": "Ondo Finance",
+    "url": "https://docs.ondo.finance/ondo-stocks/trust-and-transparency",
+    "published_at": null,
+    "checked_at": "2026-11-04",
+    "visibility": "public",
+    "read_status": "selected_sections",
+    "read_scope": [
+      "본문 발행법인 독립·장부·보관·Ankura 담보대리 및 부도 시 집행"
+    ],
+    "summary": "운영회사·Foundation과 구분된 발행법인, 독립 장부와 담보대리 구조를 설명한다. Ankura의 담보 집행은 정해진 사건·요건과 보유자 지시를 따른다.",
+    "used_for": [
+      "BlackRock·Ondo 상품별 법적 권리·현금·보수 및 사업 역할 비교"
+    ],
+    "limitations": [
+      "도산절연의 모든 법적 요건이나 실제 회수 기간·비용을 독립 검증한 것은 아니다."
+    ],
+    "topic_ids": [
+      "T-RIGHTS",
+      "T-MONEY",
+      "T-INSTITUTION-ROLES"
+    ],
+    "source_type": "official_product_documentation",
+    "review_readers": [
+      "E"
+    ]
+  },
+  {
+    "id": "OBX-E-016",
+    "title": "Ondo Stocks Eligibility",
+    "publisher": "Ondo Finance",
+    "url": "https://docs.ondo.finance/ondo-stocks/eligibility",
+    "published_at": null,
+    "checked_at": "2026-11-04",
+    "visibility": "public",
+    "read_status": "selected_sections",
+    "read_scope": [
+      "미국·캐나다·제재 제한 및 국가별 적격 투자자 항목"
+    ],
+    "summary": "Stocks는 비미국 대상 규제 및 국가별 투자자 제한을 적용하며, 발행자는 법률·계약·KYC에 따른 별도 자격 조건을 둔다.",
+    "used_for": [
+      "BlackRock·Ondo 상품별 법적 권리·현금·보수 및 사업 역할 비교"
+    ],
+    "limitations": [
+      "한국 기관·개인의 구체적 판매·중개·외환 요건을 충족했다는 증거가 아니다."
+    ],
+    "topic_ids": [
+      "T-RIGHTS",
+      "T-MONEY",
+      "T-INSTITUTION-ROLES"
+    ],
+    "source_type": "official_product_documentation",
+    "review_readers": [
+      "E"
+    ]
+  },
+  {
+    "id": "OBX-E-018",
+    "title": "Intelligent Portfolios Go Live on Solana",
+    "publisher": "Ondo Finance",
+    "url": "https://ondo.finance/blog/intelligent-portfolios-go-live-on-solana",
+    "published_at": "2026-10-29",
+    "checked_at": "2026-11-04",
+    "visibility": "public",
+    "read_status": "selected_sections",
+    "read_scope": [
+      "Solana 출시와 7개 포트폴리오 목록"
+    ],
+    "summary": "Ethereum·BNB Chain에 이어 Solana에서 7개 OIP 상품 이용 가능을 발표했다.",
+    "used_for": [
+      "BlackRock·Ondo 상품별 법적 권리·현금·보수 및 사업 역할 비교"
+    ],
+    "limitations": [
+      "실제 가동률·투자자별 접근·거래량·수익성은 검증하지 않았다. 목표 수익 이름은 보장수익이 아니다."
+    ],
+    "topic_ids": [
+      "T-RIGHTS",
+      "T-MONEY",
+      "T-INSTITUTION-ROLES"
+    ],
+    "source_type": "company_press_release",
+    "review_readers": [
+      "E"
+    ]
+  },
+  {
+    "id": "OBX-E-019",
+    "title": "Ondo Intelligent Portfolios Overview",
+    "publisher": "Ondo Finance",
+    "url": "https://docs.ondo.finance/intelligent-portfolios/overview",
+    "published_at": null,
+    "checked_at": "2026-11-04",
+    "visibility": "public",
+    "read_status": "selected_sections",
+    "read_scope": [
+      "본문 발행자·포트폴리오 토큰·펀드/ETF와의 구별",
+      "11/4 재열람 L141: OIP 발행 법인명 Ondo Global Markets (BVI) Limited 확인"
+    ],
+    "summary": "OIP 발행자는 Ondo Global Markets (BVI) Limited다. 기초 주식·ETF 등에 연동되는 토큰 묶음에 대한 노출을 제공하지만 OIP 자체는 펀드·ETF나 그 지분이 아니다.",
+    "used_for": [
+      "BlackRock·Ondo 상품별 법적 권리·현금·보수 및 사업 역할 비교"
+    ],
+    "limitations": [
+      "개별 OIP 최종 계약의 청구순위·모든 도산 조항은 미확인."
+    ],
+    "topic_ids": [
+      "T-RIGHTS",
+      "T-MONEY",
+      "T-INSTITUTION-ROLES"
+    ],
+    "source_type": "official_product_documentation",
+    "review_readers": [
+      "E"
+    ]
+  },
+  {
+    "id": "OBX-E-020",
+    "title": "Ondo Intelligent Portfolios Model Providers",
+    "publisher": "Ondo Finance",
+    "url": "https://docs.ondo.finance/intelligent-portfolios/model-providers",
+    "published_at": null,
+    "checked_at": "2026-11-04",
+    "visibility": "public",
+    "read_status": "selected_sections",
+    "read_scope": [
+      "본문 모델제공자의 선택·목표비중과 Ondo 집행 역할 및 명시적 책임 제외"
+    ],
+    "summary": "모델 제공자는 자산과 목표 비중을 정하며 Ondo는 거래·재조정·발행환매를 수행한다. BlackRock은 세 모델 제공자로서 포트폴리오 토큰의 발행·후원·운용·관리·수탁자가 아니고 보유자와의 계약관계도 아니다.",
+    "used_for": [
+      "BlackRock·Ondo 상품별 법적 권리·현금·보수 및 사업 역할 비교"
+    ],
+    "limitations": [
+      "모델 제공·라이선스 계약의 가격·지급자·최종 수취 법인을 확인하지 않았다."
+    ],
+    "topic_ids": [
+      "T-RIGHTS",
+      "T-MONEY",
+      "T-INSTITUTION-ROLES"
+    ],
+    "source_type": "official_product_documentation",
+    "review_readers": [
+      "E"
+    ]
+  },
+  {
+    "id": "OBX-E-022",
+    "title": "Ondo Intelligent Portfolios Available Assets",
+    "publisher": "Ondo Finance",
+    "url": "https://docs.ondo.finance/intelligent-portfolios/available-assets",
+    "published_at": null,
+    "checked_at": "2026-11-04",
+    "visibility": "public",
+    "read_status": "selected_sections",
+    "read_scope": [
+      "7개 포트폴리오 명칭·모델 제공자·기초자산 범주"
+    ],
+    "summary": "세 BlackRock 모델과 네 Ondo 모델로 구성된 일곱 상품 및 주식·채권 ETF·가상자산 ETF 등 가능한 기초상품 범주를 설명한다.",
+    "used_for": [
+      "BlackRock·Ondo 상품별 법적 권리·현금·보수 및 사업 역할 비교"
+    ],
+    "limitations": [
+      "개별 상품의 현재 ETF 전체 목록·비중은 앱 표를 읽지 않아 null. IBITon 예시를 모든 상품 보유로 확대하지 않는다."
+    ],
+    "topic_ids": [
+      "T-RIGHTS",
+      "T-MONEY",
+      "T-INSTITUTION-ROLES"
+    ],
+    "source_type": "official_product_documentation",
+    "review_readers": [
+      "E"
+    ]
+  },
+  {
+    "id": "OBX-E-024",
+    "title": "Ondo Intelligent Portfolios Eligibility",
+    "publisher": "Ondo Finance",
+    "url": "https://docs.ondo.finance/intelligent-portfolios/eligibility",
+    "published_at": null,
+    "checked_at": "2026-11-04",
+    "visibility": "public",
+    "read_status": "selected_sections",
+    "read_scope": [
+      "본문 Stocks 자격 적용·2차 취득과 직접 발행환매 자격 분리"
+    ],
+    "summary": "OIP에 Stocks와 같은 자격이 적용된다. 2차 취득만으로 발행자 직접 발행·환매 권한을 얻지 않으며 KYC와 투자자 자격을 충족해야 한다.",
+    "used_for": [
+      "BlackRock·Ondo 상품별 법적 권리·현금·보수 및 사업 역할 비교"
+    ],
+    "limitations": [
+      "자격·지갑·국가별 최신 개별 판정은 별도다."
+    ],
+    "topic_ids": [
+      "T-RIGHTS",
+      "T-MONEY",
+      "T-INSTITUTION-ROLES"
+    ],
+    "source_type": "official_product_documentation",
+    "review_readers": [
+      "E"
+    ]
+  },
+  {
+    "id": "OBX-E-026",
+    "title": "ONDO Token",
+    "publisher": "Ondo Foundation",
+    "url": "https://docs.ondo.foundation/ondo-token",
+    "published_at": null,
+    "checked_at": "2026-11-04",
+    "visibility": "public",
+    "read_status": "selected_sections",
+    "read_scope": [
+      "토큰의 Ondo DAO 및 Flux Finance 거버넌스 기능 설명"
+    ],
+    "summary": "ONDO는 거버넌스 기능을 갖는 토큰으로 설명된다.",
+    "used_for": [
+      "BlackRock·Ondo 상품별 법적 권리·현금·보수 및 사업 역할 비교"
+    ],
+    "limitations": [
+      "상품 운용회사 지분이나 특정 상품 배당으로 변환되는 계약을 확인하지 않았다."
+    ],
+    "topic_ids": [
+      "T-RIGHTS",
+      "T-MONEY",
+      "T-INSTITUTION-ROLES"
+    ],
+    "source_type": "official_product_documentation",
+    "review_readers": [
+      "E"
+    ]
+  },
+  {
+    "id": "OBX-E-027",
+    "title": "CoinList Risk Factors",
+    "publisher": "Ondo Foundation",
+    "url": "https://docs.ondo.foundation/coinlist/coinlist-risk-factors",
+    "published_at": null,
+    "checked_at": "2026-11-04",
+    "visibility": "public",
+    "read_status": "selected_sections",
+    "read_scope": [
+      "토큰 보유자의 회사 지분·배당·매출·이익 권리 제외 및 거버넌스 범위"
+    ],
+    "summary": "해당 토큰 판매 위험 고지는 ONDO 보유가 회사·계열사의 지분·배당·매출·이익 권리를 부여하지 않는다고 명시한다.",
+    "used_for": [
+      "BlackRock·Ondo 상품별 법적 권리·현금·보수 및 사업 역할 비교"
+    ],
+    "limitations": [
+      "판매 당시 문서 범위다. 향후 거버넌스 변경 불가능이나 시장 가격 무관성을 뜻하지 않는다."
+    ],
+    "topic_ids": [
+      "T-RIGHTS",
+      "T-MONEY",
+      "T-INSTITUTION-ROLES"
+    ],
+    "source_type": "official_product_documentation",
+    "review_readers": [
+      "E"
+    ]
+  },
+  {
+    "id": "OBX-E-028",
+    "title": "Introducing the Ondo Network",
+    "publisher": "Ondo Finance",
+    "url": "https://ondo.finance/blog/introducing-the-ondo-network",
+    "published_at": "2026-07-27",
+    "checked_at": "2026-11-04",
+    "visibility": "public",
+    "read_status": "selected_sections",
+    "read_scope": [
+      "Chain에서 Network로 설계 전환·현재 blockchain 아님·실행/attestor·Perps 단계"
+    ],
+    "summary": "Ondo Chain 구상에서 Network로 전환했으며 당시 Network는 블록체인이 아니라고 명시한다. 첫 실서비스로 Perps를 제시하고 실행·증명 구조의 제한도 설명한다.",
+    "used_for": [
+      "BlackRock·Ondo 상품별 법적 권리·현금·보수 및 사업 역할 비교"
+    ],
+    "limitations": [
+      "가동 성과·독립 보안 감사·수수료 수익·ONDO 가치귀속을 검증하지 않았다."
+    ],
+    "topic_ids": [
+      "T-RIGHTS",
+      "T-MONEY",
+      "T-INSTITUTION-ROLES"
+    ],
+    "source_type": "company_press_release",
+    "review_readers": [
+      "E"
+    ]
+  },
+  {
+    "id": "OBX-R-001",
+    "title": "HKMA advances Project Ensemble pilot phase to 24/7 settlement in tokenised Central Bank Money",
+    "publisher": "Hong Kong Monetary Authority",
+    "url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/11/20261102-5/",
+    "published_at": "2026-11-02",
+    "checked_at": "2026-11-04",
+    "visibility": "public",
+    "read_status": "selected_sections",
+    "read_scope": "공식 HTML 본문294–314행: 날짜·24/7 CeBM 은행간 결제·기존 RTGS 기반 실가치 파일럿·기업자금관리/토큰펀드·참여 예시 각주. 부속 참가명단 PDF는 읽지 않음.",
+    "summary": "HKMA는 EnsembleTX의 은행간 토큰화 예금 결제를 토큰화 중앙은행화폐로24/7 지원하는 새 단계를 발표했다. 기존 기업 자금관리·토큰펀드 실가치 파일럿 참여 예시에 BlackRock을 포함한다.",
+    "used_for": [
+      "스테이블코인과 병행되는 은행·중앙은행화폐 경로의 실제 비교 사례",
+      "BlackRock을 단일 달러 코인 경로에 고정하지 않고 BNK의 원화 지급·조달 역할을 조건부 분석"
+    ],
+    "limitations": [
+      "통제된 파일럿이며 한국 은행의 참여·인가·특정 BlackRock 상품의 상용화·실현 수익을 입증하지 않는다.",
+      "기관장의 상용화 기대는 결과와 구별. 모든 세부 참가명단·거래별 조건은 미확인."
+    ],
+    "topic_ids": [
+      "T-MONEY",
+      "T-SETTLEMENT",
+      "T-INSTITUTION-ROLES",
+      "T-GEOGRAPHY"
+    ],
+    "adoption_stage": "controlled_pilot_interbank_settlement_capability_announced",
+    "review_readers": [
+      "R"
+    ]
   }
 ]

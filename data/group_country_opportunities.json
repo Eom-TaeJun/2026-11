@@ -69,7 +69,17 @@
       "actual_contract": null,
       "customer_count": null,
       "net_profit": null,
-      "budget": null
+      "budget": null,
+      "position_comparison": {
+        "as_of": "2026-11-04",
+        "group_map_id": "OBX-BNK",
+        "claim_ids": [
+          "C-340",
+          "C-341",
+          "C-357"
+        ],
+        "record": "data/global_position_group_map.json"
+      }
     },
     {
       "id": "BNK-G-02",
@@ -105,7 +115,17 @@
       "actual_contract": null,
       "customer_count": null,
       "net_profit": null,
-      "budget": null
+      "budget": null,
+      "position_comparison": {
+        "as_of": "2026-11-04",
+        "group_map_id": "OBX-BNK",
+        "claim_ids": [
+          "C-340",
+          "C-341",
+          "C-357"
+        ],
+        "record": "data/global_position_group_map.json"
+      }
     },
     {
       "id": "KYO-G-01",
@@ -149,7 +169,18 @@
       "actual_contract": null,
       "customer_count": null,
       "net_profit": null,
-      "budget": null
+      "budget": null,
+      "position_comparison": {
+        "as_of": "2026-11-04",
+        "group_map_id": "OBX-KYO",
+        "claim_ids": [
+          "C-342",
+          "C-343",
+          "C-344",
+          "C-345"
+        ],
+        "record": "data/global_position_group_map.json"
+      }
     },
     {
       "id": "KYO-G-02",
@@ -188,7 +219,18 @@
       "actual_contract": null,
       "customer_count": null,
       "net_profit": null,
-      "budget": null
+      "budget": null,
+      "position_comparison": {
+        "as_of": "2026-11-04",
+        "group_map_id": "OBX-KYO",
+        "claim_ids": [
+          "C-342",
+          "C-343",
+          "C-344",
+          "C-345"
+        ],
+        "record": "data/global_position_group_map.json"
+      }
     },
     {
       "id": "HW-G-01",
@@ -230,7 +272,17 @@
       "actual_contract": null,
       "customer_count": null,
       "net_profit": null,
-      "budget": null
+      "budget": null,
+      "position_comparison": {
+        "as_of": "2026-11-04",
+        "group_map_id": "OBX-HW",
+        "claim_ids": [
+          "C-346",
+          "C-347",
+          "C-350"
+        ],
+        "record": "data/global_position_group_map.json"
+      }
     },
     {
       "id": "HW-G-02",
@@ -270,7 +322,17 @@
       "actual_contract": null,
       "customer_count": null,
       "net_profit": null,
-      "budget": null
+      "budget": null,
+      "position_comparison": {
+        "as_of": "2026-11-04",
+        "group_map_id": "OBX-HW",
+        "claim_ids": [
+          "C-346",
+          "C-347",
+          "C-350"
+        ],
+        "record": "data/global_position_group_map.json"
+      }
     },
     {
       "id": "HW-G-03",
@@ -311,7 +373,17 @@
       "actual_contract": null,
       "customer_count": null,
       "net_profit": null,
-      "budget": null
+      "budget": null,
+      "position_comparison": {
+        "as_of": "2026-11-04",
+        "group_map_id": "OBX-HW",
+        "claim_ids": [
+          "C-346",
+          "C-347",
+          "C-350"
+        ],
+        "record": "data/global_position_group_map.json"
+      }
     },
     {
       "id": "HW-G-04",
@@ -345,7 +417,17 @@
       "actual_contract": null,
       "customer_count": null,
       "net_profit": null,
-      "budget": null
+      "budget": null,
+      "position_comparison": {
+        "as_of": "2026-11-04",
+        "group_map_id": "OBX-HW",
+        "claim_ids": [
+          "C-346",
+          "C-347",
+          "C-350"
+        ],
+        "record": "data/global_position_group_map.json"
+      }
     },
     {
       "id": "HW-G-05",
@@ -383,7 +465,17 @@
       "actual_contract": null,
       "customer_count": null,
       "net_profit": null,
-      "budget": null
+      "budget": null,
+      "position_comparison": {
+        "as_of": "2026-11-04",
+        "group_map_id": "OBX-HW",
+        "claim_ids": [
+          "C-346",
+          "C-347",
+          "C-350"
+        ],
+        "record": "data/global_position_group_map.json"
+      }
     },
     {
       "id": "HW-G-06",
@@ -420,11 +512,31 @@
       "actual_contract": null,
       "customer_count": null,
       "net_profit": null,
-      "budget": null
+      "budget": null,
+      "position_comparison": {
+        "as_of": "2026-11-04",
+        "group_map_id": "OBX-HW",
+        "claim_ids": [
+          "C-346",
+          "C-347",
+          "C-350"
+        ],
+        "record": "data/global_position_group_map.json"
+      }
     }
   ],
   "all_actual_customer_trials_performed": false,
   "scheduled_monitoring_enabled": false,
   "next_country_selection_rule": "기존 관계 또는 실제 고객 통화·무역·상품 수요가 확인된 나라부터 심화; 제휴국을 영업허가국으로 세지 않음",
-  "workflow": "agents/group_country_opportunity_workflow.md"
+  "workflow": "agents/group_country_opportunity_workflow.md",
+  "position_comparison_followup": {
+    "as_of": "2026-11-04",
+    "record": "data/global_position_group_map.json",
+    "reports": [
+      "reports/29_tokenization_competition_group_strategy.md",
+      "reports/30_group_position_responses.md"
+    ],
+    "priority_change": false,
+    "note": "기존 순위·사실 기준일·미확인 수치 유지. 이번 기능 비교와 관측만 연결."
+  }
 }

@@ -2,11 +2,12 @@
 
 [원문](https://www.scbx.com/en/news/token-x-announces-noblx/) · SCBX / Token X
 
-발행일: 2025-09-29 · 확인일: 2026-11-02
+발행일: 2025-09-29 · 확인일: 2026-11-04
 
-읽기 상태: **full_text**
+읽기 상태: **selected_sections**
 
-읽은 위치: 발표 본문·Strategic Partner Roles·임원 발언 전체와 게시일. 동적 추천 기사 제외.
+읽은 위치: - 발표 본문·Strategic Partner Roles·임원 발언 전체와 게시일. 동적 추천 기사 제외.
+- 2026-11-04 공식 HTML173–206행: 페이지게시9/29, 본문발표9/26, 프로젝트 설명과 Token X/SBIDM/교보 역할. 후속성과·규제원문 미검증.
 
 ## 자료의 핵심 내용
 
@@ -34,5 +35,9 @@ NOBLX 완료 발표는 유럽 와인을 기초로 태국에서 사모 디지털�
 - **C-135 / interpretation / active**: 우선순위는 기존 거래고객의 자금·증거금 운영, 반복 IB 및 사후관리, 기관 유동성, 검증 가능한 IP, 국경간 확대 순으로 검토한다.
 - **C-219 / institution_statement / active**: 교보생명의 Ripple 국채 프로젝트는2026년4월 공식 발표상 테스트넷 기술 검증이며, NOBLX에서 생명·증권은 발표상 전략적 기관투자자다. DCG제휴는 MOU, SBI연결은 펀드와 피투자사 투자 발표로 확인된다.
 - **C-228 / unknown / active**: 선택한 교보 공식 행사·제휴 자료와 기존 공개 분석에서 교보증권의 직접 Circle Mint·USDT 발행자/유통사 계약, 고객 입출금·가격·수익을 확인하지 못했다.
+- **C-339 / interpretation / active**: BlackRock/Ondo 비교를 세 그룹에 적용할 단위는 자산발굴·인수·운용·구조화·유통·은행현금·담보·사후관리의 계약 기능이다.
+- **C-343 / institution_statement / active**: NOBLX 발표에서 Token X는 태국 구조화·관리, SBIDM은 국경간 구조·결제·유동성, 교보생명·교보증권은 기관투자자로 소개된다.
+- **C-345 / interpretation / active**: SBI 협약·공동펀드와 투자, NOBLX 참여, Circle 행사 연결은 필요한 외부 기능을 계약으로 조달할 선택지의 근거이며 교보가 파트너의 고객·인가·기술·운영 보수를 이미 소유한다는 뜻은 아니다.
+- **C-352 / interpretation / active**: BUIDL의 다자분업, OUSG의 복수 기초상품, OIP의 모델 제공자와 발행·구현 주체 구분은 세 그룹의 자산·모델 공급, 고객 조합, 실행·사후관리와 보수 계약을 기능별로 선택할 근거다. 회사 이름 하나로 모든 책임과 수입을 묶지 않는다.
 
 [전체 자료 목록](../README.md)

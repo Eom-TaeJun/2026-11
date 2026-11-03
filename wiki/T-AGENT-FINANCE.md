@@ -333,6 +333,26 @@ Prudential Hong Kong의9월9일 AI Underwriter는 상담사의 사전 인수 가
 
 다음 관측: 고객 이해·부적합 변경·유지/해지와 총비용의 동일 업무 비교
 
+### C-315 · interpretation · active
+
+무한 에셋은 상품 표현과 조합의 증가를 설명하는 개념으로 읽을 수 있지만, 현금흐름·담보·현금화 능력이 무한해진다는 결론은 도출되지 않는다.
+
+근거: [ST-TD-003](../sources/cards/ST-TD-003.md)
+
+한계: - 이는 원문을 금융 기능에 적용한 연구자 해석이며 강의자의 현재 견해를 대변하지 않는다.
+
+### C-356 · hypothesis · active
+
+상품·권리·실효비용을 고객 AI가 비교하고 적법하게 위임할 수 있다면 표준 구현·설명 보수는 경쟁 압력을 받고 실사·인수·현금·복구 기능의 가격이 더 중요해질 수 있다.
+
+근거: [NOV-M07](../sources/cards/NOV-M07.md), [FIN-011](../sources/cards/FIN-011.md), [ST-TD-005](../sources/cards/ST-TD-005.md)
+
+한계: 필요한 자격·위임·데이터·거래권한이 성립한 조건부 전망. 실제 보수 하락률은 미확인.
+
+다른 설명: 대형 운용사·은행·플랫폼의 내부 AI와 자본/유통 규모가 묶음상품 우위를 강화할 수 있음.
+
+다음 관측: 동일 노출 총비용·실효 보수·파트너 배분·고객 재선택과 반복 유료 업무
+
 ## 관련 원문
 
 - [ST-HW-004 · 한화투자증권, 모바일 투자 앱 개편… 이제 디지털자산도 ‘한화투자증권 MTS’ 에서](../sources/cards/ST-HW-004.md)
@@ -344,5 +364,7 @@ Prudential Hong Kong의9월9일 AI Underwriter는 상담사의 사전 인수 가
 - [KYX-V-011 · AI Instructions — Client Portal User Guide](../sources/cards/KYX-V-011.md)
 - [HWX-A-002 · Trading Technology](../sources/cards/HWX-A-002.md)
 - [HWX-R-005 · 교보생명, 로보어드바이저로 변액보험 고객 펀드 관리 돕는다](../sources/cards/HWX-R-005.md)
+- [OBX-P-002 · ondo_buidl_mastercard_interactive_slides.html — 공개 강의](../sources/cards/OBX-P-002.md)
+- [OBX-P-004 · Introducing Ondo Intelligent Portfolios](../sources/cards/OBX-P-004.md)
 
 [전체 주제 지도](INDEX.md)

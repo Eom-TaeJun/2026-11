@@ -31,5 +31,6 @@ SBI는 싱가포르 SBI-NTU-Kyobo Digital Innovation Fund를 통한 Pints AI 초
 - **C-054 / hypothesis / active**: 교보증권의 해외 자산·투자자 연결이 실제 발행·판매·관리 계약으로 확대된다면 반복 서비스 보수 후보가 될 수 있다.
 - **C-100 / hypothesis / active**: 거래 규모가 커져도 고객 접점과 계약을 가진 유통 주체가 보수 대부분을 가져갈 수 있다.
 - **C-219 / institution_statement / active**: 교보생명의 Ripple 국채 프로젝트는2026년4월 공식 발표상 테스트넷 기술 검증이며, NOBLX에서 생명·증권은 발표상 전략적 기관투자자다. DCG제휴는 MOU, SBI연결은 펀드와 피투자사 투자 발표로 확인된다.
+- **C-345 / interpretation / active**: SBI 협약·공동펀드와 투자, NOBLX 참여, Circle 행사 연결은 필요한 외부 기능을 계약으로 조달할 선택지의 근거이며 교보가 파트너의 고객·인가·기술·운영 보수를 이미 소유한다는 뜻은 아니다.
 
 [전체 자료 목록](../README.md)

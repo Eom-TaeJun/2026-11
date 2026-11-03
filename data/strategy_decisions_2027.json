@@ -69,7 +69,17 @@
       "group_country_opportunities": [
         "BNK-G-01",
         "BNK-G-02"
-      ]
+      ],
+      "position_comparison": {
+        "as_of": "2026-11-04",
+        "group_map_id": "OBX-BNK",
+        "claim_ids": [
+          "C-340",
+          "C-341",
+          "C-357"
+        ],
+        "record": "data/global_position_group_map.json"
+      }
     },
     {
       "id": "STR-KN-02",
@@ -198,7 +208,18 @@
         ],
         "status": "analyst_proposal_no_customer_trial"
       },
-      "group_country_opportunities": []
+      "group_country_opportunities": [],
+      "position_comparison": {
+        "as_of": "2026-11-04",
+        "group_map_id": "OBX-KYO",
+        "claim_ids": [
+          "C-342",
+          "C-343",
+          "C-344",
+          "C-345"
+        ],
+        "record": "data/global_position_group_map.json"
+      }
     },
     {
       "id": "STR-KY-02",
@@ -253,7 +274,18 @@
         ],
         "status": "analyst_proposal_no_customer_trial"
       },
-      "group_country_opportunities": []
+      "group_country_opportunities": [],
+      "position_comparison": {
+        "as_of": "2026-11-04",
+        "group_map_id": "OBX-KYO",
+        "claim_ids": [
+          "C-342",
+          "C-343",
+          "C-344",
+          "C-345"
+        ],
+        "record": "data/global_position_group_map.json"
+      }
     },
     {
       "id": "STR-KY-03",
@@ -313,7 +345,18 @@
       },
       "group_country_opportunities": [
         "KYO-G-02"
-      ]
+      ],
+      "position_comparison": {
+        "as_of": "2026-11-04",
+        "group_map_id": "OBX-KYO",
+        "claim_ids": [
+          "C-342",
+          "C-343",
+          "C-344",
+          "C-345"
+        ],
+        "record": "data/global_position_group_map.json"
+      }
     },
     {
       "id": "STR-KY-04",
@@ -391,7 +434,18 @@
       },
       "group_country_opportunities": [
         "KYO-G-01"
-      ]
+      ],
+      "position_comparison": {
+        "as_of": "2026-11-04",
+        "group_map_id": "OBX-KYO",
+        "claim_ids": [
+          "C-342",
+          "C-343",
+          "C-344",
+          "C-345"
+        ],
+        "record": "data/global_position_group_map.json"
+      }
     },
     {
       "id": "STR-KY-05",
@@ -448,7 +502,18 @@
         ],
         "status": "analyst_proposal_no_customer_trial"
       },
-      "group_country_opportunities": []
+      "group_country_opportunities": [],
+      "position_comparison": {
+        "as_of": "2026-11-04",
+        "group_map_id": "OBX-KYO",
+        "claim_ids": [
+          "C-342",
+          "C-343",
+          "C-344",
+          "C-345"
+        ],
+        "record": "data/global_position_group_map.json"
+      }
     },
     {
       "id": "STR-HW-01",
@@ -527,7 +592,17 @@
       "group_country_opportunities": [
         "HW-G-01",
         "HW-G-06"
-      ]
+      ],
+      "position_comparison": {
+        "as_of": "2026-11-04",
+        "group_map_id": "OBX-HW",
+        "claim_ids": [
+          "C-346",
+          "C-347",
+          "C-350"
+        ],
+        "record": "data/global_position_group_map.json"
+      }
     },
     {
       "id": "STR-HW-02",
@@ -622,7 +697,17 @@
         "HW-G-03",
         "HW-G-04",
         "HW-G-05"
-      ]
+      ],
+      "position_comparison": {
+        "as_of": "2026-11-04",
+        "group_map_id": "OBX-HW",
+        "claim_ids": [
+          "C-346",
+          "C-347",
+          "C-350"
+        ],
+        "record": "data/global_position_group_map.json"
+      }
     },
     {
       "id": "STR-HW-03",
@@ -691,7 +776,17 @@
         ],
         "status": "analyst_proposal_no_customer_trial"
       },
-      "group_country_opportunities": []
+      "group_country_opportunities": [],
+      "position_comparison": {
+        "as_of": "2026-11-04",
+        "group_map_id": "OBX-HW",
+        "claim_ids": [
+          "C-346",
+          "C-347",
+          "C-350"
+        ],
+        "record": "data/global_position_group_map.json"
+      }
     },
     {
       "id": "STR-HW-04",
@@ -751,7 +846,27 @@
         ],
         "status": "analyst_proposal_no_customer_trial"
       },
-      "group_country_opportunities": []
+      "group_country_opportunities": [],
+      "position_comparison": {
+        "as_of": "2026-11-04",
+        "group_map_id": "OBX-HW",
+        "claim_ids": [
+          "C-346",
+          "C-347",
+          "C-350"
+        ],
+        "record": "data/global_position_group_map.json"
+      }
     }
-  ]
+  ],
+  "position_comparison_followup": {
+    "as_of": "2026-11-04",
+    "record": "data/global_position_group_map.json",
+    "reports": [
+      "reports/29_tokenization_competition_group_strategy.md",
+      "reports/30_group_position_responses.md"
+    ],
+    "priority_change": false,
+    "note": "기존 순위·사실 기준일·미확인 수치 유지. 이번 기능 비교와 관측만 연결."
+  }
 }
