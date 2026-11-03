@@ -112,6 +112,124 @@ BNK 실적발표는 경남은행의 2026년 1~3분기 누적 당기순이익을 
 
 다음 관측: 동일 고객·통화·금액의 은행현금 도착, 실패·반환, 잔액 유지와 총비용을 비교하고 보조금·금리 효과를 분리한다.
 
+### C-105 · institution_statement · active
+
+IMF GFSR 제3장 Box 3.2는 즉시에 가까운 양자 결제가 상계 기회를 줄여 유동성·대차대조표 비용을 늘릴 수 있고 배치·중앙청산 설계가 중요하다고 분석한다.
+
+근거: [NOV-M07](../sources/cards/NOV-M07.md)
+
+한계: 인쇄64쪽 선택 독해. 특정 기관의 실제 비용·수익 추정이나 모든 원자결제의 필연적 비용 증가가 아니다.
+
+### C-107 · interpretation · active
+
+준비자산 잔액은 국채 순신규 수요와 같지 않으며 자금 출처, 대체된 자산, 최종 매도자, 직접국채·repo·펀드 중복과 차환 시점을 분리해야 한다.
+
+근거: [FIN-003](../sources/cards/FIN-003.md), [ST-TD-005](../sources/cards/ST-TD-005.md)
+
+한계: 회계·메커니즘 해석. 순증 규모·수익률 효과의 추정치는 없음.
+
+### C-110 · hypothesis · active
+
+은행권 총예금이 크게 바뀌지 않아도 지역 고객 잔액이 소수 거래은행에 집중되면 은행별 조달비와 여신 선택이 달라질 수 있다.
+
+근거: [ST-TD-005](../sources/cards/ST-TD-005.md)
+
+한계: 미국 연구를 참고한 한국 적용 가설; 금리·제휴·기존 지급망의 경쟁 대응 포함.
+
+다른 설명: 해외 자금 유입, 매도자의 재예치, 지역은행의 금리·현금관리·제휴 대응이 잔액 이동을 상쇄할 수 있으며, 기존 고객 이탈 원인이 기술이 아니라 업황·가격일 수 있다.
+
+다음 관측: 은행별 고객군 평잔·잔존기간·소매/도매 구성·집중, 실효 조달비 및 신용조건을 같은 금리·업황에서 대조. 총예금만 유지된 것을 개별 은행 영향 부재로 쓰지 않음.
+
+### C-115 · hypothesis · active
+
+고객 AI가 유휴 지급잔액을 줄이면 고객 편익과 거래 수는 늘어도 은행·발행자·플랫폼의 평균 잔액 수익은 줄어들 수 있다.
+
+근거: [ST-TD-007](../sources/cards/ST-TD-007.md), [ST-TD-005](../sources/cards/ST-TD-005.md)
+
+한계: 완료 업무·거래량·평균잔액·부담금리를 다른 단위로 관찰하는 가설.
+
+다른 설명: 안전·휴일 지급·담보 수요나 새로운 고객·거래 증가가 평균잔액 감소를 상쇄할 수 있고, 자금관리 보수가 잃은 조달가치를 보전할 수도 있다.
+
+다음 관측: 동일 고객의 완료 업무 수·거래 명목액·평균 가용잔액·최저 유동성 버퍼·차입 한도 사용·금리/보상·서비스 보수를 구분. 고객 편익과 공급자 증분기여를 별도 대사.
+
+### C-117 · institution_statement · active
+
+경남은행의 2026년 9월말 원화대출은 460,410억원이며 기업자금 305,489억원 중 중소기업 263,489억원을 포함한다.
+
+근거: [ST-KN-001](../sources/cards/ST-KN-001.md)
+
+한계: IR 보고 수치. 제조업·지역 점유율이나 기술 변화의 효과를 뜻하지 않는다.
+
+### C-118 · institution_statement · active
+
+경남은행 IR은 저원가성수신 기중평잔 131,341억원, 원화예수금 기중평잔 대비 30.65%, 3분기 NIM 1.81%를 제시한다.
+
+근거: [ST-KN-001](../sources/cards/ST-KN-001.md)
+
+한계: 저원가성수신은 MMDA를 포함하며 모두 무이자·결제성 예금이 아니다. 잔액과 평잔을 혼용하지 않는다.
+
+### C-121 · hypothesis · active
+
+경남은행은 지역 기업의 수금·지급·운전자금 업무를 연결함으로써 고객관계·신용·외환·조달의 기여를 지킬 수 있다.
+
+근거: [ST-KN-001](../sources/cards/ST-KN-001.md), [ST-KN-002](../sources/cards/ST-KN-002.md), [ST-KN-003](../sources/cards/ST-KN-003.md), [KN-003](../sources/cards/KN-003.md)
+
+한계: 분석자 제안. 현재 온체인 공급망 금융의 실행·성과를 확인한 것이 아니다.
+
+다른 설명: 기존 ERP·API 개선만으로 같은 효과가 나거나 대형은행·플랫폼이 더 좋은 조건으로 고객을 확보
+
+다음 관측: 동일 고객 업무의 완료시간·대사 인시·반복 사용·조달/신용/외환 기여를 총비용과 함께 비교
+
+### C-122 · hypothesis · active
+
+AI 기반 비교·자금배분이 보편화되면 고객의 유휴 잔액과 은행 전환비용이 줄어 지역은행의 조달·유통 마진이 압박받을 수 있다.
+
+근거: [ST-KN-001](../sources/cards/ST-KN-001.md), [ST-KN-002](../sources/cards/ST-KN-002.md), [ST-KN-005](../sources/cards/ST-KN-005.md), [NOV-KR-006](../sources/cards/NOV-KR-006.md)
+
+한계: 미래 조건부 전망. 관측된 예금 감소·이익 변동의 원인으로 단정하지 않는다.
+
+다른 설명: 대출·현장 지원·지급 확실성의 가치가 남고 은행 간 비교가 부분 업무에만 적용
+
+다음 관측: 고객군별 잔액 유지기간·이동·실효 조달비·플랫폼 배분·순기여 변화
+
+### C-123 · hypothesis · active
+
+경남은행의 가맹점 제휴는 지급 접점 확대와 고객관계·보수의 외부 플랫폼 의존을 동시에 가져올 수 있다.
+
+근거: [KN-002](../sources/cards/KN-002.md), [NOV-KR-007](../sources/cards/NOV-KR-007.md), [KN-005](../sources/cards/KN-005.md)
+
+한계: 협약의 실제 독점성·가격결정·데이터 권한·수수료 배분은 미확인.
+
+다른 설명: 비독점 계약과 고객의 은행 직접 이용이 유지돼 공동 유통의 순편익이 양수
+
+다음 관측: 보상 종료 후 반복 사용, 고객·데이터·가격 권한, 제휴비와 반품/민원 비용 후 기여
+
+### C-127 · fact · active
+
+10/22 RCPS 약1,000억·2,000억원 발행 결정 공시는 납입일10/30, 최초 우선배당률5.814%·5.993%, 회사 상환권 개시2028/10/30·2029/10/30 조건을 담는다.
+
+근거: [ST-KY-002](../sources/cards/ST-KY-002.md), [ST-KY-003](../sources/cards/ST-KY-003.md)
+
+한계: 후속 납입완료·자본 인정 미확인. 실제 배당·상환과 구분.
+
+### C-140 · interpretation · active
+
+자본 확대와 신규사업 검토에서는 발행 규모보다 조건부 우선배당·상환·차환·손실흡수력 및 자본당 기여를 함께 본다.
+
+근거: [ST-KY-002](../sources/cards/ST-KY-002.md), [ST-KY-003](../sources/cards/ST-KY-003.md), [ST-KY-004](../sources/cards/ST-KY-004.md)
+
+한계: 178억원은 두 반올림 금액과 최초 배당률의 단순 연환산이며 실제 지급·회계비용 아님.
+
+### C-141 · institution_statement · active
+
+한화투자증권은 Kresus와 Digital Asset에 대한 투자 완료를 발표했다. 이는 한화생명의 직접 온체인 서비스 운영과 구분된다.
+
+근거: [ST-HW-001](../sources/cards/ST-HW-001.md), [ST-HW-003](../sources/cards/ST-HW-003.md)
+
+한계: 회사 투자 완료 발표다. 지분율·공급 계약·고객 사용·토큰화 매출은 미확인.
+
+다음 관측: 피투자사와 사용 계약의 당사자·요율·운영 범위·실제 고객 공시
+
 ## 관련 원문
 
 - [FIN-004 · Project Agorá](../sources/cards/FIN-004.md)
@@ -134,5 +252,16 @@ BNK 실적발표는 경남은행의 2026년 1~3분기 누적 당기순이익을 
 - [KN-008 · 금융위원회, 제3차 금융업권 생산적 금융협의체 개최](../sources/cards/KN-008.md)
 - [RG-SG-003 · Consultation on Proposed Amendments to the Payment Services Act for Stablecoin Regulation](../sources/cards/RG-SG-003.md)
 - [RG-HK-001 · Guideline on Supervision of Licensed Stablecoin Issuers; Regulatory Regime for Stablecoin Issuers](../sources/cards/RG-HK-001.md)
+- [ST-HW-001 · 한화투자증권, 글로벌 Web3 기업 ‘크리서스’에 180억 원 규모 투자 완료](../sources/cards/ST-HW-001.md)
+- [ST-HW-003 · 한화투자증권, Digital Asset Holdings LLC에 300억 원 규모 투자 완료](../sources/cards/ST-HW-003.md)
+- [ST-HW-005 · Hanwha Finance explores future financial innovation with global leaders at the 2026 World Economic Forum Annual Meeting in Davos](../sources/cards/ST-HW-005.md)
+- [ST-KN-001 · BNK금융그룹 2026년 3분기 경영실적: 경남은행 선정 표](../sources/cards/ST-KN-001.md)
+- [ST-KN-002 · fERP(중소기업용) 안내](../sources/cards/ST-KN-002.md)
+- [ST-KN-005 · Cyber Branch 제공서비스](../sources/cards/ST-KN-005.md)
+- [ST-KY-001 · 교보증권 반기보고서 (2026.06)](../sources/cards/ST-KY-001.md)
+- [ST-KY-002 · 주요사항보고서(유상증자결정): 약1,000억원 상환전환우선주](../sources/cards/ST-KY-002.md)
+- [ST-KY-003 · 주요사항보고서(유상증자결정): 약2,000억원 상환전환우선주](../sources/cards/ST-KY-003.md)
+- [ST-KY-004 · 모험자본 공급을 뒷받침할 자본시장법 시행령 개정안 국무회의 의결, 종합금융투자사업자 지정 및 단기금융업 인가](../sources/cards/ST-KY-004.md)
+- [ST-TD-005 · Banks in the Age of Stablecoins: Some Possible Implications for Deposits, Credit, and Financial Intermediation](../sources/cards/ST-TD-005.md)
 
 [전체 주제 지도](INDEX.md)

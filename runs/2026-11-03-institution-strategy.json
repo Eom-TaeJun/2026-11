@@ -1,0 +1,182 @@
+{
+  "run_id": "2026-11-03-institution-strategy",
+  "as_of": "2026-11-03",
+  "regulatory_baseline_as_of": "2026-11-02",
+  "prior_repository_head": "18755c2da0a5b5d82e3ccddde31ba0ab7c7c95f2",
+  "purpose": "탑다운 디지털 금융 미래와 경남 본사·교보 미래전략·한화생명 신사업의 고객·수익·경쟁·검증을 연결",
+  "execution": {
+    "logical_roles": 8,
+    "concurrent_workers_including_coordinator": 4,
+    "assignments": [
+      "총괄: 기존 연구 복원·경남은행·통합·계산·게시 검증",
+      "source_design: 교보 및 한화·통합 교차검토",
+      "mechanism_design: 한화 법인·국가·레일·신사업",
+      "validation_design: 공개 교수 강의·탑다운 및 타기관 독립 검토"
+    ],
+    "scheduled_monitoring_enabled": false,
+    "customer_trial_performed": false,
+    "transactions_executed": false
+  },
+  "source_coverage": {
+    "new_sources": 35,
+    "updated_existing_sources": 36,
+    "unique_records_in_batch": 71,
+    "total_after": 172,
+    "read_status_total": {
+      "selected_sections": 122,
+      "official_summary": 15,
+      "full_text": 35
+    },
+    "meaning": "공개 자료의 선택 절·표·공식 요약 및 발표 본문. 전부 전문 정독하거나 운영 성과를 독립 감사한 수가 아니다.",
+    "new_source_ids": [
+      "ST-HW-001",
+      "ST-HW-002",
+      "ST-HW-003",
+      "ST-HW-004",
+      "ST-HW-005",
+      "ST-HW-006",
+      "ST-HW-007",
+      "ST-HW-008",
+      "ST-HW-009",
+      "ST-HW-010",
+      "ST-HW-011",
+      "ST-HW-013",
+      "ST-HW-014",
+      "ST-HW-015",
+      "ST-KN-001",
+      "ST-KN-002",
+      "ST-KN-003",
+      "ST-KN-004",
+      "ST-KN-005",
+      "ST-KY-001",
+      "ST-KY-002",
+      "ST-KY-003",
+      "ST-KY-004",
+      "ST-KY-005",
+      "ST-KY-006",
+      "ST-KY-007",
+      "ST-KY-008",
+      "ST-KY-009",
+      "ST-TD-001",
+      "ST-TD-002",
+      "ST-TD-003",
+      "ST-TD-004",
+      "ST-TD-005",
+      "ST-TD-006",
+      "ST-TD-007"
+    ],
+    "updated_source_ids": [
+      "FIN-003",
+      "FIN-008",
+      "HWA-GEO-001",
+      "HWA-GEO-003",
+      "HWA-GEO-004",
+      "HWA-GEO-005",
+      "HWA-GEO-006",
+      "HWA-GEO-007",
+      "HWA-GEO-008",
+      "HWA-GEO-009",
+      "HWA-GEO-010",
+      "HWA-GEO-011",
+      "HWA-GEO-012",
+      "KN-003",
+      "KN-004",
+      "KN-006",
+      "KYO-GEO-003",
+      "KYO-GEO-004",
+      "KYO-GEO-005",
+      "KYO-GEO-007",
+      "KYO-GEO-008",
+      "NOV-KR-001",
+      "NOV-KR-006",
+      "NOV-KR-007",
+      "NOV-M07",
+      "NOV-M08",
+      "PRIOR-001",
+      "RG-AE-001",
+      "RG-AE-002",
+      "RG-AE-003",
+      "RG-ID-001",
+      "RG-ID-002",
+      "RG-ID-003",
+      "RG-KR-001",
+      "SRC-BOK-HANGANG",
+      "SRC-CIRCLE-USDC-TERMS"
+    ]
+  },
+  "registries_after": {
+    "sources": 172,
+    "claims": 155,
+    "topics": 14,
+    "strategy_decisions": 12,
+    "regulatory_regimes_unchanged": 41,
+    "regulatory_calendar_unchanged": 18,
+    "regulatory_scenarios_unchanged": 5
+  },
+  "prior_work_coverage": {
+    "github_activity_filter": "2026-10-01 이후 pushed 메타데이터로 후보 12개 식별; 모든 커밋을 읽었다는 의미 아님",
+    "history_review": "관련 중심 저장소 커밋 메타데이터 89건에서 교수형 연구·최근 전략 관련 문서 선택 확인",
+    "other_sources": "관련 라이브러리·과거 채팅·로컬 작업을 선택 읽어 질문과 공식 원문 경로 복원",
+    "public_inputs": [
+      "PRIOR-001",
+      "PRIOR-002",
+      "PRIOR-003",
+      "PRIOR-004"
+    ],
+    "privacy": "비공개 원문·경로·채팅 및 페이지 ID·개인 지원서·계정정보는 게시 대상에서 제외"
+  },
+  "independent_review": {
+    "root_financial_verification": "BNK IR PDF 인쇄25·26·27·29·30쪽 선정 표를 이미지로 확인, 28쪽은 부산/경남 구분 대조. 은행 비중 산술 재계산",
+    "professor_reviewer": "교보 RCPS·FSC·IBKR 공식 원문, 한화 Chainlink·OJK·Nobu 공식 원문 표집 확인. 경남 메커니즘 검토; BNK 표 전체 독립 재감사는 아님",
+    "kyobo_reviewer": "한화 Kresus·Digital Asset 공식 목록·Chainlink·MTS·파이·Velocity 원문 표집. Nobu 재접근 timeout은 독립 재검증 완료에서 제외",
+    "corrections_resolved": [
+      "교보 투자 성과 식에서 원금 이중 차감 소지 수정",
+      "은행 대출금리·예금 보상의 방향 구분",
+      "교수의 직접 견해와 경제 메커니즘 재구성 구분",
+      "Velocity 당사자 식별 차이와 관계 미확인 유지",
+      "통합 교보 우선순위를 기관 원보고서와 대사",
+      "경남은행 두 대출 비중의 분모 표현 정밀화"
+    ],
+    "finding": "선택 검토 범위에서 미해결 중대 오류 없음. 모든 법률·계약·수치 감사 의미 아님"
+  },
+  "validation": {
+    "status": "local_passed_remote_pending",
+    "required_build": "passed",
+    "registry_and_local_links": "passed",
+    "unit_tests": "9 passed",
+    "supplemental": [
+      "12개 전략의 출처·주장 참조 및 대안·확대·중단 조건",
+      "8개 논리 역할 고유 ID",
+      "은행 대출/평잔 비중·교보 수탁 비중·RCPS 단순연환산·기간 투자 성과 산술",
+      "기존 206개 추적 경로 보존",
+      "공개 파일의 알려진 비공개 경로·ID·자격증명 패턴 검사"
+    ],
+    "root_spotcheck": [
+      "Circle10/15는 약관 Last Updated 표기이며 법령 효력일 아님",
+      "IMF PDF 문서 내부 제3장10월2026 확인, 검색도구 외부 제목 메타데이터 오류를 사용하지 않음",
+      "IMF Box3.2 상계·사전조달 문단 재확인",
+      "Nobu root 재조회 timeout은 추가 독립 확인으로 세지 않음"
+    ],
+    "remote_verification": "게시 후 Git tree/blob 해시와 보고서 재독으로 별도 확인; 이 커밋은 자기 자신의 게시 결과를 미리 주장하지 않음"
+  },
+  "limits": [
+    "규제 전 관할을 11월3일에 전수 최신화하지 않음",
+    "교보 최신 지정과 RCPS 후속 납입·감독상 자본 완결 확인 미확보",
+    "한화·교보 직접 Circle/Tether 계약·준비금 운용 보수 미확인",
+    "기관별 현재 팀 정원·예산·내부 단가·신사업 순기여 미확인",
+    "Nobu 고객별 보장 공백·상품 전체 약관·실제 유지 및 지급 성과 미확인",
+    "한화 Digital Asset 공식 기사는 이동 목록 URL만 확보",
+    "실제 고객 시험·운영 개선률·ROI를 계산하거나 실행하지 않음"
+  ],
+  "outputs": [
+    "reports/11_topdown_digital_finance.md",
+    "reports/12_kyongnam_head_office_strategy.md",
+    "reports/13_kyobo_future_strategy.md",
+    "reports/14_hanwha_blockchain_strategy.md",
+    "reports/15_strategy_decisions_and_validation.md",
+    "docs/RESEARCH_MANDATE.md",
+    "agents/professor_reasoner.md",
+    "data/strategy_decisions_2027.json",
+    "data/kyongnam_baseline_2026q3.json"
+  ]
+}

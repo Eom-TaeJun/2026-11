@@ -23,5 +23,6 @@
 ## 연결된 주장
 
 - **C-084 / fact / active**: UAE federal CBUAE payment-token perimeter (Article2 excludes Financial Free Zones) / Payment Token Services Regulation: CBUAE 현행 본문은 2024-08-31 In-Force로 표시한다. 제2조상 UAE에는 금융자유구역을 포함하지 않는다. 일반 지급용 AED 토큰과 등록 외화 토큰의 가상자산 구매 목적은 구별된다. 은행 자체 발행과 인가된 계열사 경로, 기본 현금준비금과 은행 완전자회사 예외, 환매 시한을 구분한다.
+- **C-146 / interpretation / active**: 한화생명–ADIO와 한화자산운용–ADGM·하나금융 협약의 당사자·범위는 다르며 생명 협약에 ADGM 관할을 자동 적용할 수 없다.
 
 [전체 자료 목록](../README.md)

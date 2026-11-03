@@ -23,5 +23,6 @@ ADGM FRT 개정 단계와 시행일
 ## 연결된 주장
 
 - **C-083 / fact / active**: UAE / Abu Dhabi Global Market (ADGM) / Digital Securities / Fiat-Referenced Tokens / Financial Services Permission: 2025년 확정 FRT 개정은 2026-01-01 시행됐다. 증권 성격 토큰은 증권 규율을 따르며 규제활동에는 FSP가 필요하다. IPA·조건 충족·FSP 및 인정 FRT는 별도 확인 단계다.
+- **C-146 / interpretation / active**: 한화생명–ADIO와 한화자산운용–ADGM·하나금융 협약의 당사자·범위는 다르며 생명 협약에 ADGM 관할을 자동 적용할 수 없다.
 
 [전체 자료 목록](../README.md)

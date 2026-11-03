@@ -80,6 +80,82 @@ KB는 가맹점·국고금 연계 확대를, 신한은 기존 기업뱅킹 접�
 
 한계: 상용 서비스량·순이익·경남은행의 채택 증거가 아니다. 계획과 실증을 구분한다.
 
+### C-104 · institution_statement · active
+
+Stripe는 MPP에서 스테이블코인과 카드 등 기존 결제수단을 수용하며 가맹점 자금이 기존 잔액·표준 지급 일정으로 연결된다고 발표했다.
+
+근거: [ST-TD-006](../sources/cards/ST-TD-006.md)
+
+한계: 발표 및 선택 문단 범위. 반복 사용·수익·모든 금융업 허용은 미검증.
+
+### C-105 · institution_statement · active
+
+IMF GFSR 제3장 Box 3.2는 즉시에 가까운 양자 결제가 상계 기회를 줄여 유동성·대차대조표 비용을 늘릴 수 있고 배치·중앙청산 설계가 중요하다고 분석한다.
+
+근거: [NOV-M07](../sources/cards/NOV-M07.md)
+
+한계: 인쇄64쪽 선택 독해. 특정 기관의 실제 비용·수익 추정이나 모든 원자결제의 필연적 비용 증가가 아니다.
+
+### C-124 · interpretation · active
+
+경남은행의 첫 비교는 같은 고객 업무의 기존+AI와 허용된 온체인+AI를 대상으로 최종 은행현금·대사·권한·총비용을 같게 맞추어야 한다.
+
+근거: [ST-KN-002](../sources/cards/ST-KN-002.md), [ST-KN-005](../sources/cards/ST-KN-005.md), [KN-006](../sources/cards/KN-006.md), [SRC-BOK-HANGANG](../sources/cards/SRC-BOK-HANGANG.md)
+
+한계: 연구자의 검증 설계. 실제 실험이나 개선률 측정은 아직 하지 않았다.
+
+### C-133 · institution_statement · active
+
+IBKR는 적격 IB LLC 고객 USDC를 zerohash 경로에서 달러로 바꿔 증권계좌에 입금하는 기능을 발표했다.
+
+근거: [ST-KY-008](../sources/cards/ST-KY-008.md)
+
+한계: 한국·교보 권한, 독립 검증 성과, 현재 조건과 구분.
+
+### C-138 · hypothesis · active
+
+현행+AI와 온체인+AI를 같은 업무로 비교하고 총비용·예외·은행현금·유료 반복고객에서 추가 편익이 있을 때 확대한다.
+
+근거: [ST-KY-008](../sources/cards/ST-KY-008.md), [KYO-GEO-004](../sources/cards/KYO-GEO-004.md), [ST-KY-009](../sources/cards/ST-KY-009.md)
+
+한계: 90일 제안이며 현재 운영·매출이 아님.
+
+다른 설명: 현행 계좌·데이터 자동화가 더 저렴하거나 온체인의 이중원장·선자금·보안·예외처리 비용이 추가 편익을 상쇄할 수 있다.
+
+다음 관측: 같은 고객·금액·시간대의 총처리시간, 예외·정정, 실투입 인력, 외부비용, 사용 가능한 은행현금 시각과 유료 반복고객의 비용 후 기여
+
+### C-147 · interpretation · active
+
+MVB–Velocity–Visa Direct 발표는 velocity.xyz 당사자 자료여서 한화 소유 Velocity Clearing의 스테이블코인 실적으로 채택하지 않는다. 동일 법인 또는 지배관계는 미확인이다.
+
+근거: [ST-HW-011](../sources/cards/ST-HW-011.md), [HWA-GEO-008](../sources/cards/HWA-GEO-008.md), [HWA-GEO-009](../sources/cards/HWA-GEO-009.md)
+
+한계: 발표 당사자·도메인·CEO가 달라 동일 회사로 채택하지 않았다. 별도 소유 관계의 부재까지 확정하지 않는다.
+
+다음 관측: 등기·규제 등록·회사 공식 조직 관계로 동일 법인 또는 관계 여부 판별
+
+### C-148 · fact · active
+
+USDC와 USDT는 보유·이전과 발행자 직접 상환 자격이 같지 않다. 은행 현금 수취와 수익·비용은 추가 계약·경로에 달린다.
+
+근거: [SRC-CIRCLE-USDC-TERMS](../sources/cards/SRC-CIRCLE-USDC-TERMS.md), [ST-HW-013](../sources/cards/ST-HW-013.md)
+
+한계: 선택 약관 조항의 조건이다. 한화 고객의 직접 상환 자격·거래별 수수료·은행 입금시간은 미확인.
+
+다음 관측: 실제 계약 당사자·상환 계정·견적·은행 최종 수취 기록
+
+### C-153 · interpretation · active
+
+보험 ALM의 온체인 시험은 동일 통화·권리·만기·지급의무에서 최종 현금·총비용·스트레스 자금 수요를 비교해야 한다.
+
+근거: [ST-HW-015](../sources/cards/ST-HW-015.md), [SRC-CIRCLE-USDC-TERMS](../sources/cards/SRC-CIRCLE-USDC-TERMS.md), [ST-HW-013](../sources/cards/ST-HW-013.md), [PRIOR-001](../sources/cards/PRIOR-001.md)
+
+한계: 검증 방법 제안이다. 실제 보험 자금·온체인 거래·현금 절감 실적을 측정하지 않았다.
+
+다른 설명: 기존 계좌·API+AI가 더 싸고 안전하거나 상계 편익 상실로 온체인 방식의 피크 자금 수요가 커질 수 있다.
+
+다음 관측: 동일 권리·통화·시한의 최종 현금, 총비용, 대사·예외 인력, 상계·사전조달·스트레스 현금
+
 ## 관련 원문
 
 - [FIN-001 · Tokenized Finance](../sources/cards/FIN-001.md)
@@ -94,5 +170,11 @@ KB는 가맹점·국고금 연계 확대를, 신한은 기존 기업뱅킹 접�
 - [RG-TH-005 · การเปิดรับฟังความคิดเห็นต่อหลักการกำกับดูแลผู้ประกอบธุรกิจที่เกี่ยวข้องกับ THB Stablecoin](../sources/cards/RG-TH-005.md)
 - [RG-EU-001 · DLT Pilot Regime](../sources/cards/RG-EU-001.md)
 - [RG-EU-002 · EU market integration and efficient supervision](../sources/cards/RG-EU-002.md)
+- [ST-HW-003 · 한화투자증권, Digital Asset Holdings LLC에 300억 원 규모 투자 완료](../sources/cards/ST-HW-003.md)
+- [ST-HW-011 · MVB Partners with Velocity to Join Visa Direct Stablecoin Settlement Network](../sources/cards/ST-HW-011.md)
+- [ST-KY-006 · 교보생명, SBI홀딩스·서클·비댁스와 디지털 금융 협력 확대 논의](../sources/cards/ST-KY-006.md)
+- [ST-KY-008 · Interactive Brokers Enables 24/7 Account Funding with Stablecoin](../sources/cards/ST-KY-008.md)
+- [ST-TD-006 · Introducing the Machine Payments Protocol](../sources/cards/ST-TD-006.md)
+- [ST-TD-007 · How Agentic AI Will Reshape Payments](../sources/cards/ST-TD-007.md)
 
 [전체 주제 지도](INDEX.md)

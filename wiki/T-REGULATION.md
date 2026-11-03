@@ -520,6 +520,42 @@ EU (비교·탐색 지역) / Market Integration and Supervision Package: Commiss
 
 다음 관측: 최종 규정·실제 인가 조건, 은행현금 연결, 비교 가능한 반복 유료 이용의 동시 개선
 
+### C-128 · unknown · active
+
+교보의 최신 종투사 지정 및 발행어음·IMA 권한은 이번 공식 검색에서 확인하지 못했다. 3월 지정표 누락을11월 미지정의 확정증거로 쓰지 않는다.
+
+근거: [ST-KY-004](../sources/cards/ST-KY-004.md), [ST-KY-005](../sources/cards/ST-KY-005.md), [ST-KY-001](../sources/cards/ST-KY-001.md)
+
+한계: 지정·인가·현행 회사 공시 추가 확인 필요.
+
+### C-139 · fact · active
+
+전자증권법21318 및 자본시장법21324의166조 관련 미래 시행은2027/2/4이며 하위법규·개별 권한·현금 레일은 별도 관문이다.
+
+근거: [NOV-KR-001](../sources/cards/NOV-KR-001.md), [RG-KR-001](../sources/cards/RG-KR-001.md), [FIN-008](../sources/cards/FIN-008.md)
+
+한계: 원화코인 동시 허용을 가정하지 않음.
+
+### C-146 · interpretation · active
+
+한화생명–ADIO와 한화자산운용–ADGM·하나금융 협약의 당사자·범위는 다르며 생명 협약에 ADGM 관할을 자동 적용할 수 없다.
+
+근거: [HWA-GEO-001](../sources/cards/HWA-GEO-001.md), [RG-AE-001](../sources/cards/RG-AE-001.md), [RG-AE-003](../sources/cards/RG-AE-003.md)
+
+한계: 협약 당사자와 제도 범위의 구분이다. 생명 ADIO 사업의 예정 법인·관할·개별 인가는 미확인.
+
+다음 관측: 공식 법인·사업 주소·감독기관 신청·승인·고객 계약
+
+### C-149 · interpretation · active
+
+Nobu–Bittime의 은행 가상계좌 연결을 지급 스테이블코인 발행 또는 인니 내 가상화폐 일반 지급 허용으로 해석할 수 없다.
+
+근거: [HWA-GEO-006](../sources/cards/HWA-GEO-006.md), [HWA-GEO-007](../sources/cards/HWA-GEO-007.md), [RG-ID-001](../sources/cards/RG-ID-001.md), [RG-ID-002](../sources/cards/RG-ID-002.md), [RG-ID-003](../sources/cards/RG-ID-003.md)
+
+한계: VA 연결과 거래·지급 권한의 범위를 구분했다. Nobu의 모든 상품·개별 승인이나 현재 가동률을 조사한 것은 아니다.
+
+다음 관측: 정확한 서비스 계약·등록·승인 및 루피아 입출금·대사 성과
+
 ## 관련 원문
 
 - [FIN-006 · 토큰증권 도입 및 투자계약증권 유통을 위한 ｢전자증권법｣·｢자본시장법｣ 개정안 국회 본회의 통과](../sources/cards/FIN-006.md)
@@ -589,5 +625,8 @@ EU (비교·탐색 지역) / Market Integration and Supervision Package: Commiss
 - [RG-EU-002 · EU market integration and efficient supervision](../sources/cards/RG-EU-002.md)
 - [RG-UK-001 · PS26/7: Progressing Fund Tokenisation](../sources/cards/RG-UK-001.md)
 - [RG-UK-002 · CP26/36: Cryptoasset perimeter guidance](../sources/cards/RG-UK-002.md)
+- [ST-KY-004 · 모험자본 공급을 뒷받침할 자본시장법 시행령 개정안 국무회의 의결, 종합금융투자사업자 지정 및 단기금융업 인가](../sources/cards/ST-KY-004.md)
+- [ST-KY-005 · NH투자증권㈜에 대한 종합금융투자사업자(8조원) 지정](../sources/cards/ST-KY-005.md)
+- [ST-KY-009 · 정부와 금융권이 함께 금융권 AX를 가속화해 나가겠습니다](../sources/cards/ST-KY-009.md)
 
 [전체 주제 지도](INDEX.md)

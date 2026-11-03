@@ -27,5 +27,6 @@ FINRA 기록은 Hanwha Life US Investment LLC와 한화생명이 Nexus Clearing 
 
 - **C-044 / institution_statement / active**: Velocity는 2025-07-30 한화생명 측의 75% 인수 완료를 발표했고 FINRA 기록에는 Hanwha Life US Investment LLC·Nexus Clearing 등을 통한 간접 소유관계가 나타난다.
 - **C-055 / hypothesis / active**: 한화 금융계열사의 미국·인도네시아·UAE 기반은 개별 허가·계약·고객 수요가 갖춰질 때 자산·현금 운영 서비스에 활용될 수 있다.
+- **C-147 / interpretation / active**: MVB–Velocity–Visa Direct 발표는 velocity.xyz 당사자 자료여서 한화 소유 Velocity Clearing의 스테이블코인 실적으로 채택하지 않는다. 동일 법인 또는 지배관계는 미확인이다.
 
 [전체 자료 목록](../README.md)

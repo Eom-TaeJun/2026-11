@@ -1688,5 +1688,1029 @@
     "as_of": "2026-11-02",
     "alternative": "표준·협력·기존 금융인프라 활용으로 연결 비용이 낮아지고 고객 수요가 이를 상회",
     "next_observation": "최종 규정·실제 인가 조건, 은행현금 연결, 비교 가능한 반복 유료 이용의 동시 개선"
+  },
+  {
+    "id": "C-103",
+    "kind": "interpretation",
+    "status": "active",
+    "text": "AI와 토큰화가 비교·전달 비용을 낮춰도 자본·신뢰 가능한 권리·유동성·계약집행의 희소성이 사라지지는 않으며 보수와 책임의 제공자가 재편될 수 있다.",
+    "source_ids": [
+      "ST-TD-001",
+      "ST-TD-002",
+      "FIN-003"
+    ],
+    "topic_ids": [
+      "T-INSTITUTION-ROLES"
+    ],
+    "limitations": "이 보고서의 중심 해석. 기업별 수익 효과를 입증한 사실이 아니다.",
+    "as_of": "2026-11-03",
+    "draft_id": "TD-C-001"
+  },
+  {
+    "id": "C-104",
+    "kind": "institution_statement",
+    "status": "active",
+    "text": "Stripe는 MPP에서 스테이블코인과 카드 등 기존 결제수단을 수용하며 가맹점 자금이 기존 잔액·표준 지급 일정으로 연결된다고 발표했다.",
+    "source_ids": [
+      "ST-TD-006"
+    ],
+    "topic_ids": [
+      "T-AI",
+      "T-SETTLEMENT"
+    ],
+    "limitations": "발표 및 선택 문단 범위. 반복 사용·수익·모든 금융업 허용은 미검증.",
+    "as_of": "2026-11-03",
+    "draft_id": "TD-C-002"
+  },
+  {
+    "id": "C-105",
+    "kind": "institution_statement",
+    "status": "active",
+    "text": "IMF GFSR 제3장 Box 3.2는 즉시에 가까운 양자 결제가 상계 기회를 줄여 유동성·대차대조표 비용을 늘릴 수 있고 배치·중앙청산 설계가 중요하다고 분석한다.",
+    "source_ids": [
+      "NOV-M07"
+    ],
+    "topic_ids": [
+      "T-SETTLEMENT",
+      "T-FUNDING"
+    ],
+    "limitations": "인쇄64쪽 선택 독해. 특정 기관의 실제 비용·수익 추정이나 모든 원자결제의 필연적 비용 증가가 아니다.",
+    "as_of": "2026-11-03",
+    "draft_id": "TD-C-003"
+  },
+  {
+    "id": "C-106",
+    "kind": "hypothesis",
+    "status": "active",
+    "text": "적법한 권리·인가·현금 레일·위임과 고객 편익이 갖춰지면 고객 AI가 계획·비교·지시·담보·지급·회계·예외복구를 이어 수행할 수 있다.",
+    "source_ids": [
+      "ST-TD-007",
+      "ST-TD-006"
+    ],
+    "topic_ids": [
+      "T-AI",
+      "T-OPERATIONS",
+      "T-AGENT-FINANCE"
+    ],
+    "limitations": "2027년 이후의 명시 가정 장면. 현재의 포괄 자율 실행 사례가 아니다.",
+    "as_of": "2026-11-03",
+    "alternative": "기존 계좌·ERP·카드+AI로 같은 업무를 더 낮은 비용에 완료하거나 고객이 넓은 위임을 원하지 않을 수 있다.",
+    "next_observation": "동일 고객의 계약상 위임 범위, 계획부터 최종현금·회계·복구까지 실제 완료율, 고객 총비용과 보조금 종료 후 반복 유료 사용을 대조. 온체인 없이 같은 개선이면 AI효과와 토큰화효과를 분리.",
+    "draft_id": "TD-C-004"
+  },
+  {
+    "id": "C-107",
+    "kind": "interpretation",
+    "status": "active",
+    "text": "준비자산 잔액은 국채 순신규 수요와 같지 않으며 자금 출처, 대체된 자산, 최종 매도자, 직접국채·repo·펀드 중복과 차환 시점을 분리해야 한다.",
+    "source_ids": [
+      "FIN-003",
+      "ST-TD-005"
+    ],
+    "topic_ids": [
+      "T-MACRO",
+      "T-FUNDING"
+    ],
+    "limitations": "회계·메커니즘 해석. 순증 규모·수익률 효과의 추정치는 없음.",
+    "as_of": "2026-11-03",
+    "draft_id": "TD-C-005"
+  },
+  {
+    "id": "C-108",
+    "kind": "hypothesis",
+    "status": "active",
+    "text": "달러 자산·지급·담보·AI 서비스가 결합해 새 해외 고객의 지속 보유가 증가하면 플랫폼 네트워크 효과와 달러 사용이 함께 강화될 수 있다.",
+    "source_ids": [
+      "ST-TD-004",
+      "FIN-003",
+      "ST-TD-006"
+    ],
+    "topic_ids": [
+      "T-MONEY",
+      "T-GEOGRAPHY"
+    ],
+    "limitations": "가격표시·지급·가치저장·담보 기능을 따로 관찰. 미국 정책의 유일한 동기나 확정 결과가 아니다.",
+    "as_of": "2026-11-03",
+    "alternative": "기존 달러 보유를 코인으로 포장하거나 지급 직후 재환전하는 사용이면 달러 순보유는 작고, 원화·다중통화 은행망과 플랫폼 멀티호밍이 집중을 제한할 수 있다.",
+    "next_observation": "국내/해외·기존 달러/신규 환전별 순유입, 고객 평균 잔액과 잔존기간, 지급 목적 거래, 현지통화 가격표시와 담보통화, 플랫폼 간 이전·상환 비용을 함께 확인.",
+    "draft_id": "TD-C-006"
+  },
+  {
+    "id": "C-109",
+    "kind": "hypothesis",
+    "status": "active",
+    "text": "원화 토큰이 원화 고객 업무와 연결되면 은행 서비스의 효용을 높일 수 있으나 공통망의 달러 전환을 쉽게 만들 수도 있다.",
+    "source_ids": [
+      "SRC-BOK-HANGANG",
+      "ST-TD-004",
+      "NOV-M08"
+    ],
+    "topic_ids": [
+      "T-MONEY",
+      "T-MACRO"
+    ],
+    "limitations": "원화 토큰 발행만으로 달러화 방지 또는 환율 상승을 단정하지 않음.",
+    "as_of": "2026-11-03",
+    "alternative": "국내 고객 업무에 효용이 작으면 원화 토큰 수요가 제한되고, 동일망의 쉬운 전환이 달러 잔액 축적을 촉진할 수 있다. 기존 은행 API 개선만으로 원화 관계가 유지될 수도 있다.",
+    "next_observation": "같은 고객군의 원화 의무·사용처·운영계좌 잔액, 원화→달러 순전환과 재환전, 결제 총비용 및 원화토큰 반복사용을 측정. 글로벌 중개자 접근 변화 전후 프리미엄·현물환 연계를 구분.",
+    "draft_id": "TD-C-007"
+  },
+  {
+    "id": "C-110",
+    "kind": "hypothesis",
+    "status": "active",
+    "text": "은행권 총예금이 크게 바뀌지 않아도 지역 고객 잔액이 소수 거래은행에 집중되면 은행별 조달비와 여신 선택이 달라질 수 있다.",
+    "source_ids": [
+      "ST-TD-005"
+    ],
+    "topic_ids": [
+      "T-FUNDING",
+      "T-INSTITUTION-ROLES"
+    ],
+    "limitations": "미국 연구를 참고한 한국 적용 가설; 금리·제휴·기존 지급망의 경쟁 대응 포함.",
+    "as_of": "2026-11-03",
+    "alternative": "해외 자금 유입, 매도자의 재예치, 지역은행의 금리·현금관리·제휴 대응이 잔액 이동을 상쇄할 수 있으며, 기존 고객 이탈 원인이 기술이 아니라 업황·가격일 수 있다.",
+    "next_observation": "은행별 고객군 평잔·잔존기간·소매/도매 구성·집중, 실효 조달비 및 신용조건을 같은 금리·업황에서 대조. 총예금만 유지된 것을 개별 은행 영향 부재로 쓰지 않음.",
+    "draft_id": "TD-C-008"
+  },
+  {
+    "id": "C-111",
+    "kind": "interpretation",
+    "status": "active",
+    "text": "같은 기초 현금흐름의 포장과 조건부 지급 조합이 늘어도 순부나 독립 위험이 같은 만큼 늘지는 않으며 고객 맞춤과 위험배분의 효용은 별도로 존재할 수 있다.",
+    "source_ids": [
+      "ST-TD-003"
+    ],
+    "topic_ids": [
+      "T-RIGHTS",
+      "T-MARKET"
+    ],
+    "limitations": "공개 교육자료에 대한 이번 분석의 금융적 교정. 미래 생산·투자를 포함한 자산량의 영구 고정을 뜻하지 않음.",
+    "as_of": "2026-11-03",
+    "draft_id": "TD-C-009"
+  },
+  {
+    "id": "C-112",
+    "kind": "interpretation",
+    "status": "active",
+    "text": "기술적 토큰 생성 비용과 법적 금융상품의 실사·권리 설정·공시·수탁·세금·유통·사후 관리 비용은 다른 비용이다.",
+    "source_ids": [
+      "ST-TD-003",
+      "NOV-M07"
+    ],
+    "topic_ids": [
+      "T-RIGHTS",
+      "T-OPERATIONS"
+    ],
+    "limitations": "강의자의 변경된 입장으로 귀속하지 않는다.",
+    "as_of": "2026-11-03",
+    "draft_id": "TD-C-010"
+  },
+  {
+    "id": "C-113",
+    "kind": "hypothesis",
+    "status": "active",
+    "text": "AI가 공급자를 쉽게 비교·교체하면 표준 처리 보수가 낮아질 수 있으나 고객 접속·데이터·자본·규모의 이익이 크면 대형 플랫폼 집중이 강화될 수도 있다.",
+    "source_ids": [
+      "ST-TD-002",
+      "ST-TD-006",
+      "NOV-M07"
+    ],
+    "topic_ids": [
+      "T-AI",
+      "T-MARKET",
+      "T-AGENT-FINANCE"
+    ],
+    "limitations": "서로 경쟁하는 경로. 숫자 확률이나 필연적 탈중개로 표현하지 않는다.",
+    "as_of": "2026-11-03",
+    "alternative": "표준화·데이터 이동·멀티호밍이 고객의 공급자 전환을 쉽게 만들어 플랫폼 교섭력을 낮출 수 있다. 반대로 준법 고정비·자본·고객접속 규모는 집중을 강화할 수 있다.",
+    "next_observation": "고객의 실제 다중공급자 사용과 전환 비용, 외부 유입 계약의 수익배분·독점성·데이터 이동권, 보수 인하와 가격 전달, 공급자 집중도 추이를 함께 관측.",
+    "draft_id": "TD-C-011"
+  },
+  {
+    "id": "C-114",
+    "kind": "hypothesis",
+    "status": "active",
+    "text": "법과 레일이 정착해도 작은 수요·비정형 권리의 검증비·유동성 비용 때문에 일부 반복 업무에서만 토큰화가 채택되고 기존 방식과 공존할 수 있다.",
+    "source_ids": [
+      "NOV-M07",
+      "FIN-003"
+    ],
+    "topic_ids": [
+      "T-MARKET",
+      "T-OPERATIONS"
+    ],
+    "limitations": "법제 지연과 별개의 경제성 경로. 반복 유료 사용·비교 총비용으로 갱신한다.",
+    "as_of": "2026-11-03",
+    "alternative": "상호운용·재사용 가능한 권리 자료·반복 발행으로 평균비가 충분히 낮아지거나 네트워크 효과가 수요를 키우면 채택이 더 넓어질 수 있다.",
+    "next_observation": "법·인가·현금 경로가 이미 충족된 동일 업무에서 기존+AI와 토큰+AI의 총비용·반복 유료고객·잔액·유동성을 비교. 고정비 분모를 발행 상품 수가 아닌 완수된 반복업무로 고정.",
+    "draft_id": "TD-C-012"
+  },
+  {
+    "id": "C-115",
+    "kind": "hypothesis",
+    "status": "active",
+    "text": "고객 AI가 유휴 지급잔액을 줄이면 고객 편익과 거래 수는 늘어도 은행·발행자·플랫폼의 평균 잔액 수익은 줄어들 수 있다.",
+    "source_ids": [
+      "ST-TD-007",
+      "ST-TD-005"
+    ],
+    "topic_ids": [
+      "T-FUNDING",
+      "T-AI",
+      "T-AGENT-FINANCE"
+    ],
+    "limitations": "완료 업무·거래량·평균잔액·부담금리를 다른 단위로 관찰하는 가설.",
+    "as_of": "2026-11-03",
+    "alternative": "안전·휴일 지급·담보 수요나 새로운 고객·거래 증가가 평균잔액 감소를 상쇄할 수 있고, 자금관리 보수가 잃은 조달가치를 보전할 수도 있다.",
+    "next_observation": "동일 고객의 완료 업무 수·거래 명목액·평균 가용잔액·최저 유동성 버퍼·차입 한도 사용·금리/보상·서비스 보수를 구분. 고객 편익과 공급자 증분기여를 별도 대사.",
+    "draft_id": "TD-C-013"
+  },
+  {
+    "id": "C-116",
+    "kind": "interpretation",
+    "status": "active",
+    "text": "투자 우선순위는 반복 고객 업무, 실제 통제 가능한 희소 자원, AI가 검증할 계약·비용, 돈·손실의 귀속, 경쟁 후 수익과 다음 관측으로 정해야 한다.",
+    "source_ids": [
+      "ST-TD-001",
+      "ST-TD-002",
+      "FIN-003",
+      "NOV-M07"
+    ],
+    "topic_ids": [
+      "T-COMPANIES",
+      "T-INSTITUTION-ROLES",
+      "T-AGENT-FINANCE"
+    ],
+    "limitations": "세 기관 담당자에게 제안한 판단 틀이며 회사 내부 계획·직무 확정 소관이 아니다.",
+    "as_of": "2026-11-03",
+    "draft_id": "TD-C-014"
+  },
+  {
+    "id": "C-117",
+    "kind": "institution_statement",
+    "status": "active",
+    "text": "경남은행의 2026년 9월말 원화대출은 460,410억원이며 기업자금 305,489억원 중 중소기업 263,489억원을 포함한다.",
+    "source_ids": [
+      "ST-KN-001"
+    ],
+    "topic_ids": [
+      "T-COMPANIES",
+      "T-FUNDING"
+    ],
+    "limitations": "IR 보고 수치. 제조업·지역 점유율이나 기술 변화의 효과를 뜻하지 않는다.",
+    "as_of": "2026-11-03",
+    "draft_id": "KN-C-001"
+  },
+  {
+    "id": "C-118",
+    "kind": "institution_statement",
+    "status": "active",
+    "text": "경남은행 IR은 저원가성수신 기중평잔 131,341억원, 원화예수금 기중평잔 대비 30.65%, 3분기 NIM 1.81%를 제시한다.",
+    "source_ids": [
+      "ST-KN-001"
+    ],
+    "topic_ids": [
+      "T-FUNDING"
+    ],
+    "limitations": "저원가성수신은 MMDA를 포함하며 모두 무이자·결제성 예금이 아니다. 잔액과 평잔을 혼용하지 않는다.",
+    "as_of": "2026-11-03",
+    "draft_id": "KN-C-002"
+  },
+  {
+    "id": "C-119",
+    "kind": "institution_statement",
+    "status": "active",
+    "text": "경남은행은 fERP 공개 안내에서 자금·재고·회계·다은행 조회와 B2B 등 기업 업무 연결을 설명한다.",
+    "source_ids": [
+      "ST-KN-002"
+    ],
+    "topic_ids": [
+      "T-COMPANIES",
+      "T-OPERATIONS"
+    ],
+    "limitations": "실제 활성 고객·가동률·순수익·AI 또는 온체인 기능의 확인은 아니다.",
+    "as_of": "2026-11-03",
+    "draft_id": "KN-C-003"
+  },
+  {
+    "id": "C-120",
+    "kind": "institution_statement",
+    "status": "active",
+    "text": "BNK의 7월 조직개편 발표는 경남은행 산업금융전략팀·기업승계지원팀과 지주 AX·디지털자산 추진 조직을 구분한다.",
+    "source_ids": [
+      "ST-KN-003"
+    ],
+    "topic_ids": [
+      "T-COMPANIES",
+      "T-INSTITUTION-ROLES"
+    ],
+    "limitations": "현재 정원·예산·성과와 전체 조직 최신성은 미확인.",
+    "as_of": "2026-11-03",
+    "draft_id": "KN-C-004"
+  },
+  {
+    "id": "C-121",
+    "kind": "hypothesis",
+    "status": "active",
+    "text": "경남은행은 지역 기업의 수금·지급·운전자금 업무를 연결함으로써 고객관계·신용·외환·조달의 기여를 지킬 수 있다.",
+    "source_ids": [
+      "ST-KN-001",
+      "ST-KN-002",
+      "ST-KN-003",
+      "KN-003"
+    ],
+    "topic_ids": [
+      "T-FUNDING",
+      "T-OPERATIONS",
+      "T-COMPANIES"
+    ],
+    "limitations": "분석자 제안. 현재 온체인 공급망 금융의 실행·성과를 확인한 것이 아니다.",
+    "as_of": "2026-11-03",
+    "alternative": "기존 ERP·API 개선만으로 같은 효과가 나거나 대형은행·플랫폼이 더 좋은 조건으로 고객을 확보",
+    "next_observation": "동일 고객 업무의 완료시간·대사 인시·반복 사용·조달/신용/외환 기여를 총비용과 함께 비교",
+    "draft_id": "KN-C-005"
+  },
+  {
+    "id": "C-122",
+    "kind": "hypothesis",
+    "status": "active",
+    "text": "AI 기반 비교·자금배분이 보편화되면 고객의 유휴 잔액과 은행 전환비용이 줄어 지역은행의 조달·유통 마진이 압박받을 수 있다.",
+    "source_ids": [
+      "ST-KN-001",
+      "ST-KN-002",
+      "ST-KN-005",
+      "NOV-KR-006"
+    ],
+    "topic_ids": [
+      "T-FUNDING",
+      "T-AI",
+      "T-INSTITUTION-ROLES",
+      "T-AGENT-FINANCE"
+    ],
+    "limitations": "미래 조건부 전망. 관측된 예금 감소·이익 변동의 원인으로 단정하지 않는다.",
+    "as_of": "2026-11-03",
+    "alternative": "대출·현장 지원·지급 확실성의 가치가 남고 은행 간 비교가 부분 업무에만 적용",
+    "next_observation": "고객군별 잔액 유지기간·이동·실효 조달비·플랫폼 배분·순기여 변화",
+    "draft_id": "KN-C-006"
+  },
+  {
+    "id": "C-123",
+    "kind": "hypothesis",
+    "status": "active",
+    "text": "경남은행의 가맹점 제휴는 지급 접점 확대와 고객관계·보수의 외부 플랫폼 의존을 동시에 가져올 수 있다.",
+    "source_ids": [
+      "KN-002",
+      "NOV-KR-007",
+      "KN-005"
+    ],
+    "topic_ids": [
+      "T-OPERATIONS",
+      "T-FUNDING"
+    ],
+    "limitations": "협약의 실제 독점성·가격결정·데이터 권한·수수료 배분은 미확인.",
+    "as_of": "2026-11-03",
+    "alternative": "비독점 계약과 고객의 은행 직접 이용이 유지돼 공동 유통의 순편익이 양수",
+    "next_observation": "보상 종료 후 반복 사용, 고객·데이터·가격 권한, 제휴비와 반품/민원 비용 후 기여",
+    "draft_id": "KN-C-007"
+  },
+  {
+    "id": "C-124",
+    "kind": "interpretation",
+    "status": "active",
+    "text": "경남은행의 첫 비교는 같은 고객 업무의 기존+AI와 허용된 온체인+AI를 대상으로 최종 은행현금·대사·권한·총비용을 같게 맞추어야 한다.",
+    "source_ids": [
+      "ST-KN-002",
+      "ST-KN-005",
+      "KN-006",
+      "SRC-BOK-HANGANG"
+    ],
+    "topic_ids": [
+      "T-OPERATIONS",
+      "T-SETTLEMENT"
+    ],
+    "limitations": "연구자의 검증 설계. 실제 실험이나 개선률 측정은 아직 하지 않았다.",
+    "as_of": "2026-11-03",
+    "draft_id": "KN-C-008"
+  },
+  {
+    "id": "C-125",
+    "kind": "institution_statement",
+    "status": "active",
+    "text": "BOK 2026년 3월 보고서는 에이전틱 AI가 예금토큰 결제를 자동 수행할 수 있는 가능성을 기술 실험으로 확인했다고 설명한다.",
+    "source_ids": [
+      "NOV-KR-006"
+    ],
+    "topic_ids": [
+      "T-AI",
+      "T-MONEY",
+      "T-AGENT-FINANCE"
+    ],
+    "limitations": "기술 가능성 설명이며 일반 고객의 포괄 권한·상용화·수익성 증거가 아니다.",
+    "as_of": "2026-11-03",
+    "draft_id": "KN-C-009"
+  },
+  {
+    "id": "C-126",
+    "kind": "fact",
+    "status": "active",
+    "text": "2026-06말 별도자본은 약2.2406조원이며 상반기 전체 수탁수수료 약1,610.64억원 중 해외선물688.28억원이다.",
+    "source_ids": [
+      "ST-KY-001"
+    ],
+    "topic_ids": [
+      "T-COMPANIES"
+    ],
+    "limitations": "별도 영업현황의 총수수료이며 거래액·순이익 아님. 11월 현재 자본 아님.",
+    "as_of": "2026-11-02",
+    "draft_id": "KY-C-001"
+  },
+  {
+    "id": "C-127",
+    "kind": "fact",
+    "status": "active",
+    "text": "10/22 RCPS 약1,000억·2,000억원 발행 결정 공시는 납입일10/30, 최초 우선배당률5.814%·5.993%, 회사 상환권 개시2028/10/30·2029/10/30 조건을 담는다.",
+    "source_ids": [
+      "ST-KY-002",
+      "ST-KY-003"
+    ],
+    "topic_ids": [
+      "T-FUNDING",
+      "T-COMPANIES"
+    ],
+    "limitations": "후속 납입완료·자본 인정 미확인. 실제 배당·상환과 구분.",
+    "as_of": "2026-11-02",
+    "draft_id": "KY-C-002"
+  },
+  {
+    "id": "C-128",
+    "kind": "unknown",
+    "status": "active",
+    "text": "교보의 최신 종투사 지정 및 발행어음·IMA 권한은 이번 공식 검색에서 확인하지 못했다. 3월 지정표 누락을11월 미지정의 확정증거로 쓰지 않는다.",
+    "source_ids": [
+      "ST-KY-004",
+      "ST-KY-005",
+      "ST-KY-001"
+    ],
+    "topic_ids": [
+      "T-REGULATION",
+      "T-COMPANIES"
+    ],
+    "limitations": "지정·인가·현행 회사 공시 추가 확인 필요.",
+    "as_of": "2026-11-02",
+    "draft_id": "KY-C-003"
+  },
+  {
+    "id": "C-129",
+    "kind": "institution_statement",
+    "status": "active",
+    "text": "교보생명10월 행사는 협력논의·시연이며 교보증권은 인수·중개·유통 역할 가능성을 설명했다.",
+    "source_ids": [
+      "ST-KY-006"
+    ],
+    "topic_ids": [
+      "T-COMPANIES"
+    ],
+    "limitations": "교보증권 직접 USDC 계약·고객 실운영의 증거 아님.",
+    "as_of": "2026-11-02",
+    "draft_id": "KY-C-004"
+  },
+  {
+    "id": "C-130",
+    "kind": "unknown",
+    "status": "active",
+    "text": "교보증권의 직접 Circle Mint 상환·고객 USDC 레일 및 USDT 발행/유통사 직접 계약은 확인되지 않았다.",
+    "source_ids": [
+      "ST-KY-006",
+      "SRC-CIRCLE-USDC-TERMS"
+    ],
+    "topic_ids": [
+      "T-COMPANIES",
+      "T-MONEY"
+    ],
+    "limitations": "미확인은 관계 부재 판단이 아님.",
+    "as_of": "2026-11-02",
+    "draft_id": "KY-C-005"
+  },
+  {
+    "id": "C-131",
+    "kind": "institution_statement",
+    "status": "active",
+    "text": "NOBLX의 교보생명·교보증권 역할은 발표상 전략적 기관투자자이며 DCG 연결은 기술제휴 MOU다.",
+    "source_ids": [
+      "KYO-GEO-003",
+      "KYO-GEO-004"
+    ],
+    "topic_ids": [
+      "T-COMPANIES"
+    ],
+    "limitations": "투자 수익·플랫폼 보수·독점 자산·현지 영업 인가 미확인.",
+    "as_of": "2026-11-02",
+    "draft_id": "KY-C-006"
+  },
+  {
+    "id": "C-132",
+    "kind": "institution_statement",
+    "status": "active",
+    "text": "교보문고는 출판·자체IP발굴·해외번역·2차저작물 확장을 소개한다.",
+    "source_ids": [
+      "ST-KY-007"
+    ],
+    "topic_ids": [
+      "T-COMPANIES"
+    ],
+    "limitations": "전체 판매 도서의IP소유나 증권사 데이터 공유권을 의미하지 않음.",
+    "as_of": "2026-11-02",
+    "draft_id": "KY-C-007"
+  },
+  {
+    "id": "C-133",
+    "kind": "institution_statement",
+    "status": "active",
+    "text": "IBKR는 적격 IB LLC 고객 USDC를 zerohash 경로에서 달러로 바꿔 증권계좌에 입금하는 기능을 발표했다.",
+    "source_ids": [
+      "ST-KY-008"
+    ],
+    "topic_ids": [
+      "T-MONEY",
+      "T-SETTLEMENT"
+    ],
+    "limitations": "한국·교보 권한, 독립 검증 성과, 현재 조건과 구분.",
+    "as_of": "2026-11-02",
+    "draft_id": "KY-C-008"
+  },
+  {
+    "id": "C-134",
+    "kind": "fact",
+    "status": "active",
+    "text": "Circle 비EEA 약관은 직접 상환 자격·Mint등록 조건과 USDC 보유자의 준비자산 이자수익 권리 부재를 구분한다.",
+    "source_ids": [
+      "SRC-CIRCLE-USDC-TERMS"
+    ],
+    "topic_ids": [
+      "T-MONEY"
+    ],
+    "limitations": "약관 선택조항. 개별 회사 자격·실제 은행 현금 도착시간 미확인.",
+    "as_of": "2026-11-02",
+    "draft_id": "KY-C-009"
+  },
+  {
+    "id": "C-135",
+    "kind": "interpretation",
+    "status": "active",
+    "text": "우선순위는 기존 거래고객의 자금·증거금 운영, 반복 IB 및 사후관리, 기관 유동성, 검증 가능한 IP, 국경간 확대 순으로 검토한다.",
+    "source_ids": [
+      "ST-KY-001",
+      "ST-KY-002",
+      "ST-KY-003",
+      "ST-KY-007",
+      "KYO-GEO-003"
+    ],
+    "topic_ids": [
+      "T-COMPANIES"
+    ],
+    "limitations": "분석자의 검토 순위이며 회사 예산·확정전략 아님.",
+    "as_of": "2026-11-02",
+    "draft_id": "KY-C-010"
+  },
+  {
+    "id": "C-136",
+    "kind": "hypothesis",
+    "alternative": "양도금지·선급금 상계·지급자 집중·분쟁과 사후관리 비용으로 기존 채권금융보다 비싸거나 투자수요가 부족할 수 있다.",
+    "next_observation": "원권리 계약과 실제 정산·은행입금의 대조, 중복담보 확인, 기존 구조 대비 총비용, 독립 투자자의 지급의사 및 반복 발행",
+    "status": "active",
+    "text": "이미 정산 이력이 있고 양도 가능한 IP 현금흐름은 신규 흥행위험 자산보다 초기 검증에 적합할 수 있다.",
+    "source_ids": [
+      "ST-KY-007",
+      "ST-KY-001"
+    ],
+    "topic_ids": [
+      "T-COMPANIES"
+    ],
+    "limitations": "실제 권리·양도·수금·평가·지급의사를 확인해야 하며 현행 금융보다 유리하다는 결과 미확인.",
+    "as_of": "2026-11-02",
+    "draft_id": "KY-C-011"
+  },
+  {
+    "id": "C-137",
+    "kind": "interpretation",
+    "status": "active",
+    "text": "AI 조합 수의 증가는 기초자산 현금흐름을 늘리지 않는다. 원권리·담보·지급자·우선순위·적합성·로그를 연결하고 계산·집행 한도를 검증해야 한다.",
+    "source_ids": [
+      "ST-KY-009",
+      "ST-KY-001"
+    ],
+    "topic_ids": [
+      "T-OPERATIONS",
+      "T-AGENT-FINANCE"
+    ],
+    "limitations": "기술·경제 구조에 대한 설계 제안. 교보 현행 체계나 실증 성과 아님.",
+    "as_of": "2026-11-02",
+    "draft_id": "KY-C-012"
+  },
+  {
+    "id": "C-138",
+    "kind": "hypothesis",
+    "alternative": "현행 계좌·데이터 자동화가 더 저렴하거나 온체인의 이중원장·선자금·보안·예외처리 비용이 추가 편익을 상쇄할 수 있다.",
+    "next_observation": "같은 고객·금액·시간대의 총처리시간, 예외·정정, 실투입 인력, 외부비용, 사용 가능한 은행현금 시각과 유료 반복고객의 비용 후 기여",
+    "status": "active",
+    "text": "현행+AI와 온체인+AI를 같은 업무로 비교하고 총비용·예외·은행현금·유료 반복고객에서 추가 편익이 있을 때 확대한다.",
+    "source_ids": [
+      "ST-KY-008",
+      "KYO-GEO-004",
+      "ST-KY-009"
+    ],
+    "topic_ids": [
+      "T-OPERATIONS",
+      "T-SETTLEMENT"
+    ],
+    "limitations": "90일 제안이며 현재 운영·매출이 아님.",
+    "as_of": "2026-11-02",
+    "draft_id": "KY-C-013"
+  },
+  {
+    "id": "C-139",
+    "kind": "fact",
+    "status": "active",
+    "text": "전자증권법21318 및 자본시장법21324의166조 관련 미래 시행은2027/2/4이며 하위법규·개별 권한·현금 레일은 별도 관문이다.",
+    "source_ids": [
+      "NOV-KR-001",
+      "RG-KR-001",
+      "FIN-008"
+    ],
+    "topic_ids": [
+      "T-REGULATION"
+    ],
+    "limitations": "원화코인 동시 허용을 가정하지 않음.",
+    "as_of": "2026-11-02",
+    "draft_id": "KY-C-014"
+  },
+  {
+    "id": "C-140",
+    "kind": "interpretation",
+    "status": "active",
+    "text": "자본 확대와 신규사업 검토에서는 발행 규모보다 조건부 우선배당·상환·차환·손실흡수력 및 자본당 기여를 함께 본다.",
+    "source_ids": [
+      "ST-KY-002",
+      "ST-KY-003",
+      "ST-KY-004"
+    ],
+    "topic_ids": [
+      "T-FUNDING"
+    ],
+    "limitations": "178억원은 두 반올림 금액과 최초 배당률의 단순 연환산이며 실제 지급·회계비용 아님.",
+    "as_of": "2026-11-02",
+    "draft_id": "KY-C-015"
+  },
+  {
+    "id": "C-141",
+    "type": "institution_statement",
+    "statement": "한화투자증권은 Kresus와 Digital Asset에 대한 투자 완료를 발표했다. 이는 한화생명의 직접 온체인 서비스 운영과 구분된다.",
+    "source_ids": [
+      "ST-HW-001",
+      "ST-HW-003"
+    ],
+    "confidence": "source_supported_stage_limited",
+    "kind": "institution_statement",
+    "text": "한화투자증권은 Kresus와 Digital Asset에 대한 투자 완료를 발표했다. 이는 한화생명의 직접 온체인 서비스 운영과 구분된다.",
+    "status": "active",
+    "as_of": "2026-11-02",
+    "topic_ids": [
+      "T-COMPANIES",
+      "T-FUNDING",
+      "T-INSTITUTION-ROLES"
+    ],
+    "limitations": "회사 투자 완료 발표다. 지분율·공급 계약·고객 사용·토큰화 매출은 미확인.",
+    "next_observation": "피투자사와 사용 계약의 당사자·요율·운영 범위·실제 고객 공시",
+    "draft_id": "HW-C01"
+  },
+  {
+    "id": "C-142",
+    "type": "institution_statement",
+    "statement": "2026-10-29 Chainlink 발표는 구축 중 RWA 플랫폼의 데이터·CCIP 채택과 담보 기준 공동 작업을 설명하며 생산 거래량·매출은 제시하지 않는다.",
+    "source_ids": [
+      "ST-HW-002"
+    ],
+    "confidence": "source_supported_stage_limited",
+    "kind": "institution_statement",
+    "text": "2026-10-29 Chainlink 발표는 구축 중 RWA 플랫폼의 데이터·CCIP 채택과 담보 기준 공동 작업을 설명하며 생산 거래량·매출은 제시하지 않는다.",
+    "status": "active",
+    "as_of": "2026-11-02",
+    "topic_ids": [
+      "T-COMPANIES",
+      "T-COLLATERAL",
+      "T-OPERATIONS"
+    ],
+    "limitations": "기술 채택·작업반 발표이며 특정 상품·인가·법적 담보 인정·생산 사용은 미확인.",
+    "next_observation": "상품 설명서, 담보 대주·헤어컷·권리 계약, 고객·거래·수수료 공개",
+    "draft_id": "HW-C02"
+  },
+  {
+    "id": "C-143",
+    "type": "observed_public_listing",
+    "statement": "Nobu 공개 방카슈랑스 목록에는 현지 한화생명의 세 보험 상품이 있으며 은행 상품·예금보호와 구분된다.",
+    "source_ids": [
+      "ST-HW-006",
+      "ST-HW-007"
+    ],
+    "confidence": "public_listing_not_sales",
+    "kind": "fact",
+    "text": "Nobu 공개 방카슈랑스 목록에는 현지 한화생명의 세 보험 상품이 있으며 은행 상품·예금보호와 구분된다.",
+    "status": "active",
+    "as_of": "2026-11-03",
+    "topic_ids": [
+      "T-COMPANIES",
+      "T-GEOGRAPHY",
+      "T-RIGHTS"
+    ],
+    "limitations": "2026-11-03 공개 목록을 관측했다. 실제 계약·보험료·판매 성과와 11월 2일 동일 목록 여부를 별도 증명하지 않는다.",
+    "next_observation": "고객별 견적·면책·해지 조건·실제 판매·유지·청구 성과",
+    "draft_id": "HW-C03"
+  },
+  {
+    "id": "C-144",
+    "type": "official_survey",
+    "statement": "2026 SNLIK의 18–25세 금융포용률 95.69%는 다양한 금융서비스 이용 지표다. 생명보험 충분보장률이나 Nobu 고객 전환율로 바꿀 수 없다.",
+    "source_ids": [
+      "ST-HW-008"
+    ],
+    "confidence": "denominator_explicit",
+    "kind": "fact",
+    "text": "2026 SNLIK의 18–25세 금융포용률 95.69%는 다양한 금융서비스 이용 지표다. 생명보험 충분보장률이나 Nobu 고객 전환율로 바꿀 수 없다.",
+    "status": "active",
+    "as_of": "2026-11-02",
+    "topic_ids": [
+      "T-MARKET",
+      "T-GEOGRAPHY"
+    ],
+    "limitations": "표본·범위가 이전 조사와 달라 단순 시계열 비교가 제한된다. 18–25세 금융 이용률은 보험 보장 공백·구매력의 척도가 아니다.",
+    "next_observation": "Nobu 활성·동의 고객의 기존 보장·소득·납입 여력·가입 목적에 관한 적법한 조사",
+    "draft_id": "HW-C04"
+  },
+  {
+    "id": "C-145",
+    "type": "institution_statement",
+    "statement": "한화투자증권의 MTS 정보 기능과 한화생명의 파이는 실제 서비스 제공 발표가 있으나 토큰 거래·자율 AI 실행·실현 수익의 증거는 아니다.",
+    "source_ids": [
+      "ST-HW-004",
+      "ST-HW-010"
+    ],
+    "confidence": "announced_service_scope",
+    "kind": "institution_statement",
+    "text": "한화투자증권의 MTS 정보 기능과 한화생명의 파이는 실제 서비스 제공 발표가 있으나 토큰 거래·자율 AI 실행·실현 수익의 증거는 아니다.",
+    "status": "active",
+    "as_of": "2026-11-02",
+    "topic_ids": [
+      "T-COMPANIES",
+      "T-AI",
+      "T-MARKET"
+    ],
+    "limitations": "회사 서비스 제공 발표다. 실제 이용·정확도·매출이나 토큰·자율집행 기능을 확인하지 않았다.",
+    "next_observation": "이용·반복 사용, 정보 정정·고객 이해·비용 및 성과 자료",
+    "draft_id": "HW-C05"
+  },
+  {
+    "id": "C-146",
+    "type": "institution_statement",
+    "statement": "한화생명–ADIO와 한화자산운용–ADGM·하나금융 협약의 당사자·범위는 다르며 생명 협약에 ADGM 관할을 자동 적용할 수 없다.",
+    "source_ids": [
+      "HWA-GEO-001",
+      "RG-AE-001",
+      "RG-AE-003"
+    ],
+    "confidence": "entity_jurisdiction_split",
+    "kind": "interpretation",
+    "text": "한화생명–ADIO와 한화자산운용–ADGM·하나금융 협약의 당사자·범위는 다르며 생명 협약에 ADGM 관할을 자동 적용할 수 없다.",
+    "status": "active",
+    "as_of": "2026-11-02",
+    "topic_ids": [
+      "T-COMPANIES",
+      "T-GEOGRAPHY",
+      "T-REGULATION"
+    ],
+    "limitations": "협약 당사자와 제도 범위의 구분이다. 생명 ADIO 사업의 예정 법인·관할·개별 인가는 미확인.",
+    "next_observation": "공식 법인·사업 주소·감독기관 신청·승인·고객 계약",
+    "draft_id": "HW-C06"
+  },
+  {
+    "id": "C-147",
+    "type": "entity_resolution",
+    "statement": "MVB–Velocity–Visa Direct 발표는 velocity.xyz 당사자 자료여서 한화 소유 Velocity Clearing의 스테이블코인 실적으로 채택하지 않는다. 동일 법인 또는 지배관계는 미확인이다.",
+    "source_ids": [
+      "ST-HW-011",
+      "HWA-GEO-008",
+      "HWA-GEO-009"
+    ],
+    "confidence": "identity_unresolved_do_not_attribute",
+    "kind": "interpretation",
+    "text": "MVB–Velocity–Visa Direct 발표는 velocity.xyz 당사자 자료여서 한화 소유 Velocity Clearing의 스테이블코인 실적으로 채택하지 않는다. 동일 법인 또는 지배관계는 미확인이다.",
+    "status": "active",
+    "as_of": "2026-11-02",
+    "topic_ids": [
+      "T-COMPANIES",
+      "T-SETTLEMENT"
+    ],
+    "limitations": "발표 당사자·도메인·CEO가 달라 동일 회사로 채택하지 않았다. 별도 소유 관계의 부재까지 확정하지 않는다.",
+    "next_observation": "등기·규제 등록·회사 공식 조직 관계로 동일 법인 또는 관계 여부 판별",
+    "draft_id": "HW-C07"
+  },
+  {
+    "id": "C-148",
+    "type": "contract_terms",
+    "statement": "USDC와 USDT는 보유·이전과 발행자 직접 상환 자격이 같지 않다. 은행 현금 수취와 수익·비용은 추가 계약·경로에 달린다.",
+    "source_ids": [
+      "SRC-CIRCLE-USDC-TERMS",
+      "ST-HW-013"
+    ],
+    "confidence": "selected_terms_not_customer_quote",
+    "kind": "fact",
+    "text": "USDC와 USDT는 보유·이전과 발행자 직접 상환 자격이 같지 않다. 은행 현금 수취와 수익·비용은 추가 계약·경로에 달린다.",
+    "status": "active",
+    "as_of": "2026-11-02",
+    "topic_ids": [
+      "T-MONEY",
+      "T-RIGHTS",
+      "T-SETTLEMENT"
+    ],
+    "limitations": "선택 약관 조항의 조건이다. 한화 고객의 직접 상환 자격·거래별 수수료·은행 입금시간은 미확인.",
+    "next_observation": "실제 계약 당사자·상환 계정·견적·은행 최종 수취 기록",
+    "draft_id": "HW-C08"
+  },
+  {
+    "id": "C-149",
+    "type": "institution_statement_and_regulation",
+    "statement": "Nobu–Bittime의 은행 가상계좌 연결을 지급 스테이블코인 발행 또는 인니 내 가상화폐 일반 지급 허용으로 해석할 수 없다.",
+    "source_ids": [
+      "HWA-GEO-006",
+      "HWA-GEO-007",
+      "RG-ID-001",
+      "RG-ID-002",
+      "RG-ID-003"
+    ],
+    "confidence": "bank_fiat_path_and_scope_split",
+    "kind": "interpretation",
+    "text": "Nobu–Bittime의 은행 가상계좌 연결을 지급 스테이블코인 발행 또는 인니 내 가상화폐 일반 지급 허용으로 해석할 수 없다.",
+    "status": "active",
+    "as_of": "2026-11-02",
+    "topic_ids": [
+      "T-REGULATION",
+      "T-MONEY",
+      "T-GEOGRAPHY"
+    ],
+    "limitations": "VA 연결과 거래·지급 권한의 범위를 구분했다. Nobu의 모든 상품·개별 승인이나 현재 가동률을 조사한 것은 아니다.",
+    "next_observation": "정확한 서비스 계약·등록·승인 및 루피아 입출금·대사 성과",
+    "draft_id": "HW-C09"
+  },
+  {
+    "id": "C-150",
+    "type": "hypothesis",
+    "statement": "생명 신사업팀의 우선 과제는 고객 목적·권리·현금·계열별 책임을 연결해 기존 서비스와 온체인 대안을 같은 기준으로 검증하는 일일 수 있다. 현재 조직의 확정 업무나 전략이라고 주장하지 않는다.",
+    "source_ids": [
+      "ST-HW-002",
+      "ST-HW-004",
+      "ST-HW-007",
+      "ST-HW-010",
+      "ST-HW-015"
+    ],
+    "confidence": "proposal_not_company_fact",
+    "kind": "hypothesis",
+    "text": "생명 신사업팀의 우선 과제는 고객 목적·권리·현금·계열별 책임을 연결해 기존 서비스와 온체인 대안을 같은 기준으로 검증하는 일일 수 있다. 현재 조직의 확정 업무나 전략이라고 주장하지 않는다.",
+    "status": "active",
+    "as_of": "2026-11-02",
+    "topic_ids": [
+      "T-INSTITUTION-ROLES",
+      "T-OPERATIONS",
+      "T-AGENT-FINANCE"
+    ],
+    "limitations": "회사 조직·확정 전략이나 실제 사업 성과가 아닌 역할 제안이다.",
+    "alternative": "독립적인 현지 사업·지분 투자·기존 계열사의 개선이 통합 플랫폼보다 총비용·책임 면에서 우월할 수 있다.",
+    "next_observation": "단일 고객 문제의 기존/내부통합/외부조합 견적, 계약 책임, 반복 유료 사용과 비용 후 성과",
+    "draft_id": "HW-C10"
+  },
+  {
+    "id": "C-151",
+    "type": "hypothesis",
+    "statement": "AI가 상품을 비교할수록 공시·가격·자격·환매·실행·복구 정보의 품질이 유통 경쟁력이 될 수 있지만 상품 소개 보수는 압박받을 수 있다.",
+    "source_ids": [
+      "ST-HW-014",
+      "ST-HW-004",
+      "ST-HW-009",
+      "SRC-CIRCLE-USDC-TERMS"
+    ],
+    "confidence": "hypothesis_with_rival_scenario",
+    "kind": "hypothesis",
+    "text": "AI가 상품을 비교할수록 공시·가격·자격·환매·실행·복구 정보의 품질이 유통 경쟁력이 될 수 있지만 상품 소개 보수는 압박받을 수 있다.",
+    "status": "active",
+    "as_of": "2026-11-02",
+    "topic_ids": [
+      "T-AGENT-FINANCE",
+      "T-AI",
+      "T-MARKET"
+    ],
+    "limitations": "미래 고객 행동·수익성 가설이다. AP2는 지급 구현 참고이며 금융 규제나 전 에이전트 채택을 증명하지 않는다.",
+    "alternative": "고객이 기존 앱을 유지하거나 AI 비교가 가격 경쟁만 강화해 데이터·연결 투자비를 회수하지 못할 수 있다.",
+    "next_observation": "외부 에이전트의 실제 선택·완료 업무·재계약, 요율 하락과 파트너 배분을 반영한 순기여",
+    "draft_id": "HW-C11"
+  },
+  {
+    "id": "C-152",
+    "type": "hypothesis",
+    "statement": "인니 보장 사업은 젊은 인구 전체보다 동의 가능한 실제 고객, 구체 보장 공백, 납입 여력과 계약 유지의 교집합에서 검증해야 한다.",
+    "source_ids": [
+      "ST-HW-006",
+      "ST-HW-007",
+      "ST-HW-008",
+      "ST-HW-009"
+    ],
+    "confidence": "proposed_funnel_not_market_size",
+    "kind": "hypothesis",
+    "text": "인니 보장 사업은 젊은 인구 전체보다 동의 가능한 실제 고객, 구체 보장 공백, 납입 여력과 계약 유지의 교집합에서 검증해야 한다.",
+    "status": "active",
+    "as_of": "2026-11-02",
+    "topic_ids": [
+      "T-MARKET",
+      "T-GEOGRAPHY",
+      "T-INSTITUTION-ROLES"
+    ],
+    "limitations": "고객 퍼널 설계이며 수치화한 시장규모·전환율·적정 보험료가 아니다.",
+    "alternative": "대상 고객의 기존 보장이나 낮은 납입 여력·경쟁 상품 때문에 추가 보험 수요가 작을 수 있다.",
+    "next_observation": "동의 가능한 실제 고객의 보장 부족·소득·견적 수락·유지·청구·비용 데이터",
+    "draft_id": "HW-C12"
+  },
+  {
+    "id": "C-153",
+    "type": "hypothesis",
+    "statement": "보험 ALM의 온체인 시험은 동일 통화·권리·만기·지급의무에서 최종 현금·총비용·스트레스 자금 수요를 비교해야 한다.",
+    "source_ids": [
+      "ST-HW-015",
+      "SRC-CIRCLE-USDC-TERMS",
+      "ST-HW-013",
+      "PRIOR-001"
+    ],
+    "confidence": "method_not_realized_performance",
+    "kind": "interpretation",
+    "text": "보험 ALM의 온체인 시험은 동일 통화·권리·만기·지급의무에서 최종 현금·총비용·스트레스 자금 수요를 비교해야 한다.",
+    "status": "active",
+    "as_of": "2026-11-02",
+    "topic_ids": [
+      "T-INSTITUTION-ROLES",
+      "T-MONEY",
+      "T-SETTLEMENT"
+    ],
+    "limitations": "검증 방법 제안이다. 실제 보험 자금·온체인 거래·현금 절감 실적을 측정하지 않았다.",
+    "alternative": "기존 계좌·API+AI가 더 싸고 안전하거나 상계 편익 상실로 온체인 방식의 피크 자금 수요가 커질 수 있다.",
+    "next_observation": "동일 권리·통화·시한의 최종 현금, 총비용, 대사·예외 인력, 상계·사전조달·스트레스 현금",
+    "draft_id": "HW-C13"
+  },
+  {
+    "id": "C-154",
+    "type": "unknown",
+    "statement": "이번 공식자료 선택 조사로 한화의 Circle 또는 Tether 직접 제휴, 준비금 운용 계약, USDC/USDT 발행상환 계정, 그룹 공통 디지털자산 권한, 실현 토큰화 순이익은 확인되지 않았다.",
+    "source_ids": [
+      "ST-HW-001",
+      "ST-HW-002",
+      "ST-HW-003",
+      "ST-HW-005",
+      "HWA-GEO-001",
+      "HWA-GEO-008"
+    ],
+    "confidence": "not_verified_not_absence",
+    "kind": "unknown",
+    "text": "이번 공식자료 선택 조사로 한화의 Circle 또는 Tether 직접 제휴, 준비금 운용 계약, USDC/USDT 발행상환 계정, 그룹 공통 디지털자산 권한, 실현 토큰화 순이익은 확인되지 않았다.",
+    "status": "active",
+    "as_of": "2026-11-02",
+    "topic_ids": [
+      "T-COMPANIES",
+      "T-MONEY",
+      "T-INSTITUTION-ROLES"
+    ],
+    "limitations": "선택 조사에서 확인되지 않았다는 뜻이다. 계약·권한·수익의 부재를 주장하지 않는다.",
+    "next_observation": "회사·발행자·감독기관의 당사자·권한·계약·실적 공식 공개",
+    "draft_id": "HW-C14"
+  },
+  {
+    "id": "C-155",
+    "type": "hypothesis",
+    "statement": "고객 목적별 비교 정보·허용된 주문·현금 대사·복구에 대한 B2B 운영 보수는 후보 수익모델이다. 실제 지급 의사·가격·책임 계약을 검증해야 한다.",
+    "source_ids": [
+      "ST-HW-014",
+      "ST-HW-002",
+      "HWA-GEO-008",
+      "ST-HW-007"
+    ],
+    "confidence": "proposed_model_unvalidated",
+    "kind": "hypothesis",
+    "text": "고객 목적별 비교 정보·허용된 주문·현금 대사·복구에 대한 B2B 운영 보수는 후보 수익모델이다. 실제 지급 의사·가격·책임 계약을 검증해야 한다.",
+    "status": "active",
+    "as_of": "2026-11-02",
+    "topic_ids": [
+      "T-AGENT-FINANCE",
+      "T-OPERATIONS",
+      "T-MARKET"
+    ],
+    "limitations": "B2B 후보 수익모델이며 지불 의사·요율·반복 사용·손실 후 이익은 미검증.",
+    "alternative": "기존 금융·클라우드·은행 사업자가 동일 기능을 낮은 가격에 묶어 제공하면 별도 운영 보수가 성립하지 않을 수 있다.",
+    "next_observation": "실제 고객 문제·견적·재계약, 완료 업무당 총비용, 사고 책임·복구비, 대체 공급자 비교",
+    "draft_id": "HW-C15"
   }
 ]

@@ -6,7 +6,7 @@
 |---|---|---|---|
 | [FIN-001 · Tokenized Finance](cards/FIN-001.md) | 2026-04-02 | selected_sections | 2026-11-02 |
 | [FIN-002 · What Is Needed for Tokenization to Deliver](cards/FIN-002.md) | 2026-10-08 | official_summary | 2026-11-02 |
-| [FIN-003 · III. Anchoring trust in money: innovation beyond stablecoins](cards/FIN-003.md) | 2026-06-23 | selected_sections | 2026-11-02 |
+| [FIN-003 · III. Anchoring trust in money: innovation beyond stablecoins](cards/FIN-003.md) | 2026-06-23 | selected_sections | 2026-11-03 |
 | [FIN-004 · Project Agorá](cards/FIN-004.md) | 미확인/동적 | selected_sections | 2026-11-02 |
 | [FIN-005 · The Financial Stability Implications of Tokenisation](cards/FIN-005.md) | 2024-10-22 | official_summary | 2026-11-02 |
 | [FIN-006 · 토큰증권 도입 및 투자계약증권 유통을 위한 ｢전자증권법｣·｢자본시장법｣ 개정안 국회 본회의 통과](cards/FIN-006.md) | 2026-01-15 | full_text | 2026-11-02 |
@@ -20,8 +20,8 @@
 | [FIN-014 · III. The next-generation monetary and financial system](cards/FIN-014.md) | 2025-06-24 | selected_sections | 2026-11-02 |
 | [FIN-015 · DTCC Tokenization Service Goes Live, Marking Major Milestone in the Adoption of Digital Assets](cards/FIN-015.md) | 2026-10-28 | full_text | 2026-11-02 |
 | [FIN-016 · Consultation on supervisory expectations for central counterparties seeking to accept tokenised collateral](cards/FIN-016.md) | 2026-10-29 | selected_sections | 2026-11-02 |
-| [SRC-CIRCLE-USDC-TERMS · USDC Terms](cards/SRC-CIRCLE-USDC-TERMS.md) | 미확인/동적 | selected_sections | 2026-11-02 |
-| [SRC-BOK-HANGANG · 프로젝트 한강의 기관용 디지털화폐, 일반인용 CBDC와 어떻게 다를까](cards/SRC-BOK-HANGANG.md) | 2026-10-08 | selected_sections | 2026-11-02 |
+| [SRC-CIRCLE-USDC-TERMS · USDC Terms](cards/SRC-CIRCLE-USDC-TERMS.md) | 2026-10-15 | selected_sections | 2026-11-03 |
+| [SRC-BOK-HANGANG · 프로젝트 한강의 기관용 디지털화폐, 일반인용 CBDC와 어떻게 다를까](cards/SRC-BOK-HANGANG.md) | 2026-10-08 | selected_sections | 2026-11-03 |
 | [SRC-OCC-GENIUS-FINAL · OCC Advances U.S. Digital Asset Leadership with Final Rule to Implement GENIUS Act](cards/SRC-OCC-GENIUS-FINAL.md) | 2026-10-21 | selected_sections | 2026-11-02 |
 | [AI-001 · NousResearch/hermes-agent — README and releases](cards/AI-001.md) | 미확인/동적 | selected_sections | 2026-11-02 |
 | [AI-002 · HKUDS/LightRAG — README and releases](cards/AI-002.md) | 미확인/동적 | selected_sections | 2026-11-02 |
@@ -35,15 +35,15 @@
 | [AI-010 · docling-project/docling — README and releases](cards/AI-010.md) | 미확인/동적 | selected_sections | 2026-11-02 |
 | [AI-011 · promptfoo/promptfoo — README and releases](cards/AI-011.md) | 미확인/동적 | selected_sections | 2026-11-02 |
 | [AI-012 · tobi/qmd — README and releases](cards/AI-012.md) | 미확인/동적 | selected_sections | 2026-11-02 |
-| [PRIOR-001 · 2026년 11월 1일 디지털 금융환경 종합](cards/PRIOR-001.md) | 2026-11-01 | selected_sections | 2026-11-02 |
+| [PRIOR-001 · 디지털 금융환경의 변화와 한국 금융기관의 대응](cards/PRIOR-001.md) | 2026-11-01 | selected_sections | 2026-11-03 |
 | [PRIOR-002 · STO·AI 연구 보고서 안내](cards/PRIOR-002.md) | 미확인/동적 | selected_sections | 2026-11-02 |
 | [PRIOR-003 · 교보증권 수익전략의 조건부 연구](cards/PRIOR-003.md) | 미확인/동적 | selected_sections | 2026-11-02 |
 | [NOV-KR-001 · 주식ㆍ사채 등의 전자등록에 관한 법률 [법률 제21318호]](cards/NOV-KR-001.md) | 2026-02-03 | selected_sections | 2026-11-02 |
 | [NOV-KR-003 · 스테이블코인 발행주체 등 2단계법 주요내용은 확정된 바 없습니다.](cards/NOV-KR-003.md) | 2026-01-06 | selected_sections | 2026-11-02 |
 | [NOV-KR-004 · 26년 제1차 「가상자산위원회」 개최](cards/NOV-KR-004.md) | 2026-03-04 | selected_sections | 2026-11-02 |
 | [NOV-KR-005 · 가상자산거래소 대주주 지분 상한은 확정된 바 없습니다. - 8.26일 헤럴드경제 기사에 대한 정부입장 설명](cards/NOV-KR-005.md) | 2026-08-27 | selected_sections | 2026-11-02 |
-| [NOV-KR-006 · 통화신용정책보고서(2026년 3월)](cards/NOV-KR-006.md) | 2026-03-12 | selected_sections | 2026-11-02 |
-| [NOV-KR-007 · 한국은행 디지털화폐(CBDC) 시스템 내 예금토큰 기반 지급결제 테스트(프로젝트 한강) 2단계 시행 등 혁신금융서비스 5건 신규 지정 의결](cards/NOV-KR-007.md) | 2026-07-15 | selected_sections | 2026-11-02 |
+| [NOV-KR-006 · 통화신용정책보고서(2026년 3월)](cards/NOV-KR-006.md) | 2026-03-12 | selected_sections | 2026-11-03 |
+| [NOV-KR-007 · 한국은행 디지털화폐(CBDC) 시스템 내 예금토큰 기반 지급결제 테스트(프로젝트 한강) 2단계 시행 등 혁신금융서비스 5건 신규 지정 의결](cards/NOV-KR-007.md) | 2026-07-15 | selected_sections | 2026-11-03 |
 | [NOV-KR-009 · 국회예산정책처, 「스테이블코인의 금융시장에 대한 영향과 시사점」 발간](cards/NOV-KR-009.md) | 2026-09-08 | selected_sections | 2026-11-02 |
 | [NOV-US-OCC · Implementing the GENIUS Act for the Issuance of Stablecoins by Entities Subject to OCC Jurisdiction — Final Rule](cards/NOV-US-OCC.md) | 2026-10-23 | selected_sections | 2026-11-02 |
 | [NOV-US-FED · Implementing the Federal Reserve Board's Responsibilities Under the GENIUS Act](cards/NOV-US-FED.md) | 2026-09-29 | selected_sections | 2026-11-02 |
@@ -62,8 +62,8 @@
 | [NOV-M04 · Federal Reserve issues FOMC statement](cards/NOV-M04.md) | 2026-10-28 | full_text | 2026-11-02 |
 | [NOV-M05 · World Economic Outlook, October 2026: Resilience Under Strain, Urgent Choices — Executive Summary](cards/NOV-M05.md) | 2026-10-13 | selected_sections | 2026-11-02 |
 | [NOV-M06 · Global Financial Stability Report, October 2026: Resilience, Risk, and Transformation — Executive Summary](cards/NOV-M06.md) | 2026-10-13 | selected_sections | 2026-11-02 |
-| [NOV-M07 · GFSR October 2026, Chapter 3: Scaling Tokenization: New Efficiencies, New Vulnerabilities](cards/NOV-M07.md) | 2026-10-13 | selected_sections | 2026-11-02 |
-| [NOV-M08 · [제2026-22호] 달러 스테이블코인과 외환시장 간 연계성: 글로벌 거래소의 역할을 중심으로](cards/NOV-M08.md) | 2026-09-03 | official_summary | 2026-11-02 |
+| [NOV-M07 · GFSR October 2026, Chapter 3: Scaling Tokenization: New Efficiencies, New Vulnerabilities](cards/NOV-M07.md) | 2026-10-13 | selected_sections | 2026-11-03 |
+| [NOV-M08 · [제2026-22호] 달러 스테이블코인과 외환시장 간 연계성: 글로벌 거래소의 역할을 중심으로](cards/NOV-M08.md) | 2026-09-03 | official_summary | 2026-11-03 |
 | [NOV-ECB-BONDS · Tokenised bonds: assessing efficiency and liquidity in a nascent market](cards/NOV-ECB-BONDS.md) | 미확인/동적 | selected_sections | 2026-11-02 |
 | [NOV-FATF · Outcomes FATF Plenary, 28–30 October 2026](cards/NOV-FATF.md) | 2026-10-30 | selected_sections | 2026-11-02 |
 | [NOV-ECB-COLLATERAL · ECB paves way for acceptance of DLT-based assets as eligible Eurosystem collateral](cards/NOV-ECB-COLLATERAL.md) | 2026-01-27 | full_text | 2026-11-02 |
@@ -91,10 +91,10 @@
 | [HWA-GEO-012 · 한화투자증권, 日 종합금융투자회사 GI캐피털매니지먼트 증권 부문 주식매매계약 체결](cards/HWA-GEO-012.md) | 2026-10-14 | selected_sections | 2026-11-02 |
 | [KN-001 · BNK금융그룹, 동남권 전략산업 육성 위한 ‘생산적금융 전략 펀드’ 결성](cards/KN-001.md) | 2026-07-01 | full_text | 2026-11-02 |
 | [KN-002 · BNK경남은행 뉴스: 토스플레이스 공동마케팅 협약·대성테크 유망중소기업 선정](cards/KN-002.md) | 미확인/동적 | official_summary | 2026-11-02 |
-| [KN-003 · 무보, BNK경남은행과 동남권 수출기업 특별 우대금융 지원 개시](cards/KN-003.md) | 2026-10-15 | full_text | 2026-11-02 |
-| [KN-004 · BNK금융그룹_2026년 3분기 실적발표](cards/KN-004.md) | 2026-10-26 | full_text | 2026-11-02 |
+| [KN-003 · 무보, BNK경남은행과 동남권 수출기업 특별 우대금융 지원 개시](cards/KN-003.md) | 2026-10-15 | full_text | 2026-11-03 |
+| [KN-004 · BNK금융그룹_2026년 3분기 실적발표](cards/KN-004.md) | 2026-10-26 | full_text | 2026-11-03 |
 | [KN-005 · KB국민은행, ‘프로젝트 한강’ 2단계 참여…디지털화폐 시장 확대 주도](cards/KN-005.md) | 2026-03-20 | full_text | 2026-11-02 |
-| [KN-006 · 신한은행, 스테이블코인 활용 ‘기업 해외송금 전 과정’ 구현](cards/KN-006.md) | 2026-09-30 | full_text | 2026-11-02 |
+| [KN-006 · 신한은행, 스테이블코인 활용 ‘기업 해외송금 전 과정’ 구현](cards/KN-006.md) | 2026-09-30 | full_text | 2026-11-03 |
 | [KN-007 · [경남] 함안군 2026년 상반기 중소기업 육성자금 융자 지원계획 공고](cards/KN-007.md) | 2025-12-30 | official_summary | 2026-11-02 |
 | [KN-008 · 금융위원회, 제3차 금융업권 생산적 금융협의체 개최](cards/KN-008.md) | 2026-03-10 | selected_sections | 2026-11-02 |
 | [GEO-ADGM-PROCESS · FSRA General Application Process](cards/GEO-ADGM-PROCESS.md) | 미확인/동적 | selected_sections | 2026-11-02 |
@@ -141,3 +141,38 @@
 | [RG-EU-002 · EU market integration and efficient supervision](cards/RG-EU-002.md) | 미확인/동적 | selected_sections | 2026-11-02 |
 | [RG-UK-001 · PS26/7: Progressing Fund Tokenisation](cards/RG-UK-001.md) | 미확인/동적 | selected_sections | 2026-11-02 |
 | [RG-UK-002 · CP26/36: Cryptoasset perimeter guidance](cards/RG-UK-002.md) | 2026-10-21 | selected_sections | 2026-11-02 |
+| [ST-HW-001 · 한화투자증권, 글로벌 Web3 기업 ‘크리서스’에 180억 원 규모 투자 완료](cards/ST-HW-001.md) | 2026-02-19 | full_text | 2026-11-03 |
+| [ST-HW-002 · Hanwha Investment & Securities and Chainlink Form Strategic Partnership to Tokenize, Connect, and Collateralize Real-World Assets Worldwide](cards/ST-HW-002.md) | 2026-10-29 | full_text | 2026-11-03 |
+| [ST-HW-003 · 한화투자증권, Digital Asset Holdings LLC에 300억 원 규모 투자 완료](cards/ST-HW-003.md) | 2026-07-16 | selected_sections | 2026-11-03 |
+| [ST-HW-004 · 한화투자증권, 모바일 투자 앱 개편… 이제 디지털자산도 ‘한화투자증권 MTS’ 에서](cards/ST-HW-004.md) | 2026-05-27 | full_text | 2026-11-03 |
+| [ST-HW-005 · Hanwha Finance explores future financial innovation with global leaders at the 2026 World Economic Forum Annual Meeting in Davos](cards/ST-HW-005.md) | 2026-01-22 | selected_sections | 2026-11-03 |
+| [ST-HW-006 · Hanwha Life Indonesia dan Nobu Bank Memasuki Era Baru Kolaborasi Strategis](cards/ST-HW-006.md) | 미확인/동적 | full_text | 2026-11-03 |
+| [ST-HW-007 · Bancassurance](cards/ST-HW-007.md) | 미확인/동적 | selected_sections | 2026-11-03 |
+| [ST-HW-008 · Siaran Pers Bersama: Indeks Literasi dan Inklusi Keuangan Masyarakat Meningkat, OJK, LPS, dan BPS Umumkan Hasil Survei Nasional Literasi dan Inklusi Keuangan (SNLIK) Tahun 2026](cards/ST-HW-008.md) | 2026-08-11 | selected_sections | 2026-11-03 |
+| [ST-HW-009 · Asuransi / Bancassurance](cards/ST-HW-009.md) | 미확인/동적 | selected_sections | 2026-11-03 |
+| [ST-HW-010 · 한화생명, 증여 자산관리 플랫폼 ‘파이’ 출시](cards/ST-HW-010.md) | 2026-02-05 | selected_sections | 2026-11-03 |
+| [ST-HW-011 · MVB Partners with Velocity to Join Visa Direct Stablecoin Settlement Network](cards/ST-HW-011.md) | 2026-09-09 | selected_sections | 2026-11-03 |
+| [ST-HW-013 · Legal — Token Terms of Sale and Service](cards/ST-HW-013.md) | 2026-02-26 | selected_sections | 2026-11-03 |
+| [ST-HW-014 · Implementation Considerations](cards/ST-HW-014.md) | 미확인/동적 | full_text | 2026-11-03 |
+| [ST-HW-015 · Risk Management](cards/ST-HW-015.md) | 미확인/동적 | selected_sections | 2026-11-03 |
+| [ST-KN-001 · BNK금융그룹 2026년 3분기 경영실적: 경남은행 선정 표](cards/ST-KN-001.md) | 2026-10-26 | selected_sections | 2026-11-03 |
+| [ST-KN-002 · fERP(중소기업용) 안내](cards/ST-KN-002.md) | 미확인/동적 | selected_sections | 2026-11-03 |
+| [ST-KN-003 · BNK금융그룹 2026년 하반기 조직개편 실시](cards/ST-KN-003.md) | 2026-07-15 | selected_sections | 2026-11-03 |
+| [ST-KN-004 · BNK금융그룹 AI 대전환 통해 일하는 방식 바꾼다](cards/ST-KN-004.md) | 2026-08-12 | selected_sections | 2026-11-03 |
+| [ST-KN-005 · Cyber Branch 제공서비스](cards/ST-KN-005.md) | 미확인/동적 | selected_sections | 2026-11-03 |
+| [ST-KY-001 · 교보증권 반기보고서 (2026.06)](cards/ST-KY-001.md) | 2026-08-14 | selected_sections | 2026-11-03 |
+| [ST-KY-002 · 주요사항보고서(유상증자결정): 약1,000억원 상환전환우선주](cards/ST-KY-002.md) | 2026-10-22 | selected_sections | 2026-11-03 |
+| [ST-KY-003 · 주요사항보고서(유상증자결정): 약2,000억원 상환전환우선주](cards/ST-KY-003.md) | 2026-10-22 | selected_sections | 2026-11-03 |
+| [ST-KY-004 · 모험자본 공급을 뒷받침할 자본시장법 시행령 개정안 국무회의 의결, 종합금융투자사업자 지정 및 단기금융업 인가](cards/ST-KY-004.md) | 2025-11-19 | selected_sections | 2026-11-03 |
+| [ST-KY-005 · NH투자증권㈜에 대한 종합금융투자사업자(8조원) 지정](cards/ST-KY-005.md) | 2026-03-19 | selected_sections | 2026-11-03 |
+| [ST-KY-006 · 교보생명, SBI홀딩스·서클·비댁스와 디지털 금융 협력 확대 논의](cards/ST-KY-006.md) | 2026-10-02 | official_summary | 2026-11-03 |
+| [ST-KY-007 · 교보문고 출판 — 사업소개](cards/ST-KY-007.md) | 미확인/동적 | selected_sections | 2026-11-03 |
+| [ST-KY-008 · Interactive Brokers Enables 24/7 Account Funding with Stablecoin](cards/ST-KY-008.md) | 2026-01-15 | official_summary | 2026-11-03 |
+| [ST-KY-009 · 정부와 금융권이 함께 금융권 AX를 가속화해 나가겠습니다](cards/ST-KY-009.md) | 2026-06-18 | selected_sections | 2026-11-03 |
+| [ST-TD-001 · Hermes Agent Economics Lecture — delegation, slides 13–14](cards/ST-TD-001.md) | 미확인/동적 | selected_sections | 2026-11-03 |
+| [ST-TD-002 · AI Agent 강의 — Coase와 통제된 자율성](cards/ST-TD-002.md) | 미확인/동적 | selected_sections | 2026-11-03 |
+| [ST-TD-003 · The Future of Financial Markets — Module 01 Infinite Assets](cards/ST-TD-003.md) | 미확인/동적 | selected_sections | 2026-11-03 |
+| [ST-TD-004 · Stablecoins: Promise, Risks, and Policy Choices for Emerging Markets](cards/ST-TD-004.md) | 2026-08-07 | selected_sections | 2026-11-03 |
+| [ST-TD-005 · Banks in the Age of Stablecoins: Some Possible Implications for Deposits, Credit, and Financial Intermediation](cards/ST-TD-005.md) | 2025-12-17 | selected_sections | 2026-11-03 |
+| [ST-TD-006 · Introducing the Machine Payments Protocol](cards/ST-TD-006.md) | 2026-03-18 | selected_sections | 2026-11-03 |
+| [ST-TD-007 · How Agentic AI Will Reshape Payments](cards/ST-TD-007.md) | 미확인/동적 | selected_sections | 2026-11-03 |

@@ -1,6 +1,6 @@
 {
   "title": "금융환경 변화와 기업 신호 분석 에이전트 팀",
-  "version": "1.5",
+  "version": "1.6",
   "created_date": "2026-11-02",
   "artifact_type": "재사용 가능한 역할 및 작업 명세",
   "execution_status": {
@@ -8,8 +8,8 @@
     "installed_runtime_configuration": false,
     "target_company_research_started": true,
     "scheduled_monitoring_enabled": false,
-    "note": "최근 실행: runs/2026-11-02-geography.json. 역할 파일은 지속 실행 프로세스가 아니다.",
-    "target_company_research_scope": "교보·한화 해외 연결 및 경남은행 국내·지역 고객 신호를 조사했다. 현지 인가 전수·현재 팀/예산/정원·실현 수익 비교는 미완료."
+    "note": "최근 실행: runs/2026-11-03-institution-strategy.json. 8개 논리 역할을 호스트 총괄·3개 하위 에이전트가 분담했다. 역할 파일은 지속 실행 프로세스가 아니다.",
+    "target_company_research_scope": "탑다운 미래와 경남 본사·교보 미래전략·한화 생명 신사업의 기존 고객·기반·권리·현금·수익·경쟁·검증 제안. 실제 고객 시험·계약가격·전체 인가·팀 정원·예산·신사업 이익은 미확인."
   },
   "mission": "금융환경 변화가 고객의 문제와 금융기관의 선택을 어떻게 바꾸는지 설명하고, 특정 기업의 실제 신호·기존 역량과 연결해 사용자에게 필요한 판단과 행동으로 수렴한다.",
   "research_brief": {
@@ -19,15 +19,17 @@
     "included_affiliates": [],
     "geography": "한국·미국을 공통 분석 축으로 두고 institution_focus.json의 법인별 확인 관계와 고객 흐름에 따라 추가 국가·관할을 고른다.",
     "currency": null,
-    "observation_period": "2026-11-02 KST까지 공개된 자료. 과거 자료의 원래 관측시점 보존.",
-    "forecast_horizon": "향후 6~24개월의 조건부 경로",
+    "observation_period": "사건 기준 2026-11-02 및 자료별 관측일 보존; 추가 원문 확인 2026-11-03. 전 관할 최신화는 아님.",
+    "forecast_horizon": "2027년 초의 개별 적용과 그 이후 제도·레일·AI 위임이 정착한 조건부 미래",
     "baseline_judgment": null,
     "priority_questions": [
       "변화가 고객의 어떤 문제와 금융기관의 어떤 기능을 바꾸는가?",
       "기존 방식과 비교해 권리·현금·비용·위험·수익의 배분은 어떻게 달라지는가?",
       "증권·은행·보험 중 어디에 기회나 방어 필요가 생기는가?",
       "후보 기업의 공개된 자원 배분과 기존 기반은 어느 가설을 지지하는가?",
-      "이 변화에 대비하려면 어떤 업무와 역량을 준비해야 하는가?"
+      "이 변화에 대비하려면 어떤 업무와 역량을 준비해야 하는가?",
+      "필요한 제도·권리·현금·위임이 성립한 세계에서 고객과 경쟁자는 어떻게 행동하는가?",
+      "기존+AI 대비 온체인+AI의 추가 편익이 누구의 보수·비용·손실로 귀속되는가?"
     ],
     "monitoring_cadence": null,
     "notification_conditions": null,
@@ -35,7 +37,8 @@
       "data/institution_connections.json",
       "data/institution_focus.json",
       "data/bank_customer_functions.json"
-    ]
+    ],
+    "mandate_path": "docs/RESEARCH_MANDATE.md"
   },
   "candidate_targets": [
     {
@@ -296,6 +299,31 @@
         "추가 관측"
       ],
       "completion_condition": "핵심 사실·가설·행동의 연결을 점검하고 남은 불확실성을 명시해야 한다."
+    },
+    {
+      "id": "professor_reasoner",
+      "name": "교수형 경제 메커니즘 검토",
+      "core_question": "가정이 성립한 미래에 고객·경쟁자·희소성·가격·책임이 어떻게 반응하는가?",
+      "inputs": [
+        "기존 판단",
+        "공개 강의와 공식 연구의 원문·범위",
+        "기준일·미래 가정",
+        "고객·권리·현금·손익 흐름"
+      ],
+      "instructions": [
+        "agents/professor_reasoner.md를 적용한다.",
+        "특정 교수의 현재 견해를 대리하지 않고 출처의 설명과 이번 추론을 구분한다.",
+        "법제 미완성만 반복하지 않고 강한 미래 가정 아래 2차 경쟁 반응까지 전개한다.",
+        "동일 금융업무 기준선, 상계·선자금·유동성·가격 전가·회수를 검토한다."
+      ],
+      "outputs": [
+        "가정과 중심 판단",
+        "경제 메커니즘",
+        "경쟁 경로",
+        "판단 변경 관측",
+        "우선 행동"
+      ],
+      "completion_condition": "미래를 구체화하고 반대 경로·귀속·원문과 독립 검증을 연결한다."
     }
   ],
   "evidence_card_fields": [
@@ -349,6 +377,7 @@
   "workflow": [
     "총괄이 대상·목적·기간·이전 판단을 정리한다.",
     "1단계: 환경 자료 수집과 원문 해석을 진행하고 경제·금융·기술 메커니즘 및 경쟁 가설을 만든다.",
+    "교수형 검토가 강한 미래 가정, 고객의 행동, 경쟁자의 대응, 보수·비용·위험의 재분배를 기존 관점과 비교한다.",
     "환경 분석에서 고객 문제와 금융업별 확인 질문이 도출되면 2단계로 넘어간다.",
     "2단계: 후보 기업별 공식 신호와 기존 기반을 병렬 조사한다. 원문 해석 담당이 같은 기준으로 정리한다.",
     "메커니즘 분석 담당이 기업별 대응 가설을 비교하고 목적 적용 담당이 필요한 업무·역량·준비 과제로 수렴시킨다.",

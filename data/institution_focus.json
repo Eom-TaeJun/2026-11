@@ -198,7 +198,15 @@
       "conditional_expansion": [
         "EU는 회사 발표의 탐색 지역·기초자산 지역. 특정 회원국의 계약·발행인이 확인될 때 확장"
       ],
-      "next_deliverable": "한 상품의 국가별 권리·발행·판매·수탁·현금 흐름과 수익 귀속 비교"
+      "next_deliverable": "가장 우선인 고객 업무의 계약·최종 현금·총비용 기준선과 대안 비교; 실제 자료 접근 전에는 검증 설계로 유지",
+      "strategy_decision_ids": [
+        "STR-KY-01",
+        "STR-KY-02",
+        "STR-KY-03",
+        "STR-KY-04",
+        "STR-KY-05"
+      ],
+      "strategy_report": "reports/13_kyobo_future_strategy.md"
     },
     {
       "target": "한화생명",
@@ -222,11 +230,18 @@
       "conditional_expansion": [
         "확인된 미국 소유관계와 별개로 한국 보험계정 자금 이전·토큰 서비스·개별 허가·수익은 추가 확인"
       ],
-      "next_deliverable": "법인별 자금·인가·수익 경계와 보험금 지급일 기준 현금화 경로",
+      "next_deliverable": "가장 우선인 고객 업무의 계약·최종 현금·총비용 기준선과 대안 비교; 실제 자료 접근 전에는 검증 설계로 유지",
       "confirmed_us_connection": "Velocity 인수 완료 발표와 FINRA 간접 소유관계를 확인. 한화자산운용·공동 AI거점은 별도 기능.",
       "deferred_geographies": [
         "중국: 생명 홈페이지의 국가 수준 존재만 확인, 법인·지분·디지털 사업 미확인"
-      ]
+      ],
+      "strategy_decision_ids": [
+        "STR-HW-01",
+        "STR-HW-02",
+        "STR-HW-03",
+        "STR-HW-04"
+      ],
+      "strategy_report": "reports/14_hanwha_blockchain_strategy.md"
     },
     {
       "target": "BNK경남은행",
@@ -248,7 +263,13 @@
       "conditional_expansion": [
         "지역 수출입 기업의 거래국·통화·송금 및 환헤지 수요가 확인될 때 해외 범위 추가"
       ],
-      "next_deliverable": "지역 고객 한 유형의 지급·수금·대출 흐름과 개선·반증 조건"
+      "next_deliverable": "가장 우선인 고객 업무의 계약·최종 현금·총비용 기준선과 대안 비교; 실제 자료 접근 전에는 검증 설계로 유지",
+      "strategy_decision_ids": [
+        "STR-KN-01",
+        "STR-KN-02",
+        "STR-KN-03"
+      ],
+      "strategy_report": "reports/12_kyongnam_head_office_strategy.md"
     }
   ],
   "jurisdiction_research_queue": [
@@ -313,5 +334,6 @@
     "위 우선순위는 조사자의 판단이다. 공식 회사 전략이나 현재 팀 배치가 아니다.",
     "새로 연결된 각국의 법률·의안·개별 인가를 전수 검토하지 않았다. 미확인 규제의 통과 확률이나 상용화 시점을 임의로 부여하지 않는다.",
     "해외 현지법인·고객·제품이 없다는 판정이 아니라 이번에 읽은 자료의 경계다."
-  ]
+  ],
+  "strategy_addendum_as_of": "2026-11-03"
 }

@@ -24,5 +24,6 @@ Bittime은 BI-FAST 정비로 9월 3일 00:00부터 6일 24:00 WIB까지 Nobu 가
 ## 연결된 주장
 
 - **C-043 / institution_statement / active**: Bittime은 2026-05 Nobu 가상계좌 이용 가능과 9월 결제망 정비에 따른 일시중단·대체 경로를 발표했다.
+- **C-149 / interpretation / active**: Nobu–Bittime의 은행 가상계좌 연결을 지급 스테이블코인 발행 또는 인니 내 가상화폐 일반 지급 허용으로 해석할 수 없다.
 
 [전체 자료 목록](../README.md)

@@ -44,6 +44,16 @@ IMF 10월 GFSR은 전반적으로 완화적인 금융여건과 높은 금융안�
 
 다음 관측: 동일 조건 시험·실제 스트레스에서 은행현금 기한과 총원가를 비교. 개선 없으면 해당 사용례의 우위를 낮춘다. 시험은 실전 성과와 구분.
 
+### C-142 · institution_statement · active
+
+2026-10-29 Chainlink 발표는 구축 중 RWA 플랫폼의 데이터·CCIP 채택과 담보 기준 공동 작업을 설명하며 생산 거래량·매출은 제시하지 않는다.
+
+근거: [ST-HW-002](../sources/cards/ST-HW-002.md)
+
+한계: 기술 채택·작업반 발표이며 특정 상품·인가·법적 담보 인정·생산 사용은 미확인.
+
+다음 관측: 상품 설명서, 담보 대주·헤어컷·권리 계약, 고객·거래·수수료 공개
+
 ## 관련 원문
 
 - [FIN-001 · Tokenized Finance](../sources/cards/FIN-001.md)
@@ -54,5 +64,6 @@ IMF 10월 GFSR은 전반적으로 완화적인 금융여건과 높은 금융안�
 - [NOV-ECB-COLLATERAL · ECB paves way for acceptance of DLT-based assets as eligible Eurosystem collateral](../sources/cards/NOV-ECB-COLLATERAL.md)
 - [NOV-ECB-ELIGIBILITY · Marketable assets — Eligibility criteria and assessment procedure](../sources/cards/NOV-ECB-ELIGIBILITY.md)
 - [RG-AE-003 · Payment Token Services Regulation](../sources/cards/RG-AE-003.md)
+- [ST-HW-002 · Hanwha Investment & Securities and Chainlink Form Strategic Partnership to Tokenize, Connect, and Collateralize Real-World Assets Worldwide](../sources/cards/ST-HW-002.md)
 
 [전체 주제 지도](INDEX.md)

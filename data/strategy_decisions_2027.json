@@ -1,0 +1,443 @@
+{
+  "schema_version": "1.0",
+  "as_of": "2026-11-03",
+  "mandate": "docs/RESEARCH_MANDATE.md",
+  "report": "reports/15_strategy_decisions_and_validation.md",
+  "interpretation": "순위는 확인한 공개 기반과 사업 거리의 연구 판단이며 예산 배정·실행 승인·정량 점수가 아니다. null은 미확인이다.",
+  "decisions": [
+    {
+      "id": "STR-KN-01",
+      "institution": "경남은행",
+      "title": "기업 자금관리와 운전자금",
+      "priority_within_institution": 1,
+      "classification": "analyst_proposal_not_company_commitment",
+      "status": "research_proposal",
+      "as_of": "2026-11-03",
+      "horizon": "2027Q1 준비·개별 적용 / 2027 이후 조건부 확대",
+      "customer_problem": "기업 수금·매입·급여·외화·운전자금을 같은 고객 업무로 연결",
+      "responsible_functions_to_confirm": "기업금융·자금관리·외환·IT·리스크",
+      "revenue_or_defense_path": "관계 유지 및 신용·외환·서비스 기여. 예금 조달가치는 내부 이전가격과 대사",
+      "source_ids": [
+        "ST-KN-001",
+        "ST-KN-002",
+        "KN-003"
+      ],
+      "claim_ids": [
+        "C-121",
+        "C-124"
+      ],
+      "required_assumptions": [
+        "해당 법인·업무·고객의 허용과 계약",
+        "적법한 데이터·권리·현금 접근",
+        "기준선 대비 고객 편익과 운영 복구"
+      ],
+      "alternative": "기존 ERP/API+AI만으로 같은 효과, 대형은행의 가격·신용 경쟁",
+      "next_observation": "동일 업무의 완료시간·오류·대사 인시·반복 이용·위험조정 관계 기여",
+      "action_now": "동일 고객 업무의 기존+AI 기준선을 만들고 필요한 온체인 기능만 비교",
+      "expand_condition": "고객 재이용과 비용 후 기여가 확인되고 권한·복구가 작동",
+      "stop_or_revise_condition": "고객이 비용을 지불하지 않거나 신용·보안·운영 위험이 편익을 초과",
+      "baseline_metrics": null,
+      "budget": null,
+      "measured_net_profit": null,
+      "actual_customer_trial_performed": false
+    },
+    {
+      "id": "STR-KN-02",
+      "institution": "경남은행",
+      "title": "가맹점의 정산·반품·유동성",
+      "priority_within_institution": 2,
+      "classification": "analyst_proposal_not_company_commitment",
+      "status": "research_proposal",
+      "as_of": "2026-11-03",
+      "horizon": "2027Q1 준비·개별 적용 / 2027 이후 조건부 확대",
+      "customer_problem": "가맹점의 정산·반품·세금·단기 자금 문제",
+      "responsible_functions_to_confirm": "가맹점·제휴·준법·IT·리스크",
+      "revenue_or_defense_path": "계약상 서비스 보수와 적정 여신·관계 기여",
+      "source_ids": [
+        "KN-002",
+        "KN-005",
+        "NOV-KR-007"
+      ],
+      "claim_ids": [
+        "C-123"
+      ],
+      "required_assumptions": [
+        "해당 법인·업무·고객의 허용과 계약",
+        "적법한 데이터·권리·현금 접근",
+        "기준선 대비 고객 편익과 운영 복구"
+      ],
+      "alternative": "플랫폼이 고객·데이터·가격 권한과 마진을 대부분 확보",
+      "next_observation": "보상 종료 후 반복 사용·환불 비용·제휴 보수·고객 권한",
+      "action_now": "동일 고객 업무의 기존+AI 기준선을 만들고 필요한 온체인 기능만 비교",
+      "expand_condition": "비독점·출구 조건과 운영 품질을 갖추고 순기여 확인",
+      "stop_or_revise_condition": "실제 접점 없이 보조금 지출만 증가하거나 데이터·복구 책임 불명확",
+      "baseline_metrics": null,
+      "budget": null,
+      "measured_net_profit": null,
+      "actual_customer_trial_performed": false
+    },
+    {
+      "id": "STR-KN-03",
+      "institution": "경남은행",
+      "title": "목적성 지급과 지역 관계",
+      "priority_within_institution": 3,
+      "classification": "analyst_proposal_not_company_commitment",
+      "status": "research_proposal",
+      "as_of": "2026-11-03",
+      "horizon": "2027Q1 준비·개별 적용 / 2027 이후 조건부 확대",
+      "customer_problem": "공공·목적성 지급 대사와 기업승계 등 관계 업무",
+      "responsible_functions_to_confirm": "공공금융·기업승계·고객보호·IT",
+      "revenue_or_defense_path": "계약상 지급·대사 업무와 장기 기업·가계 관계의 기여",
+      "source_ids": [
+        "ST-KN-003",
+        "SRC-BOK-HANGANG",
+        "NOV-KR-007"
+      ],
+      "claim_ids": [
+        "C-120",
+        "C-125"
+      ],
+      "required_assumptions": [
+        "해당 법인·업무·고객의 허용과 계약",
+        "적법한 데이터·권리·현금 접근",
+        "기준선 대비 고객 편익과 운영 복구"
+      ],
+      "alternative": "일회성 시범에 그치거나 기존 은행 지급이 더 저렴",
+      "next_observation": "허용된 고객·지급 목적·환불·부정 사용·운영비·후속 이용",
+      "action_now": "동일 고객 업무의 기존+AI 기준선을 만들고 필요한 온체인 기능만 비교",
+      "expand_condition": "개별 지정과 데이터 책임 안에서 반복 업무 편익 확인",
+      "stop_or_revise_condition": "목적 외 사용·고객 권리 침해·불명확한 사고 책임",
+      "baseline_metrics": null,
+      "budget": null,
+      "measured_net_profit": null,
+      "actual_customer_trial_performed": false
+    },
+    {
+      "id": "STR-KY-01",
+      "institution": "교보증권",
+      "title": "거래 고객의 자금·증거금",
+      "priority_within_institution": 1,
+      "classification": "analyst_proposal_not_company_commitment",
+      "status": "research_proposal",
+      "as_of": "2026-11-03",
+      "horizon": "2027Q1 준비·개별 적용 / 2027 이후 조건부 확대",
+      "customer_problem": "해외거래 시간대의 자금 준비·증거금·문의 대응",
+      "responsible_functions_to_confirm": "해외상품·중개·자금·IT·준법",
+      "revenue_or_defense_path": "기존 고객 유지와 운영 개선; 레일 자체 보수와 분리",
+      "source_ids": [
+        "ST-KY-001",
+        "ST-KY-008"
+      ],
+      "claim_ids": [
+        "C-126",
+        "C-135"
+      ],
+      "required_assumptions": [
+        "해당 법인·업무·고객의 허용과 계약",
+        "적법한 데이터·권리·현금 접근",
+        "기준선 대비 고객 편익과 운영 복구"
+      ],
+      "alternative": "현행 은행·API 개선으로 충분하거나 경쟁사가 더 낮은 총비용 제공",
+      "next_observation": "고객 이탈 원인·사용 가능 현금 시각·오안내·예외·고객별 기여",
+      "action_now": "동일 고객 업무의 기존+AI 기준선을 만들고 필요한 온체인 기능만 비교",
+      "expand_condition": "실제 불편 감소와 비용 후 유지 효과 확인",
+      "stop_or_revise_condition": "금융업 권한을 벗어나거나 선자금·복구 비용이 편익을 초과",
+      "baseline_metrics": null,
+      "budget": null,
+      "measured_net_profit": null,
+      "actual_customer_trial_performed": false
+    },
+    {
+      "id": "STR-KY-02",
+      "institution": "교보증권",
+      "title": "반복 IB와 권리 사후관리",
+      "priority_within_institution": 2,
+      "classification": "analyst_proposal_not_company_commitment",
+      "status": "research_proposal",
+      "as_of": "2026-11-03",
+      "horizon": "2027Q1 준비·개별 적용 / 2027 이후 조건부 확대",
+      "customer_problem": "발행인의 반복 조달과 투자자의 권리·수금 추적",
+      "responsible_functions_to_confirm": "IB·상품·수탁/신탁 협업·법무·리스크",
+      "revenue_or_defense_path": "주선·판매·계약상 사후관리 보수",
+      "source_ids": [
+        "ST-KY-001",
+        "KYO-GEO-004"
+      ],
+      "claim_ids": [
+        "C-135",
+        "C-138"
+      ],
+      "required_assumptions": [
+        "해당 법인·업무·고객의 허용과 계약",
+        "적법한 데이터·권리·현금 접근",
+        "기준선 대비 고객 편익과 운영 복구"
+      ],
+      "alternative": "발행인이 직접 공급하거나 관리비용·손실이 보수를 소진",
+      "next_observation": "재발행·정시 수금·배분·권리 분쟁·총비용",
+      "action_now": "동일 고객 업무의 기존+AI 기준선을 만들고 필요한 온체인 기능만 비교",
+      "expand_condition": "실제 지급자·권리·관리 계약과 반복 수익 확인",
+      "stop_or_revise_condition": "권리 입증 불가·지불 고객 부재·과잉 자본 소모",
+      "baseline_metrics": null,
+      "budget": null,
+      "measured_net_profit": null,
+      "actual_customer_trial_performed": false
+    },
+    {
+      "id": "STR-KY-03",
+      "institution": "교보증권",
+      "title": "기관 유동성·상품 관리",
+      "priority_within_institution": 3,
+      "classification": "analyst_proposal_not_company_commitment",
+      "status": "research_proposal",
+      "as_of": "2026-11-03",
+      "horizon": "2027Q1 준비·개별 적용 / 2027 이후 조건부 확대",
+      "customer_problem": "상품별 환매·결제·담보 조건과 현금 필요시각 연결",
+      "responsible_functions_to_confirm": "기관영업·WM·상품·자금·리스크",
+      "revenue_or_defense_path": "허용된 상품·관리 보수 및 기존 기관 관계",
+      "source_ids": [
+        "ST-KY-001",
+        "KYO-GEO-005",
+        "SRC-CIRCLE-USDC-TERMS"
+      ],
+      "claim_ids": [
+        "C-135",
+        "C-138"
+      ],
+      "required_assumptions": [
+        "해당 법인·업무·고객의 허용과 계약",
+        "적법한 데이터·권리·현금 접근",
+        "기준선 대비 고객 편익과 운영 복구"
+      ],
+      "alternative": "같은 결과를 기존 MMF·은행 시스템이 더 낮은 비용으로 제공",
+      "next_observation": "동일 통화·만기·권리에서 최종 은행현금·대기자금·예외 비용",
+      "action_now": "동일 고객 업무의 기존+AI 기준선을 만들고 필요한 온체인 기능만 비교",
+      "expand_condition": "실제 환매·은행 경로와 비교편익 확인",
+      "stop_or_revise_condition": "유동성 약속이 실제 현금 가용성을 초과",
+      "baseline_metrics": null,
+      "budget": null,
+      "measured_net_profit": null,
+      "actual_customer_trial_performed": false
+    },
+    {
+      "id": "STR-KY-04",
+      "institution": "교보증권",
+      "title": "검증 가능한 IP 현금흐름",
+      "priority_within_institution": 4,
+      "classification": "analyst_proposal_not_company_commitment",
+      "status": "research_proposal",
+      "as_of": "2026-11-03",
+      "horizon": "2027Q1 준비·개별 적용 / 2027 이후 조건부 확대",
+      "customer_problem": "기존 계약·정산 이력이 있는 청구권의 금융화",
+      "responsible_functions_to_confirm": "미래전략·IB·문고의 계약 담당·법무·독립 평가",
+      "revenue_or_defense_path": "실사·구조화·판매·관리 대가; 그룹 보장 없음",
+      "source_ids": [
+        "ST-KY-007",
+        "ST-KY-001"
+      ],
+      "claim_ids": [
+        "C-132",
+        "C-136"
+      ],
+      "required_assumptions": [
+        "해당 법인·업무·고객의 허용과 계약",
+        "적법한 데이터·권리·현금 접근",
+        "기준선 대비 고객 편익과 운영 복구"
+      ],
+      "alternative": "양도금지·선급금 상계·집중위험·수요 부족으로 기존 금융보다 비쌈",
+      "next_observation": "원권리·지급자·정산·중복담보·수금 통제·지급의사",
+      "action_now": "동일 고객 업무의 기존+AI 기준선을 만들고 필요한 온체인 기능만 비교",
+      "expand_condition": "양도·도산·회수·가격의 검증과 적합 고객 수요",
+      "stop_or_revise_condition": "브랜드만으로 판매하거나 권리·수금·독립 평가 미해결",
+      "baseline_metrics": null,
+      "budget": null,
+      "measured_net_profit": null,
+      "actual_customer_trial_performed": false
+    },
+    {
+      "id": "STR-KY-05",
+      "institution": "교보증권",
+      "title": "국경간 자산·입출금 레일",
+      "priority_within_institution": 5,
+      "classification": "analyst_proposal_not_company_commitment",
+      "status": "research_proposal",
+      "as_of": "2026-11-03",
+      "horizon": "2027Q1 준비·개별 적용 / 2027 이후 조건부 확대",
+      "customer_problem": "특정 해외 자산·기관자금 또는 고객 입출금 연결",
+      "responsible_functions_to_confirm": "해외사업·기관영업·법무·외환·운영",
+      "revenue_or_defense_path": "투자 손익 또는 실제 계약상 서비스 보수, 각각 추적",
+      "source_ids": [
+        "KYO-GEO-003",
+        "KYO-GEO-004",
+        "ST-KY-008"
+      ],
+      "claim_ids": [
+        "C-130",
+        "C-131",
+        "C-133"
+      ],
+      "required_assumptions": [
+        "해당 법인·업무·고객의 허용과 계약",
+        "적법한 데이터·권리·현금 접근",
+        "기준선 대비 고객 편익과 운영 복구"
+      ],
+      "alternative": "투자자에만 머무르거나 현행 송금이 총비용에서 우위",
+      "next_observation": "국가별 권한·적격 고객·상환 계약·FX·은행현금·반복 사용",
+      "action_now": "동일 고객 업무의 기존+AI 기준선을 만들고 필요한 온체인 기능만 비교",
+      "expand_condition": "한국·현지 양쪽 권한과 실제 현금·반복 지급자",
+      "stop_or_revise_condition": "파트너 관계만으로 영업권·USDC 직접 상환권을 가정",
+      "baseline_metrics": null,
+      "budget": null,
+      "measured_net_profit": null,
+      "actual_customer_trial_performed": false
+    },
+    {
+      "id": "STR-HW-01",
+      "institution": "한화생명",
+      "title": "Nobu 고객의 보장·유지",
+      "priority_within_institution": 1,
+      "classification": "analyst_proposal_not_company_commitment",
+      "status": "research_proposal",
+      "as_of": "2026-11-03",
+      "horizon": "2027Q1 준비·개별 적용 / 2027 이후 조건부 확대",
+      "customer_problem": "실제 고객의 미해결 보장과 납입·청구 경험",
+      "responsible_functions_to_confirm": "현지 생명·Nobu·상품·소비자보호",
+      "revenue_or_defense_path": "은행 유통 보수와 보험 위험 인수 후 성과 분리",
+      "source_ids": [
+        "ST-HW-006",
+        "ST-HW-007",
+        "ST-HW-008",
+        "ST-HW-009"
+      ],
+      "claim_ids": [
+        "C-143",
+        "C-144",
+        "C-152"
+      ],
+      "required_assumptions": [
+        "해당 법인·업무·고객의 허용과 계약",
+        "적법한 데이터·권리·현금 접근",
+        "기준선 대비 고객 편익과 운영 복구"
+      ],
+      "alternative": "기존 보장과 중복·납입 부담·경쟁 채널의 조건 우위",
+      "next_observation": "동의 고객·보장 공백·납입 여력·유지·청구·민원·총비용",
+      "action_now": "동일 고객 업무의 기존+AI 기준선을 만들고 필요한 온체인 기능만 비교",
+      "expand_condition": "적합한 보장과 유지·지급 경험, 비용 후 성과",
+      "stop_or_revise_condition": "부적합 판매·불명확한 면책·높은 중도해지 손실",
+      "baseline_metrics": null,
+      "budget": null,
+      "measured_net_profit": null,
+      "actual_customer_trial_performed": false
+    },
+    {
+      "id": "STR-HW-02",
+      "institution": "한화생명 및 금융계열",
+      "title": "해외 금융 기능의 계약 연결",
+      "priority_within_institution": 2,
+      "classification": "analyst_proposal_not_company_commitment",
+      "status": "research_proposal",
+      "as_of": "2026-11-03",
+      "horizon": "2027Q1 준비·개별 적용 / 2027 이후 조건부 확대",
+      "customer_problem": "기관 고객의 자산 접근·사후처리·계좌 상태와 현금",
+      "responsible_functions_to_confirm": "생명 신사업·증권·운용·현지 은행/청산·법무",
+      "revenue_or_defense_path": "실제 외부 청산·관리·판매·운영 보수; 투자 성과 별도",
+      "source_ids": [
+        "ST-HW-002",
+        "HWA-GEO-008",
+        "HWA-GEO-001",
+        "HWA-GEO-006"
+      ],
+      "claim_ids": [
+        "C-141",
+        "C-142",
+        "C-146",
+        "C-147",
+        "C-149"
+      ],
+      "required_assumptions": [
+        "해당 법인·업무·고객의 허용과 계약",
+        "적법한 데이터·권리·현금 접근",
+        "기준선 대비 고객 편익과 운영 복구"
+      ],
+      "alternative": "기능이 독립 포트폴리오에 머무르거나 내부 조합이 외부보다 비쌈",
+      "next_observation": "정확한 법인·상품·인가·고객 계약·보수·현금·생산 운영",
+      "action_now": "동일 고객 업무의 기존+AI 기준선을 만들고 필요한 온체인 기능만 비교",
+      "expand_condition": "계열간 계약과 외부 고객 지급, 내부거래 제거 후 기여",
+      "stop_or_revise_condition": "그룹 관계·MOU·지분을 권한·서비스 성과로 대체",
+      "baseline_metrics": null,
+      "budget": null,
+      "measured_net_profit": null,
+      "actual_customer_trial_performed": false
+    },
+    {
+      "id": "STR-HW-03",
+      "institution": "한화생명 및 금융계열",
+      "title": "AI에게 선택될 정보·실행·복구",
+      "priority_within_institution": 3,
+      "classification": "analyst_proposal_not_company_commitment",
+      "status": "research_proposal",
+      "as_of": "2026-11-03",
+      "horizon": "2027Q1 준비·개별 적용 / 2027 이후 조건부 확대",
+      "customer_problem": "외부 고객 AI가 원문·가격·자격을 비교하고 승인된 업무 완료",
+      "responsible_functions_to_confirm": "신사업·상품·고객보호·데이터·IT·운영",
+      "revenue_or_defense_path": "계약상 유통·집행 보수 및 B2B 운영 대가",
+      "source_ids": [
+        "ST-HW-014",
+        "ST-HW-004",
+        "ST-HW-010"
+      ],
+      "claim_ids": [
+        "C-151",
+        "C-155"
+      ],
+      "required_assumptions": [
+        "해당 법인·업무·고객의 허용과 계약",
+        "적법한 데이터·권리·현금 접근",
+        "기준선 대비 고객 편익과 운영 복구"
+      ],
+      "alternative": "표준 정보만으로 차별화가 안 되거나 외부 플랫폼이 보수를 확보",
+      "next_observation": "외부 유료 이용·완료 업무·오류·중복·철회·복구·재계약",
+      "action_now": "동일 고객 업무의 기존+AI 기준선을 만들고 필요한 온체인 기능만 비교",
+      "expand_condition": "원문·권한·책임·독립 비교와 실제 지급의사",
+      "stop_or_revise_condition": "승인 초과·중복 집행·추천 편향 은폐·권리/현금 불일치",
+      "baseline_metrics": null,
+      "budget": null,
+      "measured_net_profit": null,
+      "actual_customer_trial_performed": false
+    },
+    {
+      "id": "STR-HW-04",
+      "institution": "한화생명",
+      "title": "보험 ALM의 현금·운영",
+      "priority_within_institution": 4,
+      "classification": "analyst_proposal_not_company_commitment",
+      "status": "research_proposal",
+      "as_of": "2026-11-03",
+      "horizon": "2027Q1 준비·개별 적용 / 2027 이후 조건부 확대",
+      "customer_problem": "보험금·해지 등 부채 지급시각의 현금 확보",
+      "responsible_functions_to_confirm": "ALM·자산운용·리스크·수탁·회계",
+      "revenue_or_defense_path": "검증된 운영·유동성 비용 개선과 적정 투자 성과 분리",
+      "source_ids": [
+        "ST-HW-015",
+        "SRC-CIRCLE-USDC-TERMS",
+        "NOV-M07"
+      ],
+      "claim_ids": [
+        "C-153"
+      ],
+      "required_assumptions": [
+        "해당 법인·업무·고객의 허용과 계약",
+        "적법한 데이터·권리·현금 접근",
+        "기준선 대비 고객 편익과 운영 복구"
+      ],
+      "alternative": "온체인 총액결제·버퍼·자본 비용이 대사 절감보다 큼",
+      "next_observation": "같은 통화·만기·권리·부채 조건의 최종현금·스트레스 자금·비용",
+      "action_now": "동일 고객 업무의 기존+AI 기준선을 만들고 필요한 온체인 기능만 비교",
+      "expand_condition": "보험계정 제약과 유동성·회수 검증을 통과",
+      "stop_or_revise_condition": "수익률 차이를 토큰 효과로 오인하거나 지급 준비를 훼손",
+      "baseline_metrics": null,
+      "budget": null,
+      "measured_net_profit": null,
+      "actual_customer_trial_performed": false
+    }
+  ]
+}

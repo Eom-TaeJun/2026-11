@@ -24,5 +24,6 @@
 
 - **C-087 / fact / active**: Indonesia / OJK / POJK27/2024 as amended by POJK23/2025: POJK23/2025 개정은 2025-11-10 효력이다. 거래 규율은 금융기관 전자기록 자산·토큰 발행 업무 전체를 포괄하지 않는다. OJK의 2026년 9월 설명은 고객 분리계좌를 OJK 인가 상업은행에 두는 구조를 확인한다.
 - **C-089 / fact / active**: Indonesia / OJK sandbox and registration pathway / Tokenisation / rupiah stablecoin model development: OJK는 2026년 8월까지 7개 참가자의 모델별 시험 통과를 보고했다. 통과 모델에는 금·KPD 증권·부동산 이익권·루피아 스테이블코인·수탁·펀드 관리가 포함되며 같은 모델의 등록 신청 경로가 있다. 시험 통과는 이미 발생한 관측 사실이다. policy_target 코드는 이들 모델의 이후 광범위한 사업 확대에만 적용한다. 모든 참가자의 최종 개별 영업인가와 일반 지급 허용은 확인하지 않았다.
+- **C-149 / interpretation / active**: Nobu–Bittime의 은행 가상계좌 연결을 지급 스테이블코인 발행 또는 인니 내 가상화폐 일반 지급 허용으로 해석할 수 없다.
 
 [전체 자료 목록](../README.md)

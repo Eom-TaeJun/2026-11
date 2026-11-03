@@ -64,6 +64,26 @@ IMF 10월 GFSR은 전반적으로 완화적인 금융여건과 높은 금융안�
 
 한계: 공식 요약만 읽었다. 모든 원화 스테이블코인 수요의 원화 절하 효과·정량 인과를 증명하지 않는다.
 
+### C-107 · interpretation · active
+
+준비자산 잔액은 국채 순신규 수요와 같지 않으며 자금 출처, 대체된 자산, 최종 매도자, 직접국채·repo·펀드 중복과 차환 시점을 분리해야 한다.
+
+근거: [FIN-003](../sources/cards/FIN-003.md), [ST-TD-005](../sources/cards/ST-TD-005.md)
+
+한계: 회계·메커니즘 해석. 순증 규모·수익률 효과의 추정치는 없음.
+
+### C-109 · hypothesis · active
+
+원화 토큰이 원화 고객 업무와 연결되면 은행 서비스의 효용을 높일 수 있으나 공통망의 달러 전환을 쉽게 만들 수도 있다.
+
+근거: [SRC-BOK-HANGANG](../sources/cards/SRC-BOK-HANGANG.md), [ST-TD-004](../sources/cards/ST-TD-004.md), [NOV-M08](../sources/cards/NOV-M08.md)
+
+한계: 원화 토큰 발행만으로 달러화 방지 또는 환율 상승을 단정하지 않음.
+
+다른 설명: 국내 고객 업무에 효용이 작으면 원화 토큰 수요가 제한되고, 동일망의 쉬운 전환이 달러 잔액 축적을 촉진할 수 있다. 기존 은행 API 개선만으로 원화 관계가 유지될 수도 있다.
+
+다음 관측: 같은 고객군의 원화 의무·사용처·운영계좌 잔액, 원화→달러 순전환과 재환전, 결제 총비용 및 원화토큰 반복사용을 측정. 글로벌 중개자 접근 변화 전후 프리미엄·현물환 연계를 구분.
+
 ## 관련 원문
 
 - [NOV-M01 · 통화정책방향(2026.10.22)](../sources/cards/NOV-M01.md)
@@ -74,5 +94,6 @@ IMF 10월 GFSR은 전반적으로 완화적인 금융여건과 높은 금융안�
 - [NOV-M06 · Global Financial Stability Report, October 2026: Resilience, Risk, and Transformation — Executive Summary](../sources/cards/NOV-M06.md)
 - [NOV-M07 · GFSR October 2026, Chapter 3: Scaling Tokenization: New Efficiencies, New Vulnerabilities](../sources/cards/NOV-M07.md)
 - [NOV-M08 · [제2026-22호] 달러 스테이블코인과 외환시장 간 연계성: 글로벌 거래소의 역할을 중심으로](../sources/cards/NOV-M08.md)
+- [ST-TD-004 · Stablecoins: Promise, Risks, and Policy Choices for Emerging Markets](../sources/cards/ST-TD-004.md)
 
 [전체 주제 지도](INDEX.md)

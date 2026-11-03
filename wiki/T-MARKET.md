@@ -44,6 +44,94 @@ ECB 2026년 4월 연구는 소규모 유럽 중심 매칭 표본에서 발행 �
 
 다음 관측: 비교 가능한 재계약·공시에서 계약 주체, 실효 보수, 유통 배분 확인. 기존 기관 보수 유지·고객 귀속이면 플랫폼 이익집중 가설을 낮춘다.
 
+### C-111 · interpretation · active
+
+같은 기초 현금흐름의 포장과 조건부 지급 조합이 늘어도 순부나 독립 위험이 같은 만큼 늘지는 않으며 고객 맞춤과 위험배분의 효용은 별도로 존재할 수 있다.
+
+근거: [ST-TD-003](../sources/cards/ST-TD-003.md)
+
+한계: 공개 교육자료에 대한 이번 분석의 금융적 교정. 미래 생산·투자를 포함한 자산량의 영구 고정을 뜻하지 않음.
+
+### C-113 · hypothesis · active
+
+AI가 공급자를 쉽게 비교·교체하면 표준 처리 보수가 낮아질 수 있으나 고객 접속·데이터·자본·규모의 이익이 크면 대형 플랫폼 집중이 강화될 수도 있다.
+
+근거: [ST-TD-002](../sources/cards/ST-TD-002.md), [ST-TD-006](../sources/cards/ST-TD-006.md), [NOV-M07](../sources/cards/NOV-M07.md)
+
+한계: 서로 경쟁하는 경로. 숫자 확률이나 필연적 탈중개로 표현하지 않는다.
+
+다른 설명: 표준화·데이터 이동·멀티호밍이 고객의 공급자 전환을 쉽게 만들어 플랫폼 교섭력을 낮출 수 있다. 반대로 준법 고정비·자본·고객접속 규모는 집중을 강화할 수 있다.
+
+다음 관측: 고객의 실제 다중공급자 사용과 전환 비용, 외부 유입 계약의 수익배분·독점성·데이터 이동권, 보수 인하와 가격 전달, 공급자 집중도 추이를 함께 관측.
+
+### C-114 · hypothesis · active
+
+법과 레일이 정착해도 작은 수요·비정형 권리의 검증비·유동성 비용 때문에 일부 반복 업무에서만 토큰화가 채택되고 기존 방식과 공존할 수 있다.
+
+근거: [NOV-M07](../sources/cards/NOV-M07.md), [FIN-003](../sources/cards/FIN-003.md)
+
+한계: 법제 지연과 별개의 경제성 경로. 반복 유료 사용·비교 총비용으로 갱신한다.
+
+다른 설명: 상호운용·재사용 가능한 권리 자료·반복 발행으로 평균비가 충분히 낮아지거나 네트워크 효과가 수요를 키우면 채택이 더 넓어질 수 있다.
+
+다음 관측: 법·인가·현금 경로가 이미 충족된 동일 업무에서 기존+AI와 토큰+AI의 총비용·반복 유료고객·잔액·유동성을 비교. 고정비 분모를 발행 상품 수가 아닌 완수된 반복업무로 고정.
+
+### C-144 · fact · active
+
+2026 SNLIK의 18–25세 금융포용률 95.69%는 다양한 금융서비스 이용 지표다. 생명보험 충분보장률이나 Nobu 고객 전환율로 바꿀 수 없다.
+
+근거: [ST-HW-008](../sources/cards/ST-HW-008.md)
+
+한계: 표본·범위가 이전 조사와 달라 단순 시계열 비교가 제한된다. 18–25세 금융 이용률은 보험 보장 공백·구매력의 척도가 아니다.
+
+다음 관측: Nobu 활성·동의 고객의 기존 보장·소득·납입 여력·가입 목적에 관한 적법한 조사
+
+### C-145 · institution_statement · active
+
+한화투자증권의 MTS 정보 기능과 한화생명의 파이는 실제 서비스 제공 발표가 있으나 토큰 거래·자율 AI 실행·실현 수익의 증거는 아니다.
+
+근거: [ST-HW-004](../sources/cards/ST-HW-004.md), [ST-HW-010](../sources/cards/ST-HW-010.md)
+
+한계: 회사 서비스 제공 발표다. 실제 이용·정확도·매출이나 토큰·자율집행 기능을 확인하지 않았다.
+
+다음 관측: 이용·반복 사용, 정보 정정·고객 이해·비용 및 성과 자료
+
+### C-151 · hypothesis · active
+
+AI가 상품을 비교할수록 공시·가격·자격·환매·실행·복구 정보의 품질이 유통 경쟁력이 될 수 있지만 상품 소개 보수는 압박받을 수 있다.
+
+근거: [ST-HW-014](../sources/cards/ST-HW-014.md), [ST-HW-004](../sources/cards/ST-HW-004.md), [ST-HW-009](../sources/cards/ST-HW-009.md), [SRC-CIRCLE-USDC-TERMS](../sources/cards/SRC-CIRCLE-USDC-TERMS.md)
+
+한계: 미래 고객 행동·수익성 가설이다. AP2는 지급 구현 참고이며 금융 규제나 전 에이전트 채택을 증명하지 않는다.
+
+다른 설명: 고객이 기존 앱을 유지하거나 AI 비교가 가격 경쟁만 강화해 데이터·연결 투자비를 회수하지 못할 수 있다.
+
+다음 관측: 외부 에이전트의 실제 선택·완료 업무·재계약, 요율 하락과 파트너 배분을 반영한 순기여
+
+### C-152 · hypothesis · active
+
+인니 보장 사업은 젊은 인구 전체보다 동의 가능한 실제 고객, 구체 보장 공백, 납입 여력과 계약 유지의 교집합에서 검증해야 한다.
+
+근거: [ST-HW-006](../sources/cards/ST-HW-006.md), [ST-HW-007](../sources/cards/ST-HW-007.md), [ST-HW-008](../sources/cards/ST-HW-008.md), [ST-HW-009](../sources/cards/ST-HW-009.md)
+
+한계: 고객 퍼널 설계이며 수치화한 시장규모·전환율·적정 보험료가 아니다.
+
+다른 설명: 대상 고객의 기존 보장이나 낮은 납입 여력·경쟁 상품 때문에 추가 보험 수요가 작을 수 있다.
+
+다음 관측: 동의 가능한 실제 고객의 보장 부족·소득·견적 수락·유지·청구·비용 데이터
+
+### C-155 · hypothesis · active
+
+고객 목적별 비교 정보·허용된 주문·현금 대사·복구에 대한 B2B 운영 보수는 후보 수익모델이다. 실제 지급 의사·가격·책임 계약을 검증해야 한다.
+
+근거: [ST-HW-014](../sources/cards/ST-HW-014.md), [ST-HW-002](../sources/cards/ST-HW-002.md), [HWA-GEO-008](../sources/cards/HWA-GEO-008.md), [ST-HW-007](../sources/cards/ST-HW-007.md)
+
+한계: B2B 후보 수익모델이며 지불 의사·요율·반복 사용·손실 후 이익은 미검증.
+
+다른 설명: 기존 금융·클라우드·은행 사업자가 동일 기능을 낮은 가격에 묶어 제공하면 별도 운영 보수가 성립하지 않을 수 있다.
+
+다음 관측: 실제 고객 문제·견적·재계약, 완료 업무당 총비용, 사고 책임·복구비, 대체 공급자 비교
+
 ## 관련 원문
 
 - [FIN-002 · What Is Needed for Tokenization to Deliver](../sources/cards/FIN-002.md)
@@ -68,5 +156,9 @@ ECB 2026년 4월 연구는 소규모 유럽 중심 매칭 표본에서 발행 �
 - [RG-ID-001 · Peraturan Otoritas Jasa Keuangan Nomor 23 Tahun 2025: Perubahan atas POJK Nomor 27 Tahun 2024 tentang Penyelenggaraan Perdagangan Aset Keuangan Digital Termasuk Aset Kripto](../sources/cards/RG-ID-001.md)
 - [RG-VN-002 · TOÀN VĂN: Nghị quyết số 05/2025/NQ-CP về triển khai thí điểm thị trường tài sản mã hóa tại Việt Nam](../sources/cards/RG-VN-002.md)
 - [RG-UK-001 · PS26/7: Progressing Fund Tokenisation](../sources/cards/RG-UK-001.md)
+- [ST-HW-004 · 한화투자증권, 모바일 투자 앱 개편… 이제 디지털자산도 ‘한화투자증권 MTS’ 에서](../sources/cards/ST-HW-004.md)
+- [ST-HW-008 · Siaran Pers Bersama: Indeks Literasi dan Inklusi Keuangan Masyarakat Meningkat, OJK, LPS, dan BPS Umumkan Hasil Survei Nasional Literasi dan Inklusi Keuangan (SNLIK) Tahun 2026](../sources/cards/ST-HW-008.md)
+- [ST-HW-009 · Asuransi / Bancassurance](../sources/cards/ST-HW-009.md)
+- [ST-TD-003 · The Future of Financial Markets — Module 01 Infinite Assets](../sources/cards/ST-TD-003.md)
 
 [전체 주제 지도](INDEX.md)

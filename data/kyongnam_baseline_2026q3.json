@@ -1,0 +1,27 @@
+{
+  "as_of": "2026-09-30",
+  "checked_at": "2026-11-03",
+  "source_ids": [
+    "ST-KN-001"
+  ],
+  "scope": "선정 IR 표만 확인, 은행/그룹과 기말/평잔/누적/분기 구분",
+  "metrics": {
+    "source_id": "ST-KN-001",
+    "period": "2026-09-30",
+    "unit": "KRW_100million",
+    "raw": {
+      "krw_loans": 460410,
+      "corporate_loans": 305489,
+      "sme_loans": 263489,
+      "household_loans": 150978,
+      "krw_deposit_end": 432957,
+      "krw_deposit_average": 428484,
+      "low_cost_deposit_average": 131341
+    },
+    "calculated_percent": {
+      "corporate_share": 66.35,
+      "sme_share": 57.23
+    },
+    "read_boundary": "selected IR tables visually checked; no causal attribution"
+  }
+}

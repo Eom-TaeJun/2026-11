@@ -484,6 +484,70 @@ EU (비교·탐색 지역) / Market Integration and Supervision Package: Commiss
 
 한계: 공식 자료에서 읽은 범위의 제도·발표 단계다. 개별 회사에 대한 법률 의견·전체 규칙 검토·수익 확인이 아니다. 
 
+### C-108 · hypothesis · active
+
+달러 자산·지급·담보·AI 서비스가 결합해 새 해외 고객의 지속 보유가 증가하면 플랫폼 네트워크 효과와 달러 사용이 함께 강화될 수 있다.
+
+근거: [ST-TD-004](../sources/cards/ST-TD-004.md), [FIN-003](../sources/cards/FIN-003.md), [ST-TD-006](../sources/cards/ST-TD-006.md)
+
+한계: 가격표시·지급·가치저장·담보 기능을 따로 관찰. 미국 정책의 유일한 동기나 확정 결과가 아니다.
+
+다른 설명: 기존 달러 보유를 코인으로 포장하거나 지급 직후 재환전하는 사용이면 달러 순보유는 작고, 원화·다중통화 은행망과 플랫폼 멀티호밍이 집중을 제한할 수 있다.
+
+다음 관측: 국내/해외·기존 달러/신규 환전별 순유입, 고객 평균 잔액과 잔존기간, 지급 목적 거래, 현지통화 가격표시와 담보통화, 플랫폼 간 이전·상환 비용을 함께 확인.
+
+### C-143 · fact · active
+
+Nobu 공개 방카슈랑스 목록에는 현지 한화생명의 세 보험 상품이 있으며 은행 상품·예금보호와 구분된다.
+
+근거: [ST-HW-006](../sources/cards/ST-HW-006.md), [ST-HW-007](../sources/cards/ST-HW-007.md)
+
+한계: 2026-11-03 공개 목록을 관측했다. 실제 계약·보험료·판매 성과와 11월 2일 동일 목록 여부를 별도 증명하지 않는다.
+
+다음 관측: 고객별 견적·면책·해지 조건·실제 판매·유지·청구 성과
+
+### C-144 · fact · active
+
+2026 SNLIK의 18–25세 금융포용률 95.69%는 다양한 금융서비스 이용 지표다. 생명보험 충분보장률이나 Nobu 고객 전환율로 바꿀 수 없다.
+
+근거: [ST-HW-008](../sources/cards/ST-HW-008.md)
+
+한계: 표본·범위가 이전 조사와 달라 단순 시계열 비교가 제한된다. 18–25세 금융 이용률은 보험 보장 공백·구매력의 척도가 아니다.
+
+다음 관측: Nobu 활성·동의 고객의 기존 보장·소득·납입 여력·가입 목적에 관한 적법한 조사
+
+### C-146 · interpretation · active
+
+한화생명–ADIO와 한화자산운용–ADGM·하나금융 협약의 당사자·범위는 다르며 생명 협약에 ADGM 관할을 자동 적용할 수 없다.
+
+근거: [HWA-GEO-001](../sources/cards/HWA-GEO-001.md), [RG-AE-001](../sources/cards/RG-AE-001.md), [RG-AE-003](../sources/cards/RG-AE-003.md)
+
+한계: 협약 당사자와 제도 범위의 구분이다. 생명 ADIO 사업의 예정 법인·관할·개별 인가는 미확인.
+
+다음 관측: 공식 법인·사업 주소·감독기관 신청·승인·고객 계약
+
+### C-149 · interpretation · active
+
+Nobu–Bittime의 은행 가상계좌 연결을 지급 스테이블코인 발행 또는 인니 내 가상화폐 일반 지급 허용으로 해석할 수 없다.
+
+근거: [HWA-GEO-006](../sources/cards/HWA-GEO-006.md), [HWA-GEO-007](../sources/cards/HWA-GEO-007.md), [RG-ID-001](../sources/cards/RG-ID-001.md), [RG-ID-002](../sources/cards/RG-ID-002.md), [RG-ID-003](../sources/cards/RG-ID-003.md)
+
+한계: VA 연결과 거래·지급 권한의 범위를 구분했다. Nobu의 모든 상품·개별 승인이나 현재 가동률을 조사한 것은 아니다.
+
+다음 관측: 정확한 서비스 계약·등록·승인 및 루피아 입출금·대사 성과
+
+### C-152 · hypothesis · active
+
+인니 보장 사업은 젊은 인구 전체보다 동의 가능한 실제 고객, 구체 보장 공백, 납입 여력과 계약 유지의 교집합에서 검증해야 한다.
+
+근거: [ST-HW-006](../sources/cards/ST-HW-006.md), [ST-HW-007](../sources/cards/ST-HW-007.md), [ST-HW-008](../sources/cards/ST-HW-008.md), [ST-HW-009](../sources/cards/ST-HW-009.md)
+
+한계: 고객 퍼널 설계이며 수치화한 시장규모·전환율·적정 보험료가 아니다.
+
+다른 설명: 대상 고객의 기존 보장이나 낮은 납입 여력·경쟁 상품 때문에 추가 보험 수요가 작을 수 있다.
+
+다음 관측: 동의 가능한 실제 고객의 보장 부족·소득·견적 수락·유지·청구·비용 데이터
+
 ## 관련 원문
 
 - [KYO-GEO-001 · Kyobo Life Insurance Group and Japan’s SBI Group ink strategic partnership](../sources/cards/KYO-GEO-001.md)
@@ -517,5 +581,10 @@ EU (비교·탐색 지역) / Market Integration and Supervision Package: Commiss
 - [RG-EU-001 · DLT Pilot Regime](../sources/cards/RG-EU-001.md)
 - [RG-EU-002 · EU market integration and efficient supervision](../sources/cards/RG-EU-002.md)
 - [RG-UK-002 · CP26/36: Cryptoasset perimeter guidance](../sources/cards/RG-UK-002.md)
+- [ST-HW-006 · Hanwha Life Indonesia dan Nobu Bank Memasuki Era Baru Kolaborasi Strategis](../sources/cards/ST-HW-006.md)
+- [ST-HW-007 · Bancassurance](../sources/cards/ST-HW-007.md)
+- [ST-HW-008 · Siaran Pers Bersama: Indeks Literasi dan Inklusi Keuangan Masyarakat Meningkat, OJK, LPS, dan BPS Umumkan Hasil Survei Nasional Literasi dan Inklusi Keuangan (SNLIK) Tahun 2026](../sources/cards/ST-HW-008.md)
+- [ST-HW-009 · Asuransi / Bancassurance](../sources/cards/ST-HW-009.md)
+- [ST-TD-004 · Stablecoins: Promise, Risks, and Policy Choices for Emerging Markets](../sources/cards/ST-TD-004.md)
 
 [전체 주제 지도](INDEX.md)

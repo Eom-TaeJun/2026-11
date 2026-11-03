@@ -116,6 +116,104 @@ KB는 가맹점·국고금 연계 확대를, 신한은 기존 기업뱅킹 접�
 
 다음 관측: 동일 고객·통화·금액의 은행현금 도착, 실패·반환, 잔액 유지와 총비용을 비교하고 보조금·금리 효과를 분리한다.
 
+### C-108 · hypothesis · active
+
+달러 자산·지급·담보·AI 서비스가 결합해 새 해외 고객의 지속 보유가 증가하면 플랫폼 네트워크 효과와 달러 사용이 함께 강화될 수 있다.
+
+근거: [ST-TD-004](../sources/cards/ST-TD-004.md), [FIN-003](../sources/cards/FIN-003.md), [ST-TD-006](../sources/cards/ST-TD-006.md)
+
+한계: 가격표시·지급·가치저장·담보 기능을 따로 관찰. 미국 정책의 유일한 동기나 확정 결과가 아니다.
+
+다른 설명: 기존 달러 보유를 코인으로 포장하거나 지급 직후 재환전하는 사용이면 달러 순보유는 작고, 원화·다중통화 은행망과 플랫폼 멀티호밍이 집중을 제한할 수 있다.
+
+다음 관측: 국내/해외·기존 달러/신규 환전별 순유입, 고객 평균 잔액과 잔존기간, 지급 목적 거래, 현지통화 가격표시와 담보통화, 플랫폼 간 이전·상환 비용을 함께 확인.
+
+### C-109 · hypothesis · active
+
+원화 토큰이 원화 고객 업무와 연결되면 은행 서비스의 효용을 높일 수 있으나 공통망의 달러 전환을 쉽게 만들 수도 있다.
+
+근거: [SRC-BOK-HANGANG](../sources/cards/SRC-BOK-HANGANG.md), [ST-TD-004](../sources/cards/ST-TD-004.md), [NOV-M08](../sources/cards/NOV-M08.md)
+
+한계: 원화 토큰 발행만으로 달러화 방지 또는 환율 상승을 단정하지 않음.
+
+다른 설명: 국내 고객 업무에 효용이 작으면 원화 토큰 수요가 제한되고, 동일망의 쉬운 전환이 달러 잔액 축적을 촉진할 수 있다. 기존 은행 API 개선만으로 원화 관계가 유지될 수도 있다.
+
+다음 관측: 같은 고객군의 원화 의무·사용처·운영계좌 잔액, 원화→달러 순전환과 재환전, 결제 총비용 및 원화토큰 반복사용을 측정. 글로벌 중개자 접근 변화 전후 프리미엄·현물환 연계를 구분.
+
+### C-125 · institution_statement · active
+
+BOK 2026년 3월 보고서는 에이전틱 AI가 예금토큰 결제를 자동 수행할 수 있는 가능성을 기술 실험으로 확인했다고 설명한다.
+
+근거: [NOV-KR-006](../sources/cards/NOV-KR-006.md)
+
+한계: 기술 가능성 설명이며 일반 고객의 포괄 권한·상용화·수익성 증거가 아니다.
+
+### C-130 · unknown · active
+
+교보증권의 직접 Circle Mint 상환·고객 USDC 레일 및 USDT 발행/유통사 직접 계약은 확인되지 않았다.
+
+근거: [ST-KY-006](../sources/cards/ST-KY-006.md), [SRC-CIRCLE-USDC-TERMS](../sources/cards/SRC-CIRCLE-USDC-TERMS.md)
+
+한계: 미확인은 관계 부재 판단이 아님.
+
+### C-133 · institution_statement · active
+
+IBKR는 적격 IB LLC 고객 USDC를 zerohash 경로에서 달러로 바꿔 증권계좌에 입금하는 기능을 발표했다.
+
+근거: [ST-KY-008](../sources/cards/ST-KY-008.md)
+
+한계: 한국·교보 권한, 독립 검증 성과, 현재 조건과 구분.
+
+### C-134 · fact · active
+
+Circle 비EEA 약관은 직접 상환 자격·Mint등록 조건과 USDC 보유자의 준비자산 이자수익 권리 부재를 구분한다.
+
+근거: [SRC-CIRCLE-USDC-TERMS](../sources/cards/SRC-CIRCLE-USDC-TERMS.md)
+
+한계: 약관 선택조항. 개별 회사 자격·실제 은행 현금 도착시간 미확인.
+
+### C-148 · fact · active
+
+USDC와 USDT는 보유·이전과 발행자 직접 상환 자격이 같지 않다. 은행 현금 수취와 수익·비용은 추가 계약·경로에 달린다.
+
+근거: [SRC-CIRCLE-USDC-TERMS](../sources/cards/SRC-CIRCLE-USDC-TERMS.md), [ST-HW-013](../sources/cards/ST-HW-013.md)
+
+한계: 선택 약관 조항의 조건이다. 한화 고객의 직접 상환 자격·거래별 수수료·은행 입금시간은 미확인.
+
+다음 관측: 실제 계약 당사자·상환 계정·견적·은행 최종 수취 기록
+
+### C-149 · interpretation · active
+
+Nobu–Bittime의 은행 가상계좌 연결을 지급 스테이블코인 발행 또는 인니 내 가상화폐 일반 지급 허용으로 해석할 수 없다.
+
+근거: [HWA-GEO-006](../sources/cards/HWA-GEO-006.md), [HWA-GEO-007](../sources/cards/HWA-GEO-007.md), [RG-ID-001](../sources/cards/RG-ID-001.md), [RG-ID-002](../sources/cards/RG-ID-002.md), [RG-ID-003](../sources/cards/RG-ID-003.md)
+
+한계: VA 연결과 거래·지급 권한의 범위를 구분했다. Nobu의 모든 상품·개별 승인이나 현재 가동률을 조사한 것은 아니다.
+
+다음 관측: 정확한 서비스 계약·등록·승인 및 루피아 입출금·대사 성과
+
+### C-153 · interpretation · active
+
+보험 ALM의 온체인 시험은 동일 통화·권리·만기·지급의무에서 최종 현금·총비용·스트레스 자금 수요를 비교해야 한다.
+
+근거: [ST-HW-015](../sources/cards/ST-HW-015.md), [SRC-CIRCLE-USDC-TERMS](../sources/cards/SRC-CIRCLE-USDC-TERMS.md), [ST-HW-013](../sources/cards/ST-HW-013.md), [PRIOR-001](../sources/cards/PRIOR-001.md)
+
+한계: 검증 방법 제안이다. 실제 보험 자금·온체인 거래·현금 절감 실적을 측정하지 않았다.
+
+다른 설명: 기존 계좌·API+AI가 더 싸고 안전하거나 상계 편익 상실로 온체인 방식의 피크 자금 수요가 커질 수 있다.
+
+다음 관측: 동일 권리·통화·시한의 최종 현금, 총비용, 대사·예외 인력, 상계·사전조달·스트레스 현금
+
+### C-154 · unknown · active
+
+이번 공식자료 선택 조사로 한화의 Circle 또는 Tether 직접 제휴, 준비금 운용 계약, USDC/USDT 발행상환 계정, 그룹 공통 디지털자산 권한, 실현 토큰화 순이익은 확인되지 않았다.
+
+근거: [ST-HW-001](../sources/cards/ST-HW-001.md), [ST-HW-002](../sources/cards/ST-HW-002.md), [ST-HW-003](../sources/cards/ST-HW-003.md), [ST-HW-005](../sources/cards/ST-HW-005.md), [HWA-GEO-001](../sources/cards/HWA-GEO-001.md), [HWA-GEO-008](../sources/cards/HWA-GEO-008.md)
+
+한계: 선택 조사에서 확인되지 않았다는 뜻이다. 계약·권한·수익의 부재를 주장하지 않는다.
+
+다음 관측: 회사·발행자·감독기관의 당사자·권한·계약·실적 공식 공개
+
 ## 관련 원문
 
 - [FIN-003 · III. Anchoring trust in money: innovation beyond stablecoins](../sources/cards/FIN-003.md)
@@ -127,7 +225,6 @@ KB는 가맹점·국고금 연계 확대를, 신한은 기존 기업뱅킹 접�
 - [SRC-CIRCLE-USDC-TERMS · USDC Terms](../sources/cards/SRC-CIRCLE-USDC-TERMS.md)
 - [SRC-BOK-HANGANG · 프로젝트 한강의 기관용 디지털화폐, 일반인용 CBDC와 어떻게 다를까](../sources/cards/SRC-BOK-HANGANG.md)
 - [SRC-OCC-GENIUS-FINAL · OCC Advances U.S. Digital Asset Leadership with Final Rule to Implement GENIUS Act](../sources/cards/SRC-OCC-GENIUS-FINAL.md)
-- [PRIOR-001 · 2026년 11월 1일 디지털 금융환경 종합](../sources/cards/PRIOR-001.md)
 - [PRIOR-002 · STO·AI 연구 보고서 안내](../sources/cards/PRIOR-002.md)
 - [PRIOR-003 · 교보증권 수익전략의 조건부 연구](../sources/cards/PRIOR-003.md)
 - [NOV-KR-001 · 주식ㆍ사채 등의 전자등록에 관한 법률 [법률 제21318호]](../sources/cards/NOV-KR-001.md)
@@ -174,5 +271,10 @@ KB는 가맹점·국고금 연계 확대를, 신한은 기존 기업뱅킹 접�
 - [RG-VN-002 · TOÀN VĂN: Nghị quyết số 05/2025/NQ-CP về triển khai thí điểm thị trường tài sản mã hóa tại Việt Nam](../sources/cards/RG-VN-002.md)
 - [RG-CN-001 · 关于进一步防范和处置虚拟货币等相关风险的通知（银发〔2026〕42号）](../sources/cards/RG-CN-001.md)
 - [RG-UK-001 · PS26/7: Progressing Fund Tokenisation](../sources/cards/RG-UK-001.md)
+- [ST-HW-013 · Legal — Token Terms of Sale and Service](../sources/cards/ST-HW-013.md)
+- [ST-KY-006 · 교보생명, SBI홀딩스·서클·비댁스와 디지털 금융 협력 확대 논의](../sources/cards/ST-KY-006.md)
+- [ST-KY-008 · Interactive Brokers Enables 24/7 Account Funding with Stablecoin](../sources/cards/ST-KY-008.md)
+- [ST-TD-004 · Stablecoins: Promise, Risks, and Policy Choices for Emerging Markets](../sources/cards/ST-TD-004.md)
+- [ST-TD-005 · Banks in the Age of Stablecoins: Some Possible Implications for Deposits, Credit, and Financial Intermediation](../sources/cards/ST-TD-005.md)
 
 [전체 주제 지도](INDEX.md)

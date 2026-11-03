@@ -220,10 +220,199 @@ BNK 실적발표는 경남은행의 2026년 1~3분기 누적 당기순이익을 
 
 다음 관측: 동일 고객·통화·금액의 은행현금 도착, 실패·반환, 잔액 유지와 총비용을 비교하고 보조금·금리 효과를 분리한다.
 
+### C-116 · interpretation · active
+
+투자 우선순위는 반복 고객 업무, 실제 통제 가능한 희소 자원, AI가 검증할 계약·비용, 돈·손실의 귀속, 경쟁 후 수익과 다음 관측으로 정해야 한다.
+
+근거: [ST-TD-001](../sources/cards/ST-TD-001.md), [ST-TD-002](../sources/cards/ST-TD-002.md), [FIN-003](../sources/cards/FIN-003.md), [NOV-M07](../sources/cards/NOV-M07.md)
+
+한계: 세 기관 담당자에게 제안한 판단 틀이며 회사 내부 계획·직무 확정 소관이 아니다.
+
+### C-117 · institution_statement · active
+
+경남은행의 2026년 9월말 원화대출은 460,410억원이며 기업자금 305,489억원 중 중소기업 263,489억원을 포함한다.
+
+근거: [ST-KN-001](../sources/cards/ST-KN-001.md)
+
+한계: IR 보고 수치. 제조업·지역 점유율이나 기술 변화의 효과를 뜻하지 않는다.
+
+### C-119 · institution_statement · active
+
+경남은행은 fERP 공개 안내에서 자금·재고·회계·다은행 조회와 B2B 등 기업 업무 연결을 설명한다.
+
+근거: [ST-KN-002](../sources/cards/ST-KN-002.md)
+
+한계: 실제 활성 고객·가동률·순수익·AI 또는 온체인 기능의 확인은 아니다.
+
+### C-120 · institution_statement · active
+
+BNK의 7월 조직개편 발표는 경남은행 산업금융전략팀·기업승계지원팀과 지주 AX·디지털자산 추진 조직을 구분한다.
+
+근거: [ST-KN-003](../sources/cards/ST-KN-003.md)
+
+한계: 현재 정원·예산·성과와 전체 조직 최신성은 미확인.
+
+### C-121 · hypothesis · active
+
+경남은행은 지역 기업의 수금·지급·운전자금 업무를 연결함으로써 고객관계·신용·외환·조달의 기여를 지킬 수 있다.
+
+근거: [ST-KN-001](../sources/cards/ST-KN-001.md), [ST-KN-002](../sources/cards/ST-KN-002.md), [ST-KN-003](../sources/cards/ST-KN-003.md), [KN-003](../sources/cards/KN-003.md)
+
+한계: 분석자 제안. 현재 온체인 공급망 금융의 실행·성과를 확인한 것이 아니다.
+
+다른 설명: 기존 ERP·API 개선만으로 같은 효과가 나거나 대형은행·플랫폼이 더 좋은 조건으로 고객을 확보
+
+다음 관측: 동일 고객 업무의 완료시간·대사 인시·반복 사용·조달/신용/외환 기여를 총비용과 함께 비교
+
+### C-126 · fact · active
+
+2026-06말 별도자본은 약2.2406조원이며 상반기 전체 수탁수수료 약1,610.64억원 중 해외선물688.28억원이다.
+
+근거: [ST-KY-001](../sources/cards/ST-KY-001.md)
+
+한계: 별도 영업현황의 총수수료이며 거래액·순이익 아님. 11월 현재 자본 아님.
+
+### C-127 · fact · active
+
+10/22 RCPS 약1,000억·2,000억원 발행 결정 공시는 납입일10/30, 최초 우선배당률5.814%·5.993%, 회사 상환권 개시2028/10/30·2029/10/30 조건을 담는다.
+
+근거: [ST-KY-002](../sources/cards/ST-KY-002.md), [ST-KY-003](../sources/cards/ST-KY-003.md)
+
+한계: 후속 납입완료·자본 인정 미확인. 실제 배당·상환과 구분.
+
+### C-128 · unknown · active
+
+교보의 최신 종투사 지정 및 발행어음·IMA 권한은 이번 공식 검색에서 확인하지 못했다. 3월 지정표 누락을11월 미지정의 확정증거로 쓰지 않는다.
+
+근거: [ST-KY-004](../sources/cards/ST-KY-004.md), [ST-KY-005](../sources/cards/ST-KY-005.md), [ST-KY-001](../sources/cards/ST-KY-001.md)
+
+한계: 지정·인가·현행 회사 공시 추가 확인 필요.
+
+### C-129 · institution_statement · active
+
+교보생명10월 행사는 협력논의·시연이며 교보증권은 인수·중개·유통 역할 가능성을 설명했다.
+
+근거: [ST-KY-006](../sources/cards/ST-KY-006.md)
+
+한계: 교보증권 직접 USDC 계약·고객 실운영의 증거 아님.
+
+### C-130 · unknown · active
+
+교보증권의 직접 Circle Mint 상환·고객 USDC 레일 및 USDT 발행/유통사 직접 계약은 확인되지 않았다.
+
+근거: [ST-KY-006](../sources/cards/ST-KY-006.md), [SRC-CIRCLE-USDC-TERMS](../sources/cards/SRC-CIRCLE-USDC-TERMS.md)
+
+한계: 미확인은 관계 부재 판단이 아님.
+
+### C-131 · institution_statement · active
+
+NOBLX의 교보생명·교보증권 역할은 발표상 전략적 기관투자자이며 DCG 연결은 기술제휴 MOU다.
+
+근거: [KYO-GEO-003](../sources/cards/KYO-GEO-003.md), [KYO-GEO-004](../sources/cards/KYO-GEO-004.md)
+
+한계: 투자 수익·플랫폼 보수·독점 자산·현지 영업 인가 미확인.
+
+### C-132 · institution_statement · active
+
+교보문고는 출판·자체IP발굴·해외번역·2차저작물 확장을 소개한다.
+
+근거: [ST-KY-007](../sources/cards/ST-KY-007.md)
+
+한계: 전체 판매 도서의IP소유나 증권사 데이터 공유권을 의미하지 않음.
+
+### C-135 · interpretation · active
+
+우선순위는 기존 거래고객의 자금·증거금 운영, 반복 IB 및 사후관리, 기관 유동성, 검증 가능한 IP, 국경간 확대 순으로 검토한다.
+
+근거: [ST-KY-001](../sources/cards/ST-KY-001.md), [ST-KY-002](../sources/cards/ST-KY-002.md), [ST-KY-003](../sources/cards/ST-KY-003.md), [ST-KY-007](../sources/cards/ST-KY-007.md), [KYO-GEO-003](../sources/cards/KYO-GEO-003.md)
+
+한계: 분석자의 검토 순위이며 회사 예산·확정전략 아님.
+
+### C-136 · hypothesis · active
+
+이미 정산 이력이 있고 양도 가능한 IP 현금흐름은 신규 흥행위험 자산보다 초기 검증에 적합할 수 있다.
+
+근거: [ST-KY-007](../sources/cards/ST-KY-007.md), [ST-KY-001](../sources/cards/ST-KY-001.md)
+
+한계: 실제 권리·양도·수금·평가·지급의사를 확인해야 하며 현행 금융보다 유리하다는 결과 미확인.
+
+다른 설명: 양도금지·선급금 상계·지급자 집중·분쟁과 사후관리 비용으로 기존 채권금융보다 비싸거나 투자수요가 부족할 수 있다.
+
+다음 관측: 원권리 계약과 실제 정산·은행입금의 대조, 중복담보 확인, 기존 구조 대비 총비용, 독립 투자자의 지급의사 및 반복 발행
+
+### C-141 · institution_statement · active
+
+한화투자증권은 Kresus와 Digital Asset에 대한 투자 완료를 발표했다. 이는 한화생명의 직접 온체인 서비스 운영과 구분된다.
+
+근거: [ST-HW-001](../sources/cards/ST-HW-001.md), [ST-HW-003](../sources/cards/ST-HW-003.md)
+
+한계: 회사 투자 완료 발표다. 지분율·공급 계약·고객 사용·토큰화 매출은 미확인.
+
+다음 관측: 피투자사와 사용 계약의 당사자·요율·운영 범위·실제 고객 공시
+
+### C-142 · institution_statement · active
+
+2026-10-29 Chainlink 발표는 구축 중 RWA 플랫폼의 데이터·CCIP 채택과 담보 기준 공동 작업을 설명하며 생산 거래량·매출은 제시하지 않는다.
+
+근거: [ST-HW-002](../sources/cards/ST-HW-002.md)
+
+한계: 기술 채택·작업반 발표이며 특정 상품·인가·법적 담보 인정·생산 사용은 미확인.
+
+다음 관측: 상품 설명서, 담보 대주·헤어컷·권리 계약, 고객·거래·수수료 공개
+
+### C-143 · fact · active
+
+Nobu 공개 방카슈랑스 목록에는 현지 한화생명의 세 보험 상품이 있으며 은행 상품·예금보호와 구분된다.
+
+근거: [ST-HW-006](../sources/cards/ST-HW-006.md), [ST-HW-007](../sources/cards/ST-HW-007.md)
+
+한계: 2026-11-03 공개 목록을 관측했다. 실제 계약·보험료·판매 성과와 11월 2일 동일 목록 여부를 별도 증명하지 않는다.
+
+다음 관측: 고객별 견적·면책·해지 조건·실제 판매·유지·청구 성과
+
+### C-145 · institution_statement · active
+
+한화투자증권의 MTS 정보 기능과 한화생명의 파이는 실제 서비스 제공 발표가 있으나 토큰 거래·자율 AI 실행·실현 수익의 증거는 아니다.
+
+근거: [ST-HW-004](../sources/cards/ST-HW-004.md), [ST-HW-010](../sources/cards/ST-HW-010.md)
+
+한계: 회사 서비스 제공 발표다. 실제 이용·정확도·매출이나 토큰·자율집행 기능을 확인하지 않았다.
+
+다음 관측: 이용·반복 사용, 정보 정정·고객 이해·비용 및 성과 자료
+
+### C-146 · interpretation · active
+
+한화생명–ADIO와 한화자산운용–ADGM·하나금융 협약의 당사자·범위는 다르며 생명 협약에 ADGM 관할을 자동 적용할 수 없다.
+
+근거: [HWA-GEO-001](../sources/cards/HWA-GEO-001.md), [RG-AE-001](../sources/cards/RG-AE-001.md), [RG-AE-003](../sources/cards/RG-AE-003.md)
+
+한계: 협약 당사자와 제도 범위의 구분이다. 생명 ADIO 사업의 예정 법인·관할·개별 인가는 미확인.
+
+다음 관측: 공식 법인·사업 주소·감독기관 신청·승인·고객 계약
+
+### C-147 · interpretation · active
+
+MVB–Velocity–Visa Direct 발표는 velocity.xyz 당사자 자료여서 한화 소유 Velocity Clearing의 스테이블코인 실적으로 채택하지 않는다. 동일 법인 또는 지배관계는 미확인이다.
+
+근거: [ST-HW-011](../sources/cards/ST-HW-011.md), [HWA-GEO-008](../sources/cards/HWA-GEO-008.md), [HWA-GEO-009](../sources/cards/HWA-GEO-009.md)
+
+한계: 발표 당사자·도메인·CEO가 달라 동일 회사로 채택하지 않았다. 별도 소유 관계의 부재까지 확정하지 않는다.
+
+다음 관측: 등기·규제 등록·회사 공식 조직 관계로 동일 법인 또는 관계 여부 판별
+
+### C-154 · unknown · active
+
+이번 공식자료 선택 조사로 한화의 Circle 또는 Tether 직접 제휴, 준비금 운용 계약, USDC/USDT 발행상환 계정, 그룹 공통 디지털자산 권한, 실현 토큰화 순이익은 확인되지 않았다.
+
+근거: [ST-HW-001](../sources/cards/ST-HW-001.md), [ST-HW-002](../sources/cards/ST-HW-002.md), [ST-HW-003](../sources/cards/ST-HW-003.md), [ST-HW-005](../sources/cards/ST-HW-005.md), [HWA-GEO-001](../sources/cards/HWA-GEO-001.md), [HWA-GEO-008](../sources/cards/HWA-GEO-008.md)
+
+한계: 선택 조사에서 확인되지 않았다는 뜻이다. 계약·권한·수익의 부재를 주장하지 않는다.
+
+다음 관측: 회사·발행자·감독기관의 당사자·권한·계약·실적 공식 공개
+
 ## 관련 원문
 
 - [FIN-007 · 토큰증권 정책방향 발표- 민·관 합동 토큰증권 협의체 3차회의 개최](../sources/cards/FIN-007.md)
-- [PRIOR-001 · 2026년 11월 1일 디지털 금융환경 종합](../sources/cards/PRIOR-001.md)
 - [PRIOR-002 · STO·AI 연구 보고서 안내](../sources/cards/PRIOR-002.md)
 - [PRIOR-003 · 교보증권 수익전략의 조건부 연구](../sources/cards/PRIOR-003.md)
 - [NOV-KR-007 · 한국은행 디지털화폐(CBDC) 시스템 내 예금토큰 기반 지급결제 테스트(프로젝트 한강) 2단계 시행 등 혁신금융서비스 5건 신규 지정 의결](../sources/cards/NOV-KR-007.md)
@@ -259,5 +448,26 @@ BNK 실적발표는 경남은행의 2026년 1~3분기 누적 당기순이익을 
 - [GEO-ADGM-PROCESS · FSRA General Application Process](../sources/cards/GEO-ADGM-PROCESS.md)
 - [PRIOR-004 · 교보증권 기존 사업과 수익구조 기준선](../sources/cards/PRIOR-004.md)
 - [RG-HK-002 · Register of Licensees under the Stablecoins Ordinance (Cap. 656)](../sources/cards/RG-HK-002.md)
+- [ST-HW-001 · 한화투자증권, 글로벌 Web3 기업 ‘크리서스’에 180억 원 규모 투자 완료](../sources/cards/ST-HW-001.md)
+- [ST-HW-002 · Hanwha Investment & Securities and Chainlink Form Strategic Partnership to Tokenize, Connect, and Collateralize Real-World Assets Worldwide](../sources/cards/ST-HW-002.md)
+- [ST-HW-003 · 한화투자증권, Digital Asset Holdings LLC에 300억 원 규모 투자 완료](../sources/cards/ST-HW-003.md)
+- [ST-HW-004 · 한화투자증권, 모바일 투자 앱 개편… 이제 디지털자산도 ‘한화투자증권 MTS’ 에서](../sources/cards/ST-HW-004.md)
+- [ST-HW-005 · Hanwha Finance explores future financial innovation with global leaders at the 2026 World Economic Forum Annual Meeting in Davos](../sources/cards/ST-HW-005.md)
+- [ST-HW-006 · Hanwha Life Indonesia dan Nobu Bank Memasuki Era Baru Kolaborasi Strategis](../sources/cards/ST-HW-006.md)
+- [ST-HW-007 · Bancassurance](../sources/cards/ST-HW-007.md)
+- [ST-HW-010 · 한화생명, 증여 자산관리 플랫폼 ‘파이’ 출시](../sources/cards/ST-HW-010.md)
+- [ST-HW-011 · MVB Partners with Velocity to Join Visa Direct Stablecoin Settlement Network](../sources/cards/ST-HW-011.md)
+- [ST-HW-015 · Risk Management](../sources/cards/ST-HW-015.md)
+- [ST-KN-001 · BNK금융그룹 2026년 3분기 경영실적: 경남은행 선정 표](../sources/cards/ST-KN-001.md)
+- [ST-KN-002 · fERP(중소기업용) 안내](../sources/cards/ST-KN-002.md)
+- [ST-KN-003 · BNK금융그룹 2026년 하반기 조직개편 실시](../sources/cards/ST-KN-003.md)
+- [ST-KN-004 · BNK금융그룹 AI 대전환 통해 일하는 방식 바꾼다](../sources/cards/ST-KN-004.md)
+- [ST-KN-005 · Cyber Branch 제공서비스](../sources/cards/ST-KN-005.md)
+- [ST-KY-001 · 교보증권 반기보고서 (2026.06)](../sources/cards/ST-KY-001.md)
+- [ST-KY-002 · 주요사항보고서(유상증자결정): 약1,000억원 상환전환우선주](../sources/cards/ST-KY-002.md)
+- [ST-KY-003 · 주요사항보고서(유상증자결정): 약2,000억원 상환전환우선주](../sources/cards/ST-KY-003.md)
+- [ST-KY-005 · NH투자증권㈜에 대한 종합금융투자사업자(8조원) 지정](../sources/cards/ST-KY-005.md)
+- [ST-KY-006 · 교보생명, SBI홀딩스·서클·비댁스와 디지털 금융 협력 확대 논의](../sources/cards/ST-KY-006.md)
+- [ST-KY-007 · 교보문고 출판 — 사업소개](../sources/cards/ST-KY-007.md)
 
 [전체 주제 지도](INDEX.md)
