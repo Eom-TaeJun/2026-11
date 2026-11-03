@@ -1,0 +1,74 @@
+{
+  "verified_at_utc": "2026-11-03T15:55:21.468125+00:00",
+  "content_commit": "bef2888bf984498ac66678da2e928cc093e2a617",
+  "content_tree": "830ca34529a2ad870ba86091322cec98996ad9d8",
+  "verification_scope": "The 409-file content commit was checked before this receipt and status update; receipt does not recursively verify its own commit.",
+  "blob_comparison": {
+    "checked": 409,
+    "mismatches": 0,
+    "missing": 0,
+    "extra": 0
+  },
+  "exact_text_readback": [
+    {
+      "path": "README.md",
+      "sha": "b8c55f23450cf4d30b160e38e4446df0320cc291",
+      "matched": true
+    },
+    {
+      "path": "reports/27_professor_ondo_lineage.md",
+      "sha": "8fcad5d3c5fbf8c92b7f1f61bfb7d589148cbbe7",
+      "matched": true
+    },
+    {
+      "path": "reports/28_blackrock_ondo_positions.md",
+      "sha": "d2a980f1f7cba7d93d8eba6f9f61fc555d9fab9b",
+      "matched": true
+    },
+    {
+      "path": "reports/29_tokenization_competition_group_strategy.md",
+      "sha": "dab76ef1ddd1cd4228f186fcb6039239ef380597",
+      "matched": true
+    },
+    {
+      "path": "reports/30_group_position_responses.md",
+      "sha": "27bf9725faa6480cb93223ef2291a599fe439f69",
+      "matched": true
+    },
+    {
+      "path": "data/professor_ondo_lineage.json",
+      "sha": "43048f6369f709452a21ed3ad7b08d3394e25337",
+      "matched": true
+    },
+    {
+      "path": "data/blackrock_ondo_product_economics.json",
+      "sha": "9880e1112f35e917f64b2285def1152e4d5d443e",
+      "matched": true
+    },
+    {
+      "path": "data/global_position_group_map.json",
+      "sha": "9c00c955a8174f66f491e48cdd8e78e6402edeab",
+      "matched": true
+    },
+    {
+      "path": "runs/2026-11-04-ondo-position-integration.json",
+      "sha": "91f70c71cabe5764894321f5e2ee5f7ddd8d3b1d",
+      "matched": true
+    }
+  ],
+  "public_display": {
+    "status": 200,
+    "title": true,
+    "body_marker": true,
+    "report_links": true,
+    "method": "HTTP returned GitHub HTML; not interactive browser testing"
+  },
+  "web_search_fetch": "Cache miss; public HTTP fallback returned the rendered report HTML.",
+  "baseline_files_retained": 364,
+  "tests_passed": 15,
+  "new_sources": 34,
+  "existing_sources_rechecked": 7,
+  "new_claims": 53,
+  "source_total": 283,
+  "claim_total": 358
+}

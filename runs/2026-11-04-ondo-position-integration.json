@@ -2,13 +2,13 @@
   "as_of": "2026-11-04",
   "timezone": "Asia/Seoul",
   "request": "교수 Ondo 원문과 BlackRock/Ondo 포지션·수익을 세 그룹 실제 사례·방향성과 연결해 GitHub 반영",
-  "status": "validated_pending_remote_publication",
+  "status": "published_and_verified",
   "baseline_head": "2d93239c350f8394d88ae5b891788765c4c05bf5",
   "baseline_files": 364,
   "workers": [
     {
       "role": "coordinator",
-      "performed": "환경 합성·원문 교차확인·단일 작성 병합·검증. 원격 게시 상태는 publication 필드에서 별도 확인."
+      "performed": "환경 합성·원문 교차확인·단일 작성 병합·검증·GitHub 게시 및 원격 내용 대조"
     },
     {
       "role": "source_design",
@@ -273,11 +273,25 @@
     "automated_checks_do_not_establish": "Legal enforceability, source truth, economics or customer demand"
   },
   "publication": {
-    "status": "pending",
+    "status": "content_published_and_verified",
     "repository": "Eom-TaeJun/2026-11",
     "branch": "main",
-    "content_commit": null,
-    "remote_blob_verification": null
+    "content_commit": "bef2888bf984498ac66678da2e928cc093e2a617",
+    "content_tree": "830ca34529a2ad870ba86091322cec98996ad9d8",
+    "remote_blob_verification": {
+      "files": 409,
+      "mismatch": 0,
+      "extra": 0
+    },
+    "exact_text_readbacks": 9,
+    "public_html": {
+      "status": 200,
+      "title": true,
+      "body_marker": true,
+      "report_links": true,
+      "method": "HTTP returned GitHub HTML; not interactive browser testing"
+    },
+    "receipt": "runs/2026-11-04-ondo-publication.json"
   },
   "limits": {
     "P": [
