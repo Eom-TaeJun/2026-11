@@ -1,0 +1,39 @@
+{
+  "record_type": "publication_verification",
+  "verified_at_utc": "2026-11-03 10:24:36 UTC",
+  "repository": "Eom-TaeJun/2026-11",
+  "content_commit": "d24da43b79fd278a7b0a609e12a9a1ea223777ac",
+  "content_tree": "51141bb4607b677907e0ed375891f020f6010d27",
+  "prior_head": "18755c2da0a5b5d82e3ccddde31ba0ab7c7c95f2",
+  "guarded_fast_forward": true,
+  "local_checks": {
+    "records_and_links": "passed",
+    "existing_unit_tests": 9,
+    "supplemental_decision_and_arithmetic_checks": "passed",
+    "private_path_and_credential_pattern_checks": "passed"
+  },
+  "remote_verification": {
+    "blob_count": 253,
+    "all_expected_paths_and_blob_hashes_match": true,
+    "unexpected_paths": 0,
+    "exact_content_readback_paths": [
+      "reports/15_strategy_decisions_and_validation.md",
+      "README.md",
+      "docs/RESEARCH_MANDATE.md",
+      "agents/professor_reasoner.md",
+      "reports/11_topdown_digital_finance.md",
+      "reports/12_kyongnam_head_office_strategy.md",
+      "reports/13_kyobo_future_strategy.md",
+      "reports/14_hanwha_blockchain_strategy.md",
+      "data/strategy_decisions_2027.json"
+    ],
+    "public_readme": {
+      "http_status": 200,
+      "commit_title_confirmed": true,
+      "new_content_and_report_links_present": true,
+      "browser_visual_layout_audit": false
+    }
+  },
+  "scope": "검증 대상은 content_commit이다. 이 확인 파일을 추가하는 후속 커밋은 내용 연구를 바꾸지 않으며 별도로 원격 존재를 확인한다.",
+  "limits": "표집한 자료·계산·보고서와 저장 무결성 검증. 법률·내부 계약·실제 고객 운영 및 순이익의 감사가 아니다."
+}
