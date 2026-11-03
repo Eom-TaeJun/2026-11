@@ -1,0 +1,114 @@
+{
+  "run_id": "2026-11-03-kyobo-publication",
+  "verified_at_utc": "2026-11-03 13:54:42 UTC",
+  "repository": "Eom-TaeJun/2026-11",
+  "branch": "main",
+  "previous_head": "7f10b492291c3d45d88071687017b2738f4e7601",
+  "content_commit": "d78c240d6b14c8ab55f358878609670f33f2340d",
+  "content_tree": "f7fe85f0ea71314d5b5e090a0f06285b81021860",
+  "content_publication_verified": true,
+  "total_content_files": 323,
+  "changed_content_files": 85,
+  "previous_files_preserved": 288,
+  "no_files_deleted": true,
+  "verification": {
+    "recursive_tree": {
+      "files": 323,
+      "all_expected_blob_hashes_match": true,
+      "extra_paths": 0,
+      "truncated": false
+    },
+    "complete_text_readbacks": [
+      {
+        "path": "README.md",
+        "sha": "384b235498b554841cbc10d0486ddf17e6bf4445",
+        "content_equal": true
+      },
+      {
+        "path": "reports/18_kyobo_future_strategy_business_plan.md",
+        "sha": "b6d489c325bcf141c7494162c25bd695d2c9e5d0",
+        "content_equal": true
+      },
+      {
+        "path": "reports/19_kyobo_group_rwa_deal_design.md",
+        "sha": "381da7556b63df7046167fe5227e9c1ee02bebb7",
+        "content_equal": true
+      },
+      {
+        "path": "reports/20_kyobo_rails_agent_business.md",
+        "sha": "a74e87315b19482cff41eec9b8ad10f6f0709843",
+        "content_equal": true
+      },
+      {
+        "path": "reports/21_kyobo_capital_and_permissions.md",
+        "sha": "1c93b31a16bf00baf426d18294f1c9e72af70d4d",
+        "content_equal": true
+      },
+      {
+        "path": "data/kyobo_strategy_business_plan.json",
+        "sha": "8c36a460f4a8562d8533d17da9c0d8ac0b86944e",
+        "content_equal": true
+      },
+      {
+        "path": "data/kyobo_ip_deal_checklist.json",
+        "sha": "db3acafaca212dd51c890604e6c11c28c7ea725b",
+        "content_equal": true
+      },
+      {
+        "path": "data/strategy_decisions_2027.json",
+        "sha": "d06716532210b297f286f200093787b708f2aca8",
+        "content_equal": true
+      },
+      {
+        "path": "runs/2026-11-03-kyobo-strategy.json",
+        "sha": "9a5bb4f9e80ed305e75e786c62366ee278debbe6",
+        "content_equal": true
+      },
+      {
+        "path": "agents/kyobo_strategy_workflow.md",
+        "sha": "6f7995768ced6c10aa0033a966f1dd30d3e4503d",
+        "content_equal": true
+      },
+      {
+        "path": "PIPELINE.md",
+        "sha": "8fcaa95cb4f1bc261faa6e4e89fe39b588cab2cb",
+        "content_equal": true
+      }
+    ],
+    "public_readme": {
+      "http_status": 200,
+      "business_report_link": true,
+      "source_count_222_visible": true
+    },
+    "public_business_report": {
+      "status": 200,
+      "rendered_markdown": true,
+      "title_present": true,
+      "latest_commit": true,
+      "capital_annex_link": true
+    },
+    "local": {
+      "pipeline_validate": "passed",
+      "existing_tests_passed": 15,
+      "supplementary": "source/claim/strategy references, unknown values, history, file preservation and known private-pattern checks passed"
+    },
+    "scope": "GitHub repository content and public HTML markers checked. No customer trial, legal approval, transaction execution or financial performance validation."
+  },
+  "evidence_counts": {
+    "sources": 222,
+    "claims": 245,
+    "topics": 14,
+    "new_source_cards": 26,
+    "updated_source_cards": 9,
+    "new_claims": 45,
+    "updated_claims": 3
+  },
+  "continuation": [
+    "reports/18_kyobo_future_strategy_business_plan.md",
+    "reports/19_kyobo_group_rwa_deal_design.md",
+    "reports/20_kyobo_rails_agent_business.md",
+    "reports/21_kyobo_capital_and_permissions.md",
+    "agents/kyobo_strategy_workflow.md"
+  ],
+  "receipt_note": "This receipt records verification of the content commit above. It is published in a subsequent commit; its own final branch/readback verification is performed after publication and is not self-asserted here."
+}
