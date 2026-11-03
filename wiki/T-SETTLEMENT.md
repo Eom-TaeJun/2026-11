@@ -185,6 +185,54 @@ Circle의 2026-10-19 이후 공개 환매 구조는 처리시간과 은행결제
 
 다음 관측: 동일채권·투자자·결제조건에서 계약부터은행회수까지 총비용·오류·예외처리 비교
 
+### C-249 · institution_statement · active
+
+Velocity는 계좌 개설·주문·현금 이동·stock locate API를 안내한다. 지원24/6은 결제·은행현금24/7의 증거가 아니다.
+
+근거: [HWX-A-002](../sources/cards/HWX-A-002.md)
+
+한계: 선택 공개 원문 범위의 판단이며 내부 계약·실제 고객 수익은 별도 확인한다.
+
+### C-265 · hypothesis · active
+
+필요한 인가·고객 위임·코인 계약이 성립한2027 이후에도 온체인 경로는 환매·FX·사전조달·운영복구 총비용이 기존+AI보다 낮거나 고유한 고객 업무를 해결할 때 채택한다.
+
+근거: [HWX-A-002](../sources/cards/HWX-A-002.md), [HWX-A-006](../sources/cards/HWX-A-006.md), [KNX-M-003](../sources/cards/KNX-M-003.md), [ST-HW-013](../sources/cards/ST-HW-013.md)
+
+한계: 선택 공개 원문 범위의 판단이며 내부 계약·실제 고객 수익은 별도 확인한다.
+
+다른 설명: 상계가 줄고 피크 사전조달이 증가하거나 은행 출금이 병목이면 빠른 토큰 이동이 고객 완결시간·총비용을 개선하지 못한다.
+
+다음 관측: 동일 금액·통화·시간대·실패 사례에서 최종 은행현금 도달시간, 묶인 잔액, 복구손실, 고객 지불 의사를 측정한다.
+
+### C-274 · fact · active
+
+Bittime는 Nobu VA 제공을 발표하고 IDR→USDT 교환을 홍보한다. 이는 은행 입금 접점과 플랫폼 업무의 연결이다.
+
+근거: [HWA-GEO-006](../sources/cards/HWA-GEO-006.md)
+
+한계: - Nobu–Tether 직접 계약·발행·직접 환매·준비자산 수익은 미확인.
+
+### C-275 · fact · active
+
+2026-09 Bittime 공지는 Nobu VA 입금 유지보수 중지와 대체 은행 경로를 안내했다.
+
+근거: [HWA-GEO-007](../sources/cards/HWA-GEO-007.md)
+
+한계: - 과거 공지이며 현재 중단 증거가 아니다.
+
+### C-282 · hypothesis · active
+
+적법한 디지털 현금·개별 참가·고객 권한이 성립해도24시간 지급은 현금 대기·복구·유동성 비용을 늘릴 수 있고 경쟁이 절감분을 고객 가격으로 이전시킬 수 있다.
+
+근거: [HWX-M-003](../sources/cards/HWX-M-003.md), [RG-ID-002](../sources/cards/RG-ID-002.md), [HWA-GEO-007](../sources/cards/HWA-GEO-007.md), [HWX-M-002](../sources/cards/HWX-M-002.md)
+
+한계: - 미래 조건부 분석이며 현재 출시·허가·성과 주장이 아니다.
+
+다른 설명: 폐쇄망/기존API가 충분하거나 대기유동성·운영비가 커지면 온체인 확장이 불리하다.
+
+다음 관측: 개별 승인 후 실제 가용 현금 시간·총비용·사고 복구·예금 잔액 순변화를 비교
+
 ## 관련 원문
 
 - [FIN-001 · Tokenized Finance](../sources/cards/FIN-001.md)
@@ -196,9 +244,12 @@ Circle의 2026-10-19 이후 공개 환매 구조는 처리시간과 은행결제
 - [NOV-M07 · GFSR October 2026, Chapter 3: Scaling Tokenization: New Efficiencies, New Vulnerabilities](../sources/cards/NOV-M07.md)
 - [NOV-FATF · Outcomes FATF Plenary, 28–30 October 2026](../sources/cards/NOV-FATF.md)
 - [NOV-ECB-COLLATERAL · ECB paves way for acceptance of DLT-based assets as eligible Eurosystem collateral](../sources/cards/NOV-ECB-COLLATERAL.md)
+- [HWA-GEO-009 · BrokerCheck Report: VELOCITY CLEARING, LLC — CRD 126588](../sources/cards/HWA-GEO-009.md)
 - [RG-TH-005 · การเปิดรับฟังความคิดเห็นต่อหลักการกำกับดูแลผู้ประกอบธุรกิจที่เกี่ยวข้องกับ THB Stablecoin](../sources/cards/RG-TH-005.md)
 - [RG-EU-001 · DLT Pilot Regime](../sources/cards/RG-EU-001.md)
 - [RG-EU-002 · EU market integration and efficient supervision](../sources/cards/RG-EU-002.md)
+- [ST-HW-001 · 한화투자증권, 글로벌 Web3 기업 ‘크리서스’에 180억 원 규모 투자 완료](../sources/cards/ST-HW-001.md)
+- [ST-HW-002 · Hanwha Investment & Securities and Chainlink Form Strategic Partnership to Tokenize, Connect, and Collateralize Real-World Assets Worldwide](../sources/cards/ST-HW-002.md)
 - [ST-HW-003 · 한화투자증권, Digital Asset Holdings LLC에 300억 원 규모 투자 완료](../sources/cards/ST-HW-003.md)
 - [ST-HW-011 · MVB Partners with Velocity to Join Visa Direct Stablecoin Settlement Network](../sources/cards/ST-HW-011.md)
 - [ST-KY-006 · 교보생명, SBI홀딩스·서클·비댁스와 디지털 금융 협력 확대 논의](../sources/cards/ST-KY-006.md)
@@ -214,5 +265,9 @@ Circle의 2026-10-19 이후 공개 환매 구조는 처리시간과 은행결제
 - [KYX-V-005 · Account Funding — zerohash Documentation](../sources/cards/KYX-V-005.md)
 - [KYX-V-006 · zerohash US User Agreement — IBKR 공개 양식 4438](../sources/cards/KYX-V-006.md)
 - [KYX-V-010 · Fees — Tether](../sources/cards/KYX-V-010.md)
+- [HWX-A-001 · Clearing & Custody](../sources/cards/HWX-A-001.md)
+- [HWX-A-002 · Trading Technology](../sources/cards/HWX-A-002.md)
+- [HWX-M-002 · QRIS Nobu: Solusi QRIS Terintegrasi untuk Pembayaran Digital](../sources/cards/HWX-M-002.md)
+- [HWX-M-003 · Proyek Garuda: Menavigasi Arsitektur Rupiah Digital](../sources/cards/HWX-M-003.md)
 
 [전체 주제 지도](INDEX.md)

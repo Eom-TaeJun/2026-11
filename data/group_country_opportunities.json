@@ -1,0 +1,430 @@
+{
+  "schema_version": "1.0",
+  "as_of": "2026-11-03",
+  "report": "reports/25_group_country_opportunity_discovery.md",
+  "scope": "기존 개별기관 업무에서 그룹·국가 수요 기반의 후속 후보로 확장. 전세계 전수조사 아님.",
+  "method": [
+    "현지수요",
+    "현재대안",
+    "접근가능고객",
+    "법인별역량",
+    "계약/권리/현금",
+    "AI와온체인증분",
+    "지급자/총비용/자본",
+    "경쟁/반증/다음관측"
+  ],
+  "opportunities": [
+    {
+      "id": "BNK-G-01",
+      "group": "BNK금융지주",
+      "market": "한국 부울경 / 실제 수출 상대국",
+      "customer_problem_hypothesis": "기업 수금·지급과 운전자금·설비 투자 시차",
+      "verified_basis_summary": "BNK산업금융계획, 경남무역금융, 캐피탈·증권 기능 소개",
+      "candidate_legal_roles": [
+        "경남/부산은행",
+        "BNK캐피탈",
+        "허용 증권·외부 파트너"
+      ],
+      "payer_and_revenue_path": "기업의 대출·리스·FX·관리 계약; 각 법인 금융/서비스 순기여",
+      "baseline_and_competitor": "대형은행 CMS·외부리스·증권 조합",
+      "discriminating_observation": "동일기업·만기·담보 총비용, 최종현금, 예금조달 기여",
+      "stop_or_revise": "중복담보·권한/동의 없음·그룹 조합이 더 비쌈",
+      "source_ids": [
+        "HWX-R-001",
+        "HWX-R-002",
+        "HWX-R-003",
+        "KNX-S-001",
+        "ST-KN-002"
+      ],
+      "strategy_ids": [
+        "STR-KN-01"
+      ],
+      "claim_ids": [
+        "C-119",
+        "C-121",
+        "C-122",
+        "C-124",
+        "C-156",
+        "C-157",
+        "C-159",
+        "C-165",
+        "C-166",
+        "C-167",
+        "C-169",
+        "C-175",
+        "C-180",
+        "C-181",
+        "C-191",
+        "C-192",
+        "C-196",
+        "C-198",
+        "C-200",
+        "C-297",
+        "C-298",
+        "C-299",
+        "C-305"
+      ],
+      "classification": "analyst_hypothesis",
+      "actual_customer_selected": false,
+      "actual_contract": null,
+      "customer_count": null,
+      "net_profit": null,
+      "budget": null
+    },
+    {
+      "id": "BNK-G-02",
+      "group": "BNK금융지주",
+      "market": "한국 지역기업 / 적격 투자자",
+      "customer_problem_hypothesis": "은행 만기·한도를 넘는 지역 투자금 연결",
+      "verified_basis_summary": "운용·증권의 기존 기능; 특정 토큰상품 확인 아님",
+      "candidate_legal_roles": [
+        "은행",
+        "증권",
+        "운용",
+        "적격 외부 투자자"
+      ],
+      "payer_and_revenue_path": "실제 발행·관리·투자계약 대가와 잔존 신용위험",
+      "baseline_and_competitor": "기존 대출·회사채·펀드·벤처투자",
+      "discriminating_observation": "독립투자자 수요·법적 위험이전·실사/회수 총비용",
+      "stop_or_revise": "원권리·회수·실제 위험이전 없음",
+      "source_ids": [
+        "HWX-R-001",
+        "HWX-R-003",
+        "HWX-R-004"
+      ],
+      "strategy_ids": [
+        "STR-KN-01"
+      ],
+      "claim_ids": [
+        "C-298",
+        "C-299",
+        "C-305"
+      ],
+      "classification": "analyst_hypothesis",
+      "actual_customer_selected": false,
+      "actual_contract": null,
+      "customer_count": null,
+      "net_profit": null,
+      "budget": null
+    },
+    {
+      "id": "KYO-G-01",
+      "group": "교보그룹",
+      "market": "한국 / 해외 콘텐츠 정산은 추가검증",
+      "customer_problem_hypothesis": "출판사 확정정산채권의 작은 금융수요와 권리관리",
+      "verified_basis_summary": "POD정산·기존 교보 거래검토",
+      "candidate_legal_roles": [
+        "문고의 사실확인",
+        "증권의 적법한 구조화/관리",
+        "생명의 독립 투자심사"
+      ],
+      "payer_and_revenue_path": "출판사·적격투자자의 계약; 생명 자동투자 금지",
+      "baseline_and_competitor": "기다림·조기정산·팩토링",
+      "discriminating_observation": "권리·금액·기간·독립가격과 동일지급자 집중",
+      "stop_or_revise": "비용이 금융수요 초과·중복권리·계열 제한 미해결",
+      "source_ids": [
+        "KYX-M-001",
+        "KYX-M-002",
+        "KYX-A-004"
+      ],
+      "strategy_ids": [
+        "STR-KY-04"
+      ],
+      "claim_ids": [
+        "C-201",
+        "C-204",
+        "C-205",
+        "C-206",
+        "C-210",
+        "C-211",
+        "C-214",
+        "C-215",
+        "C-220",
+        "C-226",
+        "C-227",
+        "C-297"
+      ],
+      "classification": "analyst_hypothesis",
+      "actual_customer_selected": false,
+      "actual_contract": null,
+      "customer_count": null,
+      "net_profit": null,
+      "budget": null
+    },
+    {
+      "id": "KYO-G-02",
+      "group": "교보그룹",
+      "market": "한국 / 해외는 별도허가",
+      "customer_problem_hypothesis": "보험·연금 고객의 장기 목적과 변경비용 관리",
+      "verified_basis_summary": "10/30로보어드바이저·FP지원 발표",
+      "candidate_legal_roles": [
+        "생명",
+        "고객이 승인한 증권/운용 기능"
+      ],
+      "payer_and_revenue_path": "기존 적합한 계약 유지·실제 집행/관리 대가",
+      "baseline_and_competitor": "FP·타 금융그룹·외부AI의 무료비교",
+      "discriminating_observation": "고객이해·부적합 변경·총비용·유지 성과",
+      "stop_or_revise": "해지손실 누락·보험금/고객정보 강제이동",
+      "source_ids": [
+        "HWX-R-005",
+        "ST-KY-006",
+        "KYX-M-007"
+      ],
+      "strategy_ids": [
+        "STR-KY-03"
+      ],
+      "claim_ids": [
+        "C-129",
+        "C-130",
+        "C-218",
+        "C-223",
+        "C-228",
+        "C-237",
+        "C-300",
+        "C-301"
+      ],
+      "classification": "analyst_hypothesis",
+      "actual_customer_selected": false,
+      "actual_contract": null,
+      "customer_count": null,
+      "net_profit": null,
+      "budget": null
+    },
+    {
+      "id": "HW-G-01",
+      "group": "한화그룹",
+      "market": "Indonesia",
+      "customer_problem_hypothesis": "실제 보장공백·납입여력·청구 마찰",
+      "verified_basis_summary": "기존 한화생명인니–Nobu방카 상품",
+      "candidate_legal_roles": [
+        "현지보험사",
+        "Nobu"
+      ],
+      "payer_and_revenue_path": "보험 계약 성과와 은행 유통보수 분리",
+      "baseline_and_competitor": "사회·직장보장·기존상품·BCA등",
+      "discriminating_observation": "동의고객/실제공백/견적/유지/청구와 총비용",
+      "stop_or_revise": "부적합판매·중복보장·납입부담",
+      "source_ids": [
+        "ST-HW-006",
+        "ST-HW-007",
+        "ST-HW-008"
+      ],
+      "strategy_ids": [
+        "STR-HW-01"
+      ],
+      "claim_ids": [
+        "C-143",
+        "C-144",
+        "C-150",
+        "C-152",
+        "C-155",
+        "C-267",
+        "C-268",
+        "C-278",
+        "C-281",
+        "C-283",
+        "C-297"
+      ],
+      "classification": "analyst_hypothesis",
+      "actual_customer_selected": false,
+      "actual_contract": null,
+      "customer_count": null,
+      "net_profit": null,
+      "budget": null
+    },
+    {
+      "id": "HW-G-02",
+      "group": "한화그룹",
+      "market": "UAE / United States / Korea",
+      "customer_problem_hypothesis": "현지 통화·계좌·시간에서 한국자산 접근",
+      "verified_basis_summary": "KDEF/KMCA ADX거래개시·MENA공식소개",
+      "candidate_legal_roles": [
+        "한화운용·MENA",
+        "ETC",
+        "실제판매·시장조성·수탁사"
+      ],
+      "payer_and_revenue_path": "실제 sponsor·운용·유통 계약, 비용·최소보수 반영",
+      "baseline_and_competitor": "전통 ETF·기존 운용/유통 상품",
+      "discriminating_observation": "순유입·반복고객·스프레드·한화계약상 순기여",
+      "stop_or_revise": "거래대금=AUM=매출 오인·유동성없음",
+      "source_ids": [
+        "HWX-A-004",
+        "HWX-A-008",
+        "HWA-GEO-003"
+      ],
+      "strategy_ids": [
+        "STR-HW-02"
+      ],
+      "claim_ids": [
+        "C-041",
+        "C-045",
+        "C-251",
+        "C-252",
+        "C-253",
+        "C-254",
+        "C-261",
+        "C-264"
+      ],
+      "classification": "analyst_hypothesis",
+      "actual_customer_selected": false,
+      "actual_contract": null,
+      "customer_count": null,
+      "net_profit": null,
+      "budget": null
+    },
+    {
+      "id": "HW-G-03",
+      "group": "한화그룹",
+      "market": "United States",
+      "customer_problem_hypothesis": "기관 거래후 처리·현금·복구",
+      "verified_basis_summary": "Velocity청산/API기능 확인",
+      "candidate_legal_roles": [
+        "Velocity",
+        "계약된 은행·수탁·기술사"
+      ],
+      "payer_and_revenue_path": "기관청산·보관·금융·운영 대가",
+      "baseline_and_competitor": "현재/외부 청산·은행+AI",
+      "discriminating_observation": "지원계좌·상품·현금완료·예외비용·재계약",
+      "stop_or_revise": "미지원 토큰·잘못된USDT적격성·은행현금실패",
+      "source_ids": [
+        "HWX-A-001",
+        "HWX-A-002",
+        "ST-HW-013"
+      ],
+      "strategy_ids": [
+        "STR-HW-02"
+      ],
+      "claim_ids": [
+        "C-148",
+        "C-153",
+        "C-174",
+        "C-236",
+        "C-248",
+        "C-249",
+        "C-260",
+        "C-261",
+        "C-263",
+        "C-265"
+      ],
+      "classification": "analyst_hypothesis",
+      "actual_customer_selected": false,
+      "actual_contract": null,
+      "customer_count": null,
+      "net_profit": null,
+      "budget": null
+    },
+    {
+      "id": "HW-G-04",
+      "group": "한화그룹",
+      "market": "United States / 실제 프로젝트국",
+      "customer_problem_hypothesis": "산업계약의 생산·정산·조달 시차",
+      "verified_basis_summary": "Qcells–Microsoft새BYOC/VPP탐색;확정RWA아님",
+      "candidate_legal_roles": [
+        "산업/프로젝트법인",
+        "독립금융심사·판매·운용"
+      ],
+      "payer_and_revenue_path": "자금조달 기업·투자자의 계약;산업매출과금융수입분리",
+      "baseline_and_competitor": "은행PF·사모대출·리스·유동화",
+      "discriminating_observation": "실계약·계량/정산·양도/담보·독립가격",
+      "stop_or_revise": "예상발전량=확정채권·계열자동보증",
+      "source_ids": [
+        "HWX-R-006",
+        "HWX-R-008"
+      ],
+      "strategy_ids": [
+        "STR-HW-02"
+      ],
+      "claim_ids": [
+        "C-302",
+        "C-303",
+        "C-304",
+        "C-305"
+      ],
+      "classification": "analyst_hypothesis",
+      "actual_customer_selected": false,
+      "actual_contract": null,
+      "customer_count": null,
+      "net_profit": null,
+      "budget": null
+    },
+    {
+      "id": "HW-G-05",
+      "group": "한화그룹",
+      "market": "Indonesia",
+      "customer_problem_hypothesis": "가맹점 수납·대사·운전자금",
+      "verified_basis_summary": "Nobu QRIS 공식서비스·가격표;상세23연결",
+      "candidate_legal_roles": [
+        "Nobu",
+        "현지 허용 파트너"
+      ],
+      "payer_and_revenue_path": "가맹점의 별도 서비스·차입 계약;MDR배분과조달·신용비용차감",
+      "baseline_and_competitor": "기존QRIS·은행·결제사업자",
+      "discriminating_observation": "실제 반복사용·대사오류·자금부족·유료의사",
+      "stop_or_revise": "0%구간거래량만으로수수료이익가정",
+      "source_ids": [
+        "HWX-M-002",
+        "RG-ID-002"
+      ],
+      "strategy_ids": [
+        "STR-HW-02"
+      ],
+      "claim_ids": [
+        "C-088",
+        "C-149",
+        "C-272",
+        "C-276",
+        "C-279",
+        "C-282",
+        "C-283",
+        "C-284"
+      ],
+      "classification": "analyst_hypothesis",
+      "actual_customer_selected": false,
+      "actual_contract": null,
+      "customer_count": null,
+      "net_profit": null,
+      "budget": null
+    },
+    {
+      "id": "HW-G-06",
+      "group": "한화그룹",
+      "market": "Indonesia",
+      "customer_problem_hypothesis": "고용주의 직원 건강보장·청구 마찰",
+      "verified_basis_summary": "LGI기업건강보험 기존상품;개인방카와구분",
+      "candidate_legal_roles": [
+        "LGI",
+        "허용된은행/보험판매·의료서비스파트너"
+      ],
+      "payer_and_revenue_path": "고용주 보험계약과 인수후성과",
+      "baseline_and_competitor": "기존사회/직장보장·기업보험·TPA",
+      "discriminating_observation": "보장공백·HR자료동의·청구·갱신·원가",
+      "stop_or_revise": "건강정보남용·중복보장·보험위험악화",
+      "source_ids": [
+        "HWX-M-004",
+        "HWX-M-005",
+        "HWX-M-001"
+      ],
+      "strategy_ids": [
+        "STR-HW-01"
+      ],
+      "claim_ids": [
+        "C-269",
+        "C-273",
+        "C-278",
+        "C-280",
+        "C-281",
+        "C-283"
+      ],
+      "classification": "analyst_hypothesis",
+      "actual_customer_selected": false,
+      "actual_contract": null,
+      "customer_count": null,
+      "net_profit": null,
+      "budget": null
+    }
+  ],
+  "all_actual_customer_trials_performed": false,
+  "scheduled_monitoring_enabled": false,
+  "next_country_selection_rule": "기존 관계 또는 실제 고객 통화·무역·상품 수요가 확인된 나라부터 심화; 제휴국을 영업허가국으로 세지 않음",
+  "workflow": "agents/group_country_opportunity_workflow.md"
+}

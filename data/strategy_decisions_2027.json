@@ -65,7 +65,11 @@
         "example": "data/kyongnam_export_cash_case.json",
         "next_observation": "현재 fERP/전자무역의 단계별 완료·오류·현금 도착과 고객별 실제 계약·원가·외부자산 접근 권한",
         "status": "public_evidence_and_design_only_no_customer_trial"
-      }
+      },
+      "group_country_opportunities": [
+        "BNK-G-01",
+        "BNK-G-02"
+      ]
     },
     {
       "id": "STR-KN-02",
@@ -100,7 +104,8 @@
       "baseline_metrics": null,
       "budget": null,
       "measured_net_profit": null,
-      "actual_customer_trial_performed": false
+      "actual_customer_trial_performed": false,
+      "group_country_opportunities": []
     },
     {
       "id": "STR-KN-03",
@@ -136,7 +141,8 @@
       "baseline_metrics": null,
       "budget": null,
       "measured_net_profit": null,
-      "actual_customer_trial_performed": false
+      "actual_customer_trial_performed": false,
+      "group_country_opportunities": []
     },
     {
       "id": "STR-KY-01",
@@ -191,7 +197,8 @@
           "reports/21_kyobo_capital_and_permissions.md"
         ],
         "status": "analyst_proposal_no_customer_trial"
-      }
+      },
+      "group_country_opportunities": []
     },
     {
       "id": "STR-KY-02",
@@ -245,7 +252,8 @@
           "reports/21_kyobo_capital_and_permissions.md"
         ],
         "status": "analyst_proposal_no_customer_trial"
-      }
+      },
+      "group_country_opportunities": []
     },
     {
       "id": "STR-KY-03",
@@ -302,7 +310,10 @@
           "reports/21_kyobo_capital_and_permissions.md"
         ],
         "status": "analyst_proposal_no_customer_trial"
-      }
+      },
+      "group_country_opportunities": [
+        "KYO-G-02"
+      ]
     },
     {
       "id": "STR-KY-04",
@@ -377,7 +388,10 @@
           "reports/21_kyobo_capital_and_permissions.md"
         ],
         "status": "analyst_proposal_no_customer_trial"
-      }
+      },
+      "group_country_opportunities": [
+        "KYO-G-01"
+      ]
     },
     {
       "id": "STR-KY-05",
@@ -433,7 +447,8 @@
           "reports/21_kyobo_capital_and_permissions.md"
         ],
         "status": "analyst_proposal_no_customer_trial"
-      }
+      },
+      "group_country_opportunities": []
     },
     {
       "id": "STR-HW-01",
@@ -451,12 +466,33 @@
         "ST-HW-006",
         "ST-HW-007",
         "ST-HW-008",
-        "ST-HW-009"
+        "ST-HW-009",
+        "RG-ID-002",
+        "HWX-M-001",
+        "HWX-M-002",
+        "HWX-M-004",
+        "HWX-M-005",
+        "HWA-GEO-006"
       ],
       "claim_ids": [
         "C-143",
         "C-144",
-        "C-152"
+        "C-152",
+        "C-267",
+        "C-268",
+        "C-269",
+        "C-272",
+        "C-273",
+        "C-274",
+        "C-276",
+        "C-278",
+        "C-279",
+        "C-280",
+        "C-281",
+        "C-282",
+        "C-283",
+        "C-284",
+        "C-297"
       ],
       "required_assumptions": [
         "해당 법인·업무·고객의 허용과 계약",
@@ -471,7 +507,27 @@
       "baseline_metrics": null,
       "budget": null,
       "measured_net_profit": null,
-      "actual_customer_trial_performed": false
+      "actual_customer_trial_performed": false,
+      "business_refinement": {
+        "as_of": "2026-11-03",
+        "case_id": "HANWHA-GROUP-BP-01",
+        "business_ids": [
+          "HW-BIZ-01"
+        ],
+        "record": "data/hanwha_blockchain_business_plan.json",
+        "reports": [
+          "reports/22_hanwha_group_business_plan.md",
+          "reports/23_hanwha_indonesia_business.md",
+          "reports/24_hanwha_us_uae_rails.md",
+          "reports/25_group_country_opportunity_discovery.md",
+          "reports/26_hanwha_ai_group_competition.md"
+        ],
+        "status": "analyst_proposal_no_customer_trial"
+      },
+      "group_country_opportunities": [
+        "HW-G-01",
+        "HW-G-06"
+      ]
     },
     {
       "id": "STR-HW-02",
@@ -489,14 +545,45 @@
         "ST-HW-002",
         "HWA-GEO-008",
         "HWA-GEO-001",
-        "HWA-GEO-006"
+        "HWA-GEO-006",
+        "HWA-GEO-009",
+        "HWX-A-001",
+        "HWX-A-002",
+        "ST-HW-013",
+        "HWX-A-004",
+        "HWX-A-006",
+        "HWX-A-008",
+        "HWA-GEO-003",
+        "RG-AE-001",
+        "HWX-R-006",
+        "HWX-R-008"
       ],
       "claim_ids": [
         "C-141",
         "C-142",
         "C-146",
         "C-147",
-        "C-149"
+        "C-149",
+        "C-246",
+        "C-247",
+        "C-248",
+        "C-249",
+        "C-254",
+        "C-260",
+        "C-261",
+        "C-262",
+        "C-263",
+        "C-265",
+        "C-251",
+        "C-252",
+        "C-253",
+        "C-255",
+        "C-264",
+        "C-266",
+        "C-302",
+        "C-303",
+        "C-304",
+        "C-305"
       ],
       "required_assumptions": [
         "해당 법인·업무·고객의 허용과 계약",
@@ -511,7 +598,31 @@
       "baseline_metrics": null,
       "budget": null,
       "measured_net_profit": null,
-      "actual_customer_trial_performed": false
+      "actual_customer_trial_performed": false,
+      "business_refinement": {
+        "as_of": "2026-11-03",
+        "case_id": "HANWHA-GROUP-BP-01",
+        "business_ids": [
+          "HW-BIZ-02",
+          "HW-BIZ-03",
+          "HW-BIZ-06"
+        ],
+        "record": "data/hanwha_blockchain_business_plan.json",
+        "reports": [
+          "reports/22_hanwha_group_business_plan.md",
+          "reports/23_hanwha_indonesia_business.md",
+          "reports/24_hanwha_us_uae_rails.md",
+          "reports/25_group_country_opportunity_discovery.md",
+          "reports/26_hanwha_ai_group_competition.md"
+        ],
+        "status": "analyst_proposal_no_customer_trial"
+      },
+      "group_country_opportunities": [
+        "HW-G-02",
+        "HW-G-03",
+        "HW-G-04",
+        "HW-G-05"
+      ]
     },
     {
       "id": "STR-HW-03",
@@ -528,11 +639,27 @@
       "source_ids": [
         "ST-HW-014",
         "ST-HW-004",
-        "ST-HW-010"
+        "ST-HW-010",
+        "HWX-V-001",
+        "HWX-V-003",
+        "HWX-V-004",
+        "HWX-V-005",
+        "KYX-V-008"
       ],
       "claim_ids": [
         "C-151",
-        "C-155"
+        "C-155",
+        "C-285",
+        "C-286",
+        "C-288",
+        "C-289",
+        "C-290",
+        "C-291",
+        "C-292",
+        "C-293",
+        "C-294",
+        "C-295",
+        "C-296"
       ],
       "required_assumptions": [
         "해당 법인·업무·고객의 허용과 계약",
@@ -547,7 +674,24 @@
       "baseline_metrics": null,
       "budget": null,
       "measured_net_profit": null,
-      "actual_customer_trial_performed": false
+      "actual_customer_trial_performed": false,
+      "business_refinement": {
+        "as_of": "2026-11-03",
+        "case_id": "HANWHA-GROUP-BP-01",
+        "business_ids": [
+          "HW-BIZ-04"
+        ],
+        "record": "data/hanwha_blockchain_business_plan.json",
+        "reports": [
+          "reports/22_hanwha_group_business_plan.md",
+          "reports/23_hanwha_indonesia_business.md",
+          "reports/24_hanwha_us_uae_rails.md",
+          "reports/25_group_country_opportunity_discovery.md",
+          "reports/26_hanwha_ai_group_competition.md"
+        ],
+        "status": "analyst_proposal_no_customer_trial"
+      },
+      "group_country_opportunities": []
     },
     {
       "id": "STR-HW-04",
@@ -564,10 +708,18 @@
       "source_ids": [
         "ST-HW-015",
         "SRC-CIRCLE-USDC-TERMS",
-        "NOV-M07"
+        "NOV-M07",
+        "KNX-M-003"
       ],
       "claim_ids": [
-        "C-153"
+        "C-153",
+        "C-259",
+        "C-261",
+        "C-265",
+        "C-292",
+        "C-294",
+        "C-295",
+        "C-305"
       ],
       "required_assumptions": [
         "해당 법인·업무·고객의 허용과 계약",
@@ -582,7 +734,24 @@
       "baseline_metrics": null,
       "budget": null,
       "measured_net_profit": null,
-      "actual_customer_trial_performed": false
+      "actual_customer_trial_performed": false,
+      "business_refinement": {
+        "as_of": "2026-11-03",
+        "case_id": "HANWHA-GROUP-BP-01",
+        "business_ids": [
+          "HW-BIZ-05"
+        ],
+        "record": "data/hanwha_blockchain_business_plan.json",
+        "reports": [
+          "reports/22_hanwha_group_business_plan.md",
+          "reports/23_hanwha_indonesia_business.md",
+          "reports/24_hanwha_us_uae_rails.md",
+          "reports/25_group_country_opportunity_discovery.md",
+          "reports/26_hanwha_ai_group_competition.md"
+        ],
+        "status": "analyst_proposal_no_customer_trial"
+      },
+      "group_country_opportunities": []
     }
   ]
 }

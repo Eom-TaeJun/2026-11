@@ -217,7 +217,9 @@
         ],
         "record": "data/kyobo_strategy_business_plan.json",
         "status": "analyst_proposal"
-      }
+      },
+      "group_scope": "교보그룹: 생명·증권·문고와 실제 계약 관계",
+      "group_opportunity_record": "data/group_country_opportunities.json"
     },
     {
       "target": "한화생명",
@@ -241,7 +243,7 @@
       "conditional_expansion": [
         "확인된 미국 소유관계와 별개로 한국 보험계정 자금 이전·토큰 서비스·개별 허가·수익은 추가 확인"
       ],
-      "next_deliverable": "가장 우선인 고객 업무의 계약·최종 현금·총비용 기준선과 대안 비교; 실제 자료 접근 전에는 검증 설계로 유지",
+      "next_deliverable": "현지 방카·QRIS·직원 보장의 접근가능 고객/계약/비용, 미국 기관 업무 기준선, UAE ETF 실제 순유입·보수·비용·권한. 국가 수요 후보를 실제 유료 업무로 좁히기.",
       "confirmed_us_connection": "Velocity 인수 완료 발표와 FINRA 간접 소유관계를 확인. 한화자산운용·공동 AI거점은 별도 기능.",
       "deferred_geographies": [
         "중국: 생명 홈페이지의 국가 수준 존재만 확인, 법인·지분·디지털 사업 미확인"
@@ -252,7 +254,21 @@
         "STR-HW-03",
         "STR-HW-04"
       ],
-      "strategy_report": "reports/14_hanwha_blockchain_strategy.md"
+      "strategy_report": "reports/14_hanwha_blockchain_strategy.md",
+      "group_scope": "한화그룹: 금융·현지·산업계열의 별도 법인·계약",
+      "group_opportunity_record": "data/group_country_opportunities.json",
+      "business_refinement": {
+        "as_of": "2026-11-03",
+        "reports": [
+          "reports/22_hanwha_group_business_plan.md",
+          "reports/23_hanwha_indonesia_business.md",
+          "reports/24_hanwha_us_uae_rails.md",
+          "reports/25_group_country_opportunity_discovery.md",
+          "reports/26_hanwha_ai_group_competition.md"
+        ],
+        "record": "data/hanwha_blockchain_business_plan.json",
+        "status": "analyst_proposal"
+      }
     },
     {
       "target": "BNK경남은행",
@@ -286,7 +302,9 @@
         "report": "reports/16_kyongnam_export_treasury_business_plan.md",
         "record": "data/kyongnam_export_business_plan.json",
         "status": "analyst_proposal"
-      }
+      },
+      "group_scope": "BNK금융지주: 은행·캐피탈·증권·운용 등 역할별 계약",
+      "group_opportunity_record": "data/group_country_opportunities.json"
     }
   ],
   "jurisdiction_research_queue": [
@@ -352,5 +370,6 @@
     "새로 연결된 각국의 법률·의안·개별 인가를 전수 검토하지 않았다. 미확인 규제의 통과 확률이나 상용화 시점을 임의로 부여하지 않는다.",
     "해외 현지법인·고객·제품이 없다는 판정이 아니라 이번에 읽은 자료의 경계다."
   ],
-  "strategy_addendum_as_of": "2026-11-03"
+  "strategy_addendum_as_of": "2026-11-03",
+  "group_scope_addendum_as_of": "2026-11-03"
 }

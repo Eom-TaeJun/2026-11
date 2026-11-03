@@ -557,6 +557,178 @@ Nobu–Bittime의 은행 가상계좌 연결을 지급 스테이블코인 발행
 한계: - 법인·상품별 계약권·보수·실제회수·상용결제·한국판매권으로 확대하지 않음
 - 국채를 미국국채로 특정하지 않음
 
+### C-246 · institution_statement · active
+
+한화생명의 Velocity 지분75% 인수는2025-07-30 완료 발표 단계이며 단순 인수 MOU가 아니다.
+
+근거: [HWA-GEO-008](../sources/cards/HWA-GEO-008.md)
+
+한계: 선택 공개 원문 범위의 판단이며 내부 계약·실제 고객 수익은 별도 확인한다.
+
+### C-247 · fact · active
+
+FINRA는 Velocity Clearing의 등록과 Hanwha Life US Investment–Nexus–VCT를 통한 간접 소유 경로를 기록한다. 국내 생명법인의 미국 직접 중개 허가를 뜻하지 않는다.
+
+근거: [HWA-GEO-009](../sources/cards/HWA-GEO-009.md)
+
+한계: 선택 공개 원문 범위의 판단이며 내부 계약·실제 고객 수익은 별도 확인한다.
+
+### C-248 · institution_statement · active
+
+Velocity 공식 상용 메뉴는 주식·ETF·옵션 중심이다. 채권·뮤추얼펀드는 출시예정 표시이고 선물은 IB–FCM 관계다.
+
+근거: [HWX-A-001](../sources/cards/HWX-A-001.md)
+
+한계: 선택 공개 원문 범위의 판단이며 내부 계약·실제 고객 수익은 별도 확인한다.
+
+### C-249 · institution_statement · active
+
+Velocity는 계좌 개설·주문·현금 이동·stock locate API를 안내한다. 지원24/6은 결제·은행현금24/7의 증거가 아니다.
+
+근거: [HWX-A-002](../sources/cards/HWX-A-002.md)
+
+한계: 선택 공개 원문 범위의 판단이며 내부 계약·실제 고객 수익은 별도 확인한다.
+
+### C-250 · fact · active
+
+생명–ADIO, 운용–ADGM–하나금융 협력은 서로 다른 관계다. ADFW2026은11/3 기준12/7~10의 미래 행사다.
+
+근거: [HWA-GEO-001](../sources/cards/HWA-GEO-001.md), [HWA-GEO-002](../sources/cards/HWA-GEO-002.md)
+
+한계: 선택 공개 원문 범위의 판단이며 내부 계약·실제 고객 수익은 별도 확인한다.
+
+### C-251 · institution_statement · active
+
+운용 MENA는2025-07 설립과 중동 사모펀드·현지 마케팅 활동을 공식 네트워크에서 소개한다. 생명 주재사무소와 구별한다.
+
+근거: [HWA-GEO-003](../sources/cards/HWA-GEO-003.md), [HWA-GEO-004](../sources/cards/HWA-GEO-004.md)
+
+한계: 선택 공개 원문 범위의 판단이며 내부 계약·실제 고객 수익은 별도 확인한다.
+
+### C-252 · institution_statement · active
+
+KDEF·KMCA는11/2 ADX 거래 개시를 ETC가 발표했고 WAM이 ADX 발표를 보도했다. 이는 기존 ETF 교차상장이며 토큰 ETF 출시는 확인되지 않았다.
+
+근거: [HWX-A-004](../sources/cards/HWX-A-004.md), [HWX-A-007](../sources/cards/HWX-A-007.md)
+
+한계: 선택 공개 원문 범위의 판단이며 내부 계약·실제 고객 수익은 별도 확인한다.
+
+### C-253 · fact · active
+
+KDEF의 adviser는ETC이고 한화운용은 지수 제공자·sponsor다. 한화는 AUM 연동 보수와 일부 비용·해당 시 최소보수 의무를 가진다.0.65% 전액이 한화 매출은 아니다.
+
+근거: [HWX-A-006](../sources/cards/HWX-A-006.md), [HWX-A-008](../sources/cards/HWX-A-008.md)
+
+한계: KDEF 선택 설명서 기준. 한화 보수율·현재 실현수익·KMCA 동일 조건은 미확인.
+
+### C-254 · interpretation · active
+
+교차상장 운영은 중개·AP·시장조성·법률·관리자 등 외부 역할을 요구한다. Velocity가 이 ETF를 현재 청산한다는 근거는 확보하지 못했다.
+
+근거: [HWX-A-004](../sources/cards/HWX-A-004.md), [HWX-A-006](../sources/cards/HWX-A-006.md), [HWA-GEO-009](../sources/cards/HWA-GEO-009.md)
+
+한계: 선택 공개 원문 범위의 판단이며 내부 계약·실제 고객 수익은 별도 확인한다.
+
+### C-256 · fact · active
+
+Circle MEA의 Active FSP는 Money Services·Arranging Deals in Investments를 기재하나 소매고객·고객자산 보유통제를 제한한다. 이 허가가 한화에 이전되지 않는다.
+
+근거: [HWX-A-003](../sources/cards/HWX-A-003.md)
+
+한계: 선택 공개 원문 범위의 판단이며 내부 계약·실제 고객 수익은 별도 확인한다.
+
+### C-257 · institution_statement · active
+
+Kresus 투자완료와 Chainlink 도입·플랫폼 구축 발표는 한화투자증권 신호이며 생명의 직접 계약이나 상용 RWA 수익을 뜻하지 않는다.
+
+근거: [ST-HW-001](../sources/cards/ST-HW-001.md), [ST-HW-002](../sources/cards/ST-HW-002.md)
+
+한계: 선택 공개 원문 범위의 판단이며 내부 계약·실제 고객 수익은 별도 확인한다.
+
+### C-258 · institution_statement · active
+
+생명–LCV는 공동투자 MOU 단계이고 LCV 포트폴리오와 한화의 직접 계약·직접 지분을 연결할 수 없다.
+
+근거: [ST-HW-005](../sources/cards/ST-HW-005.md)
+
+한계: 선택 공개 원문 범위의 판단이며 내부 계약·실제 고객 수익은 별도 확인한다.
+
+### C-261 · unknown · active
+
+한화 계열의 Circle/Tether 직접 상환 계약, Velocity의 고객 USDC·USDT 입금 및 거래·청산 지원, 한화 MENA의 구체적 FSP 범위는 이번 공식 원문 선택 조사에서 완결 확인하지 못했다.
+
+근거: [HWA-GEO-009](../sources/cards/HWA-GEO-009.md), [HWX-A-001](../sources/cards/HWX-A-001.md), [HWX-A-002](../sources/cards/HWX-A-002.md), [HWX-A-003](../sources/cards/HWX-A-003.md), [HWA-GEO-003](../sources/cards/HWA-GEO-003.md), [SRC-CIRCLE-USDC-TERMS](../sources/cards/SRC-CIRCLE-USDC-TERMS.md), [ST-HW-013](../sources/cards/ST-HW-013.md)
+
+한계: 검색의 미관측은 미계약·미인가의 확정 증거가 아니다.
+
+### C-262 · interpretation · active
+
+MVB–Visa 파일럿 자료의 Velocity는 velocity.xyz와 다른 CEO를 명시한다. 이를 한화 Velocity Clearing의 상용 레일로 귀속할 근거가 없다.
+
+근거: [ST-HW-011](../sources/cards/ST-HW-011.md), [HWA-GEO-009](../sources/cards/HWA-GEO-009.md)
+
+한계: 선택 공개 원문 범위의 판단이며 내부 계약·실제 고객 수익은 별도 확인한다.
+
+### C-263 · hypothesis · active
+
+미국은 기존 브로커 고객의 계좌·주문·현금·청산 예외 처리를 표준화하고 AI 보조를 붙이는 사업을 먼저 검증할 가치가 있다.
+
+근거: [HWX-A-001](../sources/cards/HWX-A-001.md), [HWX-A-002](../sources/cards/HWX-A-002.md), [HWA-GEO-009](../sources/cards/HWA-GEO-009.md)
+
+한계: 선택 공개 원문 범위의 판단이며 내부 계약·실제 고객 수익은 별도 확인한다.
+
+다른 설명: 경쟁 청산사가 같은 자동화를 더 싸게 제공하거나 기존 프로세스가 충분히 효율적이면 보수 확대 없이 비용만 늘 수 있다.
+
+다음 관측: 반복 예외량·처리시간·재작업·고객 유지와 완결 거래당 순기여를 기존 방식과 같은 기간 비교한다.
+
+### C-264 · hypothesis · active
+
+UAE의 우선 검증 대상은 실제 교차상장 ETF의 반복 고객·유동성·스폰서 순경제성이다. 토큰화는 별도 권리·허가·현금 조건에서 증분 효과를 실험한다.
+
+근거: [HWX-A-004](../sources/cards/HWX-A-004.md), [HWA-GEO-003](../sources/cards/HWA-GEO-003.md), [HWX-A-006](../sources/cards/HWX-A-006.md), [HWX-A-008](../sources/cards/HWX-A-008.md)
+
+한계: 선택 공개 원문 범위의 판단이며 내부 계약·실제 고객 수익은 별도 확인한다.
+
+다른 설명: UAE 고객이 기존 미국 브로커 경로를 선호하거나 테마 수요가 약하면 현지 상장 고정비·시장조성 비용을 충당하지 못할 수 있다.
+
+다음 관측: 지역별 순유입·비관계 고객·재거래·스프레드·AP/시장조성 가동·한화 계약상 순보수와 비용을 확인한다.
+
+### C-266 · hypothesis · active
+
+산업계열의 실제 공급망·에너지 현금흐름은 향후 금융상품·지급 수요의 후보일 수 있지만 거래 계약·권리양도·신용과 판매 동의가 있어야 금융계열의 고객이나 자산이 된다.
+
+근거: [HWA-GEO-001](../sources/cards/HWA-GEO-001.md), [HWX-A-006](../sources/cards/HWX-A-006.md)
+
+한계: 이번 미국·UAE 금융 원문은 특정 산업계열의 자산 이전·고객 계약·보험 인수·금융수익을 입증하지 않는다.
+
+다른 설명: 외부 은행·운용사가 가격·위험분산에 우위가 있거나 계열 집중·이해상충 비용이 커 내부 연계가 불리할 수 있다.
+
+다음 관측: 계열 외 비교 견적, 실제 계약 상대방·양도 제한·선순위 담보·현금 수취계좌·독립 투자심의와 고객 동의를 확인한다.
+
+### C-268 · fact · active
+
+2026 SNLIK의 종합 금융포용93.61%는 사회보장·지급 등 광범위 상품 이용 지표이며 생명보험의 충분 보장률이 아니다.
+
+근거: [ST-HW-008](../sources/cards/ST-HW-008.md)
+
+한계: - Nobu 고객의 연령·소득·보험수요로 전용할 수 없다.
+
+### C-270 · fact · active
+
+한국 한화생명은 2025-06-30 Nobu40% 투자 완료를 발표했으며 한화생명인니를 인수 주체로 바꿀 수 없다.
+
+근거: [HWA-GEO-005](../sources/cards/HWA-GEO-005.md)
+
+한계: - 40%는 발표 시점 값이고 최신 주주명부 미확인.
+
+### C-302 · institution_statement · active
+
+Qcells의 8월19일 발표는 Microsoft와 신규 전력 공급·VPP 모델을 탐색하는 단계이며 기존 태양광 공급·EPC 관계와 구분된다.
+
+근거: [HWX-R-006](../sources/cards/HWX-R-006.md)
+
+한계: 금융계열의 확정 투자·토큰화·보험 계약 근거가 아니다.
+
 ## 관련 원문
 
 - [KYO-GEO-001 · Kyobo Life Insurance Group and Japan’s SBI Group ink strategic partnership](../sources/cards/KYO-GEO-001.md)
@@ -590,10 +762,21 @@ Nobu–Bittime의 은행 가상계좌 연결을 지급 스테이블코인 발행
 - [RG-EU-001 · DLT Pilot Regime](../sources/cards/RG-EU-001.md)
 - [RG-EU-002 · EU market integration and efficient supervision](../sources/cards/RG-EU-002.md)
 - [RG-UK-002 · CP26/36: Cryptoasset perimeter guidance](../sources/cards/RG-UK-002.md)
+- [ST-HW-001 · 한화투자증권, 글로벌 Web3 기업 ‘크리서스’에 180억 원 규모 투자 완료](../sources/cards/ST-HW-001.md)
+- [ST-HW-002 · Hanwha Investment & Securities and Chainlink Form Strategic Partnership to Tokenize, Connect, and Collateralize Real-World Assets Worldwide](../sources/cards/ST-HW-002.md)
+- [ST-HW-005 · Hanwha Finance explores future financial innovation with global leaders at the 2026 World Economic Forum Annual Meeting in Davos](../sources/cards/ST-HW-005.md)
 - [ST-HW-006 · Hanwha Life Indonesia dan Nobu Bank Memasuki Era Baru Kolaborasi Strategis](../sources/cards/ST-HW-006.md)
 - [ST-HW-007 · Bancassurance](../sources/cards/ST-HW-007.md)
 - [ST-HW-008 · Siaran Pers Bersama: Indeks Literasi dan Inklusi Keuangan Masyarakat Meningkat, OJK, LPS, dan BPS Umumkan Hasil Survei Nasional Literasi dan Inklusi Keuangan (SNLIK) Tahun 2026](../sources/cards/ST-HW-008.md)
 - [ST-HW-009 · Asuransi / Bancassurance](../sources/cards/ST-HW-009.md)
+- [ST-HW-011 · MVB Partners with Velocity to Join Visa Direct Stablecoin Settlement Network](../sources/cards/ST-HW-011.md)
 - [ST-TD-004 · Stablecoins: Promise, Risks, and Policy Choices for Emerging Markets](../sources/cards/ST-TD-004.md)
+- [HWX-A-001 · Clearing & Custody](../sources/cards/HWX-A-001.md)
+- [HWX-A-002 · Trading Technology](../sources/cards/HWX-A-002.md)
+- [HWX-A-003 · Circle Internet MEA Ltd — FSRA public register / firm profile](../sources/cards/HWX-A-003.md)
+- [HWX-A-004 · Exchange Traded Concepts Takes Client ETFs to the Abu Dhabi Securities Exchange](../sources/cards/HWX-A-004.md)
+- [HWX-A-007 · ADX welcomes listing of two Korean ETFs](../sources/cards/HWX-A-007.md)
+- [HWX-M-001 · PT Lippo General Insurance Tbk — Laporan Keberlanjutan 2025](../sources/cards/HWX-M-001.md)
+- [HWX-R-006 · Qcells Expands Alliance with Microsoft to Explore New Approach for Adding Energy Capacity Alongside AI Infrastructure](../sources/cards/HWX-R-006.md)
 
 [전체 주제 지도](INDEX.md)

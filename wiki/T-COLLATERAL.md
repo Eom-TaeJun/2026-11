@@ -82,6 +82,26 @@ IMF 10월 GFSR은 전반적으로 완화적인 금융여건과 높은 금융안�
 
 한계: - 도산법·세법·신탁법 전체 검토나 특정구조의 도산절연 확정은 아님
 
+### C-303 · hypothesis · active
+
+한화 산업계열의 에너지 운영 정보는 지급의무·계량·정산·담보·회수 권리가 확보될 때 금융계열의 구조화·운용 후보가 될 수 있다. 예상 발전량이나 기술 제휴 자체를 확정채권으로 토큰화해서는 안 된다.
+
+근거: [HWX-R-006](../sources/cards/HWX-R-006.md), [HWX-R-008](../sources/cards/HWX-R-008.md)
+
+한계: 실제 프로젝트·투자자·조건·계열거래 적격성이 미확인인 후순위 탐색 가설.
+
+다른 설명: 기존 은행 PF·사모대출·유동화가 더 낮은 자금조달비용 제공
+
+다음 관측: 실계약·계량 분쟁·현금 정산과 기존 금융 대비 비용·위험
+
+### C-305 · interpretation · active
+
+그룹 사업성은 법인별 수입·비용을 표시한 뒤 내부거래를 제거한 외부 기여, 손실·자본·기존사업 잠식을 별도로 판단해야 한다. 법적 연결범위 밖 계열사와 지분법 대상에는 같은 연결 제거를 기계적으로 적용하지 않는다.
+
+근거: [HWX-R-008](../sources/cards/HWX-R-008.md), [HWX-R-001](../sources/cards/HWX-R-001.md), [ST-HW-015](../sources/cards/ST-HW-015.md)
+
+한계: 관리회계 설계 제안이며 개별 그룹 재무제표의 실제 연결범위·이익 계산 아님.
+
 ## 관련 원문
 
 - [FIN-001 · Tokenized Finance](../sources/cards/FIN-001.md)
@@ -95,5 +115,6 @@ IMF 10월 GFSR은 전반적으로 완화적인 금융여건과 높은 금융안�
 - [ST-HW-002 · Hanwha Investment & Securities and Chainlink Form Strategic Partnership to Tokenize, Connect, and Collateralize Real-World Assets Worldwide](../sources/cards/ST-HW-002.md)
 - [KNX-M-005 · UNIDROIT Model Law on Factoring](../sources/cards/KNX-M-005.md)
 - [KNX-M-006 · UNIDROIT Principles on Digital Assets and Private Law](../sources/cards/KNX-M-006.md)
+- [HWX-R-008 · 2026년도 금융복합기업집단 지정](../sources/cards/HWX-R-008.md)
 
 [전체 주제 지도](INDEX.md)

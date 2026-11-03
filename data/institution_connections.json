@@ -730,6 +730,46 @@
         "온체인 상용화·반복 수익",
         "경남은행의 해외사업 부재"
       ]
+    },
+    {
+      "id": "HWA-CON-12",
+      "jurisdiction": "미국 펀드 / UAE Abu Dhabi Securities Exchange",
+      "geography_label": "미국·UAE 아부다비",
+      "target_group": "한화 금융계열사",
+      "entity": "한화자산운용",
+      "entity_scope": "ETF index provider and sponsor; ETC adviser; local distribution roles separate",
+      "partner": "Exchange Traded Concepts / ADX / Oceane / Waystone / Foreside(미국 distributor)",
+      "activity": "KDEF·KMCA ADX 교차상장 거래 개시 발표",
+      "stage": "trading_commencement_announced_not_token_ETF",
+      "dates": {
+        "announced": "2026-11-02",
+        "trading_start": "2026-11-02"
+      },
+      "role": "한화운용 지수·sponsor와 ETC adviser의 역할 및 보수를 구분. KDEF 계약은 확인했으나 KMCA에 동일 조건 대입하지 않음.",
+      "risks": [
+        "반복 수요·실제 순유입·순이익 미확인",
+        "Velocity 청산 참여 미확인",
+        "일반 ETF와 토큰 상품 권한 구분"
+      ],
+      "source_ids": [
+        "HWX-A-004",
+        "HWX-A-006",
+        "HWX-A-007",
+        "HWX-A-008"
+      ],
+      "claim_ids": [
+        "C-252",
+        "C-253",
+        "C-254"
+      ],
+      "as_of": "2026-11-03",
+      "target_entity_local_operation_status": "cross_listing_announcement; MENA FSP scope not established",
+      "payer_or_return_hypothesis": "KDEF sponsor AUM-linked fee rate undisclosed; expenses and applicable minimum adviser fee must be deducted",
+      "next_observation": [
+        "판매자·수탁·시장조성 계약과 현지 권한",
+        "거래·설정/환매·순유입·보수·비용"
+      ]
     }
-  ]
+  ],
+  "followup_as_of": "2026-11-03"
 }

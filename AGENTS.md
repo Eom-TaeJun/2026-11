@@ -47,3 +47,5 @@ GitHub 인기는 목적 적합성의 보조 지표다. 현재 누적 스타, 기
 필요한 제도·인가·권리·현금·고객 위임이 성립한 강한 가정에서도 고객 행동·경쟁 대응·수익 배분을 추론한다. 현재 미인가라는 이유만으로 미래 분석을 중단하지 않는다. 교수형 검토는 공개 강의의 질문을 적용한 연구자 분석이며 강의자의 현재 견해를 대변하지 않는다. 경남 본사·교보 미래전략·한화 생명 신사업의 시점은 사용자 지정 관점이지 현행 업무분장의 확인이 아니다.
 
 교보 후속 연구는 `agents/kyobo_strategy_workflow.md`, `reports/18`~`21`, `data/kyobo_strategy_business_plan.json`과 `data/kyobo_ip_deal_checklist.json`을 먼저 확인한다. 파일명의 정확한 링크는 README에 있다. 기존 STR-KY-01~05 순위와 미확인 값을 사실 없이 변경하지 않는다.
+
+그룹·국가 후속 연구는 `agents/group_country_opportunity_workflow.md`와 `data/group_country_opportunities.json`을 따른다. 한화 상세는 reports/22~26 및 `data/hanwha_blockchain_business_plan.json`이다. BNK지주·교보그룹·한화그룹을 법적 단일 회사나 동일 연결손익으로 합치지 않는다. 국가 수요에서 새로운 고객 업무를 찾고 기존 STR 12개 순위는 사실 없이 바꾸지 않는다.

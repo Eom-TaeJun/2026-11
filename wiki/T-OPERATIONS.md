@@ -826,6 +826,206 @@ USDC·USDT 직접 상환은 발행자 자격·계약·규모·은행시간을 �
 
 한계: 분석용 관리회계 원칙이며 회사 내부 배분자본·계약가격·회계손익을 확보한 것은 아니다.
 
+### C-249 · institution_statement · active
+
+Velocity는 계좌 개설·주문·현금 이동·stock locate API를 안내한다. 지원24/6은 결제·은행현금24/7의 증거가 아니다.
+
+근거: [HWX-A-002](../sources/cards/HWX-A-002.md)
+
+한계: 선택 공개 원문 범위의 판단이며 내부 계약·실제 고객 수익은 별도 확인한다.
+
+### C-267 · fact · active
+
+한화생명인니와 Nobu의 방카슈랑스 협력은 2025-08-15 체결했다고 현지 보험자가 발표했고 Nobu 공개 페이지에는 한화 보험 3종이 있다.
+
+근거: [ST-HW-006](../sources/cards/ST-HW-006.md), [ST-HW-007](../sources/cards/ST-HW-007.md)
+
+한계: - 협력·등재는 판매액·수익·고객 전환 증거가 아니다.
+
+### C-272 · fact · active
+
+Nobu QRIS의 공개 MDR은 영세 건당IDR500,000이하0%, 초과0.3%, 일반 중소·대형0.7%이며 일부 확장 기능은 Coming Soon 표시다.
+
+근거: [HWX-M-002](../sources/cards/HWX-M-002.md)
+
+한계: - 고객 부과 MDR은 은행 잔여 수익이 아니다.
+
+### C-275 · fact · active
+
+2026-09 Bittime 공지는 Nobu VA 입금 유지보수 중지와 대체 은행 경로를 안내했다.
+
+근거: [HWA-GEO-007](../sources/cards/HWA-GEO-007.md)
+
+한계: - 과거 공지이며 현재 중단 증거가 아니다.
+
+### C-278 · hypothesis · active
+
+기존 방카 고객의 보장 확인·납입 유지·청구 안내를 개선하면 신규 판매 확대보다 먼저 반복 지원비용과 고객 오류를 줄일 수 있다.
+
+근거: [ST-HW-006](../sources/cards/ST-HW-006.md), [ST-HW-007](../sources/cards/ST-HW-007.md), [ST-HW-008](../sources/cards/ST-HW-008.md), [HWX-M-005](../sources/cards/HWX-M-005.md)
+
+한계: - 절감·유지율·유료 수요는 미관측.
+
+다른 설명: 보험료 부담·보장 범위가 문제라면 안내 자동화만으로 유지율이 개선되지 않는다.
+
+다음 관측: 약관 이해·서류 재작업·납입 실패·민원·유지율을 기존 방식과 비교
+
+### C-279 · hypothesis · active
+
+Nobu 가맹점의 IDR 수납 대사와 운영자금 가시성은 보험 외 유료 업무 후보이며 기존 API+AI가 우선 비교 기준이다.
+
+근거: [HWX-M-002](../sources/cards/HWX-M-002.md), [HWA-GEO-006](../sources/cards/HWA-GEO-006.md), [HWA-GEO-007](../sources/cards/HWA-GEO-007.md)
+
+한계: - 가맹점/플랫폼의 실제 지불 의사·오류 비용은 미확인.
+
+다른 설명: 무료 POS/은행 서비스가 충분하면 추가 비용을 낼 고객이 없다.
+
+다음 관측: 실제 대사 비용과 고객이 지불하는 반복 계약·총비용을 확인
+
+### C-280 · hypothesis · active
+
+고용주의 직원 보장·자격 변경·청구 관리는 LGI 보험과 연결할 수 있는 별도 후보다.
+
+근거: [HWX-M-004](../sources/cards/HWX-M-004.md), [HWX-M-005](../sources/cards/HWX-M-005.md), [HWX-M-001](../sources/cards/HWX-M-001.md)
+
+한계: - 기존 상품 존재가 Nobu 유통계약·새 사업 수요를 증명하지 않는다.
+
+다른 설명: 고용주 예산·기존 중개인 경쟁·의료비 상승이 개선 효과를 압도할 수 있다.
+
+다음 관측: 고용주 갱신 의사·자격 오류·청구 지원비·보험위험 변화를 확인
+
+### C-284 · fact · active
+
+PBI10/2025 122조는 해당 국내 지급 처리와 데이터센터·재해복구센터 원칙 및 해외 처리의 BI 승인을 구분한다.
+
+근거: [RG-ID-002](../sources/cards/RG-ID-002.md)
+
+한계: - Nobu 업무별 적용과 기존 개별 승인은 미확인. 일반 설명용 AI 전체의 국외 금지로 확대하지 않는다.
+
+### C-285 · institution_statement · active
+
+한화생명의2026-10-16 적용 개인정보처리방침은 룰 또는 AI에 의한 자동 인수·보험금 접수/지급심사와 설명·검토 절차를 안내한다.
+
+근거: [HWX-V-001](../sources/cards/HWX-V-001.md)
+
+한계: 기존 자동화의 공개 설명이며 생성형 에이전트의 자율계약·자동출금·정확도·이익을 확인하지 않음.
+
+### C-286 · interpretation · active
+
+보험계약자·피보험자·수익자·위임받은 자는 같은 사람이라고 가정할 수 없으며 청구자료 접근·지급확정·수취계좌 변경·투자 주문을 별도 권한으로 설계해야 한다.
+
+근거: [HWX-V-001](../sources/cards/HWX-V-001.md), [HWX-V-003](../sources/cards/HWX-V-003.md)
+
+한계: 개별 계약·가족관계·법정대리·상속의 법률 판단은 별도. 연구 설계 기준.
+
+### C-287 · institution_statement · active
+
+공식 자회사 소개는 보험대리/중개와 보험계약조사·집합투자·은행·보험 기능을 구별하며 자산총액 기준은2024년말로 표시한다.
+
+근거: [HWX-V-002](../sources/cards/HWX-V-002.md)
+
+한계: 현재 지분·자본·연결범위·개별 인가의 전수확인이 아님.
+
+### C-288 · institution_statement · active
+
+Allianz의2026년3월 설명은 한정된 단순 청구의 자동화와 불확실/잠재 부지급의 사람 검토를 제시한다.
+
+근거: [HWX-V-004](../sources/cards/HWX-V-004.md)
+
+한계: 회사 자기보고. 한국 생명보험 모든청구의 성과나 공통 자동판단 허용을 입증하지 않음.
+
+### C-289 · institution_statement · active
+
+Prudential Hong Kong의9월9일 AI Underwriter는 상담사의 사전 인수 가이드를 제공하며 최종인수는 전문심사자가 결정하고 다른 유통채널 확대는 계획으로 구분한다.
+
+근거: [HWX-V-005](../sources/cards/HWX-V-005.md)
+
+한계: 미국 Prudential Financial과 법인 구분. 정확도·생산성과·반복사용·이익 독립검증 미실시.
+
+### C-290 · interpretation · active
+
+교보의 유지·청구관리 방향과 IBKR의 추가연결료 없는 AI 접점은 단순 정보·접속보다 실행과 사후관리의 구매 가치를 검증해야 하는 경쟁 근거다.
+
+근거: [HWX-V-006](../sources/cards/HWX-V-006.md), [KYX-V-008](../sources/cards/KYX-V-008.md), [KYX-V-009](../sources/cards/KYX-V-009.md)
+
+한계: 보험과 증권의 업무·책임이 같다는 뜻이 아니며 교보전략 설명을 실적이나 IBKR조건을 한국허가로 옮기지 않음.
+
+### C-291 · hypothesis · active
+
+한화가 기존 자동심사·은행지급·권한있는 고객 접점을 연결하면 보험금 서류 준비부터 실제 입금·설명·재심사까지의 마찰을 줄여 고객 편익과 운영 성과를 개선할 수 있다.
+
+근거: [HWX-V-001](../sources/cards/HWX-V-001.md), [HWX-V-003](../sources/cards/HWX-V-003.md), [HWX-V-004](../sources/cards/HWX-V-004.md)
+
+한계: 블록체인팀의 현재 업무나 예산·서비스 출시를 확인한 것이 아님.
+
+다른 설명: 기존 보험 업무시스템과 API+AI만으로 충분하고 다기관 공유원장 비용이 추가편익을 넘을 수 있다.
+
+다음 관측: 같은 유형의 청구에서 보완서류·최종입금시간·오판/재심사·민원·총운영비를 비교하고 고객별 추가서비스 강요가 없는지 확인.
+
+### C-292 · hypothesis · active
+
+빠른 보험금 지급은 고객의 대기 부담을 줄이지만 보험사의 운용 가능 현금을 일찍 줄일 수 있으므로 운영절감·지연이자·유지효과와 유동성 비용을 함께 평가해야 한다.
+
+근거: [HWX-V-003](../sources/cards/HWX-V-003.md), [ST-HW-015](../sources/cards/ST-HW-015.md)
+
+한계: 지급지연을 수익전략으로 삼는 것이 아니며 약정/법정 지급기한을 우선한다. 실제금리·지연비용·절감액은 미확인.
+
+다른 설명: 지급시각 변화가 작거나 이미 버퍼를 보유하면 추가 유동성비가 미미하고 운영절감이 우세할 수 있다.
+
+다음 관측: 동일 보험부채·청구유형에서 실제 지급시각과 피크현금·버퍼·운용수입·지연이자·민원비를 함께 비교.
+
+### C-293 · hypothesis · active
+
+외부 고객 AI의 비교·전환이 쉬워지면 보험·투자상품 가격과 유통보수는 압박받고 플랫폼이 고객관계와 배분보수 일부를 확보할 수 있다.
+
+근거: [HWX-V-005](../sources/cards/HWX-V-005.md), [HWX-V-006](../sources/cards/HWX-V-006.md), [KYX-V-008](../sources/cards/KYX-V-008.md)
+
+한계: 고객 행동·가격전가·플랫폼계약이 관측된 한화 실적은 아님.
+
+다른 설명: 복잡한 보장·분쟁·생애관리에서 신뢰와 전문 상담이 남아 기존 채널의 지급의사와 유지율을 지킬 수 있다.
+
+다음 관측: 동일 고객목적의 외부채널 배분 후 계약기여·가입/유지·부적합판매·해지손실·가격 비교와 재이용.
+
+### C-294 · hypothesis · active
+
+보험 정보와 예비 인수조건이 표준화되면 더 빠른 가입 외에 유리한 위험의 가격경쟁·고객선택이 인수 포트폴리오 구성을 바꿀 수 있다.
+
+근거: [HWX-V-005](../sources/cards/HWX-V-005.md), [ST-HW-015](../sources/cards/ST-HW-015.md)
+
+한계: 실제 역선택 발생·손해율 상승을 확인한 것이 아님. 고객정보 왜곡이나 차별을 권고하지 않음.
+
+다른 설명: 더 정확한 정보와 적합한 보장 선택이 정보비대칭·불완전판매를 줄여 위험과 유지 성과를 함께 개선할 수 있다.
+
+다음 관측: 기존/AI경로의 위험구성·추가자료·인수조건·기간별 청구·유지·해지·총획득비를 같은 보장기준으로 비교.
+
+### C-295 · interpretation · active
+
+보험금 지급은 기존 계약 의무의 이행이며 그 현금이 계열 증권·운용상품으로 이동하려면 별도 고객 목적·동의·자격·주문이 필요하다. 새 예수금·AUM이나 보험료 총액을 그룹 순이익으로 더할 수 없다.
+
+근거: [HWX-V-001](../sources/cards/HWX-V-001.md), [HWX-V-003](../sources/cards/HWX-V-003.md), [ST-HW-010](../sources/cards/ST-HW-010.md), [ST-HW-015](../sources/cards/ST-HW-015.md)
+
+한계: 개별 상품의 회계처리·세금·연결범위·계열가격은 별도확인.
+
+### C-296 · hypothesis · active
+
+기관용 상품정보·자격확인·실행상태·대사/복구 서비스를 외부 은행·보험·증권사나 플랫폼이 구매하면 B2B 계약 수입을 만들 수 있다.
+
+근거: [ST-HW-004](../sources/cards/ST-HW-004.md), [ST-HW-014](../sources/cards/ST-HW-014.md), [KYX-V-008](../sources/cards/KYX-V-008.md)
+
+한계: 한화의 유료기관계약·단가·매출은 미확인. AI 자체가 지급자가 아니며 고객의 기존 보험권리를 별도 유료상품 구매와 결부시키지 않음.
+
+다른 설명: 표준 API·클라우드·기존 공급업체와 무료연결 경쟁으로 추가요금 지급의사가 없을 수 있다.
+
+다음 관측: 업무별 지급자 서명견적·지원수준·오류책임·데이터이관권·외부배분 후 반복계약 기여.
+
+### C-297 · interpretation · active
+
+국가별 사회적·산업적 수요는 접근가능 고객과 다르다. 국가의 지급/투자/보장 문제를 특정 고객·법인·통화·기간·지급자와 기존 대안으로 좁힌 뒤 그룹 자원을 배치해야 한다.
+
+근거: [ST-HW-008](../sources/cards/ST-HW-008.md), [ST-KN-002](../sources/cards/ST-KN-002.md), [KYX-M-001](../sources/cards/KYX-M-001.md), [ST-HW-007](../sources/cards/ST-HW-007.md)
+
+한계: 국가별 시장규모·고객전환율을 추정하지 않는 사업발견 방법 제안. 기존회사강점에서만 출발하는 선택편향도 점검.
+
 ## 관련 원문
 
 - [FIN-001 · Tokenized Finance](../sources/cards/FIN-001.md)
@@ -836,6 +1036,7 @@ USDC·USDT 직접 상환은 발행자 자격·계약·규모·은행시간을 �
 - [PRIOR-001 · 디지털 금융환경의 변화와 한국 금융기관의 대응](../sources/cards/PRIOR-001.md)
 - [NOV-ECB-BONDS · Tokenised bonds: assessing efficiency and liquidity in a nascent market](../sources/cards/NOV-ECB-BONDS.md)
 - [NOV-FATF · Outcomes FATF Plenary, 28–30 October 2026](../sources/cards/NOV-FATF.md)
+- [HWA-GEO-009 · BrokerCheck Report: VELOCITY CLEARING, LLC — CRD 126588](../sources/cards/HWA-GEO-009.md)
 - [KN-003 · 무보, BNK경남은행과 동남권 수출기업 특별 우대금융 지원 개시](../sources/cards/KN-003.md)
 - [RG-JP-002 · 令和７年資金決済法改正に係る政令の公布及びパブリックコメントの結果等について](../sources/cards/RG-JP-002.md)
 - [RG-SG-001 · Guide on the Tokenisation of Capital Markets Products](../sources/cards/RG-SG-001.md)
@@ -848,6 +1049,9 @@ USDC·USDT 직접 상환은 발행자 자격·계약·규모·은행시간을 �
 - [RG-VN-004 · Administrative sanctions against violations in crypto assets](../sources/cards/RG-VN-004.md)
 - [RG-UK-001 · PS26/7: Progressing Fund Tokenisation](../sources/cards/RG-UK-001.md)
 - [RG-UK-002 · CP26/36: Cryptoasset perimeter guidance](../sources/cards/RG-UK-002.md)
+- [ST-HW-001 · 한화투자증권, 글로벌 Web3 기업 ‘크리서스’에 180억 원 규모 투자 완료](../sources/cards/ST-HW-001.md)
+- [ST-HW-002 · Hanwha Investment & Securities and Chainlink Form Strategic Partnership to Tokenize, Connect, and Collateralize Real-World Assets Worldwide](../sources/cards/ST-HW-002.md)
+- [ST-HW-004 · 한화투자증권, 모바일 투자 앱 개편… 이제 디지털자산도 ‘한화투자증권 MTS’ 에서](../sources/cards/ST-HW-004.md)
 - [ST-HW-008 · Siaran Pers Bersama: Indeks Literasi dan Inklusi Keuangan Masyarakat Meningkat, OJK, LPS, dan BPS Umumkan Hasil Survei Nasional Literasi dan Inklusi Keuangan (SNLIK) Tahun 2026](../sources/cards/ST-HW-008.md)
 - [ST-HW-014 · Implementation Considerations](../sources/cards/ST-HW-014.md)
 - [ST-HW-015 · Risk Management](../sources/cards/ST-HW-015.md)
@@ -898,5 +1102,17 @@ USDC·USDT 직접 상환은 발행자 자격·계약·규모·은행시간을 �
 - [KYX-V-009 · AI Trading Supplement — Form 4923](../sources/cards/KYX-V-009.md)
 - [KYX-V-010 · Fees — Tether](../sources/cards/KYX-V-010.md)
 - [KYX-V-011 · AI Instructions — Client Portal User Guide](../sources/cards/KYX-V-011.md)
+- [HWX-A-001 · Clearing & Custody](../sources/cards/HWX-A-001.md)
+- [HWX-A-002 · Trading Technology](../sources/cards/HWX-A-002.md)
+- [HWX-M-002 · QRIS Nobu: Solusi QRIS Terintegrasi untuk Pembayaran Digital](../sources/cards/HWX-M-002.md)
+- [HWX-M-004 · HealthPlus+ Business](../sources/cards/HWX-M-004.md)
+- [HWX-M-005 · Panduan Mobile JKN — Administrasi Kepesertaan JKN](../sources/cards/HWX-M-005.md)
+- [HWX-V-001 · 개인정보 처리방침 V4.01 — 자동화된 결정·제3자 제공·국외이전](../sources/cards/HWX-V-001.md)
+- [HWX-V-002 · 자회사정보 — 주요 사업과 자산 산정시점](../sources/cards/HWX-V-002.md)
+- [HWX-V-003 · 보험금 청구시 알아두셔야 할 내용](../sources/cards/HWX-V-003.md)
+- [HWX-V-004 · For People. For Pets. For Trust: Responsible Use of AI at Allianz](../sources/cards/HWX-V-004.md)
+- [HWX-V-005 · Prudential launches brand new AI Underwriter powered by Alibaba Cloud](../sources/cards/HWX-V-005.md)
+- [HWX-V-006 · AI 시대에도 보험설계사가 필요한 이유는 무엇일까?](../sources/cards/HWX-V-006.md)
+- [HWX-R-005 · 교보생명, 로보어드바이저로 변액보험 고객 펀드 관리 돕는다](../sources/cards/HWX-R-005.md)
 
 [전체 주제 지도](INDEX.md)

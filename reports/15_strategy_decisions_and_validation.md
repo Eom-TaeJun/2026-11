@@ -135,3 +135,9 @@ flowchart TD
 [교보 사업안](18_kyobo_future_strategy_business_plan.md), [그룹 RWA 한 거래](19_kyobo_group_rwa_deal_design.md), [레일·AI 고객접점](20_kyobo_rails_agent_business.md), [자본·업무권한](21_kyobo_capital_and_permissions.md)을 연결했다. 기존 중개·반복 IB·기관 자금관리와 그룹/해외 후보의 투자 거리를 나누고, 주선·관리 수익과 자기 인수·보증·유동성·제휴 지분의 자본 사용을 분리한다. 기존 다섯 과제의 순위를 임의로 바꾸지 않았다.
 
 독립 검토에서는 계열 기업신용 제한, IBKR의 시점·고객별 문서 차이, AI 자금 구획과 법적 재산 분리의 차이를 보강했다. 정산채권의 배분식에는 요구액·실제 지급/적립·부족을 구분하고 적법한 대체발행과 소멸채권 중복 발행을 나눴다. 공개 출처26건 추가·9건 갱신과 주장45개 추가·3개 갱신은 [실행 기록](../runs/2026-11-03-kyobo-strategy.json)에 있다. [사업 원장](../data/kyobo_strategy_business_plan.json)과 [거래 체크리스트](../data/kyobo_ip_deal_checklist.json)의 실제 고객·계약·예산·수익은 미확인이다.
+
+## 한화 사업 구체화와 세 그룹 확장
+
+기존 STR-HW-01~04 순위는 유지하고 [한화 사업안](22_hanwha_group_business_plan.md)의 현지 보장·청구, 미국 사후처리, UAE 실제 유통, AI 실행/복구, ALM, 산업계약 후보로 세분화했다. [구조화 원장](../data/hanwha_blockchain_business_plan.json)에 지급자·법인·총비용·반증을 보존한다. 90일 초기 운영 검증으로 장기 보험 유지·보험손익을 입증했다고 판단하지 않는다.
+
+BNK지주의 지역 산업금융, 교보의 정산권리·장기 목적 관리, 한화의 현지·산업 업무 후보 10건은 [그룹 기회 원장](../data/group_country_opportunities.json)과 [보고서25](25_group_country_opportunity_discovery.md)에 연결했다. 기존 12개 전략 과제의 순위나 예산을 자동 변경하지 않았다.

@@ -763,6 +763,46 @@ IMA에는 고객 요청 중도해지 예외를 둔 손실보전, 분리관리·�
 
 한계: 분석용 관리회계 원칙이며 회사 내부 배분자본·계약가격·회계손익을 확보한 것은 아니다.
 
+### C-281 · interpretation · active
+
+보험료·보험자 이익·은행 유통보수·예금조달 기여는 다르며 계열 내부 보수를 그룹 순익에 이중 합산하면 안 된다.
+
+근거: [ST-HW-007](../sources/cards/ST-HW-007.md), [HWA-GEO-005](../sources/cards/HWA-GEO-005.md), [HWX-M-001](../sources/cards/HWX-M-001.md)
+
+한계: - 거래별 회계·세무·계약 검토가 필요하다.
+
+### C-282 · hypothesis · active
+
+적법한 디지털 현금·개별 참가·고객 권한이 성립해도24시간 지급은 현금 대기·복구·유동성 비용을 늘릴 수 있고 경쟁이 절감분을 고객 가격으로 이전시킬 수 있다.
+
+근거: [HWX-M-003](../sources/cards/HWX-M-003.md), [RG-ID-002](../sources/cards/RG-ID-002.md), [HWA-GEO-007](../sources/cards/HWA-GEO-007.md), [HWX-M-002](../sources/cards/HWX-M-002.md)
+
+한계: - 미래 조건부 분석이며 현재 출시·허가·성과 주장이 아니다.
+
+다른 설명: 폐쇄망/기존API가 충분하거나 대기유동성·운영비가 커지면 온체인 확장이 불리하다.
+
+다음 관측: 개별 승인 후 실제 가용 현금 시간·총비용·사고 복구·예금 잔액 순변화를 비교
+
+### C-298 · institution_statement · active
+
+BNK는 지역 앵커기업·협력기업·임직원을 산업 생태계로 묶는 산업금융과 기업지원센터 계획을 7월 발표했다.
+
+근거: [HWX-R-001](../sources/cards/HWX-R-001.md), [HWX-R-007](../sources/cards/HWX-R-007.md)
+
+한계: 현재 집행·고객 효과의 확인이 아니다.
+
+### C-299 · interpretation · active
+
+BNK 관점에서는 수출 수금·FX·운전자금에 설비 리스와 자본시장·운용을 후보 기능으로 붙일 수 있지만, 계약·담보·손익·고객 동의를 각 법인별로 정해야 한다.
+
+근거: [HWX-R-001](../sources/cards/HWX-R-001.md), [HWX-R-002](../sources/cards/HWX-R-002.md), [HWX-R-003](../sources/cards/HWX-R-003.md), [HWX-R-004](../sources/cards/HWX-R-004.md), [KNX-S-001](../sources/cards/KNX-S-001.md)
+
+한계: 그룹의 실제 통합 상품 출시나 모든 인가 범위를 확인한 것이 아니다.
+
+다른 설명: 단일 은행·외부 리스나 증권사 조합이 더 낮은 총비용을 제공
+
+다음 관측: 고객별 반복 자금 문제, 외부 비교 견적, 담보 순위, 계열 거래 제거 후 기여
+
 ## 관련 원문
 
 - [FIN-004 · Project Agorá](../sources/cards/FIN-004.md)
@@ -820,5 +860,6 @@ IMA에는 고객 요청 중도해지 예외를 둔 손실보전, 분리관리·�
 - [KYX-A-004 · 자본시장법 — 제77조의2·제77조의3·제360조 지정·기업신용·계열 제한·단기금융 인가](../sources/cards/KYX-A-004.md)
 - [KYX-M-007 · 20년 뒤 내 보험금, 보험사는 어떻게 준비할까?](../sources/cards/KYX-M-007.md)
 - [KYX-M-008 · FY2025 실적 설명자료 — 보장성 보험 확대·선제적 투자 리밸런싱](../sources/cards/KYX-M-008.md)
+- [HWX-R-001 · BNK금융그룹 부울경 경제 도약 BNK프로젝트 가동](../sources/cards/HWX-R-001.md)
 
 [전체 주제 지도](INDEX.md)

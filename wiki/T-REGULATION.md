@@ -881,6 +881,70 @@ IP 상품은 신탁 가능한 특정 청구권, 장래매출채권, 공동사업
 
 한계: 정책 방향과 선택 예고 내용을 거래 설계에 적용한 해석이며 개별 IP 상품 적격성·최종 규칙·인가를 확인한 것은 아니다.
 
+### C-255 · fact · active
+
+ADGM FRT 체계는2026-01-01 효력이지만 특정 회사의 개별 FSP·상품·고객 범위는 별도다. 증권인 토큰은 증권 규율을 받는다.
+
+근거: [RG-AE-001](../sources/cards/RG-AE-001.md), [RG-AE-002](../sources/cards/RG-AE-002.md)
+
+한계: 선택 공개 원문 범위의 판단이며 내부 계약·실제 고객 수익은 별도 확인한다.
+
+### C-256 · fact · active
+
+Circle MEA의 Active FSP는 Money Services·Arranging Deals in Investments를 기재하나 소매고객·고객자산 보유통제를 제한한다. 이 허가가 한화에 이전되지 않는다.
+
+근거: [HWX-A-003](../sources/cards/HWX-A-003.md)
+
+한계: 선택 공개 원문 범위의 판단이며 내부 계약·실제 고객 수익은 별도 확인한다.
+
+### C-259 · fact · active
+
+USDC 단순 보유자는 직접 환매권 실행에 필요한 Mint 자격과 구별된다. 현재 환매 안내의 처리시간과 은행 결제시간도 별도다.
+
+근거: [SRC-CIRCLE-USDC-TERMS](../sources/cards/SRC-CIRCLE-USDC-TERMS.md), [KNX-M-003](../sources/cards/KNX-M-003.md)
+
+한계: 선택 공개 원문 범위의 판단이며 내부 계약·실제 고객 수익은 별도 확인한다.
+
+### C-260 · fact · active
+
+Tether 약관의 미국인 제한에는 Tether가 동의한 ECP 예외가 있다. Velocity의 적용 자격은 미확인이다. 직접 환매 최소금액·가격도 별도로 적용된다.
+
+근거: [ST-HW-013](../sources/cards/ST-HW-013.md), [KYX-V-010](../sources/cards/KYX-V-010.md)
+
+한계: Tether 계약조건을 미국법 전면 금지로 해석하지 않는다. 예외 승인·한화 계약은 확인되지 않았다.
+
+### C-276 · fact · active
+
+BI PBI10/2025의119조는 가상통화의 지급자금 수용·처리·연계를 금지하고 적법한 디지털자산 거래 지원과 구분한다.
+
+근거: [RG-ID-002](../sources/cards/RG-ID-002.md), [RG-ID-001](../sources/cards/RG-ID-001.md)
+
+한계: - 개별 허가를 검증한 것이 아니며 암호자산 거래 허가를 증권 발행·보험료 지급 권한으로 전용할 수 없다.
+
+### C-277 · institution_statement · active
+
+BI 디지털 루피아 자료는 wholesale 1차 PoC와 제한된 참가 범위를 설명하며 민간 스테이블코인과 구분한다.
+
+근거: [HWX-M-003](../sources/cards/HWX-M-003.md)
+
+한계: - 자료에서 2027Q1 retail 출시·Nobu 참가·보험료 결제의 확정 일정은 확인하지 못했다.
+
+### C-284 · fact · active
+
+PBI10/2025 122조는 해당 국내 지급 처리와 데이터센터·재해복구센터 원칙 및 해외 처리의 BI 승인을 구분한다.
+
+근거: [RG-ID-002](../sources/cards/RG-ID-002.md)
+
+한계: - Nobu 업무별 적용과 기존 개별 승인은 미확인. 일반 설명용 AI 전체의 국외 금지로 확대하지 않는다.
+
+### C-304 · fact · active
+
+금융위는2026년7월15일 한화·교보를 금융복합기업집단으로 지정하고 위험집중·전이·내부거래·자본 등 집단 감독 사항을 설명했다.
+
+근거: [HWX-R-008](../sources/cards/HWX-R-008.md)
+
+한계: 개별 업무·해외 인가 또는 그룹 전체 단일 법인·단일 자금풀을 뜻하지 않음.
+
 ## 관련 원문
 
 - [FIN-006 · 토큰증권 도입 및 투자계약증권 유통을 위한 ｢전자증권법｣·｢자본시장법｣ 개정안 국회 본회의 통과](../sources/cards/FIN-006.md)
@@ -889,6 +953,7 @@ IP 상품은 신탁 가능한 특정 청구권, 장래매출채권, 공동사업
 - [FIN-012 · Capital Treatment of Tokenized Securities Frequently Asked Questions](../sources/cards/FIN-012.md)
 - [FIN-013 · Statement on the Innovation Exemption: A Bridge Toward Durable Rulemaking](../sources/cards/FIN-013.md)
 - [FIN-016 · Consultation on supervisory expectations for central counterparties seeking to accept tokenised collateral](../sources/cards/FIN-016.md)
+- [SRC-CIRCLE-USDC-TERMS · USDC Terms](../sources/cards/SRC-CIRCLE-USDC-TERMS.md)
 - [SRC-BOK-HANGANG · 프로젝트 한강의 기관용 디지털화폐, 일반인용 CBDC와 어떻게 다를까](../sources/cards/SRC-BOK-HANGANG.md)
 - [SRC-OCC-GENIUS-FINAL · OCC Advances U.S. Digital Asset Leadership with Final Rule to Implement GENIUS Act](../sources/cards/SRC-OCC-GENIUS-FINAL.md)
 - [NOV-KR-001 · 주식ㆍ사채 등의 전자등록에 관한 법률 [법률 제21318호]](../sources/cards/NOV-KR-001.md)
@@ -936,6 +1001,7 @@ IP 상품은 신탁 가능한 특정 청구권, 장래매출채권, 공동사업
 - [RG-HK-003 · Circular on tokenisation of SFC-authorised investment products](../sources/cards/RG-HK-003.md)
 - [RG-HK-004 · Circular on secondary trading of tokenised SFC-authorised investment products](../sources/cards/RG-HK-004.md)
 - [RG-HK-005 · SFC approves first-ever secondary trading of tokenised public funds](../sources/cards/RG-HK-005.md)
+- [RG-AE-001 · ADGM FSRA finalises regulatory framework for Regulated Activities involving Fiat-Referenced Tokens](../sources/cards/RG-AE-001.md)
 - [RG-AE-002 · Digital Assets](../sources/cards/RG-AE-002.md)
 - [RG-AE-005 · VARA Consumer and Marketplace Alert - Update on the Real Estate Tokenisation Pilot](../sources/cards/RG-AE-005.md)
 - [RG-ID-002 · Peraturan Bank Indonesia Nomor 10 Tahun 2025 tentang Pengaturan Industri Sistem Pembayaran (PBI PISP)](../sources/cards/RG-ID-002.md)
@@ -950,9 +1016,12 @@ IP 상품은 신탁 가능한 특정 청구권, 장래매출채권, 공동사업
 - [RG-EU-002 · EU market integration and efficient supervision](../sources/cards/RG-EU-002.md)
 - [RG-UK-001 · PS26/7: Progressing Fund Tokenisation](../sources/cards/RG-UK-001.md)
 - [RG-UK-002 · CP26/36: Cryptoasset perimeter guidance](../sources/cards/RG-UK-002.md)
+- [ST-HW-011 · MVB Partners with Velocity to Join Visa Direct Stablecoin Settlement Network](../sources/cards/ST-HW-011.md)
+- [ST-HW-013 · Legal — Token Terms of Sale and Service](../sources/cards/ST-HW-013.md)
 - [ST-KY-004 · 모험자본 공급을 뒷받침할 자본시장법 시행령 개정안 국무회의 의결, 종합금융투자사업자 지정 및 단기금융업 인가](../sources/cards/ST-KY-004.md)
 - [ST-KY-005 · NH투자증권㈜에 대한 종합금융투자사업자(8조원) 지정](../sources/cards/ST-KY-005.md)
 - [ST-KY-009 · 정부와 금융권이 함께 금융권 AX를 가속화해 나가겠습니다](../sources/cards/ST-KY-009.md)
+- [KNX-M-003 · USDC / EURC redemption structure](../sources/cards/KNX-M-003.md)
 - [KNX-M-005 · UNIDROIT Model Law on Factoring](../sources/cards/KNX-M-005.md)
 - [KNX-V-001 · 법인의 단계적인 가상자산시장 참여를 추진합니다 — 제3차 가상자산위원회](../sources/cards/KNX-V-001.md)
 - [KNX-V-002 · 전문투자법인의 가상자산 시장 참여 관련 특정 가상자산의 투자 대상 제외 여부 등은 결정된 바 없습니다](../sources/cards/KNX-V-002.md)
@@ -972,5 +1041,9 @@ IP 상품은 신탁 가능한 특정 청구권, 장래매출채권, 공동사업
 - [KYX-M-006 · 저작권법 제45조 — 저작재산권의 양도](../sources/cards/KYX-M-006.md)
 - [KYX-M-010 · 민법 제451조 — 승낙, 통지의 효과](../sources/cards/KYX-M-010.md)
 - [KYX-M-011 · 저작권법 제46조 — 저작물의 이용허락](../sources/cards/KYX-M-011.md)
+- [KYX-V-010 · Fees — Tether](../sources/cards/KYX-V-010.md)
+- [HWX-A-003 · Circle Internet MEA Ltd — FSRA public register / firm profile](../sources/cards/HWX-A-003.md)
+- [HWX-M-003 · Proyek Garuda: Menavigasi Arsitektur Rupiah Digital](../sources/cards/HWX-M-003.md)
+- [HWX-R-008 · 2026년도 금융복합기업집단 지정](../sources/cards/HWX-R-008.md)
 
 [전체 주제 지도](INDEX.md)

@@ -558,29 +558,31 @@
     "visibility": "public",
     "read_status": "selected_sections",
     "read_scope": [
-      "Last Updated and sections 2 and 13: eligible direct redemption, reserve yield, deposit insurance, claim conditions; selected fee/currency clauses.",
-      "최종 갱신일, 비 EEA 적용 범위, 유형 A/B, 직접 상환 자격, 이자·블록체인 거래·동결·은행 관련 조항"
+      "2026-10-15 약관, 웹행114–139: 도입·발행법인·User Type A/B·Mint 환매"
     ],
-    "summary": "비 EEA USDC 약관은 보유자와 적격 Circle Mint 고객을 구분하고 직접 상환을 자격·법·약관 조건에 둔다. USDC 자체는 보유자에게 준비자산 이자를 지급하는 상품으로 설계되지 않았다.",
+    "summary": "비EEA USDC 약관은 Mint 고객과 단순 보유자를 구분한다. 직접 발행·환매에는 유효한 Mint 고객 자격이 필요하며 USDC는 이자 지급을 위한 상품이 아니다.",
     "used_for": [
       "지급 스테이블코인 보유와 은행예금·수익형 펀드 지분의 권리를 구분한다.",
       "토큰 수취와 발행자 상환, 은행 현금 도착을 별도 단계로 조사할 근거로 사용한다.",
       "토큰 보유·전송·직접 상환·은행 현금을 별도 상태로 평가",
-      "수익형 자산과 지급 잔액, 발행자 준비금 수익 분리"
+      "수익형 자산과 지급 잔액, 발행자 준비금 수익 분리",
+      "보유·전송 가능성과 발행자 직접 상환·은행현금 접근을 구분한다."
     ],
     "limitations": [
       "약관의 선택 부분을 읽었으며 개정 전후 모든 조항을 비교하지 않았다.",
       "개별 한국 기관의 가입·상환 적격성, 실제 상환 소요시간·수수료·현재 거래 가능성을 확인하지 않았다.",
       "약관 전체 개정 이력을 비교하지 않았다.",
       "거래별 현재 수수료·은행 입금시간·한화 고객 자격·제휴는 확인되지 않는다.",
-      "EEA 고객에는 별도 법적 문서가 적용될 수 있다."
+      "EEA 고객에는 별도 법적 문서가 적용될 수 있다.",
+      "한화 계열의 Mint 계약·지원 체인·고객 적격은 확인하지 않았다. 약관 전문 및 EEA 별도 약관은 이번 검토 범위가 아니다."
     ],
     "topic_ids": [
       "T-MONEY",
       "T-FUNDING",
-      "T-RIGHTS"
+      "T-RIGHTS",
+      "T-REGULATION"
     ],
-    "reuse_mode": "Previously read public primary source; existing identifier retained.",
+    "reuse_mode": "same_url_selected_primary_recheck",
     "date_type": "last_updated",
     "review_notes": [
       "2026-11-03 hanwha: 별도 담당의 선택 읽기 병합"
@@ -589,7 +591,21 @@
       "확인한 페이지의 개정 표시는 2026-10-15이다.",
       "Circle 직접 상환은 적격 보유자가 Circle Mint 계정을 등록하는 등의 조건을 충족해야 한다.",
       "USDC 보유 자체가 준비자산에서 발생한 이자나 수익을 받을 권리를 주지는 않는다."
-    ]
+    ],
+    "previous_read_scope": [
+      "Last Updated and sections 2 and 13: eligible direct redemption, reserve yield, deposit insurance, claim conditions; selected fee/currency clauses.",
+      "최종 갱신일, 비 EEA 적용 범위, 유형 A/B, 직접 상환 자격, 이자·블록체인 거래·동결·은행 관련 조항"
+    ],
+    "meaning": "보유·전송 가능성과 발행자 직접 상환·은행현금 접근을 구분한다.",
+    "reuse_verification": {
+      "id": "SRC-CIRCLE-USDC-TERMS",
+      "mode": "live_primary_recheck",
+      "checked_at": "2026-11-03",
+      "read_scope": [
+        "2026-10-15 약관, 웹행114–139: 도입·발행법인·User Type A/B·Mint 환매"
+      ]
+    },
+    "reuse_limit": "2026-11-03 공식 원문의 기록된 선택 범위를 실제 재열람. 동일 원문이므로 독립 출처 수를 늘리지 않으며 이전 범위는 previous_read_scope/history에 보존."
   },
   {
     "id": "SRC-BOK-HANGANG",
@@ -2373,7 +2389,7 @@
   },
   {
     "read_status": "selected_sections",
-    "checked_at": "2026-11-02",
+    "checked_at": "2026-11-03",
     "topic_ids": [
       "T-GEOGRAPHY",
       "T-INSTITUTION-ROLES",
@@ -2384,25 +2400,40 @@
     "title": "Hanwha Finance expands financial cooperation with Abu Dhabi, connecting Korea and Abu Dhabi through ‘Digital Asset Silk Road’",
     "publisher": "Hanwha",
     "event_date": "2026-09-16",
-    "read_scope": "기사 본문: 한화생명–ADIO 협력, 한화자산운용–ADGM–하나금융 MOU, ADFW 파트너십 문단",
-    "summary": "한화생명은 ADIO와 디지털자산 생태계·자본시장 연결·디지털뱅킹 협력을 맺고 RWA 기회를 탐색한다고 밝혔다. 같은 행사에서 한화자산운용은 ADGM·하나금융과 스테이블코인 및 국경간 결제·송금 인프라를 탐색하는 별도 MOU를 체결했다.",
+    "read_scope": [
+      "보도자료 본문 웹행57–105 및 ADGM 소개130–136"
+    ],
+    "summary": "2026-09-16 서울 행사에서 생명–ADIO 협력, 운용–ADGM–하나금융 MOU, ADFW 후원을 각각 체결했다고 발표했다. 디지털자산·RWA·국경 간 지급은 탐색·협력 대상이다.",
     "used_for": [
       "UAE 당사자 구분",
-      "협약 단계와 향후 계획"
+      "협약 단계와 향후 계획",
+      "법인별 상대방과 계약 단계를 분리한다."
     ],
     "limitations": [
-      "발표는 사업계획 및 협약의 증거다. 인가, 고객계약, 실행 거래, 매출 또는 수익 실현을 증명하지 않는다."
+      "발표는 사업계획 및 협약의 증거다. 인가, 고객계약, 실행 거래, 매출 또는 수익 실현을 증명하지 않는다.",
+      "MOU 전문·개별 금융허가·상용 레일·매출은 확인하지 못했다. Hanwha Finance는 이 발표의 계열사 통칭이다."
     ],
     "published_at": "2026-09-21",
     "visibility": "public",
     "source_type": "company_or_counterparty_material",
-    "reuse_mode": "existing_verified_record_snapshot",
+    "reuse_mode": "same_url_selected_primary_recheck",
     "reuse_checked_at": "2026-11-03",
-    "reuse_limit": "보관된 읽기 범위·원확인일을 유지. 재사용은 신규 공식 사건이나 독립 출처 추가가 아니다."
+    "reuse_limit": "2026-11-03 공식 원문의 기록된 선택 범위를 실제 재열람. 동일 원문이므로 독립 출처 수를 늘리지 않으며 이전 범위는 previous_read_scope/history에 보존.",
+    "previous_read_scope": "기사 본문: 한화생명–ADIO 협력, 한화자산운용–ADGM–하나금융 MOU, ADFW 파트너십 문단",
+    "meaning": "법인별 상대방과 계약 단계를 분리한다.",
+    "adoption_stage": "partnership_mou",
+    "reuse_verification": {
+      "id": "HWA-GEO-001",
+      "mode": "live_primary_recheck",
+      "checked_at": "2026-11-03",
+      "read_scope": [
+        "보도자료 본문 웹행57–105 및 ADGM 소개130–136"
+      ]
+    }
   },
   {
     "read_status": "selected_sections",
-    "checked_at": "2026-11-02",
+    "checked_at": "2026-11-03",
     "topic_ids": [
       "T-GEOGRAPHY",
       "T-INSTITUTION-ROLES",
@@ -2412,23 +2443,40 @@
     "url": "https://www.adgm.com/media/announcements/hanwha-finance-announced-as-premier-partner-for-abu-dhabi-finance-week-2026",
     "title": "Hanwha Finance Announced as Premier Partner for Abu Dhabi Finance Week 2026",
     "publisher": "ADGM",
-    "event_date": "2026-09-18",
-    "read_scope": "본문의 premier partner 발표와 2026년 12월 7~10일 행사 계획",
-    "summary": "ADGM은 한화금융을 ADFW 2026의 2년 연속 주요 파트너로 발표했다. 행사는 12월 7~10일 예정이므로 기준일에 개최 완료된 행사가 아니다.",
+    "event_date": "2026-12-07",
+    "read_scope": [
+      "보도자료 본문 웹행55–80"
+    ],
+    "summary": "한화의 ADFW2026 프리미어 파트너 참여를 발표했다. 행사 일정은 2026-12-07~10이다.",
     "used_for": [
       "UAE 기관 관계의 상대방 확인",
-      "행사 일정과 사업 인가 분리"
+      "행사 일정과 사업 인가 분리",
+      "11/3 현재 미래 행사와 이미 체결된 후원 관계를 구분한다."
     ],
     "limitations": [
-      "행사 파트너 지위는 금융업 인가나 투자 집행을 뜻하지 않는다."
+      "행사 파트너 지위는 금융업 인가나 투자 집행을 뜻하지 않는다.",
+      "행사·정부의 대외투자 총액은 한화 계약·확보 자금·매출이 아니다."
     ],
     "published_at": "2026-09-18",
     "visibility": "public",
-    "source_type": "company_or_counterparty_material"
+    "source_type": "company_or_counterparty_material",
+    "previous_read_scope": "본문의 premier partner 발표와 2026년 12월 7~10일 행사 계획",
+    "meaning": "11/3 현재 미래 행사와 이미 체결된 후원 관계를 구분한다.",
+    "adoption_stage": "partnership_for_future_event",
+    "reuse_mode": "same_url_selected_primary_recheck",
+    "reuse_verification": {
+      "id": "HWA-GEO-002",
+      "mode": "live_primary_recheck",
+      "checked_at": "2026-11-03",
+      "read_scope": [
+        "보도자료 본문 웹행55–80"
+      ]
+    },
+    "reuse_limit": "2026-11-03 공식 원문의 기록된 선택 범위를 실제 재열람. 동일 원문이므로 독립 출처 수를 늘리지 않으며 이전 범위는 previous_read_scope/history에 보존."
   },
   {
     "read_status": "selected_sections",
-    "checked_at": "2026-11-02",
+    "checked_at": "2026-11-03",
     "topic_ids": [
       "T-GEOGRAPHY",
       "T-INSTITUTION-ROLES",
@@ -2439,30 +2487,46 @@
     "title": "글로벌 네트워크",
     "publisher": "한화자산운용",
     "event_date": null,
-    "read_scope": "한국어 본문 글로벌 법인과 AI센터 소개·연혁, 영문 대응 페이지의 법인명 대조",
-    "summary": "회사는 UAE 법인을 2025년 7월, 싱가포르 법인을 2014년 10월 설립했다고 소개한다. 미국 법인은 2005년 설립·2017년 인수, 뉴욕 지점은 2022년 설립했다. 샌프란시스코 AI센터는 생명·손해보험·자산운용이 2024년 12월 공동 설립했다.",
+    "read_scope": [
+      "한국어 원문 웹행81–95,144–154, 영문 대응 페이지58–70,117–128 대조"
+    ],
+    "summary": "운용은 Hanwha Asset Management (MENA) Ltd.의 UAE 설립을2025-07로 표시하며 중동 사모펀드 출시·현지 투자자 마케팅을 소개한다.",
     "used_for": [
       "자산운용의 UAE·미국·싱가포르 기존 거점",
-      "법인과 공동 연구거점 구분"
+      "법인과 공동 연구거점 구분",
+      "생명 아부다비 주재사무소와 운용 MENA 현지 법인·기존 활동을 구분한다."
     ],
     "limitations": [
       "현재 홈페이지의 회사 설명이며 각국 등록부를 독립 확인한 결과가 아니다.",
       "미국 법인 설립연도 영문 상세에 2025/2017의 모순이 있어 한국어 본문과 상단의 2005를 채택했다.",
-      "UAE 사모펀드 출시 설명만으로 특정 펀드 규모·실제 모집액·인가 범위를 확정하지 않는다."
+      "UAE 사모펀드 출시 설명만으로 특정 펀드 규모·실제 모집액·인가 범위를 확정하지 않는다.",
+      "회사 진술이다. 법인등록증·FSP·개별 펀드명·판매계약·투자자·매출은 확인하지 않았다. 같은 페이지 미국 설립 연혁은 상단2005와 하단2025가 상충하므로 그 하단 날짜는 사용하지 않는다."
     ],
     "related_urls": [
-      "https://www.hanwhafund.co.kr/en/global-network"
+      "https://www.hanwhafund.co.kr/en/global-network",
+      "https://www.hanwhafund.co.kr/en"
     ],
     "published_at": null,
     "visibility": "public",
     "source_type": "company_or_counterparty_material",
-    "reuse_mode": "existing_verified_record_snapshot",
+    "reuse_mode": "same_url_selected_primary_recheck",
     "reuse_checked_at": "2026-11-03",
-    "reuse_limit": "보관된 읽기 범위·원확인일을 유지. 재사용은 신규 공식 사건이나 독립 출처 추가가 아니다."
+    "reuse_limit": "2026-11-03 공식 원문의 기록된 선택 범위를 실제 재열람. 동일 원문이므로 독립 출처 수를 늘리지 않으며 이전 범위는 previous_read_scope/history에 보존.",
+    "meaning": "생명 아부다비 주재사무소와 운용 MENA 현지 법인·기존 활동을 구분한다.",
+    "adoption_stage": "local_company_and_activity_institution_statement",
+    "previous_read_scope": "한국어 본문 글로벌 법인과 AI센터 소개·연혁, 영문 대응 페이지의 법인명 대조",
+    "reuse_verification": {
+      "id": "HWA-GEO-003",
+      "mode": "live_primary_recheck",
+      "checked_at": "2026-11-03",
+      "read_scope": [
+        "한국어 원문 웹행81–95,144–154, 영문 대응 페이지58–70,117–128 대조"
+      ]
+    }
   },
   {
     "read_status": "selected_sections",
-    "checked_at": "2026-11-02",
+    "checked_at": "2026-11-03",
     "topic_ids": [
       "T-GEOGRAPHY",
       "T-INSTITUTION-ROLES",
@@ -2473,26 +2537,40 @@
     "title": "Hanwha Life — Global Network",
     "publisher": "Hanwha Life",
     "event_date": null,
-    "read_scope": "현재 홈페이지 Global Network 및 회사 연혁 구역",
-    "summary": "한화생명은 베트남·중국·인도네시아·미국·일본을 현지 자회사 국가로, 일본·미국·UAE를 대표사무소 국가로 표시한다. 아부다비는 UAE 대표사무소로 제시한다.",
+    "read_scope": [
+      "공식 Global Network 웹행274–288"
+    ],
+    "summary": "생명은 미국 현지 자회사와 UAE 아부다비 주재사무소를 글로벌 네트워크에 표시한다.",
     "used_for": [
       "한화생명의 거점 유형",
-      "중국·일본의 제한된 존재 확인"
+      "중국·일본의 제한된 존재 확인",
+      "생명 주재사무소와 별도 운용 MENA 법인을 구분한다."
     ],
     "limitations": [
       "국가 표시는 개별 자회사 명칭·지분·업무허가를 모두 제공하지 않는다.",
-      "현지 자회사가 있다는 것과 현지 보험 또는 디지털자산 영업 허가가 있다는 것은 별개다."
+      "현지 자회사가 있다는 것과 현지 보험 또는 디지털자산 영업 허가가 있다는 것은 별개다.",
+      "법인 등록·금융허가 원장이나 국가별 보험 판매허가를 대신하지 않는다."
     ],
     "published_at": null,
     "visibility": "public",
     "source_type": "company_or_counterparty_material",
-    "reuse_mode": "existing_verified_record_snapshot",
+    "reuse_mode": "same_url_selected_primary_recheck",
     "reuse_checked_at": "2026-11-03",
-    "reuse_limit": "보관된 읽기 범위·원확인일을 유지. 재사용은 신규 공식 사건이나 독립 출처 추가가 아니다."
+    "reuse_limit": "2026-11-03 공식 원문의 기록된 선택 범위를 실제 재열람. 동일 원문이므로 독립 출처 수를 늘리지 않으며 이전 범위는 previous_read_scope/history에 보존.",
+    "previous_read_scope": "현재 홈페이지 Global Network 및 회사 연혁 구역",
+    "meaning": "생명 주재사무소와 별도 운용 MENA 법인을 구분한다.",
+    "reuse_verification": {
+      "id": "HWA-GEO-004",
+      "mode": "live_primary_recheck",
+      "checked_at": "2026-11-03",
+      "read_scope": [
+        "공식 Global Network 웹행274–288"
+      ]
+    }
   },
   {
     "read_status": "selected_sections",
-    "checked_at": "2026-11-02",
+    "checked_at": "2026-11-03",
     "topic_ids": [
       "T-GEOGRAPHY",
       "T-INSTITUTION-ROLES",
@@ -2503,7 +2581,10 @@
     "title": "한화생명, 노부은행 지분 투자 마무리",
     "publisher": "한화생명 보도자료 / 뉴스와이어 배포",
     "event_date": "2025-06-30",
-    "read_scope": "기사 본문과 제공기관 표시: 40% 취득 완료, 경영권 포함 주요주주, 2024년 5월 SPA 및 사업계획",
+    "read_scope": [
+      "기사 본문과 제공기관 표시: 40% 취득 완료, 경영권 포함 주요주주, 2024년 5월 SPA 및 사업계획",
+      "회사 배포 보도자료 HTML L416–443: 제공자·2025-06-30·40% 완료·확장 목표 재열람"
+    ],
     "summary": "한화생명은 인도네시아 노부은행 지분 40% 취득을 완료하고 경영권을 포함한 주요주주가 됐다고 발표했다. 디지털 금융 플랫폼과 방카슈랑스 등 현지 사업 연계를 계획했다.",
     "used_for": [
       "한화생명 본사의 인도네시아 은행 연결",
@@ -2519,11 +2600,23 @@
     "source_type": "company_or_counterparty_material",
     "reuse_mode": "existing_verified_record_snapshot",
     "reuse_checked_at": "2026-11-03",
-    "reuse_limit": "보관된 읽기 범위·원확인일을 유지. 재사용은 신규 공식 사건이나 독립 출처 추가가 아니다."
+    "reuse_limit": "보관된 읽기 범위·원확인일을 유지. 재사용은 신규 공식 사건이나 독립 출처 추가가 아니다.",
+    "reuse_verification": {
+      "checked_at": "2026-11-03",
+      "mode": "official_original_reread",
+      "read_scope": [
+        "회사 배포 보도자료 HTML L416–443: 제공자·2025-06-30·40% 완료·확장 목표 재열람"
+      ],
+      "limitations": [
+        "기존 source ID를 유지하며 별도 독립 근거 수를 늘리지 않는다."
+      ]
+    },
+    "previous_read_scope": "기사 본문과 제공기관 표시: 40% 취득 완료, 경영권 포함 주요주주, 2024년 5월 SPA 및 사업계획",
+    "previous_checked_at": "2026-11-02"
   },
   {
     "read_status": "selected_sections",
-    "checked_at": "2026-11-02",
+    "checked_at": "2026-11-03",
     "topic_ids": [
       "T-GEOGRAPHY",
       "T-INSTITUTION-ROLES",
@@ -2535,7 +2628,10 @@
     "title": "Kolaborasi Bittime dan Nobu Bank Jembatani Keuangan Tradisional Menuju Tokenisasi Aset Global",
     "publisher": "Bittime 보도자료 / Vritimes 배포",
     "event_date": "2026-05-21",
-    "read_scope": "제휴 소개 및 Bittime 플랫폼에 Nobu 가상계좌 연동이 이용 가능하다는 본문",
+    "read_scope": [
+      "제휴 소개 및 Bittime 플랫폼에 Nobu 가상계좌 연동이 이용 가능하다는 본문",
+      "Bittime 배포 본문 L23–42: Nobu VA 제공·플랫폼의 IDR/USDT 교환 홍보와 역할 재열람"
+    ],
     "summary": "Bittime은 Nobu 가상계좌 연동이 자사 플랫폼에서 이용 가능하다고 발표했다. 은행 결제 경로와 디지털자산 플랫폼 접점이 있다는 사업자 측 운영 증거다.",
     "used_for": [
       "Nobu의 고객 현금 입금 경로",
@@ -2550,11 +2646,23 @@
     "source_type": "company_or_counterparty_material",
     "reuse_mode": "existing_verified_record_snapshot",
     "reuse_checked_at": "2026-11-03",
-    "reuse_limit": "보관된 읽기 범위·원확인일을 유지. 재사용은 신규 공식 사건이나 독립 출처 추가가 아니다."
+    "reuse_limit": "보관된 읽기 범위·원확인일을 유지. 재사용은 신규 공식 사건이나 독립 출처 추가가 아니다.",
+    "reuse_verification": {
+      "checked_at": "2026-11-03",
+      "mode": "official_original_reread",
+      "read_scope": [
+        "Bittime 배포 본문 L23–42: Nobu VA 제공·플랫폼의 IDR/USDT 교환 홍보와 역할 재열람"
+      ],
+      "limitations": [
+        "기존 source ID를 유지하며 별도 독립 근거 수를 늘리지 않는다."
+      ]
+    },
+    "previous_read_scope": "제휴 소개 및 Bittime 플랫폼에 Nobu 가상계좌 연동이 이용 가능하다는 본문",
+    "previous_checked_at": "2026-11-02"
   },
   {
     "read_status": "selected_sections",
-    "checked_at": "2026-11-02",
+    "checked_at": "2026-11-03",
     "topic_ids": [
       "T-GEOGRAPHY",
       "T-INSTITUTION-ROLES",
@@ -2567,7 +2675,10 @@
     "publisher": "Bittime 고객지원",
     "updated_date": "2026-09-02",
     "event_date": "2026-09-03",
-    "read_scope": "운영 공지 본문: 9월 3~6일 Nobu VA 일시중단, BI-FAST 정비, 대체 이체 경로",
+    "read_scope": [
+      "운영 공지 본문: 9월 3~6일 Nobu VA 일시중단, BI-FAST 정비, 대체 이체 경로",
+      "Bittime 고객지원 본문 L22–44: 2026-09-03~06 유지보수·대체 경로 재열람"
+    ],
     "summary": "Bittime은 BI-FAST 정비로 9월 3일 00:00부터 6일 24:00 WIB까지 Nobu 가상계좌 입금을 일시 중단한다고 알렸다. 동일 은행 이체, RTOL·RTGS 등의 대체 경로와 영업일 조건을 제시했다.",
     "used_for": [
       "현금 경로의 운영 의존성과 중단 위험",
@@ -2581,11 +2692,23 @@
     "source_type": "company_or_counterparty_material",
     "reuse_mode": "existing_verified_record_snapshot",
     "reuse_checked_at": "2026-11-03",
-    "reuse_limit": "보관된 읽기 범위·원확인일을 유지. 재사용은 신규 공식 사건이나 독립 출처 추가가 아니다."
+    "reuse_limit": "보관된 읽기 범위·원확인일을 유지. 재사용은 신규 공식 사건이나 독립 출처 추가가 아니다.",
+    "reuse_verification": {
+      "checked_at": "2026-11-03",
+      "mode": "official_original_reread",
+      "read_scope": [
+        "Bittime 고객지원 본문 L22–44: 2026-09-03~06 유지보수·대체 경로 재열람"
+      ],
+      "limitations": [
+        "기존 source ID를 유지하며 별도 독립 근거 수를 늘리지 않는다."
+      ]
+    },
+    "previous_read_scope": "운영 공지 본문: 9월 3~6일 Nobu VA 일시중단, BI-FAST 정비, 대체 이체 경로",
+    "previous_checked_at": "2026-11-02"
   },
   {
     "read_status": "selected_sections",
-    "checked_at": "2026-11-02",
+    "checked_at": "2026-11-03",
     "topic_ids": [
       "T-GEOGRAPHY",
       "T-INSTITUTION-ROLES",
@@ -2597,57 +2720,88 @@
     "title": "Press Release: Hanwha Life Completes Acquisition of Velocity Clearing",
     "publisher": "Velocity Clearing",
     "event_date": "2025-07-30",
-    "read_scope": "회사 보도자료 본문: 75% 인수 완료 및 청산·결제 업무 소개",
-    "summary": "Velocity는 한화생명의 지분 75% 인수가 2025년 7월 30일 미국 동부시간 기준 완료됐다고 발표했다. 미국의 청산·결제 등 거래 후 금융 인프라 연결을 보여준다.",
+    "read_scope": [
+      "인수 보도자료 본문 웹행28–51"
+    ],
+    "summary": "2025-07-30 미국 동부시간 기준 Velocity Clearing 지분75% 인수 완료를 발표했다. 증권 실행·청산·수탁 등을 제공하는 회사라고 설명한다.",
     "used_for": [
       "미국 인수 완료",
-      "기존 후선 금융 인프라"
+      "기존 후선 금융 인프라",
+      "인수 완료와 향후 기술·그룹 협업 목표를 구분한다."
     ],
     "limitations": [
       "75%는 인수 완료 발표 시점 수치이며 법적 간접 소유관계는 FINRA 자료와 함께 읽는다.",
-      "성장 기대 또는 수익 전망은 실현 실적이 아니다."
+      "성장 기대 또는 수익 전망은 실현 실적이 아니다.",
+      "발표의 과거 성장률·자산은 현재 온체인 매출이 아니다. 서비스별 실제 수입과 계약은 미공개."
     ],
     "published_at": "2025-07-31",
     "visibility": "public",
     "source_type": "company_or_counterparty_material",
-    "reuse_mode": "existing_verified_record_snapshot",
+    "reuse_mode": "same_url_selected_primary_recheck",
     "reuse_checked_at": "2026-11-03",
-    "reuse_limit": "보관된 읽기 범위·원확인일을 유지. 재사용은 신규 공식 사건이나 독립 출처 추가가 아니다."
+    "reuse_limit": "2026-11-03 공식 원문의 기록된 선택 범위를 실제 재열람. 동일 원문이므로 독립 출처 수를 늘리지 않으며 이전 범위는 previous_read_scope/history에 보존.",
+    "previous_read_scope": "회사 보도자료 본문: 75% 인수 완료 및 청산·결제 업무 소개",
+    "meaning": "인수 완료와 향후 기술·그룹 협업 목표를 구분한다.",
+    "adoption_stage": "acquisition_completed_institution_statement",
+    "reuse_verification": {
+      "id": "HWA-GEO-008",
+      "mode": "live_primary_recheck",
+      "checked_at": "2026-11-03",
+      "read_scope": [
+        "인수 보도자료 본문 웹행28–51"
+      ]
+    }
   },
   {
     "read_status": "selected_sections",
-    "checked_at": "2026-11-02",
+    "checked_at": "2026-11-03",
     "topic_ids": [
       "T-GEOGRAPHY",
       "T-INSTITUTION-ROLES",
-      "T-COMPANIES"
+      "T-COMPANIES",
+      "T-OPERATIONS",
+      "T-SETTLEMENT"
     ],
     "id": "HWA-GEO-009",
     "url": "https://files.brokercheck.finra.org/firm/firm_126588.pdf",
     "title": "BrokerCheck Report: VELOCITY CLEARING, LLC — CRD 126588",
     "publisher": "FINRA",
     "event_date": null,
-    "read_scope": "74쪽 PDF 중 Firm Profile의 간접 소유자 구역 및 Firm Operations의 공통지배 금융계열사 구역; 전체 규제이력 심사는 하지 않음",
-    "summary": "FINRA 기록은 Hanwha Life US Investment LLC와 한화생명이 Nexus Clearing 등을 통한 간접 소유관계에 있음을 보여준다. 간접 소유관계 시작 월은 2025년 8월로 기재되어 있다.",
+    "read_scope": [
+      "74쪽 PDF: 물리쪽2 요약,5 직접주주,9–10 간접주주,12 등록,14 업종,15–18 청산·외부 서비스 관계,19–22 공통지배 법인 선택 읽기"
+    ],
+    "summary": "FINRA 등록번호126588의 Velocity Clearing은 SEC·FINRA 등록회사다. VCT Holdings가 직접 소유하며 Hanwha Life US Investment–Nexus–VCT 경로의 간접 지분 관계가 기록돼 있다. 외부 청산·기록·현금 관계도 존재한다.",
     "used_for": [
       "인수 보도와 별개인 법적 소유구조 확인",
-      "한화생명 직접 영업과 자회사 영업의 분리"
+      "한화생명 직접 영업과 자회사 영업의 분리",
+      "미국 규제법인·소유 경로와 그룹의 기능을 구별한다."
     ],
     "limitations": [
       "기록의 소유관계 시작 월과 7월 인수 완료일은 다른 항목이다.",
       "브로커 등록 자료로 모든 디지털자산 업무의 허용 여부를 확정할 수 없다.",
-      "PDF 발행일은 표시되지 않아 조회일만 기록했다."
+      "PDF 발행일은 표시되지 않아 조회일만 기록했다.",
+      "업종 등록·예상 영업은 모든 서비스의 상용 가용성과 다르다. PDF의 상세 제재·분쟁 절은 정독하지 않아 준법 이력 전체를 평가하지 않았다. 토큰 증권·지급코인 포괄허가 증거가 아니다."
     ],
     "published_at": null,
     "visibility": "public",
     "source_type": "regulatory_register",
-    "reuse_mode": "existing_verified_record_snapshot",
+    "reuse_mode": "same_url_selected_primary_recheck",
     "reuse_checked_at": "2026-11-03",
-    "reuse_limit": "보관된 읽기 범위·원확인일을 유지. 재사용은 신규 공식 사건이나 독립 출처 추가가 아니다."
+    "reuse_limit": "2026-11-03 공식 원문의 기록된 선택 범위를 실제 재열람. 동일 원문이므로 독립 출처 수를 늘리지 않으며 이전 범위는 previous_read_scope/history에 보존.",
+    "previous_read_scope": "74쪽 PDF 중 Firm Profile의 간접 소유자 구역 및 Firm Operations의 공통지배 금융계열사 구역; 전체 규제이력 심사는 하지 않음",
+    "meaning": "미국 규제법인·소유 경로와 그룹의 기능을 구별한다.",
+    "reuse_verification": {
+      "id": "HWA-GEO-009",
+      "mode": "live_primary_recheck",
+      "checked_at": "2026-11-03",
+      "read_scope": [
+        "74쪽 PDF: 물리쪽2 요약,5 직접주주,9–10 간접주주,12 등록,14 업종,15–18 청산·외부 서비스 관계,19–22 공통지배 법인 선택 읽기"
+      ]
+    }
   },
   {
     "read_status": "selected_sections",
-    "checked_at": "2026-11-02",
+    "checked_at": "2026-11-03",
     "topic_ids": [
       "T-GEOGRAPHY",
       "T-INSTITUTION-ROLES",
@@ -2658,7 +2812,10 @@
     "title": "한화투자증권, 인도네시아 칩타다나자산운용 인수 절차 마무리",
     "publisher": "한화투자증권",
     "event_date": "2025-12-15",
-    "read_scope": "공식 보도자료 목록에 노출된 해당 기사 본문: 2023년 80% 계약, 증권사 2024년 10월 완료, 운용사 OJK 최종 승인 및 12월 15일 취득 절차 완료 공시 설명",
+    "read_scope": [
+      "공식 보도자료 목록에 노출된 해당 기사 본문: 2023년 80% 계약, 증권사 2024년 10월 완료, 운용사 OJK 최종 승인 및 12월 15일 취득 절차 완료 공시 설명",
+      "공식 목록 페이지의 해당 기사 L66–78: 80% 계약·2024-10 증권 완료·2025-12-15 운용 완료 설명 재열람"
+    ],
     "summary": "인수 주체는 한화투자증권이다. 회사는 Ciptadana 증권·운용 각 80% 취득 계약 후 증권사 인수는 2024년 10월 완료했고, 운용사도 OJK 최종 승인 후 2025년 12월 15일 취득 절차 완료를 공시했다고 밝혔다.",
     "used_for": [
       "인도네시아 증권·운용 법인의 소속",
@@ -2674,7 +2831,19 @@
     "source_type": "company_or_counterparty_material",
     "reuse_mode": "existing_verified_record_snapshot",
     "reuse_checked_at": "2026-11-03",
-    "reuse_limit": "보관된 읽기 범위·원확인일을 유지. 재사용은 신규 공식 사건이나 독립 출처 추가가 아니다."
+    "reuse_limit": "보관된 읽기 범위·원확인일을 유지. 재사용은 신규 공식 사건이나 독립 출처 추가가 아니다.",
+    "reuse_verification": {
+      "checked_at": "2026-11-03",
+      "mode": "official_original_reread",
+      "read_scope": [
+        "공식 목록 페이지의 해당 기사 L66–78: 80% 계약·2024-10 증권 완료·2025-12-15 운용 완료 설명 재열람"
+      ],
+      "limitations": [
+        "기존 source ID를 유지하며 별도 독립 근거 수를 늘리지 않는다."
+      ]
+    },
+    "previous_read_scope": "공식 보도자료 목록에 노출된 해당 기사 본문: 2023년 80% 계약, 증권사 2024년 10월 완료, 운용사 OJK 최종 승인 및 12월 15일 취득 절차 완료 공시 설명",
+    "previous_checked_at": "2026-11-02"
   },
   {
     "read_status": "selected_sections",
@@ -3553,20 +3722,40 @@
     "title": "ADGM FSRA finalises regulatory framework for Regulated Activities involving Fiat-Referenced Tokens",
     "publisher": "ADGM FSRA",
     "published_at": "2025-10-31",
-    "checked_at": "2026-11-02",
+    "checked_at": "2026-11-03",
     "visibility": "public",
-    "read_status": "official_summary",
-    "read_scope": "본문의 최종 규정 확정, 범위, 2026-01-01 시행 부분",
-    "summary": "FRT 관련 활동·수탁·발행자 요건 개정은 최종 확정되었고 2026-01-01 시행된다.",
-    "used_for": "ADGM FRT 개정 단계와 시행일",
-    "limitations": "연결된 규칙 개정문 서버는 403이어서 모든 조문을 직접 읽지는 못했다. 공식 규제기관 확정 발표에 한정한다.",
+    "read_status": "selected_sections",
+    "read_scope": [
+      "FSRA 보도자료 웹행55–70"
+    ],
+    "summary": "2025-10-31 확정한 FRT 관련 규제활동 개정 체계는 2026-01-01 효력이다. 수용 FRT·고객 FRT 통제와 발행자 요건을 다룬다.",
+    "used_for": [
+      "ADGM FRT 개정 단계와 시행일",
+      "현재 일반체계의 효력과 개별 회사 허가를 분리한다."
+    ],
+    "limitations": [
+      "연결된 규칙 개정문 서버는 403이어서 모든 조문을 직접 읽지는 못했다. 공식 규제기관 확정 발표에 한정한다.",
+      "이번에는 연결된 최종 규칙 전체를 다시 읽지 않았다. 한화의 FSP를 증명하지 않는다."
+    ],
     "topic_ids": [
-      "T-MONEY"
+      "T-MONEY",
+      "T-REGULATION"
     ],
     "effective_date": "2026-01-01",
-    "reuse_mode": "existing_verified_record_snapshot",
+    "reuse_mode": "same_url_selected_primary_recheck",
     "reuse_checked_at": "2026-11-03",
-    "reuse_limit": "보관된 읽기 범위·원확인일을 유지. 재사용은 신규 공식 사건이나 독립 출처 추가가 아니다."
+    "reuse_limit": "2026-11-03 공식 원문의 기록된 선택 범위를 실제 재열람. 동일 원문이므로 독립 출처 수를 늘리지 않으며 이전 범위는 previous_read_scope/history에 보존.",
+    "previous_read_scope": "본문의 최종 규정 확정, 범위, 2026-01-01 시행 부분",
+    "meaning": "현재 일반체계의 효력과 개별 회사 허가를 분리한다.",
+    "adoption_stage": "in_force",
+    "reuse_verification": {
+      "id": "RG-AE-001",
+      "mode": "live_primary_recheck",
+      "checked_at": "2026-11-03",
+      "read_scope": [
+        "FSRA 보도자료 웹행55–70"
+      ]
+    }
   },
   {
     "id": "RG-AE-002",
@@ -3574,21 +3763,39 @@
     "title": "Digital Assets",
     "publisher": "ADGM FSRA",
     "published_at": null,
-    "checked_at": "2026-11-02",
+    "checked_at": "2026-11-03",
     "visibility": "public",
-    "read_status": "official_summary",
-    "read_scope": "Digital Securities, FRT acceptance, FSP 신청·IPA 조건·인가 절차",
-    "summary": "증권 특성을 지닌 토큰은 증권 규제를 받는다. 규제활동에는 FSP가 필요하고 관련 FRT 활동은 FSRA Accepted FRT 범위를 따른다. IPA는 조건 충족 뒤 FSP 발급으로 이어지는 중간 단계다.",
-    "used_for": "증권/가상자산/FRT 구분 및 개별 인가 문턱",
-    "limitations": "웹페이지 게시일 없음. 현행 안내이지 특정 한화 법인의 인가 확인이 아니다. 인정 토큰도 무위험이라는 뜻이 아니다.",
+    "read_status": "selected_sections",
+    "read_scope": [
+      "Digital Assets 안내 웹행57–110: FSP, FRT, Digital Securities, 파생·펀드"
+    ],
+    "summary": "FSRA 금융서비스는 활동에 맞는 FSP가 필요하며, 토큰의 증권 성격에 따라 증권 규율이 적용된다. 관련 인가자는 수용된 FRT를 사용해야 한다.",
+    "used_for": [
+      "증권/가상자산/FRT 구분 및 개별 인가 문턱",
+      "증권 토큰과 지급 FRT, 활동별 허가를 별도로 설계한다."
+    ],
+    "limitations": [
+      "웹페이지 게시일 없음. 현행 안내이지 특정 한화 법인의 인가 확인이 아니다. 인정 토큰도 무위험이라는 뜻이 아니다.",
+      "동적 수용 FRT 목록의 모든 코인·체인 항목은 이번 추출에서 확인하지 못했다. 수용은 신용 보증이 아니다."
+    ],
     "topic_ids": [
       "T-RIGHTS",
       "T-MONEY",
       "T-REGULATION"
     ],
-    "reuse_mode": "existing_verified_record_snapshot",
+    "reuse_mode": "same_url_selected_primary_recheck",
     "reuse_checked_at": "2026-11-03",
-    "reuse_limit": "보관된 읽기 범위·원확인일을 유지. 재사용은 신규 공식 사건이나 독립 출처 추가가 아니다."
+    "reuse_limit": "2026-11-03 공식 원문의 기록된 선택 범위를 실제 재열람. 동일 원문이므로 독립 출처 수를 늘리지 않으며 이전 범위는 previous_read_scope/history에 보존.",
+    "previous_read_scope": "Digital Securities, FRT acceptance, FSP 신청·IPA 조건·인가 절차",
+    "meaning": "증권 토큰과 지급 FRT, 활동별 허가를 별도로 설계한다.",
+    "reuse_verification": {
+      "id": "RG-AE-002",
+      "mode": "live_primary_recheck",
+      "checked_at": "2026-11-03",
+      "read_scope": [
+        "Digital Assets 안내 웹행57–110: FSP, FRT, Digital Securities, 파생·펀드"
+      ]
+    }
   },
   {
     "id": "RG-AE-003",
@@ -3667,8 +3874,12 @@
     "read_status": "selected_sections",
     "read_scope": "공식 PDF Articles 3A, 4, 9–15 및 해설 pp.53–54; 공식 메타데이터 시행일",
     "summary": "거래 규정은 전자기록 금융기관 자산과 토큰 발행·공모를 포괄하지 않는다. 해설은 은행 잔액 및 중앙예탁 증권을 구분하며, 발행에는 암호자산·토큰화 발행을 포함해 별도 규율이 필요함을 명시한다.",
-    "used_for": "암호자산 거래 인가와 RWA 증권·발행 권한 분리",
-    "limitations": "73쪽 전체 정독이 아니다. 후속 자산 발행 제도의 완결 여부는 별도 확인이 필요하다.",
+    "used_for": [
+      "암호자산 거래 인가와 RWA 증권·발행 권한 분리"
+    ],
+    "limitations": [
+      "73쪽 전체 정독이 아니다. 후속 자산 발행 제도의 완결 여부는 별도 확인이 필요하다."
+    ],
     "topic_ids": [
       "T-MARKET",
       "T-RIGHTS"
@@ -3678,7 +3889,18 @@
     "metadata_url": "https://peraturan.bpk.go.id/Details/343935/peraturan-ojk-no-23-tahun-2025",
     "reuse_mode": "existing_verified_record_snapshot",
     "reuse_checked_at": "2026-11-03",
-    "reuse_limit": "보관된 읽기 범위·원확인일을 유지. 재사용은 신규 공식 사건이나 독립 출처 추가가 아니다."
+    "reuse_limit": "보관된 읽기 범위·원확인일을 유지. 재사용은 신규 공식 사건이나 독립 출처 추가가 아니다.",
+    "reuse_verification": {
+      "checked_at": "2026-11-03",
+      "mode": "existing_verified_record_snapshot",
+      "read_scope": [
+        "보관된 source card와 2026-11-02 규제 보고서 읽기 범위만 재사용; 이번 실행에서 PDF 재열람 안 함"
+      ],
+      "limitations": [
+        "기존 source ID를 유지하며 별도 독립 근거 수를 늘리지 않는다."
+      ]
+    },
+    "previous_read_scope": "공식 PDF Articles 3A, 4, 9–15 및 해설 pp.53–54; 공식 메타데이터 시행일"
   },
   {
     "id": "RG-ID-002",
@@ -3686,13 +3908,22 @@
     "title": "Peraturan Bank Indonesia Nomor 10 Tahun 2025 tentang Pengaturan Industri Sistem Pembayaran (PBI PISP)",
     "publisher": "Bank Indonesia",
     "published_at": "2025-12-24",
-    "checked_at": "2026-11-02",
+    "checked_at": "2026-11-03",
     "visibility": "public",
     "read_status": "selected_sections",
-    "read_scope": "공식 설명 및 연결 PDF pp.48–49,68–71,104: Articles 118–119,122,176–186 및 119 해설",
+    "read_scope": [
+      "공식 설명 및 연결 PDF pp.48–49,68–71,104: Articles 118–119,122,176–186 및 119 해설",
+      "BI 공식 설명 시행일·기존 사업자 평가 부분 재열람",
+      "공식 연결 PDF pp48–49 및 p104: 119조 및 IDRT 예시 재열람",
+      "공식 PDF pp49–50: 122조 국내 지급 처리·센터 및 해외 처리 승인·개인정보 조건 추가 재열람"
+    ],
     "summary": "2026-03-31 시행. PSP의 가상통화 지급자금 수용·처리·연계는 금지하고 적법한 디지털자산 거래 지원은 별도 예외다. 기존 지급사업자의 활동·분류를 평가하고 추가 활동·상품·협력에는 관련 승인이 필요하다.",
-    "used_for": "2026 현행 지급 경계 및 2027 전환 일정",
-    "limitations": "공식 PDF를 브라우저로 내려받아 조문 텍스트를 읽었다. 개별 은행의 승인 또는 디지털 루피아 발행 일정은 확인하지 않았다.",
+    "used_for": [
+      "2026 현행 지급 경계 및 2027 전환 일정"
+    ],
+    "limitations": [
+      "공식 PDF를 브라우저로 내려받아 조문 텍스트를 읽었다. 개별 은행의 승인 또는 디지털 루피아 발행 일정은 확인하지 않았다."
+    ],
     "topic_ids": [
       "T-MONEY",
       "T-REGULATION"
@@ -3707,7 +3938,21 @@
     },
     "reuse_mode": "existing_verified_record_snapshot",
     "reuse_checked_at": "2026-11-03",
-    "reuse_limit": "보관된 읽기 범위·원확인일을 유지. 재사용은 신규 공식 사건이나 독립 출처 추가가 아니다."
+    "reuse_limit": "보관된 읽기 범위·원확인일을 유지. 재사용은 신규 공식 사건이나 독립 출처 추가가 아니다.",
+    "reuse_verification": {
+      "checked_at": "2026-11-03",
+      "mode": "official_original_reread",
+      "read_scope": [
+        "BI 공식 설명 시행일·기존 사업자 평가 부분 재열람",
+        "공식 연결 PDF pp48–49 및 p104: 119조 및 IDRT 예시 재열람",
+        "공식 PDF pp49–50: 122조 국내 지급 처리·센터 및 해외 처리 승인·개인정보 조건 추가 재열람"
+      ],
+      "limitations": [
+        "기존 source ID를 유지하며 별도 독립 근거 수를 늘리지 않는다."
+      ]
+    },
+    "previous_read_scope": "공식 설명 및 연결 PDF pp.48–49,68–71,104: Articles 118–119,122,176–186 및 119 해설",
+    "previous_checked_at": "2026-11-02"
   },
   {
     "id": "RG-ID-003",
@@ -3957,26 +4202,46 @@
     "publisher": "한화투자증권",
     "url": "https://www.hanwhawm.com/main/bbs/indexView.cmd?nn_id=47822&vc_bid=hanwha1",
     "published_at": "2026-02-19",
-    "read_status": "full_text",
+    "read_status": "selected_sections",
     "read_scope": [
-      "보도자료 본문 투자 완료, 2025년 MOU, MPC·시드리스 기술 및 향후 활용 문단"
+      "보도자료 제목·등록일·본문 전체 웹행0–20"
     ],
-    "summary": "한화투자증권은 Kresus에 약 180억 원 투자를 완료했다고 발표했다. 지갑·복구 기술과 향후 디지털자산 및 RWA 서비스 활용 방향을 설명한다.",
+    "summary": "한화투자증권이 Kresus에180억원 투자를 완료했다고 2026-02-19 발표했다. 지갑·RWA 기술의 후속 사업 활용은 계획이다.",
     "used_for": [
       "투자 당사자는 한화생명이 아닌 한화투자증권",
-      "완료된 자본 투자와 향후 제품 도입 구분"
+      "완료된 자본 투자와 향후 제품 도입 구분",
+      "지분 투자와 서비스 도입·수탁 책임·고객 매출을 구분한다."
     ],
     "limitations": [
       "실제 고객 통합, 라이선스, 반복 사용 및 수익은 이 발표로 확인되지 않는다.",
-      "투자일 상세·지분율·계약 요율은 확인하지 않았다."
+      "투자일 상세·지분율·계약 요율은 확인하지 않았다.",
+      "생명의 직접 투자로 귀속하지 않는다. 지분율·독점권·계약가격·반복 사용과 수익은 미확인."
     ],
     "topic_ids": [
       "T-COMPANIES",
       "T-RIGHTS",
-      "T-FUNDING"
+      "T-FUNDING",
+      "T-GEOGRAPHY",
+      "T-INSTITUTION-ROLES",
+      "T-OPERATIONS",
+      "T-SETTLEMENT"
     ],
-    "adoption_stage": "investment_completed_issuer_statement",
-    "event_date": null
+    "adoption_stage": "investment_completed_institution_statement",
+    "event_date": null,
+    "previous_read_scope": [
+      "보도자료 본문 투자 완료, 2025년 MOU, MPC·시드리스 기술 및 향후 활용 문단"
+    ],
+    "meaning": "지분 투자와 서비스 도입·수탁 책임·고객 매출을 구분한다.",
+    "reuse_mode": "same_url_selected_primary_recheck",
+    "reuse_verification": {
+      "id": "ST-HW-001",
+      "mode": "live_primary_recheck",
+      "checked_at": "2026-11-03",
+      "read_scope": [
+        "보도자료 제목·등록일·본문 전체 웹행0–20"
+      ]
+    },
+    "reuse_limit": "2026-11-03 공식 원문의 기록된 선택 범위를 실제 재열람. 동일 원문이므로 독립 출처 수를 늘리지 않으며 이전 범위는 previous_read_scope/history에 보존."
   },
   {
     "checked_at": "2026-11-03",
@@ -3986,25 +4251,45 @@
     "publisher": "Chainlink",
     "url": "https://chain.link/press-releases/hanwha-investment-securities-and-chainlink-form-strategic-partnership-to-tokenize-connect-and-collateralize-real-world-assets-worldwide",
     "published_at": "2026-10-29",
-    "read_status": "full_text",
+    "read_status": "selected_sections",
     "read_scope": [
-      "본문 L14–33: 데이터 표준·CCIP 채택, 구축 중 플랫폼, 운용사 협의, 공동 작업반과 담보 기준"
+      "Chainlink 보도자료 웹행10–33"
     ],
-    "summary": "한화투자증권은 구축 중인 글로벌 RWA 플랫폼의 데이터·상호운용 기반으로 Chainlink 표준과 CCIP 채택을 발표했다. 공동 작업반은 규제·수탁을 충족하는 실행, 가치평가·준비자산 확인, 담보 사용 기준을 탐색한다.",
+    "summary": "2026-10-29 한화투자증권의 Chainlink 데이터·CCIP 도입과 글로벌 RWA 플랫폼 구축 협력을 발표했다. 발행자·운용사와의 논의 및 담보·분배 활용을 설명한다.",
     "used_for": [
       "지분 투자와 기술 채택·협력을 구분",
-      "발행보다 가격·권리·담보 사용 조건이 다음 검증 대상이라는 판단"
+      "발행보다 가격·권리·담보 사용 조건이 다음 검증 대상이라는 판단",
+      "최신 기술 선택 신호를 상품 출시·상환 레일과 분리한다."
     ],
     "limitations": [
       "특정 상품 상용화·기관 고객·거래량·매출·법적 담보 인정이 확인된 것은 아니다.",
-      "파트너 발표이며 독립 운영 감사를 수행하지 않았다."
+      "파트너 발표이며 독립 운영 감사를 수행하지 않았다.",
+      "개별 상품·고객·실거래·대출 약정·수익은 확인되지 않는다. 아부다비 언급은 해당 활동 허가의 증거가 아니다."
     ],
     "topic_ids": [
       "T-COMPANIES",
       "T-RIGHTS",
-      "T-COLLATERAL"
+      "T-COLLATERAL",
+      "T-GEOGRAPHY",
+      "T-INSTITUTION-ROLES",
+      "T-OPERATIONS",
+      "T-SETTLEMENT"
     ],
-    "adoption_stage": "technology_adoption_and_working_group_announced"
+    "adoption_stage": "adoption_and_build_announcement",
+    "previous_read_scope": [
+      "본문 L14–33: 데이터 표준·CCIP 채택, 구축 중 플랫폼, 운용사 협의, 공동 작업반과 담보 기준"
+    ],
+    "meaning": "최신 기술 선택 신호를 상품 출시·상환 레일과 분리한다.",
+    "reuse_mode": "same_url_selected_primary_recheck",
+    "reuse_verification": {
+      "id": "ST-HW-002",
+      "mode": "live_primary_recheck",
+      "checked_at": "2026-11-03",
+      "read_scope": [
+        "Chainlink 보도자료 웹행10–33"
+      ]
+    },
+    "reuse_limit": "2026-11-03 공식 원문의 기록된 선택 범위를 실제 재열람. 동일 원문이므로 독립 출처 수를 늘리지 않으며 이전 범위는 previous_read_scope/history에 보존."
   },
   {
     "checked_at": "2026-11-03",
@@ -4045,24 +4330,33 @@
     "published_at": "2026-05-27",
     "read_status": "full_text",
     "read_scope": [
-      "보도자료 본문: 해외 공시 AI 번역·요약, Xangle 정보 연결·관심 목록"
+      "이번 재확인: 공식 HTML0–18행 보도자료 본문. 해외공시 AI번역/요약, Xangle 정보서비스·관심목록·기존 주식주문"
     ],
-    "summary": "한화투자증권은 MTS에 해외 공시 AI 번역·요약과 Xangle 디지털자산 뉴스·시세·리서치 등 정보 서비스를 제공한다고 발표했다.",
+    "summary": "한화투자증권은 MTS의 해외공시 AI 번역·요약, 디지털자산 시세·뉴스·리서치 및 관심목록 기능을 발표했다.",
     "used_for": [
       "실제 제공된 정보 서비스와 장래 토큰 거래·수탁을 분리",
-      "AI가 읽을 상품 조건과 출처의 품질을 검증할 기존 접점"
+      "AI가 읽을 상품 조건과 출처의 품질을 검증할 기존 접점",
+      "이미 공개된 정보서비스 위에 필요한 자격·권리·실행·사후관리 업무의 추가 가치를 설계."
     ],
     "limitations": [
       "사용자 수·정확도·전환율·수익은 미확인.",
-      "정보 제공은 디지털자산 거래·수탁·지급 서비스 허가 또는 개시의 증거가 아니다."
+      "정보 제공은 디지털자산 거래·수탁·지급 서비스 허가 또는 개시의 증거가 아니다.",
+      "실제 사용량·정확도·전환율·순수익은 미확인. 디지털자산 정보기능을 토큰 거래·수탁·지급·외부 AI자동주문으로 확대하지 않음."
     ],
     "topic_ids": [
       "T-COMPANIES",
       "T-AI",
       "T-MARKET",
-      "T-AGENT-FINANCE"
+      "T-AGENT-FINANCE",
+      "T-INSTITUTION-ROLES",
+      "T-OPERATIONS"
     ],
-    "adoption_stage": "service_launch_announced"
+    "adoption_stage": "service_launch_announced",
+    "source_type": "official_company_material",
+    "reuse_mode": "same_url_selected_primary_recheck",
+    "previous_read_scope": [
+      "보도자료 본문: 해외 공시 AI 번역·요약, Xangle 정보 연결·관심 목록"
+    ]
   },
   {
     "checked_at": "2026-11-03",
@@ -4074,21 +4368,39 @@
     "published_at": "2026-01-22",
     "read_status": "selected_sections",
     "read_scope": [
-      "한화생명–Liberty City Ventures 공동투자 MOU 문단 및 행사 날짜"
+      "2026-01-22 보도자료 웹행76–93, LCV 소개124–126"
     ],
-    "summary": "한화생명은 1월 21일 Liberty City Ventures와 글로벌 핀테크 공동투자를 위한 MOU를 체결했다고 발표했다.",
+    "summary": "1/21 한화생명–LCV 공동투자 MOU는 핀테크·Web3·토큰화 인프라 기회를 대상으로 한다.",
     "used_for": [
-      "한화생명의 투자 탐색 채널과 직접 결제망 운영을 구분"
+      "한화생명의 투자 탐색 채널과 직접 결제망 운영을 구분",
+      "생명의 투자 탐색과 증권의 기술 도입을 구분한다."
     ],
     "limitations": [
-      "개별 투자 집행·출자액·수익·포트폴리오 회사의 권한·제휴가 한화에 이전된다는 근거가 아니다."
+      "개별 투자 집행·출자액·수익·포트폴리오 회사의 권한·제휴가 한화에 이전된다는 근거가 아니다.",
+      "LCV 포트폴리오 기업과 한화의 직접 계약·직접 지분을 뜻하지 않는다. 공동투자 집행액·수익은 미확인."
     ],
     "topic_ids": [
       "T-COMPANIES",
-      "T-FUNDING"
+      "T-FUNDING",
+      "T-GEOGRAPHY",
+      "T-INSTITUTION-ROLES"
     ],
     "event_date": "2026-01-21",
-    "adoption_stage": "mou"
+    "adoption_stage": "mou",
+    "previous_read_scope": [
+      "한화생명–Liberty City Ventures 공동투자 MOU 문단 및 행사 날짜"
+    ],
+    "meaning": "생명의 투자 탐색과 증권의 기술 도입을 구분한다.",
+    "reuse_mode": "same_url_selected_primary_recheck",
+    "reuse_verification": {
+      "id": "ST-HW-005",
+      "mode": "live_primary_recheck",
+      "checked_at": "2026-11-03",
+      "read_scope": [
+        "2026-01-22 보도자료 웹행76–93, LCV 소개124–126"
+      ]
+    },
+    "reuse_limit": "2026-11-03 공식 원문의 기록된 선택 범위를 실제 재열람. 동일 원문이므로 독립 출처 수를 늘리지 않으며 이전 범위는 previous_read_scope/history에 보존."
   },
   {
     "checked_at": "2026-11-03",
@@ -4100,7 +4412,8 @@
     "published_at": null,
     "read_status": "full_text",
     "read_scope": [
-      "제목과 2025-08-15 Jakarta 협약·방카슈랑스 협력 본문"
+      "제목과 2025-08-15 Jakarta 협약·방카슈랑스 협력 본문",
+      "공식 HTML 기사 본문 재열람: 2025-08-15 두 현지 법인의 방카 협력"
     ],
     "summary": "Hanwha Life Indonesia와 Nobu Bank는 2025년 8월 15일 방카슈랑스 전략 협력을 체결했다고 설명한다.",
     "used_for": [
@@ -4117,7 +4430,21 @@
       "T-INSTITUTION-ROLES"
     ],
     "event_date": "2025-08-15",
-    "adoption_stage": "bancassurance_cooperation"
+    "adoption_stage": "bancassurance_cooperation",
+    "reuse_verification": {
+      "checked_at": "2026-11-03",
+      "mode": "official_original_reread",
+      "read_scope": [
+        "공식 HTML 기사 본문 재열람: 2025-08-15 두 현지 법인의 방카 협력"
+      ],
+      "limitations": [
+        "기존 source ID를 유지하며 별도 독립 근거 수를 늘리지 않는다."
+      ]
+    },
+    "previous_read_scope": [
+      "제목과 2025-08-15 Jakarta 협약·방카슈랑스 협력 본문"
+    ],
+    "previous_checked_at": "2026-11-03"
   },
   {
     "checked_at": "2026-11-03",
@@ -4129,7 +4456,8 @@
     "published_at": null,
     "read_status": "selected_sections",
     "read_scope": [
-      "상품 3개와 설명, 보험은 은행 상품·보증·LPS 보호 대상이 아니라는 고지"
+      "상품 3개와 설명, 보험은 은행 상품·보증·LPS 보호 대상이 아니라는 고지",
+      "Chrome 가시 본문에서 3개 상품명·종류·급부 차감·은행/보험/LPS 고지 재열람; 연결 상세 PDF는 접근 실패"
     ],
     "summary": "은행의 공개 방카슈랑스 페이지에는 Hanwha Platinum Life Plan A, Hanwha Smart CI Plus, Hanwha Universal Life가 등재되어 있다. 보험 발행자와 은행의 책임 및 예금보호 범위를 구분하는 고지가 있다.",
     "used_for": [
@@ -4147,7 +4475,21 @@
       "T-INSTITUTION-ROLES",
       "T-RIGHTS"
     ],
-    "adoption_stage": "public_product_listing_observed"
+    "adoption_stage": "public_product_listing_observed",
+    "reuse_verification": {
+      "checked_at": "2026-11-03",
+      "mode": "official_original_reread",
+      "read_scope": [
+        "Chrome 가시 본문에서 3개 상품명·종류·급부 차감·은행/보험/LPS 고지 재열람; 연결 상세 PDF는 접근 실패"
+      ],
+      "limitations": [
+        "기존 source ID를 유지하며 별도 독립 근거 수를 늘리지 않는다."
+      ]
+    },
+    "previous_read_scope": [
+      "상품 3개와 설명, 보험은 은행 상품·보증·LPS 보호 대상이 아니라는 고지"
+    ],
+    "previous_checked_at": "2026-11-03"
   },
   {
     "checked_at": "2026-11-03",
@@ -4159,7 +4501,9 @@
     "published_at": "2026-08-11",
     "read_status": "selected_sections",
     "read_scope": [
-      "HTML 본문 표본·조사기간·금융포용·연령별 이용 및 조사 범위 설명 L607–679"
+      "HTML 본문 표본·조사기간·금융포용·연령별 이용 및 조사 범위 설명 L607–679",
+      "공식 HTML 조사방법·지표 재열람",
+      "공식 첨부 PDF p1–4: 조사 범위·표본·문해/사용 정의·연령별 및 샤리아 지수"
     ],
     "summary": "2026 SNLIK는 15–79세 75,000명을 조사했다. 종합 금융포용률은 93.61%, 18–25세는 95.69%로 제시되지만 이는 여러 금융서비스 이용을 포괄한다. 표본·지역 범위는 이전 조사와 달라졌다.",
     "used_for": [
@@ -4176,7 +4520,25 @@
       "T-MARKET",
       "T-OPERATIONS"
     ],
-    "event_date": "2026-08-10"
+    "event_date": "2026-08-10",
+    "reuse_verification": {
+      "checked_at": "2026-11-03",
+      "mode": "official_original_reread",
+      "read_scope": [
+        "공식 HTML 조사방법·지표 재열람",
+        "공식 첨부 PDF p1–4: 조사 범위·표본·문해/사용 정의·연령별 및 샤리아 지수"
+      ],
+      "limitations": [
+        "기존 source ID를 유지하며 별도 독립 근거 수를 늘리지 않는다."
+      ]
+    },
+    "attachment_urls": [
+      "https://ojk.go.id/id/berita-dan-kegiatan/siaran-pers/Documents/Pages/Hasil-SNLIK-Tahun-2026/SPB%20152%20Indeks%20Literasi%20dan%20Inklusi%20Keuangan%20Masyarakat%20Meningkat,%20OJK,%20LPS,%20dan%20BPS%20Umumkan%20Hasil%20Survei%20Nasional%20Literasi%20dan%20Inklusi%20Keuangan%20(SNLIK)%20Tahun%202026.pdf"
+    ],
+    "previous_read_scope": [
+      "HTML 본문 표본·조사기간·금융포용·연령별 이용 및 조사 범위 설명 L607–679"
+    ],
+    "previous_checked_at": "2026-11-03"
   },
   {
     "checked_at": "2026-11-03",
@@ -4242,21 +4604,41 @@
     "published_at": "2026-09-09",
     "read_status": "selected_sections",
     "read_scope": [
-      "본문 당사자·velocity.xyz 링크·CEO Eric Queathem·Visa Direct 시험 범위"
+      "배포 보도자료 웹행450–479, 링크 대상 velocity.xyz 확인"
     ],
-    "summary": "이 발표는 velocity.xyz 지급·자금관리 플랫폼과 MVB의 Visa Direct 스테이블코인 결제망 시험 참여를 설명한다. 발표 당사자와 CEO 표기는 Velocity Clearing 자료와 다르다.",
+    "summary": "2026-09-09 발표의 Velocity는 velocity.xyz를 연결하며 CEO Eric Queathem을 명시한다. MVB의 Visa Direct 스테이블코인 자금·결제 파일럿을 설명한다.",
     "used_for": [
-      "동명 회사 혼동 방지: 한화 소유 Velocity Clearing의 온체인 실적으로 채택하지 않음"
+      "동명 회사 혼동 방지: 한화 소유 Velocity Clearing의 온체인 실적으로 채택하지 않음",
+      "동명 회사를 Velocity Clearing의 USDC 레일 증거로 귀속하지 않는다."
     ],
     "limitations": [
       "동일 법인·지배관계를 입증하는 자료를 확보하지 않았다. 단정적으로 무관계라고 판정하지도 않는다.",
-      "이 자료는 한화의 USDC·USDT 제휴 증거가 아니다."
+      "이 자료는 한화의 USDC·USDT 제휴 증거가 아니다.",
+      "한화·Velocity Clearing과의 법적 관계는 이 발표에서 입증되지 않는다. 파일럿도 전면 상용화와 다르다."
     ],
     "topic_ids": [
       "T-COMPANIES",
-      "T-SETTLEMENT"
+      "T-SETTLEMENT",
+      "T-GEOGRAPHY",
+      "T-INSTITUTION-ROLES",
+      "T-MONEY",
+      "T-REGULATION"
     ],
-    "adoption_stage": "third_party_pilot_not_attributed_to_hanwha"
+    "adoption_stage": "third_party_pilot_not_attributed_to_hanwha",
+    "previous_read_scope": [
+      "본문 당사자·velocity.xyz 링크·CEO Eric Queathem·Visa Direct 시험 범위"
+    ],
+    "meaning": "동명 회사를 Velocity Clearing의 USDC 레일 증거로 귀속하지 않는다.",
+    "reuse_mode": "same_url_selected_primary_recheck",
+    "reuse_verification": {
+      "id": "ST-HW-011",
+      "mode": "live_primary_recheck",
+      "checked_at": "2026-11-03",
+      "read_scope": [
+        "배포 보도자료 웹행450–479, 링크 대상 velocity.xyz 확인"
+      ]
+    },
+    "reuse_limit": "2026-11-03 공식 원문의 기록된 선택 범위를 실제 재열람. 동일 원문이므로 독립 출처 수를 늘리지 않으며 이전 범위는 previous_read_scope/history에 보존."
   },
   {
     "checked_at": "2026-11-03",
@@ -4268,22 +4650,39 @@
     "published_at": "2026-02-26",
     "read_status": "selected_sections",
     "read_scope": [
-      "Token Terms 최종 갱신일, 인증 고객, 발행·환매와 본인 명의 은행 계좌·최소금액·수수료 조건"
+      "2026-02-26 Token Terms: 법인 설명, §1.1.30·§1.1.45, §3.3, §4.1 및 일부 §5"
     ],
-    "summary": "Tether 약관은 인증된 고객의 직접 발행·상환과 법·약관상 제한을 규정하며 은행 계좌와 최소금액·수수료 조건을 둔다.",
+    "summary": "Tether 약관은 미국인·미국법인 이용을 제한하되 Tether가 동의한 ECP 예외를 둔다. 직접 발행·상환에는 검증 고객 자격과 계약 조건이 적용된다.",
     "used_for": [
       "USDT 보유·시장 매각·직접 상환·은행 수취 분리",
-      "레일 선정에서 고객 자격과 총비용 비교"
+      "레일 선정에서 고객 자격과 총비용 비교",
+      "미국 Velocity에 USDT 이용 자격을 자동 부여하지 않는다."
     ],
     "limitations": [
       "현재 구체 최소금액이나 특정 고객 수수료를 이 연구에서 확정하지 않았다.",
-      "한화의 USDT 제휴·직접 발행상환 계정은 미확인."
+      "한화의 USDT 제휴·직접 발행상환 계정은 미확인.",
+      "이는 Tether 계약조건이며 미국법 전체의 금지 판정이 아니다. 개별 ECP 예외·한화 계약은 미확인. 토큰 보유·직접 환매·은행 입금은 다르다."
     ],
     "topic_ids": [
       "T-MONEY",
-      "T-RIGHTS"
+      "T-RIGHTS",
+      "T-REGULATION"
     ],
-    "date_type": "last_updated"
+    "date_type": "last_updated",
+    "previous_read_scope": [
+      "Token Terms 최종 갱신일, 인증 고객, 발행·환매와 본인 명의 은행 계좌·최소금액·수수료 조건"
+    ],
+    "meaning": "미국 Velocity에 USDT 이용 자격을 자동 부여하지 않는다.",
+    "reuse_mode": "same_url_selected_primary_recheck",
+    "reuse_verification": {
+      "id": "ST-HW-013",
+      "mode": "live_primary_recheck",
+      "checked_at": "2026-11-03",
+      "read_scope": [
+        "2026-02-26 Token Terms: 법인 설명, §1.1.30·§1.1.45, §3.3, §4.1 및 일부 §5"
+      ]
+    },
+    "reuse_limit": "2026-11-03 공식 원문의 기록된 선택 범위를 실제 재열람. 동일 원문이므로 독립 출처 수를 늘리지 않으며 이전 범위는 previous_read_scope/history에 보존."
   },
   {
     "checked_at": "2026-11-03",
@@ -4323,19 +4722,27 @@
     "published_at": null,
     "read_status": "selected_sections",
     "read_scope": [
-      "위험관리 조직·익스포저 한도·ALM 부채 현금흐름 기반 목표 포트폴리오·BCM 본문"
+      "이번 재확인: 공식 HTML250–271행 독립 위험관리·익스포저 한도·부채현금흐름 기반 ALM·BCM 설명"
     ],
-    "summary": "한화생명은 독립 위험관리 체계, 익스포저 한도, 부채 현금흐름에 기초한 ALM 목표 포트폴리오 및 업무연속성 관리를 설명한다.",
+    "summary": "한화생명은 위험관리 조직, 익스포저 한도와 부채 현금흐름을 고려한 ALM 목표 포트폴리오를 설명한다.",
     "used_for": [
-      "보험자산 운용의 기준을 토큰 거래 편의가 아닌 부채 지급·자본·위험에 두기"
+      "보험자산 운용의 기준을 토큰 거래 편의가 아닌 부채 지급·자본·위험에 두기",
+      "빠른 보험금 지급·운용자산 현금화의 비용과 보험부채 책임을 함께 평가."
     ],
     "limitations": [
-      "특정 디지털자산 허용·현행 자본비율·실제 스트레스 성과를 증명하지 않는다."
+      "특정 디지털자산 허용·현행 자본비율·실제 스트레스 성과를 증명하지 않는다.",
+      "특정 디지털자산 허용·현행 내부 한도·실제 자본비율·스트레스 성과는 미확인."
     ],
     "topic_ids": [
       "T-COMPANIES",
       "T-INSTITUTION-ROLES",
-      "T-OPERATIONS"
+      "T-OPERATIONS",
+      "T-AI"
+    ],
+    "source_type": "official_company_material",
+    "reuse_mode": "same_url_selected_primary_recheck",
+    "previous_read_scope": [
+      "위험관리 조직·익스포저 한도·ALM 부채 현금흐름 기반 목표 포트폴리오·BCM 본문"
     ]
   },
   {
@@ -4702,15 +5109,13 @@
     "visibility": "public",
     "read_status": "official_summary",
     "source_type": "official_primary",
-    "read_scope": [
-      "보도자료 본문 전체: 행사10/1, 주최·참가자·각사 발표·시연·후속계획",
-      "웹 접근 timeout 뒤 공식 URL 직접 HTTP 취득 및 본문 텍스트 확인"
-    ],
+    "read_scope": "2026-11-03 재열람 HTML37–60: 생명·증권 역할 설명, SBI/서클/비댁스 소개·시연, 후속 기술검증 계획.",
     "summary": "교보생명 주최 행사에서 협력·기술검증을 논의했다. 교보증권은 인수·중개·유통 역할 가능성을 설명했고 비댁스는 KRW1·USDC 교환·결제를 시연했다.",
     "meaning": "교보생명 주최 행사에서 협력·기술검증을 논의했다. 교보증권은 인수·중개·유통 역할 가능성을 설명했고 비댁스는 KRW1·USDC 교환·결제를 시연했다.",
     "used_for": [
       "그룹·회사 역할 및 발표·시연·사업 운영의 분리",
-      "USDC 관련 실제 확인 범위"
+      "USDC 관련 실제 확인 범위",
+      "그룹 협력 가능성과 상용 계약·자동 실행 권한을 분리하고 교보 그룹의 고객 목적 관리와 연결."
     ],
     "limitations": [
       "교보증권의 직접 Circle 계약·Mint 자격·고객 레일·보수·실운영을 확인하지 못함",
@@ -4720,6 +5125,10 @@
       "T-COMPANIES",
       "T-MONEY",
       "T-SETTLEMENT"
+    ],
+    "previous_read_scope": [
+      "보도자료 본문 전체: 행사10/1, 주최·참가자·각사 발표·시연·후속계획",
+      "웹 접근 timeout 뒤 공식 URL 직접 HTTP 취득 및 본문 텍스트 확인"
     ]
   },
   {
@@ -5292,27 +5701,44 @@
     "visibility": "public",
     "read_status": "selected_sections",
     "read_scope": [
-      "L6–37 계약 우선·Standard/Express·2026-10-19 이후 적용·처리/은행결제 구분",
-      "L81–148 변경시점·수수료/credit·처리 지연 설명; credit의 상세 모형은 사용하지 않음"
+      "도움말 표·시행 설명 웹행0–37, 관련 FAQ39–57 및81–114"
     ],
-    "summary": "2026년 10월 19일 이후 적용되는 공개 구조는 Standard의 Circle 환매 수수료 0과 최대 2영업일 처리, Express의 기본 5bp와 거의 즉시 처리를 구분한다. 양쪽 모두 은행 결제 시간이 추가되며 별도 서면계약이 우선한다.",
+    "summary": "2026-10-19 이후 적용 구조는 표준 환매0bp·최대2영업일, Express 총5bp와 조건부 크레딧을 설명한다. 양쪽 모두 은행 결제시간은 별도이며 서면계약이 우선한다.",
     "used_for": [
       "신속한 환매 처리와 고객 은행 입금의 차이",
-      "운용 수익·전환 요금·은행/FX 비용의 총비용 비교"
+      "운용 수익·전환 요금·은행/FX 비용의 총비용 비교",
+      "속도와 환매 총비용·은행현금 도달을 분리한다."
     ],
     "limitations": [
       "기존 고객은 해당일 이후 다음 청구기간부터 적용되며 개인 계약·계정 구조가 다를 수 있다.",
       "검사·제재·은행/망 장애로 처리 지연이 가능하다. 5bp를 고객의 최종 총비용으로 쓰지 않는다.",
-      "credit 자격·정산일의 모든 예외를 모델링하지 않았고 고객별 할인은 미확인."
+      "credit 자격·정산일의 모든 예외를 모델링하지 않았고 고객별 할인은 미확인.",
+      "기존 고객 과금주기·크레딧·계약에 따라 달라진다. 한화에 적용되는 가격이나 보장된 입금시간이 아니다."
     ],
     "topic_ids": [
       "T-MONEY",
       "T-OPERATIONS",
-      "T-MARKET"
+      "T-MARKET",
+      "T-REGULATION"
     ],
     "source_type": "provider_fee_schedule",
     "effective_date": "2026-10-19",
-    "effective_date_status": "on_or_after; existing customers from next billing period"
+    "effective_date_status": "on_or_after; existing customers from next billing period",
+    "previous_read_scope": [
+      "L6–37 계약 우선·Standard/Express·2026-10-19 이후 적용·처리/은행결제 구분",
+      "L81–148 변경시점·수수료/credit·처리 지연 설명; credit의 상세 모형은 사용하지 않음"
+    ],
+    "meaning": "속도와 환매 총비용·은행현금 도달을 분리한다.",
+    "reuse_mode": "same_url_selected_primary_recheck",
+    "reuse_verification": {
+      "id": "KNX-M-003",
+      "mode": "live_primary_recheck",
+      "checked_at": "2026-11-03",
+      "read_scope": [
+        "도움말 표·시행 설명 웹행0–37, 관련 FAQ39–57 및81–114"
+      ]
+    },
+    "reuse_limit": "2026-11-03 공식 원문의 기록된 선택 범위를 실제 재열람. 동일 원문이므로 독립 출처 수를 늘리지 않으며 이전 범위는 previous_read_scope/history에 보존."
   },
   {
     "id": "KNX-M-004",
@@ -6375,18 +6801,40 @@
     "visibility": "public",
     "read_status": "selected_sections",
     "source_type": "official_product_or_contract",
-    "read_scope": "HTML 42–62: 직접 취득·상환 최소금액·요율·인증료·계정 심사·오입금.",
-    "summary": "공개표의 직접 취득/상환 최소금액은10만달러, 상환료는1000달러와0.1% 중 큰 값, 취득료0.1%, 인증료150달러다. 계정 승인은 Tether 재량이며 토큰 출금도 별도 심사·시간을 요구한다.",
-    "used_for": "직접 발행자 상환과 거래소/전환사업자 현금화 가격이 다름을 구체화.",
-    "limitations": "갱신일 미표시. 교보의 적격 계정·계약·고객 가격이나 일반 USDT 보유자의 직접 상환권을 증명하지 않음. 별도 은행/망/거래소 비용·시세·세금은 포함하지 않음.",
+    "read_scope": [
+      "Fees 웹행42–62: 최소금액·취득/환매료·검증료·승인"
+    ],
+    "summary": "Tether 직접 취득·상환 최소금액은10만달러이며 상환료는1천달러와0.1% 중 큰 금액이다. 승인과 검증은 별도다.",
+    "used_for": [
+      "직접 발행자 상환과 거래소/전환사업자 현금화 가격이 다름을 구체화.",
+      "직접 USDT 환매의 규모별 비용과 파트너 경로를 비교한다."
+    ],
+    "limitations": [
+      "갱신일 미표시. 교보의 적격 계정·계약·고객 가격이나 일반 USDT 보유자의 직접 상환권을 증명하지 않음. 별도 은행/망/거래소 비용·시세·세금은 포함하지 않음.",
+      "거래소 수수료가 아니며 한화 적용 계약 가격도 아니다. 환매 성공·은행 가용현금 시점을 보장하지 않는다."
+    ],
     "topic_ids": [
       "T-COMPANIES",
       "T-OPERATIONS",
-      "T-SETTLEMENT"
+      "T-SETTLEMENT",
+      "T-MONEY",
+      "T-REGULATION"
     ],
     "event_date": null,
     "effective_date": null,
-    "adoption_stage": "current_public_fee_page_observed"
+    "adoption_stage": "current_public_fee_page_observed",
+    "previous_read_scope": "HTML 42–62: 직접 취득·상환 최소금액·요율·인증료·계정 심사·오입금.",
+    "meaning": "직접 USDT 환매의 규모별 비용과 파트너 경로를 비교한다.",
+    "reuse_mode": "same_url_selected_primary_recheck",
+    "reuse_verification": {
+      "id": "KYX-V-010",
+      "mode": "live_primary_recheck",
+      "checked_at": "2026-11-03",
+      "read_scope": [
+        "Fees 웹행42–62: 최소금액·취득/환매료·검증료·승인"
+      ]
+    },
+    "reuse_limit": "2026-11-03 공식 원문의 기록된 선택 범위를 실제 재열람. 동일 원문이므로 독립 출처 수를 늘리지 않으며 이전 범위는 previous_read_scope/history에 보존."
   },
   {
     "id": "KYX-V-011",
@@ -6411,5 +6859,720 @@
     "effective_date": null,
     "updated_at": "2026-09-23",
     "adoption_stage": "operating_instructions"
+  },
+  {
+    "id": "HWX-A-001",
+    "title": "Clearing & Custody",
+    "publisher": "Velocity Clearing",
+    "url": "https://www.velocityclearingllc.com/services/clearing/",
+    "published_at": null,
+    "checked_at": "2026-11-03",
+    "visibility": "public",
+    "read_status": "selected_sections",
+    "read_scope": [
+      "공식 서비스 웹행28–61"
+    ],
+    "summary": "주식·ETF·관련 옵션을 소개한다. 채권·뮤추얼펀드는 COMING SOON으로 표시하며 선물은 IB–FCM 관계다. Fully disclosed·omnibus·기관 직접 고객 모델을 구분한다.",
+    "used_for": [
+      "현재 제품 범위와 미래·외부 의존 기능을 나눈다."
+    ],
+    "limitations": [
+      "서비스 안내이며 실제 고객별 계약·수익·적격·SLA는 미확인. 등록 업종 전체와 상용 메뉴가 일치한다고 단정하지 않는다."
+    ],
+    "topic_ids": [
+      "T-COMPANIES",
+      "T-GEOGRAPHY",
+      "T-INSTITUTION-ROLES",
+      "T-OPERATIONS",
+      "T-SETTLEMENT"
+    ],
+    "meaning": "현재 제품 범위와 미래·외부 의존 기능을 나눈다.",
+    "adoption_stage": "advertised_current_services_with_planned_items"
+  },
+  {
+    "id": "HWX-A-002",
+    "title": "Trading Technology",
+    "publisher": "Velocity Clearing",
+    "url": "https://www.velocityclearingllc.com/trading-technology/",
+    "published_at": null,
+    "checked_at": "2026-11-03",
+    "visibility": "public",
+    "read_status": "selected_sections",
+    "read_scope": [
+      "웹행28–117: 기술·OMS·Sponsored access·API·고객 접속"
+    ],
+    "summary": "주문 실행·현금 이동·주식 locate·계좌 개설 API, FIX와 화이트라벨 접점을 소개한다. 지원24/6과 확장시간 거래를 설명한다.",
+    "used_for": [
+      "AI가 쓸 수 있는 현재 고객 업무의 접점을 식별한다."
+    ],
+    "limitations": [
+      "지원24/6은 은행현금·거래소 결제24/7이 아니다. 자율주문 위임·새 외국 고객 접근·토큰 레일은 확인되지 않았다."
+    ],
+    "topic_ids": [
+      "T-COMPANIES",
+      "T-GEOGRAPHY",
+      "T-INSTITUTION-ROLES",
+      "T-OPERATIONS",
+      "T-SETTLEMENT",
+      "T-AGENT-FINANCE"
+    ],
+    "meaning": "AI가 쓸 수 있는 현재 고객 업무의 접점을 식별한다."
+  },
+  {
+    "id": "HWX-A-003",
+    "title": "Circle Internet MEA Ltd — FSRA public register / firm profile",
+    "publisher": "ADGM FSRA",
+    "url": "https://www.adgm.com/public-registers/fsra/firms/financial-firms/circle-internet-mea-ltd-250035",
+    "published_at": null,
+    "checked_at": "2026-11-03",
+    "visibility": "public",
+    "read_status": "selected_sections",
+    "read_scope": [
+      "공식 등록 웹행51–83",
+      "연결 공식 2쪽 firm profile PDF 전문, Downloaded31Oct2026: 활동·제한"
+    ],
+    "summary": "Circle MEA의 FSP250035는2025-11-27 부여, Active다. Money Services와 Arranging Deals in Investments가 표시된다. 소매고객 및 고객자금·투자자산 보유·통제가 제한된다.",
+    "used_for": [
+      "현지 파트너도 특정 법인·활동·고객 제한을 가진다는 비교 기준이다."
+    ],
+    "limitations": [
+      "한화–Circle 계약 증거가 아니다. 미국 USDC 발행법인과 MEA 서비스 법인은 동일하지 않다. HTML 활동표는 동적 미표시여서 공식 PDF로 확인했다."
+    ],
+    "topic_ids": [
+      "T-MONEY",
+      "T-REGULATION",
+      "T-COMPANIES",
+      "T-GEOGRAPHY",
+      "T-INSTITUTION-ROLES"
+    ],
+    "meaning": "현지 파트너도 특정 법인·활동·고객 제한을 가진다는 비교 기준이다.",
+    "effective_date": "2025-11-27",
+    "related_urls": [
+      "https://www.adgm.com/api/FSRAC_FirmPdf/GenerateFirmProfilePdf?FirmId=179694"
+    ],
+    "document_date": "2026-10-31"
+  },
+  {
+    "id": "HWX-A-004",
+    "title": "Exchange Traded Concepts Takes Client ETFs to the Abu Dhabi Securities Exchange",
+    "publisher": "Exchange Traded Concepts",
+    "url": "https://www.exchangetradedconcepts.com/posts/exchange-traded-concepts-takes-client-etfs-to-the-abu-dhabi-securities-exchange",
+    "published_at": "2026-11-02",
+    "checked_at": "2026-11-03",
+    "visibility": "public",
+    "read_status": "selected_sections",
+    "read_scope": [
+      "본문 웹행0–18, 위험·운영법인 설명41–54"
+    ],
+    "summary": "ETC는 자사가 adviser인 한화 KDEF·KMCA가11/2 ADX 거래를 시작했다고 발표했다. ADX·시장조성자 Oceane·법률대표 Waystone과 상장을 조정했다. Foreside는 distributor다.",
+    "used_for": [
+      "UAE를 MOU만으로 보지 않고 기존 ETF 운영 사업을 출발점으로 삼는다."
+    ],
+    "limitations": [
+      "온체인 ETF·Velocity 참여·상장 후 수요·보수·수익을 증명하지 않는다. 관계 법인의 계약과 수익 배분을 따로 확인해야 한다."
+    ],
+    "topic_ids": [
+      "T-COMPANIES",
+      "T-GEOGRAPHY",
+      "T-INSTITUTION-ROLES",
+      "T-MARKET"
+    ],
+    "meaning": "UAE를 MOU만으로 보지 않고 기존 ETF 운영 사업을 출발점으로 삼는다.",
+    "event_date": "2026-11-02",
+    "adoption_stage": "cross_listing_trading_started_institution_statement"
+  },
+  {
+    "id": "HWX-A-006",
+    "title": "PLUS Korea Defense Industry Index ETF — Summary Prospectus, March 30, 2026",
+    "publisher": "Exchange Listed Funds Trust / SEC EDGAR",
+    "url": "https://www.sec.gov/Archives/edgar/data/1547950/000121390026036312/ea0282658-04_497k.htm",
+    "published_at": "2026-03-30",
+    "checked_at": "2026-11-03",
+    "visibility": "public",
+    "read_status": "selected_sections",
+    "read_scope": [
+      "요약설명서 표지·보수표, 전략/지수 제공자, AP·현금설정환매·환율 위험, adviser 및 매매 절(웹행18–109,197–199,230–275)"
+    ],
+    "summary": "KDEF 연 운용보수·총운영비용 표는0.65%다. adviser는ETC, 지수 보유자는 한화운용이다. 일반 투자자는 브로커를 통해 매매하며 직접 설정·환매는 Creation Units로 이뤄진다.",
+    "used_for": [
+      "ETF 권리와 일반 보유자의 매도·펀드 직접 환매를 구분한다."
+    ],
+    "limitations": [
+      "3/30 설명서 선택 절이다. ADX 거래·KMCA 보수·11월 실현수익을 대신하지 않는다. 0.65% 전액을 한화 보수로 해석하지 않는다."
+    ],
+    "topic_ids": [
+      "T-RIGHTS",
+      "T-MARKET",
+      "T-INSTITUTION-ROLES"
+    ],
+    "meaning": "ETF 권리와 일반 보유자의 매도·펀드 직접 환매를 구분한다."
+  },
+  {
+    "id": "HWX-A-007",
+    "title": "ADX welcomes listing of two Korean ETFs",
+    "publisher": "Emirates News Agency (WAM), ADX 발표 인용",
+    "url": "https://www.wam.ae/en/article/c31xc1f-adx-welcomes-listing-two-korean-etfs",
+    "published_at": "2026-11-02",
+    "checked_at": "2026-11-03",
+    "visibility": "public",
+    "read_status": "selected_sections",
+    "read_scope": [
+      "공식 통신 기사 본문 전체 웹행1–20"
+    ],
+    "summary": "ADX의 KDEF·KMCA 상장과 NYSE Arca 교차상장을 보도한다. 현지 시간대에 한국 산업 익스포저에 접근하는 기능을 설명한다.",
+    "used_for": [
+      "실제 국경 간 상품 접근과 아직 입증되지 않은 고객 수요·수익을 구분한다."
+    ],
+    "limitations": [
+      "거래소 법규·개별 상장 결정문 대신은 아니다. ADX 전체 ETF 거래액은 이 두 상품이나 한화 매출이 아니므로 사업 추정에 사용하지 않는다."
+    ],
+    "topic_ids": [
+      "T-COMPANIES",
+      "T-GEOGRAPHY",
+      "T-INSTITUTION-ROLES",
+      "T-MARKET"
+    ],
+    "meaning": "실제 국경 간 상품 접근과 아직 입증되지 않은 고객 수요·수익을 구분한다.",
+    "event_date": "2026-11-02"
+  },
+  {
+    "id": "HWX-A-008",
+    "title": "Exchange Listed Funds Trust Form N-1A — KDEF Prospectus, Fund Management",
+    "publisher": "Exchange Listed Funds Trust / SEC EDGAR",
+    "url": "https://www.sec.gov/Archives/edgar/data/1547950/000121390026035567/ea0282658-01_485bpos.htm",
+    "published_at": "2026-03-27",
+    "checked_at": "2026-11-03",
+    "visibility": "public",
+    "read_status": "selected_sections",
+    "read_scope": [
+      "제출 표지·3/30 효력 체크",
+      "합본 중 KDEF Fund Management 인쇄p21, 웹행6021–6033; 지수 설명5648–5652, 매매6072–6074"
+    ],
+    "summary": "ETC의0.65% adviser 보수와 한화운용의 sponsor 계약을 명시한다. 한화는 제외비용 외 펀드 비용과 해당 시 ETC 최소보수를 부담하고 ETC로부터 AUM 연동 보수를 받는다.",
+    "used_for": [
+      "지급자·수취자·비용 부담을 닫아 교차상장 경제성을 판단한다."
+    ],
+    "limitations": [
+      "한화 보수율·최소보수액·실현수입은 이 절에 미공개다. 합본 전체와 계약 부속서·후속 변경은 읽지 않았다. KMCA에 그대로 적용하지 않는다."
+    ],
+    "topic_ids": [
+      "T-RIGHTS",
+      "T-INSTITUTION-ROLES",
+      "T-COMPANIES"
+    ],
+    "meaning": "지급자·수취자·비용 부담을 닫아 교차상장 경제성을 판단한다.",
+    "effective_date": "2026-03-30"
+  },
+  {
+    "checked_at": "2026-11-03",
+    "visibility": "public",
+    "read_status": "selected_sections",
+    "id": "HWX-M-001",
+    "title": "PT Lippo General Insurance Tbk — Laporan Keberlanjutan 2025",
+    "publisher": "PT Lippo General Insurance Tbk",
+    "url": "https://www.lgi.co.id/uploads/2026/04/SR-2025-LPGI-210426.pdf",
+    "published_at": null,
+    "data_as_of": "2025-12-31",
+    "read_scope": [
+      "PDF 파일 p57(인쇄 p55), 주주 구성 표 및 2025-12-31 기준 표시",
+      "PDF p2: 회사 단독 보고 범위 및 독립 외부 assurance 미실시 설명"
+    ],
+    "summary": "LGI의 2025-12-31 주주표는 Hanwha General Insurance 61.50%, PT Hanwha Life Insurance Indonesia 12.86%, PT Inti Anugerah Pratama 18.10%, 일반주주 7.54%다. 한국 손보와 현지 생명보험사를 별도 주주로 표시한다.",
+    "used_for": [
+      "한화손보·현지 생명·LGI의 법인 및 dated 지분 구분",
+      "옛 인수 비율을 현재 비율로 사용하는 오류 방지"
+    ],
+    "limitations": [
+      "179쪽 전체를 읽지 않았다. 선택 주주표·보고 범위만 확인했다.",
+      "정확한 게시일은 미확인. URL의 업로드 월은 게시일 확정 근거가 아니다.",
+      "2026-11-03 최신 주주명부가 아니라 2025-12-31 기준이다.",
+      "회사 자체 보고이며 감사 재무공고와의 교차 확인도 독립 발행자 두 곳의 증거는 아니다."
+    ],
+    "topic_ids": [
+      "T-COMPANIES",
+      "T-INSTITUTION-ROLES",
+      "T-GEOGRAPHY"
+    ],
+    "upload_path_month": "2026-04"
+  },
+  {
+    "checked_at": "2026-11-03",
+    "visibility": "public",
+    "read_status": "selected_sections",
+    "id": "HWX-M-002",
+    "title": "QRIS Nobu: Solusi QRIS Terintegrasi untuk Pembayaran Digital",
+    "publisher": "PT Bank Nationalnobu Tbk",
+    "url": "https://www.nobubank.com/id/umkm/layanan/nobu-qris/",
+    "published_at": null,
+    "read_scope": [
+      "HTML 본문 L81–105: 수납·입금·고객지원 설명",
+      "L137–191: 상품 유형, Coming Soon 표시, MDR표, 가맹점 계약·서류",
+      "L195–201: Nobubiz와 merchant 서비스 설명"
+    ],
+    "summary": "Nobu는 가맹점 QRIS와 여러 지급 앱의 수납 접점을 공개한다. MDR표는 영세 건당 IDR500,000 이하 0%, 초과 0.3%, 일반 중소·대형 가맹점 0.7%를 제시한다. Crossborder·Tuntas·CPTS·B2B Issuer에는 Coming Soon 표시가 있다.",
+    "used_for": [
+      "가맹점 수납·대사·IDR 자금관리 사업의 실제 접점",
+      "MDR 고객 부과율과 은행 순수익 분리",
+      "미출시 기능을 현재 영업 범위로 사용하지 않기"
+    ],
+    "limitations": [
+      "게시일 없음. 2026-11-03 공개 페이지 관측이다.",
+      "MDR은 가맹점 부담 금액이며 최종 소비자 이용료·은행 순수취율이 아니다. 네트워크·파트너 배분·개별 계약 미확인.",
+      "실시간 입금은 회사 설명이며 실제 지연·가용 잔액·SLA를 검증하지 않았다.",
+      "가맹점 수·활성 거래·유료 추가 서비스 수요는 미확인.",
+      "페이지 하단 일반적 B2B 설명보다 유형별 Coming Soon 표시를 보수적으로 채택했다."
+    ],
+    "topic_ids": [
+      "T-MONEY",
+      "T-SETTLEMENT",
+      "T-OPERATIONS",
+      "T-MARKET"
+    ]
+  },
+  {
+    "checked_at": "2026-11-03",
+    "visibility": "public",
+    "read_status": "selected_sections",
+    "id": "HWX-M-003",
+    "title": "Proyek Garuda: Menavigasi Arsitektur Rupiah Digital",
+    "publisher": "Bank Indonesia",
+    "url": "https://www.bi.go.id/id/rupiah/digital-rupiah/default.aspx",
+    "published_at": null,
+    "event_date": "2024-12-13",
+    "read_scope": [
+      "HTML L193–247: 1차 wholesale PoC 보고서와 FAQ",
+      "발행 주체·wholesale/retail 구분·스테이블코인과의 차이·참가 범위·미래 기술 비확정"
+    ],
+    "summary": "BI는 2024-12-13 wholesale Rupiah Digital cash-ledger 1차 PoC 보고서를 발표했다고 설명한다. 디지털 루피아는 BI 직접 청구권으로 민간 암호자산·스테이블코인과 다르다. PoC는 BI와 허용 참가자에 한정되며 향후 기술·retail 발행 일정은 이 설명으로 확정되지 않는다.",
+    "used_for": [
+      "중앙은행 돈·은행예금·민간 스테이블코인 구분",
+      "2027Q1 상용화 또는 Nobu 참가를 자동 가정하지 않는 시나리오"
+    ],
+    "limitations": [
+      "페이지 전체와 첨부 기술보고서를 모두 읽지 않았다.",
+      "이 페이지에서 확정 일정이 발견되지 않았다는 것이 이후 다른 발표의 부재를 입증하지 않는다.",
+      "Nobu의 개별 참가 승인·보험료 결제 사용은 미확인."
+    ],
+    "topic_ids": [
+      "T-MONEY",
+      "T-REGULATION",
+      "T-SETTLEMENT"
+    ]
+  },
+  {
+    "checked_at": "2026-11-03",
+    "visibility": "public",
+    "read_status": "selected_sections",
+    "id": "HWX-M-004",
+    "title": "HealthPlus+ Business",
+    "publisher": "PT Lippo General Insurance Tbk",
+    "url": "https://www.lgi.co.id/info-produk/healthplus-business/",
+    "published_at": null,
+    "read_scope": [
+      "HTML 제품 본문 L1–60: 직원 건강보험, 입원 cashless, 선택 외래·치과, 문의 경로"
+    ],
+    "summary": "LGI는 HealthPlus+ Business를 직원 건강 보호를 위한 보험으로 소개한다. 입원 cashless 및 선택 외래·치과 등 보장을 설명한다. 고용주 계약·직원 관리 후보를 검토하는 실제 제품 근거이며, Nobu의 해당 상품 유통 계약은 확인하지 않았다.",
+    "used_for": [
+      "개인 방카와 고용주 직원 보장의 계약자·지급자 분리",
+      "가입자 자격·보험금 안내·관리 업무 개선 후보"
+    ],
+    "limitations": [
+      "공개 상품 설명이며 약관·견적·인수·면책·병원망의 현행 계약조건을 전부 확인한 것이 아니다.",
+      "게시일 없음. 저렴함·병원 수 등 홍보 표현을 비교 검증한 사실로 채택하지 않는다.",
+      "고용주 수요·수익성·Nobu 유통 권한은 미확인."
+    ],
+    "topic_ids": [
+      "T-MARKET",
+      "T-RIGHTS",
+      "T-INSTITUTION-ROLES",
+      "T-OPERATIONS"
+    ]
+  },
+  {
+    "checked_at": "2026-11-03",
+    "visibility": "public",
+    "read_status": "selected_sections",
+    "id": "HWX-M-005",
+    "title": "Panduan Mobile JKN — Administrasi Kepesertaan JKN",
+    "publisher": "BPJS Kesehatan",
+    "url": "https://bpjs-kesehatan.go.id/user-manual-mobile-jkn/administrasi%20JKN.html",
+    "published_at": null,
+    "read_scope": [
+      "HTML L4–16: 회원 등록 및 납부용 virtual account 안내",
+      "L33–38: 가족의 가입 정보·활성 상태 확인"
+    ],
+    "summary": "BPJS의 Mobile JKN 안내에는 가입·보험료 납부용 가상계좌와 가족 가입 상태 조회 기능이 있다. 민간 보험 설계 전 기존 공적 보장의 상태를 확인하고, 새 앱의 중복 기능을 피해야 하는 운영상 근거다.",
+    "used_for": [
+      "JKN 미가입·비활성·보장 부족을 구분할 고객 여정",
+      "이미 존재하는 관리 기능 대비 추가 가치 검증"
+    ],
+    "limitations": [
+      "게시일 없음. 전체 JKN 법·급부·보험료 규정을 확인한 자료가 아니다.",
+      "외부 회사 API 접근권·건강정보 공유 동의를 부여하는 문서가 아니다.",
+      "참가자 수·충분 보장률·민간보험 수요를 제시하는 자료가 아니다."
+    ],
+    "topic_ids": [
+      "T-MARKET",
+      "T-OPERATIONS",
+      "T-RIGHTS"
+    ]
+  },
+  {
+    "checked_at": "2026-11-03",
+    "visibility": "public",
+    "read_status": "selected_sections",
+    "id": "HWX-M-006",
+    "title": "PT Lippo General Insurance Tbk — Laporan Publikasi Tahunan Audited 2025",
+    "publisher": "PT Lippo General Insurance Tbk",
+    "url": "https://www.lgi.co.id/uploads/2026/03/Laporan-Publikasi-Tahunan-Audited.pdf",
+    "published_at": "2026-03-31",
+    "data_as_of": "2025-12-31",
+    "read_scope": [
+      "1쪽 PDF의 PEMILIK PERUSAHAAN 주주표",
+      "감사 보고일 2026-03-30 및 공고 서명일 2026-03-31, 재무제표 기준일"
+    ],
+    "summary": "2025년 감사 재무정보 공고의 주주 구성도 HGI61.50%, HLI Indonesia12.86%, Inti Anugerah18.10%, 일반주주7.54%를 표시한다. 2025 지속가능보고서 주주표를 같은 회사의 다른 공식 공고로 교차 확인했다.",
+    "used_for": [
+      "LGI dated 소유구조 보강"
+    ],
+    "limitations": [
+      "전체 재무 항목의 회계 비교·손익 재계산을 수행하지 않았다.",
+      "다단 PDF의 텍스트 배치는 흐트러져 있어 명확히 짝지어진 지속가능보고서 주주표와 대조했다.",
+      "2026-11-03 현재 지분으로 확장하지 않는다."
+    ],
+    "topic_ids": [
+      "T-COMPANIES",
+      "T-INSTITUTION-ROLES"
+    ]
+  },
+  {
+    "id": "HWX-V-001",
+    "title": "개인정보 처리방침 V4.01 — 자동화된 결정·제3자 제공·국외이전",
+    "publisher": "한화생명",
+    "url": "https://m.hanwhalife.com/static/main/etc/policy/CF_CC00004_P1T200.jsp",
+    "published_at": null,
+    "checked_at": "2026-11-03",
+    "visibility": "public",
+    "read_status": "selected_sections",
+    "source_type": "official_company_material",
+    "read_scope": [
+      "공식 HTML §5–6(390–411행) 제3자제공/위탁, §11(514–537행) 선택 국외이전, §15(622–676행) 자동 인수·청구/지급·설명/검토, §17(694–702행) 적용·변경일"
+    ],
+    "summary": "2026-10-16 적용 V4.01은 인적 개입이 불필요하다고 판단되는 영역에서 룰 또는 AI를 이용한 자동 인수·보험금 접수/지급심사를 설명하며 AI-OCR 및 관련 설명·검토 절차를 안내한다. 제3자 제공·위탁·국외 이전도 별도 목적과 조건으로 설명한다.",
+    "used_for": "AI가 모두 장래 기능이라는 오해를 교정하고 기존 자동화 위에 고객 권한·설명·복구를 설계.",
+    "limitations": "자동화 비율·정확도·순이익이나 외부 AI의 계약/해지/출금 권한은 확인하지 않음. 개인정보처리방침은 모든 금융업 인가·법률상 적법성을 확인하는 문서가 아니며 전 조문 법률 검토도 아님.",
+    "topic_ids": [
+      "T-COMPANIES",
+      "T-AI",
+      "T-INSTITUTION-ROLES",
+      "T-OPERATIONS"
+    ],
+    "updated_at": "2026-10-16",
+    "effective_date": "2026-10-16",
+    "effective_date_scope": "이 개인정보 처리방침의 표시 적용일",
+    "adoption_stage": "current_published_operating_and_privacy_notice"
+  },
+  {
+    "id": "HWX-V-002",
+    "title": "자회사정보 — 주요 사업과 자산 산정시점",
+    "publisher": "한화생명",
+    "url": "https://company.hanwhalife.com/ko/governance/subsidiary",
+    "published_at": null,
+    "checked_at": "2026-11-03",
+    "visibility": "public",
+    "read_status": "selected_sections",
+    "source_type": "official_company_material",
+    "read_scope": [
+      "HTML 298–467행: 생명금융서비스·손해사정·자산운용·손해보험·저축은행·현지 보험법인 소개와 24년말 자산총액 기준 주석"
+    ],
+    "summary": "자회사 소개는 보험대리/중개, 보험계약조사, 집합투자, 손해보험, 저축은행 및 현지 생명보험을 다른 주요사업으로 제시한다. 자산총액 기준은2024년말이라고 명시한다.",
+    "used_for": "생명의 위험인수, 판매법인의 보수, 조사자의 업무와 운용·은행 기능을 구별.",
+    "limitations": "현재 모든 지분·연결범위·인가·자본·업무분장의 완결 확인이 아님. 표의 자산총액을2026년 자원으로 합산하거나 지분을 실시간 확인값으로 사용하지 않음.",
+    "topic_ids": [
+      "T-COMPANIES",
+      "T-AI",
+      "T-INSTITUTION-ROLES",
+      "T-OPERATIONS"
+    ],
+    "adoption_stage": "public_corporate_directory_historical_financial_basis"
+  },
+  {
+    "id": "HWX-V-003",
+    "title": "보험금 청구시 알아두셔야 할 내용",
+    "publisher": "한화생명",
+    "url": "https://www.hanwhalife.com/static/claim/info.html",
+    "published_at": null,
+    "checked_at": "2026-11-03",
+    "visibility": "public",
+    "read_status": "selected_sections",
+    "source_type": "official_company_material",
+    "read_scope": [
+      "HTML 2–21행 심사·위탁/동의·손해사정과 비용,49–56행 지급기일/지연/재심사,62–76행 분쟁·책임·가지급·진행조회"
+    ],
+    "summary": "한화생명의 공개 안내는 접수·서류/현장 심사·지급/부지급, 위탁 조사와 고객 동의, 지급지연 안내와 재심사·분쟁 경로를 구분한다.",
+    "used_for": "고객 AI가 문서를 제출하는 것과 보험사가 보험금 의무를 확정해 은행 지급하는 것을 분리.",
+    "limitations": "갱신일 미표시; 개별 상품·계약·사건의 기일·가지급액·손해사정 비용부담은 계약과 현행 규정으로 다시 확인해야 함. 안내상 일반기일과 가지급비율을 모든 상품의 보장값으로 쓰지 않음.",
+    "topic_ids": [
+      "T-COMPANIES",
+      "T-AI",
+      "T-INSTITUTION-ROLES",
+      "T-OPERATIONS"
+    ],
+    "adoption_stage": "published_claims_service_guidance"
+  },
+  {
+    "id": "HWX-V-004",
+    "title": "For People. For Pets. For Trust: Responsible Use of AI at Allianz",
+    "publisher": "Allianz SE",
+    "url": "https://www.allianz.com/en/mediacenter/news/articles/260318-responsible-use-of-ai-at-allianz.html",
+    "published_at": "2026-03-18",
+    "checked_at": "2026-11-03",
+    "visibility": "public",
+    "read_status": "selected_sections",
+    "source_type": "official_company_material",
+    "read_scope": [
+      "HTML 152–200행: 발표일·책임원칙·고빈도 저복잡 손해보험청구·독일 반려동물/호주 식품손상 사례"
+    ],
+    "summary": "Allianz는 단순 청구의 문서추출·검증·자동처리와 불확실 건의 전문가 전환을 설명한다. 호주 식품손상 사례에서는 잠재 부지급을 담당자에게 이관한다고 밝혔다.",
+    "used_for": "보험 AI의 경쟁 기준을 접수 후 완결·예외 처리·책임에 두는 비교 사례.",
+    "limitations": "회사 자기보고이며 독립 검증이 아님. 손해보험·한정 소액 사례를 생명보험의 모든 청구·국가·순이익 효과로 확장하지 않음. 성과 비율·처리일 수는 한화 목표치로 사용하지 않음.",
+    "topic_ids": [
+      "T-COMPANIES",
+      "T-AI",
+      "T-INSTITUTION-ROLES",
+      "T-OPERATIONS"
+    ],
+    "event_date": "2026-03-18",
+    "adoption_stage": "company_reported_production_use"
+  },
+  {
+    "id": "HWX-V-005",
+    "title": "Prudential launches brand new AI Underwriter powered by Alibaba Cloud",
+    "publisher": "Prudential Hong Kong Limited",
+    "url": "https://www.prudential.com.hk/en/about-us/newsroom/prudential-launches-brand-new-ai-underwriter-powered-by-alibaba-cloud/",
+    "published_at": "2026-09-09",
+    "checked_at": "2026-11-03",
+    "visibility": "public",
+    "read_status": "selected_sections",
+    "source_type": "official_company_material",
+    "read_scope": [
+      "HTML 24–51행: 출시일·재무/의료/직업/거주정보의 사전 인수 가이드·채널확대계획·최종심사 책임"
+    ],
+    "summary": "Prudential HK는 재무상담사에게 사전 인수 가이드를 제공하는 AI Underwriter 출시를 발표했다. 최종 인수는 모든 정보를 받은 전문 심사자의 판단으로 남기고 방카/브로커 확대는 이후 계획으로 구분했다.",
+    "used_for": "조회·예비 견적·추가서류 준비를 확정 보장 인수와 구분하는 생명보험 비교 사례.",
+    "limitations": "미국 Prudential Financial과 동일 법인이 아님. 발표된 정확도·환각률의 표본과 독립검증·증분이익은 미확인이라 수치 채택하지 않음. 방카채널에 이미 전면 배포했다고 쓰지 않음.",
+    "topic_ids": [
+      "T-COMPANIES",
+      "T-AI",
+      "T-INSTITUTION-ROLES",
+      "T-OPERATIONS"
+    ],
+    "event_date": "2026-09-09",
+    "adoption_stage": "company_launch_announcement_selected_channel"
+  },
+  {
+    "id": "HWX-V-006",
+    "title": "AI 시대에도 보험설계사가 필요한 이유는 무엇일까?",
+    "publisher": "교보생명 뉴스룸",
+    "url": "https://news.kyobo.com/%EA%B5%90%EB%B3%B4%EC%83%9D%EB%AA%85-fp-%EA%B3%A0%EA%B0%9D%EB%B3%B4%EC%9E%A5-%EC%99%84%EC%A3%BC/",
+    "published_at": "2026-08-24",
+    "checked_at": "2026-11-03",
+    "visibility": "public",
+    "read_status": "selected_sections",
+    "source_type": "official_company_material",
+    "read_scope": [
+      "HTML 37–61,120–187행: AI 비교와 FP의 가입·유지·청구·지급 서비스에 대한 회사 설명"
+    ],
+    "summary": "교보생명은 AI가 정보탐색·비교를 돕는 상황에서 FP의 역할을 장기 유지·보장점검·청구·지급까지 확장하는 관점을 제시한다.",
+    "used_for": "국내 경쟁자의 서비스 차별화 방향을 비교하며 정보 제공만으로 가격을 방어할 수 있는지 검토.",
+    "limitations": "회사 전략 설명이지 그 효과·현재 자동집행·고객 만족·수익의 증거가 아님. 글의 판매수수료 개편 날짜는 규제기관 원문으로 재검증하지 않았으므로 본 패킷의 규제 사실로 채택하지 않음.",
+    "topic_ids": [
+      "T-COMPANIES",
+      "T-AI",
+      "T-INSTITUTION-ROLES",
+      "T-OPERATIONS"
+    ],
+    "event_date": "2026-08-24",
+    "adoption_stage": "company_strategy_explanation"
+  },
+  {
+    "id": "HWX-R-001",
+    "title": "BNK금융그룹 부울경 경제 도약 BNK프로젝트 가동",
+    "publisher": "BNK금융그룹",
+    "url": "https://www.bnkfg.com/mobile/03/02.jsp?dataSeqNo=6914",
+    "published_at": "2026-07-08",
+    "checked_at": "2026-11-03",
+    "visibility": "public",
+    "read_status": "selected_sections",
+    "source_type": "official_release_or_service",
+    "read_scope": "HTML 본문53–74: 발표일, 산업금융, 앵커기업·협력기업·임직원, 기업지원센터 계획.",
+    "summary": "BNK는 지역 산업생태계의 기업과 임직원을 연결하는 산업금융 및 기업지원센터 계획을 발표했다.",
+    "used_for": "경남 단일 은행의 자금관리에서 BNK의 설비·자본시장·근로자 고객 업무로 확장할 근거.",
+    "limitations": "지원센터의 현재 운영·집행액·고객별 수요·효과는 이 발표로 확인되지 않는다. 회사의 지역 진단이며 독립 수요조사 아님.",
+    "topic_ids": [
+      "T-COMPANIES",
+      "T-INSTITUTION-ROLES",
+      "T-FUNDING"
+    ],
+    "event_date": "2026-07-08",
+    "effective_date": null,
+    "adoption_stage": "company_plan"
+  },
+  {
+    "id": "HWX-R-002",
+    "title": "BNK캐피탈 — 자회사 소개",
+    "publisher": "BNK금융그룹",
+    "url": "https://www.bnkfg.com/mobile/01/0603.jsp",
+    "published_at": null,
+    "checked_at": "2026-11-03",
+    "visibility": "public",
+    "read_status": "selected_sections",
+    "source_type": "official_release_or_service",
+    "read_scope": "HTML64–73 금융서비스 소개.",
+    "summary": "개인·사업자대출, 리스·할부, 기업·투자금융을 서비스 범위로 소개한다.",
+    "used_for": "수출 협력사의 운전자금과 설비 투자 문제를 다른 계약·법인으로 연결하는 후보.",
+    "limitations": "특정 설비·고객·토큰화 리스의 적격성이나 실제 조건·수익은 미확인.",
+    "topic_ids": [
+      "T-COMPANIES",
+      "T-INSTITUTION-ROLES"
+    ],
+    "event_date": null,
+    "effective_date": null,
+    "adoption_stage": "official_service_description"
+  },
+  {
+    "id": "HWX-R-003",
+    "title": "BNK투자증권 — 자회사 소개",
+    "publisher": "BNK금융그룹",
+    "url": "https://www.bnkfg.com/mobile/01/0604.jsp",
+    "published_at": null,
+    "checked_at": "2026-11-03",
+    "visibility": "public",
+    "read_status": "selected_sections",
+    "source_type": "official_release_or_service",
+    "read_scope": "HTML64–71 증권·통화 및 상품선물 업무 소개.",
+    "summary": "그룹은 BNK투자증권의 증권 및 통화·상품선물 업무 기반을 설명한다.",
+    "used_for": "기업 헤지·자본시장 경로의 후보 역할을 은행과 분리.",
+    "limitations": "개별 금융투자업 인가 단위·현재 상품·가격·고객 계약 전수 확인은 아니다.",
+    "topic_ids": [
+      "T-COMPANIES",
+      "T-INSTITUTION-ROLES"
+    ],
+    "event_date": null,
+    "effective_date": null,
+    "adoption_stage": "official_service_description"
+  },
+  {
+    "id": "HWX-R-004",
+    "title": "BNK자산운용 — 자회사 소개",
+    "publisher": "BNK금융그룹",
+    "url": "https://www.bnkfg.com/mobile/01/0606.jsp",
+    "published_at": null,
+    "checked_at": "2026-11-03",
+    "visibility": "public",
+    "read_status": "selected_sections",
+    "source_type": "official_release_or_service",
+    "read_scope": "HTML64–75 운용 철학과 고객 자산 소개.",
+    "summary": "자산운용 기능·리서치·위험관리의 사업 기반을 설명한다.",
+    "used_for": "지역 기업 투자·자금운용 후보와 은행 예금의 법적·경제적 차이 구분.",
+    "limitations": "특정 매출채권펀드·온체인 상품의 출시나 수탁·환매 조건은 미확인.",
+    "topic_ids": [
+      "T-COMPANIES",
+      "T-INSTITUTION-ROLES"
+    ],
+    "event_date": null,
+    "effective_date": null,
+    "adoption_stage": "official_service_description"
+  },
+  {
+    "id": "HWX-R-005",
+    "title": "교보생명, 로보어드바이저로 변액보험 고객 펀드 관리 돕는다",
+    "publisher": "교보생명",
+    "url": "https://news.kyobo.com/교보생명-로보어드바이저-변액보험-펀드관리-도와/",
+    "published_at": "2026-10-30",
+    "checked_at": "2026-11-03",
+    "visibility": "public",
+    "read_status": "selected_sections",
+    "source_type": "official_release_or_service",
+    "read_scope": "HTML37–57: 모닝브리핑 개시, 투자성향별 추천, FP 교육·방문 관리.",
+    "summary": "교보는 변액보험 고객의 시장정보·펀드 추천과 FP 지원을 결합한 기존 서비스 개선을 발표했다.",
+    "used_for": "문고 RWA 외에도 보험·퇴직연금의 장기 목적 관리와 고객 위임 경계를 사업 후보로 추가.",
+    "limitations": "고객 수익 개선·유지율 효과·자동 펀드변경 집행·외부 AI 권한·별도 요금은 확인하지 못했다.",
+    "topic_ids": [
+      "T-COMPANIES",
+      "T-AGENT-FINANCE",
+      "T-OPERATIONS"
+    ],
+    "event_date": "2026-10-30",
+    "effective_date": null,
+    "adoption_stage": "company_service_launch_statement"
+  },
+  {
+    "id": "HWX-R-006",
+    "title": "Qcells Expands Alliance with Microsoft to Explore New Approach for Adding Energy Capacity Alongside AI Infrastructure",
+    "publisher": "Qcells North America",
+    "url": "https://us.qcells.com/blog/qcells-expands-alliance-with-microsoft-to-explore-new-approach-for-adding-energy-capacity-alongside-ai-infrastructure/",
+    "published_at": "2026-08-19",
+    "checked_at": "2026-11-03",
+    "visibility": "public",
+    "read_status": "selected_sections",
+    "source_type": "official_release_or_service",
+    "read_scope": "HTML226–245: 기존 공급·EPC 협력과 새 BYOC·VPP 탐색.",
+    "summary": "Qcells는 데이터센터 전력 수요와 신규 에너지 공급을 연결하는 BYOC 및 가정·상업용 배터리 VPP를 Microsoft와 탐색한다고 발표했다.",
+    "used_for": "금융계열 밖 산업 역량에서 기초 현금흐름 검증·자금조달 기회를 발견하는 예.",
+    "limitations": "새 모델은 탐색·제안 단계다. 확정 PPA·정산채권·담보·금융계열 판매·보험 인수·RWA 출시가 확인된 것은 아니다. 일본 재전재 접근 실패 뒤 미국 원문을 읽음.",
+    "topic_ids": [
+      "T-COMPANIES",
+      "T-GEOGRAPHY",
+      "T-RIGHTS"
+    ],
+    "event_date": "2026-08-19",
+    "effective_date": null,
+    "adoption_stage": "exploration_proposed_model"
+  },
+  {
+    "id": "HWX-R-007",
+    "title": "BNK금융그룹 2026년도 조직개편 실시",
+    "publisher": "BNK금융그룹",
+    "url": "https://www.bnkfg.com/02/03.jsp?dataPageNo=6&dataSeqNo=6813&dataWhere=",
+    "published_at": "2026-01-05",
+    "checked_at": "2026-11-03",
+    "visibility": "public",
+    "read_status": "selected_sections",
+    "source_type": "official_release_or_service",
+    "read_scope": "HTML28–40: 산업·지역 진단, 생산적금융 거버넌스, 소비자보호·내부통제.",
+    "summary": "BNK는 지역 산업 기반과 민생 문제를 배경으로 생산적금융·소비자보호의 그룹 조직을 설명했다.",
+    "used_for": "그룹 본사의 기획은 공동 고객 수뿐 아니라 위험·내부통제를 함께 설계해야 한다는 출발점.",
+    "limitations": "1월 발표이며 이후 전체 조직 변동을 이 자료로 확정하지 않음. 산업·인구 진단은 회사 발언이며 통계 추정에 쓰지 않음.",
+    "topic_ids": [
+      "T-INSTITUTION-ROLES",
+      "T-COMPANIES"
+    ],
+    "event_date": "2026-01-05",
+    "effective_date": null,
+    "adoption_stage": "company_reorganization_statement"
+  },
+  {
+    "id": "HWX-R-008",
+    "title": "2026년도 금융복합기업집단 지정",
+    "publisher": "금융위원회",
+    "url": "https://www.fsc.go.kr/po010105/87336",
+    "published_at": "2026-07-15",
+    "checked_at": "2026-11-03",
+    "visibility": "public",
+    "read_status": "selected_sections",
+    "source_type": "official_release_or_service",
+    "read_scope": "HTML279–328: 지정·제도 목적·대표금융회사·내부통제·위험관리·자본. 첨부 별첨 미정독.",
+    "summary": "한화·교보를 포함한 금융복합기업집단 지정과 집단 위험전이·집중·내부거래·자본 관리 요건을 설명한다.",
+    "used_for": "BNK 금융지주, 교보·한화 금융복합기업집단, 산업계열 협업 범위를 구분.",
+    "limitations": "표의 국내 금융자산과 해외 포함 회사 수는 범위가 다르다. 지정이 계열 업무·고객 데이터·자산의 자유로운 공유 허가는 아니다. 개별 신사업 법률의견 아님.",
+    "topic_ids": [
+      "T-REGULATION",
+      "T-INSTITUTION-ROLES",
+      "T-COLLATERAL"
+    ],
+    "event_date": "2026-07-15",
+    "effective_date": null,
+    "adoption_stage": "designation_official_statement"
   }
 ]

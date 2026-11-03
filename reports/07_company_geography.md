@@ -104,3 +104,9 @@ ADGM에서는 원칙적 승인(IPA) 후 조건을 충족해야 Financial Service
 ## 남은 핵심 공백
 
 현재 팀의 정원·예산·업무권한, 국가별 최신 주주명부·라이선스 전수, 상용 이용과 RWA 관련 비용 후 수익은 미완료다. 목록 화면이나 회사 소개만 읽은 자료는 상세 계약·감사·감독기관 결정문을 읽은 것으로 표시하지 않았다. 접근 실패와 읽은 범위는 각 [출처 카드](../sources/README.md) 및 [이번 실행 기록](../runs/2026-11-02-geography.json)에 남겼다.
+
+## 11월3일 한화 후속: 기존 거점과 새 ETF 거래를 구분
+
+한화운용 MENA의 2025년7월 설립 소개는 기존 조사에 있던 사실이다. 새 원문에서는 **KDEF·KMCA의 2026년11월2일 ADX 거래 개시**를 추가했다. 전통 ETF 교차상장이며 토큰 ETF나 Velocity 청산 참여를 뜻하지 않는다. HWA-CON-12에 법인·파트너·보수·한계를 기록했다. [미국·UAE 상세](24_hanwha_us_uae_rails.md) · [원문 ETC](https://www.exchangetradedconcepts.com/posts/exchange-traded-concepts-takes-client-etfs-to-the-abu-dhabi-securities-exchange)
+
+인도네시아는 기존 Nobu 방카 외에 공개 QRIS 가맹점 업무와 LGI 고용주 건강보험에서 추가 고객 문제를 발굴했다. 그룹 공급 가능성과 실제 신규 계약·고객 수요는 구분한다. [인도네시아 상세](23_hanwha_indonesia_business.md)

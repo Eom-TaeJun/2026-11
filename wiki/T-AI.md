@@ -140,6 +140,38 @@ AI가 상품 비교·조합을 늘려도 한정된 원권리의 현금은 늘지
 
 다음 관측: 동일채권·투자자·결제조건에서 계약부터은행회수까지 총비용·오류·예외처리 비교
 
+### C-278 · hypothesis · active
+
+기존 방카 고객의 보장 확인·납입 유지·청구 안내를 개선하면 신규 판매 확대보다 먼저 반복 지원비용과 고객 오류를 줄일 수 있다.
+
+근거: [ST-HW-006](../sources/cards/ST-HW-006.md), [ST-HW-007](../sources/cards/ST-HW-007.md), [ST-HW-008](../sources/cards/ST-HW-008.md), [HWX-M-005](../sources/cards/HWX-M-005.md)
+
+한계: - 절감·유지율·유료 수요는 미관측.
+
+다른 설명: 보험료 부담·보장 범위가 문제라면 안내 자동화만으로 유지율이 개선되지 않는다.
+
+다음 관측: 약관 이해·서류 재작업·납입 실패·민원·유지율을 기존 방식과 비교
+
+### C-279 · hypothesis · active
+
+Nobu 가맹점의 IDR 수납 대사와 운영자금 가시성은 보험 외 유료 업무 후보이며 기존 API+AI가 우선 비교 기준이다.
+
+근거: [HWX-M-002](../sources/cards/HWX-M-002.md), [HWA-GEO-006](../sources/cards/HWA-GEO-006.md), [HWA-GEO-007](../sources/cards/HWA-GEO-007.md)
+
+한계: - 가맹점/플랫폼의 실제 지불 의사·오류 비용은 미확인.
+
+다른 설명: 무료 POS/은행 서비스가 충분하면 추가 비용을 낼 고객이 없다.
+
+다음 관측: 실제 대사 비용과 고객이 지불하는 반복 계약·총비용을 확인
+
+### C-284 · fact · active
+
+PBI10/2025 122조는 해당 국내 지급 처리와 데이터센터·재해복구센터 원칙 및 해외 처리의 BI 승인을 구분한다.
+
+근거: [RG-ID-002](../sources/cards/RG-ID-002.md)
+
+한계: - Nobu 업무별 적용과 기존 개별 승인은 미확인. 일반 설명용 AI 전체의 국외 금지로 확대하지 않는다.
+
 ## 관련 원문
 
 - [AI-001 · NousResearch/hermes-agent — README and releases](../sources/cards/AI-001.md)
@@ -160,6 +192,7 @@ AI가 상품 비교·조합을 늘려도 한정된 원권리의 현금은 늘지
 - [ST-HW-004 · 한화투자증권, 모바일 투자 앱 개편… 이제 디지털자산도 ‘한화투자증권 MTS’ 에서](../sources/cards/ST-HW-004.md)
 - [ST-HW-010 · 한화생명, 증여 자산관리 플랫폼 ‘파이’ 출시](../sources/cards/ST-HW-010.md)
 - [ST-HW-014 · Implementation Considerations](../sources/cards/ST-HW-014.md)
+- [ST-HW-015 · Risk Management](../sources/cards/ST-HW-015.md)
 - [ST-KN-004 · BNK금융그룹 AI 대전환 통해 일하는 방식 바꾼다](../sources/cards/ST-KN-004.md)
 - [ST-TD-001 · Hermes Agent Economics Lecture — delegation, slides 13–14](../sources/cards/ST-TD-001.md)
 - [ST-TD-002 · AI Agent 강의 — Coase와 통제된 자율성](../sources/cards/ST-TD-002.md)
@@ -169,5 +202,11 @@ AI가 상품 비교·조합을 늘려도 한정된 원권리의 현금은 늘지
 - [KYX-V-008 · AI Integration and IBKR Autonomous Trading — 현재 공식 안내](../sources/cards/KYX-V-008.md)
 - [KYX-V-009 · AI Trading Supplement — Form 4923](../sources/cards/KYX-V-009.md)
 - [KYX-V-011 · AI Instructions — Client Portal User Guide](../sources/cards/KYX-V-011.md)
+- [HWX-V-001 · 개인정보 처리방침 V4.01 — 자동화된 결정·제3자 제공·국외이전](../sources/cards/HWX-V-001.md)
+- [HWX-V-002 · 자회사정보 — 주요 사업과 자산 산정시점](../sources/cards/HWX-V-002.md)
+- [HWX-V-003 · 보험금 청구시 알아두셔야 할 내용](../sources/cards/HWX-V-003.md)
+- [HWX-V-004 · For People. For Pets. For Trust: Responsible Use of AI at Allianz](../sources/cards/HWX-V-004.md)
+- [HWX-V-005 · Prudential launches brand new AI Underwriter powered by Alibaba Cloud](../sources/cards/HWX-V-005.md)
+- [HWX-V-006 · AI 시대에도 보험설계사가 필요한 이유는 무엇일까?](../sources/cards/HWX-V-006.md)
 
 [전체 주제 지도](INDEX.md)

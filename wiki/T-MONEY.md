@@ -284,6 +284,102 @@ Circle의 2024년 BUIDL 기능 발표는 지분의 2차 매각과 USDC 수취를
 
 한계: - 공개일반안내를 실제거래실사·고객동의·권한확인으로 대체하지 않음
 
+### C-255 · fact · active
+
+ADGM FRT 체계는2026-01-01 효력이지만 특정 회사의 개별 FSP·상품·고객 범위는 별도다. 증권인 토큰은 증권 규율을 받는다.
+
+근거: [RG-AE-001](../sources/cards/RG-AE-001.md), [RG-AE-002](../sources/cards/RG-AE-002.md)
+
+한계: 선택 공개 원문 범위의 판단이며 내부 계약·실제 고객 수익은 별도 확인한다.
+
+### C-256 · fact · active
+
+Circle MEA의 Active FSP는 Money Services·Arranging Deals in Investments를 기재하나 소매고객·고객자산 보유통제를 제한한다. 이 허가가 한화에 이전되지 않는다.
+
+근거: [HWX-A-003](../sources/cards/HWX-A-003.md)
+
+한계: 선택 공개 원문 범위의 판단이며 내부 계약·실제 고객 수익은 별도 확인한다.
+
+### C-259 · fact · active
+
+USDC 단순 보유자는 직접 환매권 실행에 필요한 Mint 자격과 구별된다. 현재 환매 안내의 처리시간과 은행 결제시간도 별도다.
+
+근거: [SRC-CIRCLE-USDC-TERMS](../sources/cards/SRC-CIRCLE-USDC-TERMS.md), [KNX-M-003](../sources/cards/KNX-M-003.md)
+
+한계: 선택 공개 원문 범위의 판단이며 내부 계약·실제 고객 수익은 별도 확인한다.
+
+### C-260 · fact · active
+
+Tether 약관의 미국인 제한에는 Tether가 동의한 ECP 예외가 있다. Velocity의 적용 자격은 미확인이다. 직접 환매 최소금액·가격도 별도로 적용된다.
+
+근거: [ST-HW-013](../sources/cards/ST-HW-013.md), [KYX-V-010](../sources/cards/KYX-V-010.md)
+
+한계: Tether 계약조건을 미국법 전면 금지로 해석하지 않는다. 예외 승인·한화 계약은 확인되지 않았다.
+
+### C-265 · hypothesis · active
+
+필요한 인가·고객 위임·코인 계약이 성립한2027 이후에도 온체인 경로는 환매·FX·사전조달·운영복구 총비용이 기존+AI보다 낮거나 고유한 고객 업무를 해결할 때 채택한다.
+
+근거: [HWX-A-002](../sources/cards/HWX-A-002.md), [HWX-A-006](../sources/cards/HWX-A-006.md), [KNX-M-003](../sources/cards/KNX-M-003.md), [ST-HW-013](../sources/cards/ST-HW-013.md)
+
+한계: 선택 공개 원문 범위의 판단이며 내부 계약·실제 고객 수익은 별도 확인한다.
+
+다른 설명: 상계가 줄고 피크 사전조달이 증가하거나 은행 출금이 병목이면 빠른 토큰 이동이 고객 완결시간·총비용을 개선하지 못한다.
+
+다음 관측: 동일 금액·통화·시간대·실패 사례에서 최종 은행현금 도달시간, 묶인 잔액, 복구손실, 고객 지불 의사를 측정한다.
+
+### C-272 · fact · active
+
+Nobu QRIS의 공개 MDR은 영세 건당IDR500,000이하0%, 초과0.3%, 일반 중소·대형0.7%이며 일부 확장 기능은 Coming Soon 표시다.
+
+근거: [HWX-M-002](../sources/cards/HWX-M-002.md)
+
+한계: - 고객 부과 MDR은 은행 잔여 수익이 아니다.
+
+### C-274 · fact · active
+
+Bittime는 Nobu VA 제공을 발표하고 IDR→USDT 교환을 홍보한다. 이는 은행 입금 접점과 플랫폼 업무의 연결이다.
+
+근거: [HWA-GEO-006](../sources/cards/HWA-GEO-006.md)
+
+한계: - Nobu–Tether 직접 계약·발행·직접 환매·준비자산 수익은 미확인.
+
+### C-276 · fact · active
+
+BI PBI10/2025의119조는 가상통화의 지급자금 수용·처리·연계를 금지하고 적법한 디지털자산 거래 지원과 구분한다.
+
+근거: [RG-ID-002](../sources/cards/RG-ID-002.md), [RG-ID-001](../sources/cards/RG-ID-001.md)
+
+한계: - 개별 허가를 검증한 것이 아니며 암호자산 거래 허가를 증권 발행·보험료 지급 권한으로 전용할 수 없다.
+
+### C-277 · institution_statement · active
+
+BI 디지털 루피아 자료는 wholesale 1차 PoC와 제한된 참가 범위를 설명하며 민간 스테이블코인과 구분한다.
+
+근거: [HWX-M-003](../sources/cards/HWX-M-003.md)
+
+한계: - 자료에서 2027Q1 retail 출시·Nobu 참가·보험료 결제의 확정 일정은 확인하지 못했다.
+
+### C-279 · hypothesis · active
+
+Nobu 가맹점의 IDR 수납 대사와 운영자금 가시성은 보험 외 유료 업무 후보이며 기존 API+AI가 우선 비교 기준이다.
+
+근거: [HWX-M-002](../sources/cards/HWX-M-002.md), [HWA-GEO-006](../sources/cards/HWA-GEO-006.md), [HWA-GEO-007](../sources/cards/HWA-GEO-007.md)
+
+한계: - 가맹점/플랫폼의 실제 지불 의사·오류 비용은 미확인.
+
+다른 설명: 무료 POS/은행 서비스가 충분하면 추가 비용을 낼 고객이 없다.
+
+다음 관측: 실제 대사 비용과 고객이 지불하는 반복 계약·총비용을 확인
+
+### C-281 · interpretation · active
+
+보험료·보험자 이익·은행 유통보수·예금조달 기여는 다르며 계열 내부 보수를 그룹 순익에 이중 합산하면 안 된다.
+
+근거: [ST-HW-007](../sources/cards/ST-HW-007.md), [HWA-GEO-005](../sources/cards/HWA-GEO-005.md), [HWX-M-001](../sources/cards/HWX-M-001.md)
+
+한계: - 거래별 회계·세무·계약 검토가 필요하다.
+
 ## 관련 원문
 
 - [FIN-003 · III. Anchoring trust in money: innovation beyond stablecoins](../sources/cards/FIN-003.md)
@@ -341,6 +437,7 @@ Circle의 2024년 BUIDL 기능 발표는 지분의 2차 매각과 USDC 수취를
 - [RG-VN-002 · TOÀN VĂN: Nghị quyết số 05/2025/NQ-CP về triển khai thí điểm thị trường tài sản mã hóa tại Việt Nam](../sources/cards/RG-VN-002.md)
 - [RG-CN-001 · 关于进一步防范和处置虚拟货币等相关风险的通知（银发〔2026〕42号）](../sources/cards/RG-CN-001.md)
 - [RG-UK-001 · PS26/7: Progressing Fund Tokenisation](../sources/cards/RG-UK-001.md)
+- [ST-HW-011 · MVB Partners with Velocity to Join Visa Direct Stablecoin Settlement Network](../sources/cards/ST-HW-011.md)
 - [ST-HW-013 · Legal — Token Terms of Sale and Service](../sources/cards/ST-HW-013.md)
 - [ST-KY-006 · 교보생명, SBI홀딩스·서클·비댁스와 디지털 금융 협력 확대 논의](../sources/cards/ST-KY-006.md)
 - [ST-KY-008 · Interactive Brokers Enables 24/7 Account Funding with Stablecoin](../sources/cards/ST-KY-008.md)
@@ -353,5 +450,9 @@ Circle의 2024년 BUIDL 기능 발표는 지분의 2차 매각과 USDC 수취를
 - [KYX-M-001 · 바로출판POD FAQ — 개인·출판사 정산 및 출간 절차](../sources/cards/KYX-M-001.md)
 - [KYX-M-002 · 정산금(판매대금) 지급 관련 안내](../sources/cards/KYX-M-002.md)
 - [KYX-M-009 · 정산/판매내역 조회방법 안내](../sources/cards/KYX-M-009.md)
+- [KYX-V-010 · Fees — Tether](../sources/cards/KYX-V-010.md)
+- [HWX-A-003 · Circle Internet MEA Ltd — FSRA public register / firm profile](../sources/cards/HWX-A-003.md)
+- [HWX-M-002 · QRIS Nobu: Solusi QRIS Terintegrasi untuk Pembayaran Digital](../sources/cards/HWX-M-002.md)
+- [HWX-M-003 · Proyek Garuda: Menavigasi Arsitektur Rupiah Digital](../sources/cards/HWX-M-003.md)
 
 [전체 주제 지도](INDEX.md)

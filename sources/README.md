@@ -77,16 +77,16 @@
 | [KYO-GEO-007 · Announcement of investment in Pints AI a provider of agent-based AI specialized for financial institutions](cards/KYO-GEO-007.md) | 2026-06-19 | full_text | 2026-11-02 |
 | [KYO-GEO-008 · 韓国の教保生命グループとの東南アジアのテック分野のスタートアップに投資する共同ベンチャーファンド設立のお知らせ](cards/KYO-GEO-008.md) | 2026-04-10 | full_text | 2026-11-02 |
 | [KYO-GEO-009 · Ripple and Kyobo Life Insurance Partner to Pioneer Korea's First Tokenised Government Bond Settlement on Blockchain](cards/KYO-GEO-009.md) | 2026-04-15 | full_text | 2026-11-02 |
-| [HWA-GEO-001 · Hanwha Finance expands financial cooperation with Abu Dhabi, connecting Korea and Abu Dhabi through ‘Digital Asset Silk Road’](cards/HWA-GEO-001.md) | 2026-09-21 | selected_sections | 2026-11-02 |
-| [HWA-GEO-002 · Hanwha Finance Announced as Premier Partner for Abu Dhabi Finance Week 2026](cards/HWA-GEO-002.md) | 2026-09-18 | selected_sections | 2026-11-02 |
-| [HWA-GEO-003 · 글로벌 네트워크](cards/HWA-GEO-003.md) | 미확인/동적 | selected_sections | 2026-11-02 |
-| [HWA-GEO-004 · Hanwha Life — Global Network](cards/HWA-GEO-004.md) | 미확인/동적 | selected_sections | 2026-11-02 |
-| [HWA-GEO-005 · 한화생명, 노부은행 지분 투자 마무리](cards/HWA-GEO-005.md) | 2025-06-30 | selected_sections | 2026-11-02 |
-| [HWA-GEO-006 · Kolaborasi Bittime dan Nobu Bank Jembatani Keuangan Tradisional Menuju Tokenisasi Aset Global](cards/HWA-GEO-006.md) | 2026-05-21 | selected_sections | 2026-11-02 |
-| [HWA-GEO-007 · [MAINTENANCE] Penutupan Sementara Layanan Virtual Account (VA) Nobu Bank](cards/HWA-GEO-007.md) | 미확인/동적 | selected_sections | 2026-11-02 |
-| [HWA-GEO-008 · Press Release: Hanwha Life Completes Acquisition of Velocity Clearing](cards/HWA-GEO-008.md) | 2025-07-31 | selected_sections | 2026-11-02 |
-| [HWA-GEO-009 · BrokerCheck Report: VELOCITY CLEARING, LLC — CRD 126588](cards/HWA-GEO-009.md) | 미확인/동적 | selected_sections | 2026-11-02 |
-| [HWA-GEO-010 · 한화투자증권, 인도네시아 칩타다나자산운용 인수 절차 마무리](cards/HWA-GEO-010.md) | 2025-12-16 | selected_sections | 2026-11-02 |
+| [HWA-GEO-001 · Hanwha Finance expands financial cooperation with Abu Dhabi, connecting Korea and Abu Dhabi through ‘Digital Asset Silk Road’](cards/HWA-GEO-001.md) | 2026-09-21 | selected_sections | 2026-11-03 |
+| [HWA-GEO-002 · Hanwha Finance Announced as Premier Partner for Abu Dhabi Finance Week 2026](cards/HWA-GEO-002.md) | 2026-09-18 | selected_sections | 2026-11-03 |
+| [HWA-GEO-003 · 글로벌 네트워크](cards/HWA-GEO-003.md) | 미확인/동적 | selected_sections | 2026-11-03 |
+| [HWA-GEO-004 · Hanwha Life — Global Network](cards/HWA-GEO-004.md) | 미확인/동적 | selected_sections | 2026-11-03 |
+| [HWA-GEO-005 · 한화생명, 노부은행 지분 투자 마무리](cards/HWA-GEO-005.md) | 2025-06-30 | selected_sections | 2026-11-03 |
+| [HWA-GEO-006 · Kolaborasi Bittime dan Nobu Bank Jembatani Keuangan Tradisional Menuju Tokenisasi Aset Global](cards/HWA-GEO-006.md) | 2026-05-21 | selected_sections | 2026-11-03 |
+| [HWA-GEO-007 · [MAINTENANCE] Penutupan Sementara Layanan Virtual Account (VA) Nobu Bank](cards/HWA-GEO-007.md) | 미확인/동적 | selected_sections | 2026-11-03 |
+| [HWA-GEO-008 · Press Release: Hanwha Life Completes Acquisition of Velocity Clearing](cards/HWA-GEO-008.md) | 2025-07-31 | selected_sections | 2026-11-03 |
+| [HWA-GEO-009 · BrokerCheck Report: VELOCITY CLEARING, LLC — CRD 126588](cards/HWA-GEO-009.md) | 미확인/동적 | selected_sections | 2026-11-03 |
+| [HWA-GEO-010 · 한화투자증권, 인도네시아 칩타다나자산운용 인수 절차 마무리](cards/HWA-GEO-010.md) | 2025-12-16 | selected_sections | 2026-11-03 |
 | [HWA-GEO-011 · Giới thiệu | Bảo hiểm Hanwha Life Việt Nam](cards/HWA-GEO-011.md) | 미확인/동적 | selected_sections | 2026-11-02 |
 | [HWA-GEO-012 · 한화투자증권, 日 종합금융투자회사 GI캐피털매니지먼트 증권 부문 주식매매계약 체결](cards/HWA-GEO-012.md) | 2026-10-14 | selected_sections | 2026-11-02 |
 | [KN-001 · BNK금융그룹, 동남권 전략산업 육성 위한 ‘생산적금융 전략 펀드’ 결성](cards/KN-001.md) | 2026-07-01 | full_text | 2026-11-02 |
@@ -122,13 +122,13 @@
 | [RG-HK-003 · Circular on tokenisation of SFC-authorised investment products](cards/RG-HK-003.md) | 2026-04-20 | full_text | 2026-11-02 |
 | [RG-HK-004 · Circular on secondary trading of tokenised SFC-authorised investment products](cards/RG-HK-004.md) | 2026-04-20 | selected_sections | 2026-11-02 |
 | [RG-HK-005 · SFC approves first-ever secondary trading of tokenised public funds](cards/RG-HK-005.md) | 2026-10-26 | full_text | 2026-11-02 |
-| [RG-AE-001 · ADGM FSRA finalises regulatory framework for Regulated Activities involving Fiat-Referenced Tokens](cards/RG-AE-001.md) | 2025-10-31 | official_summary | 2026-11-02 |
-| [RG-AE-002 · Digital Assets](cards/RG-AE-002.md) | 미확인/동적 | official_summary | 2026-11-02 |
+| [RG-AE-001 · ADGM FSRA finalises regulatory framework for Regulated Activities involving Fiat-Referenced Tokens](cards/RG-AE-001.md) | 2025-10-31 | selected_sections | 2026-11-03 |
+| [RG-AE-002 · Digital Assets](cards/RG-AE-002.md) | 미확인/동적 | selected_sections | 2026-11-03 |
 | [RG-AE-003 · Payment Token Services Regulation](cards/RG-AE-003.md) | 미확인/동적 | selected_sections | 2026-11-02 |
 | [RG-AE-004 · Virtual Asset Issuance Rulebook](cards/RG-AE-004.md) | 미확인/동적 | selected_sections | 2026-11-02 |
 | [RG-AE-005 · VARA Consumer and Marketplace Alert - Update on the Real Estate Tokenisation Pilot](cards/RG-AE-005.md) | 2026-02-19 | full_text | 2026-11-02 |
 | [RG-ID-001 · Peraturan Otoritas Jasa Keuangan Nomor 23 Tahun 2025: Perubahan atas POJK Nomor 27 Tahun 2024 tentang Penyelenggaraan Perdagangan Aset Keuangan Digital Termasuk Aset Kripto](cards/RG-ID-001.md) | 2025-11-10 | selected_sections | 2026-11-02 |
-| [RG-ID-002 · Peraturan Bank Indonesia Nomor 10 Tahun 2025 tentang Pengaturan Industri Sistem Pembayaran (PBI PISP)](cards/RG-ID-002.md) | 2025-12-24 | selected_sections | 2026-11-02 |
+| [RG-ID-002 · Peraturan Bank Indonesia Nomor 10 Tahun 2025 tentang Pengaturan Industri Sistem Pembayaran (PBI PISP)](cards/RG-ID-002.md) | 2025-12-24 | selected_sections | 2026-11-03 |
 | [RG-ID-003 · Siaran Pers: Kinerja dan Intermediasi Sektor Jasa Keuangan Terjaga Mendukung Akselerasi Pertumbuhan Ekonomi](cards/RG-ID-003.md) | 2026-09-07 | selected_sections | 2026-11-02 |
 | [RG-ID-004 · Siaran Pers: OJK Dorong Generasi Muda Pahami Peluang dan Risiko Tokenisasi Aset Nyata, OJK Gelar Digital Financial Literacy (DFL) 2026 di Universitas Airlangga](cards/RG-ID-004.md) | 2026-10-13 | selected_sections | 2026-11-02 |
 | [RG-VN-001 · Luật Công nghiệp công nghệ số — Văn bản hợp nhất 20/VBHN-VPQH; Công Báo số 133](cards/RG-VN-001.md) | 2026-02-28 | selected_sections | 2026-11-02 |
@@ -141,8 +141,8 @@
 | [RG-EU-002 · EU market integration and efficient supervision](cards/RG-EU-002.md) | 미확인/동적 | selected_sections | 2026-11-02 |
 | [RG-UK-001 · PS26/7: Progressing Fund Tokenisation](cards/RG-UK-001.md) | 미확인/동적 | selected_sections | 2026-11-02 |
 | [RG-UK-002 · CP26/36: Cryptoasset perimeter guidance](cards/RG-UK-002.md) | 2026-10-21 | selected_sections | 2026-11-02 |
-| [ST-HW-001 · 한화투자증권, 글로벌 Web3 기업 ‘크리서스’에 180억 원 규모 투자 완료](cards/ST-HW-001.md) | 2026-02-19 | full_text | 2026-11-03 |
-| [ST-HW-002 · Hanwha Investment & Securities and Chainlink Form Strategic Partnership to Tokenize, Connect, and Collateralize Real-World Assets Worldwide](cards/ST-HW-002.md) | 2026-10-29 | full_text | 2026-11-03 |
+| [ST-HW-001 · 한화투자증권, 글로벌 Web3 기업 ‘크리서스’에 180억 원 규모 투자 완료](cards/ST-HW-001.md) | 2026-02-19 | selected_sections | 2026-11-03 |
+| [ST-HW-002 · Hanwha Investment & Securities and Chainlink Form Strategic Partnership to Tokenize, Connect, and Collateralize Real-World Assets Worldwide](cards/ST-HW-002.md) | 2026-10-29 | selected_sections | 2026-11-03 |
 | [ST-HW-003 · 한화투자증권, Digital Asset Holdings LLC에 300억 원 규모 투자 완료](cards/ST-HW-003.md) | 2026-07-16 | selected_sections | 2026-11-03 |
 | [ST-HW-004 · 한화투자증권, 모바일 투자 앱 개편… 이제 디지털자산도 ‘한화투자증권 MTS’ 에서](cards/ST-HW-004.md) | 2026-05-27 | full_text | 2026-11-03 |
 | [ST-HW-005 · Hanwha Finance explores future financial innovation with global leaders at the 2026 World Economic Forum Annual Meeting in Davos](cards/ST-HW-005.md) | 2026-01-22 | selected_sections | 2026-11-03 |
@@ -226,3 +226,30 @@
 | [KYX-V-009 · AI Trading Supplement — Form 4923](cards/KYX-V-009.md) | 미확인/동적 | selected_sections | 2026-11-03 |
 | [KYX-V-010 · Fees — Tether](cards/KYX-V-010.md) | 미확인/동적 | selected_sections | 2026-11-03 |
 | [KYX-V-011 · AI Instructions — Client Portal User Guide](cards/KYX-V-011.md) | 미확인/동적 | selected_sections | 2026-11-03 |
+| [HWX-A-001 · Clearing & Custody](cards/HWX-A-001.md) | 미확인/동적 | selected_sections | 2026-11-03 |
+| [HWX-A-002 · Trading Technology](cards/HWX-A-002.md) | 미확인/동적 | selected_sections | 2026-11-03 |
+| [HWX-A-003 · Circle Internet MEA Ltd — FSRA public register / firm profile](cards/HWX-A-003.md) | 미확인/동적 | selected_sections | 2026-11-03 |
+| [HWX-A-004 · Exchange Traded Concepts Takes Client ETFs to the Abu Dhabi Securities Exchange](cards/HWX-A-004.md) | 2026-11-02 | selected_sections | 2026-11-03 |
+| [HWX-A-006 · PLUS Korea Defense Industry Index ETF — Summary Prospectus, March 30, 2026](cards/HWX-A-006.md) | 2026-03-30 | selected_sections | 2026-11-03 |
+| [HWX-A-007 · ADX welcomes listing of two Korean ETFs](cards/HWX-A-007.md) | 2026-11-02 | selected_sections | 2026-11-03 |
+| [HWX-A-008 · Exchange Listed Funds Trust Form N-1A — KDEF Prospectus, Fund Management](cards/HWX-A-008.md) | 2026-03-27 | selected_sections | 2026-11-03 |
+| [HWX-M-001 · PT Lippo General Insurance Tbk — Laporan Keberlanjutan 2025](cards/HWX-M-001.md) | 미확인/동적 | selected_sections | 2026-11-03 |
+| [HWX-M-002 · QRIS Nobu: Solusi QRIS Terintegrasi untuk Pembayaran Digital](cards/HWX-M-002.md) | 미확인/동적 | selected_sections | 2026-11-03 |
+| [HWX-M-003 · Proyek Garuda: Menavigasi Arsitektur Rupiah Digital](cards/HWX-M-003.md) | 미확인/동적 | selected_sections | 2026-11-03 |
+| [HWX-M-004 · HealthPlus+ Business](cards/HWX-M-004.md) | 미확인/동적 | selected_sections | 2026-11-03 |
+| [HWX-M-005 · Panduan Mobile JKN — Administrasi Kepesertaan JKN](cards/HWX-M-005.md) | 미확인/동적 | selected_sections | 2026-11-03 |
+| [HWX-M-006 · PT Lippo General Insurance Tbk — Laporan Publikasi Tahunan Audited 2025](cards/HWX-M-006.md) | 2026-03-31 | selected_sections | 2026-11-03 |
+| [HWX-V-001 · 개인정보 처리방침 V4.01 — 자동화된 결정·제3자 제공·국외이전](cards/HWX-V-001.md) | 미확인/동적 | selected_sections | 2026-11-03 |
+| [HWX-V-002 · 자회사정보 — 주요 사업과 자산 산정시점](cards/HWX-V-002.md) | 미확인/동적 | selected_sections | 2026-11-03 |
+| [HWX-V-003 · 보험금 청구시 알아두셔야 할 내용](cards/HWX-V-003.md) | 미확인/동적 | selected_sections | 2026-11-03 |
+| [HWX-V-004 · For People. For Pets. For Trust: Responsible Use of AI at Allianz](cards/HWX-V-004.md) | 2026-03-18 | selected_sections | 2026-11-03 |
+| [HWX-V-005 · Prudential launches brand new AI Underwriter powered by Alibaba Cloud](cards/HWX-V-005.md) | 2026-09-09 | selected_sections | 2026-11-03 |
+| [HWX-V-006 · AI 시대에도 보험설계사가 필요한 이유는 무엇일까?](cards/HWX-V-006.md) | 2026-08-24 | selected_sections | 2026-11-03 |
+| [HWX-R-001 · BNK금융그룹 부울경 경제 도약 BNK프로젝트 가동](cards/HWX-R-001.md) | 2026-07-08 | selected_sections | 2026-11-03 |
+| [HWX-R-002 · BNK캐피탈 — 자회사 소개](cards/HWX-R-002.md) | 미확인/동적 | selected_sections | 2026-11-03 |
+| [HWX-R-003 · BNK투자증권 — 자회사 소개](cards/HWX-R-003.md) | 미확인/동적 | selected_sections | 2026-11-03 |
+| [HWX-R-004 · BNK자산운용 — 자회사 소개](cards/HWX-R-004.md) | 미확인/동적 | selected_sections | 2026-11-03 |
+| [HWX-R-005 · 교보생명, 로보어드바이저로 변액보험 고객 펀드 관리 돕는다](cards/HWX-R-005.md) | 2026-10-30 | selected_sections | 2026-11-03 |
+| [HWX-R-006 · Qcells Expands Alliance with Microsoft to Explore New Approach for Adding Energy Capacity Alongside AI Infrastructure](cards/HWX-R-006.md) | 2026-08-19 | selected_sections | 2026-11-03 |
+| [HWX-R-007 · BNK금융그룹 2026년도 조직개편 실시](cards/HWX-R-007.md) | 2026-01-05 | selected_sections | 2026-11-03 |
+| [HWX-R-008 · 2026년도 금융복합기업집단 지정](cards/HWX-R-008.md) | 2026-07-15 | selected_sections | 2026-11-03 |

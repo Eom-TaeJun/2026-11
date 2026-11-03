@@ -4422,5 +4422,1097 @@
     "limitations": "정책 방향과 선택 예고 내용을 거래 설계에 적용한 해석이며 개별 IP 상품 적격성·최종 규칙·인가를 확인한 것은 아니다.",
     "as_of": "2026-11-03",
     "draft_id": "KYR-C-005"
+  },
+  {
+    "id": "C-246",
+    "kind": "institution_statement",
+    "status": "active",
+    "text": "한화생명의 Velocity 지분75% 인수는2025-07-30 완료 발표 단계이며 단순 인수 MOU가 아니다.",
+    "source_ids": [
+      "HWA-GEO-008"
+    ],
+    "topic_ids": [
+      "T-COMPANIES",
+      "T-GEOGRAPHY",
+      "T-INSTITUTION-ROLES"
+    ],
+    "limitations": "선택 공개 원문 범위의 판단이며 내부 계약·실제 고객 수익은 별도 확인한다.",
+    "as_of": "2026-11-03"
+  },
+  {
+    "id": "C-247",
+    "kind": "fact",
+    "status": "active",
+    "text": "FINRA는 Velocity Clearing의 등록과 Hanwha Life US Investment–Nexus–VCT를 통한 간접 소유 경로를 기록한다. 국내 생명법인의 미국 직접 중개 허가를 뜻하지 않는다.",
+    "source_ids": [
+      "HWA-GEO-009"
+    ],
+    "topic_ids": [
+      "T-COMPANIES",
+      "T-GEOGRAPHY",
+      "T-INSTITUTION-ROLES"
+    ],
+    "limitations": "선택 공개 원문 범위의 판단이며 내부 계약·실제 고객 수익은 별도 확인한다.",
+    "as_of": "2026-11-03"
+  },
+  {
+    "id": "C-248",
+    "kind": "institution_statement",
+    "status": "active",
+    "text": "Velocity 공식 상용 메뉴는 주식·ETF·옵션 중심이다. 채권·뮤추얼펀드는 출시예정 표시이고 선물은 IB–FCM 관계다.",
+    "source_ids": [
+      "HWX-A-001"
+    ],
+    "topic_ids": [
+      "T-COMPANIES",
+      "T-GEOGRAPHY",
+      "T-INSTITUTION-ROLES"
+    ],
+    "limitations": "선택 공개 원문 범위의 판단이며 내부 계약·실제 고객 수익은 별도 확인한다.",
+    "as_of": "2026-11-03"
+  },
+  {
+    "id": "C-249",
+    "kind": "institution_statement",
+    "status": "active",
+    "text": "Velocity는 계좌 개설·주문·현금 이동·stock locate API를 안내한다. 지원24/6은 결제·은행현금24/7의 증거가 아니다.",
+    "source_ids": [
+      "HWX-A-002"
+    ],
+    "topic_ids": [
+      "T-COMPANIES",
+      "T-GEOGRAPHY",
+      "T-INSTITUTION-ROLES",
+      "T-OPERATIONS",
+      "T-SETTLEMENT"
+    ],
+    "limitations": "선택 공개 원문 범위의 판단이며 내부 계약·실제 고객 수익은 별도 확인한다.",
+    "as_of": "2026-11-03"
+  },
+  {
+    "id": "C-250",
+    "kind": "fact",
+    "status": "active",
+    "text": "생명–ADIO, 운용–ADGM–하나금융 협력은 서로 다른 관계다. ADFW2026은11/3 기준12/7~10의 미래 행사다.",
+    "source_ids": [
+      "HWA-GEO-001",
+      "HWA-GEO-002"
+    ],
+    "topic_ids": [
+      "T-COMPANIES",
+      "T-GEOGRAPHY",
+      "T-INSTITUTION-ROLES"
+    ],
+    "limitations": "선택 공개 원문 범위의 판단이며 내부 계약·실제 고객 수익은 별도 확인한다.",
+    "as_of": "2026-11-03"
+  },
+  {
+    "id": "C-251",
+    "kind": "institution_statement",
+    "status": "active",
+    "text": "운용 MENA는2025-07 설립과 중동 사모펀드·현지 마케팅 활동을 공식 네트워크에서 소개한다. 생명 주재사무소와 구별한다.",
+    "source_ids": [
+      "HWA-GEO-003",
+      "HWA-GEO-004"
+    ],
+    "topic_ids": [
+      "T-COMPANIES",
+      "T-GEOGRAPHY",
+      "T-INSTITUTION-ROLES"
+    ],
+    "limitations": "선택 공개 원문 범위의 판단이며 내부 계약·실제 고객 수익은 별도 확인한다.",
+    "as_of": "2026-11-03"
+  },
+  {
+    "id": "C-252",
+    "kind": "institution_statement",
+    "status": "active",
+    "text": "KDEF·KMCA는11/2 ADX 거래 개시를 ETC가 발표했고 WAM이 ADX 발표를 보도했다. 이는 기존 ETF 교차상장이며 토큰 ETF 출시는 확인되지 않았다.",
+    "source_ids": [
+      "HWX-A-004",
+      "HWX-A-007"
+    ],
+    "topic_ids": [
+      "T-COMPANIES",
+      "T-GEOGRAPHY",
+      "T-INSTITUTION-ROLES"
+    ],
+    "limitations": "선택 공개 원문 범위의 판단이며 내부 계약·실제 고객 수익은 별도 확인한다.",
+    "as_of": "2026-11-03"
+  },
+  {
+    "id": "C-253",
+    "kind": "fact",
+    "status": "active",
+    "text": "KDEF의 adviser는ETC이고 한화운용은 지수 제공자·sponsor다. 한화는 AUM 연동 보수와 일부 비용·해당 시 최소보수 의무를 가진다.0.65% 전액이 한화 매출은 아니다.",
+    "source_ids": [
+      "HWX-A-006",
+      "HWX-A-008"
+    ],
+    "topic_ids": [
+      "T-COMPANIES",
+      "T-GEOGRAPHY",
+      "T-INSTITUTION-ROLES"
+    ],
+    "limitations": "KDEF 선택 설명서 기준. 한화 보수율·현재 실현수익·KMCA 동일 조건은 미확인.",
+    "as_of": "2026-11-03"
+  },
+  {
+    "id": "C-254",
+    "kind": "interpretation",
+    "status": "active",
+    "text": "교차상장 운영은 중개·AP·시장조성·법률·관리자 등 외부 역할을 요구한다. Velocity가 이 ETF를 현재 청산한다는 근거는 확보하지 못했다.",
+    "source_ids": [
+      "HWX-A-004",
+      "HWX-A-006",
+      "HWA-GEO-009"
+    ],
+    "topic_ids": [
+      "T-COMPANIES",
+      "T-GEOGRAPHY",
+      "T-INSTITUTION-ROLES"
+    ],
+    "limitations": "선택 공개 원문 범위의 판단이며 내부 계약·실제 고객 수익은 별도 확인한다.",
+    "as_of": "2026-11-03"
+  },
+  {
+    "id": "C-255",
+    "kind": "fact",
+    "status": "active",
+    "text": "ADGM FRT 체계는2026-01-01 효력이지만 특정 회사의 개별 FSP·상품·고객 범위는 별도다. 증권인 토큰은 증권 규율을 받는다.",
+    "source_ids": [
+      "RG-AE-001",
+      "RG-AE-002"
+    ],
+    "topic_ids": [
+      "T-MONEY",
+      "T-REGULATION"
+    ],
+    "limitations": "선택 공개 원문 범위의 판단이며 내부 계약·실제 고객 수익은 별도 확인한다.",
+    "as_of": "2026-11-03"
+  },
+  {
+    "id": "C-256",
+    "kind": "fact",
+    "status": "active",
+    "text": "Circle MEA의 Active FSP는 Money Services·Arranging Deals in Investments를 기재하나 소매고객·고객자산 보유통제를 제한한다. 이 허가가 한화에 이전되지 않는다.",
+    "source_ids": [
+      "HWX-A-003"
+    ],
+    "topic_ids": [
+      "T-MONEY",
+      "T-REGULATION",
+      "T-COMPANIES",
+      "T-GEOGRAPHY",
+      "T-INSTITUTION-ROLES"
+    ],
+    "limitations": "선택 공개 원문 범위의 판단이며 내부 계약·실제 고객 수익은 별도 확인한다.",
+    "as_of": "2026-11-03"
+  },
+  {
+    "id": "C-257",
+    "kind": "institution_statement",
+    "status": "active",
+    "text": "Kresus 투자완료와 Chainlink 도입·플랫폼 구축 발표는 한화투자증권 신호이며 생명의 직접 계약이나 상용 RWA 수익을 뜻하지 않는다.",
+    "source_ids": [
+      "ST-HW-001",
+      "ST-HW-002"
+    ],
+    "topic_ids": [
+      "T-COMPANIES",
+      "T-GEOGRAPHY",
+      "T-INSTITUTION-ROLES"
+    ],
+    "limitations": "선택 공개 원문 범위의 판단이며 내부 계약·실제 고객 수익은 별도 확인한다.",
+    "as_of": "2026-11-03"
+  },
+  {
+    "id": "C-258",
+    "kind": "institution_statement",
+    "status": "active",
+    "text": "생명–LCV는 공동투자 MOU 단계이고 LCV 포트폴리오와 한화의 직접 계약·직접 지분을 연결할 수 없다.",
+    "source_ids": [
+      "ST-HW-005"
+    ],
+    "topic_ids": [
+      "T-COMPANIES",
+      "T-GEOGRAPHY",
+      "T-INSTITUTION-ROLES"
+    ],
+    "limitations": "선택 공개 원문 범위의 판단이며 내부 계약·실제 고객 수익은 별도 확인한다.",
+    "as_of": "2026-11-03"
+  },
+  {
+    "id": "C-259",
+    "kind": "fact",
+    "status": "active",
+    "text": "USDC 단순 보유자는 직접 환매권 실행에 필요한 Mint 자격과 구별된다. 현재 환매 안내의 처리시간과 은행 결제시간도 별도다.",
+    "source_ids": [
+      "SRC-CIRCLE-USDC-TERMS",
+      "KNX-M-003"
+    ],
+    "topic_ids": [
+      "T-MONEY",
+      "T-REGULATION"
+    ],
+    "limitations": "선택 공개 원문 범위의 판단이며 내부 계약·실제 고객 수익은 별도 확인한다.",
+    "as_of": "2026-11-03"
+  },
+  {
+    "id": "C-260",
+    "kind": "fact",
+    "status": "active",
+    "text": "Tether 약관의 미국인 제한에는 Tether가 동의한 ECP 예외가 있다. Velocity의 적용 자격은 미확인이다. 직접 환매 최소금액·가격도 별도로 적용된다.",
+    "source_ids": [
+      "ST-HW-013",
+      "KYX-V-010"
+    ],
+    "topic_ids": [
+      "T-MONEY",
+      "T-REGULATION"
+    ],
+    "limitations": "Tether 계약조건을 미국법 전면 금지로 해석하지 않는다. 예외 승인·한화 계약은 확인되지 않았다.",
+    "as_of": "2026-11-03"
+  },
+  {
+    "id": "C-261",
+    "kind": "unknown",
+    "status": "active",
+    "text": "한화 계열의 Circle/Tether 직접 상환 계약, Velocity의 고객 USDC·USDT 입금 및 거래·청산 지원, 한화 MENA의 구체적 FSP 범위는 이번 공식 원문 선택 조사에서 완결 확인하지 못했다.",
+    "source_ids": [
+      "HWA-GEO-009",
+      "HWX-A-001",
+      "HWX-A-002",
+      "HWX-A-003",
+      "HWA-GEO-003",
+      "SRC-CIRCLE-USDC-TERMS",
+      "ST-HW-013"
+    ],
+    "topic_ids": [
+      "T-COMPANIES",
+      "T-GEOGRAPHY",
+      "T-INSTITUTION-ROLES"
+    ],
+    "limitations": "검색의 미관측은 미계약·미인가의 확정 증거가 아니다.",
+    "as_of": "2026-11-03"
+  },
+  {
+    "id": "C-262",
+    "kind": "interpretation",
+    "status": "active",
+    "text": "MVB–Visa 파일럿 자료의 Velocity는 velocity.xyz와 다른 CEO를 명시한다. 이를 한화 Velocity Clearing의 상용 레일로 귀속할 근거가 없다.",
+    "source_ids": [
+      "ST-HW-011",
+      "HWA-GEO-009"
+    ],
+    "topic_ids": [
+      "T-COMPANIES",
+      "T-GEOGRAPHY",
+      "T-INSTITUTION-ROLES"
+    ],
+    "limitations": "선택 공개 원문 범위의 판단이며 내부 계약·실제 고객 수익은 별도 확인한다.",
+    "as_of": "2026-11-03"
+  },
+  {
+    "id": "C-263",
+    "kind": "hypothesis",
+    "status": "active",
+    "text": "미국은 기존 브로커 고객의 계좌·주문·현금·청산 예외 처리를 표준화하고 AI 보조를 붙이는 사업을 먼저 검증할 가치가 있다.",
+    "source_ids": [
+      "HWX-A-001",
+      "HWX-A-002",
+      "HWA-GEO-009"
+    ],
+    "topic_ids": [
+      "T-COMPANIES",
+      "T-GEOGRAPHY",
+      "T-INSTITUTION-ROLES"
+    ],
+    "limitations": "선택 공개 원문 범위의 판단이며 내부 계약·실제 고객 수익은 별도 확인한다.",
+    "as_of": "2026-11-03",
+    "alternative": "경쟁 청산사가 같은 자동화를 더 싸게 제공하거나 기존 프로세스가 충분히 효율적이면 보수 확대 없이 비용만 늘 수 있다.",
+    "next_observation": "반복 예외량·처리시간·재작업·고객 유지와 완결 거래당 순기여를 기존 방식과 같은 기간 비교한다."
+  },
+  {
+    "id": "C-264",
+    "kind": "hypothesis",
+    "status": "active",
+    "text": "UAE의 우선 검증 대상은 실제 교차상장 ETF의 반복 고객·유동성·스폰서 순경제성이다. 토큰화는 별도 권리·허가·현금 조건에서 증분 효과를 실험한다.",
+    "source_ids": [
+      "HWX-A-004",
+      "HWA-GEO-003",
+      "HWX-A-006",
+      "HWX-A-008"
+    ],
+    "topic_ids": [
+      "T-COMPANIES",
+      "T-GEOGRAPHY",
+      "T-INSTITUTION-ROLES"
+    ],
+    "limitations": "선택 공개 원문 범위의 판단이며 내부 계약·실제 고객 수익은 별도 확인한다.",
+    "as_of": "2026-11-03",
+    "alternative": "UAE 고객이 기존 미국 브로커 경로를 선호하거나 테마 수요가 약하면 현지 상장 고정비·시장조성 비용을 충당하지 못할 수 있다.",
+    "next_observation": "지역별 순유입·비관계 고객·재거래·스프레드·AP/시장조성 가동·한화 계약상 순보수와 비용을 확인한다."
+  },
+  {
+    "id": "C-265",
+    "kind": "hypothesis",
+    "status": "active",
+    "text": "필요한 인가·고객 위임·코인 계약이 성립한2027 이후에도 온체인 경로는 환매·FX·사전조달·운영복구 총비용이 기존+AI보다 낮거나 고유한 고객 업무를 해결할 때 채택한다.",
+    "source_ids": [
+      "HWX-A-002",
+      "HWX-A-006",
+      "KNX-M-003",
+      "ST-HW-013"
+    ],
+    "topic_ids": [
+      "T-SETTLEMENT",
+      "T-MONEY",
+      "T-AGENT-FINANCE"
+    ],
+    "limitations": "선택 공개 원문 범위의 판단이며 내부 계약·실제 고객 수익은 별도 확인한다.",
+    "as_of": "2026-11-03",
+    "alternative": "상계가 줄고 피크 사전조달이 증가하거나 은행 출금이 병목이면 빠른 토큰 이동이 고객 완결시간·총비용을 개선하지 못한다.",
+    "next_observation": "동일 금액·통화·시간대·실패 사례에서 최종 은행현금 도달시간, 묶인 잔액, 복구손실, 고객 지불 의사를 측정한다."
+  },
+  {
+    "id": "C-266",
+    "kind": "hypothesis",
+    "status": "active",
+    "text": "산업계열의 실제 공급망·에너지 현금흐름은 향후 금융상품·지급 수요의 후보일 수 있지만 거래 계약·권리양도·신용과 판매 동의가 있어야 금융계열의 고객이나 자산이 된다.",
+    "source_ids": [
+      "HWA-GEO-001",
+      "HWX-A-006"
+    ],
+    "topic_ids": [
+      "T-COMPANIES",
+      "T-GEOGRAPHY",
+      "T-INSTITUTION-ROLES"
+    ],
+    "limitations": "이번 미국·UAE 금융 원문은 특정 산업계열의 자산 이전·고객 계약·보험 인수·금융수익을 입증하지 않는다.",
+    "as_of": "2026-11-03",
+    "alternative": "외부 은행·운용사가 가격·위험분산에 우위가 있거나 계열 집중·이해상충 비용이 커 내부 연계가 불리할 수 있다.",
+    "next_observation": "계열 외 비교 견적, 실제 계약 상대방·양도 제한·선순위 담보·현금 수취계좌·독립 투자심의와 고객 동의를 확인한다."
+  },
+  {
+    "id": "C-267",
+    "kind": "fact",
+    "status": "active",
+    "text": "한화생명인니와 Nobu의 방카슈랑스 협력은 2025-08-15 체결했다고 현지 보험자가 발표했고 Nobu 공개 페이지에는 한화 보험 3종이 있다.",
+    "source_ids": [
+      "ST-HW-006",
+      "ST-HW-007"
+    ],
+    "topic_ids": [
+      "T-COMPANIES",
+      "T-OPERATIONS"
+    ],
+    "limitations": [
+      "협력·등재는 판매액·수익·고객 전환 증거가 아니다."
+    ],
+    "as_of": "2026-11-03"
+  },
+  {
+    "id": "C-268",
+    "kind": "fact",
+    "status": "active",
+    "text": "2026 SNLIK의 종합 금융포용93.61%는 사회보장·지급 등 광범위 상품 이용 지표이며 생명보험의 충분 보장률이 아니다.",
+    "source_ids": [
+      "ST-HW-008"
+    ],
+    "topic_ids": [
+      "T-MARKET",
+      "T-GEOGRAPHY"
+    ],
+    "limitations": [
+      "Nobu 고객의 연령·소득·보험수요로 전용할 수 없다."
+    ],
+    "as_of": "2026-11-03"
+  },
+  {
+    "id": "C-269",
+    "kind": "fact",
+    "status": "active",
+    "text": "LGI 2025-12-31 주주표는 HGI61.50%, HLI Indonesia12.86%, Inti Anugerah18.10%, 일반주주7.54%로 합100.00%다.",
+    "source_ids": [
+      "HWX-M-001",
+      "HWX-M-006"
+    ],
+    "topic_ids": [
+      "T-COMPANIES",
+      "T-INSTITUTION-ROLES"
+    ],
+    "limitations": [
+      "2026-11-03 최신 지분 확인이 아니다. 두 자료는 동일 회사 발행이다."
+    ],
+    "as_of": "2026-11-03"
+  },
+  {
+    "id": "C-270",
+    "kind": "fact",
+    "status": "active",
+    "text": "한국 한화생명은 2025-06-30 Nobu40% 투자 완료를 발표했으며 한화생명인니를 인수 주체로 바꿀 수 없다.",
+    "source_ids": [
+      "HWA-GEO-005"
+    ],
+    "topic_ids": [
+      "T-INSTITUTION-ROLES",
+      "T-GEOGRAPHY"
+    ],
+    "limitations": [
+      "40%는 발표 시점 값이고 최신 주주명부 미확인."
+    ],
+    "as_of": "2026-11-03"
+  },
+  {
+    "id": "C-271",
+    "kind": "institution_statement",
+    "status": "active",
+    "text": "한화투자증권은 Ciptadana 증권·운용80% 인수 계약 후 증권2024-10, 운용2025-12-15 취득 완료를 설명했다.",
+    "source_ids": [
+      "HWA-GEO-010"
+    ],
+    "topic_ids": [
+      "T-INSTITUTION-ROLES"
+    ],
+    "limitations": [
+      "OJK 개별 결정문과 최신 주주명부를 직접 확인하지 않았다."
+    ],
+    "as_of": "2026-11-03"
+  },
+  {
+    "id": "C-272",
+    "kind": "fact",
+    "status": "active",
+    "text": "Nobu QRIS의 공개 MDR은 영세 건당IDR500,000이하0%, 초과0.3%, 일반 중소·대형0.7%이며 일부 확장 기능은 Coming Soon 표시다.",
+    "source_ids": [
+      "HWX-M-002"
+    ],
+    "topic_ids": [
+      "T-MONEY",
+      "T-OPERATIONS"
+    ],
+    "limitations": [
+      "고객 부과 MDR은 은행 잔여 수익이 아니다."
+    ],
+    "as_of": "2026-11-03"
+  },
+  {
+    "id": "C-273",
+    "kind": "institution_statement",
+    "status": "active",
+    "text": "LGI는 직원 건강보험 HealthPlus+ Business를 공개한다.",
+    "source_ids": [
+      "HWX-M-004"
+    ],
+    "topic_ids": [
+      "T-MARKET",
+      "T-INSTITUTION-ROLES"
+    ],
+    "limitations": [
+      "Nobu 유통계약·고용주 고객 수·견적·실제 손익은 미확인."
+    ],
+    "as_of": "2026-11-03"
+  },
+  {
+    "id": "C-274",
+    "kind": "fact",
+    "status": "active",
+    "text": "Bittime는 Nobu VA 제공을 발표하고 IDR→USDT 교환을 홍보한다. 이는 은행 입금 접점과 플랫폼 업무의 연결이다.",
+    "source_ids": [
+      "HWA-GEO-006"
+    ],
+    "topic_ids": [
+      "T-MONEY",
+      "T-SETTLEMENT"
+    ],
+    "limitations": [
+      "Nobu–Tether 직접 계약·발행·직접 환매·준비자산 수익은 미확인."
+    ],
+    "as_of": "2026-11-03"
+  },
+  {
+    "id": "C-275",
+    "kind": "fact",
+    "status": "active",
+    "text": "2026-09 Bittime 공지는 Nobu VA 입금 유지보수 중지와 대체 은행 경로를 안내했다.",
+    "source_ids": [
+      "HWA-GEO-007"
+    ],
+    "topic_ids": [
+      "T-OPERATIONS",
+      "T-SETTLEMENT"
+    ],
+    "limitations": [
+      "과거 공지이며 현재 중단 증거가 아니다."
+    ],
+    "as_of": "2026-11-03"
+  },
+  {
+    "id": "C-276",
+    "kind": "fact",
+    "status": "active",
+    "text": "BI PBI10/2025의119조는 가상통화의 지급자금 수용·처리·연계를 금지하고 적법한 디지털자산 거래 지원과 구분한다.",
+    "source_ids": [
+      "RG-ID-002",
+      "RG-ID-001"
+    ],
+    "topic_ids": [
+      "T-REGULATION",
+      "T-MONEY"
+    ],
+    "limitations": [
+      "개별 허가를 검증한 것이 아니며 암호자산 거래 허가를 증권 발행·보험료 지급 권한으로 전용할 수 없다."
+    ],
+    "as_of": "2026-11-03"
+  },
+  {
+    "id": "C-277",
+    "kind": "institution_statement",
+    "status": "active",
+    "text": "BI 디지털 루피아 자료는 wholesale 1차 PoC와 제한된 참가 범위를 설명하며 민간 스테이블코인과 구분한다.",
+    "source_ids": [
+      "HWX-M-003"
+    ],
+    "topic_ids": [
+      "T-MONEY",
+      "T-REGULATION"
+    ],
+    "limitations": [
+      "자료에서 2027Q1 retail 출시·Nobu 참가·보험료 결제의 확정 일정은 확인하지 못했다."
+    ],
+    "as_of": "2026-11-03"
+  },
+  {
+    "id": "C-278",
+    "kind": "hypothesis",
+    "status": "active",
+    "text": "기존 방카 고객의 보장 확인·납입 유지·청구 안내를 개선하면 신규 판매 확대보다 먼저 반복 지원비용과 고객 오류를 줄일 수 있다.",
+    "source_ids": [
+      "ST-HW-006",
+      "ST-HW-007",
+      "ST-HW-008",
+      "HWX-M-005"
+    ],
+    "topic_ids": [
+      "T-AI",
+      "T-OPERATIONS",
+      "T-RIGHTS"
+    ],
+    "limitations": [
+      "절감·유지율·유료 수요는 미관측."
+    ],
+    "as_of": "2026-11-03",
+    "alternative": "보험료 부담·보장 범위가 문제라면 안내 자동화만으로 유지율이 개선되지 않는다.",
+    "next_observation": "약관 이해·서류 재작업·납입 실패·민원·유지율을 기존 방식과 비교"
+  },
+  {
+    "id": "C-279",
+    "kind": "hypothesis",
+    "status": "active",
+    "text": "Nobu 가맹점의 IDR 수납 대사와 운영자금 가시성은 보험 외 유료 업무 후보이며 기존 API+AI가 우선 비교 기준이다.",
+    "source_ids": [
+      "HWX-M-002",
+      "HWA-GEO-006",
+      "HWA-GEO-007"
+    ],
+    "topic_ids": [
+      "T-MONEY",
+      "T-OPERATIONS",
+      "T-AI"
+    ],
+    "limitations": [
+      "가맹점/플랫폼의 실제 지불 의사·오류 비용은 미확인."
+    ],
+    "as_of": "2026-11-03",
+    "alternative": "무료 POS/은행 서비스가 충분하면 추가 비용을 낼 고객이 없다.",
+    "next_observation": "실제 대사 비용과 고객이 지불하는 반복 계약·총비용을 확인"
+  },
+  {
+    "id": "C-280",
+    "kind": "hypothesis",
+    "status": "active",
+    "text": "고용주의 직원 보장·자격 변경·청구 관리는 LGI 보험과 연결할 수 있는 별도 후보다.",
+    "source_ids": [
+      "HWX-M-004",
+      "HWX-M-005",
+      "HWX-M-001"
+    ],
+    "topic_ids": [
+      "T-MARKET",
+      "T-OPERATIONS"
+    ],
+    "limitations": [
+      "기존 상품 존재가 Nobu 유통계약·새 사업 수요를 증명하지 않는다."
+    ],
+    "as_of": "2026-11-03",
+    "alternative": "고용주 예산·기존 중개인 경쟁·의료비 상승이 개선 효과를 압도할 수 있다.",
+    "next_observation": "고용주 갱신 의사·자격 오류·청구 지원비·보험위험 변화를 확인"
+  },
+  {
+    "id": "C-281",
+    "kind": "interpretation",
+    "status": "active",
+    "text": "보험료·보험자 이익·은행 유통보수·예금조달 기여는 다르며 계열 내부 보수를 그룹 순익에 이중 합산하면 안 된다.",
+    "source_ids": [
+      "ST-HW-007",
+      "HWA-GEO-005",
+      "HWX-M-001"
+    ],
+    "topic_ids": [
+      "T-INSTITUTION-ROLES",
+      "T-MONEY",
+      "T-FUNDING"
+    ],
+    "limitations": [
+      "거래별 회계·세무·계약 검토가 필요하다."
+    ],
+    "as_of": "2026-11-03"
+  },
+  {
+    "id": "C-282",
+    "kind": "hypothesis",
+    "status": "active",
+    "text": "적법한 디지털 현금·개별 참가·고객 권한이 성립해도24시간 지급은 현금 대기·복구·유동성 비용을 늘릴 수 있고 경쟁이 절감분을 고객 가격으로 이전시킬 수 있다.",
+    "source_ids": [
+      "HWX-M-003",
+      "RG-ID-002",
+      "HWA-GEO-007",
+      "HWX-M-002"
+    ],
+    "topic_ids": [
+      "T-SETTLEMENT",
+      "T-FUNDING",
+      "T-AGENT-FINANCE"
+    ],
+    "limitations": [
+      "미래 조건부 분석이며 현재 출시·허가·성과 주장이 아니다."
+    ],
+    "as_of": "2026-11-03",
+    "alternative": "폐쇄망/기존API가 충분하거나 대기유동성·운영비가 커지면 온체인 확장이 불리하다.",
+    "next_observation": "개별 승인 후 실제 가용 현금 시간·총비용·사고 복구·예금 잔액 순변화를 비교"
+  },
+  {
+    "id": "C-283",
+    "kind": "unknown",
+    "status": "active",
+    "text": "Nobu 고객구성·유료전환·보험료·보수율·LGI 신규채널계약·샤리아권한·신규사업ROI는 확인하지 않았다.",
+    "source_ids": [
+      "ST-HW-007",
+      "ST-HW-008",
+      "HWX-M-002",
+      "HWX-M-004"
+    ],
+    "topic_ids": [
+      "T-MARKET",
+      "T-RIGHTS"
+    ],
+    "limitations": [
+      "미확인은 부재나 사업 실패의 증거가 아니다."
+    ],
+    "as_of": "2026-11-03"
+  },
+  {
+    "id": "C-284",
+    "kind": "fact",
+    "status": "active",
+    "as_of": "2026-11-03",
+    "text": "PBI10/2025 122조는 해당 국내 지급 처리와 데이터센터·재해복구센터 원칙 및 해외 처리의 BI 승인을 구분한다.",
+    "source_ids": [
+      "RG-ID-002"
+    ],
+    "topic_ids": [
+      "T-REGULATION",
+      "T-OPERATIONS",
+      "T-AI"
+    ],
+    "limitations": [
+      "Nobu 업무별 적용과 기존 개별 승인은 미확인. 일반 설명용 AI 전체의 국외 금지로 확대하지 않는다."
+    ]
+  },
+  {
+    "id": "C-285",
+    "kind": "institution_statement",
+    "status": "active",
+    "text": "한화생명의2026-10-16 적용 개인정보처리방침은 룰 또는 AI에 의한 자동 인수·보험금 접수/지급심사와 설명·검토 절차를 안내한다.",
+    "source_ids": [
+      "HWX-V-001"
+    ],
+    "topic_ids": [
+      "T-COMPANIES",
+      "T-INSTITUTION-ROLES",
+      "T-AGENT-FINANCE",
+      "T-OPERATIONS"
+    ],
+    "limitations": "기존 자동화의 공개 설명이며 생성형 에이전트의 자율계약·자동출금·정확도·이익을 확인하지 않음.",
+    "as_of": "2026-11-03"
+  },
+  {
+    "id": "C-286",
+    "kind": "interpretation",
+    "status": "active",
+    "text": "보험계약자·피보험자·수익자·위임받은 자는 같은 사람이라고 가정할 수 없으며 청구자료 접근·지급확정·수취계좌 변경·투자 주문을 별도 권한으로 설계해야 한다.",
+    "source_ids": [
+      "HWX-V-001",
+      "HWX-V-003"
+    ],
+    "topic_ids": [
+      "T-COMPANIES",
+      "T-INSTITUTION-ROLES",
+      "T-AGENT-FINANCE",
+      "T-OPERATIONS"
+    ],
+    "limitations": "개별 계약·가족관계·법정대리·상속의 법률 판단은 별도. 연구 설계 기준.",
+    "as_of": "2026-11-03"
+  },
+  {
+    "id": "C-287",
+    "kind": "institution_statement",
+    "status": "active",
+    "text": "공식 자회사 소개는 보험대리/중개와 보험계약조사·집합투자·은행·보험 기능을 구별하며 자산총액 기준은2024년말로 표시한다.",
+    "source_ids": [
+      "HWX-V-002"
+    ],
+    "topic_ids": [
+      "T-COMPANIES",
+      "T-INSTITUTION-ROLES",
+      "T-AGENT-FINANCE",
+      "T-OPERATIONS"
+    ],
+    "limitations": "현재 지분·자본·연결범위·개별 인가의 전수확인이 아님.",
+    "as_of": "2026-11-03"
+  },
+  {
+    "id": "C-288",
+    "kind": "institution_statement",
+    "status": "active",
+    "text": "Allianz의2026년3월 설명은 한정된 단순 청구의 자동화와 불확실/잠재 부지급의 사람 검토를 제시한다.",
+    "source_ids": [
+      "HWX-V-004"
+    ],
+    "topic_ids": [
+      "T-COMPANIES",
+      "T-INSTITUTION-ROLES",
+      "T-AGENT-FINANCE",
+      "T-OPERATIONS"
+    ],
+    "limitations": "회사 자기보고. 한국 생명보험 모든청구의 성과나 공통 자동판단 허용을 입증하지 않음.",
+    "as_of": "2026-11-03"
+  },
+  {
+    "id": "C-289",
+    "kind": "institution_statement",
+    "status": "active",
+    "text": "Prudential Hong Kong의9월9일 AI Underwriter는 상담사의 사전 인수 가이드를 제공하며 최종인수는 전문심사자가 결정하고 다른 유통채널 확대는 계획으로 구분한다.",
+    "source_ids": [
+      "HWX-V-005"
+    ],
+    "topic_ids": [
+      "T-COMPANIES",
+      "T-INSTITUTION-ROLES",
+      "T-AGENT-FINANCE",
+      "T-OPERATIONS"
+    ],
+    "limitations": "미국 Prudential Financial과 법인 구분. 정확도·생산성과·반복사용·이익 독립검증 미실시.",
+    "as_of": "2026-11-03"
+  },
+  {
+    "id": "C-290",
+    "kind": "interpretation",
+    "status": "active",
+    "text": "교보의 유지·청구관리 방향과 IBKR의 추가연결료 없는 AI 접점은 단순 정보·접속보다 실행과 사후관리의 구매 가치를 검증해야 하는 경쟁 근거다.",
+    "source_ids": [
+      "HWX-V-006",
+      "KYX-V-008",
+      "KYX-V-009"
+    ],
+    "topic_ids": [
+      "T-COMPANIES",
+      "T-INSTITUTION-ROLES",
+      "T-AGENT-FINANCE",
+      "T-OPERATIONS"
+    ],
+    "limitations": "보험과 증권의 업무·책임이 같다는 뜻이 아니며 교보전략 설명을 실적이나 IBKR조건을 한국허가로 옮기지 않음.",
+    "as_of": "2026-11-03"
+  },
+  {
+    "id": "C-291",
+    "kind": "hypothesis",
+    "status": "active",
+    "text": "한화가 기존 자동심사·은행지급·권한있는 고객 접점을 연결하면 보험금 서류 준비부터 실제 입금·설명·재심사까지의 마찰을 줄여 고객 편익과 운영 성과를 개선할 수 있다.",
+    "source_ids": [
+      "HWX-V-001",
+      "HWX-V-003",
+      "HWX-V-004"
+    ],
+    "topic_ids": [
+      "T-COMPANIES",
+      "T-INSTITUTION-ROLES",
+      "T-AGENT-FINANCE",
+      "T-OPERATIONS"
+    ],
+    "limitations": "블록체인팀의 현재 업무나 예산·서비스 출시를 확인한 것이 아님.",
+    "as_of": "2026-11-03",
+    "alternative": "기존 보험 업무시스템과 API+AI만으로 충분하고 다기관 공유원장 비용이 추가편익을 넘을 수 있다.",
+    "next_observation": "같은 유형의 청구에서 보완서류·최종입금시간·오판/재심사·민원·총운영비를 비교하고 고객별 추가서비스 강요가 없는지 확인."
+  },
+  {
+    "id": "C-292",
+    "kind": "hypothesis",
+    "status": "active",
+    "text": "빠른 보험금 지급은 고객의 대기 부담을 줄이지만 보험사의 운용 가능 현금을 일찍 줄일 수 있으므로 운영절감·지연이자·유지효과와 유동성 비용을 함께 평가해야 한다.",
+    "source_ids": [
+      "HWX-V-003",
+      "ST-HW-015"
+    ],
+    "topic_ids": [
+      "T-COMPANIES",
+      "T-INSTITUTION-ROLES",
+      "T-AGENT-FINANCE",
+      "T-OPERATIONS"
+    ],
+    "limitations": "지급지연을 수익전략으로 삼는 것이 아니며 약정/법정 지급기한을 우선한다. 실제금리·지연비용·절감액은 미확인.",
+    "as_of": "2026-11-03",
+    "alternative": "지급시각 변화가 작거나 이미 버퍼를 보유하면 추가 유동성비가 미미하고 운영절감이 우세할 수 있다.",
+    "next_observation": "동일 보험부채·청구유형에서 실제 지급시각과 피크현금·버퍼·운용수입·지연이자·민원비를 함께 비교."
+  },
+  {
+    "id": "C-293",
+    "kind": "hypothesis",
+    "status": "active",
+    "text": "외부 고객 AI의 비교·전환이 쉬워지면 보험·투자상품 가격과 유통보수는 압박받고 플랫폼이 고객관계와 배분보수 일부를 확보할 수 있다.",
+    "source_ids": [
+      "HWX-V-005",
+      "HWX-V-006",
+      "KYX-V-008"
+    ],
+    "topic_ids": [
+      "T-COMPANIES",
+      "T-INSTITUTION-ROLES",
+      "T-AGENT-FINANCE",
+      "T-OPERATIONS"
+    ],
+    "limitations": "고객 행동·가격전가·플랫폼계약이 관측된 한화 실적은 아님.",
+    "as_of": "2026-11-03",
+    "alternative": "복잡한 보장·분쟁·생애관리에서 신뢰와 전문 상담이 남아 기존 채널의 지급의사와 유지율을 지킬 수 있다.",
+    "next_observation": "동일 고객목적의 외부채널 배분 후 계약기여·가입/유지·부적합판매·해지손실·가격 비교와 재이용."
+  },
+  {
+    "id": "C-294",
+    "kind": "hypothesis",
+    "status": "active",
+    "text": "보험 정보와 예비 인수조건이 표준화되면 더 빠른 가입 외에 유리한 위험의 가격경쟁·고객선택이 인수 포트폴리오 구성을 바꿀 수 있다.",
+    "source_ids": [
+      "HWX-V-005",
+      "ST-HW-015"
+    ],
+    "topic_ids": [
+      "T-COMPANIES",
+      "T-INSTITUTION-ROLES",
+      "T-AGENT-FINANCE",
+      "T-OPERATIONS"
+    ],
+    "limitations": "실제 역선택 발생·손해율 상승을 확인한 것이 아님. 고객정보 왜곡이나 차별을 권고하지 않음.",
+    "as_of": "2026-11-03",
+    "alternative": "더 정확한 정보와 적합한 보장 선택이 정보비대칭·불완전판매를 줄여 위험과 유지 성과를 함께 개선할 수 있다.",
+    "next_observation": "기존/AI경로의 위험구성·추가자료·인수조건·기간별 청구·유지·해지·총획득비를 같은 보장기준으로 비교."
+  },
+  {
+    "id": "C-295",
+    "kind": "interpretation",
+    "status": "active",
+    "text": "보험금 지급은 기존 계약 의무의 이행이며 그 현금이 계열 증권·운용상품으로 이동하려면 별도 고객 목적·동의·자격·주문이 필요하다. 새 예수금·AUM이나 보험료 총액을 그룹 순이익으로 더할 수 없다.",
+    "source_ids": [
+      "HWX-V-001",
+      "HWX-V-003",
+      "ST-HW-010",
+      "ST-HW-015"
+    ],
+    "topic_ids": [
+      "T-COMPANIES",
+      "T-INSTITUTION-ROLES",
+      "T-AGENT-FINANCE",
+      "T-OPERATIONS"
+    ],
+    "limitations": "개별 상품의 회계처리·세금·연결범위·계열가격은 별도확인.",
+    "as_of": "2026-11-03"
+  },
+  {
+    "id": "C-296",
+    "kind": "hypothesis",
+    "status": "active",
+    "text": "기관용 상품정보·자격확인·실행상태·대사/복구 서비스를 외부 은행·보험·증권사나 플랫폼이 구매하면 B2B 계약 수입을 만들 수 있다.",
+    "source_ids": [
+      "ST-HW-004",
+      "ST-HW-014",
+      "KYX-V-008"
+    ],
+    "topic_ids": [
+      "T-COMPANIES",
+      "T-INSTITUTION-ROLES",
+      "T-AGENT-FINANCE",
+      "T-OPERATIONS"
+    ],
+    "limitations": "한화의 유료기관계약·단가·매출은 미확인. AI 자체가 지급자가 아니며 고객의 기존 보험권리를 별도 유료상품 구매와 결부시키지 않음.",
+    "as_of": "2026-11-03",
+    "alternative": "표준 API·클라우드·기존 공급업체와 무료연결 경쟁으로 추가요금 지급의사가 없을 수 있다.",
+    "next_observation": "업무별 지급자 서명견적·지원수준·오류책임·데이터이관권·외부배분 후 반복계약 기여."
+  },
+  {
+    "id": "C-297",
+    "kind": "interpretation",
+    "status": "active",
+    "text": "국가별 사회적·산업적 수요는 접근가능 고객과 다르다. 국가의 지급/투자/보장 문제를 특정 고객·법인·통화·기간·지급자와 기존 대안으로 좁힌 뒤 그룹 자원을 배치해야 한다.",
+    "source_ids": [
+      "ST-HW-008",
+      "ST-KN-002",
+      "KYX-M-001",
+      "ST-HW-007"
+    ],
+    "topic_ids": [
+      "T-COMPANIES",
+      "T-INSTITUTION-ROLES",
+      "T-AGENT-FINANCE",
+      "T-OPERATIONS"
+    ],
+    "limitations": "국가별 시장규모·고객전환율을 추정하지 않는 사업발견 방법 제안. 기존회사강점에서만 출발하는 선택편향도 점검.",
+    "as_of": "2026-11-03"
+  },
+  {
+    "id": "C-298",
+    "kind": "institution_statement",
+    "status": "active",
+    "text": "BNK는 지역 앵커기업·협력기업·임직원을 산업 생태계로 묶는 산업금융과 기업지원센터 계획을 7월 발표했다.",
+    "source_ids": [
+      "HWX-R-001",
+      "HWX-R-007"
+    ],
+    "topic_ids": [
+      "T-COMPANIES",
+      "T-FUNDING"
+    ],
+    "limitations": "현재 집행·고객 효과의 확인이 아니다.",
+    "as_of": "2026-11-03"
+  },
+  {
+    "id": "C-299",
+    "kind": "interpretation",
+    "status": "active",
+    "text": "BNK 관점에서는 수출 수금·FX·운전자금에 설비 리스와 자본시장·운용을 후보 기능으로 붙일 수 있지만, 계약·담보·손익·고객 동의를 각 법인별로 정해야 한다.",
+    "source_ids": [
+      "HWX-R-001",
+      "HWX-R-002",
+      "HWX-R-003",
+      "HWX-R-004",
+      "KNX-S-001"
+    ],
+    "topic_ids": [
+      "T-INSTITUTION-ROLES",
+      "T-FUNDING"
+    ],
+    "limitations": "그룹의 실제 통합 상품 출시나 모든 인가 범위를 확인한 것이 아니다.",
+    "as_of": "2026-11-03",
+    "alternative": "단일 은행·외부 리스나 증권사 조합이 더 낮은 총비용을 제공",
+    "next_observation": "고객별 반복 자금 문제, 외부 비교 견적, 담보 순위, 계열 거래 제거 후 기여"
+  },
+  {
+    "id": "C-300",
+    "kind": "institution_statement",
+    "status": "active",
+    "text": "교보생명은 변액보험 로보어드바이저의 모닝브리핑 개시 및 FP 교육·방문을 통한 펀드관리 지원을 10월30일 발표했다.",
+    "source_ids": [
+      "HWX-R-005"
+    ],
+    "topic_ids": [
+      "T-COMPANIES",
+      "T-AGENT-FINANCE"
+    ],
+    "limitations": "자동 변경 집행·수익률 우위·별도 AI 보수는 미확인.",
+    "as_of": "2026-11-03"
+  },
+  {
+    "id": "C-301",
+    "kind": "hypothesis",
+    "status": "active",
+    "text": "교보 그룹은 문고 정산권리 사업과 별도로 기존 보험·연금 고객의 장기 목적에 맞춘 설명·추천·승인·사후관리를 강화할 수 있다. 투자상품 이동은 해지·보장·세금·적합성 비용까지 비교해야 한다.",
+    "source_ids": [
+      "HWX-R-005",
+      "ST-KY-006",
+      "KYX-M-007"
+    ],
+    "topic_ids": [
+      "T-AGENT-FINANCE",
+      "T-INSTITUTION-ROLES"
+    ],
+    "limitations": "모든 계열 고객의 데이터·계좌 접근이나 통합 자동운용을 가정하지 않음.",
+    "as_of": "2026-11-03",
+    "alternative": "외부 AI가 비교·고객 관계를 장악하거나 기존 FP 서비스만으로 문제 해결",
+    "next_observation": "고객 이해·부적합 변경·유지/해지와 총비용의 동일 업무 비교"
+  },
+  {
+    "id": "C-302",
+    "kind": "institution_statement",
+    "status": "active",
+    "text": "Qcells의 8월19일 발표는 Microsoft와 신규 전력 공급·VPP 모델을 탐색하는 단계이며 기존 태양광 공급·EPC 관계와 구분된다.",
+    "source_ids": [
+      "HWX-R-006"
+    ],
+    "topic_ids": [
+      "T-COMPANIES",
+      "T-GEOGRAPHY"
+    ],
+    "limitations": "금융계열의 확정 투자·토큰화·보험 계약 근거가 아니다.",
+    "as_of": "2026-11-03"
+  },
+  {
+    "id": "C-303",
+    "kind": "hypothesis",
+    "status": "active",
+    "text": "한화 산업계열의 에너지 운영 정보는 지급의무·계량·정산·담보·회수 권리가 확보될 때 금융계열의 구조화·운용 후보가 될 수 있다. 예상 발전량이나 기술 제휴 자체를 확정채권으로 토큰화해서는 안 된다.",
+    "source_ids": [
+      "HWX-R-006",
+      "HWX-R-008"
+    ],
+    "topic_ids": [
+      "T-RIGHTS",
+      "T-COMPANIES",
+      "T-COLLATERAL"
+    ],
+    "limitations": "실제 프로젝트·투자자·조건·계열거래 적격성이 미확인인 후순위 탐색 가설.",
+    "as_of": "2026-11-03",
+    "alternative": "기존 은행 PF·사모대출·유동화가 더 낮은 자금조달비용 제공",
+    "next_observation": "실계약·계량 분쟁·현금 정산과 기존 금융 대비 비용·위험"
+  },
+  {
+    "id": "C-304",
+    "kind": "fact",
+    "status": "active",
+    "text": "금융위는2026년7월15일 한화·교보를 금융복합기업집단으로 지정하고 위험집중·전이·내부거래·자본 등 집단 감독 사항을 설명했다.",
+    "source_ids": [
+      "HWX-R-008"
+    ],
+    "topic_ids": [
+      "T-REGULATION",
+      "T-INSTITUTION-ROLES"
+    ],
+    "limitations": "개별 업무·해외 인가 또는 그룹 전체 단일 법인·단일 자금풀을 뜻하지 않음.",
+    "as_of": "2026-11-03"
+  },
+  {
+    "id": "C-305",
+    "kind": "interpretation",
+    "status": "active",
+    "text": "그룹 사업성은 법인별 수입·비용을 표시한 뒤 내부거래를 제거한 외부 기여, 손실·자본·기존사업 잠식을 별도로 판단해야 한다. 법적 연결범위 밖 계열사와 지분법 대상에는 같은 연결 제거를 기계적으로 적용하지 않는다.",
+    "source_ids": [
+      "HWX-R-008",
+      "HWX-R-001",
+      "ST-HW-015"
+    ],
+    "topic_ids": [
+      "T-INSTITUTION-ROLES",
+      "T-COLLATERAL"
+    ],
+    "limitations": "관리회계 설계 제안이며 개별 그룹 재무제표의 실제 연결범위·이익 계산 아님.",
+    "as_of": "2026-11-03"
   }
 ]

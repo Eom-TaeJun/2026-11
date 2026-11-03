@@ -34,3 +34,7 @@
 PRIOR-003의 [KYOBO_PROFIT_STRATEGY.md](https://github.com/Eom-TaeJun/sto-ai-frontier/blob/d64f570467204e2fdfa5be86ea456a501191b9f8/docs/KYOBO_PROFIT_STRATEGY.md) 1~6절을 다시 읽고, 기존 고객 자금·증거금 방어와 반복 발행·기관 MMF, 보수·원장 대가·자기 위험의 구분을 이어 썼다. 해당 공개 파일의 blob은 `dad08f99a93d97e20c0be6add079ca254b78a4e5`다. 회사 확정 계획으로 재분류하지 않았다.
 
 중앙 [finance 안내](https://github.com/Eom-TaeJun/finance/blob/main/docs/FINANCE_AI_HANDOFF.md)의 소개·선택 범위와 [지식 지도](https://github.com/Eom-TaeJun/finance/blob/main/finance_economics/knowledge-map.json)의 증권·AI 경로도 확인했다. 이번에는 기존 색인을 활용했으며 모든10월 이후 커밋·채팅·라이브러리를 다시 완독한 것이 아니다. 새 자본·그룹·레일 판단은 실제 읽은 공식자료와 [교보 사업안](18_kyobo_future_strategy_business_plan.md)에 연결했다.
+
+## 한화·그룹 심화의 기존 작업 재사용
+
+[기존 공개 기관 대응 보고서](https://github.com/Eom-TaeJun/2026-10/blob/5e4dd5143a57fda97f33151d0e284ba7f7b5576d/reports/digital-finance-institutional-response-2026-11-01.md)를 고정 커밋 `5e4dd5143a57fda97f33151d0e284ba7f7b5576d`에서 선택 읽었다. 권리·현금·금융 기능의 분석 질문과 공개 원문 경로를 이어받았으며 현재 기업 사실을 대신 입증하는 근거로 세지 않았다. 이 저장소의 14번 한화 전략, 16~17번 경남, 18~21번 교보와 출처 원장을 연결해 [22~26번 후속 사업안](22_hanwha_group_business_plan.md)을 작성했다. 이번 작업이 모든 개인 채팅·비공개 라이브러리·10월 이후 전체 저장소를 다시 검색한 것은 아니다.

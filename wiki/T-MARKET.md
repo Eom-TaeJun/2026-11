@@ -184,6 +184,42 @@ Circle의 2026-10-19 이후 공개 환매 구조는 처리시간과 은행결제
 
 한계: - 공개일반안내를 실제거래실사·고객동의·권한확인으로 대체하지 않음
 
+### C-268 · fact · active
+
+2026 SNLIK의 종합 금융포용93.61%는 사회보장·지급 등 광범위 상품 이용 지표이며 생명보험의 충분 보장률이 아니다.
+
+근거: [ST-HW-008](../sources/cards/ST-HW-008.md)
+
+한계: - Nobu 고객의 연령·소득·보험수요로 전용할 수 없다.
+
+### C-273 · institution_statement · active
+
+LGI는 직원 건강보험 HealthPlus+ Business를 공개한다.
+
+근거: [HWX-M-004](../sources/cards/HWX-M-004.md)
+
+한계: - Nobu 유통계약·고용주 고객 수·견적·실제 손익은 미확인.
+
+### C-280 · hypothesis · active
+
+고용주의 직원 보장·자격 변경·청구 관리는 LGI 보험과 연결할 수 있는 별도 후보다.
+
+근거: [HWX-M-004](../sources/cards/HWX-M-004.md), [HWX-M-005](../sources/cards/HWX-M-005.md), [HWX-M-001](../sources/cards/HWX-M-001.md)
+
+한계: - 기존 상품 존재가 Nobu 유통계약·새 사업 수요를 증명하지 않는다.
+
+다른 설명: 고용주 예산·기존 중개인 경쟁·의료비 상승이 개선 효과를 압도할 수 있다.
+
+다음 관측: 고용주 갱신 의사·자격 오류·청구 지원비·보험위험 변화를 확인
+
+### C-283 · unknown · active
+
+Nobu 고객구성·유료전환·보험료·보수율·LGI 신규채널계약·샤리아권한·신규사업ROI는 확인하지 않았다.
+
+근거: [ST-HW-007](../sources/cards/ST-HW-007.md), [ST-HW-008](../sources/cards/ST-HW-008.md), [HWX-M-002](../sources/cards/HWX-M-002.md), [HWX-M-004](../sources/cards/HWX-M-004.md)
+
+한계: - 미확인은 부재나 사업 실패의 증거가 아니다.
+
 ## 관련 원문
 
 - [FIN-002 · What Is Needed for Tokenization to Deliver](../sources/cards/FIN-002.md)
@@ -214,5 +250,11 @@ Circle의 2026-10-19 이후 공개 환매 구조는 처리시간과 은행결제
 - [ST-TD-003 · The Future of Financial Markets — Module 01 Infinite Assets](../sources/cards/ST-TD-003.md)
 - [KNX-M-001 · Franklin OnChain U.S. Government Money Fund — Prospectus August 1, 2026](../sources/cards/KNX-M-001.md)
 - [KNX-M-003 · USDC / EURC redemption structure](../sources/cards/KNX-M-003.md)
+- [HWX-A-004 · Exchange Traded Concepts Takes Client ETFs to the Abu Dhabi Securities Exchange](../sources/cards/HWX-A-004.md)
+- [HWX-A-006 · PLUS Korea Defense Industry Index ETF — Summary Prospectus, March 30, 2026](../sources/cards/HWX-A-006.md)
+- [HWX-A-007 · ADX welcomes listing of two Korean ETFs](../sources/cards/HWX-A-007.md)
+- [HWX-M-002 · QRIS Nobu: Solusi QRIS Terintegrasi untuk Pembayaran Digital](../sources/cards/HWX-M-002.md)
+- [HWX-M-004 · HealthPlus+ Business](../sources/cards/HWX-M-004.md)
+- [HWX-M-005 · Panduan Mobile JKN — Administrasi Kepesertaan JKN](../sources/cards/HWX-M-005.md)
 
 [전체 주제 지도](INDEX.md)

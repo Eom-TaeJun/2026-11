@@ -191,6 +191,38 @@ IP 상품은 신탁 가능한 특정 청구권, 장래매출채권, 공동사업
 
 한계: 정책 방향과 선택 예고 내용을 거래 설계에 적용한 해석이며 개별 IP 상품 적격성·최종 규칙·인가를 확인한 것은 아니다.
 
+### C-278 · hypothesis · active
+
+기존 방카 고객의 보장 확인·납입 유지·청구 안내를 개선하면 신규 판매 확대보다 먼저 반복 지원비용과 고객 오류를 줄일 수 있다.
+
+근거: [ST-HW-006](../sources/cards/ST-HW-006.md), [ST-HW-007](../sources/cards/ST-HW-007.md), [ST-HW-008](../sources/cards/ST-HW-008.md), [HWX-M-005](../sources/cards/HWX-M-005.md)
+
+한계: - 절감·유지율·유료 수요는 미관측.
+
+다른 설명: 보험료 부담·보장 범위가 문제라면 안내 자동화만으로 유지율이 개선되지 않는다.
+
+다음 관측: 약관 이해·서류 재작업·납입 실패·민원·유지율을 기존 방식과 비교
+
+### C-283 · unknown · active
+
+Nobu 고객구성·유료전환·보험료·보수율·LGI 신규채널계약·샤리아권한·신규사업ROI는 확인하지 않았다.
+
+근거: [ST-HW-007](../sources/cards/ST-HW-007.md), [ST-HW-008](../sources/cards/ST-HW-008.md), [HWX-M-002](../sources/cards/HWX-M-002.md), [HWX-M-004](../sources/cards/HWX-M-004.md)
+
+한계: - 미확인은 부재나 사업 실패의 증거가 아니다.
+
+### C-303 · hypothesis · active
+
+한화 산업계열의 에너지 운영 정보는 지급의무·계량·정산·담보·회수 권리가 확보될 때 금융계열의 구조화·운용 후보가 될 수 있다. 예상 발전량이나 기술 제휴 자체를 확정채권으로 토큰화해서는 안 된다.
+
+근거: [HWX-R-006](../sources/cards/HWX-R-006.md), [HWX-R-008](../sources/cards/HWX-R-008.md)
+
+한계: 실제 프로젝트·투자자·조건·계열거래 적격성이 미확인인 후순위 탐색 가설.
+
+다른 설명: 기존 은행 PF·사모대출·유동화가 더 낮은 자금조달비용 제공
+
+다음 관측: 실계약·계량 분쟁·현금 정산과 기존 금융 대비 비용·위험
+
 ## 관련 원문
 
 - [FIN-002 · What Is Needed for Tokenization to Deliver](../sources/cards/FIN-002.md)
@@ -228,5 +260,10 @@ IP 상품은 신탁 가능한 특정 청구권, 장래매출채권, 공동사업
 - [KYX-M-006 · 저작권법 제45조 — 저작재산권의 양도](../sources/cards/KYX-M-006.md)
 - [KYX-M-010 · 민법 제451조 — 승낙, 통지의 효과](../sources/cards/KYX-M-010.md)
 - [KYX-M-011 · 저작권법 제46조 — 저작물의 이용허락](../sources/cards/KYX-M-011.md)
+- [HWX-A-006 · PLUS Korea Defense Industry Index ETF — Summary Prospectus, March 30, 2026](../sources/cards/HWX-A-006.md)
+- [HWX-A-008 · Exchange Listed Funds Trust Form N-1A — KDEF Prospectus, Fund Management](../sources/cards/HWX-A-008.md)
+- [HWX-M-004 · HealthPlus+ Business](../sources/cards/HWX-M-004.md)
+- [HWX-M-005 · Panduan Mobile JKN — Administrasi Kepesertaan JKN](../sources/cards/HWX-M-005.md)
+- [HWX-R-006 · Qcells Expands Alliance with Microsoft to Explore New Approach for Adding Energy Capacity Alongside AI Infrastructure](../sources/cards/HWX-R-006.md)
 
 [전체 주제 지도](INDEX.md)

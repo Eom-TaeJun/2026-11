@@ -81,3 +81,9 @@ flowchart TD
 [미래전략 사업안](18_kyobo_future_strategy_business_plan.md) · [그룹 RWA 거래](19_kyobo_group_rwa_deal_design.md) · [외부 AI·현금 레일](20_kyobo_rails_agent_business.md) · [자본과 권한](21_kyobo_capital_and_permissions.md)
 
 온체인·AI의 추가 가치는 같은 업무의 기존+AI 대비 판단한다. 상품 조합이 많아질수록 원권리·지급자·우선순위·실제 수금의 연결이 중요해지고, 무료 비교·연결과 대형 IB의 가격 경쟁 때문에 절감 이익이 교보에 남지 않을 수도 있다.
+
+## 국가 수요 → 그룹 기능 → 실제 유료 업무
+
+인도네시아의 보장·납입·가맹점 수납·고용주 건강보험, UAE의 현지 상품 접근, 미국 기관의 거래 후 현금과 복구에서 한화 기회를 좁혔다. BNK는 지역 산업의 수금·설비·운전자금, 교보는 권리·정산과 장기 고객 목적을 같은 방식으로 검증한다. [한화 통합 사업안](22_hanwha_group_business_plan.md) · [그룹·국가 기회 지도](25_group_country_opportunity_discovery.md).
+
+국가 수요와 회사 자원 사이에는 접근가능 고객·상품권한·계약·현금·경쟁가격이 필요하다. 제도·AI·온체인 연결이 성립해도 인수·실사·유동성·복구의 비용과 책임이 남는다. 인가나 토큰 전송만으로 반복 수익을 추론하지 않는다.

@@ -2,11 +2,12 @@
 
 [원문](https://www.vritimes.com/id/articles/0102dc5b-2305-11ef-a2ea-0a58a9feac02/44a863aa-977e-47c4-bf38-fb546ca5a744) · Bittime 보도자료 / Vritimes 배포
 
-발행일: 2026-05-21 · 확인일: 2026-11-02
+발행일: 2026-05-21 · 확인일: 2026-11-03
 
 읽기 상태: **selected_sections**
 
-읽은 위치: 제휴 소개 및 Bittime 플랫폼에 Nobu 가상계좌 연동이 이용 가능하다는 본문
+읽은 위치: - 제휴 소개 및 Bittime 플랫폼에 Nobu 가상계좌 연동이 이용 가능하다는 본문
+- Bittime 배포 본문 L23–42: Nobu VA 제공·플랫폼의 IDR/USDT 교환 홍보와 역할 재열람
 
 ## 자료의 핵심 내용
 
@@ -26,5 +27,7 @@ Bittime은 Nobu 가상계좌 연동이 자사 플랫폼에서 이용 가능하�
 
 - **C-043 / institution_statement / active**: Bittime은 2026-05 Nobu 가상계좌 이용 가능과 9월 결제망 정비에 따른 일시중단·대체 경로를 발표했다.
 - **C-149 / interpretation / active**: Nobu–Bittime의 은행 가상계좌 연결을 지급 스테이블코인 발행 또는 인니 내 가상화폐 일반 지급 허용으로 해석할 수 없다.
+- **C-274 / fact / active**: Bittime는 Nobu VA 제공을 발표하고 IDR→USDT 교환을 홍보한다. 이는 은행 입금 접점과 플랫폼 업무의 연결이다.
+- **C-279 / hypothesis / active**: Nobu 가맹점의 IDR 수납 대사와 운영자금 가시성은 보험 외 유료 업무 후보이며 기존 API+AI가 우선 비교 기준이다.
 
 [전체 자료 목록](../README.md)
