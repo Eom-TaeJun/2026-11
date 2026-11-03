@@ -324,6 +324,14 @@ AI 기반 비교·자금배분이 보편화되면 고객의 유휴 잔액과 은
 
 다음 관측: 회사·발행자·감독기관의 당사자·권한·계약·실적 공식 공개
 
+### C-181 · unknown · active
+
+경남은행의 외부 디지털자산 통합조회·수탁·처분·환매·담보 서비스 권한, 개별 기업의 보유 적격성, 실제 제휴·견적·반복 사용은 이번 조사에서 확인하지 않았다.
+
+근거: [ST-KN-002](../sources/cards/ST-KN-002.md), [SRC-BOK-HANGANG](../sources/cards/SRC-BOK-HANGANG.md), [FIN-011](../sources/cards/FIN-011.md)
+
+한계: 미확인은 부재·금지 판정이 아니다. 기존 fERP·한강 설명을 포괄 디지털자산 권한으로 전용하지 않는다.
+
 ## 관련 원문
 
 - [KYO-GEO-001 · Kyobo Life Insurance Group and Japan’s SBI Group ink strategic partnership](../sources/cards/KYO-GEO-001.md)

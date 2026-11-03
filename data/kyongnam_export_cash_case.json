@@ -1,0 +1,35 @@
+{
+  "case_id": "KN-EXPORT-ILLUSTRATION-01",
+  "classification": "hypothetical_arithmetic_not_customer_data_or_product_quote",
+  "as_of": "2026-11-03",
+  "customer": "가상 경남 제조 수출기업. 실제 고객·가격·수익률·실험을 나타내지 않음",
+  "day_convention": "D30 등은 설명용 상대 시점. 실제 영업일·시간대·휴일 계산을 대체하지 않음",
+  "inputs": {
+    "starting_krw_cash": "200000000",
+    "starting_usd_bank_cash": "100000",
+    "export_receipt_usd": "1000000",
+    "receipt_day": 30,
+    "fx_krw_per_usd": "1400",
+    "minimum_krw_buffer": "100000000",
+    "krw_obligations": [{"day": 32, "amount": "700000000", "purpose": "국내 매입대금"}, {"day": 35, "amount": "300000000", "purpose": "급여 등"}],
+    "usd_obligations": [{"day": 40, "amount": "250000", "purpose": "수입 원재료 대금"}]
+  },
+  "scenario_assumptions": [
+    {"id": "BANK", "description": "수출대금 D30 은행 달러 수취. 필요 원화와 달러 지급분을 먼저 확보", "available_usd_before_day32": "1100000", "delayed_asset_usd_face": "0", "release_day": null},
+    {"id": "STABLECOIN-DELAY", "description": "같은 수출대금 전액을 적법한 달러 토큰으로 받았으나 은행현금 전환은 D37까지 불가. 기존 은행 달러만 사용", "available_usd_before_day32": "100000", "delayed_asset_usd_face": "1000000", "release_day": 37},
+    {"id": "FUND-DELAY", "description": "은행 수취 후 USD700000을 펀드 지분에 배분했으나 환매 현금은 D37까지 불가. 토큰화·비토큰화 모두 같은 조건이면 결과 동일", "available_usd_before_day32": "400000", "delayed_asset_usd_face": "700000", "release_day": 37}
+  ],
+  "zero_cost_simplification": "오직 현금 시점과 자산 형태의 차이를 분리하기 위해 수수료·이자·세금·가격변동을 0으로 놓은 산술이다. 실제 서비스 비용 0이라는 관측이 아니며 손익·상품 추천에 사용할 수 없다.",
+  "further_limits": [
+    "가용 USD는 실제 환전·입금이 지급 전에 가능하다고 가정. 이미 담보·결제에 묶인 돈은 없음",
+    "KRW 버퍼 1억원은 설명용 회사 정책이며 감독 기준·최적 보유액이 아님",
+    "D37 자산은 정상가로 전액 현금화된다고 가정. 디페그·환매중단·부도는 별도 스트레스",
+    "부족액은 대출 실행 약정이 아니다. 확약한도·조건·통화·가용시점·담보·심사가 충족돼야 조달 가능",
+    "남는 금액은 이 사례의 의무만 차감한 상한이며 실제 투자 가능액·위험허용액·최적 포트폴리오가 아님",
+    "수출대금의 가상자산 수취·보유·처분 및 은행 역할에 필요한 규제·인가·계약이 갖춰졌다는 미래 가정"
+  ],
+  "actual_fees": null,
+  "actual_credit_limit": null,
+  "actual_bank_profit": null,
+  "actual_trial_performed": false
+}

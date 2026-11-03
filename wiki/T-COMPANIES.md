@@ -410,6 +410,202 @@ MVB–Velocity–Visa Direct 발표는 velocity.xyz 당사자 자료여서 한�
 
 다음 관측: 회사·발행자·감독기관의 당사자·권한·계약·실적 공식 공개
 
+### C-156 · institution_statement · active
+
+경남은행은 수출용 원자재 구매·생산 등의 무역금융과 선적 후 수출환어음매입을 각각 안내한다.
+
+근거: [KNX-S-001](../sources/cards/KNX-S-001.md), [KNX-S-002](../sources/cards/KNX-S-002.md)
+
+한계: 공개 안내 기능이며 개별 승인·가격·현재 처리실적은 확인하지 않았다.
+
+### C-157 · institution_statement · active
+
+경남은행 수출환어음매입 안내는 서류심사 후 선지급과 미입금·미인수 등의 수출자 회수 절차를 명시한다.
+
+근거: [KNX-S-001](../sources/cards/KNX-S-001.md)
+
+한계: 선지급을 최종 매출 확정이나 모든 위험의 은행 이전·무소구 매입으로 읽지 않는다.
+
+### C-158 · institution_statement · active
+
+경남은행은 EDI 문서 교환과 KTNET PTB를 통한 인터넷뱅킹 연계 전자무역을 안내한다.
+
+근거: [KNX-S-003](../sources/cards/KNX-S-003.md), [KNX-S-004](../sources/cards/KNX-S-004.md)
+
+한계: 신용장·여신의 일괄 자동승인이나 실제 고객의 모든 문서 업무 완결성을 확인한 것은 아니다.
+
+### C-159 · institution_statement · active
+
+경남은행 fERP는 기업뱅킹과 여러 은행 계좌·자금·생산재고·회계 기능의 연결을 안내한다.
+
+근거: [ST-KN-002](../sources/cards/ST-KN-002.md)
+
+한계: 현재 고객별 구축·연계 수준과 무역금융 신청 완료 여부는 미확인.
+
+### C-160 · institution_statement · active
+
+경남은행의 외화예금 안내는 법인 개설과 동일 계좌의 여러 통화 운용, 외화의 해외송금 이용을 설명한다.
+
+근거: [KNX-S-005](../sources/cards/KNX-S-005.md)
+
+한계: 법인별 상품·이용시간·비용 확인이 필요하며 외화 보유만으로 환위험이 사라지지 않는다.
+
+### C-161 · institution_statement · active
+
+경남은행 이종통화송금 안내는 법인 무역대금의 달러 중개와 현지통화 수취, 현지 서류에 따른 지연 가능성을 설명한다.
+
+근거: [KNX-S-006](../sources/cards/KNX-S-006.md)
+
+한계: 무일자 안내이므로 특정 국가·통화·결제은행의 현재 실행 가능성과 처리시간은 확정하지 않는다.
+
+### C-162 · institution_statement · active
+
+K-SURE와 경남은행은 은행 출연금 5억원을 바탕으로 동남권 수출 중소·중견기업 우대금융 78억원 공급 프로그램을 발표했다.
+
+근거: [KN-003](../sources/cards/KN-003.md)
+
+한계: 78억원은 실제 집행액이나 은행 수익이 아니다. 프로그램의 특례와 일반 보증 조건을 별도로 관리해야 한다.
+
+### C-163 · institution_statement · active
+
+IBK e-branch는 ERP 연계와 L/C·B/L, 미인수·미입금, 무역금융 한도·EDI 등 자금·외환 업무를 안내한다.
+
+근거: [KNX-S-007](../sources/cards/KNX-S-007.md)
+
+한계: 광고된 선택 기능이며 개별 계약·사용·성과 검증이 아니다.
+
+### C-164 · institution_statement · active
+
+KB Cyber Branch는 자금관리·외환/수출입과 관리자 결재단계 설정을 안내하고 ERP 가능 항목을 별표로 구분한다.
+
+근거: [ST-KN-005](../sources/cards/ST-KN-005.md)
+
+한계: 외환/수출입의 모든 메뉴가 ERP 연계 가능하다는 뜻은 아니다.
+
+### C-165 · interpretation · active
+
+통합조회·전자문서·은행 연결의 존재 자체는 경남은행의 신규 차별점으로 삼기 어렵다. 고객별 미완료 단계와 운영 책임의 차이를 먼저 확인해야 한다.
+
+근거: [ST-KN-002](../sources/cards/ST-KN-002.md), [KNX-S-003](../sources/cards/KNX-S-003.md), [KNX-S-004](../sources/cards/KNX-S-004.md), [KNX-S-007](../sources/cards/KNX-S-007.md), [ST-KN-005](../sources/cards/ST-KN-005.md)
+
+한계: 제공 기능 비교에서 도출한 분석이며 경남은행이 경쟁사보다 느리거나 불완전하다는 실측은 없다.
+
+### C-166 · hypothesis · active
+
+기존 fERP/PTB/EDI를 활용해 수출 건별 증빙·입금·보증·여신 신청의 상태를 연결하고 예외를 담당자에게 보내면 고객의 반복 제출과 자금공백을 줄일 수 있다.
+
+근거: [KNX-S-001](../sources/cards/KNX-S-001.md), [KNX-S-002](../sources/cards/KNX-S-002.md), [KNX-S-003](../sources/cards/KNX-S-003.md), [KNX-S-004](../sources/cards/KNX-S-004.md), [ST-KN-002](../sources/cards/ST-KN-002.md), [KN-003](../sources/cards/KN-003.md)
+
+한계: 분석자의 사업 후보이며 경남은행의 실행 계획·이미 확보한 수요가 아니다.
+
+다른 설명: 기존 기능의 설정·고객 교육만으로 해결되거나 거래량이 적어 추가 연동비가 편익보다 클 수 있다. 지연의 핵심이 구매자의 검수·지급 거절이면 서류 자동화가 해결하지 못한다.
+
+다음 관측: 고객 동의 아래 실제 수출 거래 표본의 담당자별 작업·재제출·대기 원인을 기록하고 기존 도구 설정 개선과 추가 연동을 비교한다.
+
+### C-167 · hypothesis · active
+
+외화 수취·지급 일정과 여신 만기를 함께 관리하면 불필요한 왕복 환전과 단기 차입을 줄일 여지가 있다.
+
+근거: [KNX-S-001](../sources/cards/KNX-S-001.md), [KNX-S-002](../sources/cards/KNX-S-002.md), [KNX-S-005](../sources/cards/KNX-S-005.md), [ST-KN-002](../sources/cards/ST-KN-002.md)
+
+한계: 동일 통화·일정·유동성 제약에 좌우된다. 특정 헤지상품 판매나 자동 상계 권한을 확인한 주장이 아니다.
+
+다른 설명: 지급 통화나 기일이 다르고 고객이 원화 급여·세금 지급을 우선하면 외화 보유가 오히려 비용·순환위험을 높인다.
+
+다음 관측: 통화별 확정·예상 입출금, 원화 필수지출, 환전 횟수·가격, 일별 실제 차입과 예치 잔액을 함께 비교한다.
+
+### C-168 · hypothesis · active
+
+대체 결제망은 고객의 기존 은행 접점을 유지하면서 특정 구간의 최종 가용자금 도달시간 또는 총비용을 개선할 때 후속 실험할 가치가 있다.
+
+근거: [KNX-S-006](../sources/cards/KNX-S-006.md), [ST-KN-005](../sources/cards/ST-KN-005.md), [KNX-S-007](../sources/cards/KNX-S-007.md)
+
+한계: 경남은행의 스테이블코인 제공·채택이나 이점이 이미 확인된 것은 아니다. 이 자료 묶음은 규제·해외 파트너 허가 검토를 대체하지 않는다.
+
+다른 설명: 기존 중개은행 개선·은행 API가 충분하거나 사전조달·환전·준법·현지 환매 비용이 중간 전송 절감보다 커질 수 있다.
+
+다음 관측: 동일 통화·금액·수취 방식의 실행 가능한 견적을 받아 지급인 출금부터 수취인 은행의 사용 가능 잔액까지 시간·차감액·예외·회수 절차를 비교한다.
+
+### C-169 · unknown · active
+
+현재 공개 자료로는 경남은행 수출기업의 실제 재제출률·대사 인시·일평균 외화 잔액·활성 fERP/PTB 비중·건별 순기여와 K-SURE 전자연계의 최신 운영 상태를 확정할 수 없다.
+
+근거: [ST-KN-002](../sources/cards/ST-KN-002.md), [KNX-S-001](../sources/cards/KNX-S-001.md), [KNX-S-004](../sources/cards/KNX-S-004.md), [KN-003](../sources/cards/KN-003.md)
+
+한계: 자료에 수치가 없다는 것이 기능 또는 고객 수요가 없다는 증거는 아니다.
+
+### C-175 · hypothesis · active
+
+고객이 선택한 외부 자산까지 연결하되 통화·기한별 지급 가능성과 권한을 관리하면 은행 예금 밖 자산이 늘어도 경남은행이 기업 자금관리의 접점으로 남을 수 있다.
+
+근거: [ST-KN-002](../sources/cards/ST-KN-002.md), [KNX-M-001](../sources/cards/KNX-M-001.md), [KNX-M-003](../sources/cards/KNX-M-003.md), [ST-TD-007](../sources/cards/ST-TD-007.md)
+
+한계: 현행 서비스가 아닌 조건부 확장 설계다. 데이터 접근·업무별 허용과 고객 선택이 전제다.
+
+다른 설명: ERP·대형은행·독립 플랫폼이 같은 기능을 더 낮은 총비용으로 제공하거나 고객이 정보 공유를 원하지 않으면 별도 은행 서비스가 선택되지 않을 수 있다.
+
+다음 관측: 동의 기반 연결률·급여/거래 지급 완료·반복 이용·고객 지불 의사와 경쟁 견적
+
+### C-180 · hypothesis · active
+
+고객의 유휴 예금을 줄이는 자금관리 서비스는 고객 편익을 높이면서 경남은행의 조달 기여를 줄일 수 있다. 서비스·FX·대출·예금의 기여와 파트너 비용을 동일 기준의 순증감으로 계산하여 예금 잠식·조달비·내부 FTP를 중복 반영하지 않아야 한다.
+
+근거: [FIN-001](../sources/cards/FIN-001.md), [SRC-CIRCLE-USDC-TERMS](../sources/cards/SRC-CIRCLE-USDC-TERMS.md), [ST-KN-002](../sources/cards/ST-KN-002.md), [KNX-M-003](../sources/cards/KNX-M-003.md)
+
+한계: 경남은행에서 실제 발생한 예금 유출·수입 또는 인과 추정치가 아니다.
+
+다른 설명: 신뢰할 수 있는 현금·신용 연결이 새 거래를 유치해 운영계좌·FX·대출 관계가 커질 수 있으며 반대로 보수 경쟁으로 비용 회수가 어려울 수 있다.
+
+다음 관측: 같은 고객군의 평균 잔액·실효 조달비·유료 완료업무·파트너 배분·기대손실·자본비 후 증분 기여
+
+### C-181 · unknown · active
+
+경남은행의 외부 디지털자산 통합조회·수탁·처분·환매·담보 서비스 권한, 개별 기업의 보유 적격성, 실제 제휴·견적·반복 사용은 이번 조사에서 확인하지 않았다.
+
+근거: [ST-KN-002](../sources/cards/ST-KN-002.md), [SRC-BOK-HANGANG](../sources/cards/SRC-BOK-HANGANG.md), [FIN-011](../sources/cards/FIN-011.md)
+
+한계: 미확인은 부재·금지 판정이 아니다. 기존 fERP·한강 설명을 포괄 디지털자산 권한으로 전용하지 않는다.
+
+### C-197 · institution_statement · active
+
+K-SURE 포괄매입 안내는 수입자 미결제와 별개로 수출자의 최종 대출 상환 책임과 90% 이내 보증을 설명한다.
+
+근거: [KNX-R-001](../sources/cards/KNX-R-001.md)
+
+한계: 공식 안내의 범위이며 개별 거래 약관·한도·보증 실행은 확인하지 않음
+
+### C-198 · hypothesis · active
+
+경남은행은 이미 제공하는 기업금융 기능에 기관간 서류·승인·보증 진행 상태를 연결해 고객의 완료 업무를 늘릴 수 있다.
+
+근거: [KNX-R-002](../sources/cards/KNX-R-002.md), [ST-KN-002](../sources/cards/ST-KN-002.md), [KN-003](../sources/cards/KN-003.md)
+
+한계: 서면 명단만으로 현재 경남의 미연계를 확정하지 않으며 실제 병목·절감은 검증 전
+
+다른 설명: 고객의 주요 지연은 서류 연결이 아니라 심사·실물거래·수입자 분쟁이며 기존 기능만으로도 충분
+
+다음 관측: 같은 실제 수출거래의 재입력·재제출·기관 대기·최종 승인까지 걸린 시간과 비용
+
+### C-199 · interpretation · active
+
+동일한 명목 자산가치를 보유해도 필요한 통화의 은행현금 전환이 늦으면 지급기일의 자금 부족이 발생한다.
+
+근거: [SRC-CIRCLE-USDC-TERMS](../sources/cards/SRC-CIRCLE-USDC-TERMS.md), [NOV-M07](../sources/cards/NOV-M07.md)
+
+한계: 가상 예시는 별도 명시 가정의 산술이며 실제 고객 부족액·서비스 비용·경남 대출 승인 또는 상품 추천이 아님
+
+### C-200 · hypothesis · active
+
+고객이 예금 밖 자산을 보유해도 경남은행이 자금계획·외환·적정 신용·복구의 접점으로 선택되면 관계 기여를 유지할 수 있다.
+
+근거: [ST-KN-002](../sources/cards/ST-KN-002.md), [ST-KN-001](../sources/cards/ST-KN-001.md), [ST-TD-005](../sources/cards/ST-TD-005.md)
+
+한계: 외부자산 조회가 보관·자문·처분·대출 권한을 뜻하지 않으며 실제 유료 수요·이익은 미확인
+
+다른 설명: 외부 ERP/AI가 고객 접점을 가지고 은행을 가격으로 비교하거나 관리 수익보다 예금 조달 손실·제휴비가 큼
+
+다음 관측: 외부자산 보유 고객의 통화별 지급 실패·유료 재이용·평잔·FTP 기여·제휴 및 운영비 후 증분 관계 기여
+
 ## 관련 원문
 
 - [FIN-007 · 토큰증권 정책방향 발표- 민·관 합동 토큰증권 협의체 3차회의 개최](../sources/cards/FIN-007.md)
@@ -469,5 +665,14 @@ MVB–Velocity–Visa Direct 발표는 velocity.xyz 당사자 자료여서 한�
 - [ST-KY-005 · NH투자증권㈜에 대한 종합금융투자사업자(8조원) 지정](../sources/cards/ST-KY-005.md)
 - [ST-KY-006 · 교보생명, SBI홀딩스·서클·비댁스와 디지털 금융 협력 확대 논의](../sources/cards/ST-KY-006.md)
 - [ST-KY-007 · 교보문고 출판 — 사업소개](../sources/cards/ST-KY-007.md)
+- [KNX-S-001 · 수출환어음매입](../sources/cards/KNX-S-001.md)
+- [KNX-S-002 · 무역금융업무안내](../sources/cards/KNX-S-002.md)
+- [KNX-S-003 · EDI업무안내](../sources/cards/KNX-S-003.md)
+- [KNX-S-004 · 전자무역서비스(PTB서비스)](../sources/cards/KNX-S-004.md)
+- [KNX-S-005 · 외화예금안내](../sources/cards/KNX-S-005.md)
+- [KNX-S-006 · 이종통화송금서비스](../sources/cards/KNX-S-006.md)
+- [KNX-S-007 · e-branch 상품안내](../sources/cards/KNX-S-007.md)
+- [KNX-R-001 · 수출신용보증(포괄매입) 제도개요](../sources/cards/KNX-R-001.md)
+- [KNX-R-002 · 수출신용보증(포괄매입) 이용절차](../sources/cards/KNX-R-002.md)
 
 [전체 주제 지도](INDEX.md)

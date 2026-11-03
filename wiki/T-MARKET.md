@@ -132,6 +132,38 @@ AI가 상품을 비교할수록 공시·가격·자격·환매·실행·복구 �
 
 다음 관측: 실제 고객 문제·견적·재계약, 완료 업무당 총비용, 사고 책임·복구비, 대체 공급자 비교
 
+### C-171 · fact · active
+
+Circle의 2026-10-19 이후 공개 환매 구조는 처리시간과 은행결제 시간을 나누며 Standard와 Express 요금을 구분한다.
+
+근거: [KNX-M-003](../sources/cards/KNX-M-003.md), [KNX-M-004](../sources/cards/KNX-M-004.md)
+
+한계: 별도 서면계약·기존 고객 적용 청구기간·지연 사유가 있다. 공개 5bp는 고객의 최종 총비용이 아니다.
+
+### C-177 · hypothesis · active
+
+허가·계약·현금 연결이 충족된 미래에는 자산 매각·환매·담보차입·기존 신용을 비교해 지급 의무를 완수하는 서비스에 대가를 받을 수 있다.
+
+근거: [KNX-M-001](../sources/cards/KNX-M-001.md), [KNX-M-003](../sources/cards/KNX-M-003.md), [KNX-M-005](../sources/cards/KNX-M-005.md), [KNX-M-006](../sources/cards/KNX-M-006.md)
+
+한계: 어떤 토큰도 자동 담보 인정하지 않는다. 실제 대주·가격·한도·처분권·고객 지급 의사가 필요하다.
+
+다른 설명: 현금화 비용·마진콜·자본 부담이 높으면 기존 신용·예금·계좌 API가 더 유리하며 추가 온체인 연결은 비용이 될 수 있다.
+
+다음 관측: 같은 통화·시한·위험에서 실제 견적, 순수취 현금, 총비용, 스트레스 자금과 대체 경로
+
+### C-180 · hypothesis · active
+
+고객의 유휴 예금을 줄이는 자금관리 서비스는 고객 편익을 높이면서 경남은행의 조달 기여를 줄일 수 있다. 서비스·FX·대출·예금의 기여와 파트너 비용을 동일 기준의 순증감으로 계산하여 예금 잠식·조달비·내부 FTP를 중복 반영하지 않아야 한다.
+
+근거: [FIN-001](../sources/cards/FIN-001.md), [SRC-CIRCLE-USDC-TERMS](../sources/cards/SRC-CIRCLE-USDC-TERMS.md), [ST-KN-002](../sources/cards/ST-KN-002.md), [KNX-M-003](../sources/cards/KNX-M-003.md)
+
+한계: 경남은행에서 실제 발생한 예금 유출·수입 또는 인과 추정치가 아니다.
+
+다른 설명: 신뢰할 수 있는 현금·신용 연결이 새 거래를 유치해 운영계좌·FX·대출 관계가 커질 수 있으며 반대로 보수 경쟁으로 비용 회수가 어려울 수 있다.
+
+다음 관측: 같은 고객군의 평균 잔액·실효 조달비·유료 완료업무·파트너 배분·기대손실·자본비 후 증분 기여
+
 ## 관련 원문
 
 - [FIN-002 · What Is Needed for Tokenization to Deliver](../sources/cards/FIN-002.md)
@@ -160,5 +192,7 @@ AI가 상품을 비교할수록 공시·가격·자격·환매·실행·복구 �
 - [ST-HW-008 · Siaran Pers Bersama: Indeks Literasi dan Inklusi Keuangan Masyarakat Meningkat, OJK, LPS, dan BPS Umumkan Hasil Survei Nasional Literasi dan Inklusi Keuangan (SNLIK) Tahun 2026](../sources/cards/ST-HW-008.md)
 - [ST-HW-009 · Asuransi / Bancassurance](../sources/cards/ST-HW-009.md)
 - [ST-TD-003 · The Future of Financial Markets — Module 01 Infinite Assets](../sources/cards/ST-TD-003.md)
+- [KNX-M-001 · Franklin OnChain U.S. Government Money Fund — Prospectus August 1, 2026](../sources/cards/KNX-M-001.md)
+- [KNX-M-003 · USDC / EURC redemption structure](../sources/cards/KNX-M-003.md)
 
 [전체 주제 지도](INDEX.md)

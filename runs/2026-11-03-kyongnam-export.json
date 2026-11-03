@@ -1,0 +1,162 @@
+{
+  "run_id": "2026-11-03-kyongnam-export",
+  "as_of": "2026-11-03",
+  "prior_repository_head": "51596f3c511b10a5b80373758073e1c0522ee35d",
+  "purpose": "STR-KN-01을 지역 수출기업의 수금·지급·외환·운전자금과 예금 밖 다자산 관리의 본사 사업안으로 구체화",
+  "execution": {
+    "logical_roles": 8,
+    "concurrent_workers_including_coordinator": 4,
+    "assignments": [
+      "총괄: 기존 자료 연결·K-SURE 추가 원문·통합 사업안·설명용 현금 산술·병합·게시 확인",
+      "source_design: 경남은행 기존 상품·전자무역·KB/IBK 기준선·사업안 독립 검토",
+      "mechanism_design: 외부자산 권리·환매·현금·고객 위임·현금 사례 독립 검산",
+      "validation_design: 선택 법조문·현재/미래 허용 경계·경제 메커니즘·기여식·계산 코드 검토"
+    ],
+    "customer_trial_performed": false,
+    "transactions_executed": false,
+    "scheduled_monitoring_enabled": false
+  },
+  "source_coverage": {
+    "new_sources": 24,
+    "updated_existing_sources": 3,
+    "new_source_ids": [
+      "KNX-S-001",
+      "KNX-S-002",
+      "KNX-S-003",
+      "KNX-S-004",
+      "KNX-S-005",
+      "KNX-S-006",
+      "KNX-S-007",
+      "KNX-M-001",
+      "KNX-M-002",
+      "KNX-M-003",
+      "KNX-M-004",
+      "KNX-M-005",
+      "KNX-M-006",
+      "KNX-V-001",
+      "KNX-V-002",
+      "KNX-V-003",
+      "KNX-V-004",
+      "KNX-V-005",
+      "KNX-V-006",
+      "KNX-V-007",
+      "KNX-V-008",
+      "KNX-V-009",
+      "KNX-R-001",
+      "KNX-R-002"
+    ],
+    "updated_source_ids": [
+      "ST-KN-002",
+      "KN-003",
+      "ST-KN-005"
+    ],
+    "existing_context_reuse": "기존 원장·보고서·기록은 연결과 해석에 재사용. 단순 재사용을 원문 재확인으로 세지 않음.",
+    "meaning": "공식 상품 설명·선택 보고서 절·선택 법조문·공식 발표의 읽은 범위. 모든 문서 전문·실제 서비스 성과 감사가 아님.",
+    "new_claims": 45,
+    "claim_ids": [
+      "C-156",
+      "C-157",
+      "C-158",
+      "C-159",
+      "C-160",
+      "C-161",
+      "C-162",
+      "C-163",
+      "C-164",
+      "C-165",
+      "C-166",
+      "C-167",
+      "C-168",
+      "C-169",
+      "C-170",
+      "C-171",
+      "C-172",
+      "C-173",
+      "C-174",
+      "C-175",
+      "C-176",
+      "C-177",
+      "C-178",
+      "C-179",
+      "C-180",
+      "C-181",
+      "C-182",
+      "C-183",
+      "C-184",
+      "C-185",
+      "C-186",
+      "C-187",
+      "C-188",
+      "C-189",
+      "C-190",
+      "C-191",
+      "C-192",
+      "C-193",
+      "C-194",
+      "C-195",
+      "C-196",
+      "C-197",
+      "C-198",
+      "C-199",
+      "C-200"
+    ]
+  },
+  "registries_after": {
+    "sources": 196,
+    "claims": 200,
+    "topics": 14,
+    "strategy_decisions_unchanged_count": 12
+  },
+  "independent_review": {
+    "source_reviewer": "보고서16의 기존 은행 기능·경쟁·보증·기관 발표 해석과 고객 접점 검토",
+    "professor_style_reviewer": "보고서16의 미래 가정·지급자·예금 잠식·FTP·경쟁·반증과 산술 코드 검토. 특정 교수 견해를 대리하지 않음.",
+    "multiasset_reviewer": "보고서17의 상품 계약·7~8절 현금 계산·법적 미확인 경계와 보고서16 연결 검토",
+    "root_primary_spotchecks": [
+      "Circle 2026-10-19 환매 구조·요금·CPN 예외",
+      "K-SURE 포괄매입의 소구·90% 한도·전자보증 안내 범위"
+    ],
+    "corrections_resolved": [
+      "증분 기여에 외환·지급 순기여 명시, 외부 비용·FTP·예금 잠식 중복 차단",
+      "미인출 잔여한도만 별도 신용 여력에 포함하고 이미 차감한 보류액 재차감 방지",
+      "설명용 계산에서 원화 지급 후 수금·달러 지급 후 지연자산 현금화 입력을 거부",
+      "Circle Mint Express 기본요율과 CPN 활동 예외·별도 가격 구분"
+    ],
+    "scope_limit": "선택 검토이며 모든 법률·계약·출처·실운영의 독립 감사가 아님"
+  },
+  "validation": {
+    "status": "local_passed_remote_pending",
+    "required_build": "passed",
+    "registry_and_local_links": "passed",
+    "unit_tests": "15 passed (9 existing and 6 cash-case checks)",
+    "supplemental": {
+      "status": "passed",
+      "sources": 196,
+      "claims": 200,
+      "strategy_decisions": 12,
+      "workflow_steps": 8,
+      "asset_states": 8,
+      "touchpoints": 5,
+      "unknown_metrics_preserved": 13,
+      "calculation_output_matches": true,
+      "baseline_paths_preserved": 254,
+      "current_file_count": 287,
+      "known_private_path_and_credential_pattern_scan": "passed"
+    },
+    "remote_verification": "게시 후 tree/blob 해시·주요 파일 재독·브랜치 상태로 별도 확인. 이 내용 커밋은 자신의 미래 게시 완료를 주장하지 않음."
+  },
+  "limits": [
+    "일반 수출법인의 디지털자산 수취·보유·매매와 경남은행 개별 업무의 11월 최종 허용조건 미확인",
+    "고객·요율·활성 이용·내부 원가·FTP·파트너 계약·실제 자금화 지연·반복 사용·ROI 미확인",
+    "무일자 은행·K-SURE 안내의 현재 개별 조건·전자연계 상태와 회랑 가용성은 추가 확인",
+    "설명용 금액·시점·환율·버퍼는 가정. 비용·이자·세금 0은 현금 시점만 분리하려는 가정",
+    "실제 자금관리 엔진·신용 승인·가격 견적·거래 실행·온체인 연결은 구현하지 않음",
+    "국가별 규제 원장과 다른 두 기관 전략은 전수 최신화하지 않음"
+  ],
+  "outputs": [
+    "reports/16_kyongnam_export_treasury_business_plan.md",
+    "reports/17_kyongnam_multiasset_cash_case.md",
+    "data/kyongnam_export_business_plan.json",
+    "data/kyongnam_export_cash_case.json",
+    "data/kyongnam_export_cash_case_results.json"
+  ]
+}

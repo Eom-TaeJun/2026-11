@@ -106,6 +106,14 @@ AI가 상품을 비교할수록 공시·가격·자격·환매·실행·복구 �
 
 다음 관측: 외부 에이전트의 실제 선택·완료 업무·재계약, 요율 하락과 파트너 배분을 반영한 순기여
 
+### C-179 · interpretation · active
+
+AI는 증빙·조건·대안과 예외를 제안하고, 통화·잔액·달력·비용·한도·권한·중복 차단 계산과 집행 여부는 검증 가능한 규칙이 담당해야 한다.
+
+근거: [ST-TD-007](../sources/cards/ST-TD-007.md), [KNX-M-001](../sources/cards/KNX-M-001.md)
+
+한계: 저자 연구와 상품의 기관 승인 절차를 참고한 설계이며 안전성 인증·법정 요건의 완전 목록은 아니다.
+
 ## 관련 원문
 
 - [AI-001 · NousResearch/hermes-agent — README and releases](../sources/cards/AI-001.md)

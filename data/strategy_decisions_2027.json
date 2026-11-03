@@ -20,11 +20,24 @@
       "source_ids": [
         "ST-KN-001",
         "ST-KN-002",
-        "KN-003"
+        "KN-003",
+        "KNX-S-001",
+        "KNX-S-003",
+        "KNX-S-004",
+        "KNX-S-007",
+        "KNX-M-001",
+        "KNX-M-003",
+        "KNX-V-003",
+        "KNX-R-001"
       ],
       "claim_ids": [
         "C-121",
-        "C-124"
+        "C-124",
+        "C-175",
+        "C-180",
+        "C-193",
+        "C-196",
+        "C-199"
       ],
       "required_assumptions": [
         "해당 법인·업무·고객의 허용과 계약",
@@ -39,7 +52,20 @@
       "baseline_metrics": null,
       "budget": null,
       "measured_net_profit": null,
-      "actual_customer_trial_performed": false
+      "actual_customer_trial_performed": false,
+      "refinement": {
+        "as_of": "2026-11-03",
+        "case_id": "KN-EXPORT-BP-01",
+        "customer_task": "지역 수출기업의 수금·지급·외환·운전자금과 예금 밖 자산의 기한별 가용성 관리",
+        "reports": [
+          "reports/16_kyongnam_export_treasury_business_plan.md",
+          "reports/17_kyongnam_multiasset_cash_case.md"
+        ],
+        "record": "data/kyongnam_export_business_plan.json",
+        "example": "data/kyongnam_export_cash_case.json",
+        "next_observation": "현재 fERP/전자무역의 단계별 완료·오류·현금 도착과 고객별 실제 계약·원가·외부자산 접근 권한",
+        "status": "public_evidence_and_design_only_no_customer_trial"
+      }
     },
     {
       "id": "STR-KN-02",

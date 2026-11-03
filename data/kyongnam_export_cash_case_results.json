@@ -1,0 +1,59 @@
+{
+  "case_id": "KN-EXPORT-ILLUSTRATION-01",
+  "classification": "hypothetical_arithmetic_not_customer_data_or_product_quote",
+  "fx_is_assumption": true,
+  "usd_needed_for_krw_payments_and_buffer": "642857.14",
+  "usd_reserved_for_import": "250000.00",
+  "remaining_usd_after_listed_obligations_and_buffer": "207142.86",
+  "scenarios": [
+    {
+      "id": "BANK",
+      "schedule": [
+        {
+          "day": 32,
+          "cumulative_krw_need_including_buffer": "800000000.00",
+          "minimum_cumulative_bridge_krw": "0.00"
+        },
+        {
+          "day": 35,
+          "cumulative_krw_need_including_buffer": "1100000000.00",
+          "minimum_cumulative_bridge_krw": "0.00"
+        }
+      ],
+      "peak_bridge_krw": "0.00"
+    },
+    {
+      "id": "STABLECOIN-DELAY",
+      "schedule": [
+        {
+          "day": 32,
+          "cumulative_krw_need_including_buffer": "800000000.00",
+          "minimum_cumulative_bridge_krw": "460000000.00"
+        },
+        {
+          "day": 35,
+          "cumulative_krw_need_including_buffer": "1100000000.00",
+          "minimum_cumulative_bridge_krw": "760000000.00"
+        }
+      ],
+      "peak_bridge_krw": "760000000.00"
+    },
+    {
+      "id": "FUND-DELAY",
+      "schedule": [
+        {
+          "day": 32,
+          "cumulative_krw_need_including_buffer": "800000000.00",
+          "minimum_cumulative_bridge_krw": "40000000.00"
+        },
+        {
+          "day": 35,
+          "cumulative_krw_need_including_buffer": "1100000000.00",
+          "minimum_cumulative_bridge_krw": "340000000.00"
+        }
+      ],
+      "peak_bridge_krw": "340000000.00"
+    }
+  ],
+  "not_measured_performance": true
+}

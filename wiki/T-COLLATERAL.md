@@ -54,6 +54,26 @@ IMF 10월 GFSR은 전반적으로 완화적인 금융여건과 높은 금융안�
 
 다음 관측: 상품 설명서, 담보 대주·헤어컷·권리 계약, 고객·거래·수수료 공개
 
+### C-173 · interpretation · active
+
+조회 가능한 잔액, 사실상 통제, 법적 소유, 수탁, 처분, 환매, 은행 현금과 담보 적격성은 별도 상태여야 한다.
+
+근거: [KNX-M-001](../sources/cards/KNX-M-001.md), [KNX-M-006](../sources/cards/KNX-M-006.md), [FIN-011](../sources/cards/FIN-011.md)
+
+한계: 원칙·선정 상품·직원 견해를 토대로 한 설계다. 개별 거래의 권리·인가 판정은 별도이다.
+
+### C-177 · hypothesis · active
+
+허가·계약·현금 연결이 충족된 미래에는 자산 매각·환매·담보차입·기존 신용을 비교해 지급 의무를 완수하는 서비스에 대가를 받을 수 있다.
+
+근거: [KNX-M-001](../sources/cards/KNX-M-001.md), [KNX-M-003](../sources/cards/KNX-M-003.md), [KNX-M-005](../sources/cards/KNX-M-005.md), [KNX-M-006](../sources/cards/KNX-M-006.md)
+
+한계: 어떤 토큰도 자동 담보 인정하지 않는다. 실제 대주·가격·한도·처분권·고객 지급 의사가 필요하다.
+
+다른 설명: 현금화 비용·마진콜·자본 부담이 높으면 기존 신용·예금·계좌 API가 더 유리하며 추가 온체인 연결은 비용이 될 수 있다.
+
+다음 관측: 같은 통화·시한·위험에서 실제 견적, 순수취 현금, 총비용, 스트레스 자금과 대체 경로
+
 ## 관련 원문
 
 - [FIN-001 · Tokenized Finance](../sources/cards/FIN-001.md)
@@ -65,5 +85,7 @@ IMF 10월 GFSR은 전반적으로 완화적인 금융여건과 높은 금융안�
 - [NOV-ECB-ELIGIBILITY · Marketable assets — Eligibility criteria and assessment procedure](../sources/cards/NOV-ECB-ELIGIBILITY.md)
 - [RG-AE-003 · Payment Token Services Regulation](../sources/cards/RG-AE-003.md)
 - [ST-HW-002 · Hanwha Investment & Securities and Chainlink Form Strategic Partnership to Tokenize, Connect, and Collateralize Real-World Assets Worldwide](../sources/cards/ST-HW-002.md)
+- [KNX-M-005 · UNIDROIT Model Law on Factoring](../sources/cards/KNX-M-005.md)
+- [KNX-M-006 · UNIDROIT Principles on Digital Assets and Private Law](../sources/cards/KNX-M-006.md)
 
 [전체 주제 지도](INDEX.md)

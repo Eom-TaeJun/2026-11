@@ -91,7 +91,7 @@
 | [HWA-GEO-012 · 한화투자증권, 日 종합금융투자회사 GI캐피털매니지먼트 증권 부문 주식매매계약 체결](cards/HWA-GEO-012.md) | 2026-10-14 | selected_sections | 2026-11-02 |
 | [KN-001 · BNK금융그룹, 동남권 전략산업 육성 위한 ‘생산적금융 전략 펀드’ 결성](cards/KN-001.md) | 2026-07-01 | full_text | 2026-11-02 |
 | [KN-002 · BNK경남은행 뉴스: 토스플레이스 공동마케팅 협약·대성테크 유망중소기업 선정](cards/KN-002.md) | 미확인/동적 | official_summary | 2026-11-02 |
-| [KN-003 · 무보, BNK경남은행과 동남권 수출기업 특별 우대금융 지원 개시](cards/KN-003.md) | 2026-10-15 | full_text | 2026-11-03 |
+| [KN-003 · 무보, BNK경남은행과 동남권 수출기업 특별 우대금융 지원 개시](cards/KN-003.md) | 2026-10-15 | official_summary | 2026-11-03 |
 | [KN-004 · BNK금융그룹_2026년 3분기 실적발표](cards/KN-004.md) | 2026-10-26 | full_text | 2026-11-03 |
 | [KN-005 · KB국민은행, ‘프로젝트 한강’ 2단계 참여…디지털화폐 시장 확대 주도](cards/KN-005.md) | 2026-03-20 | full_text | 2026-11-02 |
 | [KN-006 · 신한은행, 스테이블코인 활용 ‘기업 해외송금 전 과정’ 구현](cards/KN-006.md) | 2026-09-30 | full_text | 2026-11-03 |
@@ -176,3 +176,27 @@
 | [ST-TD-005 · Banks in the Age of Stablecoins: Some Possible Implications for Deposits, Credit, and Financial Intermediation](cards/ST-TD-005.md) | 2025-12-17 | selected_sections | 2026-11-03 |
 | [ST-TD-006 · Introducing the Machine Payments Protocol](cards/ST-TD-006.md) | 2026-03-18 | selected_sections | 2026-11-03 |
 | [ST-TD-007 · How Agentic AI Will Reshape Payments](cards/ST-TD-007.md) | 미확인/동적 | selected_sections | 2026-11-03 |
+| [KNX-S-001 · 수출환어음매입](cards/KNX-S-001.md) | 미확인/동적 | selected_sections | 2026-11-03 |
+| [KNX-S-002 · 무역금융업무안내](cards/KNX-S-002.md) | 미확인/동적 | selected_sections | 2026-11-03 |
+| [KNX-S-003 · EDI업무안내](cards/KNX-S-003.md) | 미확인/동적 | selected_sections | 2026-11-03 |
+| [KNX-S-004 · 전자무역서비스(PTB서비스)](cards/KNX-S-004.md) | 미확인/동적 | selected_sections | 2026-11-03 |
+| [KNX-S-005 · 외화예금안내](cards/KNX-S-005.md) | 미확인/동적 | selected_sections | 2026-11-03 |
+| [KNX-S-006 · 이종통화송금서비스](cards/KNX-S-006.md) | 미확인/동적 | selected_sections | 2026-11-03 |
+| [KNX-S-007 · e-branch 상품안내](cards/KNX-S-007.md) | 미확인/동적 | selected_sections | 2026-11-03 |
+| [KNX-M-001 · Franklin OnChain U.S. Government Money Fund — Prospectus August 1, 2026](cards/KNX-M-001.md) | 2026-08-01 | selected_sections | 2026-11-03 |
+| [KNX-M-002 · Circle Announces USDC Smart Contract for Transfers by BlackRock’s BUIDL Fund Investors](cards/KNX-M-002.md) | 2024-04-11 | full_text | 2026-11-03 |
+| [KNX-M-003 · USDC / EURC redemption structure](cards/KNX-M-003.md) | 미확인/동적 | selected_sections | 2026-11-03 |
+| [KNX-M-004 · USD withdrawals | FAQs](cards/KNX-M-004.md) | 미확인/동적 | full_text | 2026-11-03 |
+| [KNX-M-005 · UNIDROIT Model Law on Factoring](cards/KNX-M-005.md) | 미확인/동적 | selected_sections | 2026-11-03 |
+| [KNX-M-006 · UNIDROIT Principles on Digital Assets and Private Law](cards/KNX-M-006.md) | 미확인/동적 | selected_sections | 2026-11-03 |
+| [KNX-V-001 · 법인의 단계적인 가상자산시장 참여를 추진합니다 — 제3차 가상자산위원회](cards/KNX-V-001.md) | 2025-02-13 | selected_sections | 2026-11-03 |
+| [KNX-V-002 · 전문투자법인의 가상자산 시장 참여 관련 특정 가상자산의 투자 대상 제외 여부 등은 결정된 바 없습니다](cards/KNX-V-002.md) | 2026-03-09 | selected_sections | 2026-11-03 |
+| [KNX-V-003 · 은행법 — 제27조·제27조의2·제28조·제30조의3 및 제21296호 부칙](cards/KNX-V-003.md) | 2025-12-30 | selected_sections | 2026-11-03 |
+| [KNX-V-004 · 자본시장과 금융투자업에 관한 법률 — 제6조·제11조·제17조·제18조](cards/KNX-V-004.md) | 2026-08-04 | selected_sections | 2026-11-03 |
+| [KNX-V-005 · 특정 금융거래정보의 보고 및 이용 등에 관한 법률 — 제2조·제7조와 2026년 신고제 강화](cards/KNX-V-005.md) | 2026-08-04 | selected_sections | 2026-11-03 |
+| [KNX-V-006 · 가상자산사업자 신고제 강화에 맞춰 신고매뉴얼을 전면 개정합니다](cards/KNX-V-006.md) | 2026-08-13 | selected_sections | 2026-11-03 |
+| [KNX-V-007 · 외환거래별 신고: 지급 및 지급등의 방법](cards/KNX-V-007.md) | 미확인/동적 | selected_sections | 2026-11-03 |
+| [KNX-V-008 · 외환거래별 신고: 자본거래](cards/KNX-V-008.md) | 미확인/동적 | selected_sections | 2026-11-03 |
+| [KNX-V-009 · 가상자산 이용자 보호 등에 관한 법률 — 제2조 정의](cards/KNX-V-009.md) | 2026-08-04 | selected_sections | 2026-11-03 |
+| [KNX-R-001 · 수출신용보증(포괄매입) 제도개요](cards/KNX-R-001.md) | 미확인/동적 | selected_sections | 2026-11-03 |
+| [KNX-R-002 · 수출신용보증(포괄매입) 이용절차](cards/KNX-R-002.md) | 미확인/동적 | selected_sections | 2026-11-03 |

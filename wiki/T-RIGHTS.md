@@ -68,6 +68,46 @@ USDC와 USDT는 보유·이전과 발행자 직접 상환 자격이 같지 않�
 
 다음 관측: 실제 계약 당사자·상환 계정·견적·은행 최종 수취 기록
 
+### C-170 · fact · active
+
+FOBXX 2026-08-01 투자설명서는 허용 지갑 간 영업시간 외 이전과 영업일의 환매 처리·은행 수취를 구분한다.
+
+근거: [KNX-M-001](../sources/cards/KNX-M-001.md)
+
+한계: 이 상품의 조건이며 전 토큰화 MMF·한국 기업 자격·경남은행 취급 권한으로 일반화하지 않는다.
+
+### C-172 · institution_statement · active
+
+Circle의 2024년 BUIDL 기능 발표는 지분의 2차 매각과 USDC 수취를 설명한다.
+
+근거: [KNX-M-002](../sources/cards/KNX-M-002.md)
+
+한계: 역사적 기능 발표이며 현재 가동·개별 고객 접근·펀드 환매·은행현금 완료의 증거가 아니다.
+
+### C-173 · interpretation · active
+
+조회 가능한 잔액, 사실상 통제, 법적 소유, 수탁, 처분, 환매, 은행 현금과 담보 적격성은 별도 상태여야 한다.
+
+근거: [KNX-M-001](../sources/cards/KNX-M-001.md), [KNX-M-006](../sources/cards/KNX-M-006.md), [FIN-011](../sources/cards/FIN-011.md)
+
+한계: 원칙·선정 상품·직원 견해를 토대로 한 설계다. 개별 거래의 권리·인가 판정은 별도이다.
+
+### C-174 · interpretation · active
+
+스테이블코인이나 펀드 지분을 수취했다는 사실만으로 외화 은행현금 수취 또는 원채무 이행을 확정할 수 없다.
+
+근거: [SRC-CIRCLE-USDC-TERMS](../sources/cards/SRC-CIRCLE-USDC-TERMS.md), [ST-HW-013](../sources/cards/ST-HW-013.md), [KNX-M-001](../sources/cards/KNX-M-001.md), [KNX-M-005](../sources/cards/KNX-M-005.md)
+
+한계: 계약의 지급수단·수량·평가·완료 시점과 준거법을 확인해야 한다. 모범법은 한국에 자동 적용하지 않는다.
+
+### C-178 · interpretation · active
+
+현금 예측에서 동일 매출채권의 원장·토큰 표시, MMF와 기초자산, 담보 자산의 매각과 대출 인출을 중복 자금으로 계산하면 안 된다.
+
+근거: [KNX-M-005](../sources/cards/KNX-M-005.md), [KNX-M-006](../sources/cards/KNX-M-006.md), [KNX-M-001](../sources/cards/KNX-M-001.md)
+
+한계: 시스템 설계 원칙이다. 실제 경남은행·고객 데이터의 중복을 발견했다는 주장이 아니다.
+
 ## 관련 원문
 
 - [FIN-002 · What Is Needed for Tokenization to Deliver](../sources/cards/FIN-002.md)
@@ -94,5 +134,9 @@ USDC와 USDT는 보유·이전과 발행자 직접 상환 자격이 같지 않�
 - [ST-HW-013 · Legal — Token Terms of Sale and Service](../sources/cards/ST-HW-013.md)
 - [ST-HW-014 · Implementation Considerations](../sources/cards/ST-HW-014.md)
 - [ST-TD-003 · The Future of Financial Markets — Module 01 Infinite Assets](../sources/cards/ST-TD-003.md)
+- [KNX-M-001 · Franklin OnChain U.S. Government Money Fund — Prospectus August 1, 2026](../sources/cards/KNX-M-001.md)
+- [KNX-M-002 · Circle Announces USDC Smart Contract for Transfers by BlackRock’s BUIDL Fund Investors](../sources/cards/KNX-M-002.md)
+- [KNX-M-005 · UNIDROIT Model Law on Factoring](../sources/cards/KNX-M-005.md)
+- [KNX-M-006 · UNIDROIT Principles on Digital Assets and Private Law](../sources/cards/KNX-M-006.md)
 
 [전체 주제 지도](INDEX.md)

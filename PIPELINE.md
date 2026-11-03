@@ -71,3 +71,18 @@ python scripts/ai_stars.py refresh --output snapshots/stars-YYYY-MM-DD.json
 새 정보가 들어오면 해당 전략 ID의 source_ids·claim_ids, 대안·다음 관측, 확대·중단 조건만 갱신한다. 소식이 많아졌다는 이유로 우선순위를 올리지 않는다. 실제 고객 시험·내부 단가·신사업 순이익은 증거가 확보될 때만 null을 바꾼다. 현재 원장은 연구 제안이며 상시 감시·고객 거래를 실행하지 않는다.
 
 `data/kyongnam_baseline_2026q3.json`은 선정 IR 표의 기준선이다. 기말·평잔·분기·누적과 단위, 은행·그룹을 구분한다. 현재 고객별 실험 결과와 혼합하지 않는다. 이 두 보조 원장은 기본 validate가 모든 의미를 검사하지 않으므로 출처·주장 ID, 수치 산식, 문서 링크, 가설·제안 상태를 별도로 확인해 runs/에 남긴다.
+
+## 10. 경남은행 수출기업의 업무를 이어간다
+
+STR-KN-01의 상세 기록은 `reports/16_kyongnam_export_treasury_business_plan.md`, `reports/17_kyongnam_multiasset_cash_case.md`, `data/kyongnam_export_business_plan.json`이다. 이전 판단을 읽은 뒤 실제로 바뀐 계약·상품 조건·고객 업무·허가만 확인한다. 수집 담당은 기존 은행 기능·경쟁·원문 변경을, 메커니즘 담당은 고객의 돈·권리·기한을, 검증 담당은 현재 허용범위·기여식·반증과 산술을 살피고 총괄이 병합한다.
+
+조회·소유·통제·처분·환매·은행현금·담보·채무이행은 별도 상태다. 고객의 계좌 밖 자산은 동의·권한·실제 현금화 경로와 함께 확인한다. 토큰 표시와 원채권, 담보 매각과 차입, 인출한 대출과 잔여한도, 예금 FTP 손실과 대체조달비를 중복 합산하지 않는다. 기존+AI를 온체인 추가 투자의 비교 기준선으로 유지한다.
+
+설명용 현금 사례는 다음 명령으로 재현한다. 작은 사례의 시점 순서만 지원하며 실제 은행 달력·수수료·신용 승인·거래 실행을 구현하지 않았다. 다른 시점 구조를 사용하려면 가정을 먼저 다시 설계한다.
+
+```sh
+python scripts/export_cash_case.py
+python -m unittest discover -s tests -v
+```
+
+지표 값·예산·실제 고객 시험·ROI는 증거가 생길 때만 null/false를 바꾼다. 보조 원장의 출처·주장 참조와 계산 결과는 별도로 대사하고 `runs/2026-11-03-kyongnam-export.json` 다음에 새 실행 기록을 만든다.

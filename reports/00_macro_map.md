@@ -71,3 +71,5 @@ flowchart TD
 | 한화생명 신사업·계열 협업 | Nobu 보장·유지, 해외 금융 기능 연결, AI가 이용할 서비스, 보험 ALM | [한화 전략](14_hanwha_blockchain_strategy.md) |
 
 [통합 판단·검증 설계](15_strategy_decisions_and_validation.md)와 [12개 결정 원장](../data/strategy_decisions_2027.json)에 지급자·대안·다음 관측·확대·중단 조건을 연결했다. 이 표는 연구 제안이며 회사의 예산·현행 조직 소관·확정 사업이 아니다.
+
+지역 수출기업으로 좁힌 [경남은행 본사 사업안](16_kyongnam_export_treasury_business_plan.md)은 **거래 계약→매출채권→은행·토큰·펀드 형태의 수금/보유→통화·기한별 가용 현금→지급·신용·회수**를 추적한다. [다자산 현금 사례](17_kyongnam_multiasset_cash_case.md)에서 토큰 이전과 은행현금, 자산가치와 지급 가능액을 구분한다. 고객 자금 효율화는 은행 예금 조달·대출 수요를 줄일 수도 있으므로 관리·외환·신용·운영 보수가 이를 보전하는지 검증한다.

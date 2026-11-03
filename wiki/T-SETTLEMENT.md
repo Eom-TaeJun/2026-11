@@ -156,6 +156,22 @@ USDC와 USDT는 보유·이전과 발행자 직접 상환 자격이 같지 않�
 
 다음 관측: 동일 권리·통화·시한의 최종 현금, 총비용, 대사·예외 인력, 상계·사전조달·스트레스 현금
 
+### C-171 · fact · active
+
+Circle의 2026-10-19 이후 공개 환매 구조는 처리시간과 은행결제 시간을 나누며 Standard와 Express 요금을 구분한다.
+
+근거: [KNX-M-003](../sources/cards/KNX-M-003.md), [KNX-M-004](../sources/cards/KNX-M-004.md)
+
+한계: 별도 서면계약·기존 고객 적용 청구기간·지연 사유가 있다. 공개 5bp는 고객의 최종 총비용이 아니다.
+
+### C-174 · interpretation · active
+
+스테이블코인이나 펀드 지분을 수취했다는 사실만으로 외화 은행현금 수취 또는 원채무 이행을 확정할 수 없다.
+
+근거: [SRC-CIRCLE-USDC-TERMS](../sources/cards/SRC-CIRCLE-USDC-TERMS.md), [ST-HW-013](../sources/cards/ST-HW-013.md), [KNX-M-001](../sources/cards/KNX-M-001.md), [KNX-M-005](../sources/cards/KNX-M-005.md)
+
+한계: 계약의 지급수단·수량·평가·완료 시점과 준거법을 확인해야 한다. 모범법은 한국에 자동 적용하지 않는다.
+
 ## 관련 원문
 
 - [FIN-001 · Tokenized Finance](../sources/cards/FIN-001.md)
@@ -176,5 +192,7 @@ USDC와 USDT는 보유·이전과 발행자 직접 상환 자격이 같지 않�
 - [ST-KY-008 · Interactive Brokers Enables 24/7 Account Funding with Stablecoin](../sources/cards/ST-KY-008.md)
 - [ST-TD-006 · Introducing the Machine Payments Protocol](../sources/cards/ST-TD-006.md)
 - [ST-TD-007 · How Agentic AI Will Reshape Payments](../sources/cards/ST-TD-007.md)
+- [KNX-M-002 · Circle Announces USDC Smart Contract for Transfers by BlackRock’s BUIDL Fund Investors](../sources/cards/KNX-M-002.md)
+- [KNX-M-004 · USD withdrawals | FAQs](../sources/cards/KNX-M-004.md)
 
 [전체 주제 지도](INDEX.md)

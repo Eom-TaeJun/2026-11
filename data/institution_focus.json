@@ -269,7 +269,13 @@
         "STR-KN-02",
         "STR-KN-03"
       ],
-      "strategy_report": "reports/12_kyongnam_head_office_strategy.md"
+      "strategy_report": "reports/12_kyongnam_head_office_strategy.md",
+      "export_treasury_refinement": {
+        "as_of": "2026-11-03",
+        "report": "reports/16_kyongnam_export_treasury_business_plan.md",
+        "record": "data/kyongnam_export_business_plan.json",
+        "status": "analyst_proposal"
+      }
     }
   ],
   "jurisdiction_research_queue": [

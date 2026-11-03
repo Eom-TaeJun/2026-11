@@ -214,6 +214,46 @@ Nobu–Bittime의 은행 가상계좌 연결을 지급 스테이블코인 발행
 
 다음 관측: 회사·발행자·감독기관의 당사자·권한·계약·실적 공식 공개
 
+### C-170 · fact · active
+
+FOBXX 2026-08-01 투자설명서는 허용 지갑 간 영업시간 외 이전과 영업일의 환매 처리·은행 수취를 구분한다.
+
+근거: [KNX-M-001](../sources/cards/KNX-M-001.md)
+
+한계: 이 상품의 조건이며 전 토큰화 MMF·한국 기업 자격·경남은행 취급 권한으로 일반화하지 않는다.
+
+### C-171 · fact · active
+
+Circle의 2026-10-19 이후 공개 환매 구조는 처리시간과 은행결제 시간을 나누며 Standard와 Express 요금을 구분한다.
+
+근거: [KNX-M-003](../sources/cards/KNX-M-003.md), [KNX-M-004](../sources/cards/KNX-M-004.md)
+
+한계: 별도 서면계약·기존 고객 적용 청구기간·지연 사유가 있다. 공개 5bp는 고객의 최종 총비용이 아니다.
+
+### C-172 · institution_statement · active
+
+Circle의 2024년 BUIDL 기능 발표는 지분의 2차 매각과 USDC 수취를 설명한다.
+
+근거: [KNX-M-002](../sources/cards/KNX-M-002.md)
+
+한계: 역사적 기능 발표이며 현재 가동·개별 고객 접근·펀드 환매·은행현금 완료의 증거가 아니다.
+
+### C-174 · interpretation · active
+
+스테이블코인이나 펀드 지분을 수취했다는 사실만으로 외화 은행현금 수취 또는 원채무 이행을 확정할 수 없다.
+
+근거: [SRC-CIRCLE-USDC-TERMS](../sources/cards/SRC-CIRCLE-USDC-TERMS.md), [ST-HW-013](../sources/cards/ST-HW-013.md), [KNX-M-001](../sources/cards/KNX-M-001.md), [KNX-M-005](../sources/cards/KNX-M-005.md)
+
+한계: 계약의 지급수단·수량·평가·완료 시점과 준거법을 확인해야 한다. 모범법은 한국에 자동 적용하지 않는다.
+
+### C-176 · interpretation · active
+
+운영·준비·초과·위험 자금의 분류는 자산 이름이 아니라 실제 지급 의무, 통화, 허용 손실, 현금화 기한으로 정해야 한다.
+
+근거: [KNX-M-001](../sources/cards/KNX-M-001.md), [KNX-M-003](../sources/cards/KNX-M-003.md), [FIN-001](../sources/cards/FIN-001.md)
+
+한계: 설명용 자금정책 설계이며 현재 법정 회계 분류나 모든 기업에 동일한 비중을 제안하지 않는다.
+
 ## 관련 원문
 
 - [FIN-003 · III. Anchoring trust in money: innovation beyond stablecoins](../sources/cards/FIN-003.md)
@@ -276,5 +316,9 @@ Nobu–Bittime의 은행 가상계좌 연결을 지급 스테이블코인 발행
 - [ST-KY-008 · Interactive Brokers Enables 24/7 Account Funding with Stablecoin](../sources/cards/ST-KY-008.md)
 - [ST-TD-004 · Stablecoins: Promise, Risks, and Policy Choices for Emerging Markets](../sources/cards/ST-TD-004.md)
 - [ST-TD-005 · Banks in the Age of Stablecoins: Some Possible Implications for Deposits, Credit, and Financial Intermediation](../sources/cards/ST-TD-005.md)
+- [KNX-M-001 · Franklin OnChain U.S. Government Money Fund — Prospectus August 1, 2026](../sources/cards/KNX-M-001.md)
+- [KNX-M-002 · Circle Announces USDC Smart Contract for Transfers by BlackRock’s BUIDL Fund Investors](../sources/cards/KNX-M-002.md)
+- [KNX-M-003 · USDC / EURC redemption structure](../sources/cards/KNX-M-003.md)
+- [KNX-M-004 · USD withdrawals | FAQs](../sources/cards/KNX-M-004.md)
 
 [전체 주제 지도](INDEX.md)
