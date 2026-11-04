@@ -1,0 +1,81 @@
+{
+  "verified_at_utc": "2026-11-04T07:10:18.162519+00:00",
+  "content_commit": "7aea87257480fba6c73d2bf7b4f1a108351ed0df",
+  "content_tree": "af17a0cdcd131412b0c416ebd4ac538a3ce6911b",
+  "verification_scope": "438-file content commit verified before this receipt/status update; this receipt does not recursively claim verification of its own commit.",
+  "blob_comparison": {
+    "checked": 438,
+    "mismatches": 0,
+    "missing": 0,
+    "extra": 0
+  },
+  "exact_text_readback": [
+    {
+      "path": "README.md",
+      "sha": "80945b4d61c45217c484495d6cca3798cac80728",
+      "matched": true
+    },
+    {
+      "path": "reports/35_business_models_and_agent_finance.md",
+      "sha": "af520a7e5c1594585d2148e974b3d6b66b5dec1f",
+      "matched": true
+    },
+    {
+      "path": "reports/36_bnk_business_model_priorities.md",
+      "sha": "3ba9cec944588395a06ca792437cf1ef44f193d1",
+      "matched": true
+    },
+    {
+      "path": "reports/37_kyobo_business_model_priorities.md",
+      "sha": "2aca467d2960a79c536c56858beb2d274391f944",
+      "matched": true
+    },
+    {
+      "path": "reports/38_hanwha_business_model_priorities.md",
+      "sha": "b9e9d5429c7ced915793b65d1750dae9d2c6b74b",
+      "matched": true
+    },
+    {
+      "path": "data/institution_business_baselines.json",
+      "sha": "1206e299412adcfeb79fba7d292055ab9010394e",
+      "matched": true
+    },
+    {
+      "path": "data/business_model_transition_priorities.json",
+      "sha": "734c15156b9ee070bb858875530f713afbd808ca",
+      "matched": true
+    },
+    {
+      "path": "agents/business_model_reasoning_workflow.md",
+      "sha": "3a355c66a4730da57f33dd5f18ee02df9c2ab743",
+      "matched": true
+    },
+    {
+      "path": "agents/roles.json",
+      "sha": "a062402168304340f9afb80c554af7b9ef8caf9f",
+      "matched": true
+    },
+    {
+      "path": "runs/2026-11-04-business-model-priorities.json",
+      "sha": "9d1f52ade4f9ad5ea970ce147d8d287bae9eff0a",
+      "matched": true
+    }
+  ],
+  "public_display": {
+    "status": 200,
+    "title": true,
+    "report_links": true,
+    "rendered_body_marker": true,
+    "method": "HTTP-returned GitHub HTML for published main report; not interactive browser testing"
+  },
+  "baseline_files_retained": 420,
+  "tests_passed": 15,
+  "new_sources": 8,
+  "existing_source_updates": 11,
+  "new_claims": 32,
+  "sources_total": 291,
+  "claims_total": 413,
+  "financial_observation_records": 62,
+  "operating_priority_groups": 9,
+  "principal_review": "Current business economics and real financial scopes precede future scenarios. Three cross reviews; gross/net cost ambiguity and raw-value rounding clarified. Definition and source-access differences preserved."
+}

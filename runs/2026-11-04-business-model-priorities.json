@@ -1,14 +1,14 @@
 {
   "as_of": "2026-11-04",
   "timezone": "Asia/Seoul",
-  "status": "validated_pending_publication",
+  "status": "published_and_verified",
   "request": "실제 금융 수익모델과 세 그룹의 규모·손익·강약점에서 변화의 기회·위기·우선 업무·고객 AI 신뢰를 근거와 논리로 설명",
   "baseline_head": "bc05a167d36268d911fa7abb6f195d57804250da",
   "baseline_files": 420,
   "workers": [
     {
       "name": "coordinator",
-      "work": "공통 수익모델·인과·신뢰 합성, 단일 병합·검증·게시"
+      "work": "기존 수익모델·그룹 기반·인과·경쟁·신뢰 통합, 단일 병합·검증·GitHub 게시·원격 대조"
     },
     {
       "name": "source_design",
@@ -222,9 +222,25 @@
   },
   "review": "runs/2026-11-04-business-model-review.md",
   "publication": {
-    "status": "pending",
+    "status": "content_published_and_verified",
     "repository": "Eom-TaeJun/2026-11",
-    "branch": "main"
+    "branch": "main",
+    "content_commit": "7aea87257480fba6c73d2bf7b4f1a108351ed0df",
+    "content_tree": "af17a0cdcd131412b0c416ebd4ac538a3ce6911b",
+    "remote_blob_verification": {
+      "files": 438,
+      "mismatch": 0,
+      "extra": 0
+    },
+    "exact_text_readbacks": 10,
+    "public_html": {
+      "status": 200,
+      "title": true,
+      "report_links": true,
+      "rendered_body_marker": true,
+      "method": "HTTP-returned GitHub HTML for published main report; not interactive browser testing"
+    },
+    "receipt": "runs/2026-11-04-business-model-publication.json"
   },
   "not_performed": [
     "actual customer trial",
