@@ -107,3 +107,7 @@ IMF 2026년10월 연구의 시장구조·레포 분석은 법적 책임이 남�
 ## 2027년 이후 고객 AI의 선택·돈·수익 이동
 
 필요한 권한·위임·인프라가 성립한 강한 가정 아래 [고객·경쟁·잠식 통합 사례](31_agent_finance_customer_money_2027.md)를 이어 썼다. [BNK](32_bnk_agent_customer_cash.md), [교보](33_kyobo_agent_assets_business.md), [한화](34_hanwha_agent_insurance_global.md)의 실제 기반을 출발점으로 쓰되 미래의 가격·거래·고객·이익은 관측 사실과 구분했다.
+
+## 실제 수익 기반에서 방향을 도출하는 후속
+
+[금융기관 수익모델과 세 그룹의 실제 기반](35_business_models_and_agent_finance.md)을 주된 논증으로 추가했다. 현재 이익·자본·강약점에서 환경 변화의 인과와 경쟁 후 우선 업무를 설명하며, 기존 고객 자금 사례는 보조 자료로 유지한다.

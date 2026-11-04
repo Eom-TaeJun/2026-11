@@ -24,5 +24,6 @@ BUIDL 투자운용자는 BlackRock Financial Management, Inc.이고 BNY Mellon�
 
 - **C-319 / fact / active**: BUIDL의 운용·수탁관리·이전대행토큰화·판매대행은 서로 다른 역할이다. 2024 발표는 각각 BlackRock Financial Management, BNY Mellon, Securitize, Securitize Markets를 명시한다.
 - **C-352 / interpretation / active**: BUIDL의 다자분업, OUSG의 복수 기초상품, OIP의 모델 제공자와 발행·구현 주체 구분은 세 그룹의 자산·모델 공급, 고객 조합, 실행·사후관리와 보수 계약을 기능별로 선택할 근거다. 회사 이름 하나로 모든 책임과 수입을 묶지 않는다.
+- **C-413 / hypothesis / active**: AI가 상품 조합과 안내를 쉽게 할수록 원권리·신용심사·유동성·보험금 지급·복구처럼 자본과 운영 책임이 필요한 기능에 대가를 붙일 여지가 남는다. 그러나 책임을 수행하는 비용과 경쟁자의 대체 능력보다 고객 편익이 커야 수익이 유지된다.
 
 [전체 자료 목록](../README.md)

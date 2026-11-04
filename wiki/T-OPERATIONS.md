@@ -1339,6 +1339,100 @@ Velocity의 확인된 기관 서비스에서 고객 AI가 현금·담보·예외
 
 다음 관측: 고객 종료조건, 피크 선자금·상계, 법인별 외부 기여, 내부거래 제거, 자본·기존사업 잠식을 관측해 내부 구축/외부 구매를 바꾼다.
 
+### C-391 · fact · active
+
+2026H1 교보증권은 연결 순수수료손익2026.74억원·순이자손익1431.67억원과 별도 해외선물 위탁수수료688.28억원을 공시했다. 총영업수익과 계정별·부문별 이익은 별도로 읽어야 한다.
+
+근거: [ST-KY-001](../sources/cards/ST-KY-001.md)
+
+한계: 반기 실적이며 11월 현재·신사업 순익 아님; 헤지와 부문 이전가격 전체 미독
+
+다음 관측: 고객별 반복 매출·조달·운영비와 최신 정기보고서
+
+### C-392 · fact · active
+
+교보생명 2026Q2 정기경영공시 업무보고서 기준 자산130.8248조원·자본9.2023조원, K-ICS 경과 전155.43%·후200.75%다. 보험부채를 뒷받침하는 기반이지 그룹 공동금고가 아니다.
+
+근거: [BMX-KY-001](../sources/cards/BMX-KY-001.md), [BMX-KY-002](../sources/cards/BMX-KY-002.md)
+
+한계: 업무보고서와 IFRS 연결표 구분; 규제연결 산식 전체 미독
+
+다음 관측: 최신 경영공시·K-ICS 자본 구성·계정별 투자 제약
+
+### C-393 · interpretation · active
+
+생명 반기 연결 지배주주 순익은 증가했지만 별도 순익은 감소했다. 투자손익도 IR4038억원과 업무보고서4054억원의 기준 차이가 있어 동일 표에 섞거나 생명 본업 호조로 단정하면 안 된다.
+
+근거: [BMX-KY-001](../sources/cards/BMX-KY-001.md), [BMX-KY-002](../sources/cards/BMX-KY-002.md), [BMX-KY-003](../sources/cards/BMX-KY-003.md)
+
+한계: 16억원 개별 조정 내역 및 연결 자회사별 이익 대사 미확인
+
+다음 관측: 연결조정표·IR 투자손익 조정표
+
+### C-394 · interpretation · active
+
+문고는 2025 상품매출 중심의 유통업이고 영업이익률은 산술상 약0.61%다. 매출이나 그룹 소속만으로 IP정산채권 금융을 대표 성장전략으로 확대할 수 없다.
+
+근거: [BMX-KY-005](../sources/cards/BMX-KY-005.md), [ST-KY-007](../sources/cards/ST-KY-007.md)
+
+한계: IP별 계약·조달수요·권리·상품 단위 수익성 미확인
+
+다음 관측: 확정·양도 가능한 외부 출판사 채권과 기존 조기정산 대비 편익
+
+### C-395 · hypothesis · active
+
+기존 거래 고객의 주문·증거금·통화·현금 사용시각을 개선하는 업무가 신규 범용 토큰 플랫폼보다 교보증권의 먼저 검증할 과제다. 고객 AI 비교 이후에도 집행·복구의 총서비스가 경쟁력일 수 있다.
+
+근거: [ST-KY-001](../sources/cards/ST-KY-001.md)
+
+한계: 가격·고객수·비용절감·실현 순익 null; 현행 허용 레일을 넘는 부분은 조건부
+
+다른 설명: 동일 AI를 쓰는 대형·저비용 브로커가 더 싼 실행을 제공하면 교보의 가격·수익 압박
+
+다음 관측: 실제 고객 자금 지연·실패·강제청산 비용과 경쟁 브로커 총가격
+
+### C-396 · hypothesis · active
+
+기존 인수·주선·자문과 유동화SPC 관리 경험을 반복 발행·권리·수금·회수 업무로 연결할 수 있다. 자기 인수·유동성 보증을 붙이면 수수료 사업과 별도 자본·신용 사업이다.
+
+근거: [ST-KY-001](../sources/cards/ST-KY-001.md), [KYX-A-004](../sources/cards/KYX-A-004.md)
+
+한계: 기존 수수료 항목이 새 사업 경쟁우위를 증명하지 않음
+
+다른 설명: 발행인 직접 플랫폼과 대형 IB 묶음 가격이 단순 발행·문서 업무 보수를 낮출 수 있음
+
+다음 관측: 반복 발행 외부고객 보수와 실사·사후관리·손실·자본 비용
+
+### C-397 · hypothesis · active
+
+교보가 외부 상품도 비교·집행·보고하면 자사 상품 판매보수가 줄더라도 유료 업무를 남길 수 있다. 생명 ALM·운용 전문성은 독립 계약과 가격을 거쳐야만 증권 사업과 연결된다.
+
+근거: [ST-KY-001](../sources/cards/ST-KY-001.md), [BMX-KY-001](../sources/cards/BMX-KY-001.md), [BMX-KY-002](../sources/cards/BMX-KY-002.md), [OBX-E-004](../sources/cards/OBX-E-004.md), [OBX-E-019](../sources/cards/OBX-E-019.md), [OBX-E-020](../sources/cards/OBX-E-020.md), [OBX-P-005](../sources/cards/OBX-P-005.md)
+
+한계: BlackRock·Ondo와 교보 실제 계약 아님; 고객 자격·상품권리·세금 차이 조정 필요
+
+다른 설명: 운용사 직접판매·AI플랫폼 무료 관리로 범용 설명 수익이 사라질 수 있음
+
+다음 관측: 고객의 실제 서비스 지불의사와 기존 판매보수 감소를 반영한 증분기여
+
+### C-398 · unknown · active
+
+10월22일 RCPS 발행 결정 이후 실제 납입·회계 및 감독 인정자본·최신 종투사 지정·단기금융업 인가·IMA 개시의 완결 검증은 이번 범위에서 확보하지 못했다. 예정액을 반기 자본에 더해 현재 자본으로 표시하지 않는다.
+
+근거: [ST-KY-002](../sources/cards/ST-KY-002.md), [ST-KY-003](../sources/cards/ST-KY-003.md), [KYX-A-001](../sources/cards/KYX-A-001.md), [KYX-A-004](../sources/cards/KYX-A-004.md)
+
+한계: 미확인은 미지정·미납입의 증명이 아님; 옛 법령 확인 범위 재사용
+
+다음 관측: 납입 완료·발행 실적·후속 재무제표와 공식 지정/인가 결정문
+
+### C-412 · interpretation · active
+
+고객 AI에 신뢰받을 금융서비스는 비교 가능한 권리·가격·자격·현금화 조건, 검증 가능한 위임과 현재 거래 상태, 완료 증거와 오류·민원 처리 책임을 제공해야 한다. 이는 기술 연결 기능만으로 충족되지 않는 연구자 사업 설계다.
+
+근거: [ST-TD-007](../sources/cards/ST-TD-007.md), [KYX-V-008](../sources/cards/KYX-V-008.md), [KYX-V-009](../sources/cards/KYX-V-009.md)
+
+한계: 개별 자료의 읽은 범위는 출처 카드에 보존. 미래 사업 제안은 회사 확정 계획·성과 예측이 아니다.
+
 ## 관련 원문
 
 - [FIN-001 · Tokenized Finance](../sources/cards/FIN-001.md)
@@ -1432,5 +1526,11 @@ Velocity의 확인된 기관 서비스에서 고객 AI가 현금·담보·예외
 - [OBX-P-006 · Ondo Intelligent Portfolios Investing and Redeeming](../sources/cards/OBX-P-006.md)
 - [OBX-P-007 · Ondo Intelligent Portfolios Market Hours and Trading Availability](../sources/cards/OBX-P-007.md)
 - [OBX-P-009 · Ondo, Kinexys by J.P. Morgan, Mastercard, and Ripple Complete First Cross-Border, Cross-Bank Redemption of Tokenized U.S. Treasuries](../sources/cards/OBX-P-009.md)
+- [BMX-BNK-001 · BNK Financial Group Value-up Plan 2.0](../sources/cards/BMX-BNK-001.md)
+- [BMX-KY-001 · 교보생명 2026년 2분기 정기경영공시 I. 주요 경영현황 요약](../sources/cards/BMX-KY-001.md)
+- [BMX-KY-002 · 교보생명 2026년 2분기 정기경영공시 II. 재무·손익](../sources/cards/BMX-KY-002.md)
+- [BMX-KY-003 · FY2026 상반기 실적 설명자료 — 교보생명 연결 순익7048억원](../sources/cards/BMX-KY-003.md)
+- [BMX-KY-004 · 교보생명은 왜 전속 설계사(FP) 중심 영업 전략을 유지할까?](../sources/cards/BMX-KY-004.md)
+- [BMX-KY-005 · 교보문고 감사보고서 (2025.12)](../sources/cards/BMX-KY-005.md)
 
 [전체 주제 지도](INDEX.md)

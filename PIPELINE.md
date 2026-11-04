@@ -108,3 +108,7 @@ POD 공개 안내의 지급일 차이와 IBKR 요율·지원 토큰·출금보�
 ## AI 고객 사례와 수익 귀속 갱신
 
 [통합 사례](reports/31_agent_finance_customer_money_2027.md)의 공통 가정을 확인하고 [사례 원장](data/agent_finance_2027_cases.json)에 새 관측을 연결한다. 기초 원금 예시와 실제 요율·가격·이익을 섞지 않는다. 고객 접점·자산·수입이 다른 공급자로 이동하는지, 경쟁자의 재가격 뒤에도 기여가 남는지 갱신한다. 이는 거래 자동 실행이나 정기 모니터링 설정이 아니다.
+
+## 실제 사업 기반과 우선 대응 갱신
+
+[재무 관측](data/institution_business_baselines.json)은 법인·기간·단위·정의·예상 여부·출처 위치를 유지한다. [대응 원장](data/business_model_transition_priorities.json)은 근거→인과→기존 수익의 위기/새 기회→경쟁 대응→우선 업무와 반증 관측을 연결한다. [반복 절차](agents/business_model_reasoning_workflow.md)를 따른다. 기존 가상 흐름은 보조로 보존하며 실적이나 전망치로 승격하지 않는다.

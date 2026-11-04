@@ -53,3 +53,5 @@ GitHub 인기는 목적 적합성의 보조 지표다. 현재 누적 스타, 기
 교수 Ondo·글로벌 상품 비교 후속은 `agents/position_comparison_workflow.md`, reports/27~30, `data/professor_ondo_lineage.json`, `data/blackrock_ondo_product_economics.json`, `data/global_position_group_map.json`에서 이어간다. 강의의 역사적 숫자·계획과 현재 상품 조건을 나누고 동일 URL·동일 기초자산·중복 비용을 합산하지 않는다.
 
 2027년 이후 고객 AI 시나리오는 reports/31~34와 `data/agent_finance_2027_cases.json`, `data/agent_finance_value_capture.json`에서 이어간다. 시나리오를 실제 고객·회사 계획·예측치로 승격하지 않고, 기존+AI 기준선·경쟁 후 재선택·기존 사업 잠식을 유지한다.
+
+사용자의 근거·논리 우선 수정은 `agents/business_model_reasoning_workflow.md`, reports/35~38, `data/institution_business_baselines.json`, `data/business_model_transition_priorities.json`을 따른다. 본래 수익모델→실제 그룹의 규모·손익·강약점→환경 변화→경쟁 후 수익/비용·고객 선택→우선 업무·신뢰 순으로 설명한다. reports/31~34의 가상 사례를 실적 근거나 결론의 출발점으로 쓰지 않는다.

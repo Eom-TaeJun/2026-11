@@ -1,0 +1,255 @@
+{
+  "as_of": "2026-11-04",
+  "timezone": "Asia/Seoul",
+  "status": "validated_pending_publication",
+  "request": "실제 금융 수익모델과 세 그룹의 규모·손익·강약점에서 변화의 기회·위기·우선 업무·고객 AI 신뢰를 근거와 논리로 설명",
+  "baseline_head": "bc05a167d36268d911fa7abb6f195d57804250da",
+  "baseline_files": 420,
+  "workers": [
+    {
+      "name": "coordinator",
+      "work": "공통 수익모델·인과·신뢰 합성, 단일 병합·검증·게시"
+    },
+    {
+      "name": "source_design",
+      "work": "BNK 실적·지역 기업·조달·신용·경쟁"
+    },
+    {
+      "name": "mechanism_design",
+      "work": "교보 증권·생명·문고의 실적·권한·발행·실행"
+    },
+    {
+      "name": "validation_design",
+      "work": "한화 보험·GA·ALM·해외 법인 실적과 우선 업무"
+    }
+  ],
+  "actual_workers": 4,
+  "logical_roles": 8,
+  "new_source_ids": [
+    "BMX-BNK-001",
+    "BMX-KY-001",
+    "BMX-KY-002",
+    "BMX-KY-003",
+    "BMX-KY-004",
+    "BMX-KY-005",
+    "BMX-HW-001",
+    "BMX-HW-002"
+  ],
+  "updated_source_ids": [
+    "ST-KN-001",
+    "KN-004",
+    "ST-KN-002",
+    "KNX-S-007",
+    "ST-KN-005",
+    "ST-KY-001",
+    "ST-HW-015",
+    "HWX-A-001",
+    "FIN-003",
+    "ST-TD-007",
+    "KYX-V-008"
+  ],
+  "source_aliases": {},
+  "claim_id_map": {
+    "BMX-BNK-C-001": "C-382",
+    "BMX-BNK-C-002": "C-383",
+    "BMX-BNK-C-003": "C-384",
+    "BMX-BNK-C-004": "C-385",
+    "BMX-BNK-C-005": "C-386",
+    "BMX-BNK-C-006": "C-387",
+    "BMX-BNK-C-007": "C-388",
+    "BMX-BNK-C-008": "C-389",
+    "BMX-BNK-C-009": "C-390",
+    "BMX-KY-C-001": "C-391",
+    "BMX-KY-C-002": "C-392",
+    "BMX-KY-C-003": "C-393",
+    "BMX-KY-C-004": "C-394",
+    "BMX-KY-C-005": "C-395",
+    "BMX-KY-C-006": "C-396",
+    "BMX-KY-C-007": "C-397",
+    "BMX-KY-C-008": "C-398",
+    "BMX-HW-C001": "C-399",
+    "BMX-HW-C002": "C-400",
+    "BMX-HW-C003": "C-401",
+    "BMX-HW-C004": "C-402",
+    "BMX-HW-C005": "C-403",
+    "BMX-HW-C006": "C-404",
+    "BMX-HW-C007": "C-405",
+    "BMX-HW-C008": "C-406",
+    "BMX-HW-C009": "C-407",
+    "BMX-HW-C010": "C-408",
+    "BMX-ROOT-01": "C-409",
+    "BMX-ROOT-02": "C-410",
+    "BMX-ROOT-03": "C-411",
+    "BMX-ROOT-04": "C-412",
+    "BMX-ROOT-05": "C-413"
+  },
+  "counts": {
+    "sources_before": 283,
+    "sources_after": 291,
+    "claims_before": 381,
+    "claims_after": 413,
+    "new_claims": 32,
+    "new_sources": 8,
+    "existing_source_updates": 11,
+    "topics": 14,
+    "groups": 3,
+    "operating_priorities": 9
+  },
+  "source_reuse": {
+    "bnk": {
+      "reused_ids": [
+        {
+          "id": "ST-TD-005",
+          "reuse_scope": "기존 공개 원문의 예금·신용 메커니즘을 조건부 설명에 재사용. 이번 BMX 작업에서 새로 열지 않았고 checked_at 갱신 없음."
+        }
+      ],
+      "limits": [
+        "Q3 PDF 웹 크기 제한·직접 다운로드 연결 실패. 보존 공개 원본 렌더링 재열람과 공식 목록/보도 대조이며 원격 바이트 재확인 아님.",
+        "Value-up 2.0 선택 텍스트만 읽기; 도구 스크린샷 표시 실패로 전략 도표 시각검토 완료 주장 없음.",
+        "공식 서비스 안내는 실제 계약·실행·가격 검증을 대체하지 않음.",
+        "상품별 관리회계·신사업 실적 미확인 값 null."
+      ]
+    },
+    "kyobo": {
+      "reused_ids": [
+        "KYX-A-001",
+        "KYX-A-004",
+        "KYX-M-007",
+        "OBX-E-004",
+        "OBX-E-019",
+        "OBX-E-020",
+        "OBX-P-005",
+        "ST-KY-001",
+        "ST-KY-002",
+        "ST-KY-003",
+        "ST-KY-007"
+      ],
+      "limits": [
+        {
+          "target": "교보생명 공식 2026Q2 PDF",
+          "web_tool": "timeout/not accessible",
+          "resolution": "공식 Chrome 다운로드 버튼 및 download event로 원문 확보해 읽음"
+        },
+        {
+          "target": "DART 주석26·27 및 문고 감사보고서",
+          "web_tool": "not accessible",
+          "resolution": "공식 브라우저 본문으로 읽음"
+        },
+        {
+          "target": "교보생명 IR기사",
+          "web_tool": "open timeout",
+          "resolution": "공식 Chrome 본문으로 기사·표 직접 읽음"
+        }
+      ]
+    },
+    "hanwha": {
+      "reused_ids": [
+        "HWX-R-008",
+        "HWX-V-001",
+        "HWX-V-003",
+        "ST-HW-007",
+        "HWX-A-004",
+        "HWX-A-008",
+        "HWX-A-002",
+        "HWA-GEO-009"
+      ],
+      "limits": []
+    },
+    "root": {
+      "reused_ids": [
+        "ST-TD-005",
+        "KYX-V-009",
+        "ST-KN-001",
+        "ST-KY-001",
+        "ST-HW-015",
+        "OBX-E-001",
+        "OBX-E-019"
+      ],
+      "limits": [
+        "현행 법률 전수 재검토가 아니라 기존 규제 원장의 조건부 미래와 연결한다.",
+        "새 거래·고객 시험·서비스 가격·수익 전망은 만들지 않는다."
+      ]
+    }
+  },
+  "reports": [
+    "reports/35_business_models_and_agent_finance.md",
+    "reports/36_bnk_business_model_priorities.md",
+    "reports/37_kyobo_business_model_priorities.md",
+    "reports/38_hanwha_business_model_priorities.md"
+  ],
+  "records": [
+    "data/institution_business_baselines.json",
+    "data/business_model_transition_priorities.json"
+  ],
+  "validation": {
+    "ledger": "passed:291 sources,413 claims,14 topics",
+    "links": "passed",
+    "unit_tests": "15 existing tests passed",
+    "financial_scope_and_arithmetic": {
+      "status": "passed",
+      "groups": 3,
+      "observation_records": 62,
+      "operating_priorities": 9,
+      "sources": 291,
+      "claims": 413,
+      "financial_arithmetic_checks": 10,
+      "basis_differences_preserved": [
+        "교보생명 업무보고서/IR 투자손익4054/4038억원",
+        "한화 해외 선택법인101/bridge103십억원",
+        "한화 K-ICS 예상값과 최신 확정값 미확인",
+        "회사별 연결/별도·기간 차이"
+      ],
+      "baseline_files_retained": 420,
+      "changed_files_checked": 75,
+      "new_public_sources_checked": [
+        "BMX-BNK-001",
+        "BMX-KY-001",
+        "BMX-KY-002",
+        "BMX-KY-003",
+        "BMX-KY-004",
+        "BMX-KY-005",
+        "BMX-HW-001",
+        "BMX-HW-002"
+      ],
+      "secret_or_local_path_pattern_matches": 0,
+      "limits": [
+        "기간·정의·원문 위치와 선택 산술 확인, 재무제표 전수 감사 아님",
+        "실제 고객·새 서비스 가격·성과의 검증 아님"
+      ]
+    },
+    "preservation": "all420 baseline files retained; prior claims and source history preserved",
+    "public_content": "new/changed files scanned for credentials and local user paths; no matches"
+  },
+  "review": "runs/2026-11-04-business-model-review.md",
+  "publication": {
+    "status": "pending",
+    "repository": "Eom-TaeJun/2026-11",
+    "branch": "main"
+  },
+  "not_performed": [
+    "actual customer trial",
+    "financial transactions",
+    "account connection",
+    "partner contact",
+    "scheduled monitoring",
+    "all-country regulation refresh",
+    "future profit or market-share forecast"
+  ],
+  "independent_review": {
+    "scope": "three cross reviews of report reasoning and entity/cost boundaries; selected financial summary rechecks",
+    "resolved_findings": [
+      {
+        "id": "BMX-V-REVIEW-01",
+        "issue": "BNK net-interest/net-contribution cost double-counting ambiguity",
+        "resolution": "gross-income costs once; net-income deduct only costs not already reflected"
+      }
+    ],
+    "root_corrections": [
+      "Kyobo financial-instrument net uses raw KRW-thousand values before rounding",
+      "62 observation records include source-table/page locations",
+      "actual versus estimated and basis differences retained"
+    ],
+    "remaining_material_findings": [],
+    "limits": "Not a full independent audit of every financial statement or real customer outcomes."
+  }
+}

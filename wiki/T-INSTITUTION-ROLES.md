@@ -1309,6 +1309,202 @@ AI가 비교·이전 비용을 낮추면 시중은행의 예금금리·FX·여�
 
 다음 관측: 정상/집중 시간대의 유효 견적·실행/입금·실패·선자금·고객 결과와 실제 비용
 
+### C-382 · fact · active
+
+2026년 1~9월 그룹 지배주주 순이익 6,223억원. 자회사 은행 5,573억원과 비은행 2,137억원 합계에서 은행 비중은 계산상 72.3%다. 지주·연결조정 -1,315억원과 비지배지분 172억원을 반영하면 그룹 지배주주 순이익과 일치한다.
+
+근거: [ST-KN-001](../sources/cards/ST-KN-001.md), [KN-004](../sources/cards/KN-004.md)
+
+한계: - 은행 비중은 연결조정 전 자회사 합계 기준.
+
+### C-383 · fact · active
+
+2026년 1~9월 그룹 순이자이익 22,872억원·비이자이익 3,183억원·그중 수수료이익 2,173억원, 판매관리비 12,522억원·충당금적립액 5,950억원이다. 이자·수수료이익 증가와 전체 순이익 감소가 함께 관측된다.
+
+근거: [ST-KN-001](../sources/cards/ST-KN-001.md)
+
+한계: - 누적 수치이고 수수료는 비이자에 포함된다. 원인 전체를 식별한 인과 분석이 아니다.
+
+### C-384 · fact · active
+
+2026년 9월말 경남은행 SME/원화대출은 계산상 57.2%, 부산은행은 54.5%다. 1~9월 저원가성수신/원화예수금 평잔 비율은 각각 30.65%, 31.68%다.
+
+근거: [ST-KN-001](../sources/cards/ST-KN-001.md)
+
+한계: - 고객 수·소재지역·수출기업 비중이 아니다. 저원가성수신 전체가 기업 운영예금은 아니다.
+
+### C-385 · fact · active
+
+경남은행 fERP와 IBK e-branch·KB Cyber Branch는 자금관리·외부 시스템 연계를 안내한다. IBK는 외환 문서·미입금·한도 관리도 열거하고 KB ERP 연계는 표시 항목 범위다.
+
+근거: [ST-KN-002](../sources/cards/ST-KN-002.md), [KNX-S-007](../sources/cards/KNX-S-007.md), [ST-KN-005](../sources/cards/ST-KN-005.md)
+
+한계: - 안내 기능의 존재이지 고객별 실제 설치·실행·가격·효율 실증은 아니다.
+
+### C-386 · institution_statement · active
+
+BNK는 2026년 9월 Value-up 2.0에서 지역 산업금융·자본시장 수익, 공통 IT·비용 효율, 자본 배분 개선과 제한적 디지털자산 학습을 제시했다. RM 개인 역량 의존도 자기진단에 포함한다.
+
+근거: [BMX-BNK-001](../sources/cards/BMX-BNK-001.md)
+
+한계: - 공개 전략·진단이지 실적·구현 완료가 아니다.
+
+### C-387 · interpretation · active
+
+AI의 금리·FX·지급·현금성 상품 비교 실행은 BNK의 예금 조달 기여와 FX 스프레드를 압박할 수 있다. 은행권 내 자금 위치·보유자 변화와 BNK 개별 조달 손실을 구분하며 지급토큰 발행자의 준비금 수익을 BNK에 귀속하지 않는다.
+
+근거: [ST-KN-001](../sources/cards/ST-KN-001.md), [ST-TD-005](../sources/cards/ST-TD-005.md), [KNX-S-007](../sources/cards/KNX-S-007.md), [ST-KN-005](../sources/cards/ST-KN-005.md)
+
+한계: - 필요 권한·계약·고객 위임을 가정한 메커니즘. 한국의 실제 규모나 BNK 토큰 발행자 계약을 확인한 사실이 아니다.
+
+### C-388 · hypothesis · active
+
+운영자금·외환·필요 신용을 함께 완결하는 기업 서비스가 범용 조회보다 BNK의 기존 예금·거래·여신 관계 방어에 적합할 수 있다.
+
+근거: [ST-KN-001](../sources/cards/ST-KN-001.md), [ST-KN-002](../sources/cards/ST-KN-002.md), [KNX-S-007](../sources/cards/KNX-S-007.md), [ST-KN-005](../sources/cards/ST-KN-005.md)
+
+한계: - 연구 제안. 관계 전체 기여·고객 편익 실측 null.
+
+다른 설명: 경쟁 은행이 동등한 완결성과 더 낮은 총비용·좋은 신용 조건을 제공하면 우위가 사라질 수 있다.
+
+다음 관측: 동등 조건 견적·완료·예외 처리, 고객 잔류 업무, 예금 잠식·파트너 보수·획득비를 포함한 전체 기여를 비교.
+
+### C-389 · hypothesis · active
+
+거래자료를 검증·갱신해 신용·담보·사후관리에 활용하는 것이 대출 규모 확대보다 위험조정 수익을 개선할 우선 과제일 수 있다.
+
+근거: [ST-KN-001](../sources/cards/ST-KN-001.md), [BMX-BNK-001](../sources/cards/BMX-BNK-001.md)
+
+한계: - 연구 제안. 실제 손실 감소·자료 접근권·경쟁 모형 우위 미확인.
+
+다른 설명: 자료가 부정확하거나 경쟁자가 동등한 자료·우수 모형을 확보하고 오탐·확인 비용이 커지면 효과가 제한된다.
+
+다음 관측: 동일 고객군의 처리비·오탐·정상고객 배제, 경보 후 개입·회수, 충분한 기간의 손실과 위험조정 기여 비교.
+
+### C-390 · hypothesis · active
+
+지역 산업금융의 발굴·주선·리스·사후관리를 법인별로 나누고 자산을 선별 보유하는 방식이 대규모 독자 토큰 발행·자기 인수보다 현재 기반에 적합할 수 있다.
+
+근거: [ST-KN-001](../sources/cards/ST-KN-001.md), [BMX-BNK-001](../sources/cards/BMX-BNK-001.md)
+
+한계: - 연구 제안. 보수·투자자 수요·권한·전체 기여는 별도 확인.
+
+다른 설명: 경쟁자가 조달비·판매망·관리에서 우위이거나 BNK가 보수보다 큰 인수·보증·유동성 위험을 지면 부적합.
+
+다음 관측: 반복 고객·보수·권리 검증·외부 자금 확약·손실 귀속·자본 소요와 경쟁 견적을 확인해 기존 방식 대비 기여 대조.
+
+### C-399 · institution_statement · active
+
+한화생명 8월12일 상반기 IR은 연결 순이익904.5십억원·지배주주771.9십억원, 별도 세전 보험손익285.3·투자손익354.8십억원을 제시한다.
+
+근거: [BMX-HW-001](../sources/cards/BMX-HW-001.md)
+
+한계: 발표시점 IR이며 후속 정정/확정 공시와 완전 대조하지 않음. 3분기 수치 아님.
+
+### C-400 · institution_statement · active
+
+동일 IR의 별도 신계약CSM은 약1300십억원, 보유CSM약8928십억원이며 GA 설계사38092명과13회90.0%/25회77.4% 유지율을 표시한다.
+
+근거: [BMX-HW-001](../sources/cards/BMX-HW-001.md)
+
+한계: CSM과 현금·이익·자본, 설계사와 고객 수를 구분. 유지율 모집단 세부 미확인. 25회는FY25 78.3%보다 낮음.
+
+### C-401 · institution_statement · active
+
+일반계정 운용자산93742십억원은 생명 별도·퇴직연금 제외이고, K-ICS167%는8월12일 IR의 예상(e)이다.
+
+근거: [BMX-HW-001](../sources/cards/BMX-HW-001.md)
+
+한계: 한화자산운용 외부AUM·신사업 자유재원·최신 확정비율·기본자본비율 아님.
+
+### C-402 · institution_statement · active
+
+IR의 주요법인 상반기 순이익은 한화자산운용27·투자증권56·Nobu29·HLI US Investment LLC29십억원(반올림), 회사 표시 해외 비중11%다.
+
+근거: [BMX-HW-001](../sources/cards/BMX-HW-001.md)
+
+한계: US Investment는 여러 법인 포함. Velocity 단독·Nobu 방카·UAEETF/토큰 사업 이익과 생명 지분귀속을 뜻하지 않음. 주요표와 전체bridge 차이 미해소.
+
+### C-403 · interpretation · active
+
+산업 한화그룹·금융복합기업집단·생명 연결·한국 생명 별도는 다른 범위이므로 계열사 자본·고객·면허를 하나로 합쳐 신사업 역량을 계산할 수 없다.
+
+근거: [HWX-R-008](../sources/cards/HWX-R-008.md), [BMX-HW-001](../sources/cards/BMX-HW-001.md)
+
+한계: 금융위 지정과 IR의 선택 범위에 근거한 경제적 해석이며 전 법인 연결범위 법률/회계 실사 아님.
+
+### C-404 · hypothesis · active
+
+한화의 AI 적응은 국내 보험·GA의 적합한 계약 유지·인수·청구 품질에 우선 투자할 때 현재 큰 계약 기반을 지킬 가능성이 있다.
+
+근거: [BMX-HW-001](../sources/cards/BMX-HW-001.md), [HWX-V-001](../sources/cards/HWX-V-001.md), [HWX-V-003](../sources/cards/HWX-V-003.md)
+
+한계: 회사 확정순위·수익 예측 아님. 고객을 불리한 계약에 유지시키는 목표 아님.
+
+다른 설명: 경쟁사 AI와 정보 표준화가 보수 압박과 우량 위험 이동을 확대하거나, 기존 API·업무개선만으로 충분할 수 있다.
+
+다음 관측: 동일 위험집단·보장·채널의 유지·실효·예실차·획득비·민원·장기 자본기여를 관측.
+
+### C-405 · hypothesis · active
+
+보험자산의 권리·담보·환매·실제 은행현금을 연결하는 운영은 ALM·지급·위험 비용을 개선할 수 있으나 온체인 속도가 유동성·자본을 자동 절약하지 않는다.
+
+근거: [BMX-HW-001](../sources/cards/BMX-HW-001.md), [ST-HW-015](../sources/cards/ST-HW-015.md)
+
+한계: 내부 편익과 외부 매출을 분리. 같은 비용을 투자손익과 절감액에 중복 계상하지 않음.
+
+다른 설명: 상계 손실·사전조달·환매 지연 또는 기존 인프라의 낮은 비용 때문에 온체인의 총비용이 커질 수 있다.
+
+다음 관측: 동일 통화·만기·지급 스트레스에서 실제 완료시간·현금버퍼·자본·복구비용 비교.
+
+### C-406 · hypothesis · active
+
+필요 권한·위임·현금 연결이 성립한 미래에도 인니 은행/보험, 미국 기관 운영, UAE 상품 유통은 각각 고객이 재선택하는 기능의 대가로 평가해야 한다.
+
+근거: [ST-HW-007](../sources/cards/ST-HW-007.md), [HWX-A-001](../sources/cards/HWX-A-001.md), [HWX-A-004](../sources/cards/HWX-A-004.md), [HWX-A-008](../sources/cards/HWX-A-008.md), [BMX-HW-001](../sources/cards/BMX-HW-001.md)
+
+한계: 현재 개별 디지털 계약·요율·고객량·증분이익은 미확인. 세계 동시 개방 예측 아님.
+
+다른 설명: 외부 공급자가 더 낮은 총비용·나은 보장/실행을 제공하면 일부 한화 상품은 탈락하고 외부 상품 운영·유통이 더 유리할 수 있다.
+
+다음 관측: 계약상 실제 보수·반복고객·가격대응 후 완결량·기존 잠식·총비용 및 자본 후 전체 증분기여.
+
+### C-407 · interpretation · active
+
+보험료·판매보수·투자원금·운용보수·은행조달·기관 운영수입은 서로 다르며 기존 보험금 지급을 새 AI 구독료의 조건으로 만들면 안 된다.
+
+근거: [BMX-HW-001](../sources/cards/BMX-HW-001.md), [HWX-V-003](../sources/cards/HWX-V-003.md), [HWX-A-008](../sources/cards/HWX-A-008.md)
+
+한계: 경제·고객권리 설계 원칙. 실제 가격·법률 승인·전결권은 확인하지 않음.
+
+### C-408 · interpretation · active
+
+현재 수익기반을 반영한 연구 우선순위는 국내 보험·GA, 보험자산/현금/자본, 선택 해외 외부수익화이며 기존 해외 사례는 마지막 범주 안에서 구체화한다.
+
+근거: [BMX-HW-001](../sources/cards/BMX-HW-001.md), [ST-HW-015](../sources/cards/ST-HW-015.md), [HWX-A-001](../sources/cards/HWX-A-001.md)
+
+한계: 새 회사 계획이 아닌 기존 사업안의 우선순위 갱신. 해외 현재 이익과 신규 디지털 증분 성과를 분리.
+
+### C-409 · interpretation · active
+
+금융기관의 AI·온체인 전략은 기존 이자·수수료·보험서비스·투자손익 중 무엇이 변하는지부터 설명해야 한다. 예금·보험료·AUM·토큰 발행액·자본을 수익과 동일시하면 방어할 사업과 투자 순서를 오판한다.
+
+근거: [ST-KN-001](../sources/cards/ST-KN-001.md), [ST-KY-001](../sources/cards/ST-KY-001.md), [BMX-HW-001](../sources/cards/BMX-HW-001.md)
+
+한계: 개별 자료의 읽은 범위는 출처 카드에 보존. 미래 사업 제안은 회사 확정 계획·성과 예측이 아니다.
+
+### C-413 · hypothesis · active
+
+AI가 상품 조합과 안내를 쉽게 할수록 원권리·신용심사·유동성·보험금 지급·복구처럼 자본과 운영 책임이 필요한 기능에 대가를 붙일 여지가 남는다. 그러나 책임을 수행하는 비용과 경쟁자의 대체 능력보다 고객 편익이 커야 수익이 유지된다.
+
+근거: [FIN-003](../sources/cards/FIN-003.md), [ST-TD-007](../sources/cards/ST-TD-007.md), [OBX-E-001](../sources/cards/OBX-E-001.md), [OBX-E-019](../sources/cards/OBX-E-019.md)
+
+한계: 개별 자료의 읽은 범위는 출처 카드에 보존. 미래 사업 제안은 회사 확정 계획·성과 예측이 아니다.
+
+다른 설명: 대형 사업자의 통합·무료 제공과 권리 표준화로 그 기능까지 상품화되면 추가 보수는 축소된다.
+
+다음 관측: 경쟁사 견적을 받은 뒤에도 고객이 유료 반복 이용하는 기능, 실행·청구 실패 시 비용과 책임, 계약상 외부 수입
+
 ## 관련 원문
 
 - [KYO-GEO-001 · Kyobo Life Insurance Group and Japan’s SBI Group ink strategic partnership](../sources/cards/KYO-GEO-001.md)
@@ -1351,7 +1547,7 @@ AI가 비교·이전 비용을 낮추면 시중은행의 예금금리·FX·여�
 - [ST-HW-010 · 한화생명, 증여 자산관리 플랫폼 ‘파이’ 출시](../sources/cards/ST-HW-010.md)
 - [ST-HW-011 · MVB Partners with Velocity to Join Visa Direct Stablecoin Settlement Network](../sources/cards/ST-HW-011.md)
 - [ST-HW-015 · Risk Management](../sources/cards/ST-HW-015.md)
-- [ST-KN-001 · BNK금융그룹 2026년 3분기 경영실적: 경남은행 선정 표](../sources/cards/ST-KN-001.md)
+- [ST-KN-001 · BNK금융그룹 2026년 3분기 경영실적: 그룹·은행·비은행 선택 표](../sources/cards/ST-KN-001.md)
 - [ST-KN-003 · BNK금융그룹 2026년 하반기 조직개편 실시](../sources/cards/ST-KN-003.md)
 - [ST-TD-002 · AI Agent 강의 — Coase와 통제된 자율성](../sources/cards/ST-TD-002.md)
 - [ST-TD-005 · Banks in the Age of Stablecoins: Some Possible Implications for Deposits, Credit, and Financial Intermediation](../sources/cards/ST-TD-005.md)
@@ -1407,5 +1603,8 @@ AI가 비교·이전 비용을 낮추면 시중은행의 예금금리·FX·여�
 - [OBX-E-027 · CoinList Risk Factors](../sources/cards/OBX-E-027.md)
 - [OBX-E-028 · Introducing the Ondo Network](../sources/cards/OBX-E-028.md)
 - [OBX-R-001 · HKMA advances Project Ensemble pilot phase to 24/7 settlement in tokenised Central Bank Money](../sources/cards/OBX-R-001.md)
+- [BMX-BNK-001 · BNK Financial Group Value-up Plan 2.0](../sources/cards/BMX-BNK-001.md)
+- [BMX-HW-001 · 2026년 상반기 경영실적 — 회사 작성 IR 배포본](../sources/cards/BMX-HW-001.md)
+- [BMX-HW-002 · Earnings Release — FY2026 공개 실적 목록](../sources/cards/BMX-HW-002.md)
 
 [전체 주제 지도](INDEX.md)

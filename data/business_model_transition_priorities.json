@@ -1,0 +1,308 @@
+{
+  "as_of": "2026-11-04",
+  "classification": "analyst_operating_focus_refinement_not_company_committed_plan",
+  "report": "reports/35_business_models_and_agent_finance.md",
+  "existing_STR_priority_change": false,
+  "reason": "사용자가 요청한 근거·논리 중심 설명에 맞춰 현재 수익 기반에서 실행의 무게중심을 명확히 함. 기존 STR12개 수치 순위는 유지.",
+  "argument_order": [
+    "본래 고객 문제와 금융 수익모델",
+    "실제 규모·수익·자본·강약점",
+    "AI/온체인의 기능별 변화",
+    "기존 수익 이동·가격 하락·추가 비용과 새 수요",
+    "경쟁사 대응 뒤 선택 이유",
+    "우선 업무·책임·대가·판단 변경 관측"
+  ],
+  "groups": [
+    {
+      "group": "BNK금융",
+      "report": "reports/36_bnk_business_model_priorities.md",
+      "priorities": [
+        {
+          "rank": 1,
+          "id": "BMX-P-01",
+          "name": "기업 운영자금·외환·필요 신용 관계 방어",
+          "status": "research_proposal",
+          "evidence": [
+            "BMX-F-007",
+            "BMX-F-008",
+            "ST-KN-002",
+            "KNX-S-007",
+            "ST-KN-005"
+          ],
+          "existing_revenue_defended": [
+            "예금 조달 기여",
+            "FX·지급 순기여",
+            "위험조정 운전자금 여신 수익"
+          ],
+          "mechanism": "AI 비교로 거래 가격이 압박될 때 현금 도착·문서·예외·약정 신용을 완결해야 재선택될 이유가 생긴다.",
+          "why_bnk": "기업대출 기반과 기존 fERP 접점. 우월한 데이터·충성도는 별도 검증.",
+          "action": "반복 지급/미수금 업무의 대안별 총비용·도착·실패·추가차입을 대조하고 책임자 명시.",
+          "if_large_banks_copy": "문서·신용·예외 처리 우위와 문제 해결이 남아야 한다. 동등하면 공동 서비스나 좁은 역할로 재평가.",
+          "payer_revenue_cost": "기업이 계약 대가를 지급하고 실행 은행이 수입을 얻음. 파트너·조달·헤지·신용·운영비와 예금 잠식을 관계 전체에서 평가.",
+          "next_observation": "경쟁 재선택 후 잔류 업무·실제 완료·전체 증분 기여",
+          "stop_condition": "전체 기여 악화 지속 시 재설계",
+          "claim_ids": [
+            "C-388"
+          ]
+        },
+        {
+          "rank": 2,
+          "id": "BMX-P-02",
+          "name": "거래자료 기반 신용·사후관리 품질",
+          "status": "research_proposal",
+          "evidence": [
+            "BMX-F-005",
+            "BMX-F-007",
+            "BMX-BNK-001"
+          ],
+          "existing_revenue_defended": [
+            "기업여신 손실 후 이자수익",
+            "자본 효율",
+            "업무비 절감"
+          ],
+          "mechanism": "거래·권리·담보 검증을 심사·경보·회수와 연결해 잘못된 신용과 중복 업무를 줄인다.",
+          "why_bnk": "기업여신과 신용 부담이 커서 개선이 기존 사업에 직접 작용 가능.",
+          "action": "동일 산업 고객군에서 적법성·정확도·오탐·심사/현장 비용·회수를 비교.",
+          "if_large_banks_copy": "적법한 정보·현장 검증·개입·회수 성과가 남아야 함. 지역 관계만으로 부족.",
+          "payer_revenue_cost": "기존 이자·손실/비용 개선이 기본 수익. 절감액을 외부 매출로 중복 계산 금지.",
+          "next_observation": "실제 손실·오탐·처리비·회수 성과",
+          "stop_condition": "자료/모형 오류·확인비가 편익 상쇄 시 자동화 축소",
+          "claim_ids": [
+            "C-389"
+          ]
+        },
+        {
+          "rank": 3,
+          "id": "BMX-P-03",
+          "name": "선별적 그룹 산업금융 주선·리스·관리",
+          "status": "research_proposal",
+          "evidence": [
+            "BMX-F-001",
+            "BMX-F-002",
+            "BMX-F-006",
+            "BMX-BNK-001"
+          ],
+          "existing_revenue_defended": [
+            "기업 관계",
+            "주선·구조화·관리 보수",
+            "리스·대출 위험조정 수익"
+          ],
+          "mechanism": "발견한 산업 수요를 각 법인과 외부 자금에 연결하고 인수·보증·유동성 위험을 보수와 분리.",
+          "why_bnk": "기업 기반과 은행·캐피탈·증권·운용 기능 연결 가능성.",
+          "action": "후보별 권리·지급자·법인 손익·자본·정보 책임을 비교해 보유/외부 분배 선택.",
+          "if_large_banks_copy": "발굴·검증·구조·사후관리 역할이 남아야 함. 경쟁자 조달·판매망을 쓰는 공동 거래도 대안.",
+          "payer_revenue_cost": "차입기업·발행자·펀드 등 계약 지급자가 해당 법인에 지급. 원금·투자자 수익과 BNK 매출을 분리하고 내부거래 제거.",
+          "next_observation": "외부 확약·반복 고객·보수·원가·손실 귀속·자본 대비 기여",
+          "stop_condition": "보수 대비 자기인수·보증·상시 유동성 위험 과다 시 확대 중단",
+          "claim_ids": [
+            "C-390"
+          ]
+        }
+      ],
+      "claim_ids": [
+        "C-382",
+        "C-383",
+        "C-384",
+        "C-385",
+        "C-386",
+        "C-387",
+        "C-388",
+        "C-389",
+        "C-390"
+      ]
+    },
+    {
+      "group": "교보그룹",
+      "report": "reports/37_kyobo_business_model_priorities.md",
+      "priorities": [
+        {
+          "id": "BMX-KY-P01",
+          "rank": 1,
+          "title": "기존 거래 고객 주문·증거금·통화·현금 연결",
+          "evidence": {
+            "source_ids": [
+              "ST-KY-001"
+            ],
+            "observations": [
+              "BMX-KY-F-24",
+              "BMX-KY-F-25",
+              "BMX-KY-F-16"
+            ]
+          },
+          "mechanism": "AI가 수수료와 자금 도착·마진·복구 비용을 함께 비교하면 주문·보수·대기자금이 경쟁 브로커로 이동할 수 있다.",
+          "action": "실제 거래 병목을 측정하고 위임 한도·유효 견적·결정론적 금액/주문 통제·예외 복구를 제공한다.",
+          "why_kyobo": "이미 실제 중개 고객과 수수료가 존재한다. 독점성은 아직 입증되지 않았다.",
+          "payer": "거래 고객; 지급 구조별 중개·신용·환전 계약 확인",
+          "revenue_capture": "중개·허용된 자금 서비스 수입, 고객자금 효율화에 따른 이자 기여 잠식 포함",
+          "competitor_response": "대형 국내외·저비용 브로커가 가격·환전료 인하 및 자체 AI로 대응",
+          "stop_condition": "가격 대응 후 기여가 운영·유동성·보안비를 감당하지 못하거나 고객 편익 부재",
+          "actual_new_revenue": null
+        },
+        {
+          "id": "BMX-KY-P02",
+          "rank": 2,
+          "title": "기존 IB 반복 발행·권리·수금·회수 관리",
+          "evidence": {
+            "source_ids": [
+              "ST-KY-001",
+              "KYX-A-004"
+            ],
+            "observations": [
+              "BMX-KY-F-11",
+              "BMX-KY-F-12",
+              "BMX-KY-F-13"
+            ]
+          },
+          "mechanism": "문서·탐색 자동화 후에도 신용·우선순위·수금과 책임이 남는다. 반복업무 감소를 지급자가 인정할 때 보수가 생긴다.",
+          "action": "기존 고객 계약 한 종류부터 데이터·권리·동의·배분·보고를 연결하고 반복 주선/관리 계약을 검증한다.",
+          "why_kyobo": "현재 인수·주선·자문 및 SPC관리 관련 수입이 있다. 새 발행인의 경쟁 우위는 미확인이다.",
+          "payer": "발행인 또는 계약상 투자자/수탁 구조",
+          "revenue_capture": "주선·관리 보수; 인수·보증은 별도 자본과 기대손실",
+          "competitor_response": "대형 IB 묶음 가격·직접 발행 플랫폼·수탁 서비스",
+          "stop_condition": "원권리·수금 통제 미확정 또는 기존 방식의 총비용 우위",
+          "actual_new_revenue": null
+        },
+        {
+          "id": "BMX-KY-P03",
+          "rank": 3,
+          "title": "기관 금융상품 비교·집행·유지관리",
+          "evidence": {
+            "source_ids": [
+              "ST-KY-001",
+              "BMX-KY-001",
+              "BMX-KY-002",
+              "OBX-E-019",
+              "OBX-E-020",
+              "OBX-P-005"
+            ],
+            "observations": [
+              "BMX-KY-F-19",
+              "BMX-KY-F-20",
+              "BMX-KY-F-21",
+              "BMX-KY-F-32"
+            ]
+          },
+          "mechanism": "직접 기초상품·온체인 구현과 비교되면 불필요한 포장 보수는 고객에게 이전한다. 집행·보고·회복 책임에 지불의사가 있으면 별도 수입을 얻는다.",
+          "action": "기존 기관 고객 한 업무에서 권리·총비용·현금시각 비교와 실제 집행/보고를 검증. 생명은 독립 심사·ALM·가격·계약을 통과할 때 참여.",
+          "why_kyobo": "증권 실제 상품·신탁 기능과 별도 생명 전문성이 있다. 자동 고객·자본 공유는 없다.",
+          "payer": "외부 기관 또는 적법한 개별 서비스 계약 고객",
+          "revenue_capture": "관리/집행 보수에서 기존 판매보수 순감소와 파트너·운영비를 한 번씩 반영",
+          "competitor_response": "운용사 직접판매·AI플랫폼 무료 관리·대형 증권사 가격 대응",
+          "stop_condition": "고객이 별도 보수를 내지 않거나 기존 내부 역량·경쟁 서비스가 더 유리함",
+          "actual_new_revenue": null
+        }
+      ],
+      "claim_ids": [
+        "C-391",
+        "C-392",
+        "C-393",
+        "C-394",
+        "C-395",
+        "C-396",
+        "C-397",
+        "C-398"
+      ]
+    },
+    {
+      "group": "한화그룹",
+      "report": "reports/38_hanwha_business_model_priorities.md",
+      "priorities": [
+        {
+          "id": "BMX-HW-P1",
+          "rank": 1,
+          "title": "국내 보험·GA의 계약 품질과 유지·청구",
+          "classification": "research_priority_not_company_plan",
+          "evidence_ids": [
+            "BMX-HW-F02",
+            "BMX-HW-F04",
+            "BMX-HW-F05"
+          ],
+          "source_ids": [
+            "BMX-HW-001",
+            "HWX-V-001",
+            "HWX-V-003"
+          ],
+          "mechanism": "고객 AI의 비교로 단순 설명·획득 보수가 압박받고 전환·위험구성이 바뀐다. 보장 적합성·정확한 인수·정당한 지급·유지 품질이 기존 계약 경제성을 지키는 후보다.",
+          "action": "상품버전/권한/확정견적/전환손실/납입·청구·재심사를 연결. 기존 계약 유지와 가입하지 않기도 제시.",
+          "payer_revenue": "보험자는 계약자 보험료를 받으며 판매계약상 보수를 GA에 지급. 별도 AI 구독료는 기본 수익가정이 아님.",
+          "competition": "외부 보험사·GA·플랫폼이 같은 AI로 가격·유통비를 낮춘다. 데이터 표준화는 계열 고객의 비교·이동도 쉽게 한다.",
+          "next_observation": "같은 위험집단·보장·채널에서 유지·실효·청구예실차·획득비·민원·장기 자본기여 비교.",
+          "stop_condition": "불완전판매·반복 갈아타기·부당 청구거절 또는 위험구성 악화가 확대될 때. 판매량 증가만으로 확장하지 않음."
+        },
+        {
+          "id": "BMX-HW-P2",
+          "rank": 2,
+          "title": "보험 부채를 지원하는 자산·현금·자본 운영",
+          "classification": "research_priority_not_company_plan",
+          "evidence_ids": [
+            "BMX-HW-F03",
+            "BMX-HW-F06",
+            "BMX-HW-F07"
+          ],
+          "source_ids": [
+            "BMX-HW-001",
+            "ST-HW-015"
+          ],
+          "mechanism": "신속 이전과 실제 원화 지급은 다르며 연속 결제가 상계 편익과 버퍼를 바꾼다. 부채 적합성과 총비용이 수익보다 선행한다.",
+          "action": "통화별 지급 의무·가용현금·담보/권리·환매·은행도착·실패복구를 연결하고 기존 API+AI와 비교.",
+          "payer_revenue": "우선 내부 운영·위험 비용 개선. 외부 유료 계약 전 신규 매출 아님.",
+          "competition": "기존 인프라 업체가 같은 대사·현금 조회를 더 싸게 제공할 수 있다.",
+          "next_observation": "동일 통화·만기·지급 스트레스의 총비용·자본·유동성 소모와 실제 완료시간.",
+          "stop_condition": "현금화 지연·자본 또는 선자금 부담이 기존 방식보다 커질 때 온체인 범위 축소."
+        },
+        {
+          "id": "BMX-HW-P3",
+          "rank": 3,
+          "title": "보유 해외 금융 기능의 선택적 외부 수익화",
+          "classification": "research_priority_not_company_plan",
+          "evidence_ids": [
+            "BMX-HW-F08"
+          ],
+          "source_ids": [
+            "BMX-HW-001",
+            "ST-HW-007",
+            "HWX-A-001",
+            "HWX-A-004",
+            "HWX-A-008"
+          ],
+          "mechanism": "Nobu의 은행 접점, 미국 청산 기능, UAE 실제 상품 유통을 반복 외부 고객 업무에 연결하되 법인별 의무·보수·자본을 유지한다.",
+          "action": "인니 보장·IDR납입·유지·청구, 미국 기관 계좌·현금·예외, UAE 동일노출 총비용·주문·사후관리 중 실제 지급자가 있는 한 업무씩 확장.",
+          "payer_revenue": "보험료/유통보수, 기관 청산·수탁·증권금융 계약, 운용/sponsor 계약을 별도 집계. AI 자체는 지급자가 아님.",
+          "competition": "외부 보험·은행·청산사·운용사·AI 플랫폼의 가격 인하와 고객 재선택. 외부상품 취급이 그룹 순기여에 더 좋을 수 있음.",
+          "next_observation": "고객 반복사용·계약상 보수·단가/수량·기존 잠식·직접비/준법/신용/자본 후 전체 증분기여.",
+          "stop_condition": "실제 유료 수요 없이 거래량만 늘거나 기존 국내·현지 본업의 자본/서비스를 훼손하면 확대 보류."
+        }
+      ],
+      "claim_ids": [
+        "C-399",
+        "C-400",
+        "C-401",
+        "C-402",
+        "C-403",
+        "C-404",
+        "C-405",
+        "C-406",
+        "C-407",
+        "C-408"
+      ]
+    }
+  ],
+  "common_claim_ids": [
+    "C-409",
+    "C-410",
+    "C-411",
+    "C-412",
+    "C-413"
+  ],
+  "customer_AI_trust_requirements": [
+    "동일 목적과 권리의 비교 가능한 공식 조건·갱신시각",
+    "유효기간 있는 전체 가격·실행자격·현금화 시점",
+    "위임 범위·정책·승인자·철회·오류 통제",
+    "접수·체결·결제·입금·청구완료의 구분과 증거",
+    "오류·민원·정정·손실 부담 계약과 담당 법인"
+  ],
+  "alternative_outcome": "대형 금융사의 AI 채택·가격 인하·통합 제공으로 기존 규모 우위가 강화되고 추가 서비스 수익이 고객의 절약으로 이전될 수 있음.",
+  "actual_new_service_contract": false,
+  "actual_financial_execution": false,
+  "actual_profit_forecast": null
+}

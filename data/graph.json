@@ -759,7 +759,7 @@
     {
       "id": "ST-KN-001",
       "type": "source",
-      "label": "BNK금융그룹 2026년 3분기 경영실적: 경남은행 선정 표"
+      "label": "BNK금융그룹 2026년 3분기 경영실적: 그룹·은행·비은행 선택 표"
     },
     {
       "id": "ST-KN-002",
@@ -1415,6 +1415,46 @@
       "id": "OBX-R-001",
       "type": "source",
       "label": "HKMA advances Project Ensemble pilot phase to 24/7 settlement in tokenised Central Bank Money"
+    },
+    {
+      "id": "BMX-BNK-001",
+      "type": "source",
+      "label": "BNK Financial Group Value-up Plan 2.0"
+    },
+    {
+      "id": "BMX-KY-001",
+      "type": "source",
+      "label": "교보생명 2026년 2분기 정기경영공시 I. 주요 경영현황 요약"
+    },
+    {
+      "id": "BMX-KY-002",
+      "type": "source",
+      "label": "교보생명 2026년 2분기 정기경영공시 II. 재무·손익"
+    },
+    {
+      "id": "BMX-KY-003",
+      "type": "source",
+      "label": "FY2026 상반기 실적 설명자료 — 교보생명 연결 순익7048억원"
+    },
+    {
+      "id": "BMX-KY-004",
+      "type": "source",
+      "label": "교보생명은 왜 전속 설계사(FP) 중심 영업 전략을 유지할까?"
+    },
+    {
+      "id": "BMX-KY-005",
+      "type": "source",
+      "label": "교보문고 감사보고서 (2025.12)"
+    },
+    {
+      "id": "BMX-HW-001",
+      "type": "source",
+      "label": "2026년 상반기 경영실적 — 회사 작성 IR 배포본"
+    },
+    {
+      "id": "BMX-HW-002",
+      "type": "source",
+      "label": "Earnings Release — FY2026 공개 실적 목록"
     },
     {
       "id": "C-001",
@@ -4082,6 +4122,230 @@
       "kind": "hypothesis",
       "status": "active",
       "label": "규제·온체인 연결이 정상이어도 여러 고객 AI가 같은 때 환매·동일 통화 지급을 요청하면 재고·조달·신용·상계 조건에 따라 가격과 제공량이 바뀌고, 지급 버퍼·회수·보험금 현금·예외 처리의 가치가 커질 수 있다."
+    },
+    {
+      "id": "C-382",
+      "type": "claim",
+      "kind": "fact",
+      "status": "active",
+      "label": "2026년 1~9월 그룹 지배주주 순이익 6,223억원. 자회사 은행 5,573억원과 비은행 2,137억원 합계에서 은행 비중은 계산상 72.3%다. 지주·연결조정 -1,315억원과 비지배지분 172억원을 반영하면 그룹 지배주주 순이익과 일치한다."
+    },
+    {
+      "id": "C-383",
+      "type": "claim",
+      "kind": "fact",
+      "status": "active",
+      "label": "2026년 1~9월 그룹 순이자이익 22,872억원·비이자이익 3,183억원·그중 수수료이익 2,173억원, 판매관리비 12,522억원·충당금적립액 5,950억원이다. 이자·수수료이익 증가와 전체 순이익 감소가 함께 관측된다."
+    },
+    {
+      "id": "C-384",
+      "type": "claim",
+      "kind": "fact",
+      "status": "active",
+      "label": "2026년 9월말 경남은행 SME/원화대출은 계산상 57.2%, 부산은행은 54.5%다. 1~9월 저원가성수신/원화예수금 평잔 비율은 각각 30.65%, 31.68%다."
+    },
+    {
+      "id": "C-385",
+      "type": "claim",
+      "kind": "fact",
+      "status": "active",
+      "label": "경남은행 fERP와 IBK e-branch·KB Cyber Branch는 자금관리·외부 시스템 연계를 안내한다. IBK는 외환 문서·미입금·한도 관리도 열거하고 KB ERP 연계는 표시 항목 범위다."
+    },
+    {
+      "id": "C-386",
+      "type": "claim",
+      "kind": "institution_statement",
+      "status": "active",
+      "label": "BNK는 2026년 9월 Value-up 2.0에서 지역 산업금융·자본시장 수익, 공통 IT·비용 효율, 자본 배분 개선과 제한적 디지털자산 학습을 제시했다. RM 개인 역량 의존도 자기진단에 포함한다."
+    },
+    {
+      "id": "C-387",
+      "type": "claim",
+      "kind": "interpretation",
+      "status": "active",
+      "label": "AI의 금리·FX·지급·현금성 상품 비교 실행은 BNK의 예금 조달 기여와 FX 스프레드를 압박할 수 있다. 은행권 내 자금 위치·보유자 변화와 BNK 개별 조달 손실을 구분하며 지급토큰 발행자의 준비금 수익을 BNK에 귀속하지 않는다."
+    },
+    {
+      "id": "C-388",
+      "type": "claim",
+      "kind": "hypothesis",
+      "status": "active",
+      "label": "운영자금·외환·필요 신용을 함께 완결하는 기업 서비스가 범용 조회보다 BNK의 기존 예금·거래·여신 관계 방어에 적합할 수 있다."
+    },
+    {
+      "id": "C-389",
+      "type": "claim",
+      "kind": "hypothesis",
+      "status": "active",
+      "label": "거래자료를 검증·갱신해 신용·담보·사후관리에 활용하는 것이 대출 규모 확대보다 위험조정 수익을 개선할 우선 과제일 수 있다."
+    },
+    {
+      "id": "C-390",
+      "type": "claim",
+      "kind": "hypothesis",
+      "status": "active",
+      "label": "지역 산업금융의 발굴·주선·리스·사후관리를 법인별로 나누고 자산을 선별 보유하는 방식이 대규모 독자 토큰 발행·자기 인수보다 현재 기반에 적합할 수 있다."
+    },
+    {
+      "id": "C-391",
+      "type": "claim",
+      "kind": "fact",
+      "status": "active",
+      "label": "2026H1 교보증권은 연결 순수수료손익2026.74억원·순이자손익1431.67억원과 별도 해외선물 위탁수수료688.28억원을 공시했다. 총영업수익과 계정별·부문별 이익은 별도로 읽어야 한다."
+    },
+    {
+      "id": "C-392",
+      "type": "claim",
+      "kind": "fact",
+      "status": "active",
+      "label": "교보생명 2026Q2 정기경영공시 업무보고서 기준 자산130.8248조원·자본9.2023조원, K-ICS 경과 전155.43%·후200.75%다. 보험부채를 뒷받침하는 기반이지 그룹 공동금고가 아니다."
+    },
+    {
+      "id": "C-393",
+      "type": "claim",
+      "kind": "interpretation",
+      "status": "active",
+      "label": "생명 반기 연결 지배주주 순익은 증가했지만 별도 순익은 감소했다. 투자손익도 IR4038억원과 업무보고서4054억원의 기준 차이가 있어 동일 표에 섞거나 생명 본업 호조로 단정하면 안 된다."
+    },
+    {
+      "id": "C-394",
+      "type": "claim",
+      "kind": "interpretation",
+      "status": "active",
+      "label": "문고는 2025 상품매출 중심의 유통업이고 영업이익률은 산술상 약0.61%다. 매출이나 그룹 소속만으로 IP정산채권 금융을 대표 성장전략으로 확대할 수 없다."
+    },
+    {
+      "id": "C-395",
+      "type": "claim",
+      "kind": "hypothesis",
+      "status": "active",
+      "label": "기존 거래 고객의 주문·증거금·통화·현금 사용시각을 개선하는 업무가 신규 범용 토큰 플랫폼보다 교보증권의 먼저 검증할 과제다. 고객 AI 비교 이후에도 집행·복구의 총서비스가 경쟁력일 수 있다."
+    },
+    {
+      "id": "C-396",
+      "type": "claim",
+      "kind": "hypothesis",
+      "status": "active",
+      "label": "기존 인수·주선·자문과 유동화SPC 관리 경험을 반복 발행·권리·수금·회수 업무로 연결할 수 있다. 자기 인수·유동성 보증을 붙이면 수수료 사업과 별도 자본·신용 사업이다."
+    },
+    {
+      "id": "C-397",
+      "type": "claim",
+      "kind": "hypothesis",
+      "status": "active",
+      "label": "교보가 외부 상품도 비교·집행·보고하면 자사 상품 판매보수가 줄더라도 유료 업무를 남길 수 있다. 생명 ALM·운용 전문성은 독립 계약과 가격을 거쳐야만 증권 사업과 연결된다."
+    },
+    {
+      "id": "C-398",
+      "type": "claim",
+      "kind": "unknown",
+      "status": "active",
+      "label": "10월22일 RCPS 발행 결정 이후 실제 납입·회계 및 감독 인정자본·최신 종투사 지정·단기금융업 인가·IMA 개시의 완결 검증은 이번 범위에서 확보하지 못했다. 예정액을 반기 자본에 더해 현재 자본으로 표시하지 않는다."
+    },
+    {
+      "id": "C-399",
+      "type": "claim",
+      "kind": "institution_statement",
+      "status": "active",
+      "label": "한화생명 8월12일 상반기 IR은 연결 순이익904.5십억원·지배주주771.9십억원, 별도 세전 보험손익285.3·투자손익354.8십억원을 제시한다."
+    },
+    {
+      "id": "C-400",
+      "type": "claim",
+      "kind": "institution_statement",
+      "status": "active",
+      "label": "동일 IR의 별도 신계약CSM은 약1300십억원, 보유CSM약8928십억원이며 GA 설계사38092명과13회90.0%/25회77.4% 유지율을 표시한다."
+    },
+    {
+      "id": "C-401",
+      "type": "claim",
+      "kind": "institution_statement",
+      "status": "active",
+      "label": "일반계정 운용자산93742십억원은 생명 별도·퇴직연금 제외이고, K-ICS167%는8월12일 IR의 예상(e)이다."
+    },
+    {
+      "id": "C-402",
+      "type": "claim",
+      "kind": "institution_statement",
+      "status": "active",
+      "label": "IR의 주요법인 상반기 순이익은 한화자산운용27·투자증권56·Nobu29·HLI US Investment LLC29십억원(반올림), 회사 표시 해외 비중11%다."
+    },
+    {
+      "id": "C-403",
+      "type": "claim",
+      "kind": "interpretation",
+      "status": "active",
+      "label": "산업 한화그룹·금융복합기업집단·생명 연결·한국 생명 별도는 다른 범위이므로 계열사 자본·고객·면허를 하나로 합쳐 신사업 역량을 계산할 수 없다."
+    },
+    {
+      "id": "C-404",
+      "type": "claim",
+      "kind": "hypothesis",
+      "status": "active",
+      "label": "한화의 AI 적응은 국내 보험·GA의 적합한 계약 유지·인수·청구 품질에 우선 투자할 때 현재 큰 계약 기반을 지킬 가능성이 있다."
+    },
+    {
+      "id": "C-405",
+      "type": "claim",
+      "kind": "hypothesis",
+      "status": "active",
+      "label": "보험자산의 권리·담보·환매·실제 은행현금을 연결하는 운영은 ALM·지급·위험 비용을 개선할 수 있으나 온체인 속도가 유동성·자본을 자동 절약하지 않는다."
+    },
+    {
+      "id": "C-406",
+      "type": "claim",
+      "kind": "hypothesis",
+      "status": "active",
+      "label": "필요 권한·위임·현금 연결이 성립한 미래에도 인니 은행/보험, 미국 기관 운영, UAE 상품 유통은 각각 고객이 재선택하는 기능의 대가로 평가해야 한다."
+    },
+    {
+      "id": "C-407",
+      "type": "claim",
+      "kind": "interpretation",
+      "status": "active",
+      "label": "보험료·판매보수·투자원금·운용보수·은행조달·기관 운영수입은 서로 다르며 기존 보험금 지급을 새 AI 구독료의 조건으로 만들면 안 된다."
+    },
+    {
+      "id": "C-408",
+      "type": "claim",
+      "kind": "interpretation",
+      "status": "active",
+      "label": "현재 수익기반을 반영한 연구 우선순위는 국내 보험·GA, 보험자산/현금/자본, 선택 해외 외부수익화이며 기존 해외 사례는 마지막 범주 안에서 구체화한다."
+    },
+    {
+      "id": "C-409",
+      "type": "claim",
+      "kind": "interpretation",
+      "status": "active",
+      "label": "금융기관의 AI·온체인 전략은 기존 이자·수수료·보험서비스·투자손익 중 무엇이 변하는지부터 설명해야 한다. 예금·보험료·AUM·토큰 발행액·자본을 수익과 동일시하면 방어할 사업과 투자 순서를 오판한다."
+    },
+    {
+      "id": "C-410",
+      "type": "claim",
+      "kind": "hypothesis",
+      "status": "active",
+      "label": "고객 AI의 비교와 이동이 쉬워지면 기존 수익 일부가 경쟁사·플랫폼으로 옮겨가고 일부는 가격 인하와 고객 편익으로 사라질 수 있다. 동일한 AI를 대형 금융사가 채택하고 낮은 가격으로 묶으면 기존 사업자의 규모 우위가 강화될 수도 있다."
+    },
+    {
+      "id": "C-411",
+      "type": "claim",
+      "kind": "interpretation",
+      "status": "active",
+      "label": "은행 고객 예금의 스테이블코인 이동은 준비자산의 재예치·국채 매수와 은행별 분배·가격 반응에 따라 영향을 달리한다. BNK의 핵심 질문은 시스템 총예금보다 자기 은행의 안정적 조달과 지역 기업 신용 제공 조건이다."
+    },
+    {
+      "id": "C-412",
+      "type": "claim",
+      "kind": "interpretation",
+      "status": "active",
+      "label": "고객 AI에 신뢰받을 금융서비스는 비교 가능한 권리·가격·자격·현금화 조건, 검증 가능한 위임과 현재 거래 상태, 완료 증거와 오류·민원 처리 책임을 제공해야 한다. 이는 기술 연결 기능만으로 충족되지 않는 연구자 사업 설계다."
+    },
+    {
+      "id": "C-413",
+      "type": "claim",
+      "kind": "hypothesis",
+      "status": "active",
+      "label": "AI가 상품 조합과 안내를 쉽게 할수록 원권리·신용심사·유동성·보험금 지급·복구처럼 자본과 운영 책임이 필요한 기능에 대가를 붙일 여지가 남는다. 그러나 책임을 수행하는 비용과 경쟁자의 대체 능력보다 고객 편익이 커야 수익이 유지된다."
     },
     {
       "id": "T-RIGHTS",
@@ -8208,6 +8472,146 @@
     {
       "from": "OBX-R-001",
       "to": "T-GEOGRAPHY",
+      "type": "covers"
+    },
+    {
+      "from": "BMX-BNK-001",
+      "to": "T-COMPANIES",
+      "type": "covers"
+    },
+    {
+      "from": "BMX-BNK-001",
+      "to": "T-INSTITUTION-ROLES",
+      "type": "covers"
+    },
+    {
+      "from": "BMX-BNK-001",
+      "to": "T-FUNDING",
+      "type": "covers"
+    },
+    {
+      "from": "BMX-BNK-001",
+      "to": "T-OPERATIONS",
+      "type": "covers"
+    },
+    {
+      "from": "BMX-KY-001",
+      "to": "T-COMPANIES",
+      "type": "covers"
+    },
+    {
+      "from": "BMX-KY-001",
+      "to": "T-MONEY",
+      "type": "covers"
+    },
+    {
+      "from": "BMX-KY-001",
+      "to": "T-OPERATIONS",
+      "type": "covers"
+    },
+    {
+      "from": "BMX-KY-001",
+      "to": "T-AGENT-FINANCE",
+      "type": "covers"
+    },
+    {
+      "from": "BMX-KY-002",
+      "to": "T-COMPANIES",
+      "type": "covers"
+    },
+    {
+      "from": "BMX-KY-002",
+      "to": "T-MONEY",
+      "type": "covers"
+    },
+    {
+      "from": "BMX-KY-002",
+      "to": "T-OPERATIONS",
+      "type": "covers"
+    },
+    {
+      "from": "BMX-KY-002",
+      "to": "T-AGENT-FINANCE",
+      "type": "covers"
+    },
+    {
+      "from": "BMX-KY-003",
+      "to": "T-COMPANIES",
+      "type": "covers"
+    },
+    {
+      "from": "BMX-KY-003",
+      "to": "T-MONEY",
+      "type": "covers"
+    },
+    {
+      "from": "BMX-KY-003",
+      "to": "T-OPERATIONS",
+      "type": "covers"
+    },
+    {
+      "from": "BMX-KY-003",
+      "to": "T-AGENT-FINANCE",
+      "type": "covers"
+    },
+    {
+      "from": "BMX-KY-004",
+      "to": "T-COMPANIES",
+      "type": "covers"
+    },
+    {
+      "from": "BMX-KY-004",
+      "to": "T-MONEY",
+      "type": "covers"
+    },
+    {
+      "from": "BMX-KY-004",
+      "to": "T-OPERATIONS",
+      "type": "covers"
+    },
+    {
+      "from": "BMX-KY-004",
+      "to": "T-AGENT-FINANCE",
+      "type": "covers"
+    },
+    {
+      "from": "BMX-KY-005",
+      "to": "T-COMPANIES",
+      "type": "covers"
+    },
+    {
+      "from": "BMX-KY-005",
+      "to": "T-MONEY",
+      "type": "covers"
+    },
+    {
+      "from": "BMX-KY-005",
+      "to": "T-OPERATIONS",
+      "type": "covers"
+    },
+    {
+      "from": "BMX-KY-005",
+      "to": "T-AGENT-FINANCE",
+      "type": "covers"
+    },
+    {
+      "from": "BMX-HW-001",
+      "to": "T-COMPANIES",
+      "type": "covers"
+    },
+    {
+      "from": "BMX-HW-001",
+      "to": "T-INSTITUTION-ROLES",
+      "type": "covers"
+    },
+    {
+      "from": "BMX-HW-002",
+      "to": "T-COMPANIES",
+      "type": "covers"
+    },
+    {
+      "from": "BMX-HW-002",
+      "to": "T-INSTITUTION-ROLES",
       "type": "covers"
     },
     {
@@ -18788,6 +19192,919 @@
     {
       "from": "C-381",
       "to": "T-INSTITUTION-ROLES",
+      "type": "about"
+    },
+    {
+      "from": "ST-KN-001",
+      "to": "C-382",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "KN-004",
+      "to": "C-382",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-382",
+      "to": "T-COMPANIES",
+      "type": "about"
+    },
+    {
+      "from": "C-382",
+      "to": "T-INSTITUTION-ROLES",
+      "type": "about"
+    },
+    {
+      "from": "C-382",
+      "to": "T-FUNDING",
+      "type": "about"
+    },
+    {
+      "from": "ST-KN-001",
+      "to": "C-383",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-383",
+      "to": "T-COMPANIES",
+      "type": "about"
+    },
+    {
+      "from": "C-383",
+      "to": "T-INSTITUTION-ROLES",
+      "type": "about"
+    },
+    {
+      "from": "C-383",
+      "to": "T-FUNDING",
+      "type": "about"
+    },
+    {
+      "from": "ST-KN-001",
+      "to": "C-384",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-384",
+      "to": "T-COMPANIES",
+      "type": "about"
+    },
+    {
+      "from": "C-384",
+      "to": "T-INSTITUTION-ROLES",
+      "type": "about"
+    },
+    {
+      "from": "C-384",
+      "to": "T-FUNDING",
+      "type": "about"
+    },
+    {
+      "from": "ST-KN-002",
+      "to": "C-385",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "KNX-S-007",
+      "to": "C-385",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "ST-KN-005",
+      "to": "C-385",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-385",
+      "to": "T-COMPANIES",
+      "type": "about"
+    },
+    {
+      "from": "C-385",
+      "to": "T-INSTITUTION-ROLES",
+      "type": "about"
+    },
+    {
+      "from": "C-385",
+      "to": "T-FUNDING",
+      "type": "about"
+    },
+    {
+      "from": "BMX-BNK-001",
+      "to": "C-386",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-386",
+      "to": "T-COMPANIES",
+      "type": "about"
+    },
+    {
+      "from": "C-386",
+      "to": "T-INSTITUTION-ROLES",
+      "type": "about"
+    },
+    {
+      "from": "C-386",
+      "to": "T-FUNDING",
+      "type": "about"
+    },
+    {
+      "from": "ST-KN-001",
+      "to": "C-387",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "ST-TD-005",
+      "to": "C-387",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "KNX-S-007",
+      "to": "C-387",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "ST-KN-005",
+      "to": "C-387",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-387",
+      "to": "T-COMPANIES",
+      "type": "about"
+    },
+    {
+      "from": "C-387",
+      "to": "T-INSTITUTION-ROLES",
+      "type": "about"
+    },
+    {
+      "from": "C-387",
+      "to": "T-FUNDING",
+      "type": "about"
+    },
+    {
+      "from": "ST-KN-001",
+      "to": "C-388",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "ST-KN-002",
+      "to": "C-388",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "KNX-S-007",
+      "to": "C-388",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "ST-KN-005",
+      "to": "C-388",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-388",
+      "to": "T-COMPANIES",
+      "type": "about"
+    },
+    {
+      "from": "C-388",
+      "to": "T-INSTITUTION-ROLES",
+      "type": "about"
+    },
+    {
+      "from": "C-388",
+      "to": "T-FUNDING",
+      "type": "about"
+    },
+    {
+      "from": "ST-KN-001",
+      "to": "C-389",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "BMX-BNK-001",
+      "to": "C-389",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-389",
+      "to": "T-COMPANIES",
+      "type": "about"
+    },
+    {
+      "from": "C-389",
+      "to": "T-INSTITUTION-ROLES",
+      "type": "about"
+    },
+    {
+      "from": "C-389",
+      "to": "T-FUNDING",
+      "type": "about"
+    },
+    {
+      "from": "ST-KN-001",
+      "to": "C-390",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "BMX-BNK-001",
+      "to": "C-390",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-390",
+      "to": "T-COMPANIES",
+      "type": "about"
+    },
+    {
+      "from": "C-390",
+      "to": "T-INSTITUTION-ROLES",
+      "type": "about"
+    },
+    {
+      "from": "C-390",
+      "to": "T-FUNDING",
+      "type": "about"
+    },
+    {
+      "from": "ST-KY-001",
+      "to": "C-391",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-391",
+      "to": "T-COMPANIES",
+      "type": "about"
+    },
+    {
+      "from": "C-391",
+      "to": "T-MONEY",
+      "type": "about"
+    },
+    {
+      "from": "C-391",
+      "to": "T-OPERATIONS",
+      "type": "about"
+    },
+    {
+      "from": "C-391",
+      "to": "T-AGENT-FINANCE",
+      "type": "about"
+    },
+    {
+      "from": "BMX-KY-001",
+      "to": "C-392",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "BMX-KY-002",
+      "to": "C-392",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-392",
+      "to": "T-COMPANIES",
+      "type": "about"
+    },
+    {
+      "from": "C-392",
+      "to": "T-MONEY",
+      "type": "about"
+    },
+    {
+      "from": "C-392",
+      "to": "T-OPERATIONS",
+      "type": "about"
+    },
+    {
+      "from": "C-392",
+      "to": "T-AGENT-FINANCE",
+      "type": "about"
+    },
+    {
+      "from": "BMX-KY-001",
+      "to": "C-393",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "BMX-KY-002",
+      "to": "C-393",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "BMX-KY-003",
+      "to": "C-393",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-393",
+      "to": "T-COMPANIES",
+      "type": "about"
+    },
+    {
+      "from": "C-393",
+      "to": "T-MONEY",
+      "type": "about"
+    },
+    {
+      "from": "C-393",
+      "to": "T-OPERATIONS",
+      "type": "about"
+    },
+    {
+      "from": "C-393",
+      "to": "T-AGENT-FINANCE",
+      "type": "about"
+    },
+    {
+      "from": "BMX-KY-005",
+      "to": "C-394",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "ST-KY-007",
+      "to": "C-394",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-394",
+      "to": "T-COMPANIES",
+      "type": "about"
+    },
+    {
+      "from": "C-394",
+      "to": "T-MONEY",
+      "type": "about"
+    },
+    {
+      "from": "C-394",
+      "to": "T-OPERATIONS",
+      "type": "about"
+    },
+    {
+      "from": "C-394",
+      "to": "T-AGENT-FINANCE",
+      "type": "about"
+    },
+    {
+      "from": "ST-KY-001",
+      "to": "C-395",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-395",
+      "to": "T-COMPANIES",
+      "type": "about"
+    },
+    {
+      "from": "C-395",
+      "to": "T-MONEY",
+      "type": "about"
+    },
+    {
+      "from": "C-395",
+      "to": "T-OPERATIONS",
+      "type": "about"
+    },
+    {
+      "from": "C-395",
+      "to": "T-AGENT-FINANCE",
+      "type": "about"
+    },
+    {
+      "from": "ST-KY-001",
+      "to": "C-396",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "KYX-A-004",
+      "to": "C-396",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-396",
+      "to": "T-COMPANIES",
+      "type": "about"
+    },
+    {
+      "from": "C-396",
+      "to": "T-MONEY",
+      "type": "about"
+    },
+    {
+      "from": "C-396",
+      "to": "T-OPERATIONS",
+      "type": "about"
+    },
+    {
+      "from": "C-396",
+      "to": "T-AGENT-FINANCE",
+      "type": "about"
+    },
+    {
+      "from": "ST-KY-001",
+      "to": "C-397",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "BMX-KY-001",
+      "to": "C-397",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "BMX-KY-002",
+      "to": "C-397",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "OBX-E-004",
+      "to": "C-397",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "OBX-E-019",
+      "to": "C-397",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "OBX-E-020",
+      "to": "C-397",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "OBX-P-005",
+      "to": "C-397",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-397",
+      "to": "T-COMPANIES",
+      "type": "about"
+    },
+    {
+      "from": "C-397",
+      "to": "T-MONEY",
+      "type": "about"
+    },
+    {
+      "from": "C-397",
+      "to": "T-OPERATIONS",
+      "type": "about"
+    },
+    {
+      "from": "C-397",
+      "to": "T-AGENT-FINANCE",
+      "type": "about"
+    },
+    {
+      "from": "ST-KY-002",
+      "to": "C-398",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "ST-KY-003",
+      "to": "C-398",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "KYX-A-001",
+      "to": "C-398",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "KYX-A-004",
+      "to": "C-398",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-398",
+      "to": "T-COMPANIES",
+      "type": "about"
+    },
+    {
+      "from": "C-398",
+      "to": "T-MONEY",
+      "type": "about"
+    },
+    {
+      "from": "C-398",
+      "to": "T-OPERATIONS",
+      "type": "about"
+    },
+    {
+      "from": "C-398",
+      "to": "T-AGENT-FINANCE",
+      "type": "about"
+    },
+    {
+      "from": "BMX-HW-001",
+      "to": "C-399",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-399",
+      "to": "T-COMPANIES",
+      "type": "about"
+    },
+    {
+      "from": "C-399",
+      "to": "T-INSTITUTION-ROLES",
+      "type": "about"
+    },
+    {
+      "from": "BMX-HW-001",
+      "to": "C-400",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-400",
+      "to": "T-COMPANIES",
+      "type": "about"
+    },
+    {
+      "from": "C-400",
+      "to": "T-INSTITUTION-ROLES",
+      "type": "about"
+    },
+    {
+      "from": "BMX-HW-001",
+      "to": "C-401",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-401",
+      "to": "T-COMPANIES",
+      "type": "about"
+    },
+    {
+      "from": "C-401",
+      "to": "T-INSTITUTION-ROLES",
+      "type": "about"
+    },
+    {
+      "from": "BMX-HW-001",
+      "to": "C-402",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-402",
+      "to": "T-COMPANIES",
+      "type": "about"
+    },
+    {
+      "from": "C-402",
+      "to": "T-INSTITUTION-ROLES",
+      "type": "about"
+    },
+    {
+      "from": "HWX-R-008",
+      "to": "C-403",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "BMX-HW-001",
+      "to": "C-403",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-403",
+      "to": "T-COMPANIES",
+      "type": "about"
+    },
+    {
+      "from": "C-403",
+      "to": "T-INSTITUTION-ROLES",
+      "type": "about"
+    },
+    {
+      "from": "BMX-HW-001",
+      "to": "C-404",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "HWX-V-001",
+      "to": "C-404",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "HWX-V-003",
+      "to": "C-404",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-404",
+      "to": "T-COMPANIES",
+      "type": "about"
+    },
+    {
+      "from": "C-404",
+      "to": "T-INSTITUTION-ROLES",
+      "type": "about"
+    },
+    {
+      "from": "BMX-HW-001",
+      "to": "C-405",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "ST-HW-015",
+      "to": "C-405",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-405",
+      "to": "T-COMPANIES",
+      "type": "about"
+    },
+    {
+      "from": "C-405",
+      "to": "T-INSTITUTION-ROLES",
+      "type": "about"
+    },
+    {
+      "from": "ST-HW-007",
+      "to": "C-406",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "HWX-A-001",
+      "to": "C-406",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "HWX-A-004",
+      "to": "C-406",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "HWX-A-008",
+      "to": "C-406",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "BMX-HW-001",
+      "to": "C-406",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-406",
+      "to": "T-COMPANIES",
+      "type": "about"
+    },
+    {
+      "from": "C-406",
+      "to": "T-INSTITUTION-ROLES",
+      "type": "about"
+    },
+    {
+      "from": "BMX-HW-001",
+      "to": "C-407",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "HWX-V-003",
+      "to": "C-407",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "HWX-A-008",
+      "to": "C-407",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-407",
+      "to": "T-COMPANIES",
+      "type": "about"
+    },
+    {
+      "from": "C-407",
+      "to": "T-INSTITUTION-ROLES",
+      "type": "about"
+    },
+    {
+      "from": "BMX-HW-001",
+      "to": "C-408",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "ST-HW-015",
+      "to": "C-408",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "HWX-A-001",
+      "to": "C-408",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-408",
+      "to": "T-COMPANIES",
+      "type": "about"
+    },
+    {
+      "from": "C-408",
+      "to": "T-INSTITUTION-ROLES",
+      "type": "about"
+    },
+    {
+      "from": "ST-KN-001",
+      "to": "C-409",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "ST-KY-001",
+      "to": "C-409",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "BMX-HW-001",
+      "to": "C-409",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-409",
+      "to": "T-INSTITUTION-ROLES",
+      "type": "about"
+    },
+    {
+      "from": "C-409",
+      "to": "T-COMPANIES",
+      "type": "about"
+    },
+    {
+      "from": "KYX-V-008",
+      "to": "C-410",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "FIN-003",
+      "to": "C-410",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-410",
+      "to": "T-AGENT-FINANCE",
+      "type": "about"
+    },
+    {
+      "from": "C-410",
+      "to": "T-MARKET",
+      "type": "about"
+    },
+    {
+      "from": "FIN-003",
+      "to": "C-411",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "ST-TD-005",
+      "to": "C-411",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-411",
+      "to": "T-FUNDING",
+      "type": "about"
+    },
+    {
+      "from": "C-411",
+      "to": "T-MONEY",
+      "type": "about"
+    },
+    {
+      "from": "ST-TD-007",
+      "to": "C-412",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "KYX-V-008",
+      "to": "C-412",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "KYX-V-009",
+      "to": "C-412",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-412",
+      "to": "T-AGENT-FINANCE",
+      "type": "about"
+    },
+    {
+      "from": "C-412",
+      "to": "T-OPERATIONS",
+      "type": "about"
+    },
+    {
+      "from": "FIN-003",
+      "to": "C-413",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "ST-TD-007",
+      "to": "C-413",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "OBX-E-001",
+      "to": "C-413",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "OBX-E-019",
+      "to": "C-413",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-413",
+      "to": "T-INSTITUTION-ROLES",
+      "type": "about"
+    },
+    {
+      "from": "C-413",
+      "to": "T-AGENT-FINANCE",
       "type": "about"
     }
   ]

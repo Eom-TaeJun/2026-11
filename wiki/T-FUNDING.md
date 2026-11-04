@@ -883,6 +883,98 @@ AI가 비교·이전 비용을 낮추면 시중은행의 예금금리·FX·여�
 
 다음 관측: 내부·외부 공급자의 같은 위험조건 견적, 외부 고객의 자발적 재구매, 예외 해결·신용손실·회수기간·내부거래 제거 후 그룹 외부 기여.
 
+### C-382 · fact · active
+
+2026년 1~9월 그룹 지배주주 순이익 6,223억원. 자회사 은행 5,573억원과 비은행 2,137억원 합계에서 은행 비중은 계산상 72.3%다. 지주·연결조정 -1,315억원과 비지배지분 172억원을 반영하면 그룹 지배주주 순이익과 일치한다.
+
+근거: [ST-KN-001](../sources/cards/ST-KN-001.md), [KN-004](../sources/cards/KN-004.md)
+
+한계: - 은행 비중은 연결조정 전 자회사 합계 기준.
+
+### C-383 · fact · active
+
+2026년 1~9월 그룹 순이자이익 22,872억원·비이자이익 3,183억원·그중 수수료이익 2,173억원, 판매관리비 12,522억원·충당금적립액 5,950억원이다. 이자·수수료이익 증가와 전체 순이익 감소가 함께 관측된다.
+
+근거: [ST-KN-001](../sources/cards/ST-KN-001.md)
+
+한계: - 누적 수치이고 수수료는 비이자에 포함된다. 원인 전체를 식별한 인과 분석이 아니다.
+
+### C-384 · fact · active
+
+2026년 9월말 경남은행 SME/원화대출은 계산상 57.2%, 부산은행은 54.5%다. 1~9월 저원가성수신/원화예수금 평잔 비율은 각각 30.65%, 31.68%다.
+
+근거: [ST-KN-001](../sources/cards/ST-KN-001.md)
+
+한계: - 고객 수·소재지역·수출기업 비중이 아니다. 저원가성수신 전체가 기업 운영예금은 아니다.
+
+### C-385 · fact · active
+
+경남은행 fERP와 IBK e-branch·KB Cyber Branch는 자금관리·외부 시스템 연계를 안내한다. IBK는 외환 문서·미입금·한도 관리도 열거하고 KB ERP 연계는 표시 항목 범위다.
+
+근거: [ST-KN-002](../sources/cards/ST-KN-002.md), [KNX-S-007](../sources/cards/KNX-S-007.md), [ST-KN-005](../sources/cards/ST-KN-005.md)
+
+한계: - 안내 기능의 존재이지 고객별 실제 설치·실행·가격·효율 실증은 아니다.
+
+### C-386 · institution_statement · active
+
+BNK는 2026년 9월 Value-up 2.0에서 지역 산업금융·자본시장 수익, 공통 IT·비용 효율, 자본 배분 개선과 제한적 디지털자산 학습을 제시했다. RM 개인 역량 의존도 자기진단에 포함한다.
+
+근거: [BMX-BNK-001](../sources/cards/BMX-BNK-001.md)
+
+한계: - 공개 전략·진단이지 실적·구현 완료가 아니다.
+
+### C-387 · interpretation · active
+
+AI의 금리·FX·지급·현금성 상품 비교 실행은 BNK의 예금 조달 기여와 FX 스프레드를 압박할 수 있다. 은행권 내 자금 위치·보유자 변화와 BNK 개별 조달 손실을 구분하며 지급토큰 발행자의 준비금 수익을 BNK에 귀속하지 않는다.
+
+근거: [ST-KN-001](../sources/cards/ST-KN-001.md), [ST-TD-005](../sources/cards/ST-TD-005.md), [KNX-S-007](../sources/cards/KNX-S-007.md), [ST-KN-005](../sources/cards/ST-KN-005.md)
+
+한계: - 필요 권한·계약·고객 위임을 가정한 메커니즘. 한국의 실제 규모나 BNK 토큰 발행자 계약을 확인한 사실이 아니다.
+
+### C-388 · hypothesis · active
+
+운영자금·외환·필요 신용을 함께 완결하는 기업 서비스가 범용 조회보다 BNK의 기존 예금·거래·여신 관계 방어에 적합할 수 있다.
+
+근거: [ST-KN-001](../sources/cards/ST-KN-001.md), [ST-KN-002](../sources/cards/ST-KN-002.md), [KNX-S-007](../sources/cards/KNX-S-007.md), [ST-KN-005](../sources/cards/ST-KN-005.md)
+
+한계: - 연구 제안. 관계 전체 기여·고객 편익 실측 null.
+
+다른 설명: 경쟁 은행이 동등한 완결성과 더 낮은 총비용·좋은 신용 조건을 제공하면 우위가 사라질 수 있다.
+
+다음 관측: 동등 조건 견적·완료·예외 처리, 고객 잔류 업무, 예금 잠식·파트너 보수·획득비를 포함한 전체 기여를 비교.
+
+### C-389 · hypothesis · active
+
+거래자료를 검증·갱신해 신용·담보·사후관리에 활용하는 것이 대출 규모 확대보다 위험조정 수익을 개선할 우선 과제일 수 있다.
+
+근거: [ST-KN-001](../sources/cards/ST-KN-001.md), [BMX-BNK-001](../sources/cards/BMX-BNK-001.md)
+
+한계: - 연구 제안. 실제 손실 감소·자료 접근권·경쟁 모형 우위 미확인.
+
+다른 설명: 자료가 부정확하거나 경쟁자가 동등한 자료·우수 모형을 확보하고 오탐·확인 비용이 커지면 효과가 제한된다.
+
+다음 관측: 동일 고객군의 처리비·오탐·정상고객 배제, 경보 후 개입·회수, 충분한 기간의 손실과 위험조정 기여 비교.
+
+### C-390 · hypothesis · active
+
+지역 산업금융의 발굴·주선·리스·사후관리를 법인별로 나누고 자산을 선별 보유하는 방식이 대규모 독자 토큰 발행·자기 인수보다 현재 기반에 적합할 수 있다.
+
+근거: [ST-KN-001](../sources/cards/ST-KN-001.md), [BMX-BNK-001](../sources/cards/BMX-BNK-001.md)
+
+한계: - 연구 제안. 보수·투자자 수요·권한·전체 기여는 별도 확인.
+
+다른 설명: 경쟁자가 조달비·판매망·관리에서 우위이거나 BNK가 보수보다 큰 인수·보증·유동성 위험을 지면 부적합.
+
+다음 관측: 반복 고객·보수·권리 검증·외부 자금 확약·손실 귀속·자본 소요와 경쟁 견적을 확인해 기존 방식 대비 기여 대조.
+
+### C-411 · interpretation · active
+
+은행 고객 예금의 스테이블코인 이동은 준비자산의 재예치·국채 매수와 은행별 분배·가격 반응에 따라 영향을 달리한다. BNK의 핵심 질문은 시스템 총예금보다 자기 은행의 안정적 조달과 지역 기업 신용 제공 조건이다.
+
+근거: [FIN-003](../sources/cards/FIN-003.md), [ST-TD-005](../sources/cards/ST-TD-005.md)
+
+한계: 개별 자료의 읽은 범위는 출처 카드에 보존. 미래 사업 제안은 회사 확정 계획·성과 예측이 아니다.
+
 ## 관련 원문
 
 - [FIN-004 · Project Agorá](../sources/cards/FIN-004.md)
@@ -908,7 +1000,7 @@ AI가 비교·이전 비용을 낮추면 시중은행의 예금금리·FX·여�
 - [ST-HW-001 · 한화투자증권, 글로벌 Web3 기업 ‘크리서스’에 180억 원 규모 투자 완료](../sources/cards/ST-HW-001.md)
 - [ST-HW-003 · 한화투자증권, Digital Asset Holdings LLC에 300억 원 규모 투자 완료](../sources/cards/ST-HW-003.md)
 - [ST-HW-005 · Hanwha Finance explores future financial innovation with global leaders at the 2026 World Economic Forum Annual Meeting in Davos](../sources/cards/ST-HW-005.md)
-- [ST-KN-001 · BNK금융그룹 2026년 3분기 경영실적: 경남은행 선정 표](../sources/cards/ST-KN-001.md)
+- [ST-KN-001 · BNK금융그룹 2026년 3분기 경영실적: 그룹·은행·비은행 선택 표](../sources/cards/ST-KN-001.md)
 - [ST-KN-002 · fERP(중소기업용) 안내](../sources/cards/ST-KN-002.md)
 - [ST-KN-005 · Cyber Branch 제공서비스](../sources/cards/ST-KN-005.md)
 - [ST-KY-001 · 교보증권 반기보고서 (2026.06)](../sources/cards/ST-KY-001.md)
@@ -942,5 +1034,6 @@ AI가 비교·이전 비용을 낮추면 시중은행의 예금금리·FX·여�
 - [KYX-M-008 · FY2025 실적 설명자료 — 보장성 보험 확대·선제적 투자 리밸런싱](../sources/cards/KYX-M-008.md)
 - [HWX-R-001 · BNK금융그룹 부울경 경제 도약 BNK프로젝트 가동](../sources/cards/HWX-R-001.md)
 - [OBX-P-003 · 토큰화 준비금 & BlackRock BUIDL 전략](../sources/cards/OBX-P-003.md)
+- [BMX-BNK-001 · BNK Financial Group Value-up Plan 2.0](../sources/cards/BMX-BNK-001.md)
 
 [전체 주제 지도](INDEX.md)

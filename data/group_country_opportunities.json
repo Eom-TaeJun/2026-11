@@ -555,5 +555,14 @@
     "classification": "conditional_case_refinement",
     "priority_change": false,
     "note": "기존 사실 확인일·전략 순위·미확인값을 유지하고 고객·돈·경쟁·잠식 사례만 연결."
+  },
+  "business_model_followup": {
+    "as_of": "2026-11-04",
+    "report": "reports/35_business_models_and_agent_finance.md",
+    "financial_baseline": "data/institution_business_baselines.json",
+    "priorities": "data/business_model_transition_priorities.json",
+    "classification": "evidence_and_reasoning_focus_refinement",
+    "existing_STR_priority_change": false,
+    "note": "현재 이익·규모·강약점→환경의 인과→경쟁 뒤 우선 업무를 주된 읽기 순서로 설정. 이전 조건부 사례는 보조 자료로 보존."
   }
 }

@@ -6,7 +6,7 @@
 |---|---|---|---|
 | [FIN-001 · Tokenized Finance](cards/FIN-001.md) | 2026-04-02 | selected_sections | 2026-11-02 |
 | [FIN-002 · What Is Needed for Tokenization to Deliver](cards/FIN-002.md) | 2026-10-08 | official_summary | 2026-11-02 |
-| [FIN-003 · III. Anchoring trust in money: innovation beyond stablecoins](cards/FIN-003.md) | 2026-06-23 | selected_sections | 2026-11-03 |
+| [FIN-003 · III. Anchoring trust in money: innovation beyond stablecoins](cards/FIN-003.md) | 2026-06-23 | selected_sections | 2026-11-04 |
 | [FIN-004 · Project Agorá](cards/FIN-004.md) | 미확인/동적 | selected_sections | 2026-11-02 |
 | [FIN-005 · The Financial Stability Implications of Tokenisation](cards/FIN-005.md) | 2024-10-22 | official_summary | 2026-11-02 |
 | [FIN-006 · 토큰증권 도입 및 투자계약증권 유통을 위한 ｢전자증권법｣·｢자본시장법｣ 개정안 국회 본회의 통과](cards/FIN-006.md) | 2026-01-15 | full_text | 2026-11-02 |
@@ -92,7 +92,7 @@
 | [KN-001 · BNK금융그룹, 동남권 전략산업 육성 위한 ‘생산적금융 전략 펀드’ 결성](cards/KN-001.md) | 2026-07-01 | full_text | 2026-11-02 |
 | [KN-002 · BNK경남은행 뉴스: 토스플레이스 공동마케팅 협약·대성테크 유망중소기업 선정](cards/KN-002.md) | 미확인/동적 | official_summary | 2026-11-02 |
 | [KN-003 · 무보, BNK경남은행과 동남권 수출기업 특별 우대금융 지원 개시](cards/KN-003.md) | 2026-10-15 | official_summary | 2026-11-03 |
-| [KN-004 · BNK금융그룹_2026년 3분기 실적발표](cards/KN-004.md) | 2026-10-26 | full_text | 2026-11-03 |
+| [KN-004 · BNK금융그룹_2026년 3분기 실적발표](cards/KN-004.md) | 2026-10-26 | full_text | 2026-11-04 |
 | [KN-005 · KB국민은행, ‘프로젝트 한강’ 2단계 참여…디지털화폐 시장 확대 주도](cards/KN-005.md) | 2026-03-20 | full_text | 2026-11-02 |
 | [KN-006 · 신한은행, 스테이블코인 활용 ‘기업 해외송금 전 과정’ 구현](cards/KN-006.md) | 2026-09-30 | full_text | 2026-11-03 |
 | [KN-007 · [경남] 함안군 2026년 상반기 중소기업 육성자금 융자 지원계획 공고](cards/KN-007.md) | 2025-12-30 | official_summary | 2026-11-02 |
@@ -154,13 +154,13 @@
 | [ST-HW-011 · MVB Partners with Velocity to Join Visa Direct Stablecoin Settlement Network](cards/ST-HW-011.md) | 2026-09-09 | selected_sections | 2026-11-03 |
 | [ST-HW-013 · Legal — Token Terms of Sale and Service](cards/ST-HW-013.md) | 2026-02-26 | selected_sections | 2026-11-03 |
 | [ST-HW-014 · Implementation Considerations](cards/ST-HW-014.md) | 미확인/동적 | full_text | 2026-11-03 |
-| [ST-HW-015 · Risk Management](cards/ST-HW-015.md) | 미확인/동적 | selected_sections | 2026-11-03 |
-| [ST-KN-001 · BNK금융그룹 2026년 3분기 경영실적: 경남은행 선정 표](cards/ST-KN-001.md) | 2026-10-26 | selected_sections | 2026-11-03 |
+| [ST-HW-015 · Risk Management](cards/ST-HW-015.md) | 미확인/동적 | selected_sections | 2026-11-04 |
+| [ST-KN-001 · BNK금융그룹 2026년 3분기 경영실적: 그룹·은행·비은행 선택 표](cards/ST-KN-001.md) | 2026-10-26 | selected_sections | 2026-11-04 |
 | [ST-KN-002 · fERP(중소기업용) 안내](cards/ST-KN-002.md) | 미확인/동적 | selected_sections | 2026-11-04 |
 | [ST-KN-003 · BNK금융그룹 2026년 하반기 조직개편 실시](cards/ST-KN-003.md) | 2026-07-15 | selected_sections | 2026-11-03 |
 | [ST-KN-004 · BNK금융그룹 AI 대전환 통해 일하는 방식 바꾼다](cards/ST-KN-004.md) | 2026-08-12 | selected_sections | 2026-11-03 |
-| [ST-KN-005 · Cyber Branch 제공서비스](cards/ST-KN-005.md) | 미확인/동적 | selected_sections | 2026-11-03 |
-| [ST-KY-001 · 교보증권 반기보고서 (2026.06)](cards/ST-KY-001.md) | 2026-08-14 | selected_sections | 2026-11-03 |
+| [ST-KN-005 · Cyber Branch 제공서비스](cards/ST-KN-005.md) | 미확인/동적 | selected_sections | 2026-11-04 |
+| [ST-KY-001 · 교보증권 반기보고서 (2026.06)](cards/ST-KY-001.md) | 2026-08-14 | selected_sections | 2026-11-04 |
 | [ST-KY-002 · 주요사항보고서(유상증자결정): 약1,000억원 상환전환우선주](cards/ST-KY-002.md) | 2026-10-22 | selected_sections | 2026-11-03 |
 | [ST-KY-003 · 주요사항보고서(유상증자결정): 약2,000억원 상환전환우선주](cards/ST-KY-003.md) | 2026-10-22 | selected_sections | 2026-11-03 |
 | [ST-KY-004 · 모험자본 공급을 뒷받침할 자본시장법 시행령 개정안 국무회의 의결, 종합금융투자사업자 지정 및 단기금융업 인가](cards/ST-KY-004.md) | 2025-11-19 | selected_sections | 2026-11-03 |
@@ -175,7 +175,7 @@
 | [ST-TD-004 · Stablecoins: Promise, Risks, and Policy Choices for Emerging Markets](cards/ST-TD-004.md) | 2026-08-07 | selected_sections | 2026-11-03 |
 | [ST-TD-005 · Banks in the Age of Stablecoins: Some Possible Implications for Deposits, Credit, and Financial Intermediation](cards/ST-TD-005.md) | 2025-12-17 | selected_sections | 2026-11-04 |
 | [ST-TD-006 · Introducing the Machine Payments Protocol](cards/ST-TD-006.md) | 2026-03-18 | selected_sections | 2026-11-03 |
-| [ST-TD-007 · How Agentic AI Will Reshape Payments](cards/ST-TD-007.md) | 미확인/동적 | selected_sections | 2026-11-03 |
+| [ST-TD-007 · How Agentic AI Will Reshape Payments](cards/ST-TD-007.md) | 미확인/동적 | selected_sections | 2026-11-04 |
 | [KNX-S-001 · 수출환어음매입](cards/KNX-S-001.md) | 미확인/동적 | selected_sections | 2026-11-03 |
 | [KNX-S-002 · 무역금융업무안내](cards/KNX-S-002.md) | 미확인/동적 | selected_sections | 2026-11-03 |
 | [KNX-S-003 · EDI업무안내](cards/KNX-S-003.md) | 미확인/동적 | selected_sections | 2026-11-03 |
@@ -287,3 +287,11 @@
 | [OBX-E-027 · CoinList Risk Factors](cards/OBX-E-027.md) | 미확인/동적 | selected_sections | 2026-11-04 |
 | [OBX-E-028 · Introducing the Ondo Network](cards/OBX-E-028.md) | 2026-07-27 | selected_sections | 2026-11-04 |
 | [OBX-R-001 · HKMA advances Project Ensemble pilot phase to 24/7 settlement in tokenised Central Bank Money](cards/OBX-R-001.md) | 2026-11-02 | selected_sections | 2026-11-04 |
+| [BMX-BNK-001 · BNK Financial Group Value-up Plan 2.0](cards/BMX-BNK-001.md) | 미확인/동적 | selected_sections | 2026-11-04 |
+| [BMX-KY-001 · 교보생명 2026년 2분기 정기경영공시 I. 주요 경영현황 요약](cards/BMX-KY-001.md) | 미확인/동적 | full_text | 2026-11-04 |
+| [BMX-KY-002 · 교보생명 2026년 2분기 정기경영공시 II. 재무·손익](cards/BMX-KY-002.md) | 미확인/동적 | selected_sections | 2026-11-04 |
+| [BMX-KY-003 · FY2026 상반기 실적 설명자료 — 교보생명 연결 순익7048억원](cards/BMX-KY-003.md) | 2026-08-14 | full_text | 2026-11-04 |
+| [BMX-KY-004 · 교보생명은 왜 전속 설계사(FP) 중심 영업 전략을 유지할까?](cards/BMX-KY-004.md) | 2026-06-23 | selected_sections | 2026-11-04 |
+| [BMX-KY-005 · 교보문고 감사보고서 (2025.12)](cards/BMX-KY-005.md) | 2026-03-24 | selected_sections | 2026-11-04 |
+| [BMX-HW-001 · 2026년 상반기 경영실적 — 회사 작성 IR 배포본](cards/BMX-HW-001.md) | 2026-08-12 | selected_sections | 2026-11-04 |
+| [BMX-HW-002 · Earnings Release — FY2026 공개 실적 목록](cards/BMX-HW-002.md) | 미확인/동적 | selected_sections | 2026-11-04 |

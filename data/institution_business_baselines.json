@@ -1,0 +1,2248 @@
+{
+  "as_of": "2026-11-04",
+  "classification": "selected_published_financial_and_operating_observations_with_scope_limits",
+  "comparison_rules": [
+    "연결/별도·지배주주/전체·기간·잔액/흐름·총액/순액을 유지",
+    "회사 IR의 예상과 확정·감사 여부를 분리",
+    "서로 다른 그룹 범위와 기간의 자산·순익을 순위로 만들지 않음",
+    "직접 읽은 범위와 원격 파일/정정 대조 공백을 보존",
+    "자회사별 단순합을 연결이익/지분귀속으로 역산하지 않음"
+  ],
+  "groups": [
+    {
+      "group": "BNK금융",
+      "report": "reports/36_bnk_business_model_priorities.md",
+      "observations": [
+        {
+          "id": "BMX-F-001",
+          "name": "자산 규모",
+          "period": "2026-09-30 잔액",
+          "as_of": "2026-11-04",
+          "unit": "억원 또는 명시된 %",
+          "accounting_basis": "그룹 연결; 자회사 행의 별도/하위 연결 범위는 선택 절에서 미확정",
+          "values": {
+            "group": 1682107,
+            "busan": 852910,
+            "kyongnam": 583641,
+            "nonbanks": 237207,
+            "holding_consolidation_adjustment": 8349
+          },
+          "source_ids": [
+            "ST-KN-001"
+          ],
+          "source_location": "p.17",
+          "interpretation": "은행 자산·고객 관계가 출발점",
+          "limitations": "자산은 고객 수·매출·운용자산과 다름."
+        },
+        {
+          "id": "BMX-F-002",
+          "name": "법인별 손익",
+          "period": "2026-01-01/2026-09-30 누적; 별도 표기 분기 항목 제외",
+          "as_of": "2026-11-04",
+          "unit": "억원 또는 명시된 %",
+          "accounting_basis": "IR 자회사 합계→그룹 지배주주 손익",
+          "values": {
+            "group_attributable": 6223,
+            "banks": 5573,
+            "busan": 3218,
+            "kyongnam": 2355,
+            "nonbanks": 2137,
+            "capital": 1175,
+            "securities": 501,
+            "asset_management": 299,
+            "holding_consolidation_adjustment": -1315,
+            "non_controlling_interest": 172,
+            "bank_share_denominator": 7710,
+            "bank_share_pct": 72.28274967574578,
+            "nonbank_q3_only": 411,
+            "asset_management_q3_only": -77
+          },
+          "source_ids": [
+            "ST-KN-001"
+          ],
+          "source_location": "p.23",
+          "interpretation": "은행 수익 방어와 비은행 수익의 질 평가",
+          "limitations": "비중 분모에 그룹 지배주주 순이익 사용 금지. 비은행 순이익은 수수료 매출 아님."
+        },
+        {
+          "id": "BMX-F-003",
+          "name": "수익의 성격",
+          "period": "2026-01-01/2026-09-30 누적",
+          "as_of": "2026-11-04",
+          "unit": "억원 또는 명시된 %",
+          "accounting_basis": "그룹 연결",
+          "values": {
+            "net_interest_income": 22872,
+            "net_interest_income_prior_ytd": 21847,
+            "noninterest_income": 3183,
+            "noninterest_income_prior_ytd": 3812,
+            "fee_income_included_in_noninterest": 2173,
+            "fee_income_prior_ytd": 1382,
+            "adjusted_operating_income": 26055,
+            "net_interest_share_pct": 87.78353483016696
+          },
+          "source_ids": [
+            "ST-KN-001"
+          ],
+          "source_location": "p.6,14–15",
+          "interpretation": "이자 의존과 수수료/기타 손익 분리",
+          "limitations": "총 이자수익과 순이자 구분; 비이자와 포함 수수료 중복 합산 금지."
+        },
+        {
+          "id": "BMX-F-004",
+          "name": "비용·수익성",
+          "period": "2026-01-01/2026-09-30 누적 및 IR 기간비율",
+          "as_of": "2026-11-04",
+          "unit": "억원 또는 명시된 %",
+          "accounting_basis": "그룹 연결",
+          "values": {
+            "sga": 12522,
+            "sga_prior_ytd": 11537,
+            "cir_pct": 48.1,
+            "roe_pct": 7.63
+          },
+          "source_ids": [
+            "ST-KN-001"
+          ],
+          "source_location": "p.6",
+          "interpretation": "새 시스템 비용과 실제 업무 절감 대조",
+          "limitations": "ROE 연환산·평균자본 산출은 독립 재구성하지 않음."
+        },
+        {
+          "id": "BMX-F-005",
+          "name": "신용비용·건전성",
+          "period": "충당금 2026-01-01/2026-09-30 누적; 비율 2026-09-30",
+          "as_of": "2026-11-04",
+          "unit": "억원 또는 명시된 %",
+          "accounting_basis": "그룹 연결",
+          "values": {
+            "provision_charge": 5950,
+            "provision_charge_prior_ytd": 5703,
+            "npl_ratio_pct": 1.45,
+            "delinquency_ratio_pct": 1.4
+          },
+          "source_ids": [
+            "ST-KN-001"
+          ],
+          "source_location": "p.6,8",
+          "interpretation": "신용손실 후 기여와 관리 품질 중요",
+          "limitations": "충당금과 실현 신용손실 다름; 그룹 비율을 경남 단독에 대입 금지."
+        },
+        {
+          "id": "BMX-F-006",
+          "name": "자본",
+          "period": "2026-09-30",
+          "as_of": "2026-11-04",
+          "unit": "억원 또는 명시된 %",
+          "accounting_basis": "그룹 감독상 자본비율 IR 제시값",
+          "values": {
+            "cet1_pct": 12.18,
+            "cet1_prior_quarter_pct": 12.14
+          },
+          "source_ids": [
+            "ST-KN-001"
+          ],
+          "source_location": "p.9",
+          "interpretation": "기존 사업·새 위험자산·주주환원 간 자본 배분 필요",
+          "limitations": "절대 부족·규제 위반을 뜻하지 않음. 부문별 가용자본 null."
+        },
+        {
+          "id": "BMX-F-007",
+          "name": "기업·SME 대출",
+          "period": "2026-09-30 잔액",
+          "as_of": "2026-11-04",
+          "unit": "억원 또는 명시된 %",
+          "accounting_basis": "은행별 IR 대출 표",
+          "values": {
+            "kyongnam_krw_loans": 460410,
+            "kyongnam_corporate_loans": 305489,
+            "kyongnam_sme_loans": 263489,
+            "kyongnam_sme_share_pct": 57.229208748723956,
+            "busan_krw_loans": 643829,
+            "busan_sme_loans": 350991,
+            "busan_sme_share_pct": 54.516183645036186
+          },
+          "source_ids": [
+            "ST-KN-001"
+          ],
+          "source_location": "p.28–29",
+          "interpretation": "기업 업무의 현존 기반",
+          "limitations": "잔액 비율이며 고객 수·지역·업종·수출기업 비중 아님."
+        },
+        {
+          "id": "BMX-F-008",
+          "name": "조달 관계",
+          "period": "2026-01-01/2026-09-30 기중평잔",
+          "as_of": "2026-11-04",
+          "unit": "억원 또는 명시된 %",
+          "accounting_basis": "은행별 IR 수신 표",
+          "values": {
+            "kyongnam_low_cost_deposits_avg": 131341,
+            "kyongnam_krw_deposits_avg": 428484,
+            "kyongnam_low_cost_share_reported_pct": 30.65,
+            "busan_low_cost_deposits_avg": 197838,
+            "busan_krw_deposits_avg": 624564,
+            "busan_low_cost_share_reported_pct": 31.68
+          },
+          "source_ids": [
+            "ST-KN-001"
+          ],
+          "source_location": "p.28–29",
+          "interpretation": "자금 서비스의 조달 기여·잠식 평가",
+          "limitations": "모두 기업 운영예금이 아니며 평잔과 기말잔액 혼용 금지."
+        }
+      ],
+      "source_ids": [
+        "BMX-BNK-001",
+        "ST-KN-001",
+        "KN-004",
+        "ST-KN-002",
+        "KNX-S-007",
+        "ST-KN-005"
+      ],
+      "claim_ids": [
+        "C-382",
+        "C-383",
+        "C-384",
+        "C-385",
+        "C-386",
+        "C-387",
+        "C-388",
+        "C-389",
+        "C-390"
+      ],
+      "context_and_limits": {
+        "as_of": "2026-11-04",
+        "cutoff_timezone": "Asia/Seoul",
+        "scope": "실제 BNK 수익 기반·규모·강점/제약에서 사업 집중 이유 도출. 가상 배분·시장가격 추정 없음.",
+        "new_source_ids": [
+          "BMX-BNK-001"
+        ],
+        "updated_source_ids": [
+          "ST-KN-001",
+          "KN-004",
+          "ST-KN-002",
+          "KNX-S-007",
+          "ST-KN-005"
+        ],
+        "reused_source_ids": [
+          {
+            "id": "ST-TD-005",
+            "reuse_scope": "기존 공개 원문의 예금·신용 메커니즘을 조건부 설명에 재사용. 이번 BMX 작업에서 새로 열지 않았고 checked_at 갱신 없음."
+          }
+        ],
+        "lower_priorities": [
+          {
+            "name": "독자 스테이블코인·범용 지갑·대형 마켓",
+            "reason": "반복 고객·유통·총기여 미확인 상태의 범용 경쟁·예금 잠식 위험",
+            "upgrade_if": "반복 수요·실제 계약·경쟁 우위·잠식 후 전체 기여 확인"
+          },
+          {
+            "name": "무조건적 자기계정 인수·상시 유동성",
+            "reason": "보수와 원금·신용·유동성 위험 불균형",
+            "upgrade_if": "한도·자본비용·손실 귀속·경쟁안 대비 기여 확인"
+          }
+        ],
+        "unknown_metrics": {
+          "active_ferp_customers": null,
+          "customer_count_by_region_industry": null,
+          "loan_share_by_geographic_location": null,
+          "exporter_share_of_corporate_customers": null,
+          "customer_deposit_rate_sensitivity": null,
+          "customer_fx_net_contribution": null,
+          "digital_business_fee_revenue": null,
+          "digital_business_direct_cost": null,
+          "ai_execution_customer_delegation_contracts": null,
+          "bnk_direct_stablecoin_issuer_contract": null,
+          "token_or_onchain_repeat_revenue": null
+        },
+        "calculation_notes": [
+          {
+            "name": "자회사→그룹 지배주주 이익",
+            "formula": "5573+2137-1315-172",
+            "result": 6223,
+            "unit": "억원"
+          },
+          {
+            "name": "은행 이익 구성비",
+            "formula": "5573/(5573+2137)*100",
+            "result_pct": 72.28274967574578,
+            "rounded_pct": 72.3
+          },
+          {
+            "name": "순이자/조정영업이익",
+            "formula": "22872/(22872+3183)*100",
+            "result_pct": 87.78353483016696,
+            "rounded_pct": 87.8
+          }
+        ],
+        "access_limits": [
+          "Q3 PDF 웹 크기 제한·직접 다운로드 연결 실패. 보존 공개 원본 렌더링 재열람과 공식 목록/보도 대조이며 원격 바이트 재확인 아님.",
+          "Value-up 2.0 선택 텍스트만 읽기; 도구 스크린샷 표시 실패로 전략 도표 시각검토 완료 주장 없음.",
+          "공식 서비스 안내는 실제 계약·실행·가격 검증을 대체하지 않음.",
+          "상품별 관리회계·신사업 실적 미확인 값 null."
+        ],
+        "validation": {
+          "status": "passed",
+          "checked_at": "2026-11-04",
+          "checks": [
+            "기존 research.py 스키마 인메모리 통합 오류 0; ingest/build 및 공용 파일 수정 없음",
+            "그룹 자산/이익 연결과 비율의 기간·분모 산술 대조",
+            "보존 Q3 PDF SHA256이 기존 출처 레코드와 동일",
+            "새 출처 1·갱신 5·단순 문맥재사용 1; URL 중복 없음"
+          ]
+        }
+      }
+    },
+    {
+      "group": "교보그룹",
+      "report": "reports/37_kyobo_business_model_priorities.md",
+      "observations": [
+        {
+          "id": "BMX-KY-F-01",
+          "entity": "교보증권",
+          "metric": "자산",
+          "value": 21988920550,
+          "unit": "KRW_thousand",
+          "period": "2026-06-30",
+          "reporting_basis": "연결",
+          "source_ids": [
+            "ST-KY-001"
+          ],
+          "definition": "재무상태표 잔액",
+          "derived": false,
+          "formula": null,
+          "observed_at": "2026-11-04",
+          "is_forecast": false,
+          "source_locator": {
+            "source_id": "ST-KY-001",
+            "section": "III. 재무에 관한 사항 > 1. 요약재무정보",
+            "page": null,
+            "table": "가. 요약연결재무정보",
+            "row": "자산",
+            "document_locator": "DART dcmNo11536829 eleId16 offset554376 length41253"
+          }
+        },
+        {
+          "id": "BMX-KY-F-02",
+          "entity": "교보증권",
+          "metric": "자본",
+          "value": 2274458447,
+          "unit": "KRW_thousand",
+          "period": "2026-06-30",
+          "reporting_basis": "연결",
+          "source_ids": [
+            "ST-KY-001"
+          ],
+          "definition": "연결 회계자본; 감독 인정자본 아님",
+          "derived": false,
+          "formula": null,
+          "observed_at": "2026-11-04",
+          "is_forecast": false,
+          "source_locator": {
+            "source_id": "ST-KY-001",
+            "section": "III. 재무에 관한 사항 > 1. 요약재무정보",
+            "page": null,
+            "table": "가. 요약연결재무정보",
+            "row": "자본",
+            "document_locator": "DART dcmNo11536829 eleId16 offset554376 length41253"
+          }
+        },
+        {
+          "id": "BMX-KY-F-03",
+          "entity": "교보증권",
+          "metric": "자본",
+          "value": 2240633642,
+          "unit": "KRW_thousand",
+          "period": "2026-06-30",
+          "reporting_basis": "별도",
+          "source_ids": [
+            "ST-KY-001"
+          ],
+          "definition": "별도 회계자본; 11월 현재 자본 아님",
+          "derived": false,
+          "formula": null,
+          "observed_at": "2026-11-04",
+          "is_forecast": false,
+          "source_locator": {
+            "source_id": "ST-KY-001",
+            "section": "III. 재무에 관한 사항 > 1. 요약재무정보",
+            "page": null,
+            "table": "나. 요약재무정보(별도)",
+            "row": "자본",
+            "document_locator": "DART dcmNo11536829 eleId16 offset554376 length41253"
+          }
+        },
+        {
+          "id": "BMX-KY-F-04",
+          "entity": "교보증권",
+          "metric": "영업이익",
+          "value": 211878931,
+          "unit": "KRW_thousand",
+          "period": "2026-01-01/2026-06-30",
+          "reporting_basis": "연결",
+          "source_ids": [
+            "ST-KY-001"
+          ],
+          "definition": "연결 영업손익",
+          "derived": false,
+          "formula": null,
+          "observed_at": "2026-11-04",
+          "is_forecast": false,
+          "source_locator": {
+            "source_id": "ST-KY-001",
+            "section": "III. 재무에 관한 사항 > 1. 요약재무정보",
+            "page": null,
+            "table": "가. 요약연결재무정보",
+            "row": "영업이익",
+            "document_locator": "DART dcmNo11536829 eleId16 offset554376 length41253"
+          }
+        },
+        {
+          "id": "BMX-KY-F-05",
+          "entity": "교보증권",
+          "metric": "당기순이익",
+          "value": 158521911,
+          "unit": "KRW_thousand",
+          "period": "2026-01-01/2026-06-30",
+          "reporting_basis": "연결",
+          "source_ids": [
+            "ST-KY-001"
+          ],
+          "definition": "연결 당기순이익",
+          "derived": false,
+          "formula": null,
+          "observed_at": "2026-11-04",
+          "is_forecast": false,
+          "source_locator": {
+            "source_id": "ST-KY-001",
+            "section": "III. 재무에 관한 사항 > 1. 요약재무정보",
+            "page": null,
+            "table": "가. 요약연결재무정보",
+            "row": "당기순이익",
+            "document_locator": "DART dcmNo11536829 eleId16 offset554376 length41253"
+          }
+        },
+        {
+          "id": "BMX-KY-F-06",
+          "entity": "교보증권",
+          "metric": "영업이익",
+          "value": 164900240,
+          "unit": "KRW_thousand",
+          "period": "2026-01-01/2026-06-30",
+          "reporting_basis": "별도",
+          "source_ids": [
+            "ST-KY-001"
+          ],
+          "definition": "별도 영업손익",
+          "derived": false,
+          "formula": null,
+          "observed_at": "2026-11-04",
+          "is_forecast": false,
+          "source_locator": {
+            "source_id": "ST-KY-001",
+            "section": "III. 재무에 관한 사항 > 1. 요약재무정보",
+            "page": null,
+            "table": "나. 요약재무정보(별도)",
+            "row": "영업이익",
+            "document_locator": "DART dcmNo11536829 eleId16 offset554376 length41253"
+          }
+        },
+        {
+          "id": "BMX-KY-F-07",
+          "entity": "교보증권",
+          "metric": "당기순이익",
+          "value": 122899450,
+          "unit": "KRW_thousand",
+          "period": "2026-01-01/2026-06-30",
+          "reporting_basis": "별도",
+          "source_ids": [
+            "ST-KY-001"
+          ],
+          "definition": "별도 당기순이익",
+          "derived": false,
+          "formula": null,
+          "observed_at": "2026-11-04",
+          "is_forecast": false,
+          "source_locator": {
+            "source_id": "ST-KY-001",
+            "section": "III. 재무에 관한 사항 > 1. 요약재무정보",
+            "page": null,
+            "table": "나. 요약재무정보(별도)",
+            "row": "당기순이익",
+            "document_locator": "DART dcmNo11536829 eleId16 offset554376 length41253"
+          }
+        },
+        {
+          "id": "BMX-KY-F-08",
+          "entity": "교보증권",
+          "metric": "수수료수익",
+          "value": 245370122,
+          "unit": "KRW_thousand",
+          "period": "2026-01-01/2026-06-30",
+          "reporting_basis": "연결",
+          "source_ids": [
+            "ST-KY-001"
+          ],
+          "definition": "수수료 총수입; 순익 아님",
+          "derived": false,
+          "formula": null,
+          "observed_at": "2026-11-04",
+          "is_forecast": false,
+          "source_locator": {
+            "source_id": "ST-KY-001",
+            "section": "III. 재무에 관한 사항 > 연결재무제표 주석25. 순수수료손익",
+            "page": null,
+            "table": "순수수료손익에 대한 공시 > 당반기 > 누적",
+            "row": "수수료수익",
+            "document_locator": "DART dcmNo11536829 eleId47 offset2279532 length40634"
+          }
+        },
+        {
+          "id": "BMX-KY-F-09",
+          "entity": "교보증권",
+          "metric": "수수료비용",
+          "value": 42695869,
+          "unit": "KRW_thousand",
+          "period": "2026-01-01/2026-06-30",
+          "reporting_basis": "연결",
+          "source_ids": [
+            "ST-KY-001"
+          ],
+          "definition": "수수료 계정 비용",
+          "derived": false,
+          "formula": null,
+          "observed_at": "2026-11-04",
+          "is_forecast": false,
+          "source_locator": {
+            "source_id": "ST-KY-001",
+            "section": "III. 재무에 관한 사항 > 연결재무제표 주석25. 순수수료손익",
+            "page": null,
+            "table": "순수수료손익에 대한 공시 > 당반기 > 누적",
+            "row": "수수료비용",
+            "document_locator": "DART dcmNo11536829 eleId47 offset2279532 length40634"
+          }
+        },
+        {
+          "id": "BMX-KY-F-10",
+          "entity": "교보증권",
+          "metric": "순수수료손익",
+          "value": 202674253,
+          "unit": "KRW_thousand",
+          "period": "2026-01-01/2026-06-30",
+          "reporting_basis": "연결",
+          "source_ids": [
+            "ST-KY-001"
+          ],
+          "definition": "245370122-42695869; 인건비 등 추가비용 차감 전",
+          "derived": false,
+          "formula": null,
+          "observed_at": "2026-11-04",
+          "is_forecast": false,
+          "source_locator": {
+            "source_id": "ST-KY-001",
+            "section": "III. 재무에 관한 사항 > 연결재무제표 주석25. 순수수료손익",
+            "page": null,
+            "table": "순수수료손익에 대한 공시 > 당반기 > 누적",
+            "row": "순수수료손익",
+            "document_locator": "DART dcmNo11536829 eleId47 offset2279532 length40634"
+          }
+        },
+        {
+          "id": "BMX-KY-F-11",
+          "entity": "교보증권",
+          "metric": "인수및주선수수료수익",
+          "value": 11772634,
+          "unit": "KRW_thousand",
+          "period": "2026-01-01/2026-06-30",
+          "reporting_basis": "연결",
+          "source_ids": [
+            "ST-KY-001"
+          ],
+          "definition": "총수수료 중 항목; IB 전체순익 아님",
+          "derived": false,
+          "formula": null,
+          "observed_at": "2026-11-04",
+          "is_forecast": false,
+          "source_locator": {
+            "source_id": "ST-KY-001",
+            "section": "III. 재무에 관한 사항 > 연결재무제표 주석25. 순수수료손익",
+            "page": null,
+            "table": "순수수료손익에 대한 공시 > 당반기 > 누적",
+            "row": "인수및주선수수료수익",
+            "document_locator": "DART dcmNo11536829 eleId47 offset2279532 length40634"
+          }
+        },
+        {
+          "id": "BMX-KY-F-12",
+          "entity": "교보증권",
+          "metric": "금융자문수수료",
+          "value": 22450834,
+          "unit": "KRW_thousand",
+          "period": "2026-01-01/2026-06-30",
+          "reporting_basis": "연결",
+          "source_ids": [
+            "ST-KY-001"
+          ],
+          "definition": "총수수료 중 항목",
+          "derived": false,
+          "formula": null,
+          "observed_at": "2026-11-04",
+          "is_forecast": false,
+          "source_locator": {
+            "source_id": "ST-KY-001",
+            "section": "III. 재무에 관한 사항 > 연결재무제표 주석25. 순수수료손익",
+            "page": null,
+            "table": "순수수료손익에 대한 공시 > 당반기 > 누적",
+            "row": "금융자문수수료",
+            "document_locator": "DART dcmNo11536829 eleId47 offset2279532 length40634"
+          }
+        },
+        {
+          "id": "BMX-KY-F-13",
+          "entity": "교보증권",
+          "metric": "채무보증수수료 등",
+          "value": 15656215,
+          "unit": "KRW_thousand",
+          "period": "2026-01-01/2026-06-30",
+          "reporting_basis": "연결",
+          "source_ids": [
+            "ST-KY-001"
+          ],
+          "definition": "보증 외 유동화SPC 자산관리·업무수탁 포함",
+          "derived": false,
+          "formula": null,
+          "observed_at": "2026-11-04",
+          "is_forecast": false,
+          "source_locator": {
+            "source_id": "ST-KY-001",
+            "section": "III. 재무에 관한 사항 > 연결재무제표 주석25. 순수수료손익",
+            "page": null,
+            "table": "순수수료손익에 대한 공시 > 당반기 > 누적",
+            "row": "채무보증수수료 등",
+            "document_locator": "DART dcmNo11536829 eleId47 offset2279532 length40634",
+            "note": "채무보증수수료 등에 대한 기술: 유동화SPC 자산관리·업무수탁 보수 포함"
+          }
+        },
+        {
+          "id": "BMX-KY-F-14",
+          "entity": "교보증권",
+          "metric": "이자수익",
+          "value": 255246862,
+          "unit": "KRW_thousand",
+          "period": "2026-01-01/2026-06-30",
+          "reporting_basis": "연결",
+          "source_ids": [
+            "ST-KY-001"
+          ],
+          "definition": "금융자산 이자 포함",
+          "derived": false,
+          "formula": null,
+          "observed_at": "2026-11-04",
+          "is_forecast": false,
+          "source_locator": {
+            "source_id": "ST-KY-001",
+            "section": "연결 주석27. 이자손익",
+            "page": null,
+            "table": "순이자손익에 대한 공시 > 당반기 > 누적",
+            "row": "이자수익",
+            "document_locator": "DART dcmNo11536829 eleId49 offset2449613 length38261"
+          }
+        },
+        {
+          "id": "BMX-KY-F-15",
+          "entity": "교보증권",
+          "metric": "이자비용",
+          "value": 112080146,
+          "unit": "KRW_thousand",
+          "period": "2026-01-01/2026-06-30",
+          "reporting_basis": "연결",
+          "source_ids": [
+            "ST-KY-001"
+          ],
+          "definition": "예탁금 이용료·차입·RP·콜·기타 포함",
+          "derived": false,
+          "formula": null,
+          "observed_at": "2026-11-04",
+          "is_forecast": false,
+          "source_locator": {
+            "source_id": "ST-KY-001",
+            "section": "연결 주석27. 이자손익",
+            "page": null,
+            "table": "순이자손익에 대한 공시 > 당반기 > 누적",
+            "row": "이자비용",
+            "document_locator": "DART dcmNo11536829 eleId49 offset2449613 length38261"
+          }
+        },
+        {
+          "id": "BMX-KY-F-16",
+          "entity": "교보증권",
+          "metric": "순이자손익",
+          "value": 143166716,
+          "unit": "KRW_thousand",
+          "period": "2026-01-01/2026-06-30",
+          "reporting_basis": "연결",
+          "source_ids": [
+            "ST-KY-001"
+          ],
+          "definition": "255246862-112080146",
+          "derived": false,
+          "formula": null,
+          "observed_at": "2026-11-04",
+          "is_forecast": false,
+          "source_locator": {
+            "source_id": "ST-KY-001",
+            "section": "연결 주석27. 이자손익",
+            "page": null,
+            "table": "순이자손익에 대한 공시 > 당반기 > 누적",
+            "row": "순이자손익",
+            "document_locator": "DART dcmNo11536829 eleId49 offset2449613 length38261"
+          }
+        },
+        {
+          "id": "BMX-KY-F-17",
+          "entity": "교보증권",
+          "metric": "금융상품관련수익",
+          "value": 4373166408,
+          "unit": "KRW_thousand",
+          "period": "2026-01-01/2026-06-30",
+          "reporting_basis": "연결",
+          "source_ids": [
+            "ST-KY-001"
+          ],
+          "definition": "주석26 금융상품관련 범주 총수익",
+          "derived": false,
+          "formula": null,
+          "observed_at": "2026-11-04",
+          "is_forecast": false,
+          "source_locator": {
+            "source_id": "ST-KY-001",
+            "section": "연결 주석26. 금융상품관련 손익",
+            "page": null,
+            "table": "금융상품 관련 순손익의 공시 > 당반기 > 자산과 부채 합계 > 누적",
+            "row": "금융상품관련수익",
+            "document_locator": "DART dcmNo11536829 eleId48 offset2320166 length129447"
+          }
+        },
+        {
+          "id": "BMX-KY-F-18",
+          "entity": "교보증권",
+          "metric": "금융상품관련비용",
+          "value": 4299089528,
+          "unit": "KRW_thousand",
+          "period": "2026-01-01/2026-06-30",
+          "reporting_basis": "연결",
+          "source_ids": [
+            "ST-KY-001"
+          ],
+          "definition": "주석26 동일범주 총비용",
+          "derived": false,
+          "formula": null,
+          "observed_at": "2026-11-04",
+          "is_forecast": false,
+          "source_locator": {
+            "source_id": "ST-KY-001",
+            "section": "연결 주석26. 금융상품관련 손익",
+            "page": null,
+            "table": "금융상품 관련 순손익의 공시 > 당반기 > 자산과 부채 합계 > 누적",
+            "row": "금융상품관련비용",
+            "document_locator": "DART dcmNo11536829 eleId48 offset2320166 length129447"
+          }
+        },
+        {
+          "id": "BMX-KY-F-19",
+          "entity": "교보증권",
+          "metric": "집합투자증권취급수수료",
+          "value": 5463871,
+          "unit": "KRW_thousand",
+          "period": "2026-01-01/2026-06-30",
+          "reporting_basis": "연결",
+          "source_ids": [
+            "ST-KY-001"
+          ],
+          "definition": "상품 판매·취급 총수수료",
+          "derived": false,
+          "formula": null,
+          "observed_at": "2026-11-04",
+          "is_forecast": false,
+          "source_locator": {
+            "source_id": "ST-KY-001",
+            "section": "III. 재무에 관한 사항 > 연결재무제표 주석25. 순수수료손익",
+            "page": null,
+            "table": "순수수료손익에 대한 공시 > 당반기 > 누적",
+            "row": "집합투자증권취급수수료",
+            "document_locator": "DART dcmNo11536829 eleId47 offset2279532 length40634"
+          }
+        },
+        {
+          "id": "BMX-KY-F-20",
+          "entity": "교보증권",
+          "metric": "자산관리수수료",
+          "value": 3490923,
+          "unit": "KRW_thousand",
+          "period": "2026-01-01/2026-06-30",
+          "reporting_basis": "연결",
+          "source_ids": [
+            "ST-KY-001"
+          ],
+          "definition": "총수수료 항목",
+          "derived": false,
+          "formula": null,
+          "observed_at": "2026-11-04",
+          "is_forecast": false,
+          "source_locator": {
+            "source_id": "ST-KY-001",
+            "section": "III. 재무에 관한 사항 > 연결재무제표 주석25. 순수수료손익",
+            "page": null,
+            "table": "순수수료손익에 대한 공시 > 당반기 > 누적",
+            "row": "자산관리수수료",
+            "document_locator": "DART dcmNo11536829 eleId47 offset2279532 length40634"
+          }
+        },
+        {
+          "id": "BMX-KY-F-21",
+          "entity": "교보증권",
+          "metric": "신탁보수",
+          "value": 1955998,
+          "unit": "KRW_thousand",
+          "period": "2026-01-01/2026-06-30",
+          "reporting_basis": "연결",
+          "source_ids": [
+            "ST-KY-001"
+          ],
+          "definition": "총수수료 항목",
+          "derived": false,
+          "formula": null,
+          "observed_at": "2026-11-04",
+          "is_forecast": false,
+          "source_locator": {
+            "source_id": "ST-KY-001",
+            "section": "III. 재무에 관한 사항 > 연결재무제표 주석25. 순수수료손익",
+            "page": null,
+            "table": "순수수료손익에 대한 공시 > 당반기 > 누적",
+            "row": "신탁보수",
+            "document_locator": "DART dcmNo11536829 eleId47 offset2279532 length40634"
+          }
+        },
+        {
+          "id": "BMX-KY-F-22",
+          "entity": "교보증권",
+          "metric": "금융상품관련수익-비용",
+          "value": 74076880,
+          "unit": "KRW_thousand",
+          "period": "2026-01-01/2026-06-30",
+          "reporting_basis": "연결 주석26 동일범주 연구자 차감",
+          "source_ids": [
+            "ST-KY-001"
+          ],
+          "definition": "외환·이자 등 운용전체 손익 아님",
+          "derived": true,
+          "formula": "4373166408 - 4299089528",
+          "observed_at": "2026-11-04",
+          "is_forecast": false,
+          "source_locator": {
+            "source_id": "ST-KY-001",
+            "section": "연결 주석26. 금융상품관련 손익",
+            "page": null,
+            "table": "금융상품 관련 순손익의 공시 > 당반기 > 자산과 부채 합계 > 누적",
+            "row": "금융상품관련수익-비용",
+            "document_locator": "DART dcmNo11536829 eleId48 offset2320166 length129447",
+            "note": "금융상품관련수익 행 - 금융상품관련비용 행 원시 천원값 직접 차감"
+          }
+        },
+        {
+          "id": "BMX-KY-F-23",
+          "entity": "교보증권",
+          "metric": "위탁매매수수료 총액",
+          "value": 161064,
+          "unit": "KRW_million",
+          "period": "2026-01-01/2026-06-30",
+          "reporting_basis": "별도 영업현황 표",
+          "source_ids": [
+            "ST-KY-001"
+          ],
+          "definition": "수수료 수입; 고객별 순기여 미확인",
+          "derived": false,
+          "formula": null,
+          "observed_at": "2026-11-04",
+          "is_forecast": false,
+          "source_locator": {
+            "source_id": "ST-KY-001",
+            "section": "II. 사업의 내용 > 2. 영업의 현황 > 라. 영업 종류별 현황 > (2) 투자 중개업무",
+            "page": null,
+            "table": "(가) 금융투자상품의 위탁매매 및 수수료 현황 > 2026.01.01~06.30",
+            "row": "위탁매매수수료 총액",
+            "document_locator": "DART dcmNo11536829 eleId11; 별도 백만원 표"
+          }
+        },
+        {
+          "id": "BMX-KY-F-24",
+          "entity": "교보증권",
+          "metric": "주식 위탁수수료",
+          "value": 78656,
+          "unit": "KRW_million",
+          "period": "2026-01-01/2026-06-30",
+          "reporting_basis": "별도 영업현황 표",
+          "source_ids": [
+            "ST-KY-001"
+          ],
+          "definition": "수수료 수입; 고객별 순기여 미확인",
+          "derived": false,
+          "formula": null,
+          "observed_at": "2026-11-04",
+          "is_forecast": false,
+          "source_locator": {
+            "source_id": "ST-KY-001",
+            "section": "II. 사업의 내용 > 2. 영업의 현황 > 라. 영업 종류별 현황 > (2) 투자 중개업무",
+            "page": null,
+            "table": "(가) 금융투자상품의 위탁매매 및 수수료 현황 > 2026.01.01~06.30",
+            "row": "주식 위탁수수료",
+            "document_locator": "DART dcmNo11536829 eleId11; 별도 백만원 표"
+          }
+        },
+        {
+          "id": "BMX-KY-F-25",
+          "entity": "교보증권",
+          "metric": "해외선물 위탁수수료",
+          "value": 68828,
+          "unit": "KRW_million",
+          "period": "2026-01-01/2026-06-30",
+          "reporting_basis": "별도 영업현황 표",
+          "source_ids": [
+            "ST-KY-001"
+          ],
+          "definition": "수수료 수입; 고객별 순기여 미확인",
+          "derived": false,
+          "formula": null,
+          "observed_at": "2026-11-04",
+          "is_forecast": false,
+          "source_locator": {
+            "source_id": "ST-KY-001",
+            "section": "II. 사업의 내용 > 2. 영업의 현황 > 라. 영업 종류별 현황 > (2) 투자 중개업무",
+            "page": null,
+            "table": "(가) 금융투자상품의 위탁매매 및 수수료 현황 > 2026.01.01~06.30",
+            "row": "해외선물 위탁수수료",
+            "document_locator": "DART dcmNo11536829 eleId11; 별도 백만원 표"
+          }
+        },
+        {
+          "id": "BMX-KY-F-26",
+          "entity": "교보생명",
+          "metric": "자산",
+          "value": 1308248,
+          "unit": "KRW_100million",
+          "period": "2026-06-30",
+          "reporting_basis": "금융감독원 업무보고서 기준·회사 정기경영공시; 공시용 IFRS 연결표와 동일시하지 않음",
+          "source_ids": [
+            "BMX-KY-001",
+            "BMX-KY-002"
+          ],
+          "definition": "총괄 잔액",
+          "derived": false,
+          "formula": null,
+          "observed_at": "2026-11-04",
+          "is_forecast": false,
+          "source_locator": {
+            "source_id": "BMX-KY-001",
+            "section": "I. 주요 경영현황 요약 > 1-1. 주요 경영지표",
+            "page": 1,
+            "table": "해당 분기(26.2Q) / 전년 동기(25.2Q)",
+            "row": "자산"
+          }
+        },
+        {
+          "id": "BMX-KY-F-27",
+          "entity": "교보생명",
+          "metric": "자본",
+          "value": 92023,
+          "unit": "KRW_100million",
+          "period": "2026-06-30",
+          "reporting_basis": "금융감독원 업무보고서 기준·회사 정기경영공시; 공시용 IFRS 연결표와 동일시하지 않음",
+          "source_ids": [
+            "BMX-KY-001",
+            "BMX-KY-002"
+          ],
+          "definition": "회계자본; 규제 가용자본과 다름",
+          "derived": false,
+          "formula": null,
+          "observed_at": "2026-11-04",
+          "is_forecast": false,
+          "source_locator": {
+            "source_id": "BMX-KY-001",
+            "section": "I. 주요 경영현황 요약 > 1-1. 주요 경영지표",
+            "page": 1,
+            "table": "해당 분기(26.2Q) / 전년 동기(25.2Q)",
+            "row": "자본"
+          }
+        },
+        {
+          "id": "BMX-KY-F-28",
+          "entity": "교보생명",
+          "metric": "K-ICS 경과조치 전",
+          "value": 155.43,
+          "unit": "percent",
+          "period": "2026-06-30",
+          "reporting_basis": "금융감독원 업무보고서 기준·회사 정기경영공시; 공시용 IFRS 연결표와 동일시하지 않음",
+          "source_ids": [
+            "BMX-KY-001",
+            "BMX-KY-002"
+          ],
+          "definition": "감독 비율, 세부 규제연결 범위 전체 미독",
+          "derived": false,
+          "formula": null,
+          "observed_at": "2026-11-04",
+          "is_forecast": false,
+          "source_locator": {
+            "source_id": "BMX-KY-001",
+            "section": "I. 주요 경영현황 요약 > 1-1. 주요 경영지표",
+            "page": 1,
+            "table": "해당 분기(26.2Q) / 전년 동기(25.2Q)",
+            "row": "K-ICS 경과조치 전"
+          }
+        },
+        {
+          "id": "BMX-KY-F-29",
+          "entity": "교보생명",
+          "metric": "K-ICS 경과조치 후",
+          "value": 200.75,
+          "unit": "percent",
+          "period": "2026-06-30",
+          "reporting_basis": "금융감독원 업무보고서 기준·회사 정기경영공시; 공시용 IFRS 연결표와 동일시하지 않음",
+          "source_ids": [
+            "BMX-KY-001",
+            "BMX-KY-002"
+          ],
+          "definition": "경과 전 수치와 분리",
+          "derived": false,
+          "formula": null,
+          "observed_at": "2026-11-04",
+          "is_forecast": false,
+          "source_locator": {
+            "source_id": "BMX-KY-001",
+            "section": "I. 주요 경영현황 요약 > 1-1. 주요 경영지표",
+            "page": 1,
+            "table": "해당 분기(26.2Q) / 전년 동기(25.2Q)",
+            "row": "K-ICS 경과조치 후"
+          }
+        },
+        {
+          "id": "BMX-KY-F-30",
+          "entity": "교보생명",
+          "metric": "보험손익",
+          "value": 2275,
+          "unit": "KRW_100million",
+          "period": "2026-01-01/2026-06-30",
+          "reporting_basis": "금융감독원 업무보고서 기준·회사 정기경영공시; 공시용 IFRS 연결표와 동일시하지 않음",
+          "source_ids": [
+            "BMX-KY-001",
+            "BMX-KY-002"
+          ],
+          "definition": "보험수익-서비스비용·재보험 등",
+          "derived": false,
+          "formula": null,
+          "observed_at": "2026-11-04",
+          "is_forecast": false,
+          "source_locator": {
+            "source_id": "BMX-KY-002",
+            "section": "II. 재무·손익 > 2-1. 요약 포괄손익계산서(총괄)",
+            "page": 1,
+            "table": "해당 분기(26.2Q)",
+            "row": "보험손익",
+            "note": "p.3 2-3 재무정보 요약사항 기술에서 반기 누적임을 교차확인"
+          }
+        },
+        {
+          "id": "BMX-KY-F-31",
+          "entity": "교보생명",
+          "metric": "투자손익",
+          "value": 4054,
+          "unit": "KRW_100million",
+          "period": "2026-01-01/2026-06-30",
+          "reporting_basis": "금융감독원 업무보고서 기준·회사 정기경영공시; 공시용 IFRS 연결표와 동일시하지 않음",
+          "source_ids": [
+            "BMX-KY-001",
+            "BMX-KY-002"
+          ],
+          "definition": "보험금융손익·이자비용 등 반영; IR4038과 별도",
+          "derived": false,
+          "formula": null,
+          "observed_at": "2026-11-04",
+          "is_forecast": false,
+          "source_locator": {
+            "source_id": "BMX-KY-002",
+            "section": "II. 재무·손익 > 2-1. 요약 포괄손익계산서(총괄)",
+            "page": 1,
+            "table": "해당 분기(26.2Q)",
+            "row": "투자손익",
+            "note": "p.3 2-3 재무정보 요약사항 기술에서 반기 누적임을 교차확인"
+          }
+        },
+        {
+          "id": "BMX-KY-F-32",
+          "entity": "교보생명",
+          "metric": "운용자산",
+          "value": 104.8,
+          "unit": "KRW_trillion",
+          "period": "2026-06-30",
+          "reporting_basis": "금융감독원 업무보고서 기준·회사 정기경영공시; 공시용 IFRS 연결표와 동일시하지 않음",
+          "source_ids": [
+            "BMX-KY-001",
+            "BMX-KY-002"
+          ],
+          "definition": "공시 설명 반올림; 전체 자산130.8과 구분",
+          "derived": false,
+          "formula": null,
+          "observed_at": "2026-11-04",
+          "is_forecast": false,
+          "source_locator": {
+            "source_id": "BMX-KY-002",
+            "section": "II. 재무·손익 > 2-3. 재무정보 요약사항 기술",
+            "page": 3,
+            "table": null,
+            "row": "운용자산",
+            "note": "자산은130.8조원이며 이중 운용자산은104.8조원이라는 본문 설명"
+          }
+        },
+        {
+          "id": "BMX-KY-F-33",
+          "entity": "교보생명",
+          "metric": "13회차 계약유지율",
+          "value": 89.71,
+          "unit": "percent",
+          "period": "2026Q2 공시",
+          "reporting_basis": "금융감독원 업무보고서 기준·회사 정기경영공시; 공시용 IFRS 연결표와 동일시하지 않음",
+          "source_ids": [
+            "BMX-KY-001",
+            "BMX-KY-002"
+          ],
+          "definition": "해당 가입코호트·기준; 2025연간값과 구분",
+          "derived": false,
+          "formula": null,
+          "observed_at": "2026-11-04",
+          "is_forecast": false,
+          "source_locator": {
+            "source_id": "BMX-KY-001",
+            "section": "I. 주요 경영현황 요약 > 1-2. 주요 경영효율 지표",
+            "page": 2,
+            "table": "계약유지율 해당 분기(26.2Q) 13회차/25회차",
+            "row": "13회차 계약유지율"
+          }
+        },
+        {
+          "id": "BMX-KY-F-34",
+          "entity": "교보생명",
+          "metric": "25회차 계약유지율",
+          "value": 78.18,
+          "unit": "percent",
+          "period": "2026Q2 공시",
+          "reporting_basis": "금융감독원 업무보고서 기준·회사 정기경영공시; 공시용 IFRS 연결표와 동일시하지 않음",
+          "source_ids": [
+            "BMX-KY-001",
+            "BMX-KY-002"
+          ],
+          "definition": "13회차와 동일 코호트 아님",
+          "derived": false,
+          "formula": null,
+          "observed_at": "2026-11-04",
+          "is_forecast": false,
+          "source_locator": {
+            "source_id": "BMX-KY-001",
+            "section": "I. 주요 경영현황 요약 > 1-2. 주요 경영효율 지표",
+            "page": 2,
+            "table": "계약유지율 해당 분기(26.2Q) 13회차/25회차",
+            "row": "25회차 계약유지율"
+          }
+        },
+        {
+          "id": "BMX-KY-F-35",
+          "entity": "교보생명",
+          "metric": "지배주주 순이익",
+          "value": 7048,
+          "unit": "KRW_100million",
+          "period": "2026-01-01/2026-06-30",
+          "reporting_basis": "연결·공식 IR",
+          "source_ids": [
+            "BMX-KY-003"
+          ],
+          "definition": "증권 순익과 합산 금지",
+          "derived": false,
+          "formula": null,
+          "observed_at": "2026-11-04",
+          "is_forecast": false,
+          "source_locator": {
+            "source_id": "BMX-KY-003",
+            "section": "2026-08-14 공식 반기 IR 설명 본문 및 하단 실적 표",
+            "page": null,
+            "table": "연결 기준 당기순이익(지배기업 소유주 지분 기준)",
+            "row": "지배주주 순이익"
+          }
+        },
+        {
+          "id": "BMX-KY-F-36",
+          "entity": "교보생명",
+          "metric": "순이익",
+          "value": 4786,
+          "unit": "KRW_100million",
+          "period": "2026-01-01/2026-06-30",
+          "reporting_basis": "별도·공식 IR",
+          "source_ids": [
+            "BMX-KY-003"
+          ],
+          "definition": "전년5853 대비18.2% 감소; 연결 증가와 구분",
+          "derived": false,
+          "formula": null,
+          "observed_at": "2026-11-04",
+          "is_forecast": false,
+          "source_locator": {
+            "source_id": "BMX-KY-003",
+            "section": "2026-08-14 공식 반기 IR 설명 본문 및 하단 실적 표",
+            "page": null,
+            "table": "별도 기준 당기순이익",
+            "row": "순이익"
+          }
+        },
+        {
+          "id": "BMX-KY-F-37",
+          "entity": "교보생명",
+          "metric": "투자손익",
+          "value": 4038,
+          "unit": "KRW_100million",
+          "period": "2026-01-01/2026-06-30",
+          "reporting_basis": "별도·공식 IR",
+          "source_ids": [
+            "BMX-KY-003"
+          ],
+          "definition": "업무보고서4054와 차이16; 세부조정 미확인",
+          "derived": false,
+          "formula": null,
+          "observed_at": "2026-11-04",
+          "is_forecast": false,
+          "source_locator": {
+            "source_id": "BMX-KY-003",
+            "section": "2026-08-14 공식 반기 IR 설명 본문 및 하단 실적 표",
+            "page": null,
+            "table": null,
+            "row": "투자손익",
+            "note": "본문 상반기 별도 기준 투자손익4038억원 문단; 숫자표 별도 없음"
+          }
+        },
+        {
+          "id": "BMX-KY-F-38",
+          "entity": "교보생명",
+          "metric": "신계약CSM",
+          "value": 8060,
+          "unit": "KRW_100million",
+          "period": "2026-01-01/2026-06-30",
+          "reporting_basis": "별도·공식 IR",
+          "source_ids": [
+            "BMX-KY-003"
+          ],
+          "definition": "이익·현금수취 아님",
+          "derived": false,
+          "formula": null,
+          "observed_at": "2026-11-04",
+          "is_forecast": false,
+          "source_locator": {
+            "source_id": "BMX-KY-003",
+            "section": "2026-08-14 공식 반기 IR 설명 본문 및 하단 실적 표",
+            "page": null,
+            "table": "별도 기준 신계약 CSM",
+            "row": "신계약CSM"
+          }
+        },
+        {
+          "id": "BMX-KY-F-39",
+          "entity": "교보생명",
+          "metric": "보유CSM",
+          "value": 69250,
+          "unit": "KRW_100million",
+          "period": "2026-06-30",
+          "reporting_basis": "별도·공식 IR",
+          "source_ids": [
+            "BMX-KY-003"
+          ],
+          "definition": "미래 서비스에 따라 인식할 마진",
+          "derived": false,
+          "formula": null,
+          "observed_at": "2026-11-04",
+          "is_forecast": false,
+          "source_locator": {
+            "source_id": "BMX-KY-003",
+            "section": "2026-08-14 공식 반기 IR 설명 본문 및 하단 실적 표",
+            "page": null,
+            "table": "별도 기준 보유계약 CSM",
+            "row": "보유CSM"
+          }
+        },
+        {
+          "id": "BMX-KY-F-40",
+          "entity": "교보문고",
+          "metric": "자산",
+          "value": 548088525319,
+          "unit": "KRW",
+          "period": "2025-12-31",
+          "reporting_basis": "개별 K-IFRS 감사 재무제표",
+          "source_ids": [
+            "BMX-KY-005"
+          ],
+          "definition": "2026 회사 실적과 기간 혼합·합산 금지",
+          "derived": false,
+          "formula": null,
+          "observed_at": "2026-11-04",
+          "is_forecast": false,
+          "source_locator": {
+            "source_id": "BMX-KY-005",
+            "section": "(첨부) 재무제표",
+            "page": null,
+            "table": "재무상태표 > 제45기말(2025.12.31)",
+            "row": "자산",
+            "document_locator": "DART dcmNo11171120 eleId3 offset11515 length493592"
+          }
+        },
+        {
+          "id": "BMX-KY-F-41",
+          "entity": "교보문고",
+          "metric": "자본",
+          "value": 226221131109,
+          "unit": "KRW",
+          "period": "2025-12-31",
+          "reporting_basis": "개별 K-IFRS 감사 재무제표",
+          "source_ids": [
+            "BMX-KY-005"
+          ],
+          "definition": "2026 회사 실적과 기간 혼합·합산 금지",
+          "derived": false,
+          "formula": null,
+          "observed_at": "2026-11-04",
+          "is_forecast": false,
+          "source_locator": {
+            "source_id": "BMX-KY-005",
+            "section": "(첨부) 재무제표",
+            "page": null,
+            "table": "재무상태표 > 제45기말(2025.12.31)",
+            "row": "자본",
+            "document_locator": "DART dcmNo11171120 eleId3 offset11515 length493592"
+          }
+        },
+        {
+          "id": "BMX-KY-F-42",
+          "entity": "교보문고",
+          "metric": "매출",
+          "value": 983469541395,
+          "unit": "KRW",
+          "period": "2025-01-01/2025-12-31",
+          "reporting_basis": "개별 K-IFRS 감사 재무제표",
+          "source_ids": [
+            "BMX-KY-005"
+          ],
+          "definition": "2026 회사 실적과 기간 혼합·합산 금지",
+          "derived": false,
+          "formula": null,
+          "observed_at": "2026-11-04",
+          "is_forecast": false,
+          "source_locator": {
+            "source_id": "BMX-KY-005",
+            "section": "(첨부) 재무제표",
+            "page": null,
+            "table": "포괄손익계산서 > 제45기(2025년)",
+            "row": "매출",
+            "document_locator": "DART dcmNo11171120 eleId3 offset11515 length493592"
+          }
+        },
+        {
+          "id": "BMX-KY-F-43",
+          "entity": "교보문고",
+          "metric": "영업이익",
+          "value": 5963843298,
+          "unit": "KRW",
+          "period": "2025-01-01/2025-12-31",
+          "reporting_basis": "개별 K-IFRS 감사 재무제표",
+          "source_ids": [
+            "BMX-KY-005"
+          ],
+          "definition": "2026 회사 실적과 기간 혼합·합산 금지",
+          "derived": false,
+          "formula": null,
+          "observed_at": "2026-11-04",
+          "is_forecast": false,
+          "source_locator": {
+            "source_id": "BMX-KY-005",
+            "section": "(첨부) 재무제표",
+            "page": null,
+            "table": "포괄손익계산서 > 제45기(2025년)",
+            "row": "영업이익",
+            "document_locator": "DART dcmNo11171120 eleId3 offset11515 length493592"
+          }
+        },
+        {
+          "id": "BMX-KY-F-44",
+          "entity": "교보문고",
+          "metric": "순이익",
+          "value": 7025861616,
+          "unit": "KRW",
+          "period": "2025-01-01/2025-12-31",
+          "reporting_basis": "개별 K-IFRS 감사 재무제표",
+          "source_ids": [
+            "BMX-KY-005"
+          ],
+          "definition": "2026 회사 실적과 기간 혼합·합산 금지",
+          "derived": false,
+          "formula": null,
+          "observed_at": "2026-11-04",
+          "is_forecast": false,
+          "source_locator": {
+            "source_id": "BMX-KY-005",
+            "section": "(첨부) 재무제표",
+            "page": null,
+            "table": "포괄손익계산서 > 제45기(2025년)",
+            "row": "순이익",
+            "document_locator": "DART dcmNo11171120 eleId3 offset11515 length493592"
+          }
+        },
+        {
+          "id": "BMX-KY-F-45",
+          "entity": "교보문고",
+          "metric": "상품매출",
+          "value": 900287478,
+          "unit": "KRW_thousand",
+          "period": "2025-01-01/2025-12-31",
+          "reporting_basis": "개별 주석27",
+          "source_ids": [
+            "BMX-KY-005"
+          ],
+          "definition": "IP 사용료나 토큰화 가능 채권 총액 아님",
+          "derived": false,
+          "formula": null,
+          "observed_at": "2026-11-04",
+          "is_forecast": false,
+          "source_locator": {
+            "source_id": "BMX-KY-005",
+            "section": "주석27. 매출액 및 매출원가 > (1) 매출액 구성내역",
+            "page": null,
+            "table": "당기(2025년), 천원",
+            "row": "상품매출",
+            "document_locator": "DART dcmNo11171120 eleId4 offset72361 length432732"
+          }
+        },
+        {
+          "id": "BMX-KY-F-46",
+          "entity": "교보문고",
+          "metric": "영업이익률",
+          "value": 0.606408541086143,
+          "unit": "percent",
+          "period": "2025-01-01/2025-12-31",
+          "reporting_basis": "개별 연구자 산술",
+          "source_ids": [
+            "BMX-KY-005"
+          ],
+          "definition": "2025 영업이익/매출",
+          "derived": true,
+          "formula": "5963843298 / 983469541395 * 100",
+          "observed_at": "2026-11-04",
+          "is_forecast": false,
+          "source_locator": {
+            "source_id": "BMX-KY-005",
+            "section": "(첨부) 재무제표",
+            "page": null,
+            "table": "포괄손익계산서 > 제45기(2025년)",
+            "row": "영업이익률",
+            "document_locator": "DART dcmNo11171120 eleId3 offset11515 length493592",
+            "note": "같은 2025년 표 영업이익/매출액 원 단위 값으로 연구자 산출"
+          }
+        }
+      ],
+      "source_ids": [
+        "BMX-KY-001",
+        "BMX-KY-002",
+        "BMX-KY-003",
+        "BMX-KY-004",
+        "BMX-KY-005",
+        "ST-KY-001"
+      ],
+      "claim_ids": [
+        "C-391",
+        "C-392",
+        "C-393",
+        "C-394",
+        "C-395",
+        "C-396",
+        "C-397",
+        "C-398"
+      ],
+      "context_and_limits": {
+        "as_of": "2026-11-04",
+        "status": "final_for_independent_review",
+        "new_source_ids": [
+          "BMX-KY-001",
+          "BMX-KY-002",
+          "BMX-KY-003",
+          "BMX-KY-004",
+          "BMX-KY-005"
+        ],
+        "reused_source_ids": [
+          "KYX-A-001",
+          "KYX-A-004",
+          "KYX-M-007",
+          "OBX-E-004",
+          "OBX-E-019",
+          "OBX-E-020",
+          "OBX-P-005",
+          "ST-KY-001",
+          "ST-KY-002",
+          "ST-KY-003",
+          "ST-KY-007"
+        ],
+        "actually_reopened_source_ids": [
+          "ST-KY-001"
+        ],
+        "latest_obtained_periods": {
+          "Kyobo Securities": "2026H1",
+          "Kyobo Life": "2026H1 / 2026Q2 management disclosure",
+          "Kyobo Bookstore": "2025FY audited individual"
+        },
+        "source_status_note": "새 출처5건은 공식 본문/PDF에서 읽은 범위만 표시. 기존 법령·RCPS·Ondo 자료는 이번 전체 재열람이 아닌 이전 검증 재사용.",
+        "scope_limits": [
+          "2026-11-04 이후 자료 제외",
+          "생명 연결과 별도·업무보고서/IR 기준 차이를 유지하고 그룹 임의 합계 없음",
+          "미확인3Q 숫자·가상자금배분 없음",
+          "현재종투사/발행어음/IMA 및 RCPS납입완료 미확보는 부재의 증명 아님"
+        ],
+        "access_limits": [
+          {
+            "target": "교보생명 공식 2026Q2 PDF",
+            "web_tool": "timeout/not accessible",
+            "resolution": "공식 Chrome 다운로드 버튼 및 download event로 원문 확보해 읽음"
+          },
+          {
+            "target": "DART 주석26·27 및 문고 감사보고서",
+            "web_tool": "not accessible",
+            "resolution": "공식 브라우저 본문으로 읽음"
+          },
+          {
+            "target": "교보생명 IR기사",
+            "web_tool": "open timeout",
+            "resolution": "공식 Chrome 본문으로 기사·표 직접 읽음"
+          }
+        ],
+        "unknowns": {
+          "new_business_customers": null,
+          "new_business_fees": null,
+          "conversion_rate": null,
+          "new_business_profit": null,
+          "life_investment_income_16_eok_reconciliation": null,
+          "current_rcps_completion": null,
+          "current_comprehensive_ib_designation": null,
+          "current_four_trillion_status": null,
+          "current_eight_trillion_status": null
+        },
+        "remote_or_shared_repo_modified": false
+      }
+    },
+    {
+      "group": "한화그룹",
+      "report": "reports/38_hanwha_business_model_priorities.md",
+      "observations": [
+        {
+          "id": "BMX-HW-F01",
+          "title": "연결·별도·지배주주 이익",
+          "source_ids": [
+            "BMX-HW-001"
+          ],
+          "as_of": "2026-11-04",
+          "source_locator": {
+            "pdf_physical_pages": [
+              9
+            ],
+            "printed_pages": [
+              5
+            ]
+          },
+          "financial_period": "2026-H1",
+          "published_at": "2026-08-12",
+          "basis": "한화생명 IR, 연결과 별도 구분",
+          "values": [
+            {
+              "name": "연결 당기순이익",
+              "value": 904.5,
+              "unit": "KRW billion",
+              "type": "flow",
+              "consolidation": "consolidated"
+            },
+            {
+              "name": "지배주주 순이익",
+              "value": 771.9,
+              "unit": "KRW billion",
+              "type": "flow",
+              "consolidation": "attributable_to_parent"
+            },
+            {
+              "name": "별도 순이익 bridge 표시",
+              "value": 510,
+              "unit": "KRW billion",
+              "type": "flow",
+              "consolidation": "separate",
+              "precision": "rounded_in_slide"
+            }
+          ],
+          "decision_meaning": "연결 총이익·한국 본체·주주 귀속을 분리한다.",
+          "limitations": "자회사 행 단순합이나 소유지분 곱으로 연결 귀속을 역산하지 않는다."
+        },
+        {
+          "id": "BMX-HW-F02",
+          "title": "별도 세전 보험손익",
+          "source_ids": [
+            "BMX-HW-001"
+          ],
+          "as_of": "2026-11-04",
+          "source_locator": {
+            "pdf_physical_pages": [
+              10
+            ],
+            "printed_pages": [
+              6
+            ]
+          },
+          "financial_period": "2026-H1",
+          "published_at": "2026-08-12",
+          "basis": "한국 한화생명 별도 세전",
+          "values": [
+            {
+              "name": "보험손익",
+              "value": 285.3,
+              "unit": "KRW billion",
+              "type": "flow"
+            },
+            {
+              "name": "CSM_RA상각",
+              "value": 465,
+              "unit": "KRW billion",
+              "precision": "rounded"
+            },
+            {
+              "name": "예실차",
+              "value": -148,
+              "unit": "KRW billion",
+              "precision": "rounded"
+            },
+            {
+              "name": "보험금 예실차",
+              "value": -138,
+              "unit": "KRW billion",
+              "precision": "rounded"
+            },
+            {
+              "name": "사업비 예실차",
+              "value": -10,
+              "unit": "KRW billion",
+              "precision": "rounded"
+            },
+            {
+              "name": "손실부담계약 환입",
+              "value": 51,
+              "unit": "KRW billion",
+              "precision": "rounded"
+            },
+            {
+              "name": "기타",
+              "value": -83,
+              "unit": "KRW billion",
+              "precision": "rounded"
+            }
+          ],
+          "decision_meaning": "판매량보다 위험·유지·청구·사업비가 계약 경제성을 결정한다.",
+          "limitations": "보험료·보험수익·보험서비스손익·세후이익과 혼용하지 않는다. 표 구성항목은 반올림."
+        },
+        {
+          "id": "BMX-HW-F03",
+          "title": "별도 세전 투자손익",
+          "source_ids": [
+            "BMX-HW-001"
+          ],
+          "as_of": "2026-11-04",
+          "source_locator": {
+            "pdf_physical_pages": [
+              10
+            ],
+            "printed_pages": [
+              6
+            ]
+          },
+          "financial_period": "2026-H1",
+          "published_at": "2026-08-12",
+          "basis": "한국 한화생명 별도 세전",
+          "values": [
+            {
+              "name": "투자손익",
+              "value": 354.8,
+              "unit": "KRW billion",
+              "type": "flow"
+            },
+            {
+              "name": "이자배당",
+              "value": 1367,
+              "unit": "KRW billion",
+              "precision": "rounded"
+            },
+            {
+              "name": "평가처분",
+              "value": 338,
+              "unit": "KRW billion",
+              "precision": "rounded"
+            },
+            {
+              "name": "부담이자",
+              "value": -1410,
+              "unit": "KRW billion",
+              "precision": "rounded"
+            },
+            {
+              "name": "변액퇴직",
+              "value": 60,
+              "unit": "KRW billion",
+              "precision": "rounded"
+            }
+          ],
+          "decision_meaning": "투자 총수익은 부채 비용을 뺀 이익이 아니며 시장효과와 운영절감을 분리한다.",
+          "limitations": "동일 투자손익에 이미 반영된 이자·헤지·비용을 순기여 계산에서 이중 차감하지 않는다."
+        },
+        {
+          "id": "BMX-HW-F04",
+          "title": "신계약과 보유계약 CSM",
+          "source_ids": [
+            "BMX-HW-001"
+          ],
+          "as_of": "2026-11-04",
+          "source_locator": {
+            "pdf_physical_pages": [
+              5,
+              6,
+              8
+            ],
+            "printed_pages": [
+              1,
+              2,
+              4
+            ]
+          },
+          "financial_period": "2026-H1",
+          "published_at": "2026-08-12",
+          "basis": "한국 한화생명 별도",
+          "values": [
+            {
+              "name": "상반기 신계약 CSM",
+              "value": 1300,
+              "unit": "KRW billion",
+              "type": "flow",
+              "precision": "rounded"
+            },
+            {
+              "name": "6월말 보유CSM",
+              "value": 8928,
+              "unit": "KRW billion",
+              "type": "stock",
+              "precision": "rounded"
+            },
+            {
+              "name": "기초CSM",
+              "value": 8714,
+              "unit": "KRW billion",
+              "type": "stock",
+              "precision": "rounded"
+            },
+            {
+              "name": "CSM상각",
+              "value": -373,
+              "unit": "KRW billion",
+              "type": "flow",
+              "precision": "rounded"
+            },
+            {
+              "name": "경험조정",
+              "value": -893,
+              "unit": "KRW billion",
+              "type": "flow",
+              "precision": "rounded"
+            }
+          ],
+          "decision_meaning": "미실현 서비스마진 기반을 지키는 유지·가정·서비스 품질이 중요하다.",
+          "limitations": "CSM은 현금·당기이익·가용자본이 아니다. 반올림 movement에서 정확 잔액을 재계산하지 않는다."
+        },
+        {
+          "id": "BMX-HW-F05",
+          "title": "GA 채널·유지·실적",
+          "source_ids": [
+            "BMX-HW-001"
+          ],
+          "as_of": "2026-11-04",
+          "source_locator": {
+            "pdf_physical_pages": [
+              7,
+              11
+            ],
+            "printed_pages": [
+              3,
+              7
+            ]
+          },
+          "financial_period": "2026-H1",
+          "published_at": "2026-08-12",
+          "basis": "설계사는 금융서비스·라이프랩·피플라이프·IFC; 유지율 세부 모집단은 슬라이드 미상; GA 표는 주요법인 합산",
+          "values": [
+            {
+              "name": "설계사",
+              "value": 38092,
+              "unit": "persons",
+              "type": "stock"
+            },
+            {
+              "name": "13회차 유지율",
+              "value": 90.0,
+              "unit": "percent",
+              "denominator": "회사 표시 유지율; 세부 모집단·산식 추가 확인 필요"
+            },
+            {
+              "name": "25회차 유지율",
+              "value": 77.4,
+              "unit": "percent",
+              "prior_FY25": 78.3
+            },
+            {
+              "name": "GA매출",
+              "value": 1667,
+              "unit": "KRW billion",
+              "type": "flow",
+              "precision": "rounded"
+            },
+            {
+              "name": "GA영업이익",
+              "value": 72,
+              "unit": "KRW billion",
+              "type": "flow",
+              "precision": "rounded"
+            },
+            {
+              "name": "GA순이익",
+              "value": 76,
+              "unit": "KRW billion",
+              "type": "flow",
+              "precision": "rounded"
+            }
+          ],
+          "decision_meaning": "국내 채널·계약 관리가 기존 사업의 중요 기반이며 단순 비교·설명 보수는 경쟁에 노출된다.",
+          "limitations": "설계사는 고객 수가 아니다. 모든 유지지표가 계속 개선됐다고 하지 않는다. GA 매출 전부가 생명 연결 외부매출은 아니다."
+        },
+        {
+          "id": "BMX-HW-F06",
+          "title": "보험자산·부채·유동성 기반",
+          "source_ids": [
+            "BMX-HW-001"
+          ],
+          "as_of": "2026-11-04",
+          "source_locator": {
+            "pdf_physical_pages": [
+              12,
+              15
+            ],
+            "printed_pages": [
+              8,
+              11
+            ]
+          },
+          "financial_period": "2026-H1",
+          "published_at": "2026-08-12",
+          "basis": "운용자산: 별도 일반계정, 퇴직연금 제외; 듀레이션갭은 회사 가중 산식",
+          "values": [
+            {
+              "name": "일반계정 운용자산",
+              "value": 93742,
+              "unit": "KRW billion",
+              "type": "stock"
+            },
+            {
+              "name": "국내채권 비중",
+              "value": 58,
+              "unit": "percent",
+              "denominator": "동일 운용자산"
+            },
+            {
+              "name": "해외증권 비중",
+              "value": 20,
+              "unit": "percent",
+              "denominator": "동일 운용자산"
+            },
+            {
+              "name": "대출채권 비중",
+              "value": 13,
+              "unit": "percent",
+              "denominator": "동일 운용자산"
+            },
+            {
+              "name": "자산듀레이션",
+              "value": 11.36,
+              "unit": "years"
+            },
+            {
+              "name": "부채듀레이션",
+              "value": 10.1,
+              "unit": "years"
+            },
+            {
+              "name": "가중 듀레이션갭",
+              "value": 0.93,
+              "unit": "years",
+              "formula": "금리부자산Duration - 금리부부채Duration * (금리부부채금액 / 금리부자산금액)"
+            }
+          ],
+          "decision_meaning": "대규모 보험자산의 실제 지급능력·부채 적합성을 먼저 개선한다.",
+          "limitations": "운용자산을 한화자산운용 외부 AUM이나 신사업 자유재원으로 쓰지 않는다."
+        },
+        {
+          "id": "BMX-HW-F07",
+          "title": "K-ICS와 자본 확인 공백",
+          "source_ids": [
+            "BMX-HW-001"
+          ],
+          "as_of": "2026-11-04",
+          "source_locator": {
+            "pdf_physical_pages": [
+              15
+            ],
+            "printed_pages": [
+              11
+            ]
+          },
+          "financial_period": "2026-H1",
+          "published_at": "2026-08-12",
+          "basis": "8월12일 회사 IR의 상반기 예상(e); 세부 경과조치 및 기본자본 별도 미확인",
+          "values": [
+            {
+              "name": "K-ICS 예상",
+              "value": 167.0,
+              "unit": "percent",
+              "status": "company_estimate_at_release"
+            },
+            {
+              "name": "가용자본 표시",
+              "value": 25213,
+              "unit": "KRW billion"
+            },
+            {
+              "name": "요구자본 표시",
+              "value": 15100,
+              "unit": "KRW billion"
+            },
+            {
+              "name": "11월4일 기준 최신 확정 K-ICS",
+              "value": null,
+              "unit": "percent"
+            },
+            {
+              "name": "기본자본비율",
+              "value": null,
+              "unit": "percent"
+            },
+            {
+              "name": "경과조치 적용 전후 구분",
+              "value": null
+            }
+          ],
+          "decision_meaning": "이익·자산 규모와 새 자본투자 여력을 구별한다.",
+          "limitations": "확정규제비율·배당가능액·신사업예산 추론 금지. 후속 정정 미대조."
+        },
+        {
+          "id": "BMX-HW-F08",
+          "title": "금융·해외 주요법인 기여",
+          "source_ids": [
+            "BMX-HW-001"
+          ],
+          "as_of": "2026-11-04",
+          "source_locator": {
+            "pdf_physical_pages": [
+              9,
+              11
+            ],
+            "printed_pages": [
+              5,
+              7
+            ]
+          },
+          "financial_period": "2026-H1",
+          "published_at": "2026-08-12",
+          "basis": "회사 IR 주요법인 표; 각 행 현지 회계/세부 연결범위 및 생명 귀속 미확인",
+          "values": [
+            {
+              "entity": "한화자산운용",
+              "revenue": 103,
+              "operating_income": 33,
+              "net_income": 27,
+              "unit": "KRW billion",
+              "precision": "rounded"
+            },
+            {
+              "entity": "한화투자증권",
+              "revenue": 4817,
+              "operating_income": 100,
+              "net_income": 56,
+              "unit": "KRW billion",
+              "precision": "rounded"
+            },
+            {
+              "entity": "Nobu Bank",
+              "revenue": 155,
+              "operating_income": 37,
+              "net_income": 29,
+              "unit": "KRW billion",
+              "precision": "rounded"
+            },
+            {
+              "entity": "HLI US Investment LLC",
+              "revenue": 413,
+              "operating_income": 38,
+              "net_income": 29,
+              "unit": "KRW billion",
+              "precision": "rounded",
+              "scope": "Nexus Clearing 포함; Velocity Clearing/VCT Technologies/Tor Brokerage 포함"
+            },
+            {
+              "name": "연결bridge 해외",
+              "value": 103,
+              "unit": "KRW billion",
+              "precision": "rounded"
+            },
+            {
+              "name": "선택 해외 보험 표 합계",
+              "value": 43,
+              "unit": "KRW billion",
+              "precision": "rounded"
+            },
+            {
+              "name": "선택 해외 비보험 표 합계",
+              "value": 58,
+              "unit": "KRW billion",
+              "precision": "rounded"
+            },
+            {
+              "name": "종속법인 전체 합산 손익 표시",
+              "value": 501,
+              "unit": "KRW billion",
+              "precision": "rounded"
+            },
+            {
+              "name": "해외 자회사 손익비중",
+              "value": 11,
+              "unit": "percent",
+              "denominator": "해외 종속법인 합산손익 / 연결당기순이익; 회사 표기"
+            },
+            {
+              "name": "Velocity 단독 순이익",
+              "value": null,
+              "unit": "KRW billion"
+            },
+            {
+              "name": "Nobu 방카 증분 이익",
+              "value": null,
+              "unit": "KRW billion"
+            },
+            {
+              "name": "UAE ETF 증분 한화 이익",
+              "value": null,
+              "unit": "KRW billion"
+            }
+          ],
+          "decision_meaning": "해외 이익은 존재하되 현재 전체 법인 성과와 디지털 사업 성과를 분리한다.",
+          "limitations": "선택법인 표·전체 bridge 차이 미해소. 매출 총액과 사업 유형이 달라 단순 매출 순위 금지. 소수주주/내부거래 조정 전후 귀속을 추정하지 않음."
+        }
+      ],
+      "source_ids": [
+        "BMX-HW-001",
+        "BMX-HW-002",
+        "ST-HW-015",
+        "HWX-A-001"
+      ],
+      "claim_ids": [
+        "C-399",
+        "C-400",
+        "C-401",
+        "C-402",
+        "C-403",
+        "C-404",
+        "C-405",
+        "C-406",
+        "C-407",
+        "C-408"
+      ],
+      "context_and_limits": {
+        "as_of": "2026-11-04",
+        "classification": "actual_business_baseline_and_research_priorities_not_company_plan",
+        "reused_source_ids": [
+          "HWX-R-008",
+          "HWX-V-001",
+          "HWX-V-003",
+          "ST-HW-007",
+          "HWX-A-004",
+          "HWX-A-008",
+          "HWX-A-002",
+          "HWA-GEO-009"
+        ],
+        "reuse_metadata": [
+          {
+            "id": "HWX-R-008",
+            "mode": "existing_public_ledger_selected_reuse_not_new_original_read",
+            "previous_checked_at": "2026-11-03",
+            "read_scope": "HTML279–328: 지정·제도 목적·대표금융회사·내부통제·위험관리·자본. 첨부 별첨 미정독.",
+            "limitations": "표의 국내 금융자산과 해외 포함 회사 수는 범위가 다르다. 지정이 계열 업무·고객 데이터·자산의 자유로운 공유 허가는 아니다. 개별 신사업 법률의견 아님."
+          },
+          {
+            "id": "HWX-V-001",
+            "mode": "existing_public_ledger_selected_reuse_not_new_original_read",
+            "previous_checked_at": "2026-11-03",
+            "read_scope": [
+              "공식 HTML §5–6(390–411행) 제3자제공/위탁, §11(514–537행) 선택 국외이전, §15(622–676행) 자동 인수·청구/지급·설명/검토, §17(694–702행) 적용·변경일"
+            ],
+            "limitations": "자동화 비율·정확도·순이익이나 외부 AI의 계약/해지/출금 권한은 확인하지 않음. 개인정보처리방침은 모든 금융업 인가·법률상 적법성을 확인하는 문서가 아니며 전 조문 법률 검토도 아님."
+          },
+          {
+            "id": "HWX-V-003",
+            "mode": "existing_public_ledger_selected_reuse_not_new_original_read",
+            "previous_checked_at": "2026-11-03",
+            "read_scope": [
+              "HTML 2–21행 심사·위탁/동의·손해사정과 비용,49–56행 지급기일/지연/재심사,62–76행 분쟁·책임·가지급·진행조회"
+            ],
+            "limitations": "갱신일 미표시; 개별 상품·계약·사건의 기일·가지급액·손해사정 비용부담은 계약과 현행 규정으로 다시 확인해야 함. 안내상 일반기일과 가지급비율을 모든 상품의 보장값으로 쓰지 않음."
+          },
+          {
+            "id": "ST-HW-007",
+            "mode": "existing_public_ledger_selected_reuse_not_new_original_read",
+            "previous_checked_at": "2026-11-03",
+            "read_scope": [
+              "상품 3개와 설명, 보험은 은행 상품·보증·LPS 보호 대상이 아니라는 고지",
+              "Chrome 가시 본문에서 3개 상품명·종류·급부 차감·은행/보험/LPS 고지 재열람; 연결 상세 PDF는 접근 실패"
+            ],
+            "limitations": [
+              "최소 보험료·실제 견적·면책·해지환급금·계약 유지율은 이 페이지에서 모두 검증되지 않는다.",
+              "연결된 Smart CI 상품 설명 PDF는 자동 접근 시 확인 절차가 나타나 본문을 읽지 못했다.",
+              "공개 등재는 실제 계약 체결·매출 증거가 아니다."
+            ]
+          },
+          {
+            "id": "HWX-A-004",
+            "mode": "existing_public_ledger_selected_reuse_not_new_original_read",
+            "previous_checked_at": "2026-11-04",
+            "read_scope": [
+              "본문 웹행0–18, 위험·운영법인 설명41–54",
+              "2026-11-04 공식 HTML0–18 및41–54행:11/2 거래개시 발표·외부 파트너·adviser/distributor. 거래실적·보수·신규토큰화 미검증."
+            ],
+            "limitations": [
+              "온체인 ETF·Velocity 참여·상장 후 수요·보수·수익을 증명하지 않는다. 관계 법인의 계약과 수익 배분을 따로 확인해야 한다."
+            ]
+          },
+          {
+            "id": "HWX-A-008",
+            "mode": "existing_public_ledger_selected_reuse_not_new_original_read",
+            "previous_checked_at": "2026-11-04",
+            "read_scope": [
+              "제출 표지·3/30 효력 체크",
+              "합본 중 KDEF Fund Management 인쇄p21, 웹행6021–6033; 지수 설명5648–5652, 매매6072–6074",
+              "2026-11-04 SEC 제출 HTML 6023–6033행(인쇄21쪽) adviser/sponsor/비용, 6072–6077·6092행의 시장매매·NAV 비용·AP 설정환매를 선택 재열람."
+            ],
+            "limitations": [
+              "한화 보수율·최소보수액·실현수입은 이 절에 미공개다. 합본 전체와 계약 부속서·후속 변경은 읽지 않았다. KMCA에 그대로 적용하지 않는다.",
+              "2026-03-27 제출문서의 KDEF 선택 절. 2027 조건·한화 요율·최소보수·실현수입·KMCA 동일 적용은 확인하지 않음."
+            ]
+          },
+          {
+            "id": "HWX-A-002",
+            "mode": "existing_public_ledger_selected_reuse_not_new_original_read",
+            "previous_checked_at": "2026-11-03",
+            "read_scope": [
+              "웹행28–117: 기술·OMS·Sponsored access·API·고객 접속"
+            ],
+            "limitations": [
+              "지원24/6은 은행현금·거래소 결제24/7이 아니다. 자율주문 위임·새 외국 고객 접근·토큰 레일은 확인되지 않았다."
+            ]
+          },
+          {
+            "id": "HWA-GEO-009",
+            "mode": "existing_public_ledger_selected_reuse_not_new_original_read",
+            "previous_checked_at": "2026-11-03",
+            "read_scope": [
+              "74쪽 PDF: 물리쪽2 요약,5 직접주주,9–10 간접주주,12 등록,14 업종,15–18 청산·외부 서비스 관계,19–22 공통지배 법인 선택 읽기"
+            ],
+            "limitations": [
+              "기록의 소유관계 시작 월과 7월 인수 완료일은 다른 항목이다.",
+              "브로커 등록 자료로 모든 디지털자산 업무의 허용 여부를 확정할 수 없다.",
+              "PDF 발행일은 표시되지 않아 조회일만 기록했다.",
+              "업종 등록·예상 영업은 모든 서비스의 상용 가용성과 다르다. PDF의 상세 제재·분쟁 절은 정독하지 않아 준법 이력 전체를 평가하지 않았다. 토큰 증권·지급코인 포괄허가 증거가 아니다."
+            ]
+          }
+        ],
+        "scope": {
+          "cutoff": "2026-11-04",
+          "latest_financial_release_read": "2026-H1, published2026-08-12",
+          "excluded": [
+            "미공개/미열람3Q실적",
+            "가상100모델",
+            "산업계열 전체 실적 합산",
+            "내부팀 P&L 추정"
+          ],
+          "entity_boundaries": [
+            "산업 한화그룹",
+            "한화 금융복합기업집단",
+            "한화생명 연결",
+            "한국 한화생명 별도",
+            "각국/각사 현지 법인"
+          ]
+        },
+        "failed_or_incomplete_access": [
+          {
+            "url": "https://company.hanwhalife.com/en/investment/investor/earnings-release",
+            "result": "목록 확인 성공, Presentation 버튼 다운로드 event timeout; 원문은 회사 작성 IRGO 배포본으로 대체",
+            "adopted_numbers": false
+          },
+          {
+            "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260813001536",
+            "result": "직접 열람 실패; 후속 정정 원문도 미열람",
+            "adopted_numbers": false
+          },
+          {
+            "url": "https://company.hanwhalife.com/en/investment/financial/capital-status",
+            "result": "공식 브라우저 표 확인 성공. 과거 증자 이력이라 최신 K-ICS 확인에 사용하지 않음",
+            "adopted_numbers": false
+          },
+          {
+            "url": "https://file.irgo.co.kr/data/BOARD/ATTACH_PDF/Z4XB5R4VUER2VMQPFBEF4RFR9MUMR2762026812174652.pdf",
+            "result": "web fetch 실패 및 shell DNS 실패 후 browser download 성공. 로컬 PDF text/selected visual 검증",
+            "adopted_numbers": true
+          }
+        ],
+        "unresolved_reconciliation": {
+          "major_overseas_table_sum_krw_bn": 101,
+          "consolidation_bridge_overseas_krw_bn": 103,
+          "subsidiaries_total_krw_bn": 501,
+          "resolution": null,
+          "treatment": "선택 주요법인 표·전체 bridge 범위 차이 보존, 단순합/임의보정 금지"
+        },
+        "correction_targets": [
+          {
+            "target": "reports22/34 및 HW-BIZ-01~06 해석",
+            "revision": "현재 금융 수익기반에서 국내 보험·GA와 ALM을 우선 평가, 해외 사례는 선택적 외부수익화 범주로 배치. 회사 확정순위로 쓰지 않음."
+          },
+          {
+            "target": "해외 사업 이익 미확인 일반문구",
+            "revision": "상반기 IR의 해외 합산 및 선택법인 이익은 새로 확인. Velocity 단독·Nobu 방카·UAE ETF·블록체인팀 증분P&L은 계속null."
+          },
+          {
+            "target": "자본/유지율 서술",
+            "revision": "K-ICS167%는8/12 예상(e),25회유지율77.4%는FY25 78.3%보다 낮음."
+          }
+        ]
+      }
+    }
+  ],
+  "not_estimated": [
+    "future market shares",
+    "new business pricing or profit",
+    "customer movement probabilities"
+  ],
+  "forecast": null
+}
