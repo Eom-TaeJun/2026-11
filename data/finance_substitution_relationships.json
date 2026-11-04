@@ -1,0 +1,325 @@
+{
+  "as_of": "2026-11-04",
+  "status": "research_framework_not_observed_outcomes",
+  "report": "reports/39_finance_substitution_customer_relationships.md",
+  "baseline_reports": [
+    "reports/35_business_models_and_agent_finance.md",
+    "reports/36_bnk_business_model_priorities.md",
+    "reports/37_kyobo_business_model_priorities.md",
+    "reports/38_hanwha_business_model_priorities.md",
+    "reports/29_tokenization_competition_group_strategy.md"
+  ],
+  "scope": "공개 기존 연구를 대체 대상·수익·관계·투자 결정으로 통합. 실제 신규 고객·수익·시장점유율 없음.",
+  "substitution_map": [
+    {
+      "id": "SUB-01",
+      "change": "지급 스테이블코인",
+      "customer_job": "특정 경로의 가치 이전·수취",
+      "replacement_target": "예금 등 일부 지급 잔액·송금 수단과 경로",
+      "remaining_functions": "발행자에 대한 권리·상환 자격·은행현금과 FX",
+      "revenue_channel": "소매 조달 기여·지급/FX 보수와 신규 운영 보수",
+      "comparison_boundary": "같은 통화·기한의 완료 건수·총비용; 개별 은행과 시스템 구분",
+      "source_ids": [
+        "ST-TD-005",
+        "SRC-CIRCLE-USDC-TERMS"
+      ],
+      "claim_ids": [
+        "C-414"
+      ]
+    },
+    {
+      "id": "SUB-02",
+      "change": "토큰화 예금",
+      "customer_job": "은행화폐의 조건부 지급·자산 거래",
+      "replacement_target": "예금의 기록·이전·대사 방식",
+      "remaining_functions": "예금 청구권·조달·개별 보호/상품 조건",
+      "revenue_channel": "기존 조달 관계·처리비·유동성비",
+      "comparison_boundary": "같은 은행/고객 업무의 기존 자동화와 추가 편익 비교",
+      "source_ids": [
+        "FIN-003",
+        "FIN-014"
+      ],
+      "claim_ids": [
+        "C-414"
+      ]
+    },
+    {
+      "id": "SUB-03",
+      "change": "토큰화 단기국채·MMF",
+      "customer_job": "유휴자금 운용·적격 담보",
+      "replacement_target": "기존 펀드·단기상품과 일부 비지급 예금",
+      "remaining_functions": "투자 위험·보수·적격성·환매·최종 현금",
+      "revenue_channel": "운용·판매·수탁 보수와 예금 조달 변화",
+      "comparison_boundary": "출발 자산별 평균잔액; 같은 지급일 현금 조건",
+      "source_ids": [
+        "OBX-E-004",
+        "OBX-E-007",
+        "ST-TD-005"
+      ],
+      "claim_ids": [
+        "C-414"
+      ]
+    },
+    {
+      "id": "SUB-04",
+      "change": "토큰화 주식·채권",
+      "customer_job": "투자 노출·거래 접근",
+      "replacement_target": "증권 보유·유통 경로 또는 대체 노출 계약",
+      "remaining_functions": "직접 권리인지 별도 채권인지·주주권·도산 위험",
+      "revenue_channel": "판매·중개·구현·관리 보수와 기존 수익 잠식",
+      "comparison_boundary": "같은 노출과 다른 권리를 구분; 거래량과 자금 순유입 분리",
+      "source_ids": [
+        "OBX-E-012",
+        "OBX-E-020"
+      ],
+      "claim_ids": [
+        "C-414"
+      ]
+    },
+    {
+      "id": "SUB-05",
+      "change": "비정형 RWA",
+      "customer_job": "조기 자금 회수·투자 가능한 현금흐름",
+      "replacement_target": "팩토링·대출·유동화 또는 미충족 금융 수요",
+      "remaining_functions": "양도 가능 원권리·신용·수금·회수",
+      "revenue_channel": "실사·발행·관리 보수; 인수/보증은 별도 자본 부담",
+      "comparison_boundary": "기존 대안 대비 총조달비와 반복 유료거래·회수",
+      "source_ids": [
+        "KYX-M-004",
+        "KYX-M-005",
+        "KYX-M-001"
+      ],
+      "claim_ids": [
+        "C-414"
+      ]
+    },
+    {
+      "id": "SUB-06",
+      "change": "공동 원장·조건부 결제",
+      "customer_job": "상태 확인과 인도·대금 교환",
+      "replacement_target": "중복 장부·대사·메시지·수작업 일부",
+      "remaining_functions": "법적 최종성·수탁·선자금·상계·복구",
+      "revenue_channel": "처리비 절감·운영 보수와 추가 유동성비",
+      "comparison_boundary": "동일 업무의 기존+자동화와 비교; 최고 자금소요 포함",
+      "source_ids": [
+        "FIN-003",
+        "NOV-M07"
+      ],
+      "claim_ids": [
+        "C-414"
+      ]
+    },
+    {
+      "id": "SUB-07",
+      "change": "AI 에이전트",
+      "customer_job": "탐색·비교·반복 판단·실행 위임",
+      "replacement_target": "앱 이동·검색·입력·일부 판매지원",
+      "remaining_functions": "목적·권한·견적·책임·분쟁",
+      "revenue_channel": "유통·접속 보수 압박과 실행/관리 수입",
+      "comparison_boundary": "접점과 실제 계약 분리; 기존 API에서도 비교",
+      "source_ids": [
+        "ST-HW-014",
+        "KYX-V-008",
+        "KYX-V-009"
+      ],
+      "claim_ids": [
+        "C-414"
+      ]
+    }
+  ],
+  "customer_relationships": [
+    {
+      "id": "REL-01",
+      "relationship": "목적·상황 이해",
+      "observation": "중요한 상황 변화에 계획·상담을 다시 맡기는가",
+      "claim_ids": [
+        "C-415"
+      ],
+      "source_ids": [
+        "ST-HW-014",
+        "KYX-V-009"
+      ]
+    },
+    {
+      "id": "REL-02",
+      "relationship": "위임·통제",
+      "observation": "유효 위임의 갱신·축소·철회와 허용 업무",
+      "claim_ids": [
+        "C-415"
+      ],
+      "source_ids": [
+        "ST-HW-014",
+        "KYX-V-009"
+      ]
+    },
+    {
+      "id": "REL-03",
+      "relationship": "선택·비교",
+      "observation": "관측 가능한 적격 견적 중 제시·선택 비중과 경쟁 후 재선택",
+      "claim_ids": [
+        "C-415"
+      ],
+      "source_ids": [
+        "ST-HW-014",
+        "KYX-V-009"
+      ]
+    },
+    {
+      "id": "REL-04",
+      "relationship": "자금·실행",
+      "observation": "허용 업무의 완료 비중·평균 유료잔액·최종 현금·약정 이용",
+      "claim_ids": [
+        "C-415"
+      ],
+      "source_ids": [
+        "ST-HW-014",
+        "KYX-V-009"
+      ]
+    },
+    {
+      "id": "REL-05",
+      "relationship": "책임·복구",
+      "observation": "해결시간·미해결 손실·민원·복구 후 재이용·책임 범위",
+      "claim_ids": [
+        "C-415"
+      ],
+      "source_ids": [
+        "ST-HW-014",
+        "KYX-V-009"
+      ]
+    }
+  ],
+  "measurement_rules": [
+    "고객 집합·업무·기간·통화를 맞추고 상품별 권리·위험 차이를 명시해 비교",
+    "외부 견적/자산 전체를 모르면 관측 범위 표시",
+    "계좌·위임·앱 이용을 유료 관계와 동일시하지 않음",
+    "원금·잔액·거래액·AUM·수입·이익 구분"
+  ],
+  "business_positions": [
+    {
+      "role": "고객 목적 관리",
+      "payer": "고객 또는 적법한 유통/기존 관계 계약의 지급자",
+      "decision": "외부 상품 포함 비교·이해상충·반복 목적·총관계 기여 확인",
+      "claim_ids": [
+        "C-416",
+        "C-420"
+      ]
+    },
+    {
+      "role": "외부 AI가 선택하는 금융 공급",
+      "payer": "거래·신용·유동성·운영 계약의 고객/기관",
+      "decision": "접속 무료화와 실제 실행 대가를 분리하고 플랫폼 배분 후 기여 확인",
+      "claim_ids": [
+        "C-416",
+        "C-420"
+      ]
+    },
+    {
+      "role": "다기관 권리·현금·예외 처리",
+      "payer": "발행인·기관·고객 등 실제 서비스 계약자",
+      "decision": "기존 공급자의 묶음가격·외부 구매와 비교; 필요한 법인 권한·자본 확인",
+      "claim_ids": [
+        "C-416",
+        "C-420"
+      ]
+    }
+  ],
+  "opportunity_types": [
+    "기존 관계 방어",
+    "외부 플랫폼 고객에 기능 판매",
+    "이전에 성립하지 못한 수요 충족",
+    "외부 구매·축소"
+  ],
+  "investment_counterfactual": {
+    "claim_id": "C-417",
+    "baselines": [
+      "현재 기여",
+      "같은 미래 환경의 미적응 기여",
+      "같은 미래 환경의 적응 기여"
+    ],
+    "rule": "기간·고객·시장·위험을 맞춘 적응과 미적응의 기여 차이; 아직 포함하지 않은 추가 투자비만 한 번 반영; 다년 현금흐름은 동일 할인 기준",
+    "cautions": [
+      "미적응에도 발생할 손실은 투자 유발 잠식과 구분",
+      "시장 성장 전체를 투자 성과로 귀속하지 않음",
+      "현재 대비 감소와 미적응 대비 개선이 공존 가능",
+      "반사실은 비교집단·견적·민감도로 검증할 가정"
+    ],
+    "observed_values": null
+  },
+  "scenario_axes": {
+    "claim_id": "C-419",
+    "external_ai_delegation": [
+      "제한적",
+      "광범위"
+    ],
+    "onchain_use": [
+      "제한적",
+      "광범위"
+    ],
+    "probabilities": null
+  },
+  "group_links": [
+    {
+      "group": "BNK·경남은행",
+      "strategy_ids": [
+        "STR-KN-01"
+      ],
+      "report": "reports/36_bnk_business_model_priorities.md",
+      "economic_type": [
+        "기존 관계 방어",
+        "외부 플랫폼 고객에 기능 판매"
+      ],
+      "test": "지급·FX·신용·사후관리의 위험조정 이자기여를 방어; 예금/여신/운영 및 플랫폼 배분을 포함한 동일 미래 기여"
+    },
+    {
+      "group": "교보",
+      "strategy_ids": [
+        "STR-KY-01",
+        "STR-KY-02",
+        "STR-KY-04"
+      ],
+      "report": "reports/37_kyobo_business_model_priorities.md",
+      "economic_type": [
+        "기존 관계 방어",
+        "외부 플랫폼 고객에 기능 판매",
+        "이전 미충족 수요 후보"
+      ],
+      "test": "해외선물 등 기존 거래의 주문·증거금·통화·출금을 먼저 개선, 기존 IB 반복 관리가 다음. 비정형 RWA·POD는 후순위 검증 표본"
+    },
+    {
+      "group": "한화",
+      "strategy_ids": [
+        "STR-HW-01",
+        "STR-HW-02",
+        "STR-HW-03"
+      ],
+      "report": "reports/38_hanwha_business_model_priorities.md",
+      "economic_type": [
+        "기존 관계 방어",
+        "외부 고객에 기관 기능 판매"
+      ],
+      "test": "국내 보험·GA 계약 품질·유지·청구, 보험부채 대응 ALM·현금·자본, 해외 기능의 선택적 외부 수익화 순서; 법인·지급자·손익 분리"
+    }
+  ],
+  "claim_ids": [
+    "C-414",
+    "C-415",
+    "C-416",
+    "C-417",
+    "C-418",
+    "C-419",
+    "C-420"
+  ],
+  "limitations": [
+    "기존 STR 순위 변경 없음",
+    "다섯 관계는 분석 프레임; 법정 업무 분류 아님",
+    "새 데이터·실제 실험·확정 회사계획 없음",
+    "공식 문서의 설명과 실현 수익은 구분"
+  ],
+  "supplementary_scenario_reports": [
+    "reports/31_agent_finance_customer_money_2027.md",
+    "reports/32_bnk_agent_customer_cash.md",
+    "reports/33_kyobo_agent_assets_business.md",
+    "reports/34_hanwha_agent_insurance_global.md"
+  ]
+}

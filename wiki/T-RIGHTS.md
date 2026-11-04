@@ -567,6 +567,14 @@ UAE 고객 AI가 동일한 투자노출·기간·위험·수취통화의 구현�
 
 다음 관측: 시장 간 이동·평가변화와 외부 순유입을 나눠 평균 유료 잔액·실효보수·파트너 배분 후 기여·고객 재선택을 확인한다.
 
+### C-414 · interpretation · active
+
+디지털 금융의 대체는 고객의 자산·청구권, 기록·이전·결제 업무, 탐색·선택·실행 접점을 구분해야 한다. 같은 경제적 노출을 제공해도 법적 권리가 다를 수 있으며 토큰화 예금·지급 스테이블코인·펀드를 같은 돈으로 합칠 수 없다.
+
+근거: [FIN-003](../sources/cards/FIN-003.md), [ST-TD-005](../sources/cards/ST-TD-005.md), [OBX-E-012](../sources/cards/OBX-E-012.md), [SRC-CIRCLE-USDC-TERMS](../sources/cards/SRC-CIRCLE-USDC-TERMS.md), [OBX-E-004](../sources/cards/OBX-E-004.md)
+
+한계: 공개 원문에 기반한 연구자 분류. 대체율·실제 예금 이탈이나 업권 소멸을 추정하지 않았다. 상품 계약별 예외가 있다.
+
 ## 관련 원문
 
 - [FIN-002 · What Is Needed for Tokenization to Deliver](../sources/cards/FIN-002.md)

@@ -1,0 +1,151 @@
+{
+  "as_of": "2026-11-04",
+  "timezone": "Etc/UTC",
+  "status": "validated_ready_for_publication",
+  "baseline_head": "021ee96ec19128cf204c70cb90a1266654597ab7",
+  "request": "금융권 구조 변화, 디지털 자산/상품의 대체 대상, AI 고객 접점 유지와 새로운 활로를 2026-11 작업에서 연결",
+  "workers": [
+    {
+      "name": "root",
+      "work": "기존 연구 확인·통합 집필·단일 작성 갱신·검증·게시"
+    },
+    {
+      "name": "argument_review",
+      "work": "기존 연구 대비 추가 가치·메커니즘·초안 독립 검토"
+    },
+    {
+      "name": "source_recheck",
+      "work": "공개 공식 원문4건 선택 재확인"
+    }
+  ],
+  "evidence": {
+    "as_of": "2026-11-04",
+    "worker": "source_recheck",
+    "scope": "보고서39 통합을 위한 기존 공개 원문 4건 선택 재열람. 새 시장 사건·실적 수집 또는 전수 갱신 아님.",
+    "new_source_ids": [],
+    "rechecked_source_ids": [
+      "ST-TD-005",
+      "FIN-003",
+      "ST-HW-014",
+      "OBX-E-012"
+    ],
+    "sources": [
+      {
+        "id": "ST-TD-005",
+        "url": "https://www.federalreserve.gov/econres/notes/feds-notes/banks-in-the-age-of-stablecoins-implications-for-deposits-credit-and-financial-intermediation-20251217.html",
+        "mode": "live_selected_primary_recheck",
+        "checked_at": "2026-11-04",
+        "read_scope": "HTML L17–29, L39–62: 수요의 원천·준비자산 배분·중앙은행 계좌 시나리오·예금 구성과 은행별 분포·은행의 금리/기술/제휴 대응. 정량 승수와 발행사 과거 준비금 비중은 이번 판단에서 제외.",
+        "supports": "스테이블코인은 개별 은행의 고객 예금을 대체할 수 있지만 전체 은행 예금에 미치는 영향은 자금 출처와 준비자산의 귀착에 달린다. 총량이 유지되는 경우에도 소매예금이 소수 은행의 집중된 도매성 자금으로 바뀔 수 있다.",
+        "does_not_support": "스테이블코인 증가액과 은행 예금·대출 감소액의 일대일 관계, 한국 은행의 실제 손익 추정, 모든 발행자의 중앙은행 계좌 접근 권한.",
+        "change_vs_ledger": "핵심 판단 변경 없음. 이번에는 대체 대상의 계층(개별 은행 대 은행 시스템)을 명확히 하는 데 재사용.",
+        "claim_status": "기관 연구의 조건부 메커니즘. Fed 정책 결정이나 관측된 한국 인과효과 아님."
+      },
+      {
+        "id": "FIN-003",
+        "url": "https://www.bis.org/publications/aer-2026/anchoring-trust-money",
+        "mode": "live_selected_primary_recheck",
+        "checked_at": "2026-11-04",
+        "read_scope": "HTML L615–629: 장부 분절·대사·메시징/결제 마찰, DLT 없는 프로그래밍 가능성, 공동 기록과 원자적 결제 및 네트워크 한계. L837–849: 거버넌스·복구·RTGS 개선과 조건부 전망. 장 통독 아님.",
+        "supports": "토큰화와 DLT는 자산 기록·이전·대사·결제 업무의 조합을 바꿀 수 있다. 자동화 자체는 기존 인프라에서도 가능하므로 기존+AI와 온체인+AI를 같은 업무로 비교해야 한다.",
+        "does_not_support": "토큰화가 신용위험이나 법적 권리를 자동 제거한다는 주장, 모든 네트워크의 상호운용성·24시간 최종 현금 보장, 실제 회사의 비용 절감액·수익성.",
+        "change_vs_ledger": "기존 판단 유지. 자산의 경제적 실질과 업무 처리 기반의 대체를 구분하는 근거로 사용.",
+        "claim_status": "BIS의 분석·설계 방향. 필연적 시장 귀결이나 법률 효력의 증거 아님."
+      },
+      {
+        "id": "ST-HW-014",
+        "url": "https://ap2-protocol.org/ap2/implementation_considerations/",
+        "mode": "live_selected_primary_recheck",
+        "checked_at": "2026-11-04",
+        "read_scope": "구현 고려사항 본문 L61–148: Merchant/Processor/Shopping Agent/Credential Provider/Trusted Surface 역할, 서명 위임·결제수단 선택·영수증·중복 방지·장기 위임 관리. 연결된 명세 전문은 미열람.",
+        "supports": "AP2는 상품 선택, 지급수단 제공, 사용자 승인, 결제 처리와 결과 기록을 구분한다. 승인 UI는 에이전트 앱·지갑·발행자 앱·브라우저 등이 맡을 수 있다고 설명한다. 에이전트의 장기 위임에 기간 제한·알림·관리 수단을 제안한다.",
+        "does_not_support": "모든 AI의 AP2 채택, 금융회사의 고객 소유권이나 독점 접점, 금융상품 자문·판매 인가 또는 법적 대리권 충족, 은행/보험이 해당 기능에 실제 보수를 받는다는 주장.",
+        "change_vs_ledger": "기존 요약과 충돌 없음. 화면 접점·위임 접점·실행 접점의 분리라는 연구자 프레임에 구체적 설계 근거를 제공.",
+        "claim_status": "공개 기술 문서상의 역할·요구사항. 실제 고객 채택·거래·이익과 구분."
+      },
+      {
+        "id": "OBX-E-012",
+        "url": "https://docs.ondo.finance/ondo-stocks/legal-and-regulatory",
+        "mode": "live_selected_primary_recheck",
+        "checked_at": "2026-11-04",
+        "read_scope": "공식 FAQ L135–155: 발행자·구조화채권·기초자산 담보·토큰보유자와 주주의 권리 차이·Regulation S와 고객 적격/KYC. 최종 Sales Terms 미열람.",
+        "supports": "Ondo Stocks는 기초 주식 자체의 명의 기록만 바꾼 형태가 아니라 Ondo Global Markets (BVI) Limited가 발행하는 구조화채권이라고 설명된다. 보유자는 환매·담보 관련 권리를 갖지만 기초기업 주주의 의결·정보 권리를 갖지 않는다.",
+        "does_not_support": "모든 토큰화 증권이 같은 구조라는 일반화, 기초주식 보유와 동일한 모든 법적 권리·세금·파산 결과, 특정 국가의 판매 허가나 투자자 적격성.",
+        "change_vs_ledger": "기존 판단 유지. 대체를 분석할 때 경제적 노출이 비슷한 상품과 법적 권리가 같은 상품을 분리하는 대표 사례로 사용.",
+        "claim_status": "발행자의 공개 상품 설명. 최종 가입계약·관할별 법률 검토 아님."
+      }
+    ],
+    "integration_notes": [
+      "대체는 고객이 선택하는 자산/상품, 기록·결제 업무, 탐색·승인·실행 접점으로 나누고 각 층의 이전 수익을 별도로 적는다.",
+      "금융회사 앱을 열지 않는 현상만으로 관계를 잃었다고 판단하지 않는다. 누가 목적·위임을 관리하고 누가 최종 지급·예외 처리를 맡는지를 함께 본다.",
+      "기술 문서가 설명하는 역할 분업은 새 유료 업무 후보의 근거일 뿐 실제 지불 의사의 증거가 아니다. 지급자·계약·비용·잠식 검증이 필요하다.",
+      "이번 재열람은 시장 변화 발견보다 기존 근거에 기반한 분석 단위 정교화다. 최신 이벤트·가격·수익성을 새로 확인했다고 표현하지 않는다."
+    ],
+    "not_performed": [
+      "전체 법령 갱신",
+      "회사/고객 접촉",
+      "실제 거래",
+      "수익성 검증",
+      "최종 비공개 가입계약 열람"
+    ]
+  },
+  "new_sources": 0,
+  "new_claim_ids": [
+    "C-414",
+    "C-415",
+    "C-416",
+    "C-417",
+    "C-418",
+    "C-419",
+    "C-420"
+  ],
+  "counts": {
+    "sources_before": 291,
+    "sources_after": 291,
+    "claims_before": 413,
+    "claims_after": 420,
+    "topics": 14,
+    "substitution_rows": 7,
+    "relationship_layers": 5
+  },
+  "new_contribution": [
+    "상품·처리 업무·판매/선택의 대체 단위 구분",
+    "업권별 기존 수익과 대체 경로 연결",
+    "고객 관계를 다섯 기능으로 나눈 관측 틀",
+    "기존 방어·외부 공급·미충족 수요·구매/축소 분리",
+    "동일 미래 적응/미적응 비교와 잘못된 잠식 귀속 방지",
+    "AI 위임과 온체인 활용의 독립 축"
+  ],
+  "reports": [
+    "reports/39_finance_substitution_customer_relationships.md"
+  ],
+  "records": [
+    "data/finance_substitution_relationships.json"
+  ],
+  "preservation": "기존 주장/사례/STR 순위 보존. 공개 저장소 기반 분석만 반영.",
+  "validation": {
+    "build": "passed",
+    "ledger_and_local_links": "passed",
+    "unit_tests": "15 passed after integration",
+    "preservation": "all 413 latest prior claims identical; all remote reports and files retained",
+    "new_framework_references": "all source and claim references resolved",
+    "independent_review": "corrections incorporated, including latest actual-business-first workflow",
+    "limits": "No actual customer demand, legal authorization or profitability demonstrated"
+  },
+  "review": "runs/2026-11-04-substitution-review.md",
+  "not_performed": [
+    "실제 고객 시험",
+    "거래 실행",
+    "외부 연락",
+    "예약 실행",
+    "전 관할 법령 갱신",
+    "회사 실적 추정"
+  ],
+  "original_baseline_head": "bc05a167d36268d911fa7abb6f195d57804250da",
+  "concurrent_update_preserved": {
+    "head": "021ee96ec19128cf204c70cb90a1266654597ab7",
+    "reports": "35~38",
+    "claims": "C-382~413",
+    "approach": "fresh checkout, merge four source read histories, append seven renumbered claims; regenerate derived files"
+  }
+}

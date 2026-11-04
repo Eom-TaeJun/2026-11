@@ -153,7 +153,7 @@
 | [ST-HW-010 · 한화생명, 증여 자산관리 플랫폼 ‘파이’ 출시](cards/ST-HW-010.md) | 2026-02-05 | selected_sections | 2026-11-03 |
 | [ST-HW-011 · MVB Partners with Velocity to Join Visa Direct Stablecoin Settlement Network](cards/ST-HW-011.md) | 2026-09-09 | selected_sections | 2026-11-03 |
 | [ST-HW-013 · Legal — Token Terms of Sale and Service](cards/ST-HW-013.md) | 2026-02-26 | selected_sections | 2026-11-03 |
-| [ST-HW-014 · Implementation Considerations](cards/ST-HW-014.md) | 미확인/동적 | full_text | 2026-11-03 |
+| [ST-HW-014 · Implementation Considerations](cards/ST-HW-014.md) | 미확인/동적 | selected_sections | 2026-11-04 |
 | [ST-HW-015 · Risk Management](cards/ST-HW-015.md) | 미확인/동적 | selected_sections | 2026-11-04 |
 | [ST-KN-001 · BNK금융그룹 2026년 3분기 경영실적: 그룹·은행·비은행 선택 표](cards/ST-KN-001.md) | 2026-10-26 | selected_sections | 2026-11-04 |
 | [ST-KN-002 · fERP(중소기업용) 안내](cards/ST-KN-002.md) | 미확인/동적 | selected_sections | 2026-11-04 |

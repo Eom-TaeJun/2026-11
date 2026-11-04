@@ -1,0 +1,353 @@
+{
+  "change_reason": "사용자 후속 질문에 따라 디지털 금융의 대체 대상·업권 수익·고객 관계·사업 선택을 통합하고 동일 미래의 적응/미적응 투자 비교를 추가. 기존 원문4건 선택 재확인, 새 시장사건/실적 아님. 원격 신규 사업모델 연구를 보존하여 보고서39·C-414~420으로 재연결; 실제 사업모델35~38을 주근거로 승계.",
+  "sources": [
+    {
+      "id": "ST-TD-005",
+      "title": "Banks in the Age of Stablecoins: Some Possible Implications for Deposits, Credit, and Financial Intermediation",
+      "publisher": "Federal Reserve Board / Jessie Jiaxu Wang (staff views)",
+      "url": "https://www.federalreserve.gov/econres/notes/feds-notes/banks-in-the-age-of-stablecoins-implications-for-deposits-credit-and-financial-intermediation-20251217.html",
+      "published_at": "2025-12-17",
+      "checked_at": "2026-11-04",
+      "visibility": "public",
+      "read_status": "selected_sections",
+      "source_type": "FEDS Notes 연구",
+      "read_scope": [
+        "2.1–2.4절(수요 출처, 준비자산 배분, 예금 구성, 경쟁 대응); disclaimer 확인. 표·정량 대출승수 재현 제외",
+        "이번 실제 재열람: 웹행 17–29의 수요 출처·준비자산 배분, 39–62의 중앙은행 계좌 가정·예금 분포/구성·경쟁 대응. 정량 승수·당시 발행사 준비금 비율은 사용하지 않음.",
+        "2026-11-04 대체·관계 통합 재확인: HTML L17–29, L39–62: 수요의 원천·준비자산 배분·중앙은행 계좌 시나리오·예금 구성과 은행별 분포·은행의 금리/기술/제휴 대응. 정량 승수와 발행사 과거 준비금 비중은 이번 판단에서 제외."
+      ],
+      "summary": "예금 영향은 자금 출처와 준비자산 배분에 달리며 총량이 유지돼도 은행별 분포·소매/도매 구성이 바뀔 수 있다. 은행의 금리·기술·제휴 대응을 분석한다.",
+      "used_for": [
+        "한국 시중·지방은행의 조건부 조달 경로와 반대 대응 질문",
+        "보고서39의 대체 대상·고객 관계 구분: 스테이블코인은 개별 은행의 고객 예금을 대체할 수 있지만 전체 은행 예금에 미치는 영향은 자금 출처와 준비자산의 귀착에 달린다. 총량이 유지되는 경우에도 소매예금이 소수 은행의 집중된 도매성 자금으로 바뀔 수 있다."
+      ],
+      "limitations": [
+        "연준 직원 분석이며 연준의 정책 결정·한국의 인과효과 추정이 아니다.",
+        "오래된 발행사 준비금 비중 및 설명용 모형 수치를 최신 실제값으로 사용하지 않는다.",
+        "중앙은행 계좌 접근은 본문의 시나리오이며 현재 모든 발행자의 권한으로 사용하지 않는다."
+      ],
+      "topic_ids": [
+        "T-FUNDING",
+        "T-MONEY",
+        "T-INSTITUTION-ROLES"
+      ],
+      "event_date": null,
+      "effective_date": null,
+      "effective_date_status": null,
+      "adoption_stage": "분석·교육 또는 발표; 개별 운영 성과와 구분",
+      "previous_read_scope": "2.1–2.4절(수요 출처, 준비자산 배분, 예금 구성, 경쟁 대응); disclaimer 확인. 표·정량 대출승수 재현 제외",
+      "previous_checked_at": "2026-11-03",
+      "reuse_mode": "same_url_live_selected_recheck",
+      "change_reason": "강한 미래 가정 아래 수출기업의 자금 이동·경쟁 재선택 사례를 위한 선택 원문 재확인. 새 서비스 출시·효과를 뜻하지 않음.",
+      "review_readers": [
+        "AFX-bnk"
+      ],
+      "recheck_history": [
+        {
+          "checked_at": "2026-11-04",
+          "run": "2026-11-04-substitution-relationships",
+          "read_scope": "HTML L17–29, L39–62: 수요의 원천·준비자산 배분·중앙은행 계좌 시나리오·예금 구성과 은행별 분포·은행의 금리/기술/제휴 대응. 정량 승수와 발행사 과거 준비금 비중은 이번 판단에서 제외.",
+          "supports": "스테이블코인은 개별 은행의 고객 예금을 대체할 수 있지만 전체 은행 예금에 미치는 영향은 자금 출처와 준비자산의 귀착에 달린다. 총량이 유지되는 경우에도 소매예금이 소수 은행의 집중된 도매성 자금으로 바뀔 수 있다.",
+          "limitations": "스테이블코인 증가액과 은행 예금·대출 감소액의 일대일 관계, 한국 은행의 실제 손익 추정, 모든 발행자의 중앙은행 계좌 접근 권한.",
+          "prior_read_status": "selected_sections",
+          "prior_checked_at": "2026-11-04",
+          "prior_read_scope": [
+            "2.1–2.4절(수요 출처, 준비자산 배분, 예금 구성, 경쟁 대응); disclaimer 확인. 표·정량 대출승수 재현 제외",
+            "이번 실제 재열람: 웹행 17–29의 수요 출처·준비자산 배분, 39–62의 중앙은행 계좌 가정·예금 분포/구성·경쟁 대응. 정량 승수·당시 발행사 준비금 비율은 사용하지 않음."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FIN-003",
+      "title": "III. Anchoring trust in money: innovation beyond stablecoins",
+      "publisher": "BIS Annual Economic Report 2026",
+      "url": "https://www.bis.org/publications/aer-2026/anchoring-trust-money",
+      "published_at": "2026-06-23",
+      "checked_at": "2026-11-04",
+      "visibility": "public",
+      "read_status": "selected_sections",
+      "source_type": "연차경제보고서 장",
+      "read_scope": [
+        "Key takeaways",
+        "Digital innovation and the quest for new forms of money의 programmability·DLT·Agorá 문단(HTML 618~636행)",
+        "Moving towards the next-generation monetary system의 첫 문단 및 기존 RTGS 개선 관련 문단(807~841행 중 확인한 문단)",
+        "2026-11-03 추가: Key takeaways, 731–761행의 재정·은행대출·해외수요·Box D 도입, 807–842행의 정책·기존 지급망 선택 문단. 모형 수치 재현 없음.",
+        "2026-11-04 선택 재열람: HTML 717–740행 준비자산별 조달 재편·은행 경쟁·중소기업 신용 경로. 모형의 수치 결과를 사용하지 않음.",
+        "2026-11-04 대체·관계 통합 재확인: HTML L615–629: 장부 분절·대사·메시징/결제 마찰, DLT 없는 프로그래밍 가능성, 공동 기록과 원자적 결제 및 네트워크 한계. L837–849: 거버넌스·복구·RTGS 개선과 조건부 전망. 장 통독 아님."
+      ],
+      "summary": "BIS는 토큰화의 이점을 신뢰 가능한 화폐·결제 구조와 결합할 것을 제안한다. 프로그래밍 기능은 DLT 없이도 구현할 수 있고, 기존 RTGS 개선 역시 이점을 제공할 수 있다고 명시한다. 공동 원장과 원자적 결제의 가능성은 법적 최종성·운영 탄력성·거버넌스 조건을 필요로 한다.",
+      "used_for": [
+        "기관 연구: 업무 자동화의 이점 전체를 블록체인의 고유 효과로 귀속할 수 없다.",
+        "연구자 추론: 동일 업무를 기존 방식, 기존 방식+자동화, 토큰화 방식으로 비교해야 한다.",
+        "추가 해석: 준비자산·국내/해외 수요와 경쟁자 반응을 넣어 국채 수요·은행 조달의 일반균형 경로를 구분.",
+        "BNK의 예금 이동을 은행 시스템 전체의 예금 소멸로 일반화하지 않고 개별 은행의 조달구성과 경쟁으로 분석.",
+        "보고서39의 대체 대상·고객 관계 구분: 토큰화와 DLT는 자산 기록·이전·대사·결제 업무의 조합을 바꿀 수 있다. 자동화 자체는 기존 인프라에서도 가능하므로 기존+AI와 온체인+AI를 같은 업무로 비교해야 한다."
+      ],
+      "limitations": [
+        "전체 45쪽 장의 정독이 아니다.",
+        "BIS가 선호하는 설계 방향과 시장의 필연적 귀결을 구분한다.",
+        "Box D 모형과 실제 미국·한국의 결과를 구분. 새로 읽은 범위는 장의 통독이 아님."
+      ],
+      "topic_ids": [
+        "T-MONEY",
+        "T-SETTLEMENT"
+      ],
+      "event_date": null,
+      "effective_date": null,
+      "effective_date_status": null,
+      "adoption_stage": "구조·정책 연구",
+      "rechecked_existing_source": true,
+      "review_readers": [
+        "BMX-root"
+      ],
+      "recheck_history": [
+        {
+          "checked_at": "2026-11-04",
+          "run": "2026-11-04-substitution-relationships",
+          "read_scope": "HTML L615–629: 장부 분절·대사·메시징/결제 마찰, DLT 없는 프로그래밍 가능성, 공동 기록과 원자적 결제 및 네트워크 한계. L837–849: 거버넌스·복구·RTGS 개선과 조건부 전망. 장 통독 아님.",
+          "supports": "토큰화와 DLT는 자산 기록·이전·대사·결제 업무의 조합을 바꿀 수 있다. 자동화 자체는 기존 인프라에서도 가능하므로 기존+AI와 온체인+AI를 같은 업무로 비교해야 한다.",
+          "limitations": "토큰화가 신용위험이나 법적 권리를 자동 제거한다는 주장, 모든 네트워크의 상호운용성·24시간 최종 현금 보장, 실제 회사의 비용 절감액·수익성.",
+          "prior_read_status": "selected_sections",
+          "prior_checked_at": "2026-11-04",
+          "prior_read_scope": [
+            "Key takeaways",
+            "Digital innovation and the quest for new forms of money의 programmability·DLT·Agorá 문단(HTML 618~636행)",
+            "Moving towards the next-generation monetary system의 첫 문단 및 기존 RTGS 개선 관련 문단(807~841행 중 확인한 문단)",
+            "2026-11-03 추가: Key takeaways, 731–761행의 재정·은행대출·해외수요·Box D 도입, 807–842행의 정책·기존 지급망 선택 문단. 모형 수치 재현 없음.",
+            "2026-11-04 선택 재열람: HTML 717–740행 준비자산별 조달 재편·은행 경쟁·중소기업 신용 경로. 모형의 수치 결과를 사용하지 않음."
+          ]
+        }
+      ]
+    },
+    {
+      "checked_at": "2026-11-04",
+      "visibility": "public",
+      "id": "ST-HW-014",
+      "title": "Implementation Considerations",
+      "publisher": "Google / Agent Payments Protocol",
+      "url": "https://ap2-protocol.org/ap2/implementation_considerations/",
+      "published_at": null,
+      "read_status": "selected_sections",
+      "read_scope": [
+        "구현 고려사항 본문: 상품 목록·체크아웃·위임 검증·승인·영수증·반복 실행 방지·장기 위임",
+        "2026-11-04 대체·관계 통합 재확인: 구현 고려사항 본문 L61–148: Merchant/Processor/Shopping Agent/Credential Provider/Trusted Surface 역할, 서명 위임·결제수단 선택·영수증·중복 방지·장기 위임 관리. 연결된 명세 전문은 미열람."
+      ],
+      "summary": "AP2 문서는 에이전트 결제에서 목록·결제 조건, 서명된 위임, 확인 가능한 승인과 영수증, 중복 실행 방지 및 장기 위임 통제를 설명한다.",
+      "used_for": [
+        "AI가 선택하고 실행할 금융서비스 인터페이스 설계의 참고",
+        "선택 품질과 실행 권한·취소·복구를 분리",
+        "보고서39의 대체 대상·고객 관계 구분: AP2는 상품 선택, 지급수단 제공, 사용자 승인, 결제 처리와 결과 기록을 구분한다. 승인 UI는 에이전트 앱·지갑·발행자 앱·브라우저 등이 맡을 수 있다고 설명한다. 에이전트의 장기 위임에 기간 제한·알림·관리 수단을 제안한다."
+      ],
+      "limitations": [
+        "지급 프로토콜 참고이며 보험 판매·투자자문·금융 인가·법적 위임의 충족 증거가 아니다.",
+        "모든 AI 에이전트가 AP2를 사용할 것이라는 예측에 사용하지 않는다."
+      ],
+      "topic_ids": [
+        "T-AI",
+        "T-RIGHTS",
+        "T-OPERATIONS",
+        "T-AGENT-FINANCE"
+      ],
+      "recheck_history": [
+        {
+          "checked_at": "2026-11-04",
+          "run": "2026-11-04-substitution-relationships",
+          "read_scope": "구현 고려사항 본문 L61–148: Merchant/Processor/Shopping Agent/Credential Provider/Trusted Surface 역할, 서명 위임·결제수단 선택·영수증·중복 방지·장기 위임 관리. 연결된 명세 전문은 미열람.",
+          "supports": "AP2는 상품 선택, 지급수단 제공, 사용자 승인, 결제 처리와 결과 기록을 구분한다. 승인 UI는 에이전트 앱·지갑·발행자 앱·브라우저 등이 맡을 수 있다고 설명한다. 에이전트의 장기 위임에 기간 제한·알림·관리 수단을 제안한다.",
+          "limitations": "모든 AI의 AP2 채택, 금융회사의 고객 소유권이나 독점 접점, 금융상품 자문·판매 인가 또는 법적 대리권 충족, 은행/보험이 해당 기능에 실제 보수를 받는다는 주장.",
+          "prior_read_status": "full_text",
+          "prior_checked_at": "2026-11-03",
+          "prior_read_scope": [
+            "구현 고려사항 본문: 상품 목록·체크아웃·위임 검증·승인·영수증·반복 실행 방지·장기 위임"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "OBX-E-012",
+      "title": "Ondo Stocks Legal and Regulatory",
+      "publisher": "Ondo Finance",
+      "url": "https://docs.ondo.finance/ondo-stocks/legal-and-regulatory",
+      "published_at": null,
+      "checked_at": "2026-11-04",
+      "visibility": "public",
+      "read_status": "selected_sections",
+      "read_scope": [
+        "본문 발행자·구조화채권·담보·보유자 권리·Regulation S",
+        "11/4 재열람 L136·152: 공식 법인명 Ondo Global Markets (BVI) Limited 및 문서상 약칭 OGM 확인",
+        "2026-11-04 대체·관계 통합 재확인: 공식 FAQ L135–155: 발행자·구조화채권·기초자산 담보·토큰보유자와 주주의 권리 차이·Regulation S와 고객 적격/KYC. 최종 Sales Terms 미열람."
+      ],
+      "summary": "발행자는 Ondo Global Markets (BVI) Limited다. 상품은 주식·ETF에 연동되는 구조화 채권이며 보유자는 해당 기업의 주주권을 갖지 않는다. 발행자 자산의 분리와 담보권·환매청구 구조를 설명한다.",
+      "used_for": [
+        "BlackRock·Ondo 상품별 법적 권리·현금·보수 및 사업 역할 비교",
+        "보고서39의 대체 대상·고객 관계 구분: Ondo Stocks는 기초 주식 자체의 명의 기록만 바꾼 형태가 아니라 Ondo Global Markets (BVI) Limited가 발행하는 구조화채권이라고 설명된다. 보유자는 환매·담보 관련 권리를 갖지만 기초기업 주주의 의결·정보 권리를 갖지 않는다."
+      ],
+      "limitations": [
+        "가입 후 제공되는 최종 Sales Terms와 전체 발행 문서는 읽지 않았다. 국가별 개별 판매허가를 증명하지 않는다."
+      ],
+      "topic_ids": [
+        "T-RIGHTS",
+        "T-MONEY",
+        "T-INSTITUTION-ROLES"
+      ],
+      "source_type": "official_product_documentation",
+      "review_readers": [
+        "E"
+      ],
+      "recheck_history": [
+        {
+          "checked_at": "2026-11-04",
+          "run": "2026-11-04-substitution-relationships",
+          "read_scope": "공식 FAQ L135–155: 발행자·구조화채권·기초자산 담보·토큰보유자와 주주의 권리 차이·Regulation S와 고객 적격/KYC. 최종 Sales Terms 미열람.",
+          "supports": "Ondo Stocks는 기초 주식 자체의 명의 기록만 바꾼 형태가 아니라 Ondo Global Markets (BVI) Limited가 발행하는 구조화채권이라고 설명된다. 보유자는 환매·담보 관련 권리를 갖지만 기초기업 주주의 의결·정보 권리를 갖지 않는다.",
+          "limitations": "모든 토큰화 증권이 같은 구조라는 일반화, 기초주식 보유와 동일한 모든 법적 권리·세금·파산 결과, 특정 국가의 판매 허가나 투자자 적격성.",
+          "prior_read_status": "selected_sections",
+          "prior_checked_at": "2026-11-04",
+          "prior_read_scope": [
+            "본문 발행자·구조화채권·담보·보유자 권리·Regulation S",
+            "11/4 재열람 L136·152: 공식 법인명 Ondo Global Markets (BVI) Limited 및 문서상 약칭 OGM 확인"
+          ]
+        }
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "C-414",
+      "kind": "interpretation",
+      "status": "active",
+      "as_of": "2026-11-04",
+      "text": "디지털 금융의 대체는 고객의 자산·청구권, 기록·이전·결제 업무, 탐색·선택·실행 접점을 구분해야 한다. 같은 경제적 노출을 제공해도 법적 권리가 다를 수 있으며 토큰화 예금·지급 스테이블코인·펀드를 같은 돈으로 합칠 수 없다.",
+      "source_ids": [
+        "FIN-003",
+        "ST-TD-005",
+        "OBX-E-012",
+        "SRC-CIRCLE-USDC-TERMS",
+        "OBX-E-004"
+      ],
+      "topic_ids": [
+        "T-RIGHTS",
+        "T-MONEY",
+        "T-INSTITUTION-ROLES"
+      ],
+      "limitations": "공개 원문에 기반한 연구자 분류. 대체율·실제 예금 이탈이나 업권 소멸을 추정하지 않았다. 상품 계약별 예외가 있다."
+    },
+    {
+      "id": "C-415",
+      "kind": "interpretation",
+      "status": "active",
+      "as_of": "2026-11-04",
+      "text": "고객 관계를 목적 이해·위임 통제·선택 비교·자금 실행·책임 복구로 나누면 앱 방문과 계좌 유지가 유료 금융 관계와 다름을 확인할 수 있다. 각 관계의 담당자가 다를 수 있고 지표의 고객 집합·업무·기간·관측 범위를 고정해야 한다.",
+      "source_ids": [
+        "ST-HW-014",
+        "KYX-V-008",
+        "KYX-V-009",
+        "ST-KN-002"
+      ],
+      "topic_ids": [
+        "T-AGENT-FINANCE",
+        "T-INSTITUTION-ROLES",
+        "T-OPERATIONS"
+      ],
+      "limitations": "다섯 관계는 연구자의 분석 틀이며 법정 인가 분류·확립된 업계 표준이 아니다. AP2 설계 문서로 실제 고객 이동·유료 수요를 입증하지 않는다."
+    },
+    {
+      "id": "C-416",
+      "kind": "hypothesis",
+      "status": "active",
+      "as_of": "2026-11-04",
+      "text": "고객 목적을 관리하는 역할, 외부 AI가 선택하는 금융 공급, 다기관 거래의 권리·현금·복구를 맡는 역할은 별도 사업 위치가 될 수 있다. 고객 화면을 확보하지 못해도 실행·신용 관계로 수익을 얻을 수 있지만 외부 선택자의 가격 협상력에 노출된다.",
+      "source_ids": [
+        "ST-HW-014",
+        "KYX-V-008",
+        "ST-KN-002",
+        "HWX-A-001"
+      ],
+      "topic_ids": [
+        "T-AGENT-FINANCE",
+        "T-INSTITUTION-ROLES"
+      ],
+      "limitations": "필요 권한·계약·위임이 성립한 조건부 제안이며 세 기관의 확정 신사업이나 고객 소유권을 의미하지 않는다.",
+      "alternative": "대형 금융기관·플랫폼이 같은 기능을 더 낮은 묶음가격으로 제공하거나 고객이 별도 관리료를 지불하지 않으면 독립 사업이 성립하지 않을 수 있다.",
+      "next_observation": "동일 고객 목적의 직접/외부 AI 경유 견적·완료·재계약·플랫폼 배분 후 기여와 사고 책임"
+    },
+    {
+      "id": "C-417",
+      "kind": "interpretation",
+      "status": "active",
+      "as_of": "2026-11-04",
+      "text": "적응 투자의 가치는 같은 미래 환경에서 적응했을 때와 하지 않았을 때의 기여 차이로 평가해야 한다. 미적응해도 발생할 이탈을 전부 투자 유발 잠식으로 차감하지 않으며 시장 성장 전체를 투자 성과로 귀속하지 않는다. 현재보다 기여가 낮아져도 더 큰 손실을 막는 방어 투자는 가치가 있을 수 있다.",
+      "source_ids": [
+        "ST-TD-005",
+        "FIN-003",
+        "KYX-V-008"
+      ],
+      "topic_ids": [
+        "T-INSTITUTION-ROLES",
+        "T-FUNDING",
+        "T-AGENT-FINANCE"
+      ],
+      "limitations": "경쟁 대응 근거에서 도출한 연구자의 의사결정 기준이며 원문이 이 세 기준선이나 특정 투자 가치를 추정했다는 뜻이 아니다. 미적응 경로는 반사실 가정이다. 기간·위험·비용·할인 기준을 맞추고 추가 투자비는 중복 차감하지 않는다."
+    },
+    {
+      "id": "C-418",
+      "kind": "interpretation",
+      "status": "active",
+      "as_of": "2026-11-04",
+      "text": "새 금융 사업은 기존 관계 방어, 외부 플랫폼 고객에게 전문 기능 판매, 이전에 성립하지 못한 수요 충족으로 나누어 성과를 확인하고 외부 구매·축소도 선택지로 둔다. 새 토큰·앱·유통경로의 등장이 독립된 신규 수요의 증거는 아니다.",
+      "source_ids": [
+        "ST-KN-002",
+        "OBX-E-012",
+        "KYX-M-004",
+        "KYX-M-005",
+        "HWX-A-001"
+      ],
+      "topic_ids": [
+        "T-INSTITUTION-ROLES",
+        "T-COMPANIES"
+      ],
+      "limitations": "기존 세 기관 가설을 분류한 연구자 판단. STR 12개 순위·법인 권한·기존 회사계획을 바꾸지 않는다."
+    },
+    {
+      "id": "C-419",
+      "kind": "hypothesis",
+      "status": "active",
+      "as_of": "2026-11-04",
+      "text": "외부 AI 위임이 확대되면 온체인 활용이 제한돼도 기존 계좌·API를 통해 선택 접점과 유통 보수가 이동할 수 있다. 반대로 온체인이 확대돼도 기존 금융기관이 이를 흡수하면 고객 접점의 이동은 제한적일 수 있다.",
+      "source_ids": [
+        "FIN-003",
+        "ST-HW-014",
+        "KYX-V-008"
+      ],
+      "topic_ids": [
+        "T-AGENT-FINANCE",
+        "T-SETTLEMENT",
+        "T-INSTITUTION-ROLES"
+      ],
+      "limitations": "AI 위임 범위와 온체인 활용을 별개 축으로 둔 조건부 시나리오. 확률·속도·실제 시장점유율을 배정하지 않았다.",
+      "alternative": "권리·데이터·책임·이전비용이 높거나 자본·규모의 통합 이점이 크면 기존 대형 금융기관이나 플랫폼으로 기능이 다시 집중될 수 있다.",
+      "next_observation": "같은 업무에서 온체인 사용 여부와 외부 AI 위임을 나눈 고객 선택·총비용·반복 기여"
+    },
+    {
+      "id": "C-420",
+      "kind": "hypothesis",
+      "status": "active",
+      "as_of": "2026-11-04",
+      "text": "권리 검증·유동성·복구가 필요해져도 공급자에게 높은 보수가 남는 것은 아니다. 경쟁자가 같은 결과를 묶음가격으로 제공할 수 있는지와 고객의 대안 대비 편익, 공급자의 책임·비용을 함께 보아야 독립 유료 사업 여부를 판단할 수 있다.",
+      "source_ids": [
+        "FIN-003",
+        "KYX-V-008",
+        "HWX-A-001",
+        "ST-KN-002"
+      ],
+      "topic_ids": [
+        "T-INSTITUTION-ROLES",
+        "T-OPERATIONS"
+      ],
+      "limitations": "실제 가격·계약·수익은 미확인. 보험 위험 인수의 장기 손익과 건당 운영 보수는 별도로 평가한다.",
+      "alternative": "고객이 인정하는 차이가 없거나 무료 묶음 대안이 우세하면 내부 비용 개선·제휴 구매만 합리적일 수 있다.",
+      "next_observation": "지급자·독립 견적·책임 범위·실제 회피비·경쟁 후 재계약과 비용 후 증분 기여"
+    }
+  ]
+}

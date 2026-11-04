@@ -4348,6 +4348,55 @@
       "label": "AI가 상품 조합과 안내를 쉽게 할수록 원권리·신용심사·유동성·보험금 지급·복구처럼 자본과 운영 책임이 필요한 기능에 대가를 붙일 여지가 남는다. 그러나 책임을 수행하는 비용과 경쟁자의 대체 능력보다 고객 편익이 커야 수익이 유지된다."
     },
     {
+      "id": "C-414",
+      "type": "claim",
+      "kind": "interpretation",
+      "status": "active",
+      "label": "디지털 금융의 대체는 고객의 자산·청구권, 기록·이전·결제 업무, 탐색·선택·실행 접점을 구분해야 한다. 같은 경제적 노출을 제공해도 법적 권리가 다를 수 있으며 토큰화 예금·지급 스테이블코인·펀드를 같은 돈으로 합칠 수 없다."
+    },
+    {
+      "id": "C-415",
+      "type": "claim",
+      "kind": "interpretation",
+      "status": "active",
+      "label": "고객 관계를 목적 이해·위임 통제·선택 비교·자금 실행·책임 복구로 나누면 앱 방문과 계좌 유지가 유료 금융 관계와 다름을 확인할 수 있다. 각 관계의 담당자가 다를 수 있고 지표의 고객 집합·업무·기간·관측 범위를 고정해야 한다."
+    },
+    {
+      "id": "C-416",
+      "type": "claim",
+      "kind": "hypothesis",
+      "status": "active",
+      "label": "고객 목적을 관리하는 역할, 외부 AI가 선택하는 금융 공급, 다기관 거래의 권리·현금·복구를 맡는 역할은 별도 사업 위치가 될 수 있다. 고객 화면을 확보하지 못해도 실행·신용 관계로 수익을 얻을 수 있지만 외부 선택자의 가격 협상력에 노출된다."
+    },
+    {
+      "id": "C-417",
+      "type": "claim",
+      "kind": "interpretation",
+      "status": "active",
+      "label": "적응 투자의 가치는 같은 미래 환경에서 적응했을 때와 하지 않았을 때의 기여 차이로 평가해야 한다. 미적응해도 발생할 이탈을 전부 투자 유발 잠식으로 차감하지 않으며 시장 성장 전체를 투자 성과로 귀속하지 않는다. 현재보다 기여가 낮아져도 더 큰 손실을 막는 방어 투자는 가치가 있을 수 있다."
+    },
+    {
+      "id": "C-418",
+      "type": "claim",
+      "kind": "interpretation",
+      "status": "active",
+      "label": "새 금융 사업은 기존 관계 방어, 외부 플랫폼 고객에게 전문 기능 판매, 이전에 성립하지 못한 수요 충족으로 나누어 성과를 확인하고 외부 구매·축소도 선택지로 둔다. 새 토큰·앱·유통경로의 등장이 독립된 신규 수요의 증거는 아니다."
+    },
+    {
+      "id": "C-419",
+      "type": "claim",
+      "kind": "hypothesis",
+      "status": "active",
+      "label": "외부 AI 위임이 확대되면 온체인 활용이 제한돼도 기존 계좌·API를 통해 선택 접점과 유통 보수가 이동할 수 있다. 반대로 온체인이 확대돼도 기존 금융기관이 이를 흡수하면 고객 접점의 이동은 제한적일 수 있다."
+    },
+    {
+      "id": "C-420",
+      "type": "claim",
+      "kind": "hypothesis",
+      "status": "active",
+      "label": "권리 검증·유동성·복구가 필요해져도 공급자에게 높은 보수가 남는 것은 아니다. 경쟁자가 같은 결과를 묶음가격으로 제공할 수 있는지와 고객의 대안 대비 편익, 공급자의 책임·비용을 함께 보아야 독립 유료 사업 여부를 판단할 수 있다."
+    },
+    {
       "id": "T-RIGHTS",
       "type": "topic",
       "label": "기초자산·법적 권리·발행"
@@ -20105,6 +20154,264 @@
     {
       "from": "C-413",
       "to": "T-AGENT-FINANCE",
+      "type": "about"
+    },
+    {
+      "from": "FIN-003",
+      "to": "C-414",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "ST-TD-005",
+      "to": "C-414",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "OBX-E-012",
+      "to": "C-414",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "SRC-CIRCLE-USDC-TERMS",
+      "to": "C-414",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "OBX-E-004",
+      "to": "C-414",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-414",
+      "to": "T-RIGHTS",
+      "type": "about"
+    },
+    {
+      "from": "C-414",
+      "to": "T-MONEY",
+      "type": "about"
+    },
+    {
+      "from": "C-414",
+      "to": "T-INSTITUTION-ROLES",
+      "type": "about"
+    },
+    {
+      "from": "ST-HW-014",
+      "to": "C-415",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "KYX-V-008",
+      "to": "C-415",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "KYX-V-009",
+      "to": "C-415",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "ST-KN-002",
+      "to": "C-415",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-415",
+      "to": "T-AGENT-FINANCE",
+      "type": "about"
+    },
+    {
+      "from": "C-415",
+      "to": "T-INSTITUTION-ROLES",
+      "type": "about"
+    },
+    {
+      "from": "C-415",
+      "to": "T-OPERATIONS",
+      "type": "about"
+    },
+    {
+      "from": "ST-HW-014",
+      "to": "C-416",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "KYX-V-008",
+      "to": "C-416",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "ST-KN-002",
+      "to": "C-416",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "HWX-A-001",
+      "to": "C-416",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-416",
+      "to": "T-AGENT-FINANCE",
+      "type": "about"
+    },
+    {
+      "from": "C-416",
+      "to": "T-INSTITUTION-ROLES",
+      "type": "about"
+    },
+    {
+      "from": "ST-TD-005",
+      "to": "C-417",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "FIN-003",
+      "to": "C-417",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "KYX-V-008",
+      "to": "C-417",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-417",
+      "to": "T-INSTITUTION-ROLES",
+      "type": "about"
+    },
+    {
+      "from": "C-417",
+      "to": "T-FUNDING",
+      "type": "about"
+    },
+    {
+      "from": "C-417",
+      "to": "T-AGENT-FINANCE",
+      "type": "about"
+    },
+    {
+      "from": "ST-KN-002",
+      "to": "C-418",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "OBX-E-012",
+      "to": "C-418",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "KYX-M-004",
+      "to": "C-418",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "KYX-M-005",
+      "to": "C-418",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "HWX-A-001",
+      "to": "C-418",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-418",
+      "to": "T-INSTITUTION-ROLES",
+      "type": "about"
+    },
+    {
+      "from": "C-418",
+      "to": "T-COMPANIES",
+      "type": "about"
+    },
+    {
+      "from": "FIN-003",
+      "to": "C-419",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "ST-HW-014",
+      "to": "C-419",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "KYX-V-008",
+      "to": "C-419",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-419",
+      "to": "T-AGENT-FINANCE",
+      "type": "about"
+    },
+    {
+      "from": "C-419",
+      "to": "T-SETTLEMENT",
+      "type": "about"
+    },
+    {
+      "from": "C-419",
+      "to": "T-INSTITUTION-ROLES",
+      "type": "about"
+    },
+    {
+      "from": "FIN-003",
+      "to": "C-420",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "KYX-V-008",
+      "to": "C-420",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "HWX-A-001",
+      "to": "C-420",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "ST-KN-002",
+      "to": "C-420",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-420",
+      "to": "T-INSTITUTION-ROLES",
+      "type": "about"
+    },
+    {
+      "from": "C-420",
+      "to": "T-OPERATIONS",
       "type": "about"
     }
   ]
