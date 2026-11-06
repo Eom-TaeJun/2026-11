@@ -1573,6 +1573,18 @@ AI가 상품 조합과 안내를 쉽게 할수록 원권리·신용심사·유�
 
 다음 관측: 지급자·독립 견적·책임 범위·실제 회피비·경쟁 후 재계약과 비용 후 증분 기여
 
+### C-432 · hypothesis · active
+
+한화의 국내 보험·GA·ALM 우선은 모든 해외 투자를 국내 개선 완료 뒤로 미룬다는 뜻이 아니다. 독립 해외 사업과 연결의 추가 외부 기여를 구분해, 외부 계약이 먼저 성립한 업무에는 제한적으로 병행 투자할 수 있다.
+
+근거: [R27-H-003](../sources/cards/R27-H-003.md), [ST-HW-007](../sources/cards/ST-HW-007.md), [HWA-GEO-008](../sources/cards/HWA-GEO-008.md)
+
+한계: 분석자의 투자 순서 교정이며 회사의 예산·확정 계획이 아니다. 그룹 경제적 비교와 공식 회계 연결 범위를 구분한다.
+
+다른 설명: 해외의 고정비·헤지·통제·보증 부담이 편익보다 커 자원을 국내에 집중한다.
+
+다음 관측: 내부 지원을 제거한 독립 기여와 연결 증분, 반복 외부 고객 및 외부 구매 대안.
+
 ## 관련 원문
 
 - [KYO-GEO-001 · Kyobo Life Insurance Group and Japan’s SBI Group ink strategic partnership](../sources/cards/KYO-GEO-001.md)
@@ -1674,5 +1686,9 @@ AI가 상품 조합과 안내를 쉽게 할수록 원권리·신용심사·유�
 - [BMX-BNK-001 · BNK Financial Group Value-up Plan 2.0](../sources/cards/BMX-BNK-001.md)
 - [BMX-HW-001 · 2026년 상반기 경영실적 — 회사 작성 IR 배포본](../sources/cards/BMX-HW-001.md)
 - [BMX-HW-002 · Earnings Release — FY2026 공개 실적 목록](../sources/cards/BMX-HW-002.md)
+- [R27-B-002 · BNK금융그룹 동남권 혁신기업 성장 기반 구축 나서](../sources/cards/R27-B-002.md)
+- [R27-B-006 · 팩토링 할인료는 누가 부담하나요?](../sources/cards/R27-B-006.md)
+- [R27-H-003 · Hanwha Life Financial Services](../sources/cards/R27-H-003.md)
+- [R27-H-006 · BNY and Goldman Sachs Launch Tokenized Money Market Funds Solution](../sources/cards/R27-H-006.md)
 
 [전체 주제 지도](INDEX.md)

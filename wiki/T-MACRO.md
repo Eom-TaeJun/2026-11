@@ -84,6 +84,18 @@ IMF 10월 GFSR은 전반적으로 완화적인 금융여건과 높은 금융안�
 
 다음 관측: 같은 고객군의 원화 의무·사용처·운영계좌 잔액, 원화→달러 순전환과 재환전, 결제 총비용 및 원화토큰 반복사용을 측정. 글로벌 중개자 접근 변화 전후 프리미엄·현물환 연계를 구분.
 
+### C-423 · interpretation · active
+
+현재 금리·신용·유동성 제약은 디지털화의 별도 출발 조건이다. 2027년 이후에도 AI 처리비 절감과 즉시 결제만으로 조달·자본·상계·선자금 부담이 사라지지 않는다.
+
+근거: [NOV-M01](../sources/cards/NOV-M01.md), [R27-M-002](../sources/cards/R27-M-002.md), [NOV-M07](../sources/cards/NOV-M07.md)
+
+한계: 2026년10월 정책 결정을 2027년 금리 예측으로 연장하지 않는다. 현재 기업별 효과 수치 추정 없음.
+
+다른 설명: 상계·자동 자금배분 설계가 개선되어 동일 위험의 유동성 비용을 낮춘다.
+
+다음 관측: 같은 거래 집합·시간·위험에서 실제 선자금·차입·담보·대사 총비용.
+
 ## 관련 원문
 
 - [NOV-M01 · 통화정책방향(2026.10.22)](../sources/cards/NOV-M01.md)
@@ -95,5 +107,6 @@ IMF 10월 GFSR은 전반적으로 완화적인 금융여건과 높은 금융안�
 - [NOV-M07 · GFSR October 2026, Chapter 3: Scaling Tokenization: New Efficiencies, New Vulnerabilities](../sources/cards/NOV-M07.md)
 - [NOV-M08 · [제2026-22호] 달러 스테이블코인과 외환시장 간 연계성: 글로벌 거래소의 역할을 중심으로](../sources/cards/NOV-M08.md)
 - [ST-TD-004 · Stablecoins: Promise, Risks, and Policy Choices for Emerging Markets](../sources/cards/ST-TD-004.md)
+- [R27-M-002 · 금융안정 상황(2026년9월) 기자설명회](../sources/cards/R27-M-002.md)
 
 [전체 주제 지도](INDEX.md)

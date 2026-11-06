@@ -751,6 +751,18 @@ AI가 상품 조합과 안내를 쉽게 할수록 원권리·신용심사·유�
 
 다음 관측: 같은 업무에서 온체인 사용 여부와 외부 AI 위임을 나눈 고객 선택·총비용·반복 기여
 
+### C-421 · interpretation · active
+
+외부 AI에 의한 비교·지급 접점 변화는 온체인 확산보다 먼저 진행될 수 있다. Visa의 승인된 청구서 카드 지급 실증과 AP2의 역할·권한 구분은 기존 망+AI를 실질적인 경쟁 기준선으로 두도록 한다.
+
+근거: [R27-M-003](../sources/cards/R27-M-003.md), [R27-M-004](../sources/cards/R27-M-004.md)
+
+한계: 지급 실증·규격을 증권·보험의 자동 대리권이나 범용 상용화·수익성으로 확대하지 않는다.
+
+다른 설명: 기존 금융사가 AI 연결을 내부화해 접점·관계를 유지한다.
+
+다음 관측: 같은 고객 업무에서 승인·실행·실패 복구와 경쟁 후 재선택을 확인.
+
 ## 관련 원문
 
 - [ST-HW-004 · 한화투자증권, 모바일 투자 앱 개편… 이제 디지털자산도 ‘한화투자증권 MTS’ 에서](../sources/cards/ST-HW-004.md)
@@ -769,5 +781,10 @@ AI가 상품 조합과 안내를 쉽게 할수록 원권리·신용심사·유�
 - [BMX-KY-003 · FY2026 상반기 실적 설명자료 — 교보생명 연결 순익7048억원](../sources/cards/BMX-KY-003.md)
 - [BMX-KY-004 · 교보생명은 왜 전속 설계사(FP) 중심 영업 전략을 유지할까?](../sources/cards/BMX-KY-004.md)
 - [BMX-KY-005 · 교보문고 감사보고서 (2025.12)](../sources/cards/BMX-KY-005.md)
+- [R27-M-003 · Agentic Payment Protocol v0.2 specification](../sources/cards/R27-M-003.md)
+- [R27-M-004 · Visa, BILL and Billtrust Launch First Live Pilot for Trusted AI Agent Payments Between Buyer and Supplier Platforms](../sources/cards/R27-M-004.md)
+- [R27-M-005 · Google donates Agent Payments Protocol to FIDO Alliance](../sources/cards/R27-M-005.md)
+- [R27-H-003 · Hanwha Life Financial Services](../sources/cards/R27-H-003.md)
+- [R27-H-006 · BNY and Goldman Sachs Launch Tokenized Money Market Funds Solution](../sources/cards/R27-H-006.md)
 
 [전체 주제 지도](INDEX.md)

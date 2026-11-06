@@ -344,6 +344,42 @@ UAE 고객 AI가 동일한 투자노출·기간·위험·수취통화의 구현�
 
 다음 관측: 동일 고객 업무별 실제 유효 가격·이동 비용·사후처리와 거래/마진의 전후 변화; 표면 앱 방문수는 별도
 
+### C-422 · hypothesis · active
+
+AI가 외부 탐색비와 대형사의 내부 조정비를 함께 낮추면 기능 분리 뒤 재통합이 가능하다. 전문 기능이 필요해도 대형사의 저가 묶음보다 우월하지 않으면 독자 구축을 줄이고 구매·제휴·특화로 이동한다.
+
+근거: [NOV-M07](../sources/cards/NOV-M07.md), [R27-K-002](../sources/cards/R27-K-002.md), [R27-H-006](../sources/cards/R27-H-006.md)
+
+한계: 합병 계획·기존 금융에 토큰 기록 추가는 방향 사례이며 실현 원가나 미래 점유율을 증명하지 않는다.
+
+다른 설명: 외부 전문 공급자의 성과·책임·비용 우위가 유지되어 분산 선택이 커진다.
+
+다음 관측: 같은 권리·위험의 경쟁 견적과 고객의 묶음/분리 재선택.
+
+### C-424 · hypothesis · active
+
+새 수요는 과거 확인·계약·관리 고정비 때문에 성립하지 못한 작은 고객 거래가 같은 위험·품질에서 가능해지는지로 판별한다. 순신규 금융 접근, 기존 상품 재포장, 타사 고객 이동과 실물투자 증가를 구분한다.
+
+근거: [FIN-003](../sources/cards/FIN-003.md), [NOV-M07](../sources/cards/NOV-M07.md), [ST-HW-007](../sources/cards/ST-HW-007.md), [R27-B-004](../sources/cards/R27-B-004.md)
+
+한계: 시장별 규모·순위·고정비 절감 실측이 없어 가장 큰 성장원이라고 단정하지 않는다.
+
+다른 설명: 병목이 소득·신용·원권리·투자자 수요여서 거래는 늘지 않는다.
+
+다음 관측: 이전 비거래 사유·동일조건 견적·첫 계약·반복 유지/회수와 경쟁 후 기여.
+
+### C-428 · hypothesis · active
+
+교보의 비정형 RWA 표준화는 작은 발행인의 접근을 넓히면서 검증 정보의 독점 보수를 낮출 수 있다. 실제 수금 통제·회수·반복 관리와 특정 투자자 수요가 남는 구간에 투자하고 동일 품질의 대체 공급이 생기면 범용 구축을 축소한다.
+
+근거: [KYO-GEO-004](../sources/cards/KYO-GEO-004.md), [R27-K-009](../sources/cards/R27-K-009.md), [FIN-008](../sources/cards/FIN-008.md)
+
+한계: 특정 출판사 정산채권은 조건부 사례이며 문고 전체 IP 소유·생명의 의무 매입·실제 발행 수익을 뜻하지 않는다.
+
+다른 설명: 원권리·관리까지 표준화돼 프리미엄이 사라진다.
+
+다음 관측: 같은 권리의 경쟁 견적·외부 발행/관리 계약·수금/회수 원가.
+
 ## 관련 원문
 
 - [FIN-002 · What Is Needed for Tokenization to Deliver](../sources/cards/FIN-002.md)
@@ -385,5 +421,6 @@ UAE 고객 AI가 동일한 투자노출·기간·위험·수취통화의 구현�
 - [OBX-P-006 · Ondo Intelligent Portfolios Investing and Redeeming](../sources/cards/OBX-P-006.md)
 - [OBX-P-007 · Ondo Intelligent Portfolios Market Hours and Trading Availability](../sources/cards/OBX-P-007.md)
 - [OBX-P-008 · Ondo Intelligent Portfolios](../sources/cards/OBX-P-008.md)
+- [R27-K-009 · Linklaters advises on Korea’s first digitally native bond issuance](../sources/cards/R27-K-009.md)
 
 [전체 주제 지도](INDEX.md)

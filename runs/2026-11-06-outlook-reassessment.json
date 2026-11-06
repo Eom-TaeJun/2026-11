@@ -1,0 +1,121 @@
+{
+  "run_id": "2026-11-06-outlook-reassessment",
+  "as_of": "2026-11-06",
+  "baseline_commit": "d27fa77101eda579989ea723ce01dc6e364a363c",
+  "role_version": "2.1",
+  "status": "analysis_reviewed_publication_pending",
+  "opening_frozen_at": "2026-11-06T23:17:56+09:00",
+  "opening_boundary": "Opening worker did not receive or inspect new public web findings before freeze; root gathered evidence in parallel.",
+  "actual_workers": [
+    "root",
+    "outlook_professor",
+    "outlook_lineage",
+    "outlook_bnk",
+    "outlook_kyobo",
+    "outlook_hanwha",
+    "design_audit"
+  ],
+  "logical_role_assignment": {
+    "coordinator": [
+      "root"
+    ],
+    "environment_scout": [
+      "root"
+    ],
+    "company_signal_scout": [
+      "outlook_bnk",
+      "outlook_kyobo",
+      "outlook_hanwha"
+    ],
+    "source_interpreter": [
+      "outlook_lineage",
+      "root",
+      "outlook_bnk",
+      "outlook_kyobo",
+      "outlook_hanwha"
+    ],
+    "mechanism_analyst": [
+      "root",
+      "outlook_professor",
+      "outlook_bnk",
+      "outlook_kyobo",
+      "outlook_hanwha"
+    ],
+    "purpose_adapter": [
+      "root",
+      "outlook_bnk",
+      "outlook_kyobo",
+      "outlook_hanwha"
+    ],
+    "independent_reviewer": [
+      "design_audit"
+    ],
+    "professor_reasoner": [
+      "outlook_professor:opening",
+      "outlook_professor:closing"
+    ]
+  },
+  "input_handling": {
+    "local_input_files_inventoried": 70,
+    "all_inputs_semantically_read": false,
+    "private_raw_inputs_published": false,
+    "selection_note": "Prior source lineage and selected documents formed questions; newly authored public analysis is grounded in linked public sources."
+  },
+  "public_evidence": {
+    "read_events": 33,
+    "canonical_source_ids": 33,
+    "claim_ids": [
+      "C-421",
+      "C-422",
+      "C-423",
+      "C-424",
+      "C-425",
+      "C-426",
+      "C-427",
+      "C-428",
+      "C-429",
+      "C-430",
+      "C-431",
+      "C-432"
+    ],
+    "interpretation": "Document counts do not count independent discoveries. Rechecks preserve original event and financial periods."
+  },
+  "decision_register": "data/outlook_2027_reassessment.json",
+  "opening": "runs/2026-11-06-outlook-reassessment-opening.json",
+  "closing": "runs/2026-11-06-outlook-reassessment-closing.md",
+  "independent_review": "runs/2026-11-06-outlook-reassessment-review.md",
+  "review_status": "complete",
+  "review_findings": [
+    {
+      "id": "R27-REV-001",
+      "severity": "low",
+      "status": "resolved_verified",
+      "file": "02_analysis/03_bnk.md",
+      "line_at_initial_review": 76,
+      "section": "6. 우량 여신과 예금이 함께 이동할 때의 함정과 대안",
+      "exact_quote": "주선·관리 계약 수입과 실제 줄어든 조달·자본 부담, 포기한 보유 이익, 추가 법률·대사·투자자 관리비를 같은 기간에서 비교한다.",
+      "reason": "포기한 보유 이익이 조달·자본 차감 후 순기여이면 해방된 조달·자본 효과의 별도 가산이 중복될 수 있다. 문서의 다른 이중차감 금지와 의도는 맞으며 실제 수치 오류는 아님.",
+      "recommendation": "보유/배분 각각 일관된 순기여를 비교하고 조달·자본 효과가 이미 반영됐으면 다시 가산하지 않는다고 명시. 확보 여력과 수익도 구분.",
+      "closure_condition": "동일 기간·위험 범위의 비용·편익이 한 번만 포함되는 비교 방식이 명확함.",
+      "resolution": "통합 담당자가 보유/배분 각각의 일관된 순기여와 이미 포함된 조달·자본 효과의 재가산 금지를 명시. 독립검토자가 수정 문장과 corrections.md를 직접 재확인함."
+    }
+  ],
+  "limitations": [
+    "Selected official sources, not all jurisdictions or company disclosures.",
+    "Company announcements and pilots do not prove independent performance, recurring use or profit.",
+    "Current Kyobo designation/capital closing, company-level rail contracts and new business unit contribution remain unverified.",
+    "Structural validation and peer review are not evidence of forecasting accuracy."
+  ],
+  "not_performed": [
+    "Live customer or money transactions",
+    "Scheduled monitoring or always-on runtime",
+    "New market-size/probability/profit estimates",
+    "Existing STR ranking rewrite"
+  ],
+  "next_observations": [
+    "Same-customer competitor quote and total cost",
+    "External repeat contracts and retained recourse/liquidity obligations",
+    "Reason previous noncustomer could not transact and first suitable contract",
+    "Actual applicable authorization and final usable cash"
+  ]
+}

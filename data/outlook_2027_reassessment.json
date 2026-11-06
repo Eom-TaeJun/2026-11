@@ -1,0 +1,859 @@
+{
+  "as_of": "2026-11-06",
+  "baseline_commit": "d27fa77101eda579989ea723ce01dc6e364a363c",
+  "role_design_version": "2.1",
+  "existing_strategy_ranks_changed": false,
+  "groups": {
+    "bnk": {
+      "as_of": "2026-11-06",
+      "role": "mechanism_analyst / purpose_adapter: BNK",
+      "opening_hypothesis_id": "OPEN-BNK-01",
+      "repository_baseline": "d27fa77101eda579989ea723ce01dc6e364a363c",
+      "role_design_version": "2.1",
+      "report": "reports/42_bnk_2027_reassessment.md",
+      "epistemic_status": "analyst interpretation and conditional strategy; not company plan",
+      "public_visibility": "public",
+      "existing_strategy_ranks_changed": false,
+      "core_domain": {
+        "primary": "D1 정보 생산·신용·불완전계약",
+        "secondary": [
+          "D3 은행 조달",
+          "D6 산업조직",
+          "D2 기업 경계"
+        ],
+        "mechanism": "자료 검증과 비교 비용 감소 → 표준 우량거래에 외부 공급자 진입 → 가격 경쟁과 정보 독점 보수 축소 → 비정형 판단·회수의 비용 우위 및 위험 보유 대가가 남는지 판별"
+      },
+      "judgments": [
+        {
+          "id": "R27-B-UP-01",
+          "baseline_claim_ids": [
+            "C-388",
+            "C-389",
+            "C-390"
+          ],
+          "decision": "maintain_and_connect_horizons",
+          "before": "운영자금·FX·신용 방어→자료 기반 심사→산업금융 주선·관리. 기존 검토에는 성장·전환·승계 확장도 존재.",
+          "after": "일상 금융을 지킬 수익이면서 다음 자본 수요 발견의 기반으로 유지. 전주기·승계는 새 아이디어가 아니라 실행·반복 기여를 검증할 중장기 성장 방향.",
+          "source_ids": [
+            "ST-KN-003",
+            "R27-B-002",
+            "R27-B-003",
+            "ST-KN-001"
+          ],
+          "reason": "조직·협약·정책 접근은 방향을 지지하나 실제 실행·보수는 미확인. 여러 은행이 같은 정책 사업 참여.",
+          "alternative": "정책 대응·관계 관리에 머물고 거래는 경쟁사로 이전.",
+          "action": "일상 지급 업무 한 종류와 성장·전환·승계 사건 한 종류를 실제 계약·후속 관리까지 연결해 검증.",
+          "next_observation": "상담→계약→지급→관리, 새 소유자·기업의 자발적 후속 이용 및 관계 기여."
+        },
+        {
+          "id": "R27-B-UP-02",
+          "baseline_claim_ids": [
+            "C-364",
+            "C-389"
+          ],
+          "decision": "narrow",
+          "before": "지역 정보·관계가 신용·사후관리의 기반.",
+          "after": "표준 자료만으로 경쟁사가 같은 결과를 제공하면 프리미엄은 약화. 비정형 사실 검증·개입·회수에서 비용 우위와 지불 의향이 입증되는 범위에 집중.",
+          "source_ids": [
+            "R27-B-004",
+            "R27-B-005",
+            "R27-B-006"
+          ],
+          "reason": "데이터·은행·보증·양도·지급을 연결하는 기존 팩토링의 제공 구조를 직접 재확인. 온체인 자체는 독점 차별점이 아님.",
+          "alternative": "대형은행·ERP가 예외 관리까지 동등한 품질로 낮은 가격에 제공.",
+          "action": "표준 승인과 비정형 판단 거래를 분리하고 외부 구매·제휴·축소를 비교.",
+          "next_observation": "동일 위험조건의 경쟁 견적, 예외·회수 총비용, 가격 대응 뒤 고객 재선택."
+        },
+        {
+          "id": "R27-B-UP-03",
+          "baseline_claim_ids": [
+            "C-359",
+            "C-387",
+            "C-390",
+            "C-411"
+          ],
+          "decision": "strengthen_conditions",
+          "before": "외부 자본 배분으로 관계·수수료와 자본 효율을 확보할 수 있음.",
+          "after": "보유·공동금융·매각을 조달 감소·포기 이자·보수·잔존 손실·유동성 약정까지 같은 기간에서 비교. 우량자산 매각 자체를 성공이나 실패로 단정하지 않음.",
+          "source_ids": [
+            "ST-KN-001",
+            "ST-TD-005",
+            "R27-B-005"
+          ],
+          "reason": "BNK의 은행·기업여신 기반 및 기존 조달 메커니즘에서 자금과 위험의 귀속을 분리한 추론. 새 정량 관측의 발견이 아님.",
+          "alternative": "매각으로 자산·필요 조달·위험이 함께 줄고 반복 관리료가 남아 경제성이 개선될 수 있음.",
+          "action": "첫 손실·환매·긴급 유동성의 실제 가격과 범위를 따로 심사; 같은 미래의 적응/미적응 비교.",
+          "next_observation": "외부 배분 후 실제 지원청구·손실·관리 보수, 대체조달비와 보유 대비 기여."
+        },
+        {
+          "id": "R27-B-UP-04",
+          "baseline_claim_ids": [
+            "C-361",
+            "C-362",
+            "C-388"
+          ],
+          "decision": "maintain_with_unit_economics",
+          "before": "외부 자산을 허용하며 지급일 현금·확약 신용·예외 복구로 관계 유지 가능.",
+          "after": "예금·FX를 잃고 급전·예외만 남으면 기존 묶음가격 조정 필요. 필요한 책임도 높은 보수를 보장하지 않음.",
+          "source_ids": [
+            "ST-TD-005",
+            "R27-B-004",
+            "R27-B-005"
+          ],
+          "reason": "기존 레일+AI 비교와 경쟁 가격 전가, 은행 조달비를 동시에 반영.",
+          "alternative": "경쟁사의 저가 묶음으로 독립 관리료가 성립하지 않지만 손실·운영비 감소를 통한 내부 방어 투자는 가치가 있을 수 있음.",
+          "action": "고객의 통화·기한·권리·위험을 고정해 관계 전체 기여와 내부 비용 절감을 별도 평가.",
+          "next_observation": "반복 위임·실행·약정 신용·운영예금 및 파트너 배분 후 기여."
+        }
+      ],
+      "counterfactuals": [
+        {
+          "id": "B-CF-A",
+          "changed_condition": "지역 산업 정보와 예외 관리까지 표준화; 경쟁자 동등 품질+저가 묶음",
+          "changed_action": "범용 직접 구축·정보 재판매 축소; 비용 우위가 남는 좁은 현장·회수 기능 또는 선택적 신용 공급. 우위가 없으면 자본·인력 재배분.",
+          "discriminating_observation": "같은 위험조건 경쟁 견적·예외/회수 비용·재선택"
+        },
+        {
+          "id": "B-CF-B",
+          "changed_condition": "외부 배분 뒤 우량 예금·여신 이탈, 첫 손실·환매·유동성 부담 집중",
+          "changed_action": "위험 재가격·공동금융·약정 가격 조정·보유/배분 선택; 부담이 실제 감소하고 관리료가 반복되면 반대로 확대.",
+          "discriminating_observation": "지원청구·대체조달비·보유 대비 경제적 기여"
+        }
+      ],
+      "priorities": [
+        "산업 한 종류의 수금·지급·FX·약정 신용을 고객 업무로 검증",
+        "성장·전환·승계 사건 한 종류를 기존 기업금융·사후관리와 연결",
+        "외부자본 배분과 잔존 위험·조달을 동시에 비교"
+      ],
+      "fresh_primary_sources": [
+        "ST-KN-003",
+        "R27-B-002",
+        "R27-B-003",
+        "R27-B-004",
+        "R27-B-005",
+        "R27-B-006"
+      ],
+      "inherited_baselines": {
+        "financial_source_id": "ST-KN-001",
+        "scope": "보고서36의 2026Q3 선택 표·단위·기간·계산을 승계. 이번 원격 PDF 전체 재취득/갱신 아님.",
+        "economic_source_id": "ST-TD-005",
+        "scope_note": "기존 보고서39에 연결된 Fed 조달 논의 승계. 이번 담당이 Fed 원문을 새로 읽은 것으로 표시하지 않음."
+      },
+      "unknowns": [
+        "고객별 순기여",
+        "승계 성사·보수",
+        "전환금융 개별 취급액",
+        "외부 배분·관리 계약",
+        "파트너 실제 가격",
+        "실제 회수 결과",
+        "BNK의 USDC·USDT 직접 계약·수익 배분"
+      ],
+      "review_requested": [
+        "회사 발표/계획과 성과 혼동 여부",
+        "같은 미래 적응/미적응 비교와 비용 중복 차감 여부",
+        "정보 표준화 이후 잔여 우위를 입증 없이 확정하는지",
+        "그룹 내부 이전·위험 집중·법인 귀속 구분"
+      ]
+    },
+    "kyobo": {
+      "as_of": "2026-11-06",
+      "entity_scope": [
+        "교보생명",
+        "교보증권",
+        "교보문고"
+      ],
+      "opening_hypothesis_id": "OPEN-KYO-01",
+      "report": "reports/43_kyobo_2027_reassessment.md",
+      "classification": "conditional economic interpretation; not company confirmed strategy",
+      "central_position": "생명의 장기 보장·계약관리와 증권의 발굴·발행·집행을 병행하되 공통 운영 기준의 연결은 독립 경제성과 외부 반복 계약으로 검증한다.",
+      "strongest_alternative": "대형 금융사와 플랫폼이 같은 검증·집행·복구를 더 싸게 묶으면 책임이 필요한 업무라도 교보에 높은 보수가 남지 않는다. 범용 구축을 줄이고 외부 구매·특화·축소를 선택한다.",
+      "economic_domains": [
+        "D1",
+        "D2",
+        "D4",
+        "D5",
+        "D6",
+        "D8"
+      ],
+      "decisions": [
+        {
+          "id": "R27-KYO-01",
+          "prior": "증권의 기존 거래·IB·기관 업무를 우선한다.",
+          "status": "maintain",
+          "updated": "기존 지급자가 있는 반복 업무를 출발점으로 유지한다.",
+          "reason": "MOU·기술실증과 유료 반복 위임·성과의 거리가 남아 있다.",
+          "source_ids": [
+            "KYO-GEO-004",
+            "KYO-GEO-005",
+            "R27-K-009"
+          ],
+          "next_observation": "외부 발행인·투자자의 반복 계약, 정정/관리 원가, 경쟁 견적 후 기여."
+        },
+        {
+          "id": "R27-KYO-02",
+          "prior": "그룹은 생명 장기 계약관리와 증권 실행의 두 축이다.",
+          "status": "maintain_and_specify",
+          "updated": "생명 기존+AI 운영과 증권 실행을 독립적으로 개선하고 공통 기준은 실제 재사용 편익이 있을 때 연결한다.",
+          "reason": "합병은 내부화 선택의 신호이며 기존 로보어드바이저는 실제 도입 기준선이다. 이것은 이번에 새로 만들어진 방향이 아니다.",
+          "source_ids": [
+            "R27-K-002",
+            "HWX-R-005",
+            "HWX-V-006",
+            "BMX-KY-003"
+          ],
+          "next_observation": "병행 시스템·계약당 관리비, 적합한 고객 목적 해결, 그룹 내부거래 제거 후 편익."
+        },
+        {
+          "id": "R27-KYO-03",
+          "prior": "비정형 자산의 원권리 검증과 신뢰가 기회다.",
+          "status": "revise_condition",
+          "updated": "표준화 이후에도 대체하기 어려운 수금·회수·관리 계약의 역할과 원가 우위가 남는 자산에 한정한다.",
+          "reason": "표준화는 작은 고객의 접근을 넓히는 동시에 정보독점 보수를 낮춘다. 기술 도입 자체는 마진 유지의 근거가 아니다.",
+          "source_ids": [
+            "KYO-GEO-004",
+            "R27-K-009"
+          ],
+          "next_observation": "동일 권리와 관리 책임의 외부 견적; 실제 관리 위임·원권리·회수비용."
+        },
+        {
+          "id": "R27-KYO-04",
+          "prior": "생명의 기관역량과 증권·해외 파트너를 연결한다.",
+          "status": "conditional_maintain",
+          "updated": "계열 자동구매를 배제하고 외부 고객 수요·독립 ALM·외부 구매 대비 추가 기여를 확인한다.",
+          "reason": "역량과 자산의 보유는 사용할 계약·고객·보수의 보유와 다르다.",
+          "source_ids": [
+            "KYO-GEO-004",
+            "R27-K-004",
+            "BMX-KY-003"
+          ],
+          "next_observation": "실제 외부 위임과 가격, 계열 보조금 없는 비용절감 또는 외부 수익."
+        },
+        {
+          "id": "R27-KYO-05",
+          "prior": "USDC·USDT 등 레일 선택을 통해 고객과 수익을 확보한다.",
+          "status": "defer_commercial_claim",
+          "updated": "통화·현금·상환·총비용별 여러 경로를 비교한다. 현재 상용 수익 귀속은 확정하지 않는다.",
+          "reason": "USDC 관련 시연과 별도 엔·원 테스트가 관측되며 USDT 이용 계약은 선택 자료에서 미확인이다.",
+          "source_ids": [
+            "R27-K-004",
+            "R27-K-005",
+            "ST-KY-006"
+          ],
+          "next_observation": "법인별 상용계약·상환과 최종 현금·반복 거래·수취 보수."
+        }
+      ],
+      "counterfactuals": [
+        {
+          "condition": "same2027_unadapted_vs_adapted_competitors",
+          "outcome": "표준 중개·판매는 이동하고 비용절감은 고객에게 이전될 수 있다.",
+          "action_change": "범용 구축 축소, 외부 구매, 전문 계약관리·실행 선택."
+        },
+        {
+          "condition": "AI_only_achieves_same_outcome_as_AI_plus_chain",
+          "outcome": "체인의 추가 편익·보수가 성립하지 않는다.",
+          "action_change": "기존 계좌·전자증권 개선을 유지하고 레일 확대 보류."
+        },
+        {
+          "condition": "rights_verification_and_servicing_fully_standardized",
+          "outcome": "검증 프리미엄까지 경쟁으로 낮아진다.",
+          "action_change": "복잡한 인수·회수의 좁은 기능으로 전환하거나 사업 포기."
+        }
+      ],
+      "new_demand_test": "기존에는 고정비로 거래하지 못했던 작은 발행인이 동일 권리·위험 품질에서 자금을 조달하며 잔여 변수비용·손실·자본 부담과 실제 지급 의향이 맞는가. 기존 팩토링 이전·신규 포장·타사 고객 이동과 구분한다.",
+      "unknowns": {
+        "current_kyobo_comprehensive_ib_designation": null,
+        "rcps_payment_and_regulatory_capital": null,
+        "commercial_usdc_or_usdt_contract": null,
+        "new_external_customer_count": null,
+        "new_business_net_contribution": null,
+        "merger_realized_cost_savings": null
+      },
+      "source_access_limits": [
+        {
+          "target": "Lifeplanet merger official article",
+          "result": "web timeouts; official URL urllib fetch resolved and body read"
+        },
+        {
+          "target": "DART RCPS 20261022000488",
+          "result": "web inaccessible; previous source record reused; no completion claim"
+        },
+        {
+          "target": "law.go.kr article77-3 existing version",
+          "result": "web inaccessible; previous interpretation and FSC description reused; no full current-law verification"
+        }
+      ],
+      "read_boundary": "Original folder selected Kyobo strategy and prior public report37/business-baseline fields plus v2.1 instructions/opening. No claim of reading all70 original files. Source checks are selected sections, not all company disclosures."
+    },
+    "hanwha": {
+      "as_of": "2026-11-06T23:29:42+09:00",
+      "scope": "Hanwha group / Hanwha Life blockchain-new business viewpoint; conditional 2027 onward",
+      "opening_hypothesis_ids": [
+        "OPEN-HAN-01",
+        "OPEN-ENV-01",
+        "OPEN-ENV-02",
+        "OPEN-ENV-03"
+      ],
+      "public_fact_baseline": "reports/38_hanwha_business_model_priorities.md and data/institution_business_baselines.json (2026-H1, previously checked 2026-11-04; not newly read full IR)",
+      "new_web_sources": 6,
+      "new_company_events_found": 0,
+      "judgment_updates": [
+        {
+          "id": "R27-H-J01",
+          "classification": "interpretation",
+          "prior": "국내 보험·GA→ALM→해외 선택적 수익화",
+          "decision": "maintain_with_revised_timing",
+          "current": "본업 규모·의무를 자원 배분의 출발점으로 유지하되 성립한 해외 외부 계약은 작은 투자단위로 병행 가능. 일률적 국내완료 후 해외 순서를 채택하지 않음.",
+          "change_reason": "계열 독립 사업과 연결의 증분, 투자단위의 정보가치·비가역 비용을 구분한 논리 갱신. 새로운 상용화 사실 때문이 아님.",
+          "source_ids": [
+            "BMX-HW-001",
+            "R27-H-003",
+            "HWA-GEO-008"
+          ],
+          "next_observation": "외부 계약별 반복 기여·자본·통합비와 국내 계약관리 기회비용"
+        },
+        {
+          "id": "R27-H-J02",
+          "classification": "hypothesis",
+          "prior": "한국 특화자산/해외 기관 연결과 담보 사용처 확대",
+          "decision": "maintain_conditional_narrowing",
+          "current": "자산운영·담보수취·현금공급의 세 계약을 나누고 고객의 일부 매도 대안 및 대형사 묶음과 비교. 공통 인프라는 외부 구매 가능.",
+          "change_reason": "Chainlink의 발표 단계와 BNY의 기존 고객 기반 기술 흡수를 재확인. 책임의 필요성과 보수 프리미엄은 다름.",
+          "source_ids": [
+            "ST-HW-002",
+            "HWA-GEO-001",
+            "HWA-GEO-008",
+            "R27-H-006"
+          ],
+          "next_observation": "외부 위임·담보 승인·확약 현금·헤어컷·실제 단가·반복 거래, 경쟁사 견적"
+        },
+        {
+          "id": "R27-H-J03",
+          "classification": "hypothesis",
+          "prior": "인니 청년/미가입자 방카 확대",
+          "decision": "revise_target_definition",
+          "current": "이미 있는 방카 채널에서 미가입 원인이 고정비·접근·설명인지, 소득·위험·적합상품·청구 문제인지 구분해 첫 보장 고객군을 선택.",
+          "change_reason": "Nobu 기존 상품 등재와 책임 경계를 재확인. 연령·종합 금융포용을 생명보험 보장공백으로 대체할 수 없음.",
+          "source_ids": [
+            "ST-HW-007"
+          ],
+          "next_observation": "상품 약관/견적·납입 여력·미가입 사유·고객 동의·유지/청구·보수/환수"
+        },
+        {
+          "id": "R27-H-J04",
+          "classification": "unknown",
+          "prior": "USDC/USDT 글로벌 연결 후보",
+          "decision": "defer_confirmed_rail_selection",
+          "current": "직접 발행·환매·수익배분 계약 미확인. 실제 고객 통화·상환·권리·현금 공급·총비용을 기준으로 레일을 선택.",
+          "change_reason": "선택 열람 자료에서 특정 코인 계약과 통합 고객 경로를 확인하지 못함. 전 세계 계약 부재를 주장하지 않음.",
+          "source_ids": [
+            "ST-HW-002",
+            "HWA-GEO-001",
+            "ST-HW-007",
+            "HWA-GEO-008"
+          ],
+          "next_observation": "법인별 발행/환매/은행현금/외환 계약과 장애 복구·수수료 조건"
+        }
+      ],
+      "counterfactuals": [
+        {
+          "id": "R27-H-CF01",
+          "comparison": "same_2027_adapted_vs_unadapted",
+          "changed_condition": "고객 AI에 조건·권한·이행·복구 제공 여부",
+          "action_change": "가격 압박은 양쪽에 있으므로 미대응 대비 관계 기여·운영손실 절감이 적응 비용을 넘을 때 확대."
+        },
+        {
+          "id": "R27-H-CF02",
+          "comparison": "AI_existing_systems_vs_AI_onchain",
+          "changed_condition": "복수 기관의 상태 대사·담보 이동이 실제 병목인지",
+          "action_change": "국내/인니 상담납입이 기존 시스템에서 완료되면 그 경로, 실측한 공유 상태 편익이 총비용을 넘을 때 온체인 추가."
+        },
+        {
+          "id": "R27-H-CF03",
+          "comparison": "differentiated_rights_vs_competitor_cheaper_bundle",
+          "changed_condition": "같은 자산·권리·책임을 경쟁사가 저렴하게 제공",
+          "action_change": "범용 직접 구축 축소·외부 구매, 한화 고유 위임·고객·관리 능력에 집중."
+        },
+        {
+          "id": "R27-H-CF04",
+          "comparison": "with_vs_without_group_subsidy",
+          "changed_condition": "계열 의무매입·보증·싼 자금을 제거",
+          "action_change": "거래가 사라지면 외부 수요 증거 취소, 독립 사업과 내부 비용 절감만 따로 평가."
+        }
+      ],
+      "priorities": [
+        "국내 보험·GA 계약 생애주기 및 ALM의 통합 투자심사",
+        "해외 한 건의 외부 계약 묶음과 직접구축/외부구매 비교",
+        "인니 기존 방카에서 미가입 원인을 해소하는 고객군 검증"
+      ],
+      "do_not_infer": [
+        "보험료/AUM=이익",
+        "GA매출=보험자본",
+        "회사 인수=모든 온체인 업무 권한",
+        "MOU/기술채택=담보승인/고객사용/수익",
+        "계열자산=자동소싱/보험자금",
+        "토큰 이전=현금 입금",
+        "젊은 인구/금융포용=보장 공백"
+      ],
+      "limits": [
+        "이번 공식 6건은 기존 원문 재확인으로 새 상용화 사건을 발견하지 않음",
+        "2026-H1 실적 원문 재열람 및 Q3/확정자본 갱신 미수행",
+        "상세 보험약관/현지 고객데이터/해외 통합 수익배분 미확인",
+        "교수형 역할의 연구자 추론이며 실제 교수 현재 견해 아님"
+      ],
+      "report": "reports/44_hanwha_2027_reassessment.md"
+    }
+  },
+  "closing": {
+    "created_at": "2026-11-06T23:43:13+09:00",
+    "phase": "closing_after_team_evidence",
+    "role_design_version": "2.1",
+    "attribution": "금융·경제 원리를 적용한 연구자 분석이며 특정 교수의 현재 견해가 아니다.",
+    "initial_frozen_at": "2026-11-06T23:17:56+09:00",
+    "initial_sha256": "0e1c9e554645fa54426abcf19db1f1eada397023993da7738cd3553db8956beb",
+    "evidence_boundary": "초기 가설 담당자는 기존 연구만으로 2026-11-06T23:17:56+09:00에 6개 가설을 고정했다. 환경 원문 수집은 그 작성 중 별도 담당자가 병행했으나 새 근거를 초기 담당자에게 전달하지 않았다. 따라서 연구 전체가 초기 고정 뒤에만 시작되었다는 뜻은 아니다. 후기 담당자는 이후 담당별 보고서·변경 기록·공식 출처 카드를 읽어 대조했고 이 단계에서 새 웹 검색이나 원문 독립 재검증을 수행하지 않았다.",
+    "scenario": "2027년 이후 해당 상품·법인·고객의 필요한 제도·권한·위임·현금 연결이 갖춰지는 강한 경로를 포함하되, 기존 금융망+AI 및 대형사 재통합 경로와 비교한다. 가정은 현행 시행·인가 사실로 승격하지 않는다.",
+    "input_manifest": [
+      {
+        "artifact": "opening_hypotheses",
+        "sha256": "0e1c9e554645fa54426abcf19db1f1eada397023993da7738cd3553db8956beb",
+        "read_scope": "full"
+      },
+      {
+        "artifact": "opening_report",
+        "sha256": "b76643ba0471d4fe278c154030c862f65806e96485b48b3642b174d2be5a8e7f",
+        "read_scope": "full"
+      },
+      {
+        "artifact": "macro_report",
+        "sha256": "2adb20d830d8047a9506c623ede82f4dedd3eb8a3fdec11ca320d2825088d429",
+        "read_scope": "full"
+      },
+      {
+        "artifact": "bnk_report",
+        "sha256": "ee83d5930cb72768bc092529858613826c33a5b9c63cff47c16affc794824152",
+        "read_scope": "full"
+      },
+      {
+        "artifact": "kyobo_report",
+        "sha256": "90986746a34a3d41ab14f900b9564313dbca830746346aff8fab929b50c77334",
+        "read_scope": "full"
+      },
+      {
+        "artifact": "hanwha_report",
+        "sha256": "bf4a5b328a7d49931e42af7784e4540993417720964c36ead4e1634e00db7ca2",
+        "read_scope": "full"
+      },
+      {
+        "artifact": "bnk_updates",
+        "sha256": "ed0384f25c12a1f97c5e49120fa1d1b6fc9cd8dffe4e522a4fad4829a6e3e771",
+        "read_scope": "full"
+      },
+      {
+        "artifact": "kyobo_updates",
+        "sha256": "bf35dd1dd2b5e11754021fdfb5b48ce80820a9fd0ebcfef6ca3736a52b8026e2",
+        "read_scope": "full"
+      },
+      {
+        "artifact": "hanwha_updates",
+        "sha256": "398cf81b4b328a0e0a89cfda173452160e2187965f9f7c72ec43d99a4d723ead",
+        "read_scope": "full"
+      },
+      {
+        "artifact": "macro_source_cards",
+        "sha256": "e4d058e527f0565c014bcc1455da18198da347f8653a30352856d829091ae6c8",
+        "read_scope": "full"
+      },
+      {
+        "artifact": "bnk_source_cards",
+        "sha256": "ed77e06e39bdaa95a1f8aede013f189c43fb1848f27b774286877ec2c0039fc2",
+        "read_scope": "full"
+      },
+      {
+        "artifact": "kyobo_source_cards",
+        "sha256": "acd0001e5b69eaf812d46d508cb4fabb63f41aba13055074353175e8026f810c",
+        "read_scope": "full"
+      },
+      {
+        "artifact": "hanwha_source_cards",
+        "sha256": "3bf95fb7bcd16815c61ee3528991b84040a6a364c8c403be44cb70ae6318f96c",
+        "read_scope": "full"
+      }
+    ],
+    "decision_counts": {
+      "maintain": 5,
+      "revise": 1,
+      "discard": 0
+    },
+    "judgments": [
+      {
+        "id": "OPEN-ENV-01",
+        "decision": "maintain",
+        "decision_label": "유지 — 기존 금융망의 AI 개선과 재통합을 동등한 경쟁 경로로 구체화",
+        "current_stance": "고객이 AI에 비교와 실행을 맡길수록 단순 설명·접속의 희소성은 낮아진다. 그러나 가치가 전문 공급자에게 자동 이동하지는 않는다. 대형 금융사와 플랫폼도 기존 고객·조달·준법 체계에 AI와 토큰 기록을 결합할 수 있으므로, 세 그룹은 고객이 맡긴 목적의 이행과 사고 복구에서 반복 선택될 수 있는 기능을 골라야 한다.",
+        "change_reason": "AP2는 위임 확인과 결정적 검증의 기술 설계를 제시하지만 모든 금융상품의 법적 위임이나 분쟁 해결을 완성하지 않는다. Visa의 B2B 결제 시범은 기존 결제망에서도 AI 실행이 진행됨을, BNY·Goldman의 MMF 구조는 기존 장부·결제에 토큰 기록을 붙이는 경로를 보여준다. 교보의 디지털 보험 통합 계획도 기술 변화가 외부분업뿐 아니라 내부 통합을 유리하게 할 수 있다는 회사 선택이다. 어느 경로가 시장을 지배할지는 아직 판별되지 않았다.",
+        "prior_position_preserved": "기존 연구가 제시한 실행·책임·현금화의 중요성과 대형사 재통합 가능성을 유지한다. 이를 이번에 처음 발견한 미래상으로 쓰지 않는다.",
+        "new_revision": "범용 AI 접속이나 온체인 연결 자체를 독립 수익원으로 전제하지 않고, 기존 금융망+AI와 대형사 묶음 서비스에 대비한 직접 구축·외부 구매 결정을 앞에 둔다.",
+        "domains": [
+          "D2 거래비용과 기업 경계",
+          "D6 경쟁과 편익 귀속",
+          "D1 정보와 대리인"
+        ],
+        "application_conditions": "고객에게 비교 가능한 조건과 유효한 위임이 있고 공급자를 바꾸는 비용이 실제로 낮아져야 한다. 기술 표준의 존재만으로 고객 이동을 추정하지 않는다.",
+        "source_ids": [
+          "R27-M-003",
+          "R27-M-004",
+          "R27-H-006",
+          "R27-K-002"
+        ],
+        "evidence_limit": "규격·시범·출시 설명·합병 계획이며, 시장점유율 이동이나 순이익 개선의 실증은 아니다.",
+        "strongest_alternative": "규모가 큰 기관이 자금·정보·준법·가격을 묶어 내부 비용도 낮추면 고객은 기능별 분산보다 통합 거래를 다시 선택하고 전문 공급자의 몫은 더 작아진다.",
+        "next_observations": [
+          "같은 고객 업무에서 분리 구매와 묶음 구매의 총가격·조건·복구 책임을 비교한다.",
+          "플랫폼 경유 후 금융기관에 남는 재계약 권한·고객 동의·보수와 고객 이탈을 관측한다.",
+          "자동 비교·추천·주문·결제 중 실제로 위임된 단계와 고객이 철회할 수 있는 조건을 확인한다."
+        ],
+        "focus_work": "기존 업무의 공식 상품 조건, 실행 가능한 견적, 권한·거래 상태, 정정·이의제기 경로를 기계가 읽을 수 있게 만든다. 기능별 독립 수입이 없어도 전체 계약 유지·처리 비용에 주는 기여로 평가한다.",
+        "action_change_if_disconfirmed": "동일 책임·품질을 대형사나 외부 공급자가 더 낮은 총비용으로 제공하면 범용 기능의 직접 구축을 줄이고 특화 고객·자산·판단 업무에 투자한다.",
+        "initial_stance": "표준 탐색·설명·연결의 희소성은 낮아지고, 고객 목적에 맞는 금융 책임의 조합과 실행을 반복 구매하게 하는 위치가 중요해질 것이다. 그러나 필요한 책임이 남는다는 사실만으로 고보수가 유지되지는 않는다.",
+        "initial_domains": [
+          "D2",
+          "D6",
+          "D1"
+        ]
+      },
+      {
+        "id": "OPEN-ENV-02",
+        "decision": "maintain",
+        "decision_label": "유지 — 잔액 이동과 실제 지급능력을 분리",
+        "current_stance": "온체인 자산 보유가 늘면 은행별 조달 구성과 고객의 지급 준비가 달라질 수 있다. 그러나 토큰 이전, 발행자 환매, 현지 통화로 쓸 수 있는 현금은 서로 다르다. 중요한 기능은 고객 자산을 어느 장부에 두느냐보다 필요한 때 어떤 권리로 얼마를 사용할 수 있게 하느냐이다.",
+        "change_reason": "BIS와 연준 연구는 준비자산 배치·자금 원천·은행 대응에 따라 예금 효과가 달라짐을 설명한다. IMF의 상계·사전 자금 문제는 빠른 결제가 유동성 비용을 항상 줄이지는 않음을 뒷받침한다. 국내 통화정책·차주 건전성 자료도 2027년의 저렴하고 풍부한 자금을 기본 가정으로 삼을 근거가 아니다. 교보의 원화·엔화 검증과 원화·USDC 시연은 통화별 경로를 구분할 필요를 강화한다.",
+        "prior_position_preserved": "기존의 운영자금·현금화·ALM 관점을 유지한다. 은행 전체 예금과 특정 은행 조달의 차이, 즉시 이전과 최종 사용 가능 현금의 차이는 기존 판단이다.",
+        "new_revision": "자산 이동 규모보다 통화별 지급 의무, 개별 은행의 재조달, 상계 상실과 스트레스 유동성의 귀속을 투자 판단의 앞단에 둔다. USDC와 USDT 중 하나를 그룹 전체의 확정 경로로 선정하지 않는다.",
+        "domains": [
+          "D3 은행 부채와 자본",
+          "D4 결제와 유동성",
+          "D7 통화·국경 간 제약"
+        ],
+        "application_conditions": "해당 자산을 고객이 보유·이전·환매할 권한과 상대방의 수취 가능성, 최종 지급 통화·시간이 확인돼야 한다. 2027년 제도 마련 가정은 모든 법인·상품의 일괄 권한을 뜻하지 않는다.",
+        "source_ids": [
+          "FIN-003",
+          "ST-TD-005",
+          "NOV-M07",
+          "NOV-M01",
+          "R27-M-002",
+          "R27-K-004",
+          "ST-KY-006"
+        ],
+        "evidence_limit": "연구의 조건부 경로와 회사의 기술 검증이다. 특정 그룹의 실제 예금 유출·24시간 현금화·비용 절감을 측정하지 않았다.",
+        "strongest_alternative": "예금토큰·개선된 기존 지급망과 은행의 가격·한도 묶음이 충분하면 고객의 경제적 거래 관계는 유지되고 기록 방식만 바뀔 수 있다.",
+        "next_observations": [
+          "기업별 잉여 잔액의 자산 구성, 지급 기일·통화, 환매 자격·시간과 비상 신용 조건을 함께 확인한다.",
+          "자산 매각·자금 외부 이동 전후의 조달 필요 감소와 남은 신용 약정·유동성 지원을 같이 평가한다.",
+          "새 구조의 사전 자금·증거금·환전 비용을 기존+AI 구조의 상계·일중 신용과 비교한다."
+        ],
+        "focus_work": "BNK는 기업 지급·FX·한도, 교보는 보험 수납·지급과 기관 결제·증거금, 한화는 국가별 계약 통화와 담보 자금 공급을 연결한다. 준비금 수익은 실제 발행·배분 계약상 귀속을 확인한 경우에만 포함한다.",
+        "action_change_if_disconfirmed": "주요 지급 의무가 같은 디지털 자산으로 직접 끝나고 은행현금 전환이 드물어지면 단순 전환 서비스보다 그 자산의 유동성·신용·오류 복구에 집중한다.",
+        "initial_stance": "디지털 달러·토큰화 현금성 자산은 은행을 일괄 대체하기보다 잔액의 위치·금리 민감도·담보 활용과 지급 준비 방식을 바꿀 수 있다. 따라서 자산 선택과 필요한 날의 지급능력을 연결하는 금융 기능이 중요하다.",
+        "initial_domains": [
+          "D3",
+          "D4",
+          "D7"
+        ]
+      },
+      {
+        "id": "OPEN-ENV-03",
+        "decision": "revise",
+        "decision_label": "수정 — 가장 큰 성장이라는 순위를 제거하고 신규 수요 조건을 확장",
+        "current_stance": "반복 실사·관리·연결 비용이 낮아져 종전에는 제공하기 어려웠던 작은 고객 업무가 성립하는 것은 중요한 성장 가설이다. 다만 현재 근거로 그 영역을 가장 큰 성장원으로 순위화할 수 없다. 비용 감소뿐 아니라 적절한 위험분담과 자산·투자자·보장 수요의 더 나은 연결이 새로운 계약을 만드는지도 함께 검증한다.",
+        "change_reason": "이번 자료는 조직 신설, 협약, 기존 상품 채널, 실증과 기관 서비스 출시를 보여주지만, 과거 비거래 고객이 새로 계약하고 경쟁 후에도 순기여를 남기는 집단을 확인하지 못했다. 특히 노부의 기존 방카 채널과 은행·ERP 팩토링은 채널이나 기술의 부재만을 미충족 수요의 원인으로 볼 수 없게 한다. 초기 문구의 상대적 성장 순위는 증거보다 강했다.",
+        "prior_position_preserved": "비용 문턱·위험 부담·지급 의향을 확인하고 기존 방어를 넘어 신규 고객과 기업 생애주기를 보자는 방향은 유지한다.",
+        "new_revision": "최대 성장원이라는 표현을 폐기한다. 비용 때문에 거래하지 못한 집단, 위험분담이 불충분한 집단, 수요·공급 매칭이 안 된 집단을 구분한다. 상품 수 증가, 기존 거래의 채널 이동, 타사 고객 유치와 실제 추가 거래를 별도로 기록한다.",
+        "domains": [
+          "D8 고정비와 시장 범위",
+          "D5 위험공동부담·장기 계약",
+          "D6 경쟁 후 가격"
+        ],
+        "application_conditions": "낮아지는 비용이 거래를 막던 실제 제약이어야 한다. 원권리 하자, 소득 부족, 신용·보험 위험이나 투자자 수요 부족이 병목이면 기술만으로 해결되지 않는다.",
+        "source_ids": [
+          "R27-B-002",
+          "R27-B-004",
+          "KYO-GEO-004",
+          "ST-HW-007",
+          "NOV-M07"
+        ],
+        "evidence_limit": "새 고객의 실제 반복 구매·위험 조정 기여·시장 크기를 비교한 자료가 없다. 따라서 성장 규모와 세 그룹 간 우열을 정량·정성으로 확정하지 않는다.",
+        "strongest_alternative": "고정비는 줄어도 신용·보험 위험과 회수·청구 변동비가 크거나 경쟁이 가격을 더 낮추면 거래 수만 늘고 공급자의 이익은 늘지 않는다.",
+        "next_observations": [
+          "이전 미계약 이유를 최소규모·처리 비용·권리 문제·상환능력·구매력·수요 부재로 구분한다.",
+          "첫 계약 후 유지·추가 구매·예외 처리와 실제 현금 기여를 관측한다.",
+          "더 잘게 나눈 상품이 새 위험분담을 만드는지, 기존 자산에 청구권·레버리지만 추가하는지 확인한다."
+        ],
+        "focus_work": "BNK는 운영거래와 연결된 전환·승계 고객, 교보는 반복 발행·권리 관리비가 컸던 발행인, 한화는 현지 납입·청구 비용 때문에 보호받지 못한 고객 또는 기존 공급으로 충족하지 못한 기관 위임을 하나씩 검증한다.",
+        "action_change_if_disconfirmed": "회수·위험·자본을 포함한 변동비가 고객이 낼 가격보다 높으면 거래량 확대로 해결하려 하지 않는다. 대상·보장 범위·위험분담을 바꾸거나 그 확장을 중단한다.",
+        "initial_stance": "가장 큰 성장 가능성은 상품 포장 수의 증가보다, 반복 실사·관리·연결의 고정비가 낮아져 종전에는 성립하지 않던 작은 고객 업무가 경제적으로 가능해지는 데 있다.",
+        "initial_domains": [
+          "D8",
+          "D5",
+          "D6"
+        ]
+      },
+      {
+        "id": "OPEN-BNK-01",
+        "decision": "maintain",
+        "decision_label": "유지 — 산업 전주기 확장 안에서 직접 맡을 기능을 좁힘",
+        "current_stance": "BNK는 기업의 일상 수금·지급·FX·운전자금에서 성장·기술 전환·승계 수요를 발견하고, 은행 보유와 외부 자본을 조합하는 산업금융 역량을 발전시키는 방향이 타당하다. 표준 우량거래의 정보 접근과 비정형 판단·구조조정·회수 능력을 같은 경쟁우위로 묶지 않아야 한다.",
+        "change_reason": "산업금융·승계 조직과 투자–보증–대출 협약은 기존 확장 방향의 회사 신호를 재확인한다. 그러나 동일 전환지원에 여러 은행이 참여하고 신한·ERP·보증의 기존 팩토링도 권리·데이터·지급을 연결한다. 따라서 지역 고객 정보가 있다는 이유만으로 수익을 방어할 수 없고, 금융가능 범위·처리 총비용·예외 대응·회수 품질에서 차이를 입증해야 한다.",
+        "prior_position_preserved": "운영금융에서 기업 전주기·승계로 확장하는 방향은 기존 연구에 있었다. 이번 분석이 새로 발견한 확장으로 제시하지 않는다.",
+        "new_revision": "우량 표준 업무는 원가·조달·묶음 경쟁을 전제로 하고 직접 개발의 범위를 제한한다. 비정형 판단과 관리도 실제 성과가 있을 때만 우선한다. 자산 매각은 이자 수입 감소와 조달·자본 필요 감소, 남은 보증·첫 손실·환매·유동성 의무를 함께 비교한다.",
+        "domains": [
+          "D1 관계 정보와 유인",
+          "D3 자본·조달",
+          "D6 경쟁",
+          "D8 범위 확대"
+        ],
+        "application_conditions": "관계 정보가 실제 자금 공급·회수 결과를 개선하고 고객이 반복 위임해야 한다. 그룹 계열사 활용은 각자 심사와 권한을 통과하고 동일 산업·원청 충격의 위험 집중을 감당해야 한다.",
+        "source_ids": [
+          "ST-KN-003",
+          "R27-B-002",
+          "R27-B-003",
+          "R27-B-004",
+          "R27-B-005",
+          "R27-B-006",
+          "ST-TD-005"
+        ],
+        "evidence_limit": "조직·협약·상품 설명이 실제 승계 성사, BNK의 독점 정보 우위 또는 반복 수수료 이익을 입증하지 않는다. 세 팩토링 FAQ는 한 상품의 설명이다.",
+        "strongest_alternative": "시중은행·IBK·ERP·원청이 데이터와 저렴한 조달을 결합하고 예외 처리까지 표준화하면 BNK의 독자 플랫폼은 비용만 늘릴 수 있다. 우량 자산이 나간 뒤 낮은 가격의 위험 지원만 남는 경우도 가능하다.",
+        "next_observations": [
+          "산업별 운영 고객 중 후속 투자·전환·승계 위임으로 이어지는 사례와 실패 이유를 확인한다.",
+          "같은 권리·위험의 거래에 대해 기존 은행·ERP 묶음보다 더 좋은 결과 또는 총가격을 제공하는지 비교한다.",
+          "보유·공동금융·매각 후 관리의 세 구조에서 남는 현금·자본·신용·유동성 부담을 같은 조건으로 비교한다."
+        ],
+        "focus_work": "한 산업의 운영금융과 후속 자금 수요를 같은 고객 기록·권리 자료로 관리하되, 자산을 모두 보유하지 않고 적합한 외부 자본과 분담한다. 고객이 자금을 외부 자산에 두어도 필요한 지급·신용 서비스를 제공할 수 있게 가격과 책임을 다시 설계한다.",
+        "action_change_if_disconfirmed": "표준 정보·예외 처리까지 경쟁사가 더 싸게 제공하면 자체 범용 구축을 줄인다. 관리계약 없이 첫 손실·유동성만 남으면 재가격·공동금융·위험 축소를 택한다. 우량 자산 매각 자체나 잔여 자산의 평균 위험 상승만으로 실패라고 판단하지 않는다.",
+        "initial_stance": "일상 운영금융을 기업의 성장·전환·승계 자본 수요를 발견하는 기반으로 쓰고, 필요한 위험은 보유하며 적합한 위험은 외부 자본과 나누는 산업 발굴·관리 능력을 키우는 방향을 우선 검토한다.",
+        "initial_domains": [
+          "D1",
+          "D3",
+          "D6",
+          "D8"
+        ]
+      },
+      {
+        "id": "OPEN-KYO-01",
+        "decision": "maintain",
+        "decision_label": "유지 — 두 수익 엔진과 거래별 레일 선택, 내부 통합 대안을 명시",
+        "current_stance": "교보는 생명의 장기 위험공동부담·계약관리와 증권의 조달·발행·기관 실행을 별도 경제성으로 평가해야 한다. 공통 데이터·문서·고객 목적을 재사용하되 교보생명·문고가 증권의 자동 고객·자금 공급자가 되는 구조를 전제로 삼지 않는다.",
+        "change_reason": "생명 본업 실적과 FP·디지털 관리 발표는 장기 계약관리의 중요성을 뒷받침한다. 라이프플래닛 통합 계획은 내부 기능을 결집하는 대안이다. DCG 협력은 기관 발행·유통의 방향을 제시하지만 외부 반복 위임은 아직 확인되지 않았다. 경쟁사의 디지털 채권 실행과 교보의 여러 통화 실증은 자체 추가 관리층과 특정 레일의 경제성을 거래별로 입증해야 함을 강화한다.",
+        "prior_position_preserved": "생명과 증권의 두 수익 엔진, 기존 거래·반복 IB 개선, 원권리가 명확한 RWA라는 기존 방향을 유지한다. 문고 연계와 그룹 ALM 독립성도 기존의 조건부 가설이다.",
+        "new_revision": "디지털화에 대응하는 선택에 외부 제휴뿐 아니라 생명 내부 통합을 포함한다. 원화·엔화 검증과 원화·USDC 시연을 통화·업무별 선택지로 구분한다. 현재 종투사 지정·자본 납입·업무 인가가 확인되지 않은 부분은 확장 계획과 분리하여 실행 권한으로 쓰지 않는다.",
+        "domains": [
+          "D5 장기 위험공동부담",
+          "D1 정보·대리인",
+          "D2 기업 경계",
+          "D8 반복 발행의 고정비"
+        ],
+        "application_conditions": "보험 자산은 각 법인의 ALM·위험 한도·시장가격에 맞아야 한다. 비정형 RWA는 양도 가능한 원권리와 현금흐름, 투자자 수요, 총비용 후 반복 보수가 확인돼야 한다.",
+        "source_ids": [
+          "KYO-GEO-004",
+          "R27-K-002",
+          "R27-K-004",
+          "R27-K-005",
+          "ST-KY-006",
+          "HWX-R-005",
+          "HWX-V-006",
+          "R27-K-009",
+          "ST-KY-004",
+          "BMX-KY-003"
+        ],
+        "evidence_limit": "생명 IR은 2026년 상반기 수치이며 11월 현재 실적이 아니다. 합병·MOU·실증·회사 역할 설명을 상용 성과로 보지 않는다. USDT 계약이 이 자료에서 확인되지 않았다는 사실은 모든 관련 활동의 부재를 뜻하지 않는다.",
+        "strongest_alternative": "대형 증권·글로벌 플랫폼 또는 생명 내부 조직이 같은 조건·책임을 더 싸게 제공하면 증권의 추가 유료 관리층은 고객 편익을 늘리지 못한다. 권리 표준화가 오히려 일상 검증 보수를 낮출 수 있다.",
+        "next_observations": [
+          "자본 단계별 실제 지정·인가·납입과 조달비용을 확인하고 현재 가능한 업무와 다음 단계의 선택권을 나눈다.",
+          "발행인·기관 고객의 반복 위임, 현금 지급·보고·사고 대응 계약과 고객의 실제 수수료를 확인한다.",
+          "문고 등 후보 거래에서 원권리·반품·상계·양도 제한과 자금 수요를 확인하고 기존 대출·팩토링·채권 대안과 비교한다."
+        ],
+        "focus_work": "생명은 고객의 납입·유지·청구·계약 변경을 끝까지 이행하는 체계, 증권은 기존 주문·증거금·현금화와 반복 발행 업무에 우선 자원을 배치한다. 더 작은 발행인에게 비용 절감이 실제 계약 증가로 이어지는 구간에서 권리·보고 관리에 투자한다.",
+        "action_change_if_disconfirmed": "외부 구매나 생명 내부 기능이 같은 결과를 더 싸게 내면 중복 구축·추가 수수료층을 줄인다. 반대로 독립 외부 위임과 반복 발행의 순기여가 확인되면 해당 IB 관리 역량을 확대한다.",
+        "initial_stance": "그룹 차원에서는 생명의 장기 위험공동부담·계약관리와 증권의 거래·반복 발행·기관 실행을 별도 수익 엔진으로 유지하며, 고객의 생애·기관 목적에 맞는 금융 조합을 실제 계약 이행으로 연결하는 방향을 우선한다.",
+        "initial_domains": [
+          "D5",
+          "D1",
+          "D2",
+          "D8"
+        ]
+      },
+      {
+        "id": "OPEN-HAN-01",
+        "decision": "maintain",
+        "decision_label": "유지 — 국내·해외 병행, 인도네시아 신규 수요와 연결 계약을 좁힘",
+        "current_stance": "한화는 국내 보험·GA·ALM의 경제성을 개선하면서 해외 각 사업의 독립 가치를 유지하고, 외부 고객에게 추가 편익을 만드는 경로를 선택적으로 연결해야 한다. 국내를 모두 끝낸 뒤 해외에 진입하는 순서도, 모든 거점을 하나의 플랫폼으로 먼저 통합하는 순서도 이번 근거로 정당화되지 않는다.",
+        "change_reason": "Chainlink와 아부다비 협력은 기술·사업 탐색의 방향을 재확인하지만 담보 승인·자금 공급·반복 외부 계약은 별도다. Velocity의 기존 기관 사업은 자체 기반이며 모든 한화 자산의 디지털 처리 권한을 뜻하지 않는다. 노부에는 이미 방카 상품이 있으므로 새로운 기회는 채널의 단순 신설보다 어떤 고객이 왜 가입·유지를 못 하는지에 달렸다. BNY·Goldman은 기존 대형기관이 고객·수탁·현금망에 토큰화를 붙이는 경쟁 대안이다.",
+        "prior_position_preserved": "국내 본업과 해외 개별 사업의 병행, 한 개 자산–고객 경로부터 검증하는 방향, 인도네시아와 미국·UAE의 역할 분리는 기존 판단이다. 이번에 새 회사 사건을 발견했다고 쓰지 않는다.",
+        "new_revision": "인도네시아의 젊은 인구·낮은 보장이라는 포괄 가설을 미가입 원인·납입 능력·처리 비용·청구 신뢰로 세분한다. 해외 연결은 자산 위임, 담보 수취, 실제 현금 공급 계약으로 나눈다. 기존 해외 사업의 독립 이익과 연결 때문에 새로 생기는 외부 기여를 분리한다.",
+        "domains": [
+          "D1 위험 선택·대리인",
+          "D5 보험과 장기 계약",
+          "D2 기업 경계",
+          "D6 경쟁",
+          "D7 국가별 통화·권한"
+        ],
+        "application_conditions": "현지 상품 적합성·통화·소득·고객 동의와 법인별 권한이 충족돼야 한다. 그룹 내 자금·보증·유통을 시장 대안과 비교하고 스트레스 시 담보·유동성 약정까지 가격에 반영해야 한다.",
+        "source_ids": [
+          "ST-HW-002",
+          "HWA-GEO-001",
+          "R27-H-003",
+          "ST-HW-007",
+          "HWA-GEO-008",
+          "R27-H-006"
+        ],
+        "evidence_limit": "공식 자료 6건의 재검토이며 새로운 회사 사건 6건이 아니다. 노부 연결 약관의 전체 조건, 실제 가입·유지·보수, 해외 온체인 반복 매출과 USDC/USDT 상용 배분 계약은 확인하지 않았다.",
+        "strongest_alternative": "대형 수탁·청산·기술사가 같은 기능을 더 싸게 제공하거나 계열 보증·내부 매수 없이는 수요가 없으면, 연결 사업이 독립 해외 사업과 보험 자본의 이익을 잠식할 수 있다.",
+        "next_observations": [
+          "노부의 실제 상품·고객별 미가입 및 중도 해지 이유, 납입 주기·현지 통화·청구 비용과 지불 의향을 확인한다.",
+          "미국·UAE에서 자산을 맡기는 고객, 수익권을 사는 투자자, 담보를 받는 기관, 현금을 빌려주는 주체의 계약을 각각 확인한다.",
+          "계열 매수·무상보증·중복 보수를 제거한 뒤 남는 외부 고객 기여와 대체 공급자의 총가격을 비교한다."
+        ],
+        "focus_work": "국내 계약관리 개선과 경제성이 있는 해외 한 경로를 병행한다. 인도네시아는 현지 통화 보장·납입·청구의 실제 장애를 낮추고, 기관 사업은 특정 자산·투자자·사용처를 연결하는 위임을 확보한다. 표준 기술은 구매·제휴할 수 있다.",
+        "action_change_if_disconfirmed": "외부 고객 없이 내부 보수만 이동하거나 저보수 유동성·보증이 그룹에 남으면 연결 확대를 축소·재설계한다. 독립 사업보다 추가 기여가 있고 위험을 감당할 반복 위임이 확인되면 그 경로를 확대한다.",
+        "initial_stance": "국내 보험·GA·ALM의 경제성을 개선하면서, 해외 각 법인의 독립 사업 위에 실제 투자자·자산·담보 사용처가 만나는 한 경로씩 연결하는 선택권을 키운다. 소유한 거점 수보다 외부 계약의 반복성과 연결 후 기여를 우선한다.",
+        "initial_domains": [
+          "D1",
+          "D5",
+          "D2",
+          "D6",
+          "D7"
+        ]
+      }
+    ],
+    "common_economic_tests": [
+      "동일한 미래 환경에서 적응한 경우와 적응하지 않은 경우의 기여를 비교하고 추가 투입 비용을 차감한다. 과거 대비 이익 감소 전부를 적응의 잠식 비용으로 세지 않는다.",
+      "개별 법인의 조달·자본·위험·고객 의무를 반영한 독립 경제성과 그룹 연결의 추가 편익·조정 비용·공통 위험을 분리한다. 내부 수수료를 연결 매출로 중복 계산하지 않는다.",
+      "그룹 범위의 경제는 외부 매출뿐 아니라 실제 피할 수 있는 운영비와 재사용에서도 생길 수 있다. 그러나 줄어든 작업시간을 실제 현금 절감으로 곧바로 간주하지 않는다.",
+      "자산 매각은 조달·자본 필요를 줄일 수 있고 첫 손실 보유는 유인을 맞출 수도 있다. 남은 위험과 가격을 함께 평가하며 매각 또는 위험 보유 자체를 선악으로 분류하지 않는다.",
+      "새 상품 수는 기초 현금흐름을 늘리는 지표가 아니다. 분할·위험 배분·조건 설계가 고객의 실제 투자·보장·유동성 수요와 맞아 거래가 늘어나는지 확인한다."
+    ],
+    "public_source_refs": [
+      {
+        "id": "FIN-003",
+        "url": "https://www.bis.org/publications/aer-2026/anchoring-trust-money"
+      },
+      {
+        "id": "NOV-M01",
+        "url": "https://www.bok.or.kr/portal/bbs/P0000559/view.do?depth=200690&menuNo=200690&nttId=11065823&programType=newsData&relate=Y"
+      },
+      {
+        "id": "NOV-M07",
+        "url": "https://www.imf.org/-/media/files/publications/gfsr/2026/october/english/ch3.pdf"
+      },
+      {
+        "id": "ST-KN-003",
+        "url": "https://www.bnkfg.com/02/03.jsp?dataSeqNo=6916"
+      },
+      {
+        "id": "R27-B-002",
+        "url": "https://www.bnkfg.com/mobile/03/02.jsp?dataSeqNo=6848"
+      },
+      {
+        "id": "R27-B-003",
+        "url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/171637/view?mno=&pageIndex=56"
+      },
+      {
+        "id": "R27-B-004",
+        "url": "https://wehagohelp.zendesk.com/hc/ko/articles/33317712319769--FAQ-%EC%8B%A0%ED%95%9C-%EB%94%94%EC%A7%80%ED%84%B8-%EC%8B%A0%EC%9A%A9%EB%B3%B4%EC%A6%9D%ED%8C%A9%ED%86%A0%EB%A7%81-%EC%84%9C%EC%9A%B8%EB%B3%B4%EC%A6%9D%EB%B3%B4%ED%97%98-%EC%9D%80-%EC%96%B4%EB%96%A4-%EC%84%9C%EB%B9%84%EC%8A%A4%EC%9D%B4%EB%A9%B0-%EA%B8%B0%EC%A1%B4-%ED%8C%A9%ED%86%A0%EB%A7%81%EA%B3%BC-%EC%96%B4%EB%96%A4-%EC%B0%A8%EC%9D%B4%EA%B0%80-%EC%9E%88%EB%82%98%EC%9A%94"
+      },
+      {
+        "id": "R27-B-005",
+        "url": "https://wehagohelp.zendesk.com/hc/ko/articles/33318958286105--FAQ-%EC%84%9C%EC%9A%B8%EB%B3%B4%EC%A6%9D%EB%B3%B4%ED%97%98-%EB%B3%B4%EC%A6%9D-%EC%8A%B9%EC%9D%B8%EC%9D%84-%EB%B0%9B%EC%9D%80-%EA%B2%BD%EC%9A%B0%EC%97%90%EB%A7%8C-%EC%9D%B4%EC%9A%A9%EC%9D%B4-%EA%B0%80%EB%8A%A5%ED%95%9C%EA%B0%80%EC%9A%94"
+      },
+      {
+        "id": "R27-B-006",
+        "url": "https://wehagohelp.zendesk.com/hc/ko/articles/35213998908313--FAQ-%ED%8C%A9%ED%86%A0%EB%A7%81-%ED%95%A0%EC%9D%B8%EB%A3%8C%EB%8A%94-%EB%88%84%EA%B0%80-%EB%B6%80%EB%8B%B4%ED%95%98%EB%82%98%EC%9A%94"
+      },
+      {
+        "id": "ST-HW-002",
+        "url": "https://chain.link/press-releases/hanwha-investment-securities-and-chainlink-form-strategic-partnership-to-tokenize-connect-and-collateralize-real-world-assets-worldwide"
+      },
+      {
+        "id": "HWA-GEO-001",
+        "url": "https://www.hanwha.com/newsroom/news/press-releases/hanwha-finance-expands-financial-cooperation-with-abu-dhabi-connecting-korea-and-abu-dhabi-through-digital-asset-silk-road.do"
+      },
+      {
+        "id": "R27-H-003",
+        "url": "https://www.hanwha.com/companies/hanwha-life-financial-services.do"
+      },
+      {
+        "id": "ST-HW-007",
+        "url": "https://www.nobubank.com/id/perorangan/wealth-management/bancassurance/"
+      },
+      {
+        "id": "HWA-GEO-008",
+        "url": "https://www.velocityclearingllc.com/press-release-hanwha-life-completes-acquisition-of-velocity-clearing/"
+      },
+      {
+        "id": "R27-H-006",
+        "url": "https://www.bny.com/corporate/global/en/about-us/newsroom/company-news/bny-and-goldman-sachs-launch-tokenized-money-market-funds-solution.html"
+      },
+      {
+        "id": "KYO-GEO-004",
+        "url": "https://www.dcg.earth/newsroom/digital-capital-group-and-kyobo-securities-sign-strategic-technology-partnership-to-advance-tokenized-securities-in-asia-pacific"
+      },
+      {
+        "id": "R27-K-002",
+        "url": "https://news.kyobo.com/교보생명-라플-흡수합병-디지털-역량으로-보험-혁신/"
+      },
+      {
+        "id": "R27-K-004",
+        "url": "https://news.kyobo.com/교보생명-sbi그룹과-디지털토큰-활용-디지털-협력/"
+      },
+      {
+        "id": "R27-K-005",
+        "url": "https://news.kyobo.com/교보생명-스테이블코인으로-보험료-납부-기술검증/"
+      },
+      {
+        "id": "ST-KY-006",
+        "url": "https://news.kyobo.com/교보생명-sbi서클-디지털금융-협력-확대/"
+      },
+      {
+        "id": "HWX-R-005",
+        "url": "https://news.kyobo.com/교보생명-로보어드바이저-변액보험-펀드관리-도와/"
+      },
+      {
+        "id": "HWX-V-006",
+        "url": "https://news.kyobo.com/교보생명-fp-고객보장-완주/"
+      },
+      {
+        "id": "R27-K-009",
+        "url": "https://www.linklaters.com/en/about-us/news-and-deals/deals/2026/march/linklaters-advises-on-koreas-first-digitally-native-bond-issuance"
+      },
+      {
+        "id": "ST-KY-004",
+        "url": "https://www.fsc.go.kr/no010101/85692"
+      },
+      {
+        "id": "BMX-KY-003",
+        "url": "https://news.kyobo.com/fy2026-상반기-실적-설명자료/"
+      },
+      {
+        "id": "R27-M-002",
+        "url": "https://www.bok.or.kr/portal/bbs/B0000170/view.do?depth=201297&menuNo=201297&nttId=11064972&oldMenuNo=201151&programType=multiCont&relate=Y"
+      },
+      {
+        "id": "R27-M-003",
+        "url": "https://github.com/google-agentic-commerce/AP2/blob/e1ea56db72a6385bce3e5c1112b3a56ce60acb43/docs/ap2/specification.md"
+      },
+      {
+        "id": "R27-M-004",
+        "url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22856.html"
+      },
+      {
+        "id": "ST-TD-005",
+        "url": "https://www.federalreserve.gov/econres/notes/feds-notes/banks-in-the-age-of-stablecoins-implications-for-deposits-credit-and-financial-intermediation-20251217.html"
+      }
+    ],
+    "publication_notes": [
+      "개인 대화 원문이나 절대 로컬 경로를 포함하지 않는다.",
+      "공식 출처 ID는 원장 병합 시 동일 사건의 기존 ID로 매핑할 수 있다. 동일 자료의 재검토를 신규 사건이나 독립 증거로 중복 계산하지 않는다.",
+      "초기 문구는 감사 가능성을 위해 정확히 보존하되, OPEN-ENV-03의 성장 순위는 후기 판단에서 명시적으로 수정했다."
+    ]
+  }
+}

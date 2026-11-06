@@ -729,6 +729,30 @@ Qcells의 8월19일 발표는 Microsoft와 신규 전력 공급·VPP 모델을 �
 
 한계: 금융계열의 확정 투자·토큰화·보험 계약 근거가 아니다.
 
+### C-430 · interpretation · active
+
+Nobu의 공식 방카 상품 등재는 기존 채널을 확인한다. 한화의 신규 수요 가설은 젊은 인구 전체가 아니라 과거 설명·납입·청구 비용 때문에 적합한 보장을 얻지 못한 구체 고객군으로 좁힌다.
+
+근거: [ST-HW-007](../sources/cards/ST-HW-007.md)
+
+한계: 기존 상품의 현재 가격·납입 여력·미가입률·실현 유지이익은 미확인. 현지 통화 후보는 새 상품 조건 발표가 아니다.
+
+다른 설명: 소득·의료 증빙·적합한 상품 부재가 병목이라 AI 설명만으로 해결되지 않는다.
+
+다음 관측: 상품 약관·실제 견적·고객 미가입 원인·첫 보장의 유지/정당한 지급.
+
+### C-431 · interpretation · active
+
+한화의 해외 연결은 자산 위임·투자자 수요·담보 수취·현금 공급 계약을 나눠 평가한다. Chainlink 데이터·통신 채택, UAE 협약, 미국 기관 사업은 연결 후보지만 단일 상용망·담보대출 실행·순기여를 자동 증명하지 않는다.
+
+근거: [ST-HW-002](../sources/cards/ST-HW-002.md), [HWA-GEO-001](../sources/cards/HWA-GEO-001.md), [HWA-GEO-008](../sources/cards/HWA-GEO-008.md), [R27-H-006](../sources/cards/R27-H-006.md)
+
+한계: 담보 차입을 자산 일부 매도와 비교하며 계열 보조·내부 매입을 외부 수요로 세지 않는다.
+
+다른 설명: 대형 수탁·운용사가 동일 책임을 더 저렴하게 묶는다.
+
+다음 관측: 외부 위임·담보인정·현금 약정, 실제 계약별 보수·비용·손실.
+
 ## 관련 원문
 
 - [KYO-GEO-001 · Kyobo Life Insurance Group and Japan’s SBI Group ink strategic partnership](../sources/cards/KYO-GEO-001.md)
@@ -779,5 +803,6 @@ Qcells의 8월19일 발표는 Microsoft와 신규 전력 공급·VPP 모델을 �
 - [HWX-M-001 · PT Lippo General Insurance Tbk — Laporan Keberlanjutan 2025](../sources/cards/HWX-M-001.md)
 - [HWX-R-006 · Qcells Expands Alliance with Microsoft to Explore New Approach for Adding Energy Capacity Alongside AI Infrastructure](../sources/cards/HWX-R-006.md)
 - [OBX-R-001 · HKMA advances Project Ensemble pilot phase to 24/7 settlement in tokenised Central Bank Money](../sources/cards/OBX-R-001.md)
+- [R27-K-004 · 교보생명, SBI그룹과 디지털토큰 활용 한·일 기관 자금이전 실증](../sources/cards/R27-K-004.md)
 
 [전체 주제 지도](INDEX.md)

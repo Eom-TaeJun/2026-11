@@ -116,3 +116,8 @@ POD 공개 안내의 지급일 차이와 IBKR 요율·지원 토큰·출금보�
 ## 도메인 기반 의견의 인계와 검토
 
 [역할 명세](agents/roles.json)의 초기/후기 교수형 호출과 [의견 절차](agents/economic_opinion_workflow.md)를 적용한다. [도메인 지도](agents/economic_domain_lenses.md)에서 필요한 원리를 고르고 [카드](agents/templates/economic_opinion.md)의 필요한 항목만 남긴다. [세 그룹 검토 문항](agents/evaluations/domain_reasoning_cases.json)은 조건을 바꿨을 때 주장·행동이 정당하게 달라지는지 의미로 검토한다. 기존 build/validate/tests는 참조·구조·계산을 확인하며 미래 예측 성능을 증명하지 않는다.
+
+
+## 2026-11-06 실제 적용의 다음 시작점
+
+[통합 판단45](reports/45_2027_decisions_and_changes.md) → [구조화 갱신](data/outlook_2027_reassessment.json) → [실행 기록](runs/2026-11-06-outlook-reassessment.json)에서 이어간다. 초기 교수형 6가설을 고정한 뒤 표적 원문 확인·기업별 적용·후기 갱신·독립검토를 수행했다. 새 자료가 영향을 주는 가설과 행동만 갱신하고 과거 STR 순위와 관측 기간을 보존한다. 다음 조사에서는 시장규모 추정부터 늘리기보다 경쟁 견적·반복 외부 계약·위험 잔존·이전 비거래 사유를 우선한다. 이번 실행은 호스트의 다중 에이전트 호출이며 상시 서버·자동 일정·고객 거래 실행을 설정하지 않았다.

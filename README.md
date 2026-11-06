@@ -1,11 +1,14 @@
 # 금융환경 변화와 기업 대응을 근거로 이어가는 연구
 
-RWA·토큰화·온체인 금융의 환경 변화를 먼저 분석하고, 고객 문제·금융 기능·기업 신호·필요한 업무로 좁혀가는 공개 연구 저장소다. 최근 연구·원문 확인일은 **2026-11-04 KST**, 국가별 규제 기준선은 **2026-11-02**다. 자료별 사건·관측 시점은 별도로 보존한다. **에이전트 설계 갱신일은2026-11-06**이며 이 날짜를 금융 실적·규제 전체의 재확인일로 쓰지 않는다.
+RWA·토큰화·온체인 금융의 환경 변화를 먼저 분석하고, 고객 문제·금융 기능·기업 신호·필요한 업무로 좁혀가는 공개 연구 저장소다. 최근 선택 원문 재확인·전망 갱신일은 **2026-11-06 KST**다. 국가별 규제 전체 기준선은 **2026-11-02**, 재무는 각 반기·분기 원문의 기간을 유지한다. 모든 실적·관할을11월6일에 전수 갱신한 것은 아니다. 에이전트 설계 v2.1을 이번 연구에서 실제로 사용했다.
 
 현재 주된 읽기 순서는 **본래 금융기관 수익모델 → BNK·교보·한화의 실제 규모·수익·강약점 → AI·온체인이 바꾸는 고객 선택과 기존 수익 → 경쟁사 대응 뒤 우선할 업무·신뢰**다. 숫자는 실제 기반을 확인하는 근거로 쓰고 가상 배분은 보조 사례로 둔다. 기존 제도·레일 분석을 유지하면서, 변화가 새 수익뿐 아니라 가격 하락·조달·신용·유통·유지 비용을 어떻게 바꾸는지 설명한다.
 
 | 읽고 싶은 내용 | 문서 |
 |---|---|
+| 2027년 이후 재분석과 기존 판단의 유지·수정 | [통합 결정과 변경](reports/45_2027_decisions_and_changes.md) · [거시 전달경로](reports/41_2027_economic_reassessment.md) |
+| BNK·교보·한화의 실제 적용 결과 | [BNK](reports/42_bnk_2027_reassessment.md) · [교보](reports/43_kyobo_2027_reassessment.md) · [한화](reports/44_hanwha_2027_reassessment.md) |
+| 에이전트 실제 실행·초기/후기 가설·독립검토 | [실행 기록](runs/2026-11-06-outlook-reassessment.json) · [초기](runs/2026-11-06-outlook-reassessment-opening.json) · [후기](runs/2026-11-06-outlook-reassessment-closing.md) · [검토](runs/2026-11-06-outlook-reassessment-review.md) |
 | 금융·경제 원리로 환경을 해석하고 방향을 제시하는 에이전트 | [설계 검토와 변경](reports/40_agent_domain_reasoning_design.md) · [의견 절차](agents/economic_opinion_workflow.md) |
 | 질문에 맞는 이론·변수·적용 한계와 검토 사례 | [도메인 지도](agents/economic_domain_lenses.md) · [세 그룹 검토 문항](agents/evaluations/domain_reasoning_cases.json) |
 | 대체 대상·고객 관계·새 유료 업무·적응 투자 비교 | [대체·관계 통합](reports/39_finance_substitution_customer_relationships.md) · [구조화 비교](data/finance_substitution_relationships.json) |

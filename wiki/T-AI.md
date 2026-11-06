@@ -172,6 +172,18 @@ PBI10/2025 122조는 해당 국내 지급 처리와 데이터센터·재해복�
 
 한계: - Nobu 업무별 적용과 기존 개별 승인은 미확인. 일반 설명용 AI 전체의 국외 금지로 확대하지 않는다.
 
+### C-421 · interpretation · active
+
+외부 AI에 의한 비교·지급 접점 변화는 온체인 확산보다 먼저 진행될 수 있다. Visa의 승인된 청구서 카드 지급 실증과 AP2의 역할·권한 구분은 기존 망+AI를 실질적인 경쟁 기준선으로 두도록 한다.
+
+근거: [R27-M-003](../sources/cards/R27-M-003.md), [R27-M-004](../sources/cards/R27-M-004.md)
+
+한계: 지급 실증·규격을 증권·보험의 자동 대리권이나 범용 상용화·수익성으로 확대하지 않는다.
+
+다른 설명: 기존 금융사가 AI 연결을 내부화해 접점·관계를 유지한다.
+
+다음 관측: 같은 고객 업무에서 승인·실행·실패 복구와 경쟁 후 재선택을 확인.
+
 ## 관련 원문
 
 - [AI-001 · NousResearch/hermes-agent — README and releases](../sources/cards/AI-001.md)
@@ -209,5 +221,9 @@ PBI10/2025 122조는 해당 국내 지급 처리와 데이터센터·재해복�
 - [HWX-V-004 · For People. For Pets. For Trust: Responsible Use of AI at Allianz](../sources/cards/HWX-V-004.md)
 - [HWX-V-005 · Prudential launches brand new AI Underwriter powered by Alibaba Cloud](../sources/cards/HWX-V-005.md)
 - [HWX-V-006 · AI 시대에도 보험설계사가 필요한 이유는 무엇일까?](../sources/cards/HWX-V-006.md)
+- [R27-M-003 · Agentic Payment Protocol v0.2 specification](../sources/cards/R27-M-003.md)
+- [R27-M-004 · Visa, BILL and Billtrust Launch First Live Pilot for Trusted AI Agent Payments Between Buyer and Supplier Platforms](../sources/cards/R27-M-004.md)
+- [R27-M-005 · Google donates Agent Payments Protocol to FIDO Alliance](../sources/cards/R27-M-005.md)
+- [R27-K-002 · 교보생명, 라이프플래닛 흡수합병…13년간 쌓은 디지털 역량으로 보험 혁신 가속](../sources/cards/R27-K-002.md)
 
 [전체 주제 지도](INDEX.md)

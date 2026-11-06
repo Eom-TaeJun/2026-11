@@ -575,6 +575,18 @@ UAE 고객 AI가 동일한 투자노출·기간·위험·수취통화의 구현�
 
 한계: 공개 원문에 기반한 연구자 분류. 대체율·실제 예금 이탈이나 업권 소멸을 추정하지 않았다. 상품 계약별 예외가 있다.
 
+### C-428 · hypothesis · active
+
+교보의 비정형 RWA 표준화는 작은 발행인의 접근을 넓히면서 검증 정보의 독점 보수를 낮출 수 있다. 실제 수금 통제·회수·반복 관리와 특정 투자자 수요가 남는 구간에 투자하고 동일 품질의 대체 공급이 생기면 범용 구축을 축소한다.
+
+근거: [KYO-GEO-004](../sources/cards/KYO-GEO-004.md), [R27-K-009](../sources/cards/R27-K-009.md), [FIN-008](../sources/cards/FIN-008.md)
+
+한계: 특정 출판사 정산채권은 조건부 사례이며 문고 전체 IP 소유·생명의 의무 매입·실제 발행 수익을 뜻하지 않는다.
+
+다른 설명: 원권리·관리까지 표준화돼 프리미엄이 사라진다.
+
+다음 관측: 같은 권리의 경쟁 견적·외부 발행/관리 계약·수금/회수 원가.
+
 ## 관련 원문
 
 - [FIN-002 · What Is Needed for Tokenization to Deliver](../sources/cards/FIN-002.md)
@@ -647,5 +659,7 @@ UAE 고객 AI가 동일한 투자노출·기간·위험·수취통화의 구현�
 - [OBX-E-026 · ONDO Token](../sources/cards/OBX-E-026.md)
 - [OBX-E-027 · CoinList Risk Factors](../sources/cards/OBX-E-027.md)
 - [OBX-E-028 · Introducing the Ondo Network](../sources/cards/OBX-E-028.md)
+- [R27-B-004 · 신한 디지털 신용보증팩토링은 어떤 서비스이며 기존 팩토링과 어떤 차이가 있나요?](../sources/cards/R27-B-004.md)
+- [R27-B-005 · 서울보증보험 보증 승인을 받은 경우에만 이용 가능한가요?](../sources/cards/R27-B-005.md)
 
 [전체 주제 지도](INDEX.md)

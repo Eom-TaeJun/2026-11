@@ -811,6 +811,18 @@ AI가 원권리 조합을 쉽게 만들면 반복 수금·정정·중복담보 �
 
 한계: 공개 원문에 기반한 연구자 분류. 대체율·실제 예금 이탈이나 업권 소멸을 추정하지 않았다. 상품 계약별 예외가 있다.
 
+### C-429 · interpretation · active
+
+교보의 USDC 관련 행사 시연과 엔·원 검증토큰 테스트는 서로 다른 접점이다. 특정 달러 레일의 상용 계약·준비금 수익을 확정하지 않고 실제 통화·권리·환매·현금 도착·총비용에 따라 선택한다.
+
+근거: [R27-K-004](../sources/cards/R27-K-004.md), [R27-K-005](../sources/cards/R27-K-005.md), [ST-KY-006](../sources/cards/ST-KY-006.md)
+
+한계: 선택 원문에서 미확인은 모든 계약 부재의 증명이 아니다. 시험과 상용 이용을 구분한다.
+
+다른 설명: 직접 통화 경로나 기존 은행망이 더 경제적이다.
+
+다음 관측: 법인별 계약·수취 보수·반복 거래·상환 현금 경로.
+
 ## 관련 원문
 
 - [FIN-003 · III. Anchoring trust in money: innovation beyond stablecoins](../sources/cards/FIN-003.md)
@@ -922,5 +934,9 @@ AI가 원권리 조합을 쉽게 만들면 반복 수금·정정·중복담보 �
 - [BMX-KY-003 · FY2026 상반기 실적 설명자료 — 교보생명 연결 순익7048억원](../sources/cards/BMX-KY-003.md)
 - [BMX-KY-004 · 교보생명은 왜 전속 설계사(FP) 중심 영업 전략을 유지할까?](../sources/cards/BMX-KY-004.md)
 - [BMX-KY-005 · 교보문고 감사보고서 (2025.12)](../sources/cards/BMX-KY-005.md)
+- [R27-M-001 · GENIUS Act Regulations: Final Rule](../sources/cards/R27-M-001.md)
+- [R27-B-005 · 서울보증보험 보증 승인을 받은 경우에만 이용 가능한가요?](../sources/cards/R27-B-005.md)
+- [R27-B-006 · 팩토링 할인료는 누가 부담하나요?](../sources/cards/R27-B-006.md)
+- [R27-K-005 · 교보생명, 스테이블코인으로 보험료 납부·보험금 수령 가능성 검증](../sources/cards/R27-K-005.md)
 
 [전체 주제 지도](INDEX.md)

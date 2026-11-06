@@ -6,12 +6,12 @@
 |---|---|---|---|
 | [FIN-001 · Tokenized Finance](cards/FIN-001.md) | 2026-04-02 | selected_sections | 2026-11-02 |
 | [FIN-002 · What Is Needed for Tokenization to Deliver](cards/FIN-002.md) | 2026-10-08 | official_summary | 2026-11-02 |
-| [FIN-003 · III. Anchoring trust in money: innovation beyond stablecoins](cards/FIN-003.md) | 2026-06-23 | selected_sections | 2026-11-04 |
+| [FIN-003 · III. Anchoring trust in money: innovation beyond stablecoins](cards/FIN-003.md) | 2026-06-23 | selected_sections | 2026-11-06 |
 | [FIN-004 · Project Agorá](cards/FIN-004.md) | 미확인/동적 | selected_sections | 2026-11-02 |
 | [FIN-005 · The Financial Stability Implications of Tokenisation](cards/FIN-005.md) | 2024-10-22 | official_summary | 2026-11-02 |
 | [FIN-006 · 토큰증권 도입 및 투자계약증권 유통을 위한 ｢전자증권법｣·｢자본시장법｣ 개정안 국회 본회의 통과](cards/FIN-006.md) | 2026-01-15 | full_text | 2026-11-02 |
 | [FIN-007 · 토큰증권 정책방향 발표- 민·관 합동 토큰증권 협의체 3차회의 개최](cards/FIN-007.md) | 2026-09-04 | selected_sections | 2026-11-03 |
-| [FIN-008 · 토큰증권 관련 전자증권법·자본시장법 하위법규 개정안 입법예고 실시 ※예고기간 ‘26.10.2일 ~ 11.11일](cards/FIN-008.md) | 2026-10-01 | selected_sections | 2026-11-03 |
+| [FIN-008 · 토큰증권 관련 전자증권법·자본시장법 하위법규 개정안 입법예고 실시 ※예고기간 ‘26.10.2일 ~ 11.11일](cards/FIN-008.md) | 2026-10-01 | selected_sections | 2026-11-06 |
 | [FIN-009 · Eurosystem brings central bank money to tokenised finance](cards/FIN-009.md) | 2026-09-21 | selected_sections | 2026-11-02 |
 | [FIN-010 · Welcoming Remarks at “Tokenisation: Banking the Future”](cards/FIN-010.md) | 2026-03-12 | selected_sections | 2026-11-02 |
 | [FIN-011 · Statement on Tokenized Securities](cards/FIN-011.md) | 2026-01-28 | selected_sections | 2026-11-04 |
@@ -56,13 +56,13 @@
 | [NOV-UK-FCA · PS26/10: Stablecoin issuance](cards/NOV-UK-FCA.md) | 2026-06-30 | selected_sections | 2026-11-02 |
 | [NOV-UK-BOE · Sterling-denominated systemic stablecoins](cards/NOV-UK-BOE.md) | 2026-06-22 | selected_sections | 2026-11-02 |
 | [NOV-UK-JOINT · Bank of England and Financial Conduct Authority’s approach to joint regulation of systemic stablecoin issuers](cards/NOV-UK-JOINT.md) | 2026-06-30 | selected_sections | 2026-11-02 |
-| [NOV-M01 · 통화정책방향(2026.10.22)](cards/NOV-M01.md) | 2026-10-22 | full_text | 2026-11-02 |
+| [NOV-M01 · 통화정책방향(2026.10.22)](cards/NOV-M01.md) | 2026-10-22 | full_text | 2026-11-06 |
 | [NOV-M02 · 2026년 3/4분기 실질 국내총생산(속보)](cards/NOV-M02.md) | 2026-10-27 | official_summary | 2026-11-02 |
 | [NOV-M03 · 2026년 9월 금융기관 가중평균금리](cards/NOV-M03.md) | 2026-10-29 | official_summary | 2026-11-02 |
 | [NOV-M04 · Federal Reserve issues FOMC statement](cards/NOV-M04.md) | 2026-10-28 | full_text | 2026-11-02 |
 | [NOV-M05 · World Economic Outlook, October 2026: Resilience Under Strain, Urgent Choices — Executive Summary](cards/NOV-M05.md) | 2026-10-13 | selected_sections | 2026-11-02 |
 | [NOV-M06 · Global Financial Stability Report, October 2026: Resilience, Risk, and Transformation — Executive Summary](cards/NOV-M06.md) | 2026-10-13 | selected_sections | 2026-11-02 |
-| [NOV-M07 · GFSR October 2026, Chapter 3: Scaling Tokenization: New Efficiencies, New Vulnerabilities](cards/NOV-M07.md) | 2026-10-13 | selected_sections | 2026-11-04 |
+| [NOV-M07 · GFSR October 2026, Chapter 3: Scaling Tokenization: New Efficiencies, New Vulnerabilities](cards/NOV-M07.md) | 2026-10-13 | selected_sections | 2026-11-06 |
 | [NOV-M08 · [제2026-22호] 달러 스테이블코인과 외환시장 간 연계성: 글로벌 거래소의 역할을 중심으로](cards/NOV-M08.md) | 2026-09-03 | official_summary | 2026-11-03 |
 | [NOV-ECB-BONDS · Tokenised bonds: assessing efficiency and liquidity in a nascent market](cards/NOV-ECB-BONDS.md) | 미확인/동적 | selected_sections | 2026-11-02 |
 | [NOV-FATF · Outcomes FATF Plenary, 28–30 October 2026](cards/NOV-FATF.md) | 2026-10-30 | selected_sections | 2026-11-02 |
@@ -71,20 +71,20 @@
 | [KYO-GEO-001 · Kyobo Life Insurance Group and Japan’s SBI Group ink strategic partnership](cards/KYO-GEO-001.md) | 2024-07-04 | full_text | 2026-11-02 |
 | [KYO-GEO-002 · Korea’s Climate Tech-Finance — Kyobo Securities | Digital Asset Biz Team](cards/KYO-GEO-002.md) | 미확인/동적 | selected_sections | 2026-11-02 |
 | [KYO-GEO-003 · Token X Announces “NOBLX” – Thailand’s First-Ever Regulated Cross-Border Niche Asset Tokenization, Connecting Europe, Thailand, South Korea, and Singapore](cards/KYO-GEO-003.md) | 2025-09-29 | selected_sections | 2026-11-04 |
-| [KYO-GEO-004 · Digital Capital Group and Kyobo Securities Sign Strategic Technology Partnership to Advance Tokenized Securities in Asia-Pacific](cards/KYO-GEO-004.md) | 2026-04-08 | full_text | 2026-11-02 |
-| [KYO-GEO-005 · 교보생명, 리플과 실시간 거래 ‘토큰화 국채’ 실험 나선다](cards/KYO-GEO-005.md) | 2026-04-15 | full_text | 2026-11-02 |
+| [KYO-GEO-004 · Digital Capital Group and Kyobo Securities Sign Strategic Technology Partnership to Advance Tokenized Securities in Asia-Pacific](cards/KYO-GEO-004.md) | 2026-04-08 | full_text | 2026-11-06 |
+| [KYO-GEO-005 · 교보생명, 리플과 실시간 거래 ‘토큰화 국채’ 실험 나선다](cards/KYO-GEO-005.md) | 2026-04-15 | full_text | 2026-11-06 |
 | [KYO-GEO-006 · (Progress of Disclosed Matter) Notice Regarding Recognition of Share of Profit of Associates Accounted for Using the Equity Method (Bargain Purchase Gain) Associated with the Acquisition of Shares of Kyobo Life Insurance Co., Ltd.](cards/KYO-GEO-006.md) | 2026-04-27 | full_text | 2026-11-02 |
 | [KYO-GEO-007 · Announcement of investment in Pints AI a provider of agent-based AI specialized for financial institutions](cards/KYO-GEO-007.md) | 2026-06-19 | full_text | 2026-11-02 |
 | [KYO-GEO-008 · 韓国の教保生命グループとの東南アジアのテック分野のスタートアップに投資する共同ベンチャーファンド設立のお知らせ](cards/KYO-GEO-008.md) | 2026-04-10 | full_text | 2026-11-02 |
 | [KYO-GEO-009 · Ripple and Kyobo Life Insurance Partner to Pioneer Korea's First Tokenised Government Bond Settlement on Blockchain](cards/KYO-GEO-009.md) | 2026-04-15 | full_text | 2026-11-02 |
-| [HWA-GEO-001 · Hanwha Finance expands financial cooperation with Abu Dhabi, connecting Korea and Abu Dhabi through ‘Digital Asset Silk Road’](cards/HWA-GEO-001.md) | 2026-09-21 | selected_sections | 2026-11-03 |
+| [HWA-GEO-001 · Hanwha Finance expands financial cooperation with Abu Dhabi, connecting Korea and Abu Dhabi through ‘Digital Asset Silk Road’](cards/HWA-GEO-001.md) | 2026-09-21 | selected_sections | 2026-11-06 |
 | [HWA-GEO-002 · Hanwha Finance Announced as Premier Partner for Abu Dhabi Finance Week 2026](cards/HWA-GEO-002.md) | 2026-09-18 | selected_sections | 2026-11-03 |
 | [HWA-GEO-003 · 글로벌 네트워크](cards/HWA-GEO-003.md) | 미확인/동적 | selected_sections | 2026-11-03 |
 | [HWA-GEO-004 · Hanwha Life — Global Network](cards/HWA-GEO-004.md) | 미확인/동적 | selected_sections | 2026-11-03 |
 | [HWA-GEO-005 · 한화생명, 노부은행 지분 투자 마무리](cards/HWA-GEO-005.md) | 2025-06-30 | selected_sections | 2026-11-03 |
 | [HWA-GEO-006 · Kolaborasi Bittime dan Nobu Bank Jembatani Keuangan Tradisional Menuju Tokenisasi Aset Global](cards/HWA-GEO-006.md) | 2026-05-21 | selected_sections | 2026-11-03 |
 | [HWA-GEO-007 · [MAINTENANCE] Penutupan Sementara Layanan Virtual Account (VA) Nobu Bank](cards/HWA-GEO-007.md) | 미확인/동적 | selected_sections | 2026-11-03 |
-| [HWA-GEO-008 · Press Release: Hanwha Life Completes Acquisition of Velocity Clearing](cards/HWA-GEO-008.md) | 2025-07-31 | selected_sections | 2026-11-03 |
+| [HWA-GEO-008 · Press Release: Hanwha Life Completes Acquisition of Velocity Clearing](cards/HWA-GEO-008.md) | 2025-07-31 | selected_sections | 2026-11-06 |
 | [HWA-GEO-009 · BrokerCheck Report: VELOCITY CLEARING, LLC — CRD 126588](cards/HWA-GEO-009.md) | 미확인/동적 | selected_sections | 2026-11-03 |
 | [HWA-GEO-010 · 한화투자증권, 인도네시아 칩타다나자산운용 인수 절차 마무리](cards/HWA-GEO-010.md) | 2025-12-16 | selected_sections | 2026-11-03 |
 | [HWA-GEO-011 · Giới thiệu | Bảo hiểm Hanwha Life Việt Nam](cards/HWA-GEO-011.md) | 미확인/동적 | selected_sections | 2026-11-02 |
@@ -142,12 +142,12 @@
 | [RG-UK-001 · PS26/7: Progressing Fund Tokenisation](cards/RG-UK-001.md) | 미확인/동적 | selected_sections | 2026-11-02 |
 | [RG-UK-002 · CP26/36: Cryptoasset perimeter guidance](cards/RG-UK-002.md) | 2026-10-21 | selected_sections | 2026-11-02 |
 | [ST-HW-001 · 한화투자증권, 글로벌 Web3 기업 ‘크리서스’에 180억 원 규모 투자 완료](cards/ST-HW-001.md) | 2026-02-19 | selected_sections | 2026-11-03 |
-| [ST-HW-002 · Hanwha Investment & Securities and Chainlink Form Strategic Partnership to Tokenize, Connect, and Collateralize Real-World Assets Worldwide](cards/ST-HW-002.md) | 2026-10-29 | selected_sections | 2026-11-03 |
+| [ST-HW-002 · Hanwha Investment & Securities and Chainlink Form Strategic Partnership to Tokenize, Connect, and Collateralize Real-World Assets Worldwide](cards/ST-HW-002.md) | 2026-10-29 | selected_sections | 2026-11-06 |
 | [ST-HW-003 · 한화투자증권, Digital Asset Holdings LLC에 300억 원 규모 투자 완료](cards/ST-HW-003.md) | 2026-07-16 | selected_sections | 2026-11-03 |
 | [ST-HW-004 · 한화투자증권, 모바일 투자 앱 개편… 이제 디지털자산도 ‘한화투자증권 MTS’ 에서](cards/ST-HW-004.md) | 2026-05-27 | full_text | 2026-11-03 |
 | [ST-HW-005 · Hanwha Finance explores future financial innovation with global leaders at the 2026 World Economic Forum Annual Meeting in Davos](cards/ST-HW-005.md) | 2026-01-22 | selected_sections | 2026-11-03 |
 | [ST-HW-006 · Hanwha Life Indonesia dan Nobu Bank Memasuki Era Baru Kolaborasi Strategis](cards/ST-HW-006.md) | 미확인/동적 | full_text | 2026-11-03 |
-| [ST-HW-007 · Bancassurance](cards/ST-HW-007.md) | 미확인/동적 | selected_sections | 2026-11-03 |
+| [ST-HW-007 · Bancassurance](cards/ST-HW-007.md) | 미확인/동적 | selected_sections | 2026-11-06 |
 | [ST-HW-008 · Siaran Pers Bersama: Indeks Literasi dan Inklusi Keuangan Masyarakat Meningkat, OJK, LPS, dan BPS Umumkan Hasil Survei Nasional Literasi dan Inklusi Keuangan (SNLIK) Tahun 2026](cards/ST-HW-008.md) | 2026-08-11 | selected_sections | 2026-11-03 |
 | [ST-HW-009 · Asuransi / Bancassurance](cards/ST-HW-009.md) | 미확인/동적 | selected_sections | 2026-11-03 |
 | [ST-HW-010 · 한화생명, 증여 자산관리 플랫폼 ‘파이’ 출시](cards/ST-HW-010.md) | 2026-02-05 | selected_sections | 2026-11-03 |
@@ -157,15 +157,15 @@
 | [ST-HW-015 · Risk Management](cards/ST-HW-015.md) | 미확인/동적 | selected_sections | 2026-11-04 |
 | [ST-KN-001 · BNK금융그룹 2026년 3분기 경영실적: 그룹·은행·비은행 선택 표](cards/ST-KN-001.md) | 2026-10-26 | selected_sections | 2026-11-04 |
 | [ST-KN-002 · fERP(중소기업용) 안내](cards/ST-KN-002.md) | 미확인/동적 | selected_sections | 2026-11-04 |
-| [ST-KN-003 · BNK금융그룹 2026년 하반기 조직개편 실시](cards/ST-KN-003.md) | 2026-07-15 | selected_sections | 2026-11-03 |
+| [ST-KN-003 · BNK금융그룹 2026년 하반기 조직개편 실시](cards/ST-KN-003.md) | 2026-07-15 | selected_sections | 2026-11-06 |
 | [ST-KN-004 · BNK금융그룹 AI 대전환 통해 일하는 방식 바꾼다](cards/ST-KN-004.md) | 2026-08-12 | selected_sections | 2026-11-03 |
 | [ST-KN-005 · Cyber Branch 제공서비스](cards/ST-KN-005.md) | 미확인/동적 | selected_sections | 2026-11-04 |
 | [ST-KY-001 · 교보증권 반기보고서 (2026.06)](cards/ST-KY-001.md) | 2026-08-14 | selected_sections | 2026-11-04 |
 | [ST-KY-002 · 주요사항보고서(유상증자결정): 약1,000억원 상환전환우선주](cards/ST-KY-002.md) | 2026-10-22 | selected_sections | 2026-11-03 |
 | [ST-KY-003 · 주요사항보고서(유상증자결정): 약2,000억원 상환전환우선주](cards/ST-KY-003.md) | 2026-10-22 | selected_sections | 2026-11-03 |
-| [ST-KY-004 · 모험자본 공급을 뒷받침할 자본시장법 시행령 개정안 국무회의 의결, 종합금융투자사업자 지정 및 단기금융업 인가](cards/ST-KY-004.md) | 2025-11-19 | selected_sections | 2026-11-03 |
+| [ST-KY-004 · 모험자본 공급을 뒷받침할 자본시장법 시행령 개정안 국무회의 의결, 종합금융투자사업자 지정 및 단기금융업 인가](cards/ST-KY-004.md) | 2025-11-19 | selected_sections | 2026-11-06 |
 | [ST-KY-005 · NH투자증권㈜에 대한 종합금융투자사업자(8조원) 지정](cards/ST-KY-005.md) | 2026-03-19 | selected_sections | 2026-11-03 |
-| [ST-KY-006 · 교보생명, SBI홀딩스·서클·비댁스와 디지털 금융 협력 확대 논의](cards/ST-KY-006.md) | 2026-10-02 | official_summary | 2026-11-03 |
+| [ST-KY-006 · 교보생명, SBI홀딩스·서클·비댁스와 디지털 금융 협력 확대 논의](cards/ST-KY-006.md) | 2026-10-02 | official_summary | 2026-11-06 |
 | [ST-KY-007 · 교보문고 출판 — 사업소개](cards/ST-KY-007.md) | 미확인/동적 | selected_sections | 2026-11-03 |
 | [ST-KY-008 · Interactive Brokers Enables 24/7 Account Funding with Stablecoin](cards/ST-KY-008.md) | 2026-01-15 | official_summary | 2026-11-03 |
 | [ST-KY-009 · 정부와 금융권이 함께 금융권 AX를 가속화해 나가겠습니다](cards/ST-KY-009.md) | 2026-06-18 | selected_sections | 2026-11-03 |
@@ -173,7 +173,7 @@
 | [ST-TD-002 · AI Agent 강의 — Coase와 통제된 자율성](cards/ST-TD-002.md) | 미확인/동적 | selected_sections | 2026-11-03 |
 | [ST-TD-003 · The Future of Financial Markets — Infinite Assets / 24-7 / Models](cards/ST-TD-003.md) | 미확인/동적 | selected_sections | 2026-11-04 |
 | [ST-TD-004 · Stablecoins: Promise, Risks, and Policy Choices for Emerging Markets](cards/ST-TD-004.md) | 2026-08-07 | selected_sections | 2026-11-03 |
-| [ST-TD-005 · Banks in the Age of Stablecoins: Some Possible Implications for Deposits, Credit, and Financial Intermediation](cards/ST-TD-005.md) | 2025-12-17 | selected_sections | 2026-11-04 |
+| [ST-TD-005 · Banks in the Age of Stablecoins: Some Possible Implications for Deposits, Credit, and Financial Intermediation](cards/ST-TD-005.md) | 2025-12-17 | selected_sections | 2026-11-06 |
 | [ST-TD-006 · Introducing the Machine Payments Protocol](cards/ST-TD-006.md) | 2026-03-18 | selected_sections | 2026-11-03 |
 | [ST-TD-007 · How Agentic AI Will Reshape Payments](cards/ST-TD-007.md) | 미확인/동적 | selected_sections | 2026-11-04 |
 | [KNX-S-001 · 수출환어음매입](cards/KNX-S-001.md) | 미확인/동적 | selected_sections | 2026-11-03 |
@@ -244,12 +244,12 @@
 | [HWX-V-003 · 보험금 청구시 알아두셔야 할 내용](cards/HWX-V-003.md) | 미확인/동적 | selected_sections | 2026-11-03 |
 | [HWX-V-004 · For People. For Pets. For Trust: Responsible Use of AI at Allianz](cards/HWX-V-004.md) | 2026-03-18 | selected_sections | 2026-11-03 |
 | [HWX-V-005 · Prudential launches brand new AI Underwriter powered by Alibaba Cloud](cards/HWX-V-005.md) | 2026-09-09 | selected_sections | 2026-11-03 |
-| [HWX-V-006 · AI 시대에도 보험설계사가 필요한 이유는 무엇일까?](cards/HWX-V-006.md) | 2026-08-24 | selected_sections | 2026-11-03 |
+| [HWX-V-006 · AI 시대에도 보험설계사가 필요한 이유는 무엇일까?](cards/HWX-V-006.md) | 2026-08-24 | selected_sections | 2026-11-06 |
 | [HWX-R-001 · BNK금융그룹 부울경 경제 도약 BNK프로젝트 가동](cards/HWX-R-001.md) | 2026-07-08 | selected_sections | 2026-11-03 |
 | [HWX-R-002 · BNK캐피탈 — 자회사 소개](cards/HWX-R-002.md) | 미확인/동적 | selected_sections | 2026-11-03 |
 | [HWX-R-003 · BNK투자증권 — 자회사 소개](cards/HWX-R-003.md) | 미확인/동적 | selected_sections | 2026-11-03 |
 | [HWX-R-004 · BNK자산운용 — 자회사 소개](cards/HWX-R-004.md) | 미확인/동적 | selected_sections | 2026-11-03 |
-| [HWX-R-005 · 교보생명, 로보어드바이저로 변액보험 고객 펀드 관리 돕는다](cards/HWX-R-005.md) | 2026-10-30 | selected_sections | 2026-11-03 |
+| [HWX-R-005 · 교보생명, 로보어드바이저로 변액보험 고객 펀드 관리 돕는다](cards/HWX-R-005.md) | 2026-10-30 | selected_sections | 2026-11-06 |
 | [HWX-R-006 · Qcells Expands Alliance with Microsoft to Explore New Approach for Adding Energy Capacity Alongside AI Infrastructure](cards/HWX-R-006.md) | 2026-08-19 | selected_sections | 2026-11-03 |
 | [HWX-R-007 · BNK금융그룹 2026년도 조직개편 실시](cards/HWX-R-007.md) | 2026-01-05 | selected_sections | 2026-11-03 |
 | [HWX-R-008 · 2026년도 금융복합기업집단 지정](cards/HWX-R-008.md) | 2026-07-15 | selected_sections | 2026-11-03 |
@@ -290,8 +290,24 @@
 | [BMX-BNK-001 · BNK Financial Group Value-up Plan 2.0](cards/BMX-BNK-001.md) | 미확인/동적 | selected_sections | 2026-11-04 |
 | [BMX-KY-001 · 교보생명 2026년 2분기 정기경영공시 I. 주요 경영현황 요약](cards/BMX-KY-001.md) | 미확인/동적 | full_text | 2026-11-04 |
 | [BMX-KY-002 · 교보생명 2026년 2분기 정기경영공시 II. 재무·손익](cards/BMX-KY-002.md) | 미확인/동적 | selected_sections | 2026-11-04 |
-| [BMX-KY-003 · FY2026 상반기 실적 설명자료 — 교보생명 연결 순익7048억원](cards/BMX-KY-003.md) | 2026-08-14 | full_text | 2026-11-04 |
+| [BMX-KY-003 · FY2026 상반기 실적 설명자료 — 교보생명 연결 순익7048억원](cards/BMX-KY-003.md) | 2026-08-14 | full_text | 2026-11-06 |
 | [BMX-KY-004 · 교보생명은 왜 전속 설계사(FP) 중심 영업 전략을 유지할까?](cards/BMX-KY-004.md) | 2026-06-23 | selected_sections | 2026-11-04 |
 | [BMX-KY-005 · 교보문고 감사보고서 (2025.12)](cards/BMX-KY-005.md) | 2026-03-24 | selected_sections | 2026-11-04 |
 | [BMX-HW-001 · 2026년 상반기 경영실적 — 회사 작성 IR 배포본](cards/BMX-HW-001.md) | 2026-08-12 | selected_sections | 2026-11-04 |
 | [BMX-HW-002 · Earnings Release — FY2026 공개 실적 목록](cards/BMX-HW-002.md) | 미확인/동적 | selected_sections | 2026-11-04 |
+| [R27-M-001 · GENIUS Act Regulations: Final Rule](cards/R27-M-001.md) | 2026-10-21 | selected_sections | 2026-11-06 |
+| [R27-M-002 · 금융안정 상황(2026년9월) 기자설명회](cards/R27-M-002.md) | 2026-09-22 | selected_sections | 2026-11-06 |
+| [R27-M-003 · Agentic Payment Protocol v0.2 specification](cards/R27-M-003.md) | 미확인/동적 | selected_sections | 2026-11-06 |
+| [R27-M-004 · Visa, BILL and Billtrust Launch First Live Pilot for Trusted AI Agent Payments Between Buyer and Supplier Platforms](cards/R27-M-004.md) | 2026-10-20 | selected_sections | 2026-11-06 |
+| [R27-M-005 · Google donates Agent Payments Protocol to FIDO Alliance](cards/R27-M-005.md) | 2026-04-28 | selected_sections | 2026-11-06 |
+| [R27-B-002 · BNK금융그룹 동남권 혁신기업 성장 기반 구축 나서](cards/R27-B-002.md) | 2026-02-27 | selected_sections | 2026-11-06 |
+| [R27-B-003 · 미래차 전환 부품기업 2026년 4,030억원 금융지원](cards/R27-B-003.md) | 2026-03-26 | selected_sections | 2026-11-06 |
+| [R27-B-004 · 신한 디지털 신용보증팩토링은 어떤 서비스이며 기존 팩토링과 어떤 차이가 있나요?](cards/R27-B-004.md) | 미확인/동적 | selected_sections | 2026-11-06 |
+| [R27-B-005 · 서울보증보험 보증 승인을 받은 경우에만 이용 가능한가요?](cards/R27-B-005.md) | 미확인/동적 | selected_sections | 2026-11-06 |
+| [R27-B-006 · 팩토링 할인료는 누가 부담하나요?](cards/R27-B-006.md) | 미확인/동적 | selected_sections | 2026-11-06 |
+| [R27-K-002 · 교보생명, 라이프플래닛 흡수합병…13년간 쌓은 디지털 역량으로 보험 혁신 가속](cards/R27-K-002.md) | 2026-09-15 | selected_sections | 2026-11-06 |
+| [R27-K-004 · 교보생명, SBI그룹과 디지털토큰 활용 한·일 기관 자금이전 실증](cards/R27-K-004.md) | 2026-09-17 | selected_sections | 2026-11-06 |
+| [R27-K-005 · 교보생명, 스테이블코인으로 보험료 납부·보험금 수령 가능성 검증](cards/R27-K-005.md) | 2026-06-24 | selected_sections | 2026-11-06 |
+| [R27-K-009 · Linklaters advises on Korea’s first digitally native bond issuance](cards/R27-K-009.md) | 2026-03-18 | selected_sections | 2026-11-06 |
+| [R27-H-003 · Hanwha Life Financial Services](cards/R27-H-003.md) | 미확인/동적 | selected_sections | 2026-11-06 |
+| [R27-H-006 · BNY and Goldman Sachs Launch Tokenized Money Market Funds Solution](cards/R27-H-006.md) | 2025-07-23 | selected_sections | 2026-11-06 |

@@ -8,8 +8,9 @@
     "installed_runtime_configuration": false,
     "target_company_research_started": true,
     "scheduled_monitoring_enabled": false,
-    "note": "최근 설계 검토: runs/2026-11-06-agent-design.json. 기존8개 논리 역할을 유지하고 초기 가설·후기 방향 제시로 교수형을 두 번 호출. 실제 설계검토와 제한된 의미 검토 기록이며 자동 실행 서버를 설치하지 않음.",
-    "target_company_research_scope": "탑다운 미래와 경남 본사·교보 미래전략·한화 생명 신사업의 기존 고객·기반·권리·현금·수익·경쟁·검증 제안. 실제 고객 시험·계약가격·전체 인가·팀 정원·예산·신사업 이익은 미확인."
+    "note": "설계검토 runs/2026-11-06-agent-design.json 이후 v2.1 실제 연구를 runs/2026-11-06-outlook-reassessment.json으로 수행. 초기·후기 교수형과 독립 검토를 실행했으며 상시 서버나 일정은 없음.",
+    "target_company_research_scope": "탑다운 미래와 경남 본사·교보 미래전략·한화 생명 신사업의 기존 고객·기반·권리·현금·수익·경쟁·검증 제안. 실제 고객 시험·계약가격·전체 인가·팀 정원·예산·신사업 이익은 미확인.",
+    "latest_research_run": "runs/2026-11-06-outlook-reassessment.json"
   },
   "mission": "금융환경 변화가 고객의 문제와 금융기관의 선택을 어떻게 바꾸는지 설명하고, 특정 기업의 실제 신호·기존 역량과 연결해 사용자에게 필요한 판단과 행동으로 수렴한다.",
   "research_brief": {
@@ -23,7 +24,7 @@
     ],
     "geography": "한국·미국을 공통 분석 축으로 두고 institution_focus.json의 법인별 확인 관계와 고객 흐름에 따라 추가 국가·관할을 고른다.",
     "currency": null,
-    "observation_period": "기존 사건·관측 시점을 보존. 추가 원문 선택 확인 2026-11-04; 전 관할·전 상품의 최신화는 아님.",
+    "observation_period": "2026-11-06 공개 원문 선택 재확인. 원래 재무·규제 관측기간 보존; 전 관할·전 상품 최신화 아님.",
     "forecast_horizon": "2027년 초의 개별 적용과 그 이후 제도·레일·AI 위임이 정착한 조건부 미래",
     "baseline_judgment": null,
     "priority_questions": [

@@ -290,6 +290,30 @@ Velocity의 확인된 기관 서비스에서 고객 AI가 현금·담보·예외
 
 다음 관측: 같은 업무에서 온체인 사용 여부와 외부 AI 위임을 나눈 고객 선택·총비용·반복 기여
 
+### C-423 · interpretation · active
+
+현재 금리·신용·유동성 제약은 디지털화의 별도 출발 조건이다. 2027년 이후에도 AI 처리비 절감과 즉시 결제만으로 조달·자본·상계·선자금 부담이 사라지지 않는다.
+
+근거: [NOV-M01](../sources/cards/NOV-M01.md), [R27-M-002](../sources/cards/R27-M-002.md), [NOV-M07](../sources/cards/NOV-M07.md)
+
+한계: 2026년10월 정책 결정을 2027년 금리 예측으로 연장하지 않는다. 현재 기업별 효과 수치 추정 없음.
+
+다른 설명: 상계·자동 자금배분 설계가 개선되어 동일 위험의 유동성 비용을 낮춘다.
+
+다음 관측: 같은 거래 집합·시간·위험에서 실제 선자금·차입·담보·대사 총비용.
+
+### C-429 · interpretation · active
+
+교보의 USDC 관련 행사 시연과 엔·원 검증토큰 테스트는 서로 다른 접점이다. 특정 달러 레일의 상용 계약·준비금 수익을 확정하지 않고 실제 통화·권리·환매·현금 도착·총비용에 따라 선택한다.
+
+근거: [R27-K-004](../sources/cards/R27-K-004.md), [R27-K-005](../sources/cards/R27-K-005.md), [ST-KY-006](../sources/cards/ST-KY-006.md)
+
+한계: 선택 원문에서 미확인은 모든 계약 부재의 증명이 아니다. 시험과 상용 이용을 구분한다.
+
+다른 설명: 직접 통화 경로나 기존 은행망이 더 경제적이다.
+
+다음 관측: 법인별 계약·수취 보수·반복 거래·상환 현금 경로.
+
 ## 관련 원문
 
 - [FIN-001 · Tokenized Finance](../sources/cards/FIN-001.md)
@@ -330,5 +354,8 @@ Velocity의 확인된 기관 서비스에서 고객 AI가 현금·담보·예외
 - [OBX-P-007 · Ondo Intelligent Portfolios Market Hours and Trading Availability](../sources/cards/OBX-P-007.md)
 - [OBX-P-009 · Ondo, Kinexys by J.P. Morgan, Mastercard, and Ripple Complete First Cross-Border, Cross-Bank Redemption of Tokenized U.S. Treasuries](../sources/cards/OBX-P-009.md)
 - [OBX-R-001 · HKMA advances Project Ensemble pilot phase to 24/7 settlement in tokenised Central Bank Money](../sources/cards/OBX-R-001.md)
+- [R27-M-004 · Visa, BILL and Billtrust Launch First Live Pilot for Trusted AI Agent Payments Between Buyer and Supplier Platforms](../sources/cards/R27-M-004.md)
+- [R27-K-004 · 교보생명, SBI그룹과 디지털토큰 활용 한·일 기관 자금이전 실증](../sources/cards/R27-K-004.md)
+- [R27-K-009 · Linklaters advises on Korea’s first digitally native bond issuance](../sources/cards/R27-K-009.md)
 
 [전체 주제 지도](INDEX.md)

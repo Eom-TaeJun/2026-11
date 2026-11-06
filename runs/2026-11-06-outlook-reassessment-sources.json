@@ -1,0 +1,479 @@
+{
+  "as_of": "2026-11-06",
+  "read_events": [
+    {
+      "checked_at": "2026-11-06",
+      "read_status": null,
+      "read_scope": "2026-11-06 선택 재열람: HTML 575–587 화폐 탄력성·중앙은행/은행 구조; 720–738 준비자산별 조달 재편; 783–797 외화 가치저장·통화 대체. 모형 수치 미사용.",
+      "summary": "준비자산 귀착에 따라 예금 총량과 은행별 분포·안정성이 다르게 변한다.",
+      "used_for": "BNK 조달과 달러 자산 이동의 조건부 인과; 시스템 전체 소멸과 개별 은행 유출 구분.",
+      "limitations": "BIS의 분석·정책관점이며 한국 개별 은행의 관측된 유출·인과효과가 아니다.",
+      "run": "2026-11-06-outlook-reassessment",
+      "reader_file": "macro_sources.json",
+      "source_id": "FIN-003",
+      "input_source_id": "FIN-003"
+    },
+    {
+      "checked_at": "2026-11-06",
+      "read_status": null,
+      "read_scope": "2026-11-06 공식 HTML 본문 296–354행: 10/2–11/11 예고기간, 모법 2027-02-04 시행 및 세부 진입·원장·유통 초안. 첨부 조문 전체 미독.",
+      "summary": "기준일에는 토큰증권 하위법규 입법예고 중이다.",
+      "used_for": "2027Q1 시행 준비와 강한 가정 이후 사업분석을 분리.",
+      "limitations": "초안 세부 요건을 최종 법규나 개별 영업 인가로 쓰지 않는다.",
+      "run": "2026-11-06-outlook-reassessment",
+      "reader_file": "macro_sources.json",
+      "source_id": "FIN-008",
+      "input_source_id": "FIN-008"
+    },
+    {
+      "checked_at": "2026-11-06",
+      "read_status": null,
+      "read_scope": "2026-11-06 PDF 인쇄43–45 요약/도입,56쪽 네트워크 유인,58쪽 중간·강한 도입경로,63쪽 집중,64쪽 Box3.2 상계·선자금. 장 통독·회귀·도표 값 검증 아님.",
+      "summary": "기존 금융기관에 흡수되는 경로와 더 넓은 전환 경로를 구분하며, 빠른 결제와 상계·유동성 간 교환관계를 논의한다.",
+      "used_for": "AI/온체인 두 축과 대형사 재통합, 온체인 추가비용의 반대 경로.",
+      "limitations": "HTML eLibrary는403. PDF 본문 October2026 Chapter3 확인; 검색/추출 메타 April 제목 오류는 사용하지 않음. 현재 세 그룹의 성과로 일반화 금지.",
+      "run": "2026-11-06-outlook-reassessment",
+      "reader_file": "macro_sources.json",
+      "source_id": "NOV-M07",
+      "input_source_id": "NOV-M07"
+    },
+    {
+      "checked_at": "2026-11-06",
+      "read_status": null,
+      "read_scope": "2026-11-06 FEDS Notes §2.1–2.4 및§3.3 선택 재열람. 자금 원천·준비자산 배분·은행별 분포·금리/기술/제휴 대응. 설명용 승수·과거 준비금 비중 미사용.",
+      "summary": "스테이블코인 확산의 은행 효과는 자금 출처와 준비자산 및 은행의 대응에 따라 달라진다.",
+      "used_for": "소매예금의 집중 도매자금 전환, 대형 은행 대응 및 반사실.",
+      "limitations": "직원 연구이며 연준 정책결정·한국 효과 추정 아님.",
+      "run": "2026-11-06-outlook-reassessment",
+      "reader_file": "macro_sources.json",
+      "source_id": "ST-TD-005",
+      "input_source_id": "ST-TD-005"
+    },
+    {
+      "checked_at": "2026-11-06",
+      "read_status": null,
+      "read_scope": "2026-11-06 HTML 본문890–900행, 통화정책방향과 만장일치 의결. 첨부자료·전망모형 미독.",
+      "summary": "10월22일 기준금리3.00% 유지. 수출·투자 성장과 물가·금융안정, 기존 두 차례 인상 영향과 대외 불확실성을 함께 평가.",
+      "used_for": "디지털 효율과 별도로 금리·조달·신용·ALM 제약을 유지하는 현재 거시 기준.",
+      "limitations": "10월22일의 결정과 당시 전망이며 2027년 금리 경로 확정이 아니다.",
+      "run": "2026-11-06-outlook-reassessment",
+      "reader_file": "macro_sources.json",
+      "source_id": "NOV-M01",
+      "input_source_id": "NOV-M01"
+    },
+    {
+      "checked_at": "2026-11-06",
+      "read_status": "selected_sections",
+      "read_scope": "공식 Bulletin 본문 Highlights/Background/Effective Date, HTML136–171행.",
+      "summary": "OCC는 최종규칙의2027-01-18 효력을 안내하며 BSA/AML·OFAC 별도 규칙 절차를 명시한다.",
+      "used_for": "기존 NOV-US-OCC 최종규칙의 효력·범위를 공식 안내로 재확인.",
+      "limitations": "관할별·개별 인가와 별도 규칙 완료를 보증하지 않는다. NOV-US-OCC와 같은 규칙에 관한 보조 문서로 독립 사건 중복집계 금지.",
+      "run": "2026-11-06-outlook-reassessment",
+      "reader_file": "macro_sources.json",
+      "source_id": "R27-M-001",
+      "input_source_id": "R27-M-001"
+    },
+    {
+      "checked_at": "2026-11-06",
+      "read_status": "selected_sections",
+      "read_scope": "공식 전사894–903,918–940행: 기업 이자보상·계절성, 취약기업, 자금조달 및 개최일. 영상전체 시청 아님.",
+      "summary": "기업 소득·채무 부담과 시장성 조달 조건은 업종·취약도별로 다르게 전달된다.",
+      "used_for": "AI 비용절감과 실제 신용손실/차환 위험의 분리.",
+      "limitations": "질문자의 수치를 기관 확인 사실로 쓰지 않음. 새로운 기업별 수치 추정 없음.",
+      "run": "2026-11-06-outlook-reassessment",
+      "reader_file": "macro_sources.json",
+      "source_id": "R27-M-002",
+      "input_source_id": "R27-M-002"
+    },
+    {
+      "checked_at": "2026-11-06",
+      "read_status": "selected_sections",
+      "read_scope": "고정 commit의59–102행 역할/검증,238–272행 Receipt·위임 범위·분쟁증거;402행 전체 중 선택열람.",
+      "summary": "Trusted Surface는 비에이전트 역할이며 검증은 결정적 코드로 처리한다. 거래 증거를 다루되 분쟁해결 세부와 에이전트 간 재위임은 범위 밖이다.",
+      "used_for": "AI의 추천/생성과 유효 위임·거래 집행·복구의 구분.",
+      "limitations": "지급 프로토콜 규격이지 증권/보험의 법적 대리권·실제 운영·수익성 증거 아님.",
+      "run": "2026-11-06-outlook-reassessment",
+      "reader_file": "macro_sources.json",
+      "source_id": "R27-M-003",
+      "input_source_id": "R27-M-003"
+    },
+    {
+      "checked_at": "2026-11-06",
+      "read_status": "selected_sections",
+      "read_scope": "본문5–26행과 FAQ39–43행, 승인된 청구서·카드 지급·pilot 상태.",
+      "summary": "회사는 승인된 기업 청구서 카드 지급을 참여 고객 대상으로 처리하는 실증을 발표했다.",
+      "used_for": "기존 계좌/카드+AI도 접점·실행을 바꿀 수 있다는 반사실 기준.",
+      "limitations": "발표자 주장. 참가 범위 밖 상용화, 반복 수익·비용 절감 실측, 투자상품 자동권한을 증명하지 않음.",
+      "run": "2026-11-06-outlook-reassessment",
+      "reader_file": "macro_sources.json",
+      "source_id": "R27-M-004",
+      "input_source_id": "R27-M-004"
+    },
+    {
+      "checked_at": "2026-11-06",
+      "read_status": "selected_sections",
+      "read_scope": "공식 발표210–224행, AP2v0.2·Human Not Present·FIDO 이전.",
+      "summary": "Google은 AP2의FIDO 이전과 사전 승인에 기반한 v0.2 자율 지급 지원을 발표했다.",
+      "used_for": "규격의 버전·시점 출처. 최근 규격 원문과 구분해 사용.",
+      "limitations": "발표가 범용 상용채택이나 모든 금융상품의 권한을 보장하지 않음.",
+      "run": "2026-11-06-outlook-reassessment",
+      "reader_file": "macro_sources.json",
+      "source_id": "R27-M-005",
+      "input_source_id": "R27-M-005"
+    },
+    {
+      "checked_at": "2026-11-06",
+      "read_status": "selected_sections",
+      "read_scope": [
+        "HTML 본문 L28–36: 제목·등록일·조직개편 발표 전문. 사진 첨부 미열람."
+      ],
+      "summary": "부산·경남의 산업금융전략팀, 경남 기업승계지원팀 신설 및 승계 컨설팅·금융지원 연계 계획. 그룹 AX·디지털자산 대응 조직 발표.",
+      "used_for": [
+        "전주기·승계 금융 방향의 조직 기반 확인. 회사 실행 계획과 연구자의 외부자본 연결 제안 구분."
+      ],
+      "limitations": [
+        "개별 승계 성사·인수자 연결·M&A 보수·운영 성과·인력 규모는 확인하지 않음. 조직 발표는 결과의 증거가 아님."
+      ],
+      "run": "2026-11-06-outlook-reassessment",
+      "reader_file": "bnk_sources.json",
+      "source_id": "ST-KN-003",
+      "input_source_id": "R27-B-001"
+    },
+    {
+      "checked_at": "2026-11-06",
+      "read_status": "selected_sections",
+      "read_scope": [
+        "HTML L53–80: 등록일·협약 본문. 사진·첨부 미열람."
+      ],
+      "summary": "부산·경남은행과 한국벤처투자·기술보증기금의 협약. 투자–보증–대출, 매출채권 조기회수, 투자유치·벤처펀드 협력 계획.",
+      "used_for": [
+        "운영자금에서 투자 이후 성장 단계까지 관계를 연결한다는 기존 판단의 근거."
+      ],
+      "limitations": [
+        "협약은 실제 승인·집행·고객·반복 수익을 확인하지 않음. 기대한 정책 효과를 실현 성과로 취급하지 않음."
+      ],
+      "run": "2026-11-06-outlook-reassessment",
+      "reader_file": "bnk_sources.json",
+      "source_id": "R27-B-002",
+      "input_source_id": "R27-B-002"
+    },
+    {
+      "checked_at": "2026-11-06",
+      "read_status": "selected_sections",
+      "read_scope": [
+        "HTML L192–227: 날짜·본문, 지원 용도·추천·은행 심사·참여 은행. 첨부 공고 미열람."
+      ],
+      "summary": "미래차 전환의 시설투자·M&A·R&D 대출 이자 지원 계획. 전문기관 추천 후 은행 심사가 필요하며 부산·경남 포함 10개 은행이 참여.",
+      "used_for": [
+        "기술 전환 자금 수요와 경쟁은행의 동일 정책 접근을 확인. BNK 독점 역량이라는 설명을 제한."
+      ],
+      "limitations": [
+        "전체 계획 규모는 BNK 취급액이 아님. 개별 승인·금융 조건·집행 성과·현행 모집 여부는 확인하지 않음. 과거 접수 기간은 미래 신청 안내로 사용하지 않음."
+      ],
+      "run": "2026-11-06-outlook-reassessment",
+      "reader_file": "bnk_sources.json",
+      "source_id": "R27-B-003",
+      "input_source_id": "R27-B-003"
+    },
+    {
+      "checked_at": "2026-11-06",
+      "read_status": "selected_sections",
+      "read_scope": [
+        "공식 FAQ HTML L17–37: 상품 설명, 참여사, 비소구·보증 승인·대상·표시 조건. 약관 전문 미열람."
+      ],
+      "summary": "테크핀레이팅스·신한·SGI의 팩토링 상품 설명. 구매기업 보증 승인 뒤 제공하며 판매·구매기업 법인과 거래 이력 요건을 제시.",
+      "used_for": [
+        "ERP·데이터·은행·보증이 기존 방식으로도 결합한다는 실제 경쟁 기준선."
+      ],
+      "limitations": [
+        "게시·개정일 미확인. 표시 가격을 현재 확정 견적으로 사용하지 않음. 비소구는 사기·원인채권 하자 등 모든 책임 면제를 입증하지 않음. 실제 승인율·손실·고객 수·기관별 보수 배분 미확인."
+      ],
+      "run": "2026-11-06-outlook-reassessment",
+      "reader_file": "bnk_sources.json",
+      "source_id": "R27-B-004",
+      "input_source_id": "R27-B-004"
+    },
+    {
+      "checked_at": "2026-11-06",
+      "read_status": "selected_sections",
+      "read_scope": [
+        "공식 FAQ HTML L17–41: 보증 승인·판매자 최종 승인·대금 지급·보험료 및 제공 절차."
+      ],
+      "summary": "구매기업 동의, 데이터·신용정보 제공, SGI 보증, 판매자 승인, 신한 채권양수도 통지와 지급, 구매기업 상환 절차를 설명.",
+      "used_for": [
+        "고객–권리–현금–위험 부담의 기존 상품 연결을 확인하고 온체인 추가 편익과 구분."
+      ],
+      "limitations": [
+        "약관 전문·사고 시 구체적 구상권·실제 고객 현금흐름·처리시간 미확인. R27-B-004·006과 같은 상품이며 독립 성공사례가 아님."
+      ],
+      "run": "2026-11-06-outlook-reassessment",
+      "reader_file": "bnk_sources.json",
+      "source_id": "R27-B-005",
+      "input_source_id": "R27-B-005"
+    },
+    {
+      "checked_at": "2026-11-06",
+      "read_status": "selected_sections",
+      "read_scope": [
+        "공식 FAQ HTML L17–38: 할인료 차감·구매자 부담 시 별도 정산·요율 예시."
+      ],
+      "summary": "할인료는 판매자에게 대금 지급 시 차감하며 구매자가 부담하려면 판매자와 별도 정산한다고 안내.",
+      "used_for": [
+        "액면 채권과 고객 실수취액, 고객 편익과 기관 보수를 분리."
+      ],
+      "limitations": [
+        "표시 요율은 예시이며 최신 확정 견적이 아님. 기관별 분배·순이익·전체 비용과 약관은 미확인. R27-B-004·005와 동일 상품."
+      ],
+      "run": "2026-11-06-outlook-reassessment",
+      "reader_file": "bnk_sources.json",
+      "source_id": "R27-B-006",
+      "input_source_id": "R27-B-006"
+    },
+    {
+      "checked_at": "2026-11-06",
+      "read_status": "selected_sections",
+      "read_scope": "기사 본문 19~36행: MOU·역할·목표자산; 하단 법인 소개는 참고만, 감독원장 재검증은 아님",
+      "summary": "기관급 자산 발굴·토큰화·아시아태평양 유통 공동개발 MOU. 기관 유통과 해외 자산 접근의 결합을 제시한다.",
+      "used_for": "증권의 발굴·발행·유통 역할과 첫 외부 반복 위임계약의 검증 질문.",
+      "limitations": "Digital Currency Group이 아님. 발행완료·유료 고객·독점 접근·수익·특정 스테이블코인 경로는 입증하지 않는다.",
+      "run": "2026-11-06-outlook-reassessment",
+      "reader_file": "kyobo_sources.json",
+      "source_id": "KYO-GEO-004",
+      "input_source_id": "R27-K-001"
+    },
+    {
+      "checked_at": "2026-11-06",
+      "read_status": "selected_sections",
+      "read_scope": "공식 HTML 기사 본문: 이사회 의결·2027년4월 목표·시스템 단계 통합·AI투자와 자본효율 배경. 중복 본문은 한 번만 사용.",
+      "summary": "이사회 합병 의결과 인가 등 절차를 거친 2027년4월 완료 목표를 발표했다. 디지털 역량과 투자를 보험 본업 안에 결집할 계획이다.",
+      "used_for": "거래비용 감소가 외부분업뿐 아니라 내부통합을 유리하게 할 수 있다는 회사선택 사례.",
+      "limitations": "목표가 인가·합병완료나 실현 비용절감의 증거가 아니다. 회사가 제시한 동기이며 특정 규제 한 가지의 인과효과는 아니다.",
+      "run": "2026-11-06-outlook-reassessment",
+      "reader_file": "kyobo_sources.json",
+      "source_id": "R27-K-002",
+      "input_source_id": "R27-K-002"
+    },
+    {
+      "checked_at": "2026-11-06",
+      "read_status": "selected_sections",
+      "read_scope": "본문 37~56행: 테스트넷 국채 거래 기술 검증·기대효과·후속 협력.",
+      "summary": "기관용 인프라를 활용한 국채 거래 구조의 테스트넷 기술 검증과 협력을 설명했다.",
+      "used_for": "보험기관 운용의 결제·대사 업무와 상품 판매를 구분하고 실제 현금·비용 검증을 설계.",
+      "limitations": "실거래·상용 자산 보유·구체적 USDC/USDT 이용·실현 절감은 확인하지 않았다. 현재 국채 결제 일반화를 위한 독립 근거로 사용하지 않는다.",
+      "run": "2026-11-06-outlook-reassessment",
+      "reader_file": "kyobo_sources.json",
+      "source_id": "KYO-GEO-005",
+      "input_source_id": "R27-K-003"
+    },
+    {
+      "checked_at": "2026-11-06",
+      "read_status": "selected_sections",
+      "read_scope": "본문 37~58행: SBI Digital Practice·Canton 테스트환경·엔/원 검증토큰·후속 계획.",
+      "summary": "Canton 테스트환경에서 엔화와 원화 연동 테스트토큰을 직접 환전하는 기관 이전 구조를 검증했다고 발표했다.",
+      "used_for": "달러 레일 단일화 가설의 반대 사례와 거래 통화별 경로 선택.",
+      "limitations": "테스트토큰의 기술 결과가 실제 시장 유동성·거래환율·최종 은행현금·반복 운영 수익은 아니다.",
+      "run": "2026-11-06-outlook-reassessment",
+      "reader_file": "kyobo_sources.json",
+      "source_id": "R27-K-004",
+      "input_source_id": "R27-K-004"
+    },
+    {
+      "checked_at": "2026-11-06",
+      "read_status": "selected_sections",
+      "read_scope": [
+        "공식 검색 결과의 기사 본문 전체 중 PoC·자동납부 시연·기존 보험시스템 반영·기대효과 문단.",
+        "총괄 추가 직접 열람: 공식 HTML37–58행, 2026-06-24 발표와 6/19 공유회, 보험시스템 연계·자동납부 시연·향후 조건. 검색 열람에 이어 본문 직접 대조."
+      ],
+      "summary": "EQBR와 원화 스테이블코인 수납·지급 기술검증을 진행했고 자동납부 및 기존 시스템 반영을 시연했다고 밝혔다.",
+      "used_for": "계좌 외 지갑에 있는 돈을 고객 계약과 연결하는 수납 접점의 가능성.",
+      "limitations": "상용 고객·인가·실현 원가절감·지급 안정성 성과는 입증하지 않는다. 보험료 유입은 곧 회계수익이 아니다.",
+      "run": "2026-11-06-outlook-reassessment",
+      "reader_file": "kyobo_sources.json",
+      "source_id": "R27-K-005",
+      "input_source_id": "R27-K-005"
+    },
+    {
+      "checked_at": "2026-11-06",
+      "read_status": "selected_sections",
+      "read_scope": "본문 37~60행: 10월1일 행사·각사 역할·Arc/StableFX·KRW1/USDC 시연.",
+      "summary": "회사들은 디지털금융 협력을 논의했고 Circle의 인프라 소개와 BDACS의 KRW1/USDC 교환·결제 시연이 있었다.",
+      "used_for": "교보의 USDC 관련 접점과 인수·중개·유통 역할을 상용계약과 구분.",
+      "limitations": "교보가 USDC 상용거래나 준비금 수익을 얻는다는 뜻이 아니다. USDT 계약도 이 원문에서 확인되지 않는다.",
+      "run": "2026-11-06-outlook-reassessment",
+      "reader_file": "kyobo_sources.json",
+      "source_id": "ST-KY-006",
+      "input_source_id": "R27-K-006"
+    },
+    {
+      "checked_at": "2026-11-06",
+      "read_status": "selected_sections",
+      "read_scope": "본문 37~56행: 모닝브리핑·기존 추천서비스·FP교육과 방문 활동.",
+      "summary": "기존 로보어드바이저에 시장 정보 서비스를 추가하고 FP 교육·방문 관리와 결합한다고 발표했다.",
+      "used_for": "온체인 미도입 상태에서도 진행되는 기존+AI 기준선과 인간·디지털 관리의 결합.",
+      "limitations": "AI 자동주문·전상품 비교·유료 AI 매출·유지율 인과효과를 입증하지 않는다. 기존 HWX-R-005에 있는 자료로 신규 발견이 아니다.",
+      "run": "2026-11-06-outlook-reassessment",
+      "reader_file": "kyobo_sources.json",
+      "source_id": "HWX-R-005",
+      "input_source_id": "R27-K-007"
+    },
+    {
+      "checked_at": "2026-11-06",
+      "read_status": "selected_sections",
+      "read_scope": "본문 37~145행: 가입 이후 관리·회사 FP 역할·AI와의 업무 분담. 법규 범위는 이 설명으로 확정하지 않음.",
+      "summary": "회사는 FP 역할을 가입·유지·보장 점검·청구와 지급까지 연결하고 AI와의 분업을 설명했다.",
+      "used_for": "장기 고객관리 방향의 공식 회사 신호와 고객 선택·보상 구조 검토.",
+      "limitations": "브랜드 설명이며 경쟁우위·유지율·고객 편익의 독립 측정이 아니다. 수수료 규정은 별도 고시·적용범위에 따라 확인해야 한다.",
+      "run": "2026-11-06-outlook-reassessment",
+      "reader_file": "kyobo_sources.json",
+      "source_id": "HWX-V-006",
+      "input_source_id": "R27-K-008"
+    },
+    {
+      "checked_at": "2026-11-06",
+      "read_status": "selected_sections",
+      "read_scope": "본문 18~28행: 미래에셋 발행·HSBC 주관·Orion·CMU·자문 역할. 금액은 분석에 쓰지 않음.",
+      "summary": "거래 자문사는 미래에셋 발행, HSBC 주관, Orion과 CMU 연결의 디지털 채권 거래를 설명했다.",
+      "used_for": "경쟁사의 실제 조달 실행 경험 및 기존 기관·인프라를 통한 디지털 도입 사례.",
+      "limitations": "거래 자문 당사자의 공식 설명이다. 조달액은 서비스 매출이 아니며 조달비용 절감·외부 고객 확대 성과는 미확인.",
+      "run": "2026-11-06-outlook-reassessment",
+      "reader_file": "kyobo_sources.json",
+      "source_id": "R27-K-009",
+      "input_source_id": "R27-K-009"
+    },
+    {
+      "checked_at": "2026-11-06",
+      "read_status": "selected_sections",
+      "read_scope": [
+        "공식 검색 결과의 제도 설명·자본 단계·지정요건·업무 구분 문단 및 공식 페이지 제목·게시일. 법령 전체는 재검증하지 않음.",
+        "총괄 추가 직접 열람: 금융위 공식 HTML305–333행, 2025년 제도 설명의 3/4/8조 단계·업무·지정 조건. 2026년 교보 지정·현행 법령 전체는 여전히 미확인."
+      ],
+      "summary": "자본 규모에 따른 종투사 단계, 지정 및 단기금융업 인가, 업무와 조건의 차이를 설명한다.",
+      "used_for": "교보의 자본확충 방향과 실제 현재 영업권을 분리하는 공통 제도 기준.",
+      "limitations": "교보 지정 완료를 증명하지 않는다. 개별 법인 경과조치와 최신 규정 전체는 기존 KYX-A-001~004 검토를 재사용하고 후속 확인이 필요하다.",
+      "run": "2026-11-06-outlook-reassessment",
+      "reader_file": "kyobo_sources.json",
+      "source_id": "ST-KY-004",
+      "input_source_id": "R27-K-010"
+    },
+    {
+      "checked_at": "2026-11-06",
+      "read_status": "selected_sections",
+      "read_scope": "본문 37~81행: 연결·별도 반기 이익·보험/투자손익·CSM 본문과 표.",
+      "summary": "2026년 상반기 별도 보험손익2275억원, 투자손익4038억원, 순이익4786억원; 6월말 별도 보유CSM6조9250억원을 제시했다.",
+      "used_for": "현재 생명 본업과 장기 서비스 마진을 미래 디지털 사업의 기회비용과 연결.",
+      "limitations": "11월 현황 또는 3분기 실적이 아니다. 업무보고서 투자손익4054억원과 IR4038억원의 기준 차이를 유지하며 보험/투자손익의 합을 순익으로 쓰지 않는다.",
+      "run": "2026-11-06-outlook-reassessment",
+      "reader_file": "kyobo_sources.json",
+      "source_id": "BMX-KY-003",
+      "input_source_id": "R27-K-011"
+    },
+    {
+      "checked_at": "2026-11-06",
+      "read_status": "selected_sections",
+      "read_scope": "HTML 10–33행의 발표일·데이터/CCIP 채택·상품 논의·담보 기준 작업반, 42–44행 최종갱신 표시(2026-11-03).",
+      "summary": "한화투자증권의 데이터·CCIP 채택 및 글로벌 RWA 플랫폼 구축, 발행자/운용사 논의와 담보 활용 기준 탐색을 발표했다.",
+      "used_for": "OPEN-HAN-01: 기술·데이터 공급과 실제 자산 위임·담보 수취·현금 공급 계약을 나눠 분석.",
+      "limitations": "협력 당사자의 발표이며 첫 상품·실제 담보 승인·고객·반복 거래·이익을 검증하지 않았다. 직접 USDC/USDT 계약 근거가 아니다.",
+      "run": "2026-11-06-outlook-reassessment",
+      "reader_file": "hanwha_sources.json",
+      "source_id": "ST-HW-002",
+      "input_source_id": "R27-H-001"
+    },
+    {
+      "checked_at": "2026-11-06",
+      "read_status": "selected_sections",
+      "read_scope": "HTML 57–105행: 게시일, 9/16 행사·9/17 발표, 법인별 ADIO·ADGM 협약·탐색 범위.",
+      "summary": "생명–ADIO 협력과 운용–ADGM–하나금융 MOU를 통해 디지털자산·국경 간 금융 기회를 탐색한다고 설명한다.",
+      "used_for": "현지 학습·파트너 선택권과 실행된 고객 계약을 구분하고 해외 연결 투자의 범위를 설정.",
+      "limitations": "현지 모든 인가나 한국·미국·인니 단일 상용망, 고객수익을 확인하지 않았다. AUM 홍보 수치는 분석에 사용하지 않음.",
+      "run": "2026-11-06-outlook-reassessment",
+      "reader_file": "hanwha_sources.json",
+      "source_id": "HWA-GEO-001",
+      "input_source_id": "R27-H-002"
+    },
+    {
+      "checked_at": "2026-11-06",
+      "read_status": "selected_sections",
+      "read_scope": "HTML 64–75행: 2021년 분리, 다보험사 유통, Orange Tree/Touch, 인수·채널 방향. 역사적 수치를 현재 그룹 수치로 사용하지 않음.",
+      "summary": "다보험사 상품을 유통하고 설계사의 판매지원과 고객관리 플랫폼을 연결하는 기존 GA 사업을 설명한다.",
+      "used_for": "보험 제조와 유통의 수익을 구분하고 AI 비교 이후 계약관리·고정비·경쟁 후 이익을 추론.",
+      "limitations": "회사 소개이며 실제 AI 인과효과·현재 전체 인력·순이익·고객 동의 범위의 증거가 아니다.",
+      "run": "2026-11-06-outlook-reassessment",
+      "reader_file": "hanwha_sources.json",
+      "source_id": "R27-H-003",
+      "input_source_id": "R27-H-003"
+    },
+    {
+      "checked_at": "2026-11-06",
+      "read_status": "selected_sections",
+      "read_scope": "HTML 47–98행: 세 상품명·보험자, 주요 급부 설명, 은행/보험/LPS 책임 고지. 연결 PDF 약관은 이번에 열지 않음.",
+      "summary": "한화 현지 보험자의 세 상품을 등재하고 보험은 은행상품·은행보증·예금보호 대상이 아니라고 구분한다.",
+      "used_for": "방카의 존재를 재확인하고 신규 수요를 연령 대신 미가입 원인·납입·적합성·청구 비용으로 좁힘.",
+      "limitations": "등재는 실제 계약·수수료·유지·수익 증거가 아니다. 최소 보험료·통화·정기납입 조건·전체 면책은 확인하지 않음.",
+      "run": "2026-11-06-outlook-reassessment",
+      "reader_file": "hanwha_sources.json",
+      "source_id": "ST-HW-007",
+      "input_source_id": "R27-H-004"
+    },
+    {
+      "checked_at": "2026-11-06",
+      "read_status": "selected_sections",
+      "read_scope": "HTML 28–47행: 게시일, 2025-07-30 EST 인수완료·75%, 서비스와 향후 협력 설명.",
+      "summary": "한화생명의 75% 인수 완료 발표와 실행·청산·수탁·대차 등 기존 기관 서비스를 설명한다.",
+      "used_for": "미국 독립 사업 기반과 조건부 계열 연결의 추가 기여를 구별.",
+      "limitations": "2025년 인수 시점 지분이며 현재 지배구조 전체를 갱신하지 않았다. 모든 디지털자산 권한·한화 상품 취급·온체인 이익을 입증하지 않음.",
+      "run": "2026-11-06-outlook-reassessment",
+      "reader_file": "hanwha_sources.json",
+      "source_id": "HWA-GEO-008",
+      "input_source_id": "R27-H-005"
+    },
+    {
+      "checked_at": "2026-11-06",
+      "read_status": "selected_sections",
+      "read_scope": "HTML 100–114행: LiquidityDirect 청약·환매, GS DAP 미러 토큰, 공식 장부/결제 유지, 담보·이전의 미래 목표.",
+      "summary": "기존 기관 MMF 서비스와 공식 장부·결제를 유지하며 미러 토큰 기록을 추가하는 협력을 발표했다.",
+      "used_for": "경쟁사가 기존 고객·수탁·현금망에 온체인을 결합하는 재통합 경로와 외부 인프라 구매 대안을 분석.",
+      "limitations": "현시점 담보 승인·24시간 환매·순수익까지 확인하지 않았다. GS DAP를 한화 플랫폼과 동일시하지 않음.",
+      "run": "2026-11-06-outlook-reassessment",
+      "reader_file": "hanwha_sources.json",
+      "source_id": "R27-H-006",
+      "input_source_id": "R27-H-006"
+    }
+  ],
+  "source_id_mapping": {
+    "FIN-003": "FIN-003",
+    "FIN-008": "FIN-008",
+    "NOV-M07": "NOV-M07",
+    "ST-TD-005": "ST-TD-005",
+    "NOV-M01": "NOV-M01",
+    "R27-M-001": "R27-M-001",
+    "R27-M-002": "R27-M-002",
+    "R27-M-003": "R27-M-003",
+    "R27-M-004": "R27-M-004",
+    "R27-M-005": "R27-M-005",
+    "R27-B-001": "ST-KN-003",
+    "R27-B-002": "R27-B-002",
+    "R27-B-003": "R27-B-003",
+    "R27-B-004": "R27-B-004",
+    "R27-B-005": "R27-B-005",
+    "R27-B-006": "R27-B-006",
+    "R27-K-001": "KYO-GEO-004",
+    "R27-K-002": "R27-K-002",
+    "R27-K-003": "KYO-GEO-005",
+    "R27-K-004": "R27-K-004",
+    "R27-K-005": "R27-K-005",
+    "R27-K-006": "ST-KY-006",
+    "R27-K-007": "HWX-R-005",
+    "R27-K-008": "HWX-V-006",
+    "R27-K-009": "R27-K-009",
+    "R27-K-010": "ST-KY-004",
+    "R27-K-011": "BMX-KY-003",
+    "R27-H-001": "ST-HW-002",
+    "R27-H-002": "HWA-GEO-001",
+    "R27-H-003": "R27-H-003",
+    "R27-H-004": "ST-HW-007",
+    "R27-H-005": "HWA-GEO-008",
+    "R27-H-006": "R27-H-006"
+  },
+  "note": "Source documents and rechecks are not independent new events. Existing financial baselines retain their original reference periods."
+}

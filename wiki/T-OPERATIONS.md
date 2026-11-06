@@ -1453,6 +1453,18 @@ Velocity의 확인된 기관 서비스에서 고객 AI가 현금·담보·예외
 
 다음 관측: 지급자·독립 견적·책임 범위·실제 회피비·경쟁 후 재계약과 비용 후 증분 기여
 
+### C-427 · interpretation · active
+
+교보의 생명 장기 계약관리와 증권 발행·집행은 각자 경제성을 가진 두 축으로 유지한다. 라이프플래닛 합병 목표와 기존 보험 AI 업무는 내부 운영 효율의 경로이며 증권의 실행 우선순위를 그룹 전체 단일 순위로 확대하지 않는다.
+
+근거: [R27-K-002](../sources/cards/R27-K-002.md), [HWX-R-005](../sources/cards/HWX-R-005.md), [HWX-V-006](../sources/cards/HWX-V-006.md), [BMX-KY-003](../sources/cards/BMX-KY-003.md)
+
+한계: 합병 완료·유지율 개선·실현 비용 절감이나 자본의 자유로운 계열 이동을 확인한 것이 아니다.
+
+다른 설명: 통합 고정비·중복 운영 부담이 외부 대안보다 크다.
+
+다음 관측: 적합한 계약 변경·청구 완료·병행 시스템 원가와 외부 구매가격.
+
 ## 관련 원문
 
 - [FIN-001 · Tokenized Finance](../sources/cards/FIN-001.md)
@@ -1552,5 +1564,9 @@ Velocity의 확인된 기관 서비스에서 고객 AI가 현금·담보·예외
 - [BMX-KY-003 · FY2026 상반기 실적 설명자료 — 교보생명 연결 순익7048억원](../sources/cards/BMX-KY-003.md)
 - [BMX-KY-004 · 교보생명은 왜 전속 설계사(FP) 중심 영업 전략을 유지할까?](../sources/cards/BMX-KY-004.md)
 - [BMX-KY-005 · 교보문고 감사보고서 (2025.12)](../sources/cards/BMX-KY-005.md)
+- [R27-M-003 · Agentic Payment Protocol v0.2 specification](../sources/cards/R27-M-003.md)
+- [R27-B-005 · 서울보증보험 보증 승인을 받은 경우에만 이용 가능한가요?](../sources/cards/R27-B-005.md)
+- [R27-K-002 · 교보생명, 라이프플래닛 흡수합병…13년간 쌓은 디지털 역량으로 보험 혁신 가속](../sources/cards/R27-K-002.md)
+- [R27-K-005 · 교보생명, 스테이블코인으로 보험료 납부·보험금 수령 가능성 검증](../sources/cards/R27-K-005.md)
 
 [전체 주제 지도](INDEX.md)
