@@ -1,0 +1,735 @@
+{
+  "schema_version": "1.0",
+  "run_id": "2026-11-07-cschung7-opportunity",
+  "as_of": "2026-11-07",
+  "validation_boundary": "이번 원문 해석9개·사업가설3개·교수형 및 그룹 조건판단4개·준비행동4개 참조의 일관성. 예측 성능·사업성·원문 의미의 자동 인증 아님.",
+  "registries": {
+    "sources": {
+      "path": "data/sources.json"
+    },
+    "claims": {
+      "path": "data/claims.json"
+    }
+  },
+  "read_events": {
+    "path": "runs/2026-11-07-cschung7-opportunity-sources.json",
+    "pointer": "/read_events",
+    "sha256": "f04c55417e5b6cc1c282757070de241ea7e944f5d40224a2d5f7bb0edb040631",
+    "expected_count": 6
+  },
+  "read_status_corrections": [],
+  "context_only_read_source_ids": [],
+  "scope": {
+    "claims": [
+      "C-433",
+      "C-434",
+      "C-435",
+      "C-436",
+      "C-437",
+      "C-438",
+      "C-439",
+      "C-440",
+      "C-441",
+      "C-442",
+      "C-443",
+      "C-444"
+    ],
+    "hypotheses": [
+      "CS7-OPEN-METHOD",
+      "CS7-OP-BNK",
+      "CS7-OP-KY",
+      "CS7-OP-HW"
+    ],
+    "actions": [
+      "CS7-ACTION-RESEARCH",
+      "CS7-ACTION-BNK",
+      "CS7-ACTION-KYOBO",
+      "CS7-ACTION-HANWHA"
+    ]
+  },
+  "claims": [
+    {
+      "id": "C-433",
+      "ref": {
+        "path": "data/claims.json",
+        "pointer": "/432",
+        "sha256": "eed5f00c470dd852c6abbfb83c33da3b11bdcd7273c33e19cdf30cec03232a42",
+        "expected_id": "C-433"
+      },
+      "kind": "interpretation",
+      "source_ids": [
+        "ST-TD-003",
+        "OBX-P-002"
+      ]
+    },
+    {
+      "id": "C-434",
+      "ref": {
+        "path": "data/claims.json",
+        "pointer": "/433",
+        "sha256": "46bf8c90d0661fede98a5e4f8f4069cad13580bc8ad3994c81ffc5849579ccda",
+        "expected_id": "C-434"
+      },
+      "kind": "interpretation",
+      "source_ids": [
+        "ST-TD-003"
+      ]
+    },
+    {
+      "id": "C-435",
+      "ref": {
+        "path": "data/claims.json",
+        "pointer": "/434",
+        "sha256": "258328d015f7cdc0fcc46c9cad2f5b3b64323999fd56710dbadef58446ec1633",
+        "expected_id": "C-435"
+      },
+      "kind": "interpretation",
+      "source_ids": [
+        "ST-TD-003"
+      ]
+    },
+    {
+      "id": "C-436",
+      "ref": {
+        "path": "data/claims.json",
+        "pointer": "/435",
+        "sha256": "a0a2219e1845008d690a31cb0432ed3d2c2f691b75f2934199b3506665bfe430",
+        "expected_id": "C-436"
+      },
+      "kind": "interpretation",
+      "source_ids": [
+        "ST-TD-002"
+      ]
+    },
+    {
+      "id": "C-437",
+      "ref": {
+        "path": "data/claims.json",
+        "pointer": "/436",
+        "sha256": "18d8f5fcb0a641dd9d7cbc6cf056591ab836963e9fe0e52d98efa5af9885aba2",
+        "expected_id": "C-437"
+      },
+      "kind": "interpretation",
+      "source_ids": [
+        "ST-TD-001",
+        "ST-TD-002"
+      ]
+    },
+    {
+      "id": "C-438",
+      "ref": {
+        "path": "data/claims.json",
+        "pointer": "/437",
+        "sha256": "d2c05fc0ab795c0162d9dae14b83d1f6116af6d634fb1093036ee21896b0449a",
+        "expected_id": "C-438"
+      },
+      "kind": "interpretation",
+      "source_ids": [
+        "OBX-P-001"
+      ]
+    },
+    {
+      "id": "C-439",
+      "ref": {
+        "path": "data/claims.json",
+        "pointer": "/438",
+        "sha256": "b051dde95943917f7da166789f3524ebfd2b1dca42d65c4dd442d9cf6787760d",
+        "expected_id": "C-439"
+      },
+      "kind": "interpretation",
+      "source_ids": [
+        "OBX-P-001"
+      ]
+    },
+    {
+      "id": "C-440",
+      "ref": {
+        "path": "data/claims.json",
+        "pointer": "/439",
+        "sha256": "fd60dab076670ad68b5e33fc0ce19eeb6e816018c5b3512ccbefea5e917eedbf",
+        "expected_id": "C-440"
+      },
+      "kind": "interpretation",
+      "source_ids": [
+        "OBX-P-002"
+      ]
+    },
+    {
+      "id": "C-441",
+      "ref": {
+        "path": "data/claims.json",
+        "pointer": "/440",
+        "sha256": "04b2c36431094430316b8b30f13d7790022bd056d1797ed3ca1d2b9f6ef9d3e6",
+        "expected_id": "C-441"
+      },
+      "kind": "interpretation",
+      "source_ids": [
+        "OBX-P-003"
+      ]
+    },
+    {
+      "id": "C-442",
+      "ref": {
+        "path": "data/claims.json",
+        "pointer": "/441",
+        "sha256": "86451fed787bb6e7c5b9d5cef8e670562a81f369280d9183e012ffa24244fe05",
+        "expected_id": "C-442"
+      },
+      "kind": "hypothesis",
+      "source_ids": [
+        "ST-TD-003",
+        "ST-TD-002",
+        "OBX-P-002",
+        "ST-KN-001",
+        "ST-KN-002"
+      ]
+    },
+    {
+      "id": "C-443",
+      "ref": {
+        "path": "data/claims.json",
+        "pointer": "/442",
+        "sha256": "04c0890add4e4b8122a7c53c870847fa6a27dd1e38a2fe4c78d227a20c3c04d0",
+        "expected_id": "C-443"
+      },
+      "kind": "hypothesis",
+      "source_ids": [
+        "ST-TD-003",
+        "ST-TD-002",
+        "OBX-P-001",
+        "ST-KY-001",
+        "KYX-M-002",
+        "KYX-M-009"
+      ]
+    },
+    {
+      "id": "C-444",
+      "ref": {
+        "path": "data/claims.json",
+        "pointer": "/443",
+        "sha256": "e3d4194701bc726214304865570e1719a832d856b3a1392d77b3630acaec8cc7",
+        "expected_id": "C-444"
+      },
+      "kind": "hypothesis",
+      "source_ids": [
+        "ST-TD-002",
+        "ST-TD-001",
+        "OBX-P-001",
+        "BMX-HW-001",
+        "ST-HW-007"
+      ]
+    }
+  ],
+  "hypotheses": [
+    {
+      "id": "CS7-OPEN-METHOD",
+      "opening_ref": {
+        "path": "data/cschung7_opportunity_application.json",
+        "pointer": "/lineage_records/opening/0",
+        "sha256": "64c208ea1d2582ac90453c906adea490eec6fb93da6226883f94be6881f46fc8",
+        "expected_id": "CS7-OPEN-METHOD"
+      },
+      "closing_ref": {
+        "path": "data/cschung7_opportunity_application.json",
+        "pointer": "/lineage_records/closing/0",
+        "sha256": "aef3b8c76726187505da403584f73b39ae658b28878a3315f7f32c58dcf193f0",
+        "expected_id": "CS7-OPEN-METHOD"
+      },
+      "closing_sources_ref": {
+        "path": "data/cschung7_opportunity_application.json",
+        "pointer": "/lineage_records/closing/0/source_ids",
+        "sha256": "af9641ba520ed0245f792c45e99ce05a18a45ab6efe80526129d1d7676818ed6"
+      },
+      "alternative_ref": {
+        "path": "data/cschung7_opportunity_application.json",
+        "pointer": "/lineage_records/closing/0/strongest_alternative",
+        "sha256": "778452d71dd527293eec73dacf69ed1b577071ddb784b4ee5d5c068f1419921e"
+      },
+      "next_observations_ref": {
+        "path": "data/cschung7_opportunity_application.json",
+        "pointer": "/lineage_records/closing/0/next_observations",
+        "sha256": "ef78b1aa6a09e14584be37e7569339d4dabf468cb61fe7abeaef4e5c1fc3aede"
+      },
+      "claim_links": [
+        {
+          "claim_id": "C-433",
+          "source_ids": [
+            "ST-TD-003",
+            "OBX-P-002"
+          ],
+          "shared_closing_source_ids": [
+            "OBX-P-002",
+            "ST-TD-003"
+          ]
+        },
+        {
+          "claim_id": "C-434",
+          "source_ids": [
+            "ST-TD-003"
+          ],
+          "shared_closing_source_ids": [
+            "ST-TD-003"
+          ]
+        },
+        {
+          "claim_id": "C-435",
+          "source_ids": [
+            "ST-TD-003"
+          ],
+          "shared_closing_source_ids": [
+            "ST-TD-003"
+          ]
+        },
+        {
+          "claim_id": "C-436",
+          "source_ids": [
+            "ST-TD-002"
+          ],
+          "shared_closing_source_ids": [
+            "ST-TD-002"
+          ]
+        },
+        {
+          "claim_id": "C-437",
+          "source_ids": [
+            "ST-TD-001",
+            "ST-TD-002"
+          ],
+          "shared_closing_source_ids": [
+            "ST-TD-001",
+            "ST-TD-002"
+          ]
+        },
+        {
+          "claim_id": "C-438",
+          "source_ids": [
+            "OBX-P-001"
+          ],
+          "shared_closing_source_ids": [
+            "OBX-P-001"
+          ]
+        },
+        {
+          "claim_id": "C-439",
+          "source_ids": [
+            "OBX-P-001"
+          ],
+          "shared_closing_source_ids": [
+            "OBX-P-001"
+          ]
+        },
+        {
+          "claim_id": "C-440",
+          "source_ids": [
+            "OBX-P-002"
+          ],
+          "shared_closing_source_ids": [
+            "OBX-P-002"
+          ]
+        },
+        {
+          "claim_id": "C-441",
+          "source_ids": [
+            "OBX-P-003"
+          ],
+          "shared_closing_source_ids": [
+            "OBX-P-003"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CS7-OP-BNK",
+      "opening_ref": {
+        "path": "data/cschung7_opportunity_application.json",
+        "pointer": "/lineage_records/opening/1",
+        "sha256": "647f4ae5779b8ee9d6e5b7d52b0b9a94843ab4f07f73ef9febca79ed1b56749d",
+        "expected_id": "CS7-OP-BNK"
+      },
+      "closing_ref": {
+        "path": "data/cschung7_opportunity_application.json",
+        "pointer": "/lineage_records/closing/1",
+        "sha256": "8550c4f6b7115be37705ea9d7c0007435bf60f2f7628e245f1079ec487949471",
+        "expected_id": "CS7-OP-BNK"
+      },
+      "closing_sources_ref": {
+        "path": "data/cschung7_opportunity_application.json",
+        "pointer": "/lineage_records/closing/1/source_ids",
+        "sha256": "443e52e37fa3fc2908b2c97a8cfa3ff8e0baf40aa05b19b550d4b90b3db87b2b"
+      },
+      "alternative_ref": {
+        "path": "data/cschung7_opportunity_application.json",
+        "pointer": "/lineage_records/closing/1/strongest_alternative",
+        "sha256": "c789f900d7cceffe74f19cad3c8081ae7bdeef6d69ad8947ac1946520268f0b8"
+      },
+      "next_observations_ref": {
+        "path": "data/cschung7_opportunity_application.json",
+        "pointer": "/lineage_records/closing/1/next_observations",
+        "sha256": "182fb5dd011ca67ff4d7de6d7c3791402232e45ef4b1211b9fa327eaec45fae1"
+      },
+      "claim_links": [
+        {
+          "claim_id": "C-433",
+          "source_ids": [
+            "ST-TD-003",
+            "OBX-P-002"
+          ],
+          "shared_closing_source_ids": [
+            "OBX-P-002",
+            "ST-TD-003"
+          ]
+        },
+        {
+          "claim_id": "C-434",
+          "source_ids": [
+            "ST-TD-003"
+          ],
+          "shared_closing_source_ids": [
+            "ST-TD-003"
+          ]
+        },
+        {
+          "claim_id": "C-436",
+          "source_ids": [
+            "ST-TD-002"
+          ],
+          "shared_closing_source_ids": [
+            "ST-TD-002"
+          ]
+        },
+        {
+          "claim_id": "C-440",
+          "source_ids": [
+            "OBX-P-002"
+          ],
+          "shared_closing_source_ids": [
+            "OBX-P-002"
+          ]
+        },
+        {
+          "claim_id": "C-442",
+          "source_ids": [
+            "ST-TD-003",
+            "ST-TD-002",
+            "OBX-P-002",
+            "ST-KN-001",
+            "ST-KN-002"
+          ],
+          "shared_closing_source_ids": [
+            "OBX-P-002",
+            "ST-KN-001",
+            "ST-KN-002",
+            "ST-TD-002",
+            "ST-TD-003"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CS7-OP-KY",
+      "opening_ref": {
+        "path": "data/cschung7_opportunity_application.json",
+        "pointer": "/lineage_records/opening/2",
+        "sha256": "343bd2342a91c791d43f756b1e7bf26e73e1a7734c30e0962f45153766b0990c",
+        "expected_id": "CS7-OP-KY"
+      },
+      "closing_ref": {
+        "path": "data/cschung7_opportunity_application.json",
+        "pointer": "/lineage_records/closing/2",
+        "sha256": "3d5915d917497d21abd13d17f00b8fbc42380657353a52d76ba89a7144f6e9be",
+        "expected_id": "CS7-OP-KY"
+      },
+      "closing_sources_ref": {
+        "path": "data/cschung7_opportunity_application.json",
+        "pointer": "/lineage_records/closing/2/source_ids",
+        "sha256": "db74c81c73d90b9b915235bdd49a9850439fb5228a0786f14d131b0dfa8f6784"
+      },
+      "alternative_ref": {
+        "path": "data/cschung7_opportunity_application.json",
+        "pointer": "/lineage_records/closing/2/strongest_alternative",
+        "sha256": "3841b608e3fc03491ccf3746c564412ec47fa798212b33c4dc7fd53b27d8e690"
+      },
+      "next_observations_ref": {
+        "path": "data/cschung7_opportunity_application.json",
+        "pointer": "/lineage_records/closing/2/next_observations",
+        "sha256": "89800b972b85f2b38fbf8a570e65738621e67df98d9388adf0a0dbe7cf06f739"
+      },
+      "claim_links": [
+        {
+          "claim_id": "C-433",
+          "source_ids": [
+            "ST-TD-003",
+            "OBX-P-002"
+          ],
+          "shared_closing_source_ids": [
+            "ST-TD-003"
+          ]
+        },
+        {
+          "claim_id": "C-436",
+          "source_ids": [
+            "ST-TD-002"
+          ],
+          "shared_closing_source_ids": [
+            "ST-TD-002"
+          ]
+        },
+        {
+          "claim_id": "C-438",
+          "source_ids": [
+            "OBX-P-001"
+          ],
+          "shared_closing_source_ids": [
+            "OBX-P-001"
+          ]
+        },
+        {
+          "claim_id": "C-439",
+          "source_ids": [
+            "OBX-P-001"
+          ],
+          "shared_closing_source_ids": [
+            "OBX-P-001"
+          ]
+        },
+        {
+          "claim_id": "C-443",
+          "source_ids": [
+            "ST-TD-003",
+            "ST-TD-002",
+            "OBX-P-001",
+            "ST-KY-001",
+            "KYX-M-002",
+            "KYX-M-009"
+          ],
+          "shared_closing_source_ids": [
+            "KYX-M-002",
+            "KYX-M-009",
+            "OBX-P-001",
+            "ST-KY-001",
+            "ST-TD-002",
+            "ST-TD-003"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CS7-OP-HW",
+      "opening_ref": {
+        "path": "data/cschung7_opportunity_application.json",
+        "pointer": "/lineage_records/opening/3",
+        "sha256": "04d738df0f7ba7accf87f41eec23f697115cffb4c800031afe2ddbb3fa4d93c8",
+        "expected_id": "CS7-OP-HW"
+      },
+      "closing_ref": {
+        "path": "data/cschung7_opportunity_application.json",
+        "pointer": "/lineage_records/closing/3",
+        "sha256": "1341799967ff311aa909c09290635a80b7f87fd1d23d0de2d98598f590270210",
+        "expected_id": "CS7-OP-HW"
+      },
+      "closing_sources_ref": {
+        "path": "data/cschung7_opportunity_application.json",
+        "pointer": "/lineage_records/closing/3/source_ids",
+        "sha256": "f03e04febc1ac64dbfd713b85d348ab4ba07215df1eeaf6acb0697d10428b5a0"
+      },
+      "alternative_ref": {
+        "path": "data/cschung7_opportunity_application.json",
+        "pointer": "/lineage_records/closing/3/strongest_alternative",
+        "sha256": "61f949dfb4733ac63db6b5c1093ac4f96ee3349380c09af67ad65f2fed6edef3"
+      },
+      "next_observations_ref": {
+        "path": "data/cschung7_opportunity_application.json",
+        "pointer": "/lineage_records/closing/3/next_observations",
+        "sha256": "37f2017ae9a02d0b69d306b5070873af30f16f70717eabadcc007cf448a407de"
+      },
+      "claim_links": [
+        {
+          "claim_id": "C-436",
+          "source_ids": [
+            "ST-TD-002"
+          ],
+          "shared_closing_source_ids": [
+            "ST-TD-002"
+          ]
+        },
+        {
+          "claim_id": "C-437",
+          "source_ids": [
+            "ST-TD-001",
+            "ST-TD-002"
+          ],
+          "shared_closing_source_ids": [
+            "ST-TD-001",
+            "ST-TD-002"
+          ]
+        },
+        {
+          "claim_id": "C-438",
+          "source_ids": [
+            "OBX-P-001"
+          ],
+          "shared_closing_source_ids": [
+            "OBX-P-001"
+          ]
+        },
+        {
+          "claim_id": "C-444",
+          "source_ids": [
+            "ST-TD-002",
+            "ST-TD-001",
+            "OBX-P-001",
+            "BMX-HW-001",
+            "ST-HW-007"
+          ],
+          "shared_closing_source_ids": [
+            "BMX-HW-001",
+            "OBX-P-001",
+            "ST-HW-007",
+            "ST-TD-001",
+            "ST-TD-002"
+          ]
+        }
+      ]
+    }
+  ],
+  "groups": {
+    "RESEARCH": {
+      "path": "data/cschung7_opportunity_application.json",
+      "pointer": "/lineage_records/groups/0",
+      "sha256": "ed5197dc0c154488f9985c4cc7c7beedff411780dd60fdefb5dc714463eb73f8",
+      "expected_id": "RESEARCH"
+    },
+    "BNK": {
+      "path": "data/cschung7_opportunity_application.json",
+      "pointer": "/lineage_records/groups/1",
+      "sha256": "78578dad3ee0f61f7d9a759acc27657361dea1e8961b636aa98b5272b376f2ea",
+      "expected_id": "BNK"
+    },
+    "KYOBO": {
+      "path": "data/cschung7_opportunity_application.json",
+      "pointer": "/lineage_records/groups/2",
+      "sha256": "09fdcc64bbf627053ef32289ced04f10bd224555496f7d33880413b396b44e07",
+      "expected_id": "KYOBO"
+    },
+    "HANWHA": {
+      "path": "data/cschung7_opportunity_application.json",
+      "pointer": "/lineage_records/groups/3",
+      "sha256": "15785a81f724e693c596522b756a5572bed6cce5575b3d7dabbef6717b20c0ad",
+      "expected_id": "HANWHA"
+    }
+  },
+  "actions": [
+    {
+      "id": "CS7-ACTION-RESEARCH",
+      "group": "RESEARCH",
+      "ref": {
+        "path": "data/cschung7_opportunity_application.json",
+        "pointer": "/lineage_records/groups/0/priorities/0",
+        "sha256": "fc615f47efd2e26d57d5650bcd3ae0b171dc18beb0271b188abc83c5f1343281"
+      },
+      "decision_refs": [
+        {
+          "path": "data/cschung7_opportunity_application.json",
+          "pointer": "/lineage_records/groups/0/decisions/0",
+          "sha256": "a5c6b95635185807db46718a2266c485a138de9571c370b114926656d42c5db3",
+          "expected_id": "CS7-DEC-METHOD"
+        }
+      ],
+      "hypothesis_ids": [
+        "CS7-OPEN-METHOD"
+      ],
+      "claim_ids": [
+        "C-433",
+        "C-434",
+        "C-435",
+        "C-436",
+        "C-437",
+        "C-438",
+        "C-439",
+        "C-440",
+        "C-441"
+      ]
+    },
+    {
+      "id": "CS7-ACTION-BNK",
+      "group": "BNK",
+      "ref": {
+        "path": "data/cschung7_opportunity_application.json",
+        "pointer": "/lineage_records/groups/1/priorities/0",
+        "sha256": "5a30c363c486270bcb4266c61bab69ab02cd23ab24bb78cadbd35715ae4abdb2"
+      },
+      "decision_refs": [
+        {
+          "path": "data/cschung7_opportunity_application.json",
+          "pointer": "/lineage_records/groups/1/decisions/0",
+          "sha256": "d5c45e11b62df5e57dc73f519648a4aff6e51254d6b4d33f8b787493d03ca2c6",
+          "expected_id": "CS7-DEC-BNK"
+        }
+      ],
+      "hypothesis_ids": [
+        "CS7-OP-BNK"
+      ],
+      "claim_ids": [
+        "C-433",
+        "C-434",
+        "C-436",
+        "C-440",
+        "C-442"
+      ]
+    },
+    {
+      "id": "CS7-ACTION-KYOBO",
+      "group": "KYOBO",
+      "ref": {
+        "path": "data/cschung7_opportunity_application.json",
+        "pointer": "/lineage_records/groups/2/priorities/0",
+        "sha256": "41289e6005bdb17b1a6b089028dfb528442e71dba312158a64ee96af2fae6e26"
+      },
+      "decision_refs": [
+        {
+          "path": "data/cschung7_opportunity_application.json",
+          "pointer": "/lineage_records/groups/2/decisions/0",
+          "sha256": "5d39028c83240e67b6f7f1ca8506e7e697ad456c0ec8263c7b8cf96556807139",
+          "expected_id": "CS7-DEC-KYOBO"
+        }
+      ],
+      "hypothesis_ids": [
+        "CS7-OP-KY"
+      ],
+      "claim_ids": [
+        "C-433",
+        "C-436",
+        "C-438",
+        "C-439",
+        "C-443"
+      ]
+    },
+    {
+      "id": "CS7-ACTION-HANWHA",
+      "group": "HANWHA",
+      "ref": {
+        "path": "data/cschung7_opportunity_application.json",
+        "pointer": "/lineage_records/groups/3/priorities/0",
+        "sha256": "160d741eb220ff1ae3b9046d2f0a6e697693f2ad28762a3afcf91a16704e3f1b"
+      },
+      "decision_refs": [
+        {
+          "path": "data/cschung7_opportunity_application.json",
+          "pointer": "/lineage_records/groups/3/decisions/0",
+          "sha256": "2babb376c32d7dc639d97731373fe02f563fd4fc022fa626e0727b4f3c48e0b4",
+          "expected_id": "CS7-DEC-HANWHA"
+        }
+      ],
+      "hypothesis_ids": [
+        "CS7-OP-HW"
+      ],
+      "claim_ids": [
+        "C-436",
+        "C-437",
+        "C-438",
+        "C-444"
+      ]
+    }
+  ],
+  "source_reuse_boundary": "공개 강의6개만 이번 선택 재열람. 기존 회사 기반7개출처는 application.public_reading_log에 원 확인일을 남긴 재사용. 새 원문 읽기 사건으로 세지 않음."
+}

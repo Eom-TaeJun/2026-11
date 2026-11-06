@@ -1,0 +1,18 @@
+{
+  "sha256": "d3d20d985da7eb80cfb9ebdd743d794e552e8634e82de8ece123a60d25b8baf3",
+  "plan": {
+    "version": 1,
+    "run_id": "20261107-cschung7-opportunity",
+    "batch": "runs/pipeline/20261107-cschung7-opportunity/batch.json",
+    "batch_sha256": "cd53e7b8776f1d55b3f960101194d39ed448e6094a511fc8795406dc09ab8868",
+    "lineage": "data/research_lineage_20261107_cschung7.json",
+    "input_sha256": {
+      "data/cschung7_opportunity_application.json": "a8af644620da9878ccf1e15cfbdf90c0491e9a583ce3ef27612306314c6c6e5b",
+      "data/research_lineage_20261107_cschung7.json": "dba0559213fcf41dcb783f1c705f6e95cbc62a10b144454d1cad2cb36c7b2a77",
+      "runs/2026-11-07-cschung7-opportunity-sources.json": "5d8de3e5845fb324648c9a105eb7dcc0c9906338765aa02967b5f31104753209"
+    },
+    "input_hash_policy": "SHA256 of UTF-8 file bytes with CRLF normalized to LF",
+    "expected_before_sha256": "a156cfc1957b43fb3bf341cde088163404fbbe4be7dd82e597e06c49e7a78ebb",
+    "expected_after_sha256": "c7e50fab6ff088e83c48c9dc975b0d7942ec8b378260bbca03635c61af8ef5d0"
+  }
+}

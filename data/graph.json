@@ -4561,6 +4561,90 @@
       "label": "한화의 국내 보험·GA·ALM 우선은 모든 해외 투자를 국내 개선 완료 뒤로 미룬다는 뜻이 아니다. 독립 해외 사업과 연결의 추가 외부 기여를 구분해, 외부 계약이 먼저 성립한 업무에는 제한적으로 병행 투자할 수 있다."
     },
     {
+      "id": "C-433",
+      "type": "claim",
+      "kind": "interpretation",
+      "status": "active",
+      "label": "스테이블코인 기준 단위, 스마트계약, 무허가 시장과 현금흐름 토큰화가 거래 가능한 자산 표현을 넓히고 롱테일이 주류가 된다고 전망한다. 별도 강의는 토큰화를 기존 자산의 소유권 원장 변화로 설명한다. 이번 분석: 기술적 생성·조합비 감소는 작고 다양한 청구권의 공급을 늘릴 수 있으나 검증·집행비가 남으면 거래량과 유료 수요는 늘지 않을 수 있다."
+    },
+    {
+      "id": "C-434",
+      "type": "claim",
+      "kind": "interpretation",
+      "status": "active",
+      "label": "시장시간 연장과 상시 거래에서 하루 수익률 정의·위험모형·인간의 시간 제약을 다시 보며 알고리즘과 선택적 집중의 역할 확대를 주장한다. 주말 갭 소멸·변동성 완화는 강의의 방향성 표현이다. 이번 분석: 관측과 거래 가능 시간이 늘면 사람의 감시비와 시간대별 유동성 수요가 변한다. 체인 운영시간과 기초시장·환매·은행현금 시간의 불일치가 별도 서비스 수요를 만들 수 있다."
+    },
+    {
+      "id": "C-435",
+      "type": "claim",
+      "kind": "interpretation",
+      "status": "active",
+      "label": "CAPM·요인모형·평균분산·HRP를 사고의 골격으로 두고 다중 거래장소·체인·네트워크·연속 데이터로 확장할 것을 제안한다. 프레임 선택, 모델 가정 인식, 결합 가능한 결과물을 강조한다. 이번 분석: 상품 수보다 공통 기초자산·발행자·담보·현금화 의존성을 묶으면 중복 노출과 신규 위험을 발견할 수 있다. 이는 그래프 연결을 인과 증명으로 삼는다는 뜻이 아니다."
+    },
+    {
+      "id": "C-436",
+      "type": "claim",
+      "kind": "interpretation",
+      "status": "active",
+      "label": "Coase 관점에서 Agent의 탐색·보고·조정비 감소와 작은 조직의 반복 분석 가능성을 제시한다. 기업이 커질지 작아질지는 토론 질문으로 열어 둔다. 이번 분석: 외부 공급자 탐색·계약·검증비와 기업 내부 조정비가 모두 변할 수 있으므로 AI라는 이유만으로 작은 기업 우위를 확정할 수 없다. 상대비용 비교는 이번 분석자의 구체화다."
+    },
+    {
+      "id": "C-437",
+      "type": "claim",
+      "kind": "interpretation",
+      "status": "active",
+      "label": "Hermes 강의는 증거·시점·재현성을 금융 분석의 최소 계약으로 두고, 먼저 한 Agent의 정확한 완료를 확인한 뒤 분업하도록 권한다. 위임은 비교우위 이익과 목표 전달·증거 손실·책임 문제를 함께 만든다. 이번 분석: 전문화/병렬화 이익에서 목표 전달·재검증·오류 복구 비용을 차감해야 하며, 입력 고정·출력 형식·검증 담당이 필요하다."
+    },
+    {
+      "id": "C-438",
+      "type": "claim",
+      "kind": "interpretation",
+      "status": "active",
+      "label": "OIP 강의는 BlackRock 모델과 Ondo 구현/발행을 구분하고, 기초 ETF 직접 보유와 토큰 구현을 포장 비용·세금 대 온체인 활용성의 교환으로 비교한다. 편의성이 보수를 정당화하는지 질문한다. 이번 분석: 비슷한 경제 노출이라도 고객의 계좌 접근·지갑 활용·담보 업무에 따라 구현 경로의 효용과 비용이 다르다. 모델·ETF·발행·운영·유통의 수익 수취자를 나눠야 한다."
+    },
+    {
+      "id": "C-439",
+      "type": "claim",
+      "kind": "interpretation",
+      "status": "active",
+      "label": "발행은 목표 비중, 환매는 현재 비중에 따른다는 설명에서 신규 유입의 부분 리밸런싱을 자료 자체가 추론으로 표시한다. 추적차이를 보수·세금·비중 이탈·거래비용으로 나누며 공개 리밸런싱 선매매 비용을 질문한다. 이번 분석: 가격이 고정되고 유입이 목표 비중으로 모두 배분되면 비중 이탈은 V/(V+A)배로 축소한다. 이는 목표 도달이나 초과성과를 뜻하지 않는다."
+    },
+    {
+      "id": "C-440",
+      "type": "claim",
+      "kind": "interpretation",
+      "status": "active",
+      "label": "가치 이동의 네트워크에서 원장·담보·진짜 결제 완료를 보라고 하며, OUSG/XRPL/MTN/Kinexys 연결을 실험으로 소개한다. 은행 소멸보다 규제·유동성·수탁·정산 역할 변화를 주장하고 안정성 효과는 토론 질문으로 둔다. 이번 분석: 네트워크 간 연결은 단절된 업무를 줄일 수 있으나 법적 청구권·은행계좌·현금 지급과 유동성 부담자를 여전히 필요로 한다."
+    },
+    {
+      "id": "C-441",
+      "type": "claim",
+      "kind": "interpretation",
+      "status": "active",
+      "label": "강의는 준비자산 규칙에서 토큰 형식과 경제적 위험을 어떻게 볼지 논의하고 BUIDL/USDC 연결의 활용성과 운영·유동성 한계를 함께 소개한다. 특정 상한·금액·자기자본 설명은 강의 내 소개이지 이번에 검증한 현행법·계약이 아니다. 이번 분석: 보유/준비자산/담보 자격의 변화는 동일 노출의 수요와 유통권·운용보수·유동성 비용 배분을 바꿀 수 있다. 형식이 같아도 계약·수탁·실행/운영 위험은 별도다."
+    },
+    {
+      "id": "C-442",
+      "type": "claim",
+      "kind": "hypothesis",
+      "status": "active",
+      "label": "필요한 권리·인가·동의·다기관 상태 공유가 성립한 2027년 이후, 확인 가능한 원청 지급채권이 있지만 작은 건별 확인·관리 고정비 때문에 해당 조달을 이용하지 못했던 협력기업에게 반복 운전자금 서비스가 새로 성립할 수 있다. 기존 fERP+AI로 현 고객의 현금·여신관계를 개선하는 경로와 병행해 소규모 신규 고객 검증을 우선한다. 이번 조건 검토: 초기입장의 새 협력기업 수요를 유지하고, 시간·온체인·경쟁별로 직접 수행·기존 레일·제휴 선택을 새로 구체화"
+    },
+    {
+      "id": "C-443",
+      "type": "claim",
+      "kind": "hypothesis",
+      "status": "active",
+      "label": "양도·수금 가능한 확정 정산채권이 있는 외부 콘텐츠 사업자와 적격 투자자가 있고 발행·관리 고정비가 주된 비거래 이유라면, 반복 소액 채권의 모듈형 발행·관리 계약이 새 고객 시장을 열 수 있다. 기존 IB 발행/사후관리 자동화와 병행하고 원권리 관리·투자자 목적별 구성에 별도 보수가 남을 가능성을 우선 검증한다. 이번 조건 검토: 상품 조합 자체의 별도 보수보다 고객이 값을 내는 수금/권리 관리에 집중하고 단순 팩토링을 우선 비교"
+    },
+    {
+      "id": "C-444",
+      "type": "claim",
+      "kind": "hypothesis",
+      "status": "active",
+      "label": "현지 인가·약관·동의·IDR 지급·판매 권한이 충족되고 감당 가능한 위험보험료가 존재한다면, 설명·명부·납입·청구 관리비 때문에 첫 적합한 보장을 제공하지 못했던 소규모 고용주에게 단체 정액보장과 관리 서비스가 성립할 수 있다. 기존 국내 보험·GA 유지/청구 개선과 병행해 현지 고용주의 실제 지급 의사를 검증한다. 이번 조건 검토: 초기에 고정한 고용주·인수 가능 직원집단과 IDR 경로를 유지. 동등 성과 조건에서는 기존 IDR+AI를 우선하고 별도 AI 관리료·직접 플랫폼은 조건부 포기"
+    },
+    {
       "id": "T-RIGHTS",
       "type": "topic",
       "label": "기초자산·법적 권리·발행"
@@ -21162,6 +21246,303 @@
     },
     {
       "from": "C-432",
+      "to": "T-INSTITUTION-ROLES",
+      "type": "about"
+    },
+    {
+      "from": "ST-TD-003",
+      "to": "C-433",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "OBX-P-002",
+      "to": "C-433",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-433",
+      "to": "T-RIGHTS",
+      "type": "about"
+    },
+    {
+      "from": "C-433",
+      "to": "T-MARKET",
+      "type": "about"
+    },
+    {
+      "from": "ST-TD-003",
+      "to": "C-434",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-434",
+      "to": "T-MONEY",
+      "type": "about"
+    },
+    {
+      "from": "C-434",
+      "to": "T-MARKET",
+      "type": "about"
+    },
+    {
+      "from": "ST-TD-003",
+      "to": "C-435",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-435",
+      "to": "T-AI",
+      "type": "about"
+    },
+    {
+      "from": "C-435",
+      "to": "T-COLLATERAL",
+      "type": "about"
+    },
+    {
+      "from": "ST-TD-002",
+      "to": "C-436",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-436",
+      "to": "T-AI",
+      "type": "about"
+    },
+    {
+      "from": "C-436",
+      "to": "T-INSTITUTION-ROLES",
+      "type": "about"
+    },
+    {
+      "from": "ST-TD-001",
+      "to": "C-437",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "ST-TD-002",
+      "to": "C-437",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-437",
+      "to": "T-AI",
+      "type": "about"
+    },
+    {
+      "from": "C-437",
+      "to": "T-OPERATIONS",
+      "type": "about"
+    },
+    {
+      "from": "OBX-P-001",
+      "to": "C-438",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-438",
+      "to": "T-AGENT-FINANCE",
+      "type": "about"
+    },
+    {
+      "from": "C-438",
+      "to": "T-MARKET",
+      "type": "about"
+    },
+    {
+      "from": "OBX-P-001",
+      "to": "C-439",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-439",
+      "to": "T-OPERATIONS",
+      "type": "about"
+    },
+    {
+      "from": "C-439",
+      "to": "T-MARKET",
+      "type": "about"
+    },
+    {
+      "from": "OBX-P-002",
+      "to": "C-440",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-440",
+      "to": "T-MONEY",
+      "type": "about"
+    },
+    {
+      "from": "C-440",
+      "to": "T-SETTLEMENT",
+      "type": "about"
+    },
+    {
+      "from": "OBX-P-003",
+      "to": "C-441",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-441",
+      "to": "T-REGULATION",
+      "type": "about"
+    },
+    {
+      "from": "C-441",
+      "to": "T-COLLATERAL",
+      "type": "about"
+    },
+    {
+      "from": "ST-TD-003",
+      "to": "C-442",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "ST-TD-002",
+      "to": "C-442",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "OBX-P-002",
+      "to": "C-442",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "ST-KN-001",
+      "to": "C-442",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "ST-KN-002",
+      "to": "C-442",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-442",
+      "to": "T-COMPANIES",
+      "type": "about"
+    },
+    {
+      "from": "C-442",
+      "to": "T-AGENT-FINANCE",
+      "type": "about"
+    },
+    {
+      "from": "C-442",
+      "to": "T-INSTITUTION-ROLES",
+      "type": "about"
+    },
+    {
+      "from": "ST-TD-003",
+      "to": "C-443",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "ST-TD-002",
+      "to": "C-443",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "OBX-P-001",
+      "to": "C-443",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "ST-KY-001",
+      "to": "C-443",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "KYX-M-002",
+      "to": "C-443",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "KYX-M-009",
+      "to": "C-443",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-443",
+      "to": "T-COMPANIES",
+      "type": "about"
+    },
+    {
+      "from": "C-443",
+      "to": "T-AGENT-FINANCE",
+      "type": "about"
+    },
+    {
+      "from": "C-443",
+      "to": "T-INSTITUTION-ROLES",
+      "type": "about"
+    },
+    {
+      "from": "ST-TD-002",
+      "to": "C-444",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "ST-TD-001",
+      "to": "C-444",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "OBX-P-001",
+      "to": "C-444",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "BMX-HW-001",
+      "to": "C-444",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "ST-HW-007",
+      "to": "C-444",
+      "type": "grounds",
+      "note": "provenance, not proof of causation"
+    },
+    {
+      "from": "C-444",
+      "to": "T-COMPANIES",
+      "type": "about"
+    },
+    {
+      "from": "C-444",
+      "to": "T-AGENT-FINANCE",
+      "type": "about"
+    },
+    {
+      "from": "C-444",
       "to": "T-INSTITUTION-ROLES",
       "type": "about"
     }

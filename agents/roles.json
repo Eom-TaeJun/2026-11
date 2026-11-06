@@ -1,6 +1,6 @@
 {
   "title": "금융환경 변화와 기업 신호 분석 에이전트 팀",
-  "version": "2.1",
+  "version": "2.2",
   "created_date": "2026-11-02",
   "artifact_type": "재사용 가능한 역할 및 작업 명세",
   "execution_status": {
@@ -8,9 +8,10 @@
     "installed_runtime_configuration": false,
     "target_company_research_started": true,
     "scheduled_monitoring_enabled": false,
-    "note": "설계검토 runs/2026-11-06-agent-design.json 이후 v2.1 실제 연구를 runs/2026-11-06-outlook-reassessment.json으로 수행. 초기·후기 교수형과 독립 검토를 실행했으며 상시 서버나 일정은 없음.",
+    "note": "설계검토 runs/2026-11-06-agent-design.json 이후 v2.1 실제 연구를 runs/2026-11-06-outlook-reassessment.json으로 수행. 초기·후기 교수형과 독립 검토를 실행했으며 상시 서버나 일정은 없음. 2026-11-07에는 원문 지도와 v2.2의 세 그룹 조건부 기회 탐색을 추가 적용; 현행 회사 사실 전수 갱신이나 고객 실험은 아님.",
     "target_company_research_scope": "탑다운 미래와 경남 본사·교보 미래전략·한화 생명 신사업의 기존 고객·기반·권리·현금·수익·경쟁·검증 제안. 실제 고객 시험·계약가격·전체 인가·팀 정원·예산·신사업 이익은 미확인.",
-    "latest_research_run": "runs/2026-11-06-outlook-reassessment.json"
+    "latest_research_run": "runs/2026-11-06-outlook-reassessment.json",
+    "latest_design_application_run": "runs/2026-11-07-cschung7-opportunity.json"
   },
   "mission": "금융환경 변화가 고객의 문제와 금융기관의 선택을 어떻게 바꾸는지 설명하고, 특정 기업의 실제 신호·기존 역량과 연결해 사용자에게 필요한 판단과 행동으로 수렴한다.",
   "research_brief": {
@@ -349,23 +350,26 @@
         "특정 교수의 현재 견해를 대리하지 않고 출처의 설명과 이번 추론을 구분한다.",
         "법제 미완성만 반복하지 않고 강한 미래 가정 아래 2차 경쟁 반응까지 전개한다.",
         "동일 금융업무 기준선, 상계·선자금·유동성·가격 전가·회수를 검토한다.",
-        "초기 모드에서는 이번 결정을 설명할 핵심 경제 원리와 적용 조건을 골라 잠정 중심 입장·가장 강한 대안·판별 질문을 제시한다. 기존 원문을 읽기 전에 사실을 지어내지 않는다.",
+        "초기 모드에서는 핵심 원리·시간 단위·적용 조건을 고르고, 같은 강한 미래의 기존 업무 개선과 이전 미성립 고객·계약·시장 경로를 먼저 나누어 전개한 뒤 잠정 중심 입장·가장 강한 대안·판별 질문을 제시한다. 기존 원문을 읽기 전에 사실을 지어내지 않는다.",
         "후기 모드에서는 새 근거와 전달경로·기업별 적용을 받고 초기 입장을 유지/수정/폐기한다. 무엇이 더 중요하고 왜 그 방향을 우선 준비해야 하는지 의견을 명확히 제시한다.",
         "기존 수익 방어와 함께 비용·접근 제약의 변화로 생길 새 수요를 탐색하고, 경쟁 반응 후 남는 기능과 잉여의 귀속을 판단한다.",
+        "과거 비거래 이유·새 상품 조합/시간/업무·지급 의사와 능력을 연결한다. 기존+AI에서도 가능한 개선과 온체인의 추가 효과, 기존 거래 이동과 새 금융 접근 및 실물 현금흐름 증가를 나눈다.",
+        "data/cschung7_reasoning_map.json과 reports/46_cschung7_reasoning_and_market_discovery.md에서 원문 방향·선택한 경제 원리·교수 명시 조건·분석자 도출 조건·교수 명시 판단변경 기준·우리 판별 관측의 귀속을 확인한다. 교수 기준이 읽은 범위에서 미확인이면 null과 범위를 보존하며 연구 품질 검증을 시장 전망 철회 기준으로 바꾸지 않는다.",
         "강한 가정은 끝까지 전개한다. 명시된 미래 조건을 현행 미인가 문구로만 되돌려 분석을 끝내지 않는다. 그 가정이 현재의 실제 실행 권한을 부여하는 것으로 취급하지도 않는다.",
         "의견·근거·반대 조건·우선 행동·판단 변경 관측을 남긴다. 일반론이나 미확인 목록만으로 완료하지 않는다. 독립 검토의 사실 오류·모형 오적용 지적을 반영한다.",
         "공통 인계와 두 단계 교수형 호출은 agents/economic_opinion_workflow.md를 따른다. 단순 질문에 모든 필드를 강제로 채우지 않는다."
       ],
       "outputs": [
+        "초기 입장 전 기존 업무 개선과 이전 미성립 시장의 비교 경로·선택 이유",
         "초기 입장과 선택한 경제 원리·적용 조건",
         "판별 질문과 가장 강한 대안",
         "후기 입장 유지/수정/폐기 및 이유",
         "경쟁 후 수익·위험·새 수요의 방향",
         "우선 행동과 판단 변경 관측"
       ],
-      "completion_condition": "미래를 구체화하고 반대 경로·귀속·원문과 독립 검증을 연결한다.",
+      "completion_condition": "기존 개선과 새 시장 경로에서 미래를 구체화한 뒤 입장을 선택하고, 반대 경로·귀속·원문과 독립 검증을 연결한다. 신규 수요의 부정도 이유를 갖추면 허용한다.",
       "invocation_modes": {
-        "opening": "잠정 입장·경제 원리·반대 경로·판별 질문",
+        "opening": "경제 원리·조건·기존 개선/새 시장 탐색 후 잠정 입장·반대 경로·판별 질문",
         "closing": "근거에 따른 입장 갱신·경쟁 후 방향·행동"
       }
     }
@@ -420,7 +424,7 @@
   ],
   "workflow": [
     "총괄이 사용자 결정·범위·근거 기준일·전망 기간·기존 판단을 고정한다.",
-    "초기 교수형: 기존 최소 근거와 금융 기능에서 핵심 원리·잠정 중심 입장·강한 대안·판별 질문을 만든다. 초기 입력과 입장을 보존한다.",
+    "초기 교수형: 기존 최소 근거와 금융 기능에서 핵심 원리·조건을 고르고 기존 업무 개선과 이전 미성립 시장을 먼저 전개한 뒤 잠정 중심 입장·강한 대안·판별 질문을 만든다. 초기 입력과 입장을 보존한다.",
     "환경 수집과 원문 해석: 바뀐 변수·제약과 지지/반대 자료를 조사한다. 새 대안 설명을 추가할 수 있다.",
     "환경 메커니즘에서 금융 기능과 고객 문제·기업 확인 질문을 만들면 기업 적용 단계로 이동한다.",
     "기업 신호 수집과 해석: 실제 수익·고객·자본·역량·자원 투입·경쟁 반응을 병렬 조사한다.",
@@ -463,12 +467,14 @@
     "선택한 원리에서 주체의 선택과 경쟁 후 방향이 설명되고 이론 이름만 나열하지 않는다.",
     "강한 가정과 반대 조건을 구분하며 전제 변경에 따라 판단·행동을 정당하게 갱신한다.",
     "기존 수익 방어뿐 아니라 새 수요·제휴·외부 구매·축소도 비교한다.",
+    "기회가 강화/약화되는 조건에서 판단과 행동이 함께 바뀌며, 교수 명시 조건·판단변경 기준과 연구자의 도출 조건·판별 관측을 혼동하지 않는다.",
     "사실 검증 통과와 조건부 논리·현재 실행 가능성·예측 성능을 구분한다."
   ],
   "group_country_workflow": "agents/group_country_opportunity_workflow.md",
   "position_comparison_workflow": "agents/position_comparison_workflow.md",
   "business_model_workflow": "agents/business_model_reasoning_workflow.md",
-  "design_updated_at": "2026-11-06",
+  "design_updated_at": "2026-11-07",
+  "design_revision_note": "v2.1에도 새 수요와 강한 미래 가정이 있었다. v2.2는 기존8개 역할 안에서 초기 입장 전의 기존 개선/새 시장 탐색과 원문 귀속을 구체화한다. 과거 실행 기록은 해당 실행 당시 판본을 뜻하며 개인 판단방식 재현 성능은 검증하지 않았다.",
   "economic_opinion_workflow": "agents/economic_opinion_workflow.md",
   "economic_domain_lenses": "agents/economic_domain_lenses.md",
   "reasoning_evaluation_cases": "agents/evaluations/domain_reasoning_cases.json",
@@ -476,8 +482,10 @@
     "decision_scope",
     "current_position",
     "existing_financial_function",
+    "pre_position_improvement_and_new_market_paths",
     "selected_lenses_and_conditions",
     "evidence_refs",
+    "source_direction_and_condition_attribution",
     "explicit_assumptions",
     "changed_margin",
     "actor_choices_and_feedback",

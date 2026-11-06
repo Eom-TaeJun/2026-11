@@ -1,0 +1,55 @@
+{
+  "run": "2026-11-07-cschung7-opportunity",
+  "as_of": "2026-11-07",
+  "read_events": [
+    {
+      "source_id": "ST-TD-003",
+      "read_status": "selected_sections",
+      "read_scope": "HTML 605–1100 요청 중 Module 01~03 본문·SVG 텍스트 644–960을 직접 읽음. JavaScript 실행·인용 통계 원자료·브라우저 렌더 미검증.",
+      "checked_at": "2026-11-07",
+      "url": "https://github.com/cschung7/2026-class-UG-AIFinance/blob/6cf6eaf6e508aeda486721f193b3309a1a7f017f/blockchain/future_markets_series.html",
+      "git_blob_sha": "9db106ada489c92c31148608d9b969797e4f066f"
+    },
+    {
+      "source_id": "ST-TD-002",
+      "read_status": "selected_sections",
+      "read_scope": "고정 HTML 285–410행. 특히 315–328(Coase), 334–344(감독형 자율성), 366–398(실패·거버넌스·토론). 다른 슬라이드와 외부 문서 미독.",
+      "checked_at": "2026-11-07",
+      "url": "https://github.com/cschung7/2026-class-UG-AIFinance/blob/3200cf6953b1b45257fcd25a3c7c961942f7bff7/agent_lecture_2006-spring.html",
+      "git_blob_sha": "2a2349a02b36f2c7855607ce3dbba797182b3f3e"
+    },
+    {
+      "source_id": "ST-TD-001",
+      "read_status": "selected_sections",
+      "read_scope": "요청 고정판 f031aa16의 HTML 1210–1525행(슬라이드4 일부 및5~22)을 직접 읽음. 기존 canonical 210c6313의1370–1385 재조회로 동일 blob 확인. 외부 인용과 런타임 실제 동작 미검증.",
+      "checked_at": "2026-11-07",
+      "url": "https://github.com/cschung7/2026-2nd/blob/210c6313640ab03ac8a652c8e4435386734cf6ca/hermes-agent-economics-lecture.html",
+      "git_blob_sha": "3bf85f9cf522a82928d82e3a748fbfc895439cb0"
+    },
+    {
+      "source_id": "OBX-P-001",
+      "read_status": "selected_sections",
+      "read_scope": "17쪽 PDF 중1·5·8·9·10·11·13·14·16·17쪽 텍스트 직접 재열람. 나머지7쪽과 이번 렌더 시각 검토는 미수행. GitHub base64 응답 blob과 pinned raw PDF 바이트의 Git blob/SHA256 일치 확인.",
+      "checked_at": "2026-11-07",
+      "url": "https://github.com/cschung7/2026-2nd/blob/95d4f2d97d20b4f142e15d457a0ffe1354d3aa43/AI-Finance-GSE/%EC%98%A8%EB%8F%84%20%EC%9D%B8%ED%85%94%EB%A6%AC%EC%A0%84%ED%8A%B8%20%ED%8F%AC%ED%8A%B8%ED%8F%B4%EB%A6%AC%EC%98%A4%20%28%EA%B0%95%EC%9D%98%20%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C%29.pdf",
+      "git_blob_sha": "36e173f261d22900661f666be61e936cf4276292"
+    },
+    {
+      "source_id": "OBX-P-002",
+      "read_status": "selected_sections",
+      "read_scope": "고정 HTML 전체 파일 취득 후60–210행의 가치·원장·담보·은행·AI·토론 본문 선택 재열람. CSS/JS 실행·외부 인용·다른 회사 현재 계약은 미검증.",
+      "checked_at": "2026-11-07",
+      "url": "https://github.com/cschung7/2026-class-UG-AIFinance/blob/3200cf6953b1b45257fcd25a3c7c961942f7bff7/blockchain/ondo_buidl_mastercard_interactive_slides.html",
+      "git_blob_sha": "53916ac17b75838a369d67ff181650e1a010989c"
+    },
+    {
+      "source_id": "OBX-P-003",
+      "read_status": "selected_sections",
+      "read_scope": "고정 HTML296–448행(OCC 제안 소개·BUIDL·Circle 연결·위험) 직접 재열람. 내장 이미지·원문 의견서·규제 최종안·실제 자금부담 계약은 미독.",
+      "checked_at": "2026-11-07",
+      "url": "https://github.com/cschung7/2026-class-UG-AIFinance/blob/3200cf6953b1b45257fcd25a3c7c961942f7bff7/blockchain/Blackrock-build-genius-act.html.html",
+      "git_blob_sha": "6a625f956f1415bfc91a903801c3a624ada27fca"
+    }
+  ],
+  "reused_context": "기업 기반은 기존 보고서·원장 기간을 유지해 재사용한다. 이번 6개 재열람에 회사/법령의 새로운 확인은 포함되지 않는다."
+}

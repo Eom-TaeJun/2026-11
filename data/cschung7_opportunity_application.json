@@ -1,0 +1,749 @@
+{
+  "as_of": "2026-11-07",
+  "status": "complete_conditional_probe_pending_independent_review",
+  "opening_frozen_at_utc": "2026-11-06T16:33:15.077477+00:00",
+  "opening_sha256": "9a755b7c110f5b98d52631a86932e21362c9bbc635e885ac1e59c9eaf5d9b39d",
+  "opening": [
+    {
+      "probe_id": "CS7-OP-BNK",
+      "institution": "BNK·경남은행",
+      "kind": "hypothesis",
+      "text": "필요한 권리·인가·동의·다기관 상태 공유가 성립한 2027년 이후, 확인 가능한 원청 지급채권이 있지만 작은 건별 확인·관리 고정비 때문에 해당 조달을 이용하지 못했던 협력기업에게 반복 운전자금 서비스가 새로 성립할 수 있다. 기존 fERP+AI로 현 고객의 현금·여신관계를 개선하는 경로와 병행해 소규모 신규 고객 검증을 우선한다.",
+      "preferred_initial_action": "원청·협력사·은행의 채권 확인과 반복 조달을 한 고객군에서 시험하고 다기관 대사에 온체인 추가 편익이 있을 가능성을 조사한다.",
+      "new_customer_boundary": "경남은행의 해당 건별 금융을 이용하지 않았던 사업자; 타행·팩토링에서도 배제됐다는 가정은 하지 않음.",
+      "observed_new_customers": null
+    },
+    {
+      "probe_id": "CS7-OP-KY",
+      "institution": "교보증권 중심 교보그룹",
+      "kind": "hypothesis",
+      "text": "양도·수금 가능한 확정 정산채권이 있는 외부 콘텐츠 사업자와 적격 투자자가 있고 발행·관리 고정비가 주된 비거래 이유라면, 반복 소액 채권의 모듈형 발행·관리 계약이 새 고객 시장을 열 수 있다. 기존 IB 발행/사후관리 자동화와 병행하고 원권리 관리·투자자 목적별 구성에 별도 보수가 남을 가능성을 우선 검증한다.",
+      "preferred_initial_action": "반복 정산채권 한 유형의 발행·수금 관리와 투자자 목적별 구성의 유료 계약을 함께 검토한다.",
+      "new_customer_boundary": "기존 최소규모/고정비 때문에 이 계약을 발행하지 않던 외부 사업자; 단순 팩토링의 이동은 별도.",
+      "observed_new_customers": null
+    },
+    {
+      "probe_id": "CS7-OP-HW",
+      "institution": "한화생명·인도네시아 개별 금융법인",
+      "kind": "hypothesis",
+      "text": "현지 인가·약관·동의·IDR 지급·판매 권한이 충족되고 감당 가능한 위험보험료가 존재한다면, 설명·명부·납입·청구 관리비 때문에 첫 적합한 보장을 제공하지 못했던 소규모 고용주에게 단체 정액보장과 관리 서비스가 성립할 수 있다. 기존 국내 보험·GA 유지/청구 개선과 병행해 현지 고용주의 실제 지급 의사를 검증한다.",
+      "preferred_initial_action": "현지 보험자와 허용 채널이 고용주 부담 IDR 납입·근로자 보장·청구를 묶는 작은 계약을 검토하고 여러 기관의 상태 공유 필요를 확인한다.",
+      "new_customer_boundary": "계약관리비 때문에 직원 첫 적합 보장을 제공하지 않던 고용주; 젊은 인구나 Nobu 전체 고객을 분모로 쓰지 않음.",
+      "observed_new_customers": null
+    }
+  ],
+  "method_limit": "동일 담당자가 공개 근거와 사전 제공된 조건실험을 알고 작성한 단계적 적용. 블라인드 예측·독립 후속 시장 관측 실험이 아니다.",
+  "closing_recorded_at_utc": "2026-11-06T16:39:42.764735+00:00",
+  "design_basis": "v2.2 기회 탐색 제안; 원문 카드→초기 가설→독립 조건 변경→최종 행동",
+  "common_assumptions": [
+    "2027년 이후 필요한 개별 인가·유효 권리·계약·고객 동의·AI 위임·기술 연결이 충족된 강한 미래를 조건으로 삼는다.",
+    "이 가정은 신용·납입 능력·투자 수요·지급 의사·보험 인수 가능성·대형사 경쟁 우위를 보장하지 않는다.",
+    "그룹 법인 경계·자본·계열 신용·보험자/은행 책임은 유지하며, 토큰 이전과 은행현금/채무 이행을 분리한다."
+  ],
+  "experiment_protocol": {
+    "comparisons": "각 T1/T2/T3/T4a/T4b는 다른 조건을 고정하고 표기한 변수만 바꾸는 독립 반사실. 결합 효과를 측정하거나 확률을 부여하지 않음.",
+    "opening_preserved": true,
+    "source_facts_changed_during_probe": false,
+    "blind_preregistered_test": false,
+    "private_context_policy": "기존 개인 학습 계보의7개 경로는 질문 누락 점검용으로 선택 참고. 개인 원문·정확 인용·비공개 경로·고유 분석을 공개 출력에 복제하지 않고 공개6원문과 기존 공개 기관 기록으로 독립 작성."
+  },
+  "cases": [
+    {
+      "probe_id": "CS7-OP-BNK",
+      "source_card_ids": [
+        "CS7-CARD-01",
+        "CS7-CARD-02",
+        "CS7-CARD-04",
+        "CS7-CARD-08"
+      ],
+      "source_ids": [
+        "ST-TD-003",
+        "ST-TD-002",
+        "OBX-P-002",
+        "ST-KN-001",
+        "ST-KN-002"
+      ],
+      "baseline": {
+        "read_scope": "기존 원장 BMX-F-003·007과 reports35·36 및11/6 report42 선택 재사용. 이번 공식 IR/fERP 웹 재열람 아님.",
+        "observed_functions": "그룹은2026년1~9월 조정영업이익에서 순이자이익 비중 약87.8%; 경남은행9월말 SME대출/원화대출 약57.2%. 이는 수익/잔액 비율이며 신규 접근 고객 수가 아니다. fERP는 기존 기업 자금·다은행 조회/집금 접점.",
+        "why_this_institution": "기업여신·자금관리의 실제 수익과 접점에 작은 공급망 고객을 연결할 수 있는 출발점. 원청 확인 접근권·고객 수·개별 회수 우위는 미확인.",
+        "constraints": "대출은 은행의 자본·조달·신용손실을 사용하며 외부 투자자 배분이나 그룹 보증은 자동으로 성립하지 않음."
+      },
+      "new_market": {
+        "customer": "승인된 원청 지급채권을 갖되 작은 건별 확인·관리비 때문에 이 반복 조달 서비스를 이용하지 않던 협력기업",
+        "previous_nontrade_reason": "본 가설은 고정비가 주된 병목인 경우만 설정; 권리·신용·상환능력 부족인 경우를 테스트에서 분리.",
+        "new_job": "채권 발생/승인 확인→기존 담보·양도 중복 점검→한도 심사→필요일 은행현금 지급→원청 수금·상환·회수",
+        "expanded_boundary": "같은 권리 품질로도 이전 최소규모 아래라 취급하지 못한 건별 금융. 타행 금융 이동과 처음 가능해진 금융을 따로 기록.",
+        "real_economy_effect": "미충족 생산 주문을 실행한다는 효과는 추가 가설이며 대출 실행만으로 생산 증가를 입증하지 않음."
+      },
+      "existing_job_improvement": {
+        "job": "현 fERP/기업여신 고객의 계좌·송장·지급·한도 자료를 기존 API+AI로 연결하여 불필요 차입·지급 실패·서류 재작업을 줄임.",
+        "economic_comparator": "새 고객 획득비/검증비를 쓰는 신규 서비스와 같은 미래의 기존 고객 개선·미적응을 각각 비교. 단순 과거 대비 이익 증감을 원인효과로 쓰지 않음."
+      },
+      "money_rights_revenue_loss": {
+        "contracts_and_rights": "협력기업의 지급채권·차입약정, 원청의 채무 확인, 적법한 양도/담보 및 수금 통제. 거래 자료를 읽는 권한은 처분권·신용약정이 아님.",
+        "cash": "은행이 승인된 한도 안에서 협력사 은행계좌에 지급; 원청의 수금은 통제 계좌에서 계약대로 원리금/관리비 등에 배분. 상환 후 잔액은 권리자에게.",
+        "payer_and_receiver": "차주가 대출 이자와 실제 별도 업무 보수를 계약대로 은행/관리자에게 지급. 원청의 프로그램 운영료는 별도 유료 약정이 있을 때만.",
+        "contribution": "Δ대출 FTP 후 이자기여 + Δ예금 FTP 후 기여 + Δ실제 순수수료 − 아직 반영하지 않은 신용손실·운영·자본 비용. 조달비·잠식은 한 번만 반영.",
+        "loss_bearer": "채무불이행·분쟁/반품·허위승인·원청 집중과 회수비를 계약/보유위험대로 배분. 토큰화로 신용위험이 소멸하지 않음.",
+        "group_boundary": "다른 BNK 법인의 자금·고객·인가·보증을 자동 사용하지 않으며 외부 투자자 판매대금은 수수료가 아님."
+      },
+      "ai_onchain_choice": "AI는 증빙 비교·예측·예외 설명, 결정론적 코드와 권한 시스템은 한도·중복양도·현금/상환 계산. 온체인은 여러 당사자의 동일 권리/처리상태 확인이 기존 API보다 추가 순편익을 낼 때만 채택.",
+      "competition_second_round": "시중은행이 기존 ERP/공급망 금융에 무료 확인·AI를 묶으면 고객의 거래 범위 확대는 남아도 별도 확인 수수료는 줄 수 있다. 경남은 현장 회수·특정 원청 계약이 비용 후 우위인 구간만 직접 맡고 공통망은 구매/공동운영한다.",
+      "condition_tests": [
+        {
+          "id": "T1",
+          "changed_variable_only": "비거래의 지배적 원인",
+          "branch_a": {
+            "condition": "확인/관리 고정비만 낮아지면 차주·원청 신용과 위험보상 가능한 계약 범위가 존재",
+            "decision_and_action": "신규 소액 협력사 검증을 확대하고 이전에 없던 계약과 타행 이동을 구분"
+          },
+          "branch_b": {
+            "condition": "상환능력·분쟁권리 또는 위험/변동비가 핵심 장벽",
+            "decision_and_action": "조달 확대 중단. 보증/신용보완의 실제 비용·제공자를 별도로 확인하고 없으면 기존 자금관리 개선만 시행"
+          },
+          "next_observation": "과거 거절 사유, 원청 확인, 위험 반영 견적, 실제 고객 지급의사",
+          "nature": "conditional_semantic_experiment_not_observed_outcome"
+        },
+        {
+          "id": "T2",
+          "changed_variable_only": "온체인의 독립 추가효과",
+          "branch_a": {
+            "condition": "기존 API+AI가 같은 권리·시간·현금·복구를 같은 비용으로 제공",
+            "decision_and_action": "새 고객 기회는 유지하되 기존 API 경로 우선; 체인 구축비 지출 보류"
+          },
+          "branch_b": {
+            "condition": "다기관의 재확인·대사가 기존 방식에서 병목이며 공유 상태가 비용 후 추가 편익 제공",
+            "decision_and_action": "그 고객군만 공동원장/온체인 실험 강화; 전 고객 이행은 하지 않음"
+          },
+          "next_observation": "동일 증빙·고객·규모의 두 경로 견적과 완료 기록",
+          "nature": "conditional_semantic_experiment_not_observed_outcome"
+        },
+        {
+          "id": "T3",
+          "changed_variable_only": "경쟁자가 같은 기능을 무료 묶음",
+          "branch_a": {
+            "condition": "시중은행이 동등한 신용조건·회수·복구를 포함해 더 싼 묶음 제공",
+            "decision_and_action": "시장 성장 전망과 별개로 경남의 별도 수수료·직접 취급 범위를 축소/제휴; 신용가격 경쟁 후 기여 없으면 거래 포기"
+          },
+          "branch_b": {
+            "condition": "경남만 검증 가능한 현장 회수/원청 계약 편익이 있고 고객이 비용 후 차액 지급",
+            "decision_and_action": "특정 업종/원청 범위로 유료 확대; 단순 관계/브랜드는 근거로 쓰지 않음"
+          },
+          "next_observation": "동등 책임 범위의 경쟁 견적, 계약별 순기여, 실제 재선택",
+          "nature": "conditional_semantic_experiment_not_observed_outcome"
+        },
+        {
+          "id": "T4a",
+          "changed_variable_only": "시간 조건만: 사용 가능한 은행현금",
+          "branch_a": {
+            "condition": "권리는24시간 이전 가능하지만 야간 지급할 은행현금/지원은 없다",
+            "decision_and_action": "24/7 지급 약속 제거. 영업시간 지급 또는 비용을 가격에 반영한 사전 자금/확약 한도 비교; 감당 못하면 야간상품 중단"
+          },
+          "branch_b": {
+            "condition": "고객 야간 의무와 사용 가능한 현금/지원이 실제로 연속적",
+            "decision_and_action": "시간대별 필요자금·한도·실패복구 계약으로 새 야간고객 업무 시험"
+          },
+          "next_observation": "시각별 의무/계좌입금, 자금 제공자, 피크 조달비와 SLA",
+          "nature": "conditional_semantic_experiment_not_observed_outcome"
+        },
+        {
+          "id": "T4b",
+          "changed_variable_only": "조직비용만: 내부 대 외부",
+          "branch_a": {
+            "condition": "대형은행 내부 AI 조정비가 외부 분업비보다 더 크게 감소",
+            "decision_and_action": "범용 자체 플랫폼 투자 축소; 필요한 공동 인프라 구매 또는 특화 회수 공급자로 전환"
+          },
+          "branch_b": {
+            "condition": "공동 표준으로 외부 전문업체 연결비가 내부 통합비보다 더 크게 감소",
+            "decision_and_action": "기관별 확인·신용·관리 모듈을 분업하고 외부 고객 계약 확보"
+          },
+          "next_observation": "동일 책임/품질에서 통합·외주 총원가와 전환비",
+          "nature": "conditional_semantic_experiment_not_observed_outcome"
+        }
+      ],
+      "closing": {
+        "decision": "maintain_with_operating_branches",
+        "retained": "고정비로 배제된 신용 있는 작은 기업의 새 반복 금융 수요",
+        "revised": "초기입장의 새 협력기업 수요를 유지하고, 시간·온체인·경쟁별로 직접 수행·기존 레일·제휴 선택을 새로 구체화",
+        "discarded_component": "같은 결과를 기존+AI가 내거나 경쟁 기여가 음수인 범위의 독자 체인/별도 확인료",
+        "action_now": "기존 고객 개선과 별도로 원청/협력사 한 유형의 비거래 사유·증빙·위험가격·경쟁 견적을 확보하는 제한 검증을 병행",
+        "expand_if": "지급능력·유효권리·순기여와 반복 계약이 함께 확인",
+        "stop_if": "신용/권리 장벽을 관리비 감소로 오인하거나 대형 경쟁의 동등 조건보다 총기여가 열위",
+        "evidence_delta": "새 회사사실 발견 없음; 고정된 가설의 조건 변경에서 업무 범위·직접 수행 선택을 조정"
+      },
+      "unknowns": {
+        "customers": null,
+        "willingness_to_pay": null,
+        "default_loss": null,
+        "prices": null,
+        "net_contribution": null
+      },
+      "claim_id": "C-442"
+    },
+    {
+      "probe_id": "CS7-OP-KY",
+      "source_card_ids": [
+        "CS7-CARD-01",
+        "CS7-CARD-04",
+        "CS7-CARD-06",
+        "CS7-CARD-07"
+      ],
+      "source_ids": [
+        "ST-TD-003",
+        "ST-TD-002",
+        "OBX-P-001",
+        "ST-KY-001",
+        "KYX-M-002",
+        "KYX-M-009"
+      ],
+      "baseline": {
+        "read_scope": "BMX-KY-F-11·12·13·23·25 및 reports35·37·43, POD 기존 카드 선택 재사용. 새로운 회사 웹/법률 재검증 아님.",
+        "observed_functions": "2026년반기 연결 인수·주선 수수료117.73억원, 금융자문224.51억원; 별도 해외선물 위탁수수료688.28억원. 서로 다른 범위는 합산하지 않음. 문고 공개 자료는 판매·정산·지급장부가 다른 단계임을 보여준다.",
+        "why_this_institution": "실제 발행·주선·자문·자금 업무의 지급자가 있는 증권사라는 출발점. 문고의 계약/정산 접근은 후보이지 독점 데이터 사용권·금융수요 증거가 아님.",
+        "constraints": "생명은 독립 ALM·자본·투자심사; 문고는 실제 계약상 역할; 증권의 인수·보증·계열 신용 제한은 유지."
+      },
+      "new_market": {
+        "customer": "양도·수금 가능한 확정 정산채권을 가진 외부 콘텐츠 사업자와 적격 기관 투자자",
+        "previous_nontrade_reason": "반복 채권이 있으나 발행·실사·관리 고정비/최소단위가 조달 편익보다 커서 이 계약을 하지 않던 사업자라는 가정",
+        "new_job": "작은 채권의 반복 확인·발행/매입 주선·투자자 목적별 만기/현금흐름 구성·수금/분쟁 관리",
+        "expanded_boundary": "기존 매출채권의 일부를 작은 거래로 금융화하는 접근 확대. 토큰 복제/트랜치 수가 새 기초 현금흐름은 아님.",
+        "real_economy_effect": "새 제작/판매를 촉진할 수 있으나 기존 채권 조기 현금화 자체는 기존 외부 수입의 시점 변경; 신규 실물 매출은 따로 검증."
+      },
+      "existing_job_improvement": {
+        "job": "기존 IB 반복 발행인의 문서·권리·현금 대사와 사후관리를 전자증권/신탁/기존계약+AI로 개선; 동일 소액 고객에는 단순 조기정산·팩토링을 직접 대안으로 제시.",
+        "economic_comparator": "동일 원권리·채무자·기간·위험에서 조기정산/팩토링/구조화의 총비용과 현금을 비교. 기존 거래 자동화의 편익으로 새 고객 수요를 대신하지 않음."
+      },
+      "money_rights_revenue_loss": {
+        "contracts_and_rights": "특정 월 확정 채권의 채권자·채무자·양도·대항요건·반품/상계·기존 담보·수금 통제를 확인. 저작권 소유와 유통/정산채권은 별개.",
+        "cash": "독립 투자자 자금→허용된 매입/발행 주체→외부 채권자 조기 현금; 채무자 지급→통제 수금계좌→약정 비용/준비금/투자자 및 잔여 권리자. 실제 적립 가능 준비금과 부족을 분리.",
+        "payer_and_receiver": "외부 발행인/매도자 또는 투자자의 명시 계약에 따른 증권 주선·배분·관리 보수. 문고의 정보/수금 대행료는 실역할·독립가격이 있을 때만.",
+        "contribution": "실제 외부 보수 − 외부 배분·실사·법률·수탁·운영·회수 비용 − 별도로 부담한 인수/보증 손실·자본 비용. 그룹 내부 보수를 외부 신규 수익에 더하지 않음.",
+        "loss_bearer": "채무불이행·희석·도산·이중양도·분쟁 손실은 투자자/발행인/책임기관의 계약에 따름. 작품 수 분산은 같은 지급자 집중을 해소하지 않음.",
+        "group_boundary": "생명 사전 매입/보증 없음. 외부 사업자에게 지급하는 매입대금은 외부 유출이며 내부 상계로 제거하지 않음. 계열SPV가 계열 신용 제한을 우회한다고 가정하지 않음."
+      },
+      "ai_onchain_choice": "AI는 정산 증빙과 계약을 대조하고 목적별 조합을 제안; 코드/전문 검토가 유효 잔액·중복담보·배분·적합성을 확인. 온체인은 여러 관리자가 동일 권리 상태를 쓸 때 비용 후 편익이 있는지 비교.",
+      "competition_second_round": "대형증권/플랫폼이 발행과 조합을 무료화하면 원권리별 관리·회수조차 경쟁 견적을 받아야 한다. 유료 관리 우위가 없으면 범용 발행 플랫폼·소액 구성료를 포기하고 외부 기술/전문 회수 제휴 또는 거래 중단을 선택한다.",
+      "condition_tests": [
+        {
+          "id": "T1",
+          "changed_variable_only": "비거래 원인만",
+          "branch_a": {
+            "condition": "권리·채무자 신용·투자자 지급의사가 있고 반복 고정비만 임계 장벽",
+            "decision_and_action": "새 외부 소액 발행인을 대상으로 동일 채권 유형의 반복 계약 확대 검증"
+          },
+          "branch_b": {
+            "condition": "확정 채권/양도/회수 또는 위험보상이 핵심 장벽",
+            "decision_and_action": "금융상품 출시 중단. 계약 정리·정보 서비스만 별도 유료 수요가 있으면 검토"
+          },
+          "next_observation": "실제 채권·채무자 확인, 이전 조달 거절 사유, 외부 투자자 견적",
+          "nature": "conditional_semantic_experiment_not_observed_outcome"
+        },
+        {
+          "id": "T2",
+          "changed_variable_only": "온체인 추가효과만",
+          "branch_a": {
+            "condition": "기존 전자증권/신탁/계약+AI가 동일 권리/현금/복구와 비용 제공",
+            "decision_and_action": "작은 발행시장 가설 유지, 기존 방식으로 실행하고 체인 프리미엄 제거"
+          },
+          "branch_b": {
+            "condition": "기관간 유효 잔액·담보/정산 상태 재사용에 온체인만 충분한 추가 편익",
+            "decision_and_action": "한 계약 유형에 공동 상태/조건부 처리 도입; 법적 권리·투자적합성은 그대로"
+          },
+          "next_observation": "기존 팩토링 포함 완결 견적·같은 권리의 운영 원가",
+          "nature": "conditional_semantic_experiment_not_observed_outcome"
+        },
+        {
+          "id": "T3",
+          "changed_variable_only": "무료 경쟁만",
+          "branch_a": {
+            "condition": "대형사가 동등한 인수·관리·회수까지 묶어 더 낮은 총가격 제공",
+            "decision_and_action": "교보의 독립 발행/구성료 가설 폐기; 유료 전문 기능 없으면 해당 발행 사업 미진입"
+          },
+          "branch_b": {
+            "condition": "실제 수금 통제·복잡한 분쟁 해결 또는 투자자 목적 편익에 계약상 차액이 남음",
+            "decision_and_action": "그 구간의 반복 유료 관리로 확대; 새 시장 전체를 포기하지 않음"
+          },
+          "next_observation": "동등 책임의 외부 견적과 실제 발행인/투자자 선택",
+          "nature": "conditional_semantic_experiment_not_observed_outcome"
+        },
+        {
+          "id": "T4a",
+          "changed_variable_only": "현금 시간만",
+          "branch_a": {
+            "condition": "토큰은 상시 이동하지만 매입대금/환매 은행현금은 영업시간만 가능",
+            "decision_and_action": "24시간 유동성 표방 제거; 정산채권 만기와 투자자 현금 의무를 맞춘 기관 상품으로 한정. 야간 자금 필요 고객은 제외/별도 가격"
+          },
+          "branch_b": {
+            "condition": "사용 가능한 은행현금과 처리 지원도 연속적이며 고객이 그 시간 편익을 실제 사용",
+            "decision_and_action": "시간 유연성이 필요한 기관 대상으로 확장하고 유동성 제공 비용을 별도 가격화"
+          },
+          "next_observation": "고객 현금 의무·은행 입금·매각/환매 한도와 약정",
+          "nature": "conditional_semantic_experiment_not_observed_outcome"
+        },
+        {
+          "id": "T4b",
+          "changed_variable_only": "조직 상대비용만",
+          "branch_a": {
+            "condition": "대형기관 내부 계약/정산 조정비가 더 크게 하락",
+            "decision_and_action": "자체 범용망 구축 축소; 교보가 독점하지 않는 공통 기술을 구매하고 외부 관리 계약부터 확보"
+          },
+          "branch_b": {
+            "condition": "표준 계약/데이터로 전문업체간 연결비가 더 크게 하락",
+            "decision_and_action": "증권·법무·수탁·회수 기능을 모듈 계약으로 분업해 작은 발행의 최소규모 낮춤"
+          },
+          "next_observation": "외부배분 포함 총원가·반복량·분쟁 복구 책임",
+          "nature": "conditional_semantic_experiment_not_observed_outcome"
+        }
+      ],
+      "closing": {
+        "decision": "modified_scope",
+        "retained": "확정 권리와 외부 수요가 있는 작은 반복 채권의 새 조달 시장",
+        "revised": "상품 조합 자체의 별도 보수보다 고객이 값을 내는 수금/권리 관리에 집중하고 단순 팩토링을 우선 비교",
+        "discarded_component": "무료 경쟁과 동일 편익 조건에서 범용 발행/구성 프리미엄; 생명 앵커 또는 문고 전체 IP로 규모를 만드는 가정은 처음부터 배제",
+        "action_now": "외부 채권자·채무자 확인 가능한 한 계약에서 비거래 이유와 기관 견적을 받고 팩토링/기존+AI/온체인+AI 세 가지 검토서 작성",
+        "expand_if": "반복 외부 계약의 총비용 후 대가와 투자자 목적 충족이 확인",
+        "stop_if": "권리/수금 미확정·계열 보조 제거 시 수요 소멸·동등 경쟁 견적보다 열위",
+        "evidence_delta": "새 회사사실 없음; 원문 비용/활용성 교환과 반대조건 적용으로 유료 역할을 좁힘"
+      },
+      "unknowns": {
+        "receivable_contract": null,
+        "volume": null,
+        "institutional_demand": null,
+        "fee": null,
+        "net_contribution": null
+      },
+      "claim_id": "C-443"
+    },
+    {
+      "probe_id": "CS7-OP-HW",
+      "source_card_ids": [
+        "CS7-CARD-04",
+        "CS7-CARD-05",
+        "CS7-CARD-06"
+      ],
+      "source_ids": [
+        "ST-TD-002",
+        "ST-TD-001",
+        "OBX-P-001",
+        "BMX-HW-001",
+        "ST-HW-007"
+      ],
+      "baseline": {
+        "read_scope": "상반기 기존 원장/보고서35·38과11/6 report44 및 Nobu 공개상품 카드 선택 재사용. 이번 IR/약관/현지 웹 재열람 아님.",
+        "observed_functions": "한화생명은2026년상반기 별도 세전 보험손익2,853억원·투자손익3,548억원의 본업과 GA·ALM 기반을 가짐. Nobu 공개 방카 목록은 기존 채널 존재이며 신규 단체보험·고용주 고객·실제 전환/이익 증거가 아님.",
+        "why_this_institution": "실제 보험 인수·지급·판매/계약 관리의 기능과 현지 은행 채널이 연결 후보. 한국 보험 경험이 현지 위험정보·고객 동의·상품 인가를 대신하지 않음.",
+        "constraints": "한국생명·현지 생명/손보·은행·판매/운영사의 자본·고객·인가·손익은 각자. 국내 보험/GA/ALM 개선 투자와 해외 시험의 정보가치/비가역비용을 비교."
+      },
+      "new_market": {
+        "customer": "직원 명부·설명·납입·청구 관리비가 높아 적합한 첫 보장을 제공하지 못했던 현지 소규모 고용주",
+        "previous_nontrade_reason": "위험보험료를 감당할 예산과 인수 가능한 위험집단은 있으나 작은 계약의 획득/관리 고정비가 장벽이라는 가정",
+        "new_job": "직원 적격성·동의 확인→승인된 단체 사망/중대질병 정액보장 견적→고용주 IDR 납입·명부 변경→직원/수익자 청구·보험금 지급",
+        "expanded_boundary": "이전 미보장 직원의 적합한 첫 계약. 기존 개인보험의 이전/이중보장이나 단순 은행 고객 전환은 별도 집계.",
+        "real_economy_effect": "보장 효용·고용 안정/생산성 개선은 보험 판매량과 다른 후속 검증 대상."
+      },
+      "existing_job_improvement": {
+        "job": "국내 보험/GA의 적합한 유지·납입·청구 개선 및 기존 인니 방카 고객의 설명·서류·IDR 납입 보조를 기존 계좌+AI로 처리.",
+        "economic_comparator": "새 고용주 획득·위험가격·현지 운영 비용을 기존 계약 개선과 비교하되 국내 규모가 크다는 이유만으로 모든 해외 실험을 후순위로 미루지 않음."
+      },
+      "money_rights_revenue_loss": {
+        "contracts_and_rights": "해당 현지 인가·승인 약관에 맞는 보험자(생명/손보 중 선정)가 보장·인수·지급을 책임. 고용주/직원의 계약상 지위·피보험자/수익자·정보 동의를 확인하고 개인 민감정보는 필요한 상대방에만 제공.",
+        "cash": "고용주의 계약상 보험료 예산→허용된 IDR 은행/지급 경로→보험자; 보상은 보험자→적법한 수익자의 은행계좌. 은행예금·보험준비금·보험료 매출 인식을 구분.",
+        "payer_and_receiver": "고용주가 보험료를 부담한다는 후보. 직원 추가납입은 별도 동의/지급능력 확인. 보험자가 유통계약에 따라 Nobu 등 채널에 보수; 운영업체 보수는 별도 계약.",
+        "contribution": "보험자의 위험·보험금·사업비·재보험·자본/ALM 부담 후 계약 기여와 은행의 순판매/운영기여를 따로 계산. 보험료 총액·그룹 내부 보수는 그룹 순이익이 아님.",
+        "loss_bearer": "인수·장기/사망·질병 위험은 계약 보험자/재보험자; 허위명부·부적합권유·개인정보/지급 오류 책임은 각 계약/법에 따름. 은행이 보험금을 보증한다고 하지 않음.",
+        "group_boundary": "Nobu 계좌 데이터/고객을 자동 보험 전환하지 않음. 한국 보험자 자본과 현지 보험료를 단일 통장처럼 쓰지 않음. 미승인 자동 주문/보험 가입은 가정하지 않음."
+      },
+      "ai_onchain_choice": "AI는 보장 설명·자료 점검·납입/청구 보조, 인수·가격·적합성·개인정보·보상 책임은 해당 체계가 담당. 원장이 필요해도 건강정보를 공개체인에 넣지 않으며 적법한 최소 상태/증빙만 공유. IDR 기존 지급+AI가 기본 비교안이고 디지털루피아/스테이블코인 지급권한을 가정에 몰래 추가하지 않음.",
+      "competition_second_round": "현지 은행·보험자·급여/복리후생 플랫폼이 가입·관리 기능을 무료로 묶으면 독립 AI 관리료는 약해진다. 실제 위험조정 보험가격·적합성·청구 신뢰로 선택받거나, 한화는 인수 공급자/운영 제휴자로 범위를 바꾼다. 은행의 고객 접점 수익과 보험자의 기여가 동시에 개선된다고 보장하지 않음.",
+      "condition_tests": [
+        {
+          "id": "T1",
+          "changed_variable_only": "미가입 원인만",
+          "branch_a": {
+            "condition": "고용주 예산·인수 가능 위험이 있고 작은 계약 관리 고정비가 주된 장벽",
+            "decision_and_action": "첫 적합 보장 고용주 계약 시험을 확대; 고용주 지급의사와 직원 선택을 별도 확인"
+          },
+          "branch_b": {
+            "condition": "보험료 부담능력·적합 보장 부재·의료/위험 증빙이 핵심 장벽",
+            "decision_and_action": "동일 상품 판매 확대 중단. 실제 고용주 부담·보장범위 조정의 적합성을 재심사하며 보조금을 임의 가정하지 않음"
+          },
+          "next_observation": "미가입/해지 사유, 고용주 예산, 직원 기존 보장, 위험 반영 견적",
+          "nature": "conditional_semantic_experiment_not_observed_outcome"
+        },
+        {
+          "id": "T2",
+          "changed_variable_only": "온체인 독립 편익만",
+          "branch_a": {
+            "condition": "기존 IDR 계좌·보험·급여 API+AI가 같은 명부/동의/납입/청구 결과를 같은 비용으로 제공",
+            "decision_and_action": "새 고용주 보장 기회 유지, 온체인 개발은 보류하고 기존 지급/보험 시스템 사용"
+          },
+          "branch_b": {
+            "condition": "다기관의 적법한 상태 공유가 실질 관리비/실패를 줄이고 추가 보안·개인정보 비용 후 편익 존재",
+            "decision_and_action": "민감정보 밖 최소 공유 상태에만 공동원장 시험; 보험료/보험금 통화·권리는 변함없음"
+          },
+          "next_observation": "같은 직원집단의 완결 시간·오류·동의/보안 비용",
+          "nature": "conditional_semantic_experiment_not_observed_outcome"
+        },
+        {
+          "id": "T3",
+          "changed_variable_only": "무료 묶음 경쟁만",
+          "branch_a": {
+            "condition": "현지 플랫폼/보험자가 동등 보장·청구·관리 기능을 더 싸게 묶음",
+            "decision_and_action": "독립 AI 관리료 폐기; 인수/보상 품질도 열위면 해당 계약 미진입. 유리하면 플랫폼에 보험 공급자로 참여"
+          },
+          "branch_b": {
+            "condition": "고객이 검증 가능한 청구/적합성 차이를 선택하고 위험·비용 후 기여가 남음",
+            "decision_and_action": "그 고객군의 보험·관리 계약을 확대하되 브랜드 프리미엄 가정은 하지 않음"
+          },
+          "next_observation": "동등 보장·면책·위험집단의 경쟁 견적, 청구 경험, 실제 유지 선택",
+          "nature": "conditional_semantic_experiment_not_observed_outcome"
+        },
+        {
+          "id": "T4a",
+          "changed_variable_only": "현금화 시간만",
+          "branch_a": {
+            "condition": "상태 기록은24시간이나 보험금의 IDR 은행현금/지원은 연속적이지 않음",
+            "decision_and_action": "즉시 현금 지급 약속 제거; 실제 SLA로 설명하고 긴급 현금 의무에 맞지 않는 상품은 추천 제외. 기존 납입/청구 관리 개선은 유지"
+          },
+          "branch_b": {
+            "condition": "약관상 지급 조건 충족 후 IDR 현금/지원도 연속적으로 가능",
+            "decision_and_action": "지급시간 편익이 필요한 고객 업무에 범위를 넓히되 지급/유동성 비용을 계약 경제성에 포함"
+          },
+          "next_observation": "사고→서류→승인→은행현금 각각 시간, 실제 수익자 의무",
+          "nature": "conditional_semantic_experiment_not_observed_outcome"
+        },
+        {
+          "id": "T4b",
+          "changed_variable_only": "내부/외부 상대비용만",
+          "branch_a": {
+            "condition": "대형 현지보험·은행의 내부 AI 조정비 감소가 더 커짐",
+            "decision_and_action": "별도 범용 온보딩/운영 플랫폼 구축 축소; 현지 플랫폼 구매/유통 제휴와 보험자 본연 기능 집중"
+          },
+          "branch_b": {
+            "condition": "표준화로 보험·은행·급여업체의 외부 연결비 감소가 더 큼",
+            "decision_and_action": "특정 소규모 고용주군의 전문 운영/보험/지급 모듈을 계약으로 분업"
+          },
+          "next_observation": "파트너 배분·민감정보 통제·고객획득·운영/청구 포함 총원가",
+          "nature": "conditional_semantic_experiment_not_observed_outcome"
+        }
+      ],
+      "closing": {
+        "decision": "maintain_payer_refine_implementation",
+        "retained": "관리 고정비 때문에 성립하지 않던 적합한 첫 보장의 새 고용주 고객 시장",
+        "revised": "초기에 고정한 고용주·인수 가능 직원집단과 IDR 경로를 유지. 동등 성과 조건에서는 기존 IDR+AI를 우선하고 별도 AI 관리료·직접 플랫폼은 조건부 포기",
+        "discarded_component": "동일 성과 조건의 온체인 우선투자와 별도 AI 관리료; 이는 보험 수요 기각이 아님",
+        "action_now": "고용주 예산/미가입 사유·직원 동의/기존 보장·현지 승인상품 견적을 확보하는 제한 시험을 국내 계약관리 개선과 병행",
+        "expand_if": "적합한 첫 계약·납입 유지·청구 결과 및 위험/비용 후 기여가 반복 확인",
+        "stop_if": "지급능력/위험 장벽을 설명 자동화로 오인하거나 동등 경쟁품보다 열위",
+        "evidence_delta": "새 현지 사실 발견 없음; 초기 지급자는 유지하고 실행 경로·확대 조건을 구체화. 초기90일은 접근/운영 검증이며 장기 손해율·유지 성과 증명 기간은 아님"
+      },
+      "unknowns": {
+        "approved_group_product": null,
+        "employers": null,
+        "premium_budget": null,
+        "risk_mix": null,
+        "claims_cost": null,
+        "net_contribution": null
+      },
+      "claim_id": "C-444"
+    }
+  ],
+  "public_reading_log": [
+    {
+      "source_id": "ST-TD-003",
+      "url": "https://github.com/cschung7/2026-class-UG-AIFinance/blob/6cf6eaf6e508aeda486721f193b3309a1a7f017f/blockchain/future_markets_series.html",
+      "reading_mode": "direct_primary_selected_recheck_same_20261107_work",
+      "read_scope": "HTML 605–1100 요청 중 Module 01~03 본문·SVG 텍스트 644–960을 직접 읽음. JavaScript 실행·인용 통계 원자료·브라우저 렌더 미검증.",
+      "checked_at": "2026-11-07",
+      "meaning_for_probe": "원문의 비용/접근/기업 경계/위임/결합성 관점; 회사별 사업안은 분석자 가설"
+    },
+    {
+      "source_id": "ST-TD-002",
+      "url": "https://github.com/cschung7/2026-class-UG-AIFinance/blob/3200cf6953b1b45257fcd25a3c7c961942f7bff7/agent_lecture_2006-spring.html",
+      "reading_mode": "direct_primary_selected_recheck_same_20261107_work",
+      "read_scope": "고정 HTML 285–410행. 특히 315–328(Coase), 334–344(감독형 자율성), 366–398(실패·거버넌스·토론). 다른 슬라이드와 외부 문서 미독.",
+      "checked_at": "2026-11-07",
+      "meaning_for_probe": "원문의 비용/접근/기업 경계/위임/결합성 관점; 회사별 사업안은 분석자 가설"
+    },
+    {
+      "source_id": "ST-TD-001",
+      "url": "https://github.com/cschung7/2026-2nd/blob/210c6313640ab03ac8a652c8e4435386734cf6ca/hermes-agent-economics-lecture.html",
+      "reading_mode": "direct_primary_selected_recheck_same_20261107_work",
+      "read_scope": "요청 고정판 f031aa16의 HTML 1210–1525행(슬라이드4 일부 및5~22)을 직접 읽음. 기존 canonical 210c6313의1370–1385 재조회로 동일 blob 확인. 외부 인용과 런타임 실제 동작 미검증.",
+      "checked_at": "2026-11-07",
+      "meaning_for_probe": "원문의 비용/접근/기업 경계/위임/결합성 관점; 회사별 사업안은 분석자 가설"
+    },
+    {
+      "source_id": "OBX-P-001",
+      "url": "https://github.com/cschung7/2026-2nd/blob/95d4f2d97d20b4f142e15d457a0ffe1354d3aa43/AI-Finance-GSE/%EC%98%A8%EB%8F%84%20%EC%9D%B8%ED%85%94%EB%A6%AC%EC%A0%84%ED%8A%B8%20%ED%8F%AC%ED%8A%B8%ED%8F%B4%EB%A6%AC%EC%98%A4%20%28%EA%B0%95%EC%9D%98%20%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C%29.pdf",
+      "reading_mode": "direct_primary_selected_recheck_same_20261107_work",
+      "read_scope": "17쪽 PDF 중1·5·8·9·10·11·13·14·16·17쪽 텍스트 직접 재열람. 나머지7쪽과 이번 렌더 시각 검토는 미수행. GitHub base64 응답 blob과 pinned raw PDF 바이트의 Git blob/SHA256 일치 확인.",
+      "checked_at": "2026-11-07",
+      "meaning_for_probe": "원문의 비용/접근/기업 경계/위임/결합성 관점; 회사별 사업안은 분석자 가설"
+    },
+    {
+      "source_id": "OBX-P-002",
+      "url": "https://github.com/cschung7/2026-class-UG-AIFinance/blob/3200cf6953b1b45257fcd25a3c7c961942f7bff7/blockchain/ondo_buidl_mastercard_interactive_slides.html",
+      "reading_mode": "direct_primary_selected_recheck_same_20261107_work",
+      "read_scope": "고정 HTML 전체 파일 취득 후60–210행의 가치·원장·담보·은행·AI·토론 본문 선택 재열람. CSS/JS 실행·외부 인용·다른 회사 현재 계약은 미검증.",
+      "checked_at": "2026-11-07",
+      "meaning_for_probe": "원문의 비용/접근/기업 경계/위임/결합성 관점; 회사별 사업안은 분석자 가설"
+    },
+    {
+      "source_id": "OBX-P-003",
+      "url": "https://github.com/cschung7/2026-class-UG-AIFinance/blob/3200cf6953b1b45257fcd25a3c7c961942f7bff7/blockchain/Blackrock-build-genius-act.html.html",
+      "reading_mode": "direct_primary_selected_recheck_same_20261107_work",
+      "read_scope": "고정 HTML296–448행(OCC 제안 소개·BUIDL·Circle 연결·위험) 직접 재열람. 내장 이미지·원문 의견서·규제 최종안·실제 자금부담 계약은 미독.",
+      "checked_at": "2026-11-07",
+      "meaning_for_probe": "원문의 비용/접근/기업 경계/위임/결합성 관점; 회사별 사업안은 분석자 가설"
+    },
+    {
+      "source_id": "BMX-HW-001",
+      "url": "https://file.irgo.co.kr/data/BOARD/ATTACH_PDF/Z4XB5R4VUER2VMQPFBEF4RFR9MUMR2762026812174652.pdf",
+      "reading_mode": "reused_prior_verified_public_record_not_fresh_web_read",
+      "original_checked_at": "2026-11-04",
+      "read_scope": "기존 공개 원장·reports35~38/42~44 또는 source card의 해당 기능·기간·한계만 재사용",
+      "limits": "이번에 공시/상품/인가 최신 원문을 새로 읽었다고 주장하지 않음."
+    },
+    {
+      "source_id": "KYX-M-002",
+      "url": "https://store.kyobobook.co.kr/pod/notice/1000210",
+      "reading_mode": "reused_prior_verified_public_record_not_fresh_web_read",
+      "original_checked_at": "2026-11-04",
+      "read_scope": "기존 공개 원장·reports35~38/42~44 또는 source card의 해당 기능·기간·한계만 재사용",
+      "limits": "이번에 공시/상품/인가 최신 원문을 새로 읽었다고 주장하지 않음."
+    },
+    {
+      "source_id": "KYX-M-009",
+      "url": "https://store.kyobobook.co.kr/pod/notice/1001541",
+      "reading_mode": "reused_prior_verified_public_record_not_fresh_web_read",
+      "original_checked_at": "2026-11-03",
+      "read_scope": "기존 공개 원장·reports35~38/42~44 또는 source card의 해당 기능·기간·한계만 재사용",
+      "limits": "이번에 공시/상품/인가 최신 원문을 새로 읽었다고 주장하지 않음."
+    },
+    {
+      "source_id": "ST-HW-007",
+      "url": "https://www.nobubank.com/id/perorangan/wealth-management/bancassurance/",
+      "reading_mode": "reused_prior_verified_public_record_not_fresh_web_read",
+      "original_checked_at": "2026-11-06",
+      "read_scope": "기존 공개 원장·reports35~38/42~44 또는 source card의 해당 기능·기간·한계만 재사용",
+      "limits": "이번에 공시/상품/인가 최신 원문을 새로 읽었다고 주장하지 않음."
+    },
+    {
+      "source_id": "ST-KN-001",
+      "url": "https://www.bnkfg.com/download?seq=6765",
+      "reading_mode": "reused_prior_verified_public_record_not_fresh_web_read",
+      "original_checked_at": "2026-11-04",
+      "read_scope": "기존 공개 원장·reports35~38/42~44 또는 source card의 해당 기능·기간·한계만 재사용",
+      "limits": "이번에 공시/상품/인가 최신 원문을 새로 읽었다고 주장하지 않음."
+    },
+    {
+      "source_id": "ST-KN-002",
+      "url": "https://www.knbank.co.kr/ib20/mnu/BHPFIS110103001?DUP_CHK=N",
+      "reading_mode": "reused_prior_verified_public_record_not_fresh_web_read",
+      "original_checked_at": "2026-11-04",
+      "read_scope": "기존 공개 원장·reports35~38/42~44 또는 source card의 해당 기능·기간·한계만 재사용",
+      "limits": "이번에 공시/상품/인가 최신 원문을 새로 읽었다고 주장하지 않음."
+    },
+    {
+      "source_id": "ST-KY-001",
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814003361",
+      "reading_mode": "reused_prior_verified_public_record_not_fresh_web_read",
+      "original_checked_at": "2026-11-04",
+      "read_scope": "기존 공개 원장·reports35~38/42~44 또는 source card의 해당 기능·기간·한계만 재사용",
+      "limits": "이번에 공시/상품/인가 최신 원문을 새로 읽었다고 주장하지 않음."
+    }
+  ],
+  "evaluation_limits": [
+    "구조화·조건 반응 검사는 실제 수요·수익·예측 성능의 증명이 아니다.",
+    "현재 회사의 확정 사업계획으로 표현하지 않는다.",
+    "새 고객 수·매출·보수·보험료·가격·순기여는 미확인값을 유지.",
+    "기존 연구의 신규 수요 후보를 구체화한 적용이며 이번에 처음 발견된 회사 사업이라고 주장하지 않음."
+  ],
+  "opening_hash_format": "SHA256 of UTF-8 json.dumps(opening,ensure_ascii=False,sort_keys=True), default separators, no trailing newline",
+  "independent_review_corrections": [
+    "BNK 야간 기본제품과 한화 청년 지급자는 초기 가설이 아니므로 이번에 철회한 입장으로 표현하지 않음. 초기 범위 유지와 조건 분기 구체화를 구분."
+  ],
+  "lineage_records": {
+    "opening": [
+      {
+        "id": "CS7-OPEN-METHOD",
+        "recorded_at": "2026-11-07",
+        "stage": "선택 원문을 읽고 설계 범위를 정한 뒤; 조건 적용 최종 병합 전",
+        "preferred": "기존 v2.1의 금융 기능·경쟁·새 수요 분석을 유지하고, 초기 판단 전에 미성립 거래의 원인과 새로운 고객 업무를 따로 탐색하면 방어 위주 분석을 보완할 수 있다.",
+        "strongest_alternative": "기존 v2.1 절차만으로 충분하고 추가 구분은 서류 작성과 전달 비용만 늘릴 수 있다.",
+        "assumptions": [
+          "입력 원문의 주장과 분석자의 도출을 구분한다.",
+          "강한 제도·인프라 가정은 고객의 지급능력·구매·기업 우위를 보장하지 않는다."
+        ],
+        "pre_registration": "범위를 알고 수행한 설계 검토. 블라인드 성능 평가 아님."
+      },
+      {
+        "id": "CS7-OP-BNK",
+        "recorded_at": "2026-11-06T16:33:15.077477+00:00",
+        "position": "필요한 권리·인가·동의·다기관 상태 공유가 성립한 2027년 이후, 확인 가능한 원청 지급채권이 있지만 작은 건별 확인·관리 고정비 때문에 해당 조달을 이용하지 못했던 협력기업에게 반복 운전자금 서비스가 새로 성립할 수 있다. 기존 fERP+AI로 현 고객의 현금·여신관계를 개선하는 경로와 병행해 소규모 신규 고객 검증을 우선한다.",
+        "action_now": "원청·협력사·은행의 채권 확인과 반복 조달을 한 고객군에서 시험하고 다기관 대사에 온체인 추가 편익이 있을 가능성을 조사한다.",
+        "new_customer_boundary": "경남은행의 해당 건별 금융을 이용하지 않았던 사업자; 타행·팩토링에서도 배제됐다는 가정은 하지 않음."
+      },
+      {
+        "id": "CS7-OP-KY",
+        "recorded_at": "2026-11-06T16:33:15.077477+00:00",
+        "position": "양도·수금 가능한 확정 정산채권이 있는 외부 콘텐츠 사업자와 적격 투자자가 있고 발행·관리 고정비가 주된 비거래 이유라면, 반복 소액 채권의 모듈형 발행·관리 계약이 새 고객 시장을 열 수 있다. 기존 IB 발행/사후관리 자동화와 병행하고 원권리 관리·투자자 목적별 구성에 별도 보수가 남을 가능성을 우선 검증한다.",
+        "action_now": "반복 정산채권 한 유형의 발행·수금 관리와 투자자 목적별 구성의 유료 계약을 함께 검토한다.",
+        "new_customer_boundary": "기존 최소규모/고정비 때문에 이 계약을 발행하지 않던 외부 사업자; 단순 팩토링의 이동은 별도."
+      },
+      {
+        "id": "CS7-OP-HW",
+        "recorded_at": "2026-11-06T16:33:15.077477+00:00",
+        "position": "현지 인가·약관·동의·IDR 지급·판매 권한이 충족되고 감당 가능한 위험보험료가 존재한다면, 설명·명부·납입·청구 관리비 때문에 첫 적합한 보장을 제공하지 못했던 소규모 고용주에게 단체 정액보장과 관리 서비스가 성립할 수 있다. 기존 국내 보험·GA 유지/청구 개선과 병행해 현지 고용주의 실제 지급 의사를 검증한다.",
+        "action_now": "현지 보험자와 허용 채널이 고용주 부담 IDR 납입·근로자 보장·청구를 묶는 작은 계약을 검토하고 여러 기관의 상태 공유 필요를 확인한다.",
+        "new_customer_boundary": "계약관리비 때문에 직원 첫 적합 보장을 제공하지 않던 고용주; 젊은 인구나 Nobu 전체 고객을 분모로 쓰지 않음."
+      }
+    ],
+    "closing": [
+      {
+        "id": "CS7-OPEN-METHOD",
+        "decision": "maintain_with_attribution_and_scope_corrections",
+        "position": "v2.1의 새 수요 탐색을 유지하며 초기 판단 전에 비거래 원인과 두 경로 비교를 구체화한다. 원문 방향과 성립 조건·판단변경 기준의 귀속을 명확히 하고 강한 미래 가정 아래 경쟁 후 유료 역할을 따로 고른다.",
+        "source_ids": [
+          "ST-TD-003",
+          "ST-TD-002",
+          "ST-TD-001",
+          "OBX-P-001",
+          "OBX-P-002",
+          "OBX-P-003"
+        ],
+        "strongest_alternative": "기존 v2.1 절차만으로 충분하고 추가 구분은 서류 작성과 전달 비용만 늘릴 수 있다.",
+        "next_observations": [
+          "처음 보는 다른 산업·국가 질문에서 같은 입력을 주고 v2.1/v2.2 결과를 독립적으로 비교한다. 신규 수요 원인·누락·오류·수정 비용을 검토한다.",
+          "원문 저자의 실제 수정 설명이 발견되면 교수 명시 판단변경 기준만 갱신하고 우리의 기준과 분리한다.",
+          "추가 필드가 판단·행동을 바꾸지 않고 전달 비용만 늘면 해당 질문에서는 템플릿을 축소한다."
+        ],
+        "evidence_delta": "공개 원문6개 재열람, 귀속 수정, 세 그룹 조건 적용의 의미 검토. 실증 예측 성능의 향상은 미평가."
+      },
+      {
+        "id": "CS7-OP-BNK",
+        "decision": "maintain_with_operating_branches",
+        "position": "고정비로 배제된 신용 있는 작은 기업의 새 반복 금융 수요; 초기입장의 새 협력기업 수요를 유지하고, 시간·온체인·경쟁별로 직접 수행·기존 레일·제휴 선택을 새로 구체화",
+        "source_ids": [
+          "ST-TD-003",
+          "ST-TD-002",
+          "OBX-P-002",
+          "ST-KN-001",
+          "ST-KN-002"
+        ],
+        "strongest_alternative": "시중은행이 기존 ERP/공급망 금융에 무료 확인·AI를 묶으면 고객의 거래 범위 확대는 남아도 별도 확인 수수료는 줄 수 있다. 경남은 현장 회수·특정 원청 계약이 비용 후 우위인 구간만 직접 맡고 공통망은 구매/공동운영한다.",
+        "next_observations": [
+          "과거 거절 사유, 원청 확인, 위험 반영 견적, 실제 고객 지급의사",
+          "동일 증빙·고객·규모의 두 경로 견적과 완료 기록",
+          "동등 책임 범위의 경쟁 견적, 계약별 순기여, 실제 재선택",
+          "시각별 의무/계좌입금, 자금 제공자, 피크 조달비와 SLA",
+          "동일 책임/품질에서 통합·외주 총원가와 전환비"
+        ],
+        "evidence_delta": "새 회사사실 발견 없음; 고정된 가설의 조건 변경에서 업무 범위·직접 수행 선택을 조정"
+      },
+      {
+        "id": "CS7-OP-KY",
+        "decision": "modified_scope",
+        "position": "확정 권리와 외부 수요가 있는 작은 반복 채권의 새 조달 시장; 상품 조합 자체의 별도 보수보다 고객이 값을 내는 수금/권리 관리에 집중하고 단순 팩토링을 우선 비교",
+        "source_ids": [
+          "ST-TD-003",
+          "ST-TD-002",
+          "OBX-P-001",
+          "ST-KY-001",
+          "KYX-M-002",
+          "KYX-M-009"
+        ],
+        "strongest_alternative": "대형증권/플랫폼이 발행과 조합을 무료화하면 원권리별 관리·회수조차 경쟁 견적을 받아야 한다. 유료 관리 우위가 없으면 범용 발행 플랫폼·소액 구성료를 포기하고 외부 기술/전문 회수 제휴 또는 거래 중단을 선택한다.",
+        "next_observations": [
+          "실제 채권·채무자 확인, 이전 조달 거절 사유, 외부 투자자 견적",
+          "기존 팩토링 포함 완결 견적·같은 권리의 운영 원가",
+          "동등 책임의 외부 견적과 실제 발행인/투자자 선택",
+          "고객 현금 의무·은행 입금·매각/환매 한도와 약정",
+          "외부배분 포함 총원가·반복량·분쟁 복구 책임"
+        ],
+        "evidence_delta": "새 회사사실 없음; 원문 비용/활용성 교환과 반대조건 적용으로 유료 역할을 좁힘"
+      },
+      {
+        "id": "CS7-OP-HW",
+        "decision": "maintain_payer_refine_implementation",
+        "position": "관리 고정비 때문에 성립하지 않던 적합한 첫 보장의 새 고용주 고객 시장; 초기에 고정한 고용주·인수 가능 직원집단과 IDR 경로를 유지. 동등 성과 조건에서는 기존 IDR+AI를 우선하고 별도 AI 관리료·직접 플랫폼은 조건부 포기",
+        "source_ids": [
+          "ST-TD-002",
+          "ST-TD-001",
+          "OBX-P-001",
+          "BMX-HW-001",
+          "ST-HW-007"
+        ],
+        "strongest_alternative": "현지 은행·보험자·급여/복리후생 플랫폼이 가입·관리 기능을 무료로 묶으면 독립 AI 관리료는 약해진다. 실제 위험조정 보험가격·적합성·청구 신뢰로 선택받거나, 한화는 인수 공급자/운영 제휴자로 범위를 바꾼다. 은행의 고객 접점 수익과 보험자의 기여가 동시에 개선된다고 보장하지 않음.",
+        "next_observations": [
+          "미가입/해지 사유, 고용주 예산, 직원 기존 보장, 위험 반영 견적",
+          "같은 직원집단의 완결 시간·오류·동의/보안 비용",
+          "동등 보장·면책·위험집단의 경쟁 견적, 청구 경험, 실제 유지 선택",
+          "사고→서류→승인→은행현금 각각 시간, 실제 수익자 의무",
+          "파트너 배분·민감정보 통제·고객획득·운영/청구 포함 총원가"
+        ],
+        "evidence_delta": "새 현지 사실 발견 없음; 초기 지급자는 유지하고 실행 경로·확대 조건을 구체화. 초기90일은 접근/운영 검증이며 장기 손해율·유지 성과 증명 기간은 아님"
+      }
+    ],
+    "groups": [
+      {
+        "id": "RESEARCH",
+        "priorities": [
+          "새 질문에서 기존 개선과 이전 미성립 거래의 두 경로를 먼저 전개하고, 원문 귀속과 판별 관측을 독립 검토한다. v2.1/v2.2의 성능 우위는 새 질문 비교 전에는 주장하지 않는다."
+        ],
+        "decisions": [
+          {
+            "id": "CS7-DEC-METHOD",
+            "decision": "원문 충실성과 경제 논리 검토를 분리해 v2.2를 재사용하고 다음 질문의 반례로 보완"
+          }
+        ]
+      },
+      {
+        "id": "BNK",
+        "priorities": [
+          "기존 고객 개선과 별도로 원청/협력사 한 유형의 비거래 사유·증빙·위험가격·경쟁 견적을 확보하는 제한 검증을 병행"
+        ],
+        "decisions": [
+          {
+            "id": "CS7-DEC-BNK",
+            "decision": "maintain_with_operating_branches",
+            "expand_if": "지급능력·유효권리·순기여와 반복 계약이 함께 확인",
+            "stop_if": "신용/권리 장벽을 관리비 감소로 오인하거나 대형 경쟁의 동등 조건보다 총기여가 열위"
+          }
+        ]
+      },
+      {
+        "id": "KYOBO",
+        "priorities": [
+          "외부 채권자·채무자 확인 가능한 한 계약에서 비거래 이유와 기관 견적을 받고 팩토링/기존+AI/온체인+AI 세 가지 검토서 작성"
+        ],
+        "decisions": [
+          {
+            "id": "CS7-DEC-KYOBO",
+            "decision": "modified_scope",
+            "expand_if": "반복 외부 계약의 총비용 후 대가와 투자자 목적 충족이 확인",
+            "stop_if": "권리/수금 미확정·계열 보조 제거 시 수요 소멸·동등 경쟁 견적보다 열위"
+          }
+        ]
+      },
+      {
+        "id": "HANWHA",
+        "priorities": [
+          "고용주 예산/미가입 사유·직원 동의/기존 보장·현지 승인상품 견적을 확보하는 제한 시험을 국내 계약관리 개선과 병행"
+        ],
+        "decisions": [
+          {
+            "id": "CS7-DEC-HANWHA",
+            "decision": "maintain_payer_refine_implementation",
+            "expand_if": "적합한 첫 계약·납입 유지·청구 결과 및 위험/비용 후 기여가 반복 확인",
+            "stop_if": "지급능력/위험 장벽을 설명 자동화로 오인하거나 동등 경쟁품보다 열위"
+          }
+        ]
+      }
+    ]
+  },
+  "run": "2026-11-07-cschung7-opportunity",
+  "integration_status": "independent_semantic_review_completed_with_corrections"
+}
