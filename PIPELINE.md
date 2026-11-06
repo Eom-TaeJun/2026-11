@@ -15,13 +15,13 @@ data/sources.json의 기존 자료 ID가 있으면 갱신하고, 새 자료만 �
 변경 파일은 sources·claims·topics 배열 중 바뀌는 항목과 change_reason을 가진 JSON이다. 기존 ID의 전체 새 레코드를 넣는다. 삭제 대신 상태를 superseded/withdrawn으로 바꾼다. 실제 새 근거가 기존 판단의 어느 부분을 바꾸는지 설명한다.
 
 ```sh
-python scripts/research.py ingest path/to/batch.json
-python scripts/research.py build
+python scripts/run_pipeline.py prepare --run-id NEW-RUN --batch path/to/batch.json --lineage path/to/lineage.json
+python scripts/run_pipeline.py apply --plan runs/pipeline/NEW-RUN/plan.json
 python scripts/research.py validate
 python -m unittest discover -s tests -v
 ```
 
-ingest는 검증 후 이전·이후 상태와 해시를 history/에 보존한다. 동일 내용 재입력은 기록을 늘리지 않는다. 현재 구현은 독립 체크아웃에서 한 작성자가 쓰는 방식이며 동시에 여러 프로세스로 쓰지 않는다. 중단되면 history 기록과 data/를 대사해 복구하고 검증·재생성한다. 자동 분산 트랜잭션을 구현한 것은 아니다.
+runner는 배치·연결 명세·참조 입력과 원장 변경 전후 해시를 고정하고 저장 전에 근거→주장→가설→행동을 검사한다. ingest는 이전·이후 상태를 history/에 보존하고 중단된 저장은 같은 배치로 재개한다. 동일 실행은 ID·이력을 늘리지 않으며 오래된 계획으로 새 자료를 덮어쓰지 않는다. 미완료 원장 작업이 있으면 validate/build/search는 중단한다. [복구 절차와 범위](docs/REPLAY_AND_LINEAGE.md), [연결 명세](schemas/research_lineage.md)를 따른다. 잠금·저널은 같은 로컬 체크아웃 전용이며 다른 기기·동기화 프로그램의 수정을 조정하는 분산 잠금이 아니다.
 
 ## 4. 저장된 자료에서 찾는다
 

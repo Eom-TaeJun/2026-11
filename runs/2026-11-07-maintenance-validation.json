@@ -1,0 +1,77 @@
+{
+  "checked_at": "2026-11-07T00:31:28.412961+09:00",
+  "baseline_commit": "96ff84a4dfa8719c29505e423cbf53189b2a7695",
+  "checks": [
+    {
+      "name": "tests",
+      "exit_code": 0,
+      "reused_final_test_log": true
+    },
+    {
+      "name": "core_validate",
+      "exit_code": 0
+    },
+    {
+      "name": "lineage_validate",
+      "exit_code": 0
+    },
+    {
+      "name": "repeat_prepare",
+      "exit_code": 0
+    },
+    {
+      "name": "repeat_apply",
+      "exit_code": 0
+    },
+    {
+      "name": "diff_check",
+      "exit_code": 0
+    }
+  ],
+  "status": "verified_locally",
+  "test_count": 86,
+  "original_tests_unchanged": 15,
+  "new_tests": {
+    "recovery": 19,
+    "lineage": 36,
+    "pipeline_and_guard": 16
+  },
+  "replay_files_unchanged": 422,
+  "prior_original_input_files_matching": 60,
+  "preexisting_input_differences": 10,
+  "prior_input_snapshot_boundary": "10 parent files differ from the prior research snapshot; all recorded last-write times precede this maintenance. Preserved without restoration; this is not a claim that every parent file equals the earlier snapshot.",
+  "baseline_repository_files_unchanged": 479,
+  "expected_changed_existing_files": [
+    ".gitignore",
+    "AGENTS.md",
+    "PIPELINE.md",
+    "README.md",
+    "scripts/research.py"
+  ],
+  "financial_ledger_counts": {
+    "sources": 307,
+    "claims": 432,
+    "topics": 14
+  },
+  "lineage": {
+    "valid": true,
+    "schema_version": "1.0",
+    "run_id": "2026-11-06-outlook-reassessment",
+    "counts": {
+      "read_events": 33,
+      "read_status_corrections": 5,
+      "claims": 12,
+      "hypotheses": 6,
+      "actions": 9,
+      "claim_sources": 28,
+      "context_only_read_sources": 5
+    },
+    "validation_boundary": "Structural and declared reading-metadata checks only; no semantic or forecast validation."
+  },
+  "old_run_and_financial_findings_changed": false,
+  "limits": [
+    "Same local checkout cooperative recovery; no distributed locking.",
+    "Lineage consistency is not proof of semantic support or forecast accuracy.",
+    "Scope is 12 claims, 6 hypotheses and 9 actions from the 2026-11-06 run."
+  ]
+}

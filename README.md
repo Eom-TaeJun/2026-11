@@ -6,6 +6,7 @@ RWA·토큰화·온체인 금융의 환경 변화를 먼저 분석하고, 고객
 
 | 읽고 싶은 내용 | 문서 |
 |---|---|
+| 재실행·중단 후 재개와 근거→주장→가설→행동 검사 | [사용·복구 절차](docs/REPLAY_AND_LINEAGE.md) · [수정 전후 검증](runs/2026-11-07-maintenance.md) · [연결 명세](data/research_lineage_20261106.json) |
 | 2027년 이후 재분석과 기존 판단의 유지·수정 | [통합 결정과 변경](reports/45_2027_decisions_and_changes.md) · [거시 전달경로](reports/41_2027_economic_reassessment.md) |
 | BNK·교보·한화의 실제 적용 결과 | [BNK](reports/42_bnk_2027_reassessment.md) · [교보](reports/43_kyobo_2027_reassessment.md) · [한화](reports/44_hanwha_2027_reassessment.md) |
 | 에이전트 실제 실행·초기/후기 가설·독립검토 | [실행 기록](runs/2026-11-06-outlook-reassessment.json) · [초기](runs/2026-11-06-outlook-reassessment-opening.json) · [후기](runs/2026-11-06-outlook-reassessment-closing.md) · [검토](runs/2026-11-06-outlook-reassessment-review.md) |

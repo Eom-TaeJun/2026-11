@@ -1,0 +1,85 @@
+{
+  "review_status": "complete",
+  "baseline_head": "96ff84a4dfa8719c29505e423cbf53189b2a7695",
+  "scope": "rerun_resume_and_evidence_claim_hypothesis_action_lineage",
+  "review_host": "Codex",
+  "loaded_original_instructions": [
+    "claude-plugins-official/pr-review-toolkit/1.0.1/agents/code-reviewer.md",
+    "claude-plugins-official/pr-review-toolkit/1.0.1/agents/pr-test-analyzer.md",
+    "claude-plugins-official/pr-review-toolkit/1.0.1/agents/silent-failure-hunter.md"
+  ],
+  "anthropic_model_or_runtime_execution_claimed": false,
+  "existing_data_report_files": 81,
+  "tests_executed_by_reviewer": [
+    {
+      "command": "python -m unittest discover -s tests -p test_research*.py -v",
+      "tests": 28,
+      "elapsed_seconds": 11.07,
+      "result": "passed",
+      "scope": "core ingestion and recovery"
+    },
+    {
+      "command": "python -m unittest discover -s tests -v",
+      "tests": 86,
+      "elapsed_seconds": 34.214,
+      "result": "passed",
+      "scope": "final integrated suite including both review regressions"
+    }
+  ],
+  "verdict": "no_unresolved_high_confidence_findings",
+  "unresolved_findings": 0,
+  "coverage_assessment": {
+    "critical_gaps": [],
+    "behavioral_strengths": [
+      "partial core and generated write recovery",
+      "history/completion-marker/checkpoint failure recovery",
+      "old completed plan and batch replay protection",
+      "external edits and frozen input conflicts",
+      "actual OS lock process-exit release",
+      "invalid IDs/type/status/orphan links and exact original references",
+      "read-status sidecar provenance without rewriting original events"
+    ],
+    "not_equivalent_to": [
+      "financial truth or source adequacy",
+      "causal or forecast accuracy",
+      "distributed OneDrive locking",
+      "cross-checkout recovery",
+      "power-loss/storage-device durability certification"
+    ]
+  },
+  "findings": [
+    {
+      "id": "MAINT-REV-001",
+      "severity": "important",
+      "priority": "P2",
+      "confidence": 98,
+      "status": "resolved_verified",
+      "file": "scripts/run_pipeline.py",
+      "location": "_coverage / prepare / _load_plan; lineage.py registry data_override integration",
+      "original_issue": "Alternate registry paths could pass proposed-state preflight using core data_override, then fail lineage after ingest had already committed core changes.",
+      "reproduction": "Manifest and claim ref pointed to archive/claims.json with proposed claim hash; prepare succeeded, apply committed data/claims.json and then failed REF_HASH, with no pending core transaction.",
+      "resolution": "Runner now requires sources/claims registries to match data/sources.json and data/claims.json before prepare and before apply. Generic read-only lineage supports caller-selected registries separately.",
+      "regression_test": "test_alternate_registry_cannot_pass_preflight_then_fail_after_write",
+      "regression_outcome": "passed_in_reviewer_full_suite"
+    },
+    {
+      "id": "MAINT-REV-002",
+      "severity": "important",
+      "priority": "P2",
+      "confidence": 95,
+      "status": "resolved_verified",
+      "file": "scripts/run_pipeline.py",
+      "location": "_load_plan frozen batch checksum; .gitattributes; docs/REPLAY_AND_LINEAGE.md",
+      "original_issue": "Runner accepted CRLF/LF-normalized frozen batch identity while the core recovery journal required exact bytes, so line-ending changes passed plan validation but blocked partial-transaction recovery as a different batch.",
+      "reproduction": "Interrupted after data/claims.json write; converted frozen batch LF to CRLF; _load_plan accepted while apply raised Another batch has an incomplete transaction.",
+      "resolution": "Frozen batch uses raw-byte checksum; Git -text preserves it; a line-ending change is rejected before resume with exact LF-byte restoration guidance. Other referenced inputs retain their declared CRLF normalization.",
+      "regression_test": "test_frozen_batch_line_ending_change_is_rejected_before_core_resume",
+      "regression_outcome": "passed_in_reviewer_full_suite_including_original_byte_restore_and_successful_resume"
+    }
+  ],
+  "preservation": {
+    "existing_data_report_files": 81,
+    "changed_existing_files": []
+  },
+  "boundary": "Local review under original plugin instructions; publication is verified separately. Local reproduction logs and private absolute paths are not published."
+}

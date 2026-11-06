@@ -1,0 +1,2 @@
+# Frozen batches are core recovery inputs; Git must not transform their bytes.
+runs/pipeline/**/batch.json -text

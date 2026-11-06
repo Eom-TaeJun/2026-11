@@ -26,7 +26,7 @@ agents/roles.json과 agents/*.md에 8개 역할이 정의되어 있다. 호스�
 
 ## 갱신 및 확인
 
-수정 기록은 `python scripts/research.py ingest <batch.json>`으로 change_reason과 함께 남긴다. 이전 판단은 history/에 보존한다. 기존 주장을 삭제하는 대신 superseded 또는 withdrawn으로 바꾼다. 단일 작성자가 독립 체크아웃에서 갱신하고, 중단 시 validate 후 재생성한다.
+연구 갱신은 [재실행·연결 검사 절차](docs/REPLAY_AND_LINEAGE.md)에 따라 `scripts/run_pipeline.py`로 배치와 명세를 고정하고 적용한다. 기존 `research.py ingest`도 원장 복구를 지원하지만 가설·행동 연결 검사는 runner와 명세가 수행한다. 이전 판단은 history/에 보존한다. 기존 주장을 삭제하는 대신 superseded 또는 withdrawn으로 바꾼다. 단일 작성자가 독립 체크아웃에서 갱신한다. 중단된 원장 작업은 같은 고정 배치로 먼저 재개하며, 미완료 상태에서 validate/build/search로 우회하지 않는다. 다른 입력·수동 변경 충돌은 덮어쓰지 않고 확인한다.
 
 1. `python scripts/research.py build`
 2. `python scripts/research.py validate`

@@ -5,3 +5,6 @@ __pycache__/
 private/
 work/
 *.pdf
+history/.research.lock
+history/transactions/
+.pipeline/

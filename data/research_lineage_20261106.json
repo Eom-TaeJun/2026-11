@@ -1,0 +1,1075 @@
+{
+  "schema_version": "1.0",
+  "run_id": "2026-11-06-outlook-reassessment",
+  "as_of": "2026-11-06",
+  "recorded_at": "2026-11-07",
+  "validation_boundary": "참조·유형·선언된 읽기 상태의 구조 검사다. 원문의 실제 이해·주장 지지·경제적 인과·미래 예측의 정답을 검증하지 않는다.",
+  "lineage_attribution": "2026-11-07에 기존 공개 기록 사이의 분석상 연결을 명시한 부가 명세다. 원래 저자·초기 가설이 후속 주장 모두를 직접 인용했다는 뜻이 아니다.",
+  "registries": {
+    "sources": {
+      "path": "data/sources.json"
+    },
+    "claims": {
+      "path": "data/claims.json"
+    }
+  },
+  "read_events": {
+    "path": "runs/2026-11-06-outlook-reassessment-sources.json",
+    "pointer": "/read_events",
+    "sha256": "e5bbc704cc017943db252d75c970b0e15da65cafe939f7b13cb5d14c444bf680",
+    "expected_count": 33
+  },
+  "read_status_corrections": [
+    {
+      "event_index": 0,
+      "source_id": "FIN-003",
+      "event_ref": {
+        "path": "runs/2026-11-06-outlook-reassessment-sources.json",
+        "pointer": "/read_events/0",
+        "sha256": "d58675d7cdf4e9ba495688e3580348547ab4f5202886d9f8690351c17b333849"
+      },
+      "original_read_status": null,
+      "corrected_read_status": "selected_sections",
+      "source_ref": {
+        "path": "data/sources.json",
+        "pointer": "/2",
+        "sha256": "226850cff88e08d4099262114d6163b560b4325f9160bad6a71f285068d487c7",
+        "expected_id": "FIN-003"
+      },
+      "source_scope_ref": {
+        "path": "data/sources.json",
+        "pointer": "/2/read_scope/6",
+        "sha256": "9d425c4ea6feb4f758974974da66d40c9dfb20d61dd4cfd336bb87db0b14d4d5"
+      },
+      "new_read_performed": false,
+      "recorded_at": "2026-11-07",
+      "reason": "원본 event.read_scope와 해당 공개 출처 원장의 read_scope 항목이 정확히 일치한다. 이미 기록된 선택 재열람 범위에 근거해 누락된 상태만 보수적으로 교정한다. 새로운 원문 열람·사실 확인이 아니며 원본 event는 변경하지 않는다."
+    },
+    {
+      "event_index": 1,
+      "source_id": "FIN-008",
+      "event_ref": {
+        "path": "runs/2026-11-06-outlook-reassessment-sources.json",
+        "pointer": "/read_events/1",
+        "sha256": "dfca4a9d2e87557ed0b80436143ad278cf550b9973963faa3bf7d885d983b0fb"
+      },
+      "original_read_status": null,
+      "corrected_read_status": "selected_sections",
+      "source_ref": {
+        "path": "data/sources.json",
+        "pointer": "/7",
+        "sha256": "f1594c08a36a79bc62cb281efc5c19ab498ecf8b4102f55bcb5a8c0e35ae206b",
+        "expected_id": "FIN-008"
+      },
+      "source_scope_ref": {
+        "path": "data/sources.json",
+        "pointer": "/7/read_scope/2",
+        "sha256": "4ebfbef18c1305db14d29d812139e8fc1e6874c2bfc772a46b3c527270911889"
+      },
+      "new_read_performed": false,
+      "recorded_at": "2026-11-07",
+      "reason": "원본 event.read_scope와 해당 공개 출처 원장의 read_scope 항목이 정확히 일치한다. 이미 기록된 선택 재열람 범위에 근거해 누락된 상태만 보수적으로 교정한다. 새로운 원문 열람·사실 확인이 아니며 원본 event는 변경하지 않는다."
+    },
+    {
+      "event_index": 2,
+      "source_id": "NOV-M07",
+      "event_ref": {
+        "path": "runs/2026-11-06-outlook-reassessment-sources.json",
+        "pointer": "/read_events/2",
+        "sha256": "d649000209fff5d948a21f0a647f55cff54bf84e7c8f993c74b3ebf6849db06b"
+      },
+      "original_read_status": null,
+      "corrected_read_status": "selected_sections",
+      "source_ref": {
+        "path": "data/sources.json",
+        "pointer": "/58",
+        "sha256": "5e2a9feccd3d30b8895cee40ff4eb6eee88463fd3ce695fb2223f46555bfb638",
+        "expected_id": "NOV-M07"
+      },
+      "source_scope_ref": {
+        "path": "data/sources.json",
+        "pointer": "/58/read_scope/3",
+        "sha256": "7a7f2da709c506314335543b65884f42bf1661fb6fe4a3dedb5269f4a3ba05da"
+      },
+      "new_read_performed": false,
+      "recorded_at": "2026-11-07",
+      "reason": "원본 event.read_scope와 해당 공개 출처 원장의 read_scope 항목이 정확히 일치한다. 이미 기록된 선택 재열람 범위에 근거해 누락된 상태만 보수적으로 교정한다. 새로운 원문 열람·사실 확인이 아니며 원본 event는 변경하지 않는다."
+    },
+    {
+      "event_index": 3,
+      "source_id": "ST-TD-005",
+      "event_ref": {
+        "path": "runs/2026-11-06-outlook-reassessment-sources.json",
+        "pointer": "/read_events/3",
+        "sha256": "c1098e0faf0c239488554a27ad8a771e856996b8664de95db8095172e8f3875f"
+      },
+      "original_read_status": null,
+      "corrected_read_status": "selected_sections",
+      "source_ref": {
+        "path": "data/sources.json",
+        "pointer": "/169",
+        "sha256": "630c3c59ed98ced23a7c8555cd06a965111c0a3a814f3cd5024517164d286ab6",
+        "expected_id": "ST-TD-005"
+      },
+      "source_scope_ref": {
+        "path": "data/sources.json",
+        "pointer": "/169/read_scope/3",
+        "sha256": "dcb7a9af59a7a5e4c9ded1adb990b8a97501f9f071d5edb73fe2a35ff8e6734d"
+      },
+      "new_read_performed": false,
+      "recorded_at": "2026-11-07",
+      "reason": "원본 event.read_scope와 해당 공개 출처 원장의 read_scope 항목이 정확히 일치한다. 이미 기록된 선택 재열람 범위에 근거해 누락된 상태만 보수적으로 교정한다. 새로운 원문 열람·사실 확인이 아니며 원본 event는 변경하지 않는다."
+    },
+    {
+      "event_index": 4,
+      "source_id": "NOV-M01",
+      "event_ref": {
+        "path": "runs/2026-11-06-outlook-reassessment-sources.json",
+        "pointer": "/read_events/4",
+        "sha256": "f91df8bf9c6d0eae51988cba976b12897613edf91749fc879fd95a27cae14eb0"
+      },
+      "original_read_status": null,
+      "corrected_read_status": "selected_sections",
+      "source_ref": {
+        "path": "data/sources.json",
+        "pointer": "/52",
+        "sha256": "7686b2034067241fbaf284d9b5717489b333d9bc309f3d523bc0105b8e90ca8e",
+        "expected_id": "NOV-M01"
+      },
+      "source_scope_ref": {
+        "path": "data/sources.json",
+        "pointer": "/52/read_scope/1",
+        "sha256": "3caeab7a74a0b2c294e9ebcd6b716a0117706f223e47522297bfc4ed337f41bf"
+      },
+      "new_read_performed": false,
+      "recorded_at": "2026-11-07",
+      "reason": "원본 event.read_scope와 해당 공개 출처 원장의 read_scope 항목이 정확히 일치한다. 이미 기록된 선택 재열람 범위에 근거해 누락된 상태만 보수적으로 교정한다. 새로운 원문 열람·사실 확인이 아니며 원본 event는 변경하지 않는다."
+    }
+  ],
+  "scope": {
+    "claims": [
+      "C-421",
+      "C-422",
+      "C-423",
+      "C-424",
+      "C-425",
+      "C-426",
+      "C-427",
+      "C-428",
+      "C-429",
+      "C-430",
+      "C-431",
+      "C-432"
+    ],
+    "hypotheses": [
+      "OPEN-ENV-01",
+      "OPEN-ENV-02",
+      "OPEN-ENV-03",
+      "OPEN-BNK-01",
+      "OPEN-KYO-01",
+      "OPEN-HAN-01"
+    ],
+    "actions": [
+      "A-BNK-01",
+      "A-BNK-02",
+      "A-BNK-03",
+      "A-KYOBO-01",
+      "A-KYOBO-02",
+      "A-KYOBO-03",
+      "A-HANWHA-01",
+      "A-HANWHA-02",
+      "A-HANWHA-03"
+    ]
+  },
+  "claims": [
+    {
+      "id": "C-421",
+      "ref": {
+        "path": "data/claims.json",
+        "pointer": "/420",
+        "sha256": "f02f08b61c43429591f053bfd4b7b8ce455ea55d930220545077b26c3e164885",
+        "expected_id": "C-421"
+      },
+      "kind": "interpretation",
+      "source_ids": [
+        "R27-M-003",
+        "R27-M-004"
+      ]
+    },
+    {
+      "id": "C-422",
+      "ref": {
+        "path": "data/claims.json",
+        "pointer": "/421",
+        "sha256": "4ec3922a21913c24d74c293923146e4ec15b40f1422c0825c0521284eca0a67d",
+        "expected_id": "C-422"
+      },
+      "kind": "hypothesis",
+      "source_ids": [
+        "NOV-M07",
+        "R27-K-002",
+        "R27-H-006"
+      ]
+    },
+    {
+      "id": "C-423",
+      "ref": {
+        "path": "data/claims.json",
+        "pointer": "/422",
+        "sha256": "270ff6a01b4edda663caf406575bae61b5c3e07c2187275b9a3b240dd3c87863",
+        "expected_id": "C-423"
+      },
+      "kind": "interpretation",
+      "source_ids": [
+        "NOV-M01",
+        "R27-M-002",
+        "NOV-M07"
+      ]
+    },
+    {
+      "id": "C-424",
+      "ref": {
+        "path": "data/claims.json",
+        "pointer": "/423",
+        "sha256": "4845974fc95b53fc4cfb6c5bca0cd5c91af257b41d16f88c734d12d6ccfc08ce",
+        "expected_id": "C-424"
+      },
+      "kind": "hypothesis",
+      "source_ids": [
+        "FIN-003",
+        "NOV-M07",
+        "ST-HW-007",
+        "R27-B-004"
+      ]
+    },
+    {
+      "id": "C-425",
+      "ref": {
+        "path": "data/claims.json",
+        "pointer": "/424",
+        "sha256": "586ecd85b400ed5c0bb0f7e8cc7d280c42f57ed382e3f95faa15b5c9acc45363",
+        "expected_id": "C-425"
+      },
+      "kind": "interpretation",
+      "source_ids": [
+        "ST-KN-003",
+        "R27-B-002",
+        "R27-B-003",
+        "R27-B-004"
+      ]
+    },
+    {
+      "id": "C-426",
+      "ref": {
+        "path": "data/claims.json",
+        "pointer": "/425",
+        "sha256": "50b0c999e1e7d21c6ed058d6d7ac2cf67240e153fd346f80ddd30e03ff3abb8c",
+        "expected_id": "C-426"
+      },
+      "kind": "hypothesis",
+      "source_ids": [
+        "FIN-003",
+        "ST-TD-005",
+        "R27-B-005"
+      ]
+    },
+    {
+      "id": "C-427",
+      "ref": {
+        "path": "data/claims.json",
+        "pointer": "/426",
+        "sha256": "882f36dffb7c39dc0b9695caf885138973a208f9c029f17ba464c5223591337a",
+        "expected_id": "C-427"
+      },
+      "kind": "interpretation",
+      "source_ids": [
+        "R27-K-002",
+        "HWX-R-005",
+        "HWX-V-006",
+        "BMX-KY-003"
+      ]
+    },
+    {
+      "id": "C-428",
+      "ref": {
+        "path": "data/claims.json",
+        "pointer": "/427",
+        "sha256": "c38ff5fbc2fe0d72367504fe679b51ecbdd51bd84d838cb0a738c04f49148474",
+        "expected_id": "C-428"
+      },
+      "kind": "hypothesis",
+      "source_ids": [
+        "KYO-GEO-004",
+        "R27-K-009",
+        "FIN-008"
+      ]
+    },
+    {
+      "id": "C-429",
+      "ref": {
+        "path": "data/claims.json",
+        "pointer": "/428",
+        "sha256": "47df946f36418dea4256faa2d89f870419435102219e51e75fb9cf10422d38c2",
+        "expected_id": "C-429"
+      },
+      "kind": "interpretation",
+      "source_ids": [
+        "R27-K-004",
+        "R27-K-005",
+        "ST-KY-006"
+      ]
+    },
+    {
+      "id": "C-430",
+      "ref": {
+        "path": "data/claims.json",
+        "pointer": "/429",
+        "sha256": "a6b140662ee1e26fb197c13a80829c1dfa8561e926ec26480c2e2ee25f70f638",
+        "expected_id": "C-430"
+      },
+      "kind": "interpretation",
+      "source_ids": [
+        "ST-HW-007"
+      ]
+    },
+    {
+      "id": "C-431",
+      "ref": {
+        "path": "data/claims.json",
+        "pointer": "/430",
+        "sha256": "b73f762cf1772a0e88680f0337bf8daaa09c9a28fab283c884f063bc4ce85c71",
+        "expected_id": "C-431"
+      },
+      "kind": "interpretation",
+      "source_ids": [
+        "ST-HW-002",
+        "HWA-GEO-001",
+        "HWA-GEO-008",
+        "R27-H-006"
+      ]
+    },
+    {
+      "id": "C-432",
+      "ref": {
+        "path": "data/claims.json",
+        "pointer": "/431",
+        "sha256": "98b84da5d4d1f90670ce9259b0ad0f96548b48f1006d65fc84bed5481f25fdde",
+        "expected_id": "C-432"
+      },
+      "kind": "hypothesis",
+      "source_ids": [
+        "R27-H-003",
+        "ST-HW-007",
+        "HWA-GEO-008"
+      ]
+    }
+  ],
+  "hypotheses": [
+    {
+      "id": "OPEN-ENV-01",
+      "opening_ref": {
+        "path": "runs/2026-11-06-outlook-reassessment-opening.json",
+        "pointer": "/hypotheses/0",
+        "sha256": "0774647224706a73dd759e9fb7e08511dd8e8f60430902b9237ea2c5da4b3e47",
+        "expected_id": "OPEN-ENV-01"
+      },
+      "closing_ref": {
+        "path": "data/outlook_2027_reassessment.json",
+        "pointer": "/closing/judgments/0",
+        "sha256": "81953988d541f4c58b784c7f205d757284a39dcc47341b553da8b25c6e0d46f5",
+        "expected_id": "OPEN-ENV-01"
+      },
+      "closing_sources_ref": {
+        "path": "data/outlook_2027_reassessment.json",
+        "pointer": "/closing/judgments/0/source_ids",
+        "sha256": "913815fde7b200cfd6c908b21411146ed5425382dc50a8a9f183076b704ecc96"
+      },
+      "alternative_ref": {
+        "path": "data/outlook_2027_reassessment.json",
+        "pointer": "/closing/judgments/0/strongest_alternative",
+        "sha256": "a855449f1a48888a0dc3748f2a90e30fa5f18a0cac4d4aef6d7d66af4b726b72"
+      },
+      "next_observations_ref": {
+        "path": "data/outlook_2027_reassessment.json",
+        "pointer": "/closing/judgments/0/next_observations",
+        "sha256": "eff06f3a2ceccffbee72038ddc1eaa53fc6645c0520cb93e5d463ab153976f20"
+      },
+      "claim_links": [
+        {
+          "claim_id": "C-421",
+          "source_ids": [
+            "R27-M-003",
+            "R27-M-004"
+          ],
+          "shared_closing_source_ids": [
+            "R27-M-003",
+            "R27-M-004"
+          ]
+        },
+        {
+          "claim_id": "C-422",
+          "source_ids": [
+            "NOV-M07",
+            "R27-K-002",
+            "R27-H-006"
+          ],
+          "shared_closing_source_ids": [
+            "R27-H-006",
+            "R27-K-002"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "OPEN-ENV-02",
+      "opening_ref": {
+        "path": "runs/2026-11-06-outlook-reassessment-opening.json",
+        "pointer": "/hypotheses/1",
+        "sha256": "11f7b98ddbf529371420b5ac572aa40f05cfd4b9802382b8ca604b80fedb18fe",
+        "expected_id": "OPEN-ENV-02"
+      },
+      "closing_ref": {
+        "path": "data/outlook_2027_reassessment.json",
+        "pointer": "/closing/judgments/1",
+        "sha256": "3b8c97461b71b11646549e1ccbe9b362e00307664c357fbd9dbec3a5f257e550",
+        "expected_id": "OPEN-ENV-02"
+      },
+      "closing_sources_ref": {
+        "path": "data/outlook_2027_reassessment.json",
+        "pointer": "/closing/judgments/1/source_ids",
+        "sha256": "b2fc34970f05044ad05cb5f291bd7057ae1ee0deba59e39313dc05e0e6a18830"
+      },
+      "alternative_ref": {
+        "path": "data/outlook_2027_reassessment.json",
+        "pointer": "/closing/judgments/1/strongest_alternative",
+        "sha256": "13fc50516885956d48168699f430a934409b598549bf5f8dc079f8c2cce9e67d"
+      },
+      "next_observations_ref": {
+        "path": "data/outlook_2027_reassessment.json",
+        "pointer": "/closing/judgments/1/next_observations",
+        "sha256": "6d367258fd80d5c6e309dbe3167f7f1dafa9a0b19b86d262386dbd07b68f8ab1"
+      },
+      "claim_links": [
+        {
+          "claim_id": "C-423",
+          "source_ids": [
+            "NOV-M01",
+            "R27-M-002",
+            "NOV-M07"
+          ],
+          "shared_closing_source_ids": [
+            "NOV-M01",
+            "NOV-M07",
+            "R27-M-002"
+          ]
+        },
+        {
+          "claim_id": "C-426",
+          "source_ids": [
+            "FIN-003",
+            "ST-TD-005",
+            "R27-B-005"
+          ],
+          "shared_closing_source_ids": [
+            "FIN-003",
+            "ST-TD-005"
+          ]
+        },
+        {
+          "claim_id": "C-429",
+          "source_ids": [
+            "R27-K-004",
+            "R27-K-005",
+            "ST-KY-006"
+          ],
+          "shared_closing_source_ids": [
+            "R27-K-004",
+            "ST-KY-006"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "OPEN-ENV-03",
+      "opening_ref": {
+        "path": "runs/2026-11-06-outlook-reassessment-opening.json",
+        "pointer": "/hypotheses/2",
+        "sha256": "24e4c67f38d4e1569ef27b6b134556825d24caa27cf6dfef37e3cd3b9abe3d7f",
+        "expected_id": "OPEN-ENV-03"
+      },
+      "closing_ref": {
+        "path": "data/outlook_2027_reassessment.json",
+        "pointer": "/closing/judgments/2",
+        "sha256": "808e7c30e0573ae4e774231de468865d3cbccb004c9b217a4e08cf11077da871",
+        "expected_id": "OPEN-ENV-03"
+      },
+      "closing_sources_ref": {
+        "path": "data/outlook_2027_reassessment.json",
+        "pointer": "/closing/judgments/2/source_ids",
+        "sha256": "902558fe7f04941c8d6cdd47698e0da9245bf94b7877d3be0e9de95e0dadbddc"
+      },
+      "alternative_ref": {
+        "path": "data/outlook_2027_reassessment.json",
+        "pointer": "/closing/judgments/2/strongest_alternative",
+        "sha256": "06b4a5fea5e72a76c39002b571ab3799a6e24712f0a72e2bc27e49852a6e377d"
+      },
+      "next_observations_ref": {
+        "path": "data/outlook_2027_reassessment.json",
+        "pointer": "/closing/judgments/2/next_observations",
+        "sha256": "6670e11a2dafc32089182c3667929f9a2120571bf31419867b67ac8a99a89cdd"
+      },
+      "claim_links": [
+        {
+          "claim_id": "C-424",
+          "source_ids": [
+            "FIN-003",
+            "NOV-M07",
+            "ST-HW-007",
+            "R27-B-004"
+          ],
+          "shared_closing_source_ids": [
+            "NOV-M07",
+            "R27-B-004",
+            "ST-HW-007"
+          ]
+        },
+        {
+          "claim_id": "C-428",
+          "source_ids": [
+            "KYO-GEO-004",
+            "R27-K-009",
+            "FIN-008"
+          ],
+          "shared_closing_source_ids": [
+            "KYO-GEO-004"
+          ]
+        },
+        {
+          "claim_id": "C-430",
+          "source_ids": [
+            "ST-HW-007"
+          ],
+          "shared_closing_source_ids": [
+            "ST-HW-007"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "OPEN-BNK-01",
+      "opening_ref": {
+        "path": "runs/2026-11-06-outlook-reassessment-opening.json",
+        "pointer": "/hypotheses/3",
+        "sha256": "1b427efeaaceba689eb9f92bf881d148fa184c665435532d8eca99e50d327e8e",
+        "expected_id": "OPEN-BNK-01"
+      },
+      "closing_ref": {
+        "path": "data/outlook_2027_reassessment.json",
+        "pointer": "/closing/judgments/3",
+        "sha256": "9118ae38a16e1bb7019e68dc04d3c00fd2ed3e324fd54228e7d33e0278eb3d6e",
+        "expected_id": "OPEN-BNK-01"
+      },
+      "closing_sources_ref": {
+        "path": "data/outlook_2027_reassessment.json",
+        "pointer": "/closing/judgments/3/source_ids",
+        "sha256": "bb24b8e2a8b1d04971b6494a97944e4e35a9bd5df5e3b1623ffd1de5db18b6a4"
+      },
+      "alternative_ref": {
+        "path": "data/outlook_2027_reassessment.json",
+        "pointer": "/closing/judgments/3/strongest_alternative",
+        "sha256": "d8a4d041d27db5053409f9d212e8208b348e8b6e68b79abe868c36d6f36a94df"
+      },
+      "next_observations_ref": {
+        "path": "data/outlook_2027_reassessment.json",
+        "pointer": "/closing/judgments/3/next_observations",
+        "sha256": "f14d87d289233af2ac834e1813370aced68242aff0660df87c58989cb358014d"
+      },
+      "claim_links": [
+        {
+          "claim_id": "C-425",
+          "source_ids": [
+            "ST-KN-003",
+            "R27-B-002",
+            "R27-B-003",
+            "R27-B-004"
+          ],
+          "shared_closing_source_ids": [
+            "R27-B-002",
+            "R27-B-003",
+            "R27-B-004",
+            "ST-KN-003"
+          ]
+        },
+        {
+          "claim_id": "C-426",
+          "source_ids": [
+            "FIN-003",
+            "ST-TD-005",
+            "R27-B-005"
+          ],
+          "shared_closing_source_ids": [
+            "R27-B-005",
+            "ST-TD-005"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "OPEN-KYO-01",
+      "opening_ref": {
+        "path": "runs/2026-11-06-outlook-reassessment-opening.json",
+        "pointer": "/hypotheses/4",
+        "sha256": "ab0633fbc6a0255fdf8fb5041920bd8c0862929214ac6afeddc5c5a02c4430d2",
+        "expected_id": "OPEN-KYO-01"
+      },
+      "closing_ref": {
+        "path": "data/outlook_2027_reassessment.json",
+        "pointer": "/closing/judgments/4",
+        "sha256": "7c0023d8c4bd45245ff5bba5bcc0c092179de2f1be1f49f91ad4ada7d803d5a3",
+        "expected_id": "OPEN-KYO-01"
+      },
+      "closing_sources_ref": {
+        "path": "data/outlook_2027_reassessment.json",
+        "pointer": "/closing/judgments/4/source_ids",
+        "sha256": "d6ab71adbbe091091ba41426589a4b72f0672d22b0d4de32d439453518aa6fb8"
+      },
+      "alternative_ref": {
+        "path": "data/outlook_2027_reassessment.json",
+        "pointer": "/closing/judgments/4/strongest_alternative",
+        "sha256": "65be401df77085a8e5b35c587481ecf384a82847f8cfabfc600c277563e59a88"
+      },
+      "next_observations_ref": {
+        "path": "data/outlook_2027_reassessment.json",
+        "pointer": "/closing/judgments/4/next_observations",
+        "sha256": "ca17e2d869f593becd9ed87cf6b4a5c872e66bd988c9527cdca7d12949c818a2"
+      },
+      "claim_links": [
+        {
+          "claim_id": "C-427",
+          "source_ids": [
+            "R27-K-002",
+            "HWX-R-005",
+            "HWX-V-006",
+            "BMX-KY-003"
+          ],
+          "shared_closing_source_ids": [
+            "BMX-KY-003",
+            "HWX-R-005",
+            "HWX-V-006",
+            "R27-K-002"
+          ]
+        },
+        {
+          "claim_id": "C-428",
+          "source_ids": [
+            "KYO-GEO-004",
+            "R27-K-009",
+            "FIN-008"
+          ],
+          "shared_closing_source_ids": [
+            "KYO-GEO-004",
+            "R27-K-009"
+          ]
+        },
+        {
+          "claim_id": "C-429",
+          "source_ids": [
+            "R27-K-004",
+            "R27-K-005",
+            "ST-KY-006"
+          ],
+          "shared_closing_source_ids": [
+            "R27-K-004",
+            "R27-K-005",
+            "ST-KY-006"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "OPEN-HAN-01",
+      "opening_ref": {
+        "path": "runs/2026-11-06-outlook-reassessment-opening.json",
+        "pointer": "/hypotheses/5",
+        "sha256": "b889cdec0c0ca335f04ee42b07d5cd179acaeb4aea9b914c0f1c4a04f5f51148",
+        "expected_id": "OPEN-HAN-01"
+      },
+      "closing_ref": {
+        "path": "data/outlook_2027_reassessment.json",
+        "pointer": "/closing/judgments/5",
+        "sha256": "7c7cbb0221bec1e9eeba35b2b9e9cef60d65c5a5289642a6acdfafe2cd6cabcf",
+        "expected_id": "OPEN-HAN-01"
+      },
+      "closing_sources_ref": {
+        "path": "data/outlook_2027_reassessment.json",
+        "pointer": "/closing/judgments/5/source_ids",
+        "sha256": "2b5a93165607c05b4715428307cc0e35c11774e37910cd16ac1431fe4c089f29"
+      },
+      "alternative_ref": {
+        "path": "data/outlook_2027_reassessment.json",
+        "pointer": "/closing/judgments/5/strongest_alternative",
+        "sha256": "314e26eac1f65952ae0ed4b479a3dca1ca071ab0cefbfd3a81960378fb9b9e78"
+      },
+      "next_observations_ref": {
+        "path": "data/outlook_2027_reassessment.json",
+        "pointer": "/closing/judgments/5/next_observations",
+        "sha256": "e49b50938171d95c7b143057ac77e8b90db1caf7af0fa078a8c16472cb8de7ac"
+      },
+      "claim_links": [
+        {
+          "claim_id": "C-430",
+          "source_ids": [
+            "ST-HW-007"
+          ],
+          "shared_closing_source_ids": [
+            "ST-HW-007"
+          ]
+        },
+        {
+          "claim_id": "C-431",
+          "source_ids": [
+            "ST-HW-002",
+            "HWA-GEO-001",
+            "HWA-GEO-008",
+            "R27-H-006"
+          ],
+          "shared_closing_source_ids": [
+            "HWA-GEO-001",
+            "HWA-GEO-008",
+            "R27-H-006",
+            "ST-HW-002"
+          ]
+        },
+        {
+          "claim_id": "C-432",
+          "source_ids": [
+            "R27-H-003",
+            "ST-HW-007",
+            "HWA-GEO-008"
+          ],
+          "shared_closing_source_ids": [
+            "HWA-GEO-008",
+            "R27-H-003",
+            "ST-HW-007"
+          ]
+        }
+      ]
+    }
+  ],
+  "groups": {
+    "bnk": {
+      "path": "data/outlook_2027_reassessment.json",
+      "pointer": "/groups/bnk",
+      "sha256": "34bef807df8ccce0cbae774558cee2a77e9575d726630a520034477741ac81d1"
+    },
+    "kyobo": {
+      "path": "data/outlook_2027_reassessment.json",
+      "pointer": "/groups/kyobo",
+      "sha256": "3c6adb1a497d759f7843aa9e5905a0c60ac273fa170719f8ef8c01b882f1ccf6"
+    },
+    "hanwha": {
+      "path": "data/outlook_2027_reassessment.json",
+      "pointer": "/groups/hanwha",
+      "sha256": "0a7a68453afc9f273300c004159527a806f5e18fe6fd8513d9ad86a9f9d8c102"
+    }
+  },
+  "actions": [
+    {
+      "id": "A-BNK-01",
+      "id_scope": "lineage-sidecar-only",
+      "group": "bnk",
+      "ref": {
+        "path": "data/outlook_2027_reassessment.json",
+        "pointer": "/groups/bnk/priorities/0",
+        "sha256": "34c899c8eee4edca8753f439a76e4bb875b14b55c12e952030e52043816cfcb7"
+      },
+      "decision_refs": [
+        {
+          "path": "data/outlook_2027_reassessment.json",
+          "pointer": "/groups/bnk/judgments/0",
+          "sha256": "7736c6f8742216bed57e52134acf24f2b1b657755708a52da2c7d3bce48c623b",
+          "expected_id": "R27-B-UP-01"
+        },
+        {
+          "path": "data/outlook_2027_reassessment.json",
+          "pointer": "/groups/bnk/judgments/3",
+          "sha256": "b812bed7995103142cf4410b41ef0b28df5d46ba2a7109d059f58b5a4cd8178b",
+          "expected_id": "R27-B-UP-04"
+        }
+      ],
+      "hypothesis_ids": [
+        "OPEN-BNK-01",
+        "OPEN-ENV-01",
+        "OPEN-ENV-02"
+      ],
+      "claim_ids": [
+        "C-425",
+        "C-426",
+        "C-421"
+      ]
+    },
+    {
+      "id": "A-BNK-02",
+      "id_scope": "lineage-sidecar-only",
+      "group": "bnk",
+      "ref": {
+        "path": "data/outlook_2027_reassessment.json",
+        "pointer": "/groups/bnk/priorities/1",
+        "sha256": "ec284f4f5590777773db839ea2023cc38636c5f9c80c198d8e7014020d608ed2"
+      },
+      "decision_refs": [
+        {
+          "path": "data/outlook_2027_reassessment.json",
+          "pointer": "/groups/bnk/judgments/0",
+          "sha256": "7736c6f8742216bed57e52134acf24f2b1b657755708a52da2c7d3bce48c623b",
+          "expected_id": "R27-B-UP-01"
+        },
+        {
+          "path": "data/outlook_2027_reassessment.json",
+          "pointer": "/groups/bnk/judgments/1",
+          "sha256": "76123a0367544e3987b84ea9ec72d7317ebc385b15c0df62d2642176de724469",
+          "expected_id": "R27-B-UP-02"
+        }
+      ],
+      "hypothesis_ids": [
+        "OPEN-BNK-01",
+        "OPEN-ENV-03"
+      ],
+      "claim_ids": [
+        "C-425",
+        "C-424"
+      ]
+    },
+    {
+      "id": "A-BNK-03",
+      "id_scope": "lineage-sidecar-only",
+      "group": "bnk",
+      "ref": {
+        "path": "data/outlook_2027_reassessment.json",
+        "pointer": "/groups/bnk/priorities/2",
+        "sha256": "7133f58478b0e82e284b6034549261dca46da262c2b8dccf66cdb5ac7a0d76c7"
+      },
+      "decision_refs": [
+        {
+          "path": "data/outlook_2027_reassessment.json",
+          "pointer": "/groups/bnk/judgments/2",
+          "sha256": "888d3a36b520ffad0cfe882b095885477c2786ff34763640c19f6ebbbf96c414",
+          "expected_id": "R27-B-UP-03"
+        },
+        {
+          "path": "data/outlook_2027_reassessment.json",
+          "pointer": "/groups/bnk/judgments/3",
+          "sha256": "b812bed7995103142cf4410b41ef0b28df5d46ba2a7109d059f58b5a4cd8178b",
+          "expected_id": "R27-B-UP-04"
+        }
+      ],
+      "hypothesis_ids": [
+        "OPEN-BNK-01",
+        "OPEN-ENV-02"
+      ],
+      "claim_ids": [
+        "C-426",
+        "C-423"
+      ]
+    },
+    {
+      "id": "A-KYOBO-01",
+      "id_scope": "lineage-sidecar-only",
+      "group": "kyobo",
+      "ref": {
+        "format": "markdown_section",
+        "path": "reports/43_kyobo_2027_reassessment.md",
+        "heading": "### 1. 생명: 고객 AI가 읽고 실제로 완료할 수 있는 장기 계약관리",
+        "sha256": "bfd99591aa4498700f5104057f6bdff306ffa8eb8790b9cebfe8b79a17e41f09"
+      },
+      "decision_refs": [
+        {
+          "path": "data/outlook_2027_reassessment.json",
+          "pointer": "/groups/kyobo/decisions/1",
+          "sha256": "a9b08bc1702379219241d08659c3ee8324d5f1597cc2c1dedb328985515311c2",
+          "expected_id": "R27-KYO-02"
+        },
+        {
+          "path": "data/outlook_2027_reassessment.json",
+          "pointer": "/groups/kyobo/decisions/3",
+          "sha256": "81bc7da9376c9b7bb53a20e6fd363971e5103e26d357471f01d1d6aede0aa223",
+          "expected_id": "R27-KYO-04"
+        }
+      ],
+      "hypothesis_ids": [
+        "OPEN-KYO-01",
+        "OPEN-ENV-01"
+      ],
+      "claim_ids": [
+        "C-427",
+        "C-422"
+      ]
+    },
+    {
+      "id": "A-KYOBO-02",
+      "id_scope": "lineage-sidecar-only",
+      "group": "kyobo",
+      "ref": {
+        "format": "markdown_section",
+        "path": "reports/43_kyobo_2027_reassessment.md",
+        "heading": "### 2. 증권: 반복 발행·집행·사후관리 계약부터 확보하고 종투사 확장을 연결",
+        "sha256": "44a00d33befcd3ef07d2a99d4fd046b1482925c200ef2db6a74450c235b70f9a"
+      },
+      "decision_refs": [
+        {
+          "path": "data/outlook_2027_reassessment.json",
+          "pointer": "/groups/kyobo/decisions/0",
+          "sha256": "15b9bdfa91cbad24b961c75a885973204d18299d39f049b24c29b0b39783a715",
+          "expected_id": "R27-KYO-01"
+        },
+        {
+          "path": "data/outlook_2027_reassessment.json",
+          "pointer": "/groups/kyobo/decisions/2",
+          "sha256": "aba6df31b98c0b232f9d49b557d110ccee634954dfc01adea70acb0038cf3ecf",
+          "expected_id": "R27-KYO-03"
+        },
+        {
+          "path": "data/outlook_2027_reassessment.json",
+          "pointer": "/groups/kyobo/decisions/4",
+          "sha256": "88807f55c499a97fe9a9f73e4d589de9ebe2a60ec0aefccf0025677890a34dc7",
+          "expected_id": "R27-KYO-05"
+        }
+      ],
+      "hypothesis_ids": [
+        "OPEN-KYO-01",
+        "OPEN-ENV-02",
+        "OPEN-ENV-03"
+      ],
+      "claim_ids": [
+        "C-428",
+        "C-429"
+      ]
+    },
+    {
+      "id": "A-KYOBO-03",
+      "id_scope": "lineage-sidecar-only",
+      "group": "kyobo",
+      "ref": {
+        "format": "markdown_section",
+        "path": "reports/43_kyobo_2027_reassessment.md",
+        "heading": "### 3. 그룹: 같은 고객 업무에서 공통 기준만 연결하고 외부 대안과 경쟁시킨다",
+        "sha256": "30fbbe231f4a4b2edd4fb0115e9383bbf2e56c39a74b871e230bc7edc201c5e0"
+      },
+      "decision_refs": [
+        {
+          "path": "data/outlook_2027_reassessment.json",
+          "pointer": "/groups/kyobo/decisions/1",
+          "sha256": "a9b08bc1702379219241d08659c3ee8324d5f1597cc2c1dedb328985515311c2",
+          "expected_id": "R27-KYO-02"
+        },
+        {
+          "path": "data/outlook_2027_reassessment.json",
+          "pointer": "/groups/kyobo/decisions/3",
+          "sha256": "81bc7da9376c9b7bb53a20e6fd363971e5103e26d357471f01d1d6aede0aa223",
+          "expected_id": "R27-KYO-04"
+        }
+      ],
+      "hypothesis_ids": [
+        "OPEN-KYO-01",
+        "OPEN-ENV-01"
+      ],
+      "claim_ids": [
+        "C-427",
+        "C-421"
+      ]
+    },
+    {
+      "id": "A-HANWHA-01",
+      "id_scope": "lineage-sidecar-only",
+      "group": "hanwha",
+      "ref": {
+        "path": "data/outlook_2027_reassessment.json",
+        "pointer": "/groups/hanwha/priorities/0",
+        "sha256": "5e8e264ac89123a24dad23d33828036e0493d5c4eec6b3a99909477f6a7a4b9a"
+      },
+      "decision_refs": [
+        {
+          "path": "data/outlook_2027_reassessment.json",
+          "pointer": "/groups/hanwha/judgment_updates/0",
+          "sha256": "a0a5816a6d7ea6e1d831fa860c1a9595aa1427d8aa4823f3014d68cc497700f2",
+          "expected_id": "R27-H-J01"
+        }
+      ],
+      "hypothesis_ids": [
+        "OPEN-HAN-01",
+        "OPEN-ENV-01"
+      ],
+      "claim_ids": [
+        "C-432",
+        "C-422"
+      ]
+    },
+    {
+      "id": "A-HANWHA-02",
+      "id_scope": "lineage-sidecar-only",
+      "group": "hanwha",
+      "ref": {
+        "path": "data/outlook_2027_reassessment.json",
+        "pointer": "/groups/hanwha/priorities/1",
+        "sha256": "0fa9eb0bec896f2433ba087a714e58d83424d7f33bf9f3bb3c3fb0a128ceb358"
+      },
+      "decision_refs": [
+        {
+          "path": "data/outlook_2027_reassessment.json",
+          "pointer": "/groups/hanwha/judgment_updates/1",
+          "sha256": "1d1041056115f056c1f7de38951bf3d613c523c419e988d9292b0ea0e2bdd322",
+          "expected_id": "R27-H-J02"
+        },
+        {
+          "path": "data/outlook_2027_reassessment.json",
+          "pointer": "/groups/hanwha/judgment_updates/3",
+          "sha256": "d2f302aec30d0185559689a37f68e4e3311a2a66cbd297a4f5a8ba2302da4285",
+          "expected_id": "R27-H-J04"
+        }
+      ],
+      "hypothesis_ids": [
+        "OPEN-HAN-01",
+        "OPEN-ENV-01",
+        "OPEN-ENV-02"
+      ],
+      "claim_ids": [
+        "C-431",
+        "C-422",
+        "C-423"
+      ]
+    },
+    {
+      "id": "A-HANWHA-03",
+      "id_scope": "lineage-sidecar-only",
+      "group": "hanwha",
+      "ref": {
+        "path": "data/outlook_2027_reassessment.json",
+        "pointer": "/groups/hanwha/priorities/2",
+        "sha256": "d8b3e6374fa8d433bdb64aa42e325c5636e3daee500b3e16ecbf59e6555101f0"
+      },
+      "decision_refs": [
+        {
+          "path": "data/outlook_2027_reassessment.json",
+          "pointer": "/groups/hanwha/judgment_updates/2",
+          "sha256": "e8aec0d8535fbbd07b401be9e77436c7f08c52453bee8b1bba5c256a4dba2a7b",
+          "expected_id": "R27-H-J03"
+        }
+      ],
+      "hypothesis_ids": [
+        "OPEN-HAN-01",
+        "OPEN-ENV-03"
+      ],
+      "claim_ids": [
+        "C-430",
+        "C-424"
+      ]
+    }
+  ],
+  "context_only_read_source_ids": [
+    "KYO-GEO-005",
+    "R27-B-006",
+    "R27-M-001",
+    "R27-M-005",
+    "ST-KY-004"
+  ]
+}
