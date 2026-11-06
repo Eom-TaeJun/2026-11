@@ -30,3 +30,7 @@ README, docs/RESEARCH_MANDATE.md, reports/22~26의 정확한 README 링크, data
 ## 검증·게시
 
 기존 scripts/research.py의 ingest → build → validate와 tests를 따른다. 공식 원문 표집과 미확인 한계를 별도로 기록한다. 파일·출처·주장·상대 링크·null·개인정보 경계를 확인한 뒤 기존 main의 예상 SHA를 확인하여 게시한다. 원격 파일과 트리를 다시 읽어 저장을 검증한다. 실제 고객 시험·외부 연락·주문·금융거래는 이 연구 절차에서 수행하지 않는다.
+
+## 도메인 추론과 의견 갱신
+
+교수형의 초기 가설 설정과 후기 방향 제시는 [경제적 의견 절차](economic_opinion_workflow.md)를 따른다. [필요한 원리](economic_domain_lenses.md)를 골라 변수·선택·경쟁 반응으로 연결하고, 사실과 조건부 전망을 구분한다. 본 문서의 세부 기업/상품 절차는 그 사이의 근거 수집·적용에 사용한다.

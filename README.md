@@ -1,11 +1,13 @@
 # 금융환경 변화와 기업 대응을 근거로 이어가는 연구
 
-RWA·토큰화·온체인 금융의 환경 변화를 먼저 분석하고, 고객 문제·금융 기능·기업 신호·필요한 업무로 좁혀가는 공개 연구 저장소다. 최근 연구·원문 확인일은 **2026-11-04 KST**, 국가별 규제 기준선은 **2026-11-02**다. 자료별 사건·관측 시점은 별도로 보존한다.
+RWA·토큰화·온체인 금융의 환경 변화를 먼저 분석하고, 고객 문제·금융 기능·기업 신호·필요한 업무로 좁혀가는 공개 연구 저장소다. 최근 연구·원문 확인일은 **2026-11-04 KST**, 국가별 규제 기준선은 **2026-11-02**다. 자료별 사건·관측 시점은 별도로 보존한다. **에이전트 설계 갱신일은2026-11-06**이며 이 날짜를 금융 실적·규제 전체의 재확인일로 쓰지 않는다.
 
 현재 주된 읽기 순서는 **본래 금융기관 수익모델 → BNK·교보·한화의 실제 규모·수익·강약점 → AI·온체인이 바꾸는 고객 선택과 기존 수익 → 경쟁사 대응 뒤 우선할 업무·신뢰**다. 숫자는 실제 기반을 확인하는 근거로 쓰고 가상 배분은 보조 사례로 둔다. 기존 제도·레일 분석을 유지하면서, 변화가 새 수익뿐 아니라 가격 하락·조달·신용·유통·유지 비용을 어떻게 바꾸는지 설명한다.
 
 | 읽고 싶은 내용 | 문서 |
 |---|---|
+| 금융·경제 원리로 환경을 해석하고 방향을 제시하는 에이전트 | [설계 검토와 변경](reports/40_agent_domain_reasoning_design.md) · [의견 절차](agents/economic_opinion_workflow.md) |
+| 질문에 맞는 이론·변수·적용 한계와 검토 사례 | [도메인 지도](agents/economic_domain_lenses.md) · [세 그룹 검토 문항](agents/evaluations/domain_reasoning_cases.json) |
 | 대체 대상·고객 관계·새 유료 업무·적응 투자 비교 | [대체·관계 통합](reports/39_finance_substitution_customer_relationships.md) · [구조화 비교](data/finance_substitution_relationships.json) |
 | 무엇으로 돈을 벌며, 왜 이 방향을 우선해야 하는가 | [수익모델·환경 변화·고객 AI 통합 논증](reports/35_business_models_and_agent_finance.md) |
 | BNK 실제 이익·기업여신·조달에서 지역 고객 관계 방어까지 | [BNK 기반·기회·위기·우선순위](reports/36_bnk_business_model_priorities.md) |
@@ -53,7 +55,9 @@ RWA·토큰화·온체인 금융의 환경 변화를 먼저 분석하고, 고객
 | 다음에도 갱신하는 방법 | [파이프라인 운영](PIPELINE.md) |
 | 역할별 입력·출력·판단 기준 | [8개 에이전트 명세](agents/roles.json) · [호스트 지침](AGENTS.md) |
 
-이번 갱신은 **근거와 논리의 순서를 바로잡는 작업**이다. 공개 실적의 연결/별도·잔액/흐름·총액/순액·예상/확정을 분리하고, 세 그룹이 현재 벌고 있는 돈과 부담하는 위험에서 우선 대응을 도출했다. 기존 STR12개 순위·미확인값은 보존했다. [실행과 검토](runs/2026-11-04-business-model-priorities.json) · [재사용 절차](agents/business_model_reasoning_workflow.md).
+2026-11-06에는 기존 8개 역할에 초기 가설·후기 판단 갱신, 경제 원리 선택, 경쟁 반응과 새 수요, 조건변경에 따른 의미 검토를 연결했다. [설계와 적용 검토](reports/40_agent_domain_reasoning_design.md) · [실행 기록](runs/2026-11-06-agent-design.json).
+
+2026-11-04 연구에서는 **근거와 논리의 순서**를 보완했다. 공개 실적의 연결/별도·잔액/흐름·총액/순액·예상/확정을 분리하고, 세 그룹이 현재 벌고 있는 돈과 부담하는 위험에서 우선 대응을 도출했다. 기존 STR12개 순위·미확인값은 보존했다. [실행과 검토](runs/2026-11-04-business-model-priorities.json) · [재사용 절차](agents/business_model_reasoning_workflow.md).
 
 앞선 후속은 **조건부 고객 사례 6개, 주장·가설 23개 추가, 기존 출처 9건 선택 재확인**이다. 새로운 시장 실적이나 규제 일괄 시행을 주장하지 않는다. 같은 고객의 기존+AI·그룹 적응·경쟁사 대응과 재선택, 원금·수익·잠식을 구분했다. [사례 원장](data/agent_finance_2027_cases.json) · [수익 귀속](data/agent_finance_value_capture.json) · [실행·검토](runs/2026-11-04-agent-finance-cases.json).
 

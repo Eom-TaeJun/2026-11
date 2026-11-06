@@ -1,0 +1,151 @@
+{
+  "as_of": "2026-11-06",
+  "timezone": "Asia/Seoul",
+  "status": "validated_ready_for_publication",
+  "request": "금융·경제 기본 도메인으로 환경 변화의 의미와 미래 방향을 판단하도록 기존 에이전트 설계 재검토",
+  "baseline_head": "8bfd3ceabf91cecb28581d548180fb218023f5fc",
+  "baseline_tree": "a7efd56631b46e049929e096487c418e7377e2bf",
+  "baseline_files": 445,
+  "design_version_before": "2.0",
+  "design_version_after": "2.1",
+  "logical_roles": 8,
+  "actual_workers": 5,
+  "workers": [
+    {
+      "name": "coordinator",
+      "work": "공개 교수 원문 선택 읽기, 최신 원격 기준선 보존, 설계·보고서 병합, 검증·게시"
+    },
+    {
+      "name": "design_audit",
+      "work": "기존 설계 공백 검토 및 최종 지침의 독립 일관성 검토"
+    },
+    {
+      "name": "domain_architecture",
+      "work": "질문별 경제 원리·전달경로·새 수요·의견 인계 설계"
+    },
+    {
+      "name": "reasoning_evaluation",
+      "work": "3개 사례·신규수요 후속·총7개 조건변경과 의미 검토 기준, 적용 결과 독립 검토"
+    },
+    {
+      "name": "domain_probe",
+      "work": "참고 답을 제공받지 않고 수정 지침과 사례 입력으로 조건부 의견 작성"
+    }
+  ],
+  "changes": [
+    "기존 교수형·경쟁가설·검증을 유지하면서 초기 가설과 후기 입장 갱신을 모든 작업절차에 연결",
+    "경제 원리 선택 이유·적용 조건·바뀐 제약·주체 선택·경쟁과 정책 반응을 공통 인계",
+    "기존 수익 이동·가격 인하와 처음 가능해지는 고객·거래를 구분",
+    "사실 정확성·조건부 논리·현재 실행 가능성을 별도 검토",
+    "중요 조건을 바꾼 사례에서 결론과 행동의 이유를 의미 중심으로 검토"
+  ],
+  "source_reads": [
+    {
+      "existing_source_id": "ST-TD-002",
+      "url": "https://github.com/cschung7/2026-class-UG-AIFinance/blob/3200cf6953b1b45257fcd25a3c7c961942f7bff7/agent_lecture_2006-spring.html",
+      "blob_sha": "2a2349a02b36f2c7855607ce3dbba797182b3f3e",
+      "read_status": "selected_sections",
+      "scope": "HTML315–328행 및390–398행, 슬라이드10·15",
+      "used_for": "거래·정보 비용에서 기업 경계를 질문하며 기업 규모 확대/축소를 열린 문제로 유지",
+      "limit": "교수의 현재 시장·회사 전략 견해나 실증 결과로 사용하지 않음; 파일명2006을 발표연도로 사용하지 않음"
+    },
+    {
+      "existing_source_id": "ST-TD-001",
+      "url": "https://github.com/cschung7/2026-2nd/blob/f031aa16ba6a99eec875c8a543db99208be598d5/hermes-agent-economics-lecture.html",
+      "blob_sha": "3bf85f9cf522a82928d82e3a748fbfc895439cb0",
+      "read_status": "selected_sections",
+      "scope": "HTML1383–1400행 및1510–1522행, 슬라이드14·22",
+      "used_for": "분업의 비교우위와 목표·근거 전달 손실·검증 책임, 작은 경제 질문의 완결",
+      "canonical_source_ref": "210c6313640ab03ac8a652c8e4435386734cf6ca",
+      "canonical_source_blob_verified_same": true,
+      "canonical_source_verification_scope": "기존 원장의 고정 ref를 추가 fetch하여 동일 blob SHA 확인; 선택 범위1383–1400행",
+      "limit": "모든 도메인 지식을 강의자의 발언으로 귀속하지 않음; 기존 원장 checked_at은 변경하지 않음"
+    }
+  ],
+  "existing_research_reused": {
+    "reports": [
+      "reports/35_business_models_and_agent_finance.md",
+      "reports/36_bnk_business_model_priorities.md",
+      "reports/37_kyobo_business_model_priorities.md",
+      "reports/38_hanwha_business_model_priorities.md",
+      "reports/39_finance_substitution_customer_relationships.md"
+    ],
+    "financial_source_refresh": false,
+    "sources": 291,
+    "claims": 420,
+    "topics": 14,
+    "scope": "기존 공개 연구의 선택 절과 근거 ID 재사용. 기업 실적·현행 제도 전수 재검증이 아님.",
+    "ledger_and_strategy_ranks_changed": false
+  },
+  "semantic_probe": {
+    "status": "independently_reviewed_with_scoped_correction",
+    "cases": 3,
+    "counterfactuals": 7,
+    "reference_cases": "agents/evaluations/domain_reasoning_cases.json",
+    "outputs": "runs/2026-11-06-agent-design-probe.md",
+    "method": "새 문맥의 작성 담당에게 지침·질문·기존 근거·미래 가정과 조건변경 질문을 함께 제공. 참고 답·예상 변화·판정 문구는 제거. 별도 담당이 인과와 행동 변경을 검토. 이후 독립 설계감사의 신규수요 지적을 반영해 별도 후속 질문과 일곱 번째 조건변경을 제공. 초기 답변은 보존.",
+    "limits": [
+      "3개의 선별 사례에 대한 제한된 지침 적용 검토이며 무작위·다회·모델별 성능 비교가 아님",
+      "기존 설계와의 성능 차이를 측정하지 않음",
+      "미래예측 성능·실제 고객 선택·사업 수익성의 검증이 아님"
+    ],
+    "additional_new_demand_question": 1,
+    "frozen_input": "runs/2026-11-06-agent-design-input.json",
+    "archiving_note": "입력파일 표시를 공개 링크로 정규화하고 독립 검토의 원가범위1문장을 교정. 수정 기록을 출력과 검토 문서에 공개. 초기/후속의 결론은 변경 없음.",
+    "verdict": "ready_for_decision_with_conditions",
+    "original_output_sha256": "ffe2668bb24e7f4c4458b62c9b4a2ef6b8abb472a7794d9f7279444ff3accce6"
+  },
+  "reports": [
+    "reports/40_agent_domain_reasoning_design.md"
+  ],
+  "review": "runs/2026-11-06-agent-design-review.md",
+  "validation": {
+    "build": "passed:291 sources,420 claims,14 topics",
+    "unit_tests": "15 existing tests passed",
+    "structural_and_links": "passed",
+    "limits": "기존 테스트는 원장·참조·현금 계산 경계를 확인하며 새 추론의 의미나 미래예측 성능을 인증하지 않음.",
+    "ledger": "valid:291 sources,420 claims,14 topics",
+    "structural_details": {
+      "status": "passed",
+      "logical_roles": 8,
+      "cases": 3,
+      "counterfactuals": 7,
+      "new_demand_followups": 1,
+      "source_references": "all existing",
+      "baseline_files_retained": 445,
+      "financial_data_and_prior_reports": "unchanged",
+      "changed_existing_files": 17,
+      "new_files": 9,
+      "secret_or_local_path_pattern_matches": 0,
+      "limits": "Structural, reference, preservation, and selected public-boundary checks only; semantic review is separate."
+    }
+  },
+  "publication": {
+    "status": "not_yet_published",
+    "repository": "Eom-TaeJun/2026-11",
+    "branch": "main"
+  },
+  "not_performed": [
+    "상시 에이전트 서버·새 AI 프레임워크 설치",
+    "예약 모니터링·자동 금융 실행",
+    "Dot 최근5일 대화 재검토",
+    "기업 실적·전 관할 규제 전체 최신화",
+    "실제 고객 시험·미래 수익 예측·에이전트 성능 향상 측정"
+  ],
+  "independent_review": {
+    "design_findings_resolved": [
+      "신규 수요 성립·불성립을 교보 후속 질문·관측·조건변경에 추가하고 독립 재확인",
+      "과거 원장 보존과 같은 사실에 대한 새로운 해석·조건부 우선순위 기록을 구분하고 독립 재확인"
+    ],
+    "probe_findings_resolved": [
+      {
+        "id": "ADR-PROBE-REVIEW-01",
+        "before": "인수·보증·재고·유동성 약정을 붙이는 경우에만 해당 조달·신용·자본 부담을 별도로 포함하며, 이미 다른 항목에 반영된 비용을 다시 더하지 않는다.",
+        "after": "주선·관리 자체에도 적용되는 운영·배상·필요자본 비용을 확인한다. 인수·보증·재고·유동성 약정을 추가하면 그에 따른 조달·신용·유동성·자본 부담을 별도로 반영하고, 이미 다른 항목에 반영한 비용은 다시 더하지 않는다.",
+        "resolution_owner": "coordinator"
+      }
+    ],
+    "remaining_material_findings": [],
+    "scope": "문장별 경제 논증·조건변경의 행동·기존 근거 범위를 검토. 미래예측 성능이나 실제 금융 성과의 인증은 아님."
+  }
+}

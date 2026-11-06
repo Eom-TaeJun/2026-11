@@ -112,3 +112,7 @@ POD 공개 안내의 지급일 차이와 IBKR 요율·지원 토큰·출금보�
 ## 실제 사업 기반과 우선 대응 갱신
 
 [재무 관측](data/institution_business_baselines.json)은 법인·기간·단위·정의·예상 여부·출처 위치를 유지한다. [대응 원장](data/business_model_transition_priorities.json)은 근거→인과→기존 수익의 위기/새 기회→경쟁 대응→우선 업무와 반증 관측을 연결한다. [반복 절차](agents/business_model_reasoning_workflow.md)를 따른다. 기존 가상 흐름은 보조로 보존하며 실적이나 전망치로 승격하지 않는다.
+
+## 도메인 기반 의견의 인계와 검토
+
+[역할 명세](agents/roles.json)의 초기/후기 교수형 호출과 [의견 절차](agents/economic_opinion_workflow.md)를 적용한다. [도메인 지도](agents/economic_domain_lenses.md)에서 필요한 원리를 고르고 [카드](agents/templates/economic_opinion.md)의 필요한 항목만 남긴다. [세 그룹 검토 문항](agents/evaluations/domain_reasoning_cases.json)은 조건을 바꿨을 때 주장·행동이 정당하게 달라지는지 의미로 검토한다. 기존 build/validate/tests는 참조·구조·계산을 확인하며 미래 예측 성능을 증명하지 않는다.
