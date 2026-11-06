@@ -1,0 +1,35 @@
+{
+  "verified_at": "2026-11-07T00:35:36.953724+09:00",
+  "content_commit": "570aff0baf267b26b153402cababb99c7ea2fda9",
+  "content_tree": "46efa609185f701f7ddf0a607980f84f44a5647b",
+  "github_tree_blobs_matched": 501,
+  "connector_exact_changed_file_readbacks": 22,
+  "git_fetch_and_local_blobs_matched": 501,
+  "public_pages": [
+    {
+      "url": "https://github.com/Eom-TaeJun/2026-11",
+      "http_status": 200,
+      "title": "GitHub - Eom-TaeJun/2026-11: 보고서 정리부터 내용 요약까지 · GitHub",
+      "rendered_markdown_present": true,
+      "expected_text_present": true
+    },
+    {
+      "url": "https://github.com/Eom-TaeJun/2026-11/blob/main/runs/2026-11-07-maintenance.md",
+      "http_status": 200,
+      "title": "2026-11/runs/2026-11-07-maintenance.md at main · Eom-TaeJun/2026-11 · GitHub",
+      "rendered_markdown_present": true,
+      "expected_text_present": true
+    },
+    {
+      "url": "https://github.com/Eom-TaeJun/2026-11/blob/main/docs/REPLAY_AND_LINEAGE.md",
+      "http_status": 200,
+      "title": "2026-11/docs/REPLAY_AND_LINEAGE.md at main · Eom-TaeJun/2026-11 · GitHub",
+      "rendered_markdown_present": true,
+      "expected_text_present": true
+    }
+  ],
+  "parent_inputs_unchanged_since_maintenance_comparison": 107,
+  "tests_passed": 86,
+  "status": "published_content_verified",
+  "note": "This receipt verifies the content commit above. The receipt commit itself is verified separately in the local final record."
+}
