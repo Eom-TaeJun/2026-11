@@ -1,7 +1,7 @@
 {
   "run_id": "2026-11-07-cschung7-opportunity",
   "date": "2026-11-07",
-  "status": "complete_local_pending_publication",
+  "status": "complete_published_and_content_verified",
   "design_version": "2.2",
   "scope": {
     "primary_sources_selected_recheck": 6,
@@ -55,7 +55,13 @@
       "old_reports_code_tests_and_strategy_preserved": true,
       "parent_input_scope": "작업 시작 때 조사한108개 중18개가 다른 내용으로 관측됨. 이번 쓰기는 agent 내부이며 원자료 복원·덮어쓰기·신규 사실 편입을 수행하지 않음. 외부 변경의 행위자는 미확인; 상세 경로는 로컬 기록만 보존."
     },
-    "remote_publication": null
+    "remote_publication": {
+      "receipt": "runs/2026-11-07-cschung7-opportunity-publication.json",
+      "content_commit": "7ef143ead4d649c6719e5fe5a8095fb1adec74ca",
+      "fetched_git_blobs": 517,
+      "exact_file_readbacks": 16,
+      "public_html_pages": 3
+    }
   },
   "limits": [
     "No current full regulation/company refresh",

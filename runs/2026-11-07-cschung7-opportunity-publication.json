@@ -1,0 +1,130 @@
+{
+  "verified_at": "2026-11-06 16:54:15 UTC",
+  "content_commit": "7ef143ead4d649c6719e5fe5a8095fb1adec74ca",
+  "fetched_git_blobs_verified": 517,
+  "public_html": [
+    {
+      "path": "README.md",
+      "url": "https://github.com/Eom-TaeJun/2026-11/blob/7ef143ead4d649c6719e5fe5a8095fb1adec74ca/README.md",
+      "http_status": 200,
+      "markdown_html_and_marker_present": true,
+      "visual_browser_review": false
+    },
+    {
+      "path": "reports/46_cschung7_reasoning_and_market_discovery.md",
+      "url": "https://github.com/Eom-TaeJun/2026-11/blob/7ef143ead4d649c6719e5fe5a8095fb1adec74ca/reports/46_cschung7_reasoning_and_market_discovery.md",
+      "http_status": 200,
+      "markdown_html_and_marker_present": true,
+      "visual_browser_review": false
+    },
+    {
+      "path": "reports/47_cschung7_opportunity_application.md",
+      "url": "https://github.com/Eom-TaeJun/2026-11/blob/7ef143ead4d649c6719e5fe5a8095fb1adec74ca/reports/47_cschung7_opportunity_application.md",
+      "http_status": 200,
+      "markdown_html_and_marker_present": true,
+      "visual_browser_review": false
+    }
+  ],
+  "content_tree": "93d6a41b36b2277ce9b31bb9bd270432eb721066",
+  "exact_file_readbacks": [
+    {
+      "path": "README.md",
+      "sha": "8bb7d7743a16e5d2966895e4cba4c9c0857b7d21",
+      "content_equal": true
+    },
+    {
+      "path": "agents/professor_reasoner.md",
+      "sha": "c18d9d63bd2b66417231b958853708d9fb8897ba",
+      "content_equal": true
+    },
+    {
+      "path": "agents/economic_opinion_workflow.md",
+      "sha": "cdfba099b60eb3bbc8c4de384db4483cca9aefc8",
+      "content_equal": true
+    },
+    {
+      "path": "agents/economic_domain_lenses.md",
+      "sha": "cc3f57e56fa4c88dfa1cadc51ea0fcd07817f973",
+      "content_equal": true
+    },
+    {
+      "path": "agents/templates/economic_opinion.md",
+      "sha": "bcfdc01f41372512f5414968c1d664c57def6e8d",
+      "content_equal": true
+    },
+    {
+      "path": "agents/roles.json",
+      "sha": "3e5ec27cff4576d3a71a9f9772a2574c94b84b28",
+      "content_equal": true
+    },
+    {
+      "path": "data/cschung7_reasoning_map.json",
+      "sha": "df166099452c9dd999f334976d9f17568ee0eb14",
+      "content_equal": true
+    },
+    {
+      "path": "data/cschung7_opportunity_application.json",
+      "sha": "e155015030115458fcdc6eb58e9e6153b47dd4b5",
+      "content_equal": true
+    },
+    {
+      "path": "data/research_lineage_20261107_cschung7.json",
+      "sha": "029e716cb94f7333ae6fe6c8855a5ff2bf82cba8",
+      "content_equal": true
+    },
+    {
+      "path": "reports/46_cschung7_reasoning_and_market_discovery.md",
+      "sha": "aa36a4ca55f931a8a8d2d9b369fe2214d9d3a87d",
+      "content_equal": true
+    },
+    {
+      "path": "reports/47_cschung7_opportunity_application.md",
+      "sha": "5f266b56239050074f00926757d2320c0b7f4223",
+      "content_equal": true
+    },
+    {
+      "path": "runs/2026-11-07-cschung7-opportunity.json",
+      "sha": "97482ab1be0c242b680ec2d4043d1b384038f1b9",
+      "content_equal": true
+    },
+    {
+      "path": "runs/2026-11-07-cschung7-opportunity-review.md",
+      "sha": "0673fb7ed9e5eea614d74ccbb86990739a7fe91d",
+      "content_equal": true
+    },
+    {
+      "path": "runs/2026-11-07-cschung7-opportunity-opening.json",
+      "sha": "0dd4c3988268d61edfa18a4f6cdf9e386a29ca9f",
+      "content_equal": true
+    },
+    {
+      "path": "runs/2026-11-07-cschung7-opportunity-sources.json",
+      "sha": "0cd188eaade8acf05dbeb1b576281cb1928863b9",
+      "content_equal": true
+    },
+    {
+      "path": "runs/pipeline/20261107-cschung7-opportunity/state.json",
+      "sha": "6b1ab5117482474051cfaed8acc5c32bbeb81bb6",
+      "content_equal": true
+    }
+  ],
+  "verification_scope": "Main research content commit verified before adding this receipt. Receipt final commit/ref is verified separately in the local handoff.",
+  "preservation": {
+    "previous_claims": 432,
+    "sources": 307,
+    "topics": 14,
+    "old_reports_code_tests_str": true
+  },
+  "validation": {
+    "unit_tests_passed": 86,
+    "semantic_conditions": 15,
+    "lineage_claims": 12,
+    "lineage_hypotheses": 4,
+    "lineage_actions": 4
+  },
+  "limitations": [
+    "Selected reading, no new full company/regulation refresh",
+    "No forecast accuracy or personal reasoning imitation evaluated",
+    "Public HTML checked, no visual browser inspection"
+  ]
+}
