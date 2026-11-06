@@ -1,0 +1,1530 @@
+{
+  "schema_version": "1.0",
+  "run_id": "2026-11-07-market-update",
+  "registries": {
+    "sources": {
+      "path": "data/sources.json"
+    },
+    "claims": {
+      "path": "data/claims.json"
+    }
+  },
+  "read_events": {
+    "path": "runs/2026-11-07-market-update-sources.json",
+    "pointer": "/read_events",
+    "sha256": "9fb6f155159454ebfc3fe03acc6701747a5d98e27de8894b3abbb3526fdfbfd8",
+    "expected_count": 31
+  },
+  "read_status_corrections": [],
+  "context_only_read_source_ids": [],
+  "scope": {
+    "claims": [
+      "C-445",
+      "C-446",
+      "C-447",
+      "C-448",
+      "C-449",
+      "C-450",
+      "C-451",
+      "C-452",
+      "C-453",
+      "C-454",
+      "C-455",
+      "C-456",
+      "C-457",
+      "C-458",
+      "C-459",
+      "C-460",
+      "C-461",
+      "C-462",
+      "C-463",
+      "C-464",
+      "C-465",
+      "C-466",
+      "C-467",
+      "C-468",
+      "C-469",
+      "C-470",
+      "C-471",
+      "C-472"
+    ],
+    "hypotheses": [
+      "NU-OPEN-ENV",
+      "BNK-OPEN-01",
+      "BNK-OPEN-02",
+      "BNK-OPEN-03",
+      "NU-OPEN-KY",
+      "NU-H-H1",
+      "NU-H-H2",
+      "NU-H-H3"
+    ],
+    "actions": [
+      "NU-ACTION-RESEARCH-1",
+      "NU-ACTION-BNK-1",
+      "NU-ACTION-BNK-2",
+      "NU-ACTION-BNK-3",
+      "NU-ACTION-KYOBO-1",
+      "NU-ACTION-KYOBO-2",
+      "NU-ACTION-KYOBO-3",
+      "NU-ACTION-HANWHA-1",
+      "NU-ACTION-HANWHA-2",
+      "NU-ACTION-HANWHA-3"
+    ]
+  },
+  "claims": [
+    {
+      "id": "C-445",
+      "ref": {
+        "path": "data/claims.json",
+        "pointer": "/444",
+        "sha256": "9599795a15c6146b15bd584eff5dd725fa4d61df81251c9692c9b42c1b38aa90",
+        "expected_id": "C-445"
+      },
+      "kind": "institution_statement",
+      "source_ids": [
+        "NU-M-002",
+        "NU-M-003"
+      ]
+    },
+    {
+      "id": "C-446",
+      "ref": {
+        "path": "data/claims.json",
+        "pointer": "/445",
+        "sha256": "cf334890c8e2b72351222fa3cab5960dc8a783340f1f162d47bddccabbfc37c2",
+        "expected_id": "C-446"
+      },
+      "kind": "interpretation",
+      "source_ids": [
+        "NOV-M07",
+        "NU-M-003"
+      ]
+    },
+    {
+      "id": "C-447",
+      "ref": {
+        "path": "data/claims.json",
+        "pointer": "/446",
+        "sha256": "a82ee0def7e873278a6347876582be509adcb4250652b9ec6a9c2a0b714e5c2f",
+        "expected_id": "C-447"
+      },
+      "kind": "institution_statement",
+      "source_ids": [
+        "NU-M-004"
+      ]
+    },
+    {
+      "id": "C-448",
+      "ref": {
+        "path": "data/claims.json",
+        "pointer": "/447",
+        "sha256": "64033441d1979de09c9c50db585cb84caf90fda7ec7e780c002a8574213c3706",
+        "expected_id": "C-448"
+      },
+      "kind": "institution_statement",
+      "source_ids": [
+        "NU-M-005",
+        "NU-M-006"
+      ]
+    },
+    {
+      "id": "C-449",
+      "ref": {
+        "path": "data/claims.json",
+        "pointer": "/448",
+        "sha256": "63f621fb6412f8d6fd1aef462e0635eef9ed3463a299e151991b4aff245ae20b",
+        "expected_id": "C-449"
+      },
+      "kind": "interpretation",
+      "source_ids": [
+        "NU-M-004",
+        "NU-M-005",
+        "NU-M-001",
+        "NU-M-007"
+      ]
+    },
+    {
+      "id": "C-450",
+      "ref": {
+        "path": "data/claims.json",
+        "pointer": "/449",
+        "sha256": "2981c21f026c2e60a14b2cbc90b0858c1c783b152611625c4aa36288a60b2187",
+        "expected_id": "C-450"
+      },
+      "kind": "fact",
+      "source_ids": [
+        "OBX-E-004"
+      ]
+    },
+    {
+      "id": "C-451",
+      "ref": {
+        "path": "data/claims.json",
+        "pointer": "/450",
+        "sha256": "65351b884d3dd3e51d0217f98fa6fc76a88c22ac77d21ad65e9b565392787a14",
+        "expected_id": "C-451"
+      },
+      "kind": "interpretation",
+      "source_ids": [
+        "OBX-P-006",
+        "OBX-E-014",
+        "OBX-P-007"
+      ]
+    },
+    {
+      "id": "C-452",
+      "ref": {
+        "path": "data/claims.json",
+        "pointer": "/451",
+        "sha256": "cea440c7ef9fb778a2b9c39edae0a1e0c2b8a106290f15c8c7d9e6f432d3503d",
+        "expected_id": "C-452"
+      },
+      "kind": "interpretation",
+      "source_ids": [
+        "OBX-E-020",
+        "OBX-P-005",
+        "OBX-E-004"
+      ]
+    },
+    {
+      "id": "C-453",
+      "ref": {
+        "path": "data/claims.json",
+        "pointer": "/452",
+        "sha256": "13373b38e8dc0b6ee6d13f589c2380fa1c68f2f23cb9f4a221dc2b9ef99da7b5",
+        "expected_id": "C-453"
+      },
+      "kind": "hypothesis",
+      "source_ids": [
+        "NOV-M07",
+        "NU-M-004",
+        "NU-M-006",
+        "OBX-E-020"
+      ]
+    },
+    {
+      "id": "C-454",
+      "ref": {
+        "path": "data/claims.json",
+        "pointer": "/453",
+        "sha256": "6d6305d8da9254c301e0463d1643dbd339e6e3f6b3ba889e37f6d1bae44615e4",
+        "expected_id": "C-454"
+      },
+      "kind": "institution_statement",
+      "source_ids": [
+        "NU-B-001"
+      ]
+    },
+    {
+      "id": "C-455",
+      "ref": {
+        "path": "data/claims.json",
+        "pointer": "/454",
+        "sha256": "0fa36534ca4d78f92858c5b21ab0d3405909ad1602d8734bf13a628dff5c2167",
+        "expected_id": "C-455"
+      },
+      "kind": "interpretation",
+      "source_ids": [
+        "NU-B-001"
+      ]
+    },
+    {
+      "id": "C-456",
+      "ref": {
+        "path": "data/claims.json",
+        "pointer": "/455",
+        "sha256": "f9a3331b63c1fef77e1855da9b23cfcaeba76dc97d7d15214c102654105a5902",
+        "expected_id": "C-456"
+      },
+      "kind": "interpretation",
+      "source_ids": [
+        "NU-B-002"
+      ]
+    },
+    {
+      "id": "C-457",
+      "ref": {
+        "path": "data/claims.json",
+        "pointer": "/456",
+        "sha256": "99fe4014b11bc5f4b09bb424e57f37ab2a279b9987c4c938950d92d54c568ec8",
+        "expected_id": "C-457"
+      },
+      "kind": "institution_statement",
+      "source_ids": [
+        "NU-B-003"
+      ]
+    },
+    {
+      "id": "C-458",
+      "ref": {
+        "path": "data/claims.json",
+        "pointer": "/457",
+        "sha256": "8c38a6fd8da310636121aa8020f4505ebcd038f06788b087a7c2ef22b5dba130",
+        "expected_id": "C-458"
+      },
+      "kind": "interpretation",
+      "source_ids": [
+        "NU-B-004",
+        "SRC-BOK-HANGANG",
+        "NOV-M08"
+      ]
+    },
+    {
+      "id": "C-459",
+      "ref": {
+        "path": "data/claims.json",
+        "pointer": "/458",
+        "sha256": "05c344be3bb5cfb3be8dc35ca62b3618c23b037c31645fe2a750618d5ede12f2",
+        "expected_id": "C-459"
+      },
+      "kind": "hypothesis",
+      "source_ids": [
+        "NU-B-002",
+        "NU-B-003",
+        "NU-B-005"
+      ]
+    },
+    {
+      "id": "C-460",
+      "ref": {
+        "path": "data/claims.json",
+        "pointer": "/459",
+        "sha256": "24b51736e5315aa82091b2f6fea19d8a4035411def229b030bf78d6d735e22b0",
+        "expected_id": "C-460"
+      },
+      "kind": "institution_statement",
+      "source_ids": [
+        "KYO-GEO-004"
+      ]
+    },
+    {
+      "id": "C-461",
+      "ref": {
+        "path": "data/claims.json",
+        "pointer": "/460",
+        "sha256": "2fd6a63bcf720cee29421278967e372aa4d440ee241126a19cebb11c764c31eb",
+        "expected_id": "C-461"
+      },
+      "kind": "institution_statement",
+      "source_ids": [
+        "NU-K-001"
+      ]
+    },
+    {
+      "id": "C-462",
+      "ref": {
+        "path": "data/claims.json",
+        "pointer": "/461",
+        "sha256": "432ad237eb2ee97f3a7190bd9ace4a4854f5a6b0cacc401b02792b8beb946260",
+        "expected_id": "C-462"
+      },
+      "kind": "fact",
+      "source_ids": [
+        "NU-K-003"
+      ]
+    },
+    {
+      "id": "C-463",
+      "ref": {
+        "path": "data/claims.json",
+        "pointer": "/462",
+        "sha256": "9269f424769e7aad3b42dbed98cf38d762a3506e52fda9615ec788f9c2f1413b",
+        "expected_id": "C-463"
+      },
+      "kind": "fact",
+      "source_ids": [
+        "NU-K-002"
+      ]
+    },
+    {
+      "id": "C-464",
+      "ref": {
+        "path": "data/claims.json",
+        "pointer": "/463",
+        "sha256": "4d51b6cab46c337b104bffc09de95763a385dca1472c1b2024075cf7fa4b12a5",
+        "expected_id": "C-464"
+      },
+      "kind": "interpretation",
+      "source_ids": [
+        "NU-K-003"
+      ]
+    },
+    {
+      "id": "C-465",
+      "ref": {
+        "path": "data/claims.json",
+        "pointer": "/464",
+        "sha256": "9a3bef128e2f8326ce8bd481d2037c3fe2ce5c846fbd2aaa2377bdb8c6dd5549",
+        "expected_id": "C-465"
+      },
+      "kind": "hypothesis",
+      "source_ids": [
+        "KYO-GEO-004",
+        "NU-K-001",
+        "NU-K-003",
+        "NU-M-005"
+      ]
+    },
+    {
+      "id": "C-466",
+      "ref": {
+        "path": "data/claims.json",
+        "pointer": "/465",
+        "sha256": "fc2d05f76b3819b6d5343d8c93a5b5bc2243b5b85d7a4b45ac84b150e7d11ddf",
+        "expected_id": "C-466"
+      },
+      "kind": "institution_statement",
+      "source_ids": [
+        "NU-H-001"
+      ]
+    },
+    {
+      "id": "C-467",
+      "ref": {
+        "path": "data/claims.json",
+        "pointer": "/466",
+        "sha256": "956c9047dc886841935a5d7a83347dd840caa59d84c3f03680de7da2bc13436b",
+        "expected_id": "C-467"
+      },
+      "kind": "fact",
+      "source_ids": [
+        "NU-H-003",
+        "HWX-A-004"
+      ]
+    },
+    {
+      "id": "C-468",
+      "ref": {
+        "path": "data/claims.json",
+        "pointer": "/467",
+        "sha256": "c272961c767239174fb5c09b5b564c487dffdc4927343106c057294b8f1b928f",
+        "expected_id": "C-468"
+      },
+      "kind": "institution_statement",
+      "source_ids": [
+        "NU-H-004"
+      ]
+    },
+    {
+      "id": "C-469",
+      "ref": {
+        "path": "data/claims.json",
+        "pointer": "/468",
+        "sha256": "34b9820945f6304ee7f44f90689dc6ea73164002b8d1a23939cbfd162a164bdd",
+        "expected_id": "C-469"
+      },
+      "kind": "interpretation",
+      "source_ids": [
+        "NU-H-002",
+        "NU-H-003",
+        "HWX-A-004",
+        "ST-HW-002"
+      ]
+    },
+    {
+      "id": "C-470",
+      "ref": {
+        "path": "data/claims.json",
+        "pointer": "/469",
+        "sha256": "be977436af9af6248b705059005a13fafb68154474d4f21e3c9ed3bcb9acba5c",
+        "expected_id": "C-470"
+      },
+      "kind": "hypothesis",
+      "source_ids": [
+        "BMX-HW-001",
+        "R27-H-003",
+        "NU-H-001",
+        "NU-H-002"
+      ]
+    },
+    {
+      "id": "C-471",
+      "ref": {
+        "path": "data/claims.json",
+        "pointer": "/470",
+        "sha256": "08ac47415d85fe4b535d41abdcc21017c10f9e74b8687a9c94b2ee5c10eab9fa",
+        "expected_id": "C-471"
+      },
+      "kind": "hypothesis",
+      "source_ids": [
+        "NU-H-003",
+        "HWX-A-004",
+        "ST-HW-002",
+        "HWA-GEO-008"
+      ]
+    },
+    {
+      "id": "C-472",
+      "ref": {
+        "path": "data/claims.json",
+        "pointer": "/471",
+        "sha256": "a18be9427bfdad81d7814903a15cf677819cdddc647d97c55f013aa6d25490eb",
+        "expected_id": "C-472"
+      },
+      "kind": "hypothesis",
+      "source_ids": [
+        "NU-H-004",
+        "NU-H-001",
+        "ST-HW-007",
+        "HWX-M-002"
+      ]
+    }
+  ],
+  "hypotheses": [
+    {
+      "id": "NU-OPEN-ENV",
+      "opening_ref": {
+        "path": "runs/2026-11-07-market-update-opening.json",
+        "pointer": "/hypotheses/0",
+        "sha256": "1f5e37e7217f8fef34704ae13849ba82eeb54ddee043ff7f8fec3c60c9224097",
+        "expected_id": "NU-OPEN-ENV"
+      },
+      "closing_ref": {
+        "path": "data/market_update_20261107_decisions.json",
+        "pointer": "/closing/0",
+        "sha256": "fa39715ff2589089435d818f58e4a9165da27a201358151740ff8469e088cab3",
+        "expected_id": "NU-OPEN-ENV"
+      },
+      "closing_sources_ref": {
+        "path": "data/market_update_20261107_decisions.json",
+        "pointer": "/closing/0/source_ids",
+        "sha256": "0aae662d4e1a10ea1867045cdc0872b718e5a3c5621161b5f13e84a99d419fd2"
+      },
+      "alternative_ref": {
+        "path": "data/market_update_20261107_decisions.json",
+        "pointer": "/closing/0/strongest_alternative",
+        "sha256": "cf66c6be7c9f56c8c40b741bedc35f0b4d3688054587b8f65bbf13749432783f"
+      },
+      "next_observations_ref": {
+        "path": "data/market_update_20261107_decisions.json",
+        "pointer": "/closing/0/next_observations",
+        "sha256": "a2f98c2032d7b4adfeafc27a61c8c082e8bee7fecc3fb9e3ed8a0288ffc6dadb"
+      },
+      "claim_links": [
+        {
+          "claim_id": "C-445",
+          "source_ids": [
+            "NU-M-002",
+            "NU-M-003"
+          ],
+          "shared_closing_source_ids": [
+            "NU-M-002",
+            "NU-M-003"
+          ]
+        },
+        {
+          "claim_id": "C-446",
+          "source_ids": [
+            "NOV-M07",
+            "NU-M-003"
+          ],
+          "shared_closing_source_ids": [
+            "NOV-M07",
+            "NU-M-003"
+          ]
+        },
+        {
+          "claim_id": "C-447",
+          "source_ids": [
+            "NU-M-004"
+          ],
+          "shared_closing_source_ids": [
+            "NU-M-004"
+          ]
+        },
+        {
+          "claim_id": "C-448",
+          "source_ids": [
+            "NU-M-005",
+            "NU-M-006"
+          ],
+          "shared_closing_source_ids": [
+            "NU-M-005",
+            "NU-M-006"
+          ]
+        },
+        {
+          "claim_id": "C-449",
+          "source_ids": [
+            "NU-M-004",
+            "NU-M-005",
+            "NU-M-001",
+            "NU-M-007"
+          ],
+          "shared_closing_source_ids": [
+            "NU-M-001",
+            "NU-M-004",
+            "NU-M-005",
+            "NU-M-007"
+          ]
+        },
+        {
+          "claim_id": "C-450",
+          "source_ids": [
+            "OBX-E-004"
+          ],
+          "shared_closing_source_ids": [
+            "OBX-E-004"
+          ]
+        },
+        {
+          "claim_id": "C-451",
+          "source_ids": [
+            "OBX-P-006",
+            "OBX-E-014",
+            "OBX-P-007"
+          ],
+          "shared_closing_source_ids": [
+            "OBX-E-014",
+            "OBX-P-006",
+            "OBX-P-007"
+          ]
+        },
+        {
+          "claim_id": "C-452",
+          "source_ids": [
+            "OBX-E-020",
+            "OBX-P-005",
+            "OBX-E-004"
+          ],
+          "shared_closing_source_ids": [
+            "OBX-E-004",
+            "OBX-E-020",
+            "OBX-P-005"
+          ]
+        },
+        {
+          "claim_id": "C-453",
+          "source_ids": [
+            "NOV-M07",
+            "NU-M-004",
+            "NU-M-006",
+            "OBX-E-020"
+          ],
+          "shared_closing_source_ids": [
+            "NOV-M07",
+            "NU-M-004",
+            "NU-M-006",
+            "OBX-E-020"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "BNK-OPEN-01",
+      "opening_ref": {
+        "path": "runs/2026-11-07-market-update-opening.json",
+        "pointer": "/hypotheses/1",
+        "sha256": "c8e9129f4ccf7fcc99fbd34d5e2f4d4f3e5bf9c450d0a59278d6225c041e68ad",
+        "expected_id": "BNK-OPEN-01"
+      },
+      "closing_ref": {
+        "path": "data/market_update_20261107_decisions.json",
+        "pointer": "/closing/1",
+        "sha256": "68da91888e14b850879917cea58fc46c253f5c907857da3c6617cd5594af9978",
+        "expected_id": "BNK-OPEN-01"
+      },
+      "closing_sources_ref": {
+        "path": "data/market_update_20261107_decisions.json",
+        "pointer": "/closing/1/source_ids",
+        "sha256": "6d4cfec4e82371f52fc522bad0fa79c4e0530b13c3f1cf2e6f20ea651ddb30a7"
+      },
+      "alternative_ref": {
+        "path": "data/market_update_20261107_decisions.json",
+        "pointer": "/closing/1/strongest_alternative",
+        "sha256": "a7a8b38b68ca18a2369b386400a869f68b251df648309638771b815fc177620c"
+      },
+      "next_observations_ref": {
+        "path": "data/market_update_20261107_decisions.json",
+        "pointer": "/closing/1/next_observations",
+        "sha256": "c88f1d13188a70621bf023f73b714014bc162097fc269ad7d18d54386e2d94cb"
+      },
+      "claim_links": [
+        {
+          "claim_id": "C-454",
+          "source_ids": [
+            "NU-B-001"
+          ],
+          "shared_closing_source_ids": [
+            "NU-B-001"
+          ]
+        },
+        {
+          "claim_id": "C-455",
+          "source_ids": [
+            "NU-B-001"
+          ],
+          "shared_closing_source_ids": [
+            "NU-B-001"
+          ]
+        },
+        {
+          "claim_id": "C-456",
+          "source_ids": [
+            "NU-B-002"
+          ],
+          "shared_closing_source_ids": [
+            "NU-B-002"
+          ]
+        },
+        {
+          "claim_id": "C-457",
+          "source_ids": [
+            "NU-B-003"
+          ],
+          "shared_closing_source_ids": [
+            "NU-B-003"
+          ]
+        },
+        {
+          "claim_id": "C-459",
+          "source_ids": [
+            "NU-B-002",
+            "NU-B-003",
+            "NU-B-005"
+          ],
+          "shared_closing_source_ids": [
+            "NU-B-002",
+            "NU-B-003"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "BNK-OPEN-02",
+      "opening_ref": {
+        "path": "runs/2026-11-07-market-update-opening.json",
+        "pointer": "/hypotheses/2",
+        "sha256": "5492575d2156183783939fd899360c68eacf176cbaa99e46946baaa00972c980",
+        "expected_id": "BNK-OPEN-02"
+      },
+      "closing_ref": {
+        "path": "data/market_update_20261107_decisions.json",
+        "pointer": "/closing/2",
+        "sha256": "01084b9e9fe497edfbc9b9e24f95033fb000d19934a71a397138001d64c257ec",
+        "expected_id": "BNK-OPEN-02"
+      },
+      "closing_sources_ref": {
+        "path": "data/market_update_20261107_decisions.json",
+        "pointer": "/closing/2/source_ids",
+        "sha256": "9eee1fa7b5306b8b6dcceda85651aaad670e548e1adfe53228c0cd7e7d067d87"
+      },
+      "alternative_ref": {
+        "path": "data/market_update_20261107_decisions.json",
+        "pointer": "/closing/2/strongest_alternative",
+        "sha256": "4410d1d01f0849781bb4f389e45f51cfc9ca10d472aeae402b2f1cfb627891f9"
+      },
+      "next_observations_ref": {
+        "path": "data/market_update_20261107_decisions.json",
+        "pointer": "/closing/2/next_observations",
+        "sha256": "a015b2a1de21541b5a4a7105010eeadffaba9c3e48e27f3f198c95264e1d713d"
+      },
+      "claim_links": [
+        {
+          "claim_id": "C-458",
+          "source_ids": [
+            "NU-B-004",
+            "SRC-BOK-HANGANG",
+            "NOV-M08"
+          ],
+          "shared_closing_source_ids": [
+            "NOV-M08",
+            "NU-B-004",
+            "SRC-BOK-HANGANG"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "BNK-OPEN-03",
+      "opening_ref": {
+        "path": "runs/2026-11-07-market-update-opening.json",
+        "pointer": "/hypotheses/3",
+        "sha256": "bd6db96672b58b60a2c20ac4275445d1b837c55774a1705338750e51f2bc4a09",
+        "expected_id": "BNK-OPEN-03"
+      },
+      "closing_ref": {
+        "path": "data/market_update_20261107_decisions.json",
+        "pointer": "/closing/3",
+        "sha256": "2c3a97da589e29ed0ffc962bd67f321206497ab4d1cef6b5f91f7c3cd8d62984",
+        "expected_id": "BNK-OPEN-03"
+      },
+      "closing_sources_ref": {
+        "path": "data/market_update_20261107_decisions.json",
+        "pointer": "/closing/3/source_ids",
+        "sha256": "4be201dfb4f70681f20375695bf6c343f5f4480ee3013dc1034228a583afd354"
+      },
+      "alternative_ref": {
+        "path": "data/market_update_20261107_decisions.json",
+        "pointer": "/closing/3/strongest_alternative",
+        "sha256": "49acc420393ea8d890b3bd806805c0c253fea15e5bf80cdc6dfc7fb5cfd1e317"
+      },
+      "next_observations_ref": {
+        "path": "data/market_update_20261107_decisions.json",
+        "pointer": "/closing/3/next_observations",
+        "sha256": "4a294fe5ebbcaa75fab441e62bf75e3ab7648943a352943844509dbf265b7e0c"
+      },
+      "claim_links": [
+        {
+          "claim_id": "C-456",
+          "source_ids": [
+            "NU-B-002"
+          ],
+          "shared_closing_source_ids": [
+            "NU-B-002"
+          ]
+        },
+        {
+          "claim_id": "C-457",
+          "source_ids": [
+            "NU-B-003"
+          ],
+          "shared_closing_source_ids": [
+            "NU-B-003"
+          ]
+        },
+        {
+          "claim_id": "C-459",
+          "source_ids": [
+            "NU-B-002",
+            "NU-B-003",
+            "NU-B-005"
+          ],
+          "shared_closing_source_ids": [
+            "NU-B-002",
+            "NU-B-003",
+            "NU-B-005"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "NU-OPEN-KY",
+      "opening_ref": {
+        "path": "runs/2026-11-07-market-update-opening.json",
+        "pointer": "/hypotheses/4",
+        "sha256": "355ba48f1778c42c49092ea4544c57dce56b57d6d6f5b72eb044559492b2a9ba",
+        "expected_id": "NU-OPEN-KY"
+      },
+      "closing_ref": {
+        "path": "data/market_update_20261107_decisions.json",
+        "pointer": "/closing/4",
+        "sha256": "554e110caa989b05d2d34a2280cebb6c48e066bd0b52af5df28aaa0abbc1ee62",
+        "expected_id": "NU-OPEN-KY"
+      },
+      "closing_sources_ref": {
+        "path": "data/market_update_20261107_decisions.json",
+        "pointer": "/closing/4/source_ids",
+        "sha256": "d29922a0effb844e57ef20e4ee401a9f10d239c49e2884a7b182403fec0fed9e"
+      },
+      "alternative_ref": {
+        "path": "data/market_update_20261107_decisions.json",
+        "pointer": "/closing/4/strongest_alternative",
+        "sha256": "96ac3f0968e15455f2813844e8e9c854baa2ca30eac777d0147c97d51ee3cd66"
+      },
+      "next_observations_ref": {
+        "path": "data/market_update_20261107_decisions.json",
+        "pointer": "/closing/4/next_observations",
+        "sha256": "031da624a1bc48c95b02df94f7f796697854a6a3ec1dd0e9e57d596d0792dd14"
+      },
+      "claim_links": [
+        {
+          "claim_id": "C-460",
+          "source_ids": [
+            "KYO-GEO-004"
+          ],
+          "shared_closing_source_ids": [
+            "KYO-GEO-004"
+          ]
+        },
+        {
+          "claim_id": "C-461",
+          "source_ids": [
+            "NU-K-001"
+          ],
+          "shared_closing_source_ids": [
+            "NU-K-001"
+          ]
+        },
+        {
+          "claim_id": "C-462",
+          "source_ids": [
+            "NU-K-003"
+          ],
+          "shared_closing_source_ids": [
+            "NU-K-003"
+          ]
+        },
+        {
+          "claim_id": "C-463",
+          "source_ids": [
+            "NU-K-002"
+          ],
+          "shared_closing_source_ids": [
+            "NU-K-002"
+          ]
+        },
+        {
+          "claim_id": "C-464",
+          "source_ids": [
+            "NU-K-003"
+          ],
+          "shared_closing_source_ids": [
+            "NU-K-003"
+          ]
+        },
+        {
+          "claim_id": "C-465",
+          "source_ids": [
+            "KYO-GEO-004",
+            "NU-K-001",
+            "NU-K-003",
+            "NU-M-005"
+          ],
+          "shared_closing_source_ids": [
+            "KYO-GEO-004",
+            "NU-K-001",
+            "NU-K-003",
+            "NU-M-005"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "NU-H-H1",
+      "opening_ref": {
+        "path": "runs/2026-11-07-market-update-opening.json",
+        "pointer": "/hypotheses/5",
+        "sha256": "d0d1fe109258cb1cc2285f46d5267574449e09223fc29e3627ba1646d9a4b37f",
+        "expected_id": "NU-H-H1"
+      },
+      "closing_ref": {
+        "path": "data/market_update_20261107_decisions.json",
+        "pointer": "/closing/5",
+        "sha256": "18675bd9908b59e049f94a85d86a9a3bd4782d8f2fd094d9c62e84965e2bdfff",
+        "expected_id": "NU-H-H1"
+      },
+      "closing_sources_ref": {
+        "path": "data/market_update_20261107_decisions.json",
+        "pointer": "/closing/5/source_ids",
+        "sha256": "4ba3fe42f54f32832a2f63fc47919f71c3629aa12c0c3cfb3e77a4a68a94c53d"
+      },
+      "alternative_ref": {
+        "path": "data/market_update_20261107_decisions.json",
+        "pointer": "/closing/5/strongest_alternative",
+        "sha256": "5790ab426a0e9e9ae8b9e1bbaed2c37d7cce1cbc757b686e1fe939317e1055ae"
+      },
+      "next_observations_ref": {
+        "path": "data/market_update_20261107_decisions.json",
+        "pointer": "/closing/5/next_observations",
+        "sha256": "5869542b097e4bd0e5bc61422b4229302852a61099800fb366858ed448664ef6"
+      },
+      "claim_links": [
+        {
+          "claim_id": "C-466",
+          "source_ids": [
+            "NU-H-001"
+          ],
+          "shared_closing_source_ids": [
+            "NU-H-001"
+          ]
+        },
+        {
+          "claim_id": "C-467",
+          "source_ids": [
+            "NU-H-003",
+            "HWX-A-004"
+          ],
+          "shared_closing_source_ids": [
+            "HWX-A-004",
+            "NU-H-003"
+          ]
+        },
+        {
+          "claim_id": "C-468",
+          "source_ids": [
+            "NU-H-004"
+          ],
+          "shared_closing_source_ids": [
+            "NU-H-004"
+          ]
+        },
+        {
+          "claim_id": "C-469",
+          "source_ids": [
+            "NU-H-002",
+            "NU-H-003",
+            "HWX-A-004",
+            "ST-HW-002"
+          ],
+          "shared_closing_source_ids": [
+            "HWX-A-004",
+            "NU-H-002",
+            "NU-H-003",
+            "ST-HW-002"
+          ]
+        },
+        {
+          "claim_id": "C-470",
+          "source_ids": [
+            "BMX-HW-001",
+            "R27-H-003",
+            "NU-H-001",
+            "NU-H-002"
+          ],
+          "shared_closing_source_ids": [
+            "BMX-HW-001",
+            "NU-H-001",
+            "NU-H-002",
+            "R27-H-003"
+          ]
+        },
+        {
+          "claim_id": "C-471",
+          "source_ids": [
+            "NU-H-003",
+            "HWX-A-004",
+            "ST-HW-002",
+            "HWA-GEO-008"
+          ],
+          "shared_closing_source_ids": [
+            "HWX-A-004",
+            "NU-H-003",
+            "ST-HW-002"
+          ]
+        },
+        {
+          "claim_id": "C-472",
+          "source_ids": [
+            "NU-H-004",
+            "NU-H-001",
+            "ST-HW-007",
+            "HWX-M-002"
+          ],
+          "shared_closing_source_ids": [
+            "HWX-M-002",
+            "NU-H-001",
+            "NU-H-004",
+            "ST-HW-007"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "NU-H-H2",
+      "opening_ref": {
+        "path": "runs/2026-11-07-market-update-opening.json",
+        "pointer": "/hypotheses/6",
+        "sha256": "3516d5a60eec1bd297b6d71c31077836f1d0db109df2e4fb2a63e14345a5ddf2",
+        "expected_id": "NU-H-H2"
+      },
+      "closing_ref": {
+        "path": "data/market_update_20261107_decisions.json",
+        "pointer": "/closing/6",
+        "sha256": "16c468763fb44e8d3ce652f8503fd2b008b14b2acf0d6522e2841ab4679fd799",
+        "expected_id": "NU-H-H2"
+      },
+      "closing_sources_ref": {
+        "path": "data/market_update_20261107_decisions.json",
+        "pointer": "/closing/6/source_ids",
+        "sha256": "6a893afa53160468403fc0ae1874af5e1840e3a409543fd6d94ef368822fc475"
+      },
+      "alternative_ref": {
+        "path": "data/market_update_20261107_decisions.json",
+        "pointer": "/closing/6/strongest_alternative",
+        "sha256": "f5f33c609328a9030c07bc4558361a638187c13ee0992ce88f5c2d9540b37b55"
+      },
+      "next_observations_ref": {
+        "path": "data/market_update_20261107_decisions.json",
+        "pointer": "/closing/6/next_observations",
+        "sha256": "bb9c7497da929aeb7a8a22f32689618d262a36ff35a9eec9acd825eb1e4b1fe0"
+      },
+      "claim_links": [
+        {
+          "claim_id": "C-466",
+          "source_ids": [
+            "NU-H-001"
+          ],
+          "shared_closing_source_ids": [
+            "NU-H-001"
+          ]
+        },
+        {
+          "claim_id": "C-467",
+          "source_ids": [
+            "NU-H-003",
+            "HWX-A-004"
+          ],
+          "shared_closing_source_ids": [
+            "HWX-A-004",
+            "NU-H-003"
+          ]
+        },
+        {
+          "claim_id": "C-468",
+          "source_ids": [
+            "NU-H-004"
+          ],
+          "shared_closing_source_ids": [
+            "NU-H-004"
+          ]
+        },
+        {
+          "claim_id": "C-469",
+          "source_ids": [
+            "NU-H-002",
+            "NU-H-003",
+            "HWX-A-004",
+            "ST-HW-002"
+          ],
+          "shared_closing_source_ids": [
+            "HWX-A-004",
+            "NU-H-002",
+            "NU-H-003",
+            "ST-HW-002"
+          ]
+        },
+        {
+          "claim_id": "C-470",
+          "source_ids": [
+            "BMX-HW-001",
+            "R27-H-003",
+            "NU-H-001",
+            "NU-H-002"
+          ],
+          "shared_closing_source_ids": [
+            "BMX-HW-001",
+            "NU-H-001",
+            "NU-H-002",
+            "R27-H-003"
+          ]
+        },
+        {
+          "claim_id": "C-471",
+          "source_ids": [
+            "NU-H-003",
+            "HWX-A-004",
+            "ST-HW-002",
+            "HWA-GEO-008"
+          ],
+          "shared_closing_source_ids": [
+            "HWA-GEO-008",
+            "HWX-A-004",
+            "NU-H-003",
+            "ST-HW-002"
+          ]
+        },
+        {
+          "claim_id": "C-472",
+          "source_ids": [
+            "NU-H-004",
+            "NU-H-001",
+            "ST-HW-007",
+            "HWX-M-002"
+          ],
+          "shared_closing_source_ids": [
+            "HWX-M-002",
+            "NU-H-001",
+            "NU-H-004",
+            "ST-HW-007"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "NU-H-H3",
+      "opening_ref": {
+        "path": "runs/2026-11-07-market-update-opening.json",
+        "pointer": "/hypotheses/7",
+        "sha256": "323c01ab30fa0ff1bbb7f95d68db6edfa1de23f48a7f1c8488b606db512aae56",
+        "expected_id": "NU-H-H3"
+      },
+      "closing_ref": {
+        "path": "data/market_update_20261107_decisions.json",
+        "pointer": "/closing/7",
+        "sha256": "e6ef7e0f416d116ff470c486d56fb355048e928f874ce0590f73281f4afb6262",
+        "expected_id": "NU-H-H3"
+      },
+      "closing_sources_ref": {
+        "path": "data/market_update_20261107_decisions.json",
+        "pointer": "/closing/7/source_ids",
+        "sha256": "4f69f7a5577b9948729539087ba9c5d64e8549c049e41b8176bc8fa833122701"
+      },
+      "alternative_ref": {
+        "path": "data/market_update_20261107_decisions.json",
+        "pointer": "/closing/7/strongest_alternative",
+        "sha256": "d69a750690e1abfccdade48174514dea8add5228fcb3ca2aff153ad3663abee4"
+      },
+      "next_observations_ref": {
+        "path": "data/market_update_20261107_decisions.json",
+        "pointer": "/closing/7/next_observations",
+        "sha256": "da560fa89f69c75e08ae84383c0bde3d885611dc7899d56c27a5b8ba755895b8"
+      },
+      "claim_links": [
+        {
+          "claim_id": "C-466",
+          "source_ids": [
+            "NU-H-001"
+          ],
+          "shared_closing_source_ids": [
+            "NU-H-001"
+          ]
+        },
+        {
+          "claim_id": "C-468",
+          "source_ids": [
+            "NU-H-004"
+          ],
+          "shared_closing_source_ids": [
+            "NU-H-004"
+          ]
+        },
+        {
+          "claim_id": "C-469",
+          "source_ids": [
+            "NU-H-002",
+            "NU-H-003",
+            "HWX-A-004",
+            "ST-HW-002"
+          ],
+          "shared_closing_source_ids": [
+            "NU-H-002"
+          ]
+        },
+        {
+          "claim_id": "C-470",
+          "source_ids": [
+            "BMX-HW-001",
+            "R27-H-003",
+            "NU-H-001",
+            "NU-H-002"
+          ],
+          "shared_closing_source_ids": [
+            "BMX-HW-001",
+            "NU-H-001",
+            "NU-H-002",
+            "R27-H-003"
+          ]
+        },
+        {
+          "claim_id": "C-472",
+          "source_ids": [
+            "NU-H-004",
+            "NU-H-001",
+            "ST-HW-007",
+            "HWX-M-002"
+          ],
+          "shared_closing_source_ids": [
+            "HWX-M-002",
+            "NU-H-001",
+            "NU-H-004",
+            "ST-HW-007"
+          ]
+        }
+      ]
+    }
+  ],
+  "groups": {
+    "RESEARCH": {
+      "path": "data/market_update_20261107_decisions.json",
+      "pointer": "/groups/0",
+      "sha256": "fc4516413bae3446aebc89c55840a5184922240b0d1966cc4fbaf22003c89ede",
+      "expected_id": "RESEARCH"
+    },
+    "BNK": {
+      "path": "data/market_update_20261107_decisions.json",
+      "pointer": "/groups/1",
+      "sha256": "ea272d7c9f0bfa1ce64b3c7eab62a60fdc4d0db6cb2a24714a81d774dd63b4a0",
+      "expected_id": "BNK"
+    },
+    "KYOBO": {
+      "path": "data/market_update_20261107_decisions.json",
+      "pointer": "/groups/2",
+      "sha256": "628f3fe5095bfe4978f5adb86f000e1aa82b7756a4e7383bde99dde7aeb71bc4",
+      "expected_id": "KYOBO"
+    },
+    "HANWHA": {
+      "path": "data/market_update_20261107_decisions.json",
+      "pointer": "/groups/3",
+      "sha256": "785336668cfb4a8c55a1623890360fdf79cf2d47b0b33a8103ab795cb90b1b32",
+      "expected_id": "HANWHA"
+    }
+  },
+  "actions": [
+    {
+      "id": "NU-ACTION-RESEARCH-1",
+      "group": "RESEARCH",
+      "ref": {
+        "path": "data/market_update_20261107_decisions.json",
+        "pointer": "/groups/0/priorities/0",
+        "sha256": "0229733de0dda2b787869d797ed80961970a1d347c040b64fb142b3f392e7026"
+      },
+      "decision_refs": [
+        {
+          "path": "data/market_update_20261107_decisions.json",
+          "pointer": "/groups/0/decisions/0",
+          "sha256": "6b3a7612109e657e1c1d92deed1956d2cf4bc34d456788751259060699c2f02c",
+          "expected_id": "NU-DEC-RESEARCH-1"
+        }
+      ],
+      "hypothesis_ids": [
+        "NU-OPEN-ENV"
+      ],
+      "claim_ids": [
+        "C-445",
+        "C-446",
+        "C-447",
+        "C-448",
+        "C-449",
+        "C-450",
+        "C-451",
+        "C-452",
+        "C-453"
+      ]
+    },
+    {
+      "id": "NU-ACTION-BNK-1",
+      "group": "BNK",
+      "ref": {
+        "path": "data/market_update_20261107_decisions.json",
+        "pointer": "/groups/1/priorities/0",
+        "sha256": "56ad065c74acc5287e8afc3d277d45975eb9d838e2c983d21646499ccafdc6e1"
+      },
+      "decision_refs": [
+        {
+          "path": "data/market_update_20261107_decisions.json",
+          "pointer": "/groups/1/decisions/0",
+          "sha256": "2584b3f250f65699e776f0aba874e5eeef888411a45fba4ea0148ad531cb39eb",
+          "expected_id": "NU-DEC-BNK-1"
+        }
+      ],
+      "hypothesis_ids": [
+        "BNK-OPEN-01"
+      ],
+      "claim_ids": [
+        "C-454",
+        "C-455",
+        "C-456",
+        "C-457",
+        "C-459"
+      ]
+    },
+    {
+      "id": "NU-ACTION-BNK-2",
+      "group": "BNK",
+      "ref": {
+        "path": "data/market_update_20261107_decisions.json",
+        "pointer": "/groups/1/priorities/1",
+        "sha256": "6e82c73dde5c37398b9da8ec8ea2eca11a3e135f3aca300720e058c58a369922"
+      },
+      "decision_refs": [
+        {
+          "path": "data/market_update_20261107_decisions.json",
+          "pointer": "/groups/1/decisions/1",
+          "sha256": "77b4cf075e9c744f91df95f0bc540e689e3389b4db9bba53fa9991690f127741",
+          "expected_id": "NU-DEC-BNK-2"
+        }
+      ],
+      "hypothesis_ids": [
+        "BNK-OPEN-02"
+      ],
+      "claim_ids": [
+        "C-458"
+      ]
+    },
+    {
+      "id": "NU-ACTION-BNK-3",
+      "group": "BNK",
+      "ref": {
+        "path": "data/market_update_20261107_decisions.json",
+        "pointer": "/groups/1/priorities/2",
+        "sha256": "0754d9e4d94c2dff558e9e9c4ee1ed6dd91d2655b8639c3144ce68c9434711ec"
+      },
+      "decision_refs": [
+        {
+          "path": "data/market_update_20261107_decisions.json",
+          "pointer": "/groups/1/decisions/2",
+          "sha256": "d9871d1ae0be375ceffafd1ba7e1e6e6358bd76897e58ce420b709f5e9ee563b",
+          "expected_id": "NU-DEC-BNK-3"
+        }
+      ],
+      "hypothesis_ids": [
+        "BNK-OPEN-03"
+      ],
+      "claim_ids": [
+        "C-456",
+        "C-457",
+        "C-459"
+      ]
+    },
+    {
+      "id": "NU-ACTION-KYOBO-1",
+      "group": "KYOBO",
+      "ref": {
+        "path": "data/market_update_20261107_decisions.json",
+        "pointer": "/groups/2/priorities/0",
+        "sha256": "0d721229f87b08da519103028444407d0893c4b0fde7fba8ecdddc9019e61abc"
+      },
+      "decision_refs": [
+        {
+          "path": "data/market_update_20261107_decisions.json",
+          "pointer": "/groups/2/decisions/0",
+          "sha256": "c547cf5a0d1a65a80897ec0c66a26b00885c3939bfd20fd3bb24563c0f9a6407",
+          "expected_id": "NU-DEC-KYOBO-1"
+        }
+      ],
+      "hypothesis_ids": [
+        "NU-OPEN-KY"
+      ],
+      "claim_ids": [
+        "C-460",
+        "C-461",
+        "C-462",
+        "C-463",
+        "C-464",
+        "C-465"
+      ]
+    },
+    {
+      "id": "NU-ACTION-KYOBO-2",
+      "group": "KYOBO",
+      "ref": {
+        "path": "data/market_update_20261107_decisions.json",
+        "pointer": "/groups/2/priorities/1",
+        "sha256": "b5b561a6a8e2c4deba1ed2941f714036c3342869e7e9ed90d415da6c87ce3f80"
+      },
+      "decision_refs": [
+        {
+          "path": "data/market_update_20261107_decisions.json",
+          "pointer": "/groups/2/decisions/1",
+          "sha256": "bb732384c2e21895a8045786a65c7d25b4dc286d8d837cabe09ebc1d2fdc0713",
+          "expected_id": "NU-DEC-KYOBO-2"
+        }
+      ],
+      "hypothesis_ids": [
+        "NU-OPEN-KY"
+      ],
+      "claim_ids": [
+        "C-460",
+        "C-461",
+        "C-462",
+        "C-463",
+        "C-464",
+        "C-465"
+      ]
+    },
+    {
+      "id": "NU-ACTION-KYOBO-3",
+      "group": "KYOBO",
+      "ref": {
+        "path": "data/market_update_20261107_decisions.json",
+        "pointer": "/groups/2/priorities/2",
+        "sha256": "8ccd48dd528c51a0c0c26c86a173b9deae1f9b9c52c2a79d97f2721d3bc49c18"
+      },
+      "decision_refs": [
+        {
+          "path": "data/market_update_20261107_decisions.json",
+          "pointer": "/groups/2/decisions/2",
+          "sha256": "4ef312d40bfd28a30fd3fd0487c8a40b3422c6c5ba6d3eeffceb90a5bf1265d3",
+          "expected_id": "NU-DEC-KYOBO-3"
+        }
+      ],
+      "hypothesis_ids": [
+        "NU-OPEN-KY"
+      ],
+      "claim_ids": [
+        "C-460",
+        "C-461",
+        "C-462",
+        "C-463",
+        "C-464",
+        "C-465"
+      ]
+    },
+    {
+      "id": "NU-ACTION-HANWHA-1",
+      "group": "HANWHA",
+      "ref": {
+        "path": "data/market_update_20261107_decisions.json",
+        "pointer": "/groups/3/priorities/0",
+        "sha256": "f0c20c4647610ca46c753c3a52b99034979087a70e737c27d6afa4a5486f709c"
+      },
+      "decision_refs": [
+        {
+          "path": "data/market_update_20261107_decisions.json",
+          "pointer": "/groups/3/decisions/0",
+          "sha256": "24edf7ca5b3bef206d664ec16a9ac84ff96f54171c4d9a20ccfc49f7c8f40516",
+          "expected_id": "NU-DEC-HANWHA-1"
+        }
+      ],
+      "hypothesis_ids": [
+        "NU-H-H1"
+      ],
+      "claim_ids": [
+        "C-466",
+        "C-467",
+        "C-468",
+        "C-469",
+        "C-470",
+        "C-471",
+        "C-472"
+      ]
+    },
+    {
+      "id": "NU-ACTION-HANWHA-2",
+      "group": "HANWHA",
+      "ref": {
+        "path": "data/market_update_20261107_decisions.json",
+        "pointer": "/groups/3/priorities/1",
+        "sha256": "2a778755af8ebad0dcfbc9b67327088ffdcd55ec676ba21fcaf9e4926e7bbd12"
+      },
+      "decision_refs": [
+        {
+          "path": "data/market_update_20261107_decisions.json",
+          "pointer": "/groups/3/decisions/1",
+          "sha256": "4deb8b756f119c27576dc118deeb7dae864af5742a1abc4936429b2741f6fed8",
+          "expected_id": "NU-DEC-HANWHA-2"
+        }
+      ],
+      "hypothesis_ids": [
+        "NU-H-H2"
+      ],
+      "claim_ids": [
+        "C-466",
+        "C-467",
+        "C-468",
+        "C-469",
+        "C-470",
+        "C-471",
+        "C-472"
+      ]
+    },
+    {
+      "id": "NU-ACTION-HANWHA-3",
+      "group": "HANWHA",
+      "ref": {
+        "path": "data/market_update_20261107_decisions.json",
+        "pointer": "/groups/3/priorities/2",
+        "sha256": "576fcd48cccb0a8f339831f4b0e060d4a16ad95b6e9e374bdfc4c6804b204bde"
+      },
+      "decision_refs": [
+        {
+          "path": "data/market_update_20261107_decisions.json",
+          "pointer": "/groups/3/decisions/2",
+          "sha256": "ae52d77198790ea2da9ec36c35cc8a2f61fc572a392512f215da9a3fb1ce4e81",
+          "expected_id": "NU-DEC-HANWHA-3"
+        }
+      ],
+      "hypothesis_ids": [
+        "NU-H-H3"
+      ],
+      "claim_ids": [
+        "C-466",
+        "C-468",
+        "C-469",
+        "C-470",
+        "C-472"
+      ]
+    }
+  ]
+}

@@ -1814,6 +1814,178 @@ Nobu의 공식 방카 상품 등재는 기존 채널을 확인한다. 한화의 
 
 다음 관측: 미가입/해지 사유, 고용주 예산, 직원 기존 보장, 위험 반영 견적 / 같은 직원집단의 완결 시간·오류·동의/보안 비용 / 동등 보장·면책·위험집단의 경쟁 견적, 청구 경험, 실제 유지 선택 / 사고→서류→승인→은행현금 각각 시간, 실제 수익자 의무 / 파트너 배분·민감정보 통제·고객획득·운영/청구 포함 총원가
 
+### C-454 · institution_statement · active
+
+FSC는 판매기업 소구권·만기·환급·하위 협력기업 접근의 변경을 예고한다. 은행의 현재 대출 수익 방식과 구매기업 위험 평가를 함께 바꿀 수 있는 제도 신호다.
+
+근거: [NU-B-001](../sources/cards/NU-B-001.md)
+
+한계: - 연구자 해석의 인과효과·유료 수요·손익은 미검증. 공식 계획과 현재 운영 구분.
+
+### C-455 · interpretation · active
+
+같은 거래량이면 지급·대출 기간 단축은 판매기업의 이자 부담과 은행의 평균 대출 잔액을 낮춘다. 새 접근 고객·회전율 확대가 이를 상쇄할지는 별도다. 소구권 제한은 위험을 없애지 않고 구매기업 신용·분쟁·보증·회수 구조의 중요성을 키운다.
+
+근거: [NU-B-001](../sources/cards/NU-B-001.md)
+
+한계: - 연구자 해석의 인과효과·유료 수요·손익은 미검증. 공식 계획과 현재 운영 구분.
+
+### C-456 · interpretation · active
+
+납품 전 생산자금까지 시장 탐색을 넓힐 근거는 거래 확인비 하락만이 아니다. 주문 접근권과 구매기업 추천, 실제 보증의 위험분담이 함께 있을 때 신용·담보 제약으로 거절됐던 공급자의 계약 가능성이 달라진다.
+
+근거: [NU-B-002](../sources/cards/NU-B-002.md)
+
+한계: - 연구자 해석의 인과효과·유료 수요·손익은 미검증. 공식 계획과 현재 운영 구분.
+
+### C-457 · institution_statement · active
+
+BNK는 기후테크 기존 운전자금 지원 결과를 자기보고하고 신규 시설자금 확대를 발표했다. 이는 그룹의 산업 전환 가설과 연결되는 실제 행위지만 새 프로그램의 성과는 아니다.
+
+근거: [NU-B-003](../sources/cards/NU-B-003.md)
+
+한계: - 연구자 해석의 인과효과·유료 수요·손익은 미검증. 공식 계획과 현재 운영 구분.
+
+### C-458 · interpretation · active
+
+토큰화가 진전되면 기존 글로벌 은행도 예금·MMF·기업 유동성을 묶어 대응한다. BNK가 고객 지갑을 보여 주는 데서 그치면 고객관계는 남아도 저비용 예금은 줄고 비싼 확약 한도·지급 실패 대응만 잔류할 수 있다.
+
+근거: [NU-B-004](../sources/cards/NU-B-004.md), [SRC-BOK-HANGANG](../sources/cards/SRC-BOK-HANGANG.md), [NOV-M08](../sources/cards/NOV-M08.md)
+
+한계: - 연구자 해석의 인과효과·유료 수요·손익은 미검증. 공식 계획과 현재 운영 구분.
+
+### C-459 · hypothesis · active
+
+신뢰할 수 있는 지역 산업 사건의 확인·갱신·분쟁 처리와 그 정보를 쓰는 신용 약정에 고객이 대가를 내는 구간에서는 BNK가 역할을 유지할 수 있다. 경쟁자가 동등 책임을 더 싸게 제공하면 독자 운영보다 제휴·구매가 우월하며 별도 데이터료가 남는다는 보장은 없다.
+
+근거: [NU-B-002](../sources/cards/NU-B-002.md), [NU-B-003](../sources/cards/NU-B-003.md), [NU-B-005](../sources/cards/NU-B-005.md)
+
+한계: - 연구자 해석의 인과효과·유료 수요·손익은 미검증. 공식 계획과 현재 운영 구분.
+
+다른 설명: 원청/시중은행/ERP가 동등 정보·책임을 더 싸게 묶어 제공하면 독립 보수와 우위가 사라진다.
+
+다음 관측: 동일 책임의 경쟁 견적, 실제 정보 제공 계약, 고객의 반복 계약과 위험·회수·자본 비용 후 기여.
+
+### C-460 · institution_statement · active
+
+교보–DCG는 4월8일 아태 RWA 발굴·토큰화·유통 MOU를 발표했다. 이번 재열람은 10~11월 신규 출시의 확인이 아니다.
+
+근거: [KYO-GEO-004](../sources/cards/KYO-GEO-004.md)
+
+한계: - 개별 상품·고객·매출·독점권 및 USDC/USDT 직접 계약 미확인.
+
+### C-461 · institution_statement · active
+
+10월27일 SBI·BlackRock·Startale는 엔화 스테이블코인과 토큰 MMF 연결을 검토하는 MOU를 발표했다.
+
+근거: [NU-K-001](../sources/cards/NU-K-001.md)
+
+한계: - 교보 참여, 한국 판매, 상용 레일 운영으로 해석하지 않음.
+
+### C-462 · fact · active
+
+MY교보의 공개 안내에는 자동이체 변경·보험료 납입 일시중지·계약 변경 기능이 있다. 개별 고객의 적용 조건과 완료 여부는 별도다.
+
+근거: [NU-K-003](../sources/cards/NU-K-003.md)
+
+한계: - 발행일 없는 페이지를 11/7 확인. 모든 고객의 무료·당월 적용이나 AI 권한을 뜻하지 않음.
+
+### C-463 · fact · active
+
+금융위는 9월23일 메리츠의 4조원 종투사 지정과 단기금융업 인가를 발표했다. 교보의 11월7일 현재 권한은 이번 자료로 확정하지 못했다.
+
+근거: [NU-K-002](../sources/cards/NU-K-002.md)
+
+한계: - 과거 표의 부재를 현재 미지정의 증거로 사용하지 않음. 자기자본 증가와 개별 인가 구분.
+
+### C-464 · interpretation · active
+
+교보의 보험료 기일 관리에는 이미 있는 약관상 선택을 적절히 완료하는 가치가 있다. 기존 보험료를 새 AI 매출로 잡거나 소득 부족을 날짜 변경·추가 차입으로 해결했다고 보면 안 된다.
+
+근거: [NU-K-003](../sources/cards/NU-K-003.md)
+
+한계: - 기존 계약관리 개선. 실제 비용 회피·적정 유지 효과와 유료 신규 수요는 별도 검증.
+
+### C-465 · hypothesis · active
+
+교보는 고객 지급목적에 맞춘 기존상품 실행과 차별적 권리 발굴을 별도 검증해야 한다. 비정형 권리의 반복 발행·수금·회수에서 외부 고객이 비용 후 편익을 얻을 때 신규 계약이 가능할 수 있다.
+
+근거: [KYO-GEO-004](../sources/cards/KYO-GEO-004.md), [NU-K-001](../sources/cards/NU-K-001.md), [NU-K-003](../sources/cards/NU-K-003.md), [NU-M-005](../sources/cards/NU-M-005.md)
+
+한계: - 고객·문고 권리·생명 자금과 감독 권한은 자동 공유하지 않음. 미래 개별 인가와 위임을 가정한 연구자 제안.
+
+다른 설명: 대형 증권사/공용 권리 인프라가 같은 책임으로 더 싸게 제공해 범용 조합·발행료를 압박한다.
+
+다음 관측: 외부 발행인과 투자자의 동등 책임 견적, 권리·수금 검증, 반복 계약, 기존 금융과 비교한 총비용 후 기여.
+
+### C-466 · institution_statement · active
+
+IAIS는 AI 접근비용 감소 가능성과 보험 위험·공정성·복구 책임을 함께 설명하며 보장공백의 원인이 국가별로 다르다고 본다.
+
+근거: [NU-H-001](../sources/cards/NU-H-001.md)
+
+한계: - 분석·가설은 실적이나 회사 확정전략이 아니다. 각 출처의 시점·기관 견해·개별 법인 범위 유지.
+
+### C-467 · fact · active
+
+ETC와 ADX는 2026-11-02 KDEF·KMCA ADX 거래개시를 발표했다. ETC adviser, Foreside distributor 및 별도 시장조성/법률 역할이 확인된다.
+
+근거: [NU-H-003](../sources/cards/NU-H-003.md), [HWX-A-004](../sources/cards/HWX-A-004.md)
+
+한계: - 분석·가설은 실적이나 회사 확정전략이 아니다. 각 출처의 시점·기관 견해·개별 법인 범위 유지.
+
+### C-468 · institution_statement · active
+
+KSSK 11월3일 발표는 통화 안정과 지급/거시건전성 지원을 구분하고 QRIS 소액 MDR0, RPIM 협업, 7개국 LCT를 설명한다.
+
+근거: [NU-H-004](../sources/cards/NU-H-004.md)
+
+한계: - 분석·가설은 실적이나 회사 확정전략이 아니다. 각 출처의 시점·기관 견해·개별 법인 범위 유지.
+
+### C-469 · interpretation · active
+
+접근·데이터·담보 연결은 외부 고객의 계약·지급기한과 비용 후 기여를 갖출 때 사업이고, ETF 거래량·토큰 수량·AI 사용률만으로 새 시장/순이익을 입증하지 못한다.
+
+근거: [NU-H-002](../sources/cards/NU-H-002.md), [NU-H-003](../sources/cards/NU-H-003.md), [HWX-A-004](../sources/cards/HWX-A-004.md), [ST-HW-002](../sources/cards/ST-HW-002.md)
+
+한계: - 분석·가설은 실적이나 회사 확정전략이 아니다. 각 출처의 시점·기관 견해·개별 법인 범위 유지.
+
+### C-470 · hypothesis · active
+
+국내 보험·다보험사 GA 계약관리 우선은 유지한다. 새 시장은 단순 AI 상담료가 아니라 이직·은퇴·소득충격처럼 기존 정형 판매과정에서 서비스되지 못한 복합 보장/부채 고객 업무로 제한한다. 새 증거가 해당 한국 수요를 실증한 것은 아니다.
+
+근거: [BMX-HW-001](../sources/cards/BMX-HW-001.md), [R27-H-003](../sources/cards/R27-H-003.md), [NU-H-001](../sources/cards/NU-H-001.md), [NU-H-002](../sources/cards/NU-H-002.md)
+
+한계: - 분석·가설은 실적이나 회사 확정전략이 아니다. 각 출처의 시점·기관 견해·개별 법인 범위 유지.
+
+다른 설명: 대형 보험사·GA·비교 플랫폼이 같은 AI와 무료 관리를 제공하면 별도 AI료를 포기하고 유지·적합성·청구 결과의 비용 후 기여로 판단. 더 싼 경쟁 보험으로 이동하면 기존 모집 수입 잠식도 반영.
+
+다음 관측: 기존+AI와 결과가 같거나 더 나쁘고 추가 비용만 들면 온체인 제거. 소비자 이익을 위해 변경은 하되 회사 기여가 음수면 별도 유료 사업 확장을 중단. 다음 확인: 기존 고객의 실제 복합 변경 사례에서 비교 정확도·실행/복구·유지/민원 결과를 기준선과 대조. 해외 옵션과 자본을 공동 사용한다고 가정하지 않음.
+
+### C-471 · hypothesis · active
+
+해외 접근·운영 우선 가설 유지. 이미 존재하던 ADX 상장을 새 발견으로 포장하지 않고, 실제 전문회사 분업을 재확인해 ETF 유통과 별도 담보/거래후 계약 두 층으로 쪼갠다. 대형 통합 플랫폼 선행 구축은 후순위다.
+
+근거: [NU-H-003](../sources/cards/NU-H-003.md), [HWX-A-004](../sources/cards/HWX-A-004.md), [ST-HW-002](../sources/cards/ST-HW-002.md), [HWA-GEO-008](../sources/cards/HWA-GEO-008.md)
+
+한계: - 분석·가설은 실적이나 회사 확정전략이 아니다. 각 출처의 시점·기관 견해·개별 법인 범위 유지.
+
+다른 설명: BlackRock 등 글로벌 운용사의 저가 대체노출, 대형 수탁/청산사의 내부 상계·무료 보고/토큰 기능, AI 플랫폼의 낮은 유통가격을 반영. 한국 특화 노출만으로 영구 차별화하지 않음.
+
+다음 관측: 현지 거래가 기존 보유 장소의 이동이면 새 시장으로 계수하지 않고 실제 증분 유통·집행·운용 보수와 비용을 별도 평가한다. 경쟁 대안 대비 고객 순편익 또는 비용 후 기여가 부족할 때 해당 상품/상장·운영 확장을 중단하거나 제휴로 바꾼다. 다음 확인: 실제 ETF 투자자/기관 고객의 반복 불편과 파트너 계약을 확인. 현지 접근은 검증, 신규 자금과 보수 잔존은 아직 null. 담보 수취자가 비용 후 편익을 지급할 때만 작은 거래후 모듈 시험.
+
+### C-472 · hypothesis · active
+
+작은 사업자 가설을 유지하되 소액 지급 수수료를 새 수익원으로 삼는 경로를 낮춘다. 반복 현금흐름/상환·보험료 지속가능성을 확인한 고객의 계좌·적합 신용·보장 분업을 우선하고, 국경 간 사업자는 기존 LCT 경로를 온체인과 비교한다. QRIS 정책이 Nobu 실적 악화를 입증하는 것은 아니다.
+
+근거: [NU-H-004](../sources/cards/NU-H-004.md), [NU-H-001](../sources/cards/NU-H-001.md), [ST-HW-007](../sources/cards/ST-HW-007.md), [HWX-M-002](../sources/cards/HWX-M-002.md)
+
+한계: - 분석·가설은 실적이나 회사 확정전략이 아니다. 각 출처의 시점·기관 견해·개별 법인 범위 유지.
+
+다른 설명: 대형 은행·QRIS 제공자·전자상거래 플랫폼이 지급·장부·신용평가를 무료 묶음 제공. Nobu는 데이터 독점보다 계약 품질/실제 신용·손실·회수·대응비로 겨룬다.
+
+다음 관측: 납입능력 부족이면 신규 대출·보험을 확대하지 않는다. 지급/기록만 필요한 고객은 저비용 계좌 도구로 유지. 대형사 무료 패키지 이후 비용 후 수익이 없으면 제휴/제공 범위 축소. 다음 확인: 소액결제 유료 앱 단독안은 우선하지 않음. 반복 정산이 있는 작은 사업자와 별도 무역 고객 각각 비거래 원인을 확인하고, 무신용·무보험 강매 기준선을 둔다. Sharia 적합/인가나 모스크 집단 수요를 이번 미확인 기사로 주장하지 않음.
+
 ## 관련 원문
 
 - [FIN-007 · 토큰증권 정책방향 발표- 민·관 합동 토큰증권 협의체 3차회의 개최](../sources/cards/FIN-007.md)
@@ -1823,7 +1995,7 @@ Nobu의 공식 방카 상품 등재는 기존 채널을 확인한다. 한화의 
 - [KYO-GEO-001 · Kyobo Life Insurance Group and Japan’s SBI Group ink strategic partnership](../sources/cards/KYO-GEO-001.md)
 - [KYO-GEO-002 · Korea’s Climate Tech-Finance — Kyobo Securities | Digital Asset Biz Team](../sources/cards/KYO-GEO-002.md)
 - [KYO-GEO-003 · Token X Announces “NOBLX” – Thailand’s First-Ever Regulated Cross-Border Niche Asset Tokenization, Connecting Europe, Thailand, South Korea, and Singapore](../sources/cards/KYO-GEO-003.md)
-- [KYO-GEO-004 · Digital Capital Group and Kyobo Securities Sign Strategic Technology Partnership to Advance Tokenized Securities in Asia-Pacific](../sources/cards/KYO-GEO-004.md)
+- [KYO-GEO-004 · Digital Capital Group–Kyobo Securities strategic technology partnership](../sources/cards/KYO-GEO-004.md)
 - [KYO-GEO-005 · 교보생명, 리플과 실시간 거래 ‘토큰화 국채’ 실험 나선다](../sources/cards/KYO-GEO-005.md)
 - [KYO-GEO-006 · (Progress of Disclosed Matter) Notice Regarding Recognition of Share of Profit of Associates Accounted for Using the Equity Method (Bargain Purchase Gain) Associated with the Acquisition of Shares of Kyobo Life Insurance Co., Ltd.](../sources/cards/KYO-GEO-006.md)
 - [KYO-GEO-007 · Announcement of investment in Pints AI a provider of agent-based AI specialized for financial institutions](../sources/cards/KYO-GEO-007.md)
@@ -1934,5 +2106,18 @@ Nobu의 공식 방카 상품 등재는 기존 채널을 확인한다. 한화의 
 - [R27-K-009 · Linklaters advises on Korea’s first digitally native bond issuance](../sources/cards/R27-K-009.md)
 - [R27-H-003 · Hanwha Life Financial Services](../sources/cards/R27-H-003.md)
 - [R27-H-006 · BNY and Goldman Sachs Launch Tokenized Money Market Funds Solution](../sources/cards/R27-H-006.md)
+- [NU-M-005 · Broadridge to Bring OnChain Governance and Digital Transfer Agency to NYSE Tokenized Securities Platform](../sources/cards/NU-M-005.md)
+- [NU-M-006 · Lloyds uses agentic AI platform to strengthen customer fraud support](../sources/cards/NU-M-006.md)
+- [NU-B-001 · 생산적 금융의 온기를 지방과 중소기업까지 이어갑니다. - 제6차 생산적 금융 대전환 회의](../sources/cards/NU-B-001.md)
+- [NU-B-002 · 우리은행 발표: 신용보증기금 보증을 결합한 발주단계 공급망금융 사례](../sources/cards/NU-B-002.md)
+- [NU-B-003 · BNK금융그룹, 부산시·기보와 손잡고 기후테크 기업 금융지원 확대](../sources/cards/NU-B-003.md)
+- [NU-B-004 · Standard Chartered launches Tokenised Deposits in Hong Kong](../sources/cards/NU-B-004.md)
+- [NU-H-001 · Speech: International insurance regulation in a fast-changing world](../sources/cards/NU-H-001.md)
+- [NU-H-002 · Scaling AI in finance: systemic risks, resilience and European sovereignty](../sources/cards/NU-H-002.md)
+- [NU-H-003 · ADX Introduces the Region’s First Exposure to Korean Funds](../sources/cards/NU-H-003.md)
+- [NU-H-004 · KSSK Perkuat Koordinasi Dan Sinergi Kebijakan Untuk Menjaga Fundamental Ekonomi Dan Ketahanan Sistem Keuangan Nasional](../sources/cards/NU-H-004.md)
+- [NU-K-001 · BlackRock, SBI Holdings and Startale MOU: tokenized MMFs and JPYSC](../sources/cards/NU-K-001.md)
+- [NU-K-002 · 메리츠증권 종합금융투자사업자 지정 및 단기금융업 인가](../sources/cards/NU-K-002.md)
+- [NU-K-003 · MY교보 이용안내](../sources/cards/NU-K-003.md)
 
 [전체 주제 지도](INDEX.md)

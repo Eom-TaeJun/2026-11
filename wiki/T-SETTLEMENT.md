@@ -326,6 +326,30 @@ Velocity의 확인된 기관 서비스에서 고객 AI가 현금·담보·예외
 
 다음 관측: 중계 연결만 늘거나 사전조달·실패복구 비용이 커지면 기존 레일 또는 제한된 기관간 연결로 축소.
 
+### C-445 · institution_statement · active
+
+Citi와 BNY는 현금·담보·조달을 연결하는 혼합 인프라 방향을 제시한다. BNY의 2027년 확장은 목표이며 현재 전면 가동과 구분한다.
+
+근거: [NU-M-002](../sources/cards/NU-M-002.md), [NU-M-003](../sources/cards/NU-M-003.md)
+
+한계: - 기관 견해·계획이며 모든 고객의 비용 절감 실증은 아님.
+
+### C-446 · interpretation · active
+
+2027년 제도와 레일이 정착해도 신속한 총액 결제와 상계 감소에 따른 유동성 비용은 함께 비교해야 한다. 기존 은행의 신용·상계·연장 운영시간도 진화하는 경쟁 기준선이다.
+
+근거: [NOV-M07](../sources/cards/NOV-M07.md), [NU-M-003](../sources/cards/NU-M-003.md)
+
+한계: - 분석자의 미래 적용이며 특정 그룹의 순편익 수치 미확인.
+
+### C-451 · interpretation · active
+
+OIP의 투자·환매와 Stocks의 USDon/USDC 경로, 교환 재고·승인 및 은행현금 단계는 구분해야 한다. 토큰을 보유·이전할 수 있다는 사실만으로 납입일 현금 가용성을 약속할 수 없다.
+
+근거: [OBX-P-006](../sources/cards/OBX-P-006.md), [OBX-E-014](../sources/cards/OBX-E-014.md), [OBX-P-007](../sources/cards/OBX-P-007.md)
+
+한계: - 현재 상품 문서 기반의 해석. 2027년 더 나은 구조의 가능성은 열어두고 해당 계약으로 다시 검증.
+
 ## 관련 원문
 
 - [FIN-001 · Tokenized Finance](../sources/cards/FIN-001.md)
@@ -333,6 +357,7 @@ Velocity의 확인된 기관 서비스에서 고객 AI가 현금·담보·예외
 - [FIN-004 · Project Agorá](../sources/cards/FIN-004.md)
 - [FIN-009 · Eurosystem brings central bank money to tokenised finance](../sources/cards/FIN-009.md)
 - [FIN-015 · DTCC Tokenization Service Goes Live, Marking Major Milestone in the Adoption of Digital Assets](../sources/cards/FIN-015.md)
+- [SRC-BOK-HANGANG · 프로젝트 한강의 기관용 디지털화폐, 일반인용 CBDC와 어떻게 다를까](../sources/cards/SRC-BOK-HANGANG.md)
 - [NOV-KR-007 · 한국은행 디지털화폐(CBDC) 시스템 내 예금토큰 기반 지급결제 테스트(프로젝트 한강) 2단계 시행 등 혁신금융서비스 5건 신규 지정 의결](../sources/cards/NOV-KR-007.md)
 - [NOV-M07 · GFSR October 2026, Chapter 3: Scaling Tokenization: New Efficiencies, New Vulnerabilities](../sources/cards/NOV-M07.md)
 - [NOV-FATF · Outcomes FATF Plenary, 28–30 October 2026](../sources/cards/NOV-FATF.md)
@@ -369,5 +394,9 @@ Velocity의 확인된 기관 서비스에서 고객 AI가 현금·담보·예외
 - [R27-M-004 · Visa, BILL and Billtrust Launch First Live Pilot for Trusted AI Agent Payments Between Buyer and Supplier Platforms](../sources/cards/R27-M-004.md)
 - [R27-K-004 · 교보생명, SBI그룹과 디지털토큰 활용 한·일 기관 자금이전 실증](../sources/cards/R27-K-004.md)
 - [R27-K-009 · Linklaters advises on Korea’s first digitally native bond issuance](../sources/cards/R27-K-009.md)
+- [NU-M-002 · The Digital Frontier: Collateral in a Tokenized World](../sources/cards/NU-M-002.md)
+- [NU-M-003 · The Next US Treasury Market Evolution](../sources/cards/NU-M-003.md)
+- [NU-B-004 · Standard Chartered launches Tokenised Deposits in Hong Kong](../sources/cards/NU-B-004.md)
+- [NU-B-005 · Eurosystem report on the public consultation on the Appia Roadmap](../sources/cards/NU-B-005.md)
 
 [전체 주제 지도](INDEX.md)

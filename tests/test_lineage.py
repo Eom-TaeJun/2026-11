@@ -10,6 +10,7 @@ from pathlib import Path
 
 REPO = Path(__file__).resolve().parents[1]
 MANIFEST = "data/research_lineage_20261106.json"
+HISTORICAL_STATE = "history/20261106T144500115564Z-a156cfc195.json"
 
 
 def _module(name, path):
@@ -101,6 +102,12 @@ class LineageTests(unittest.TestCase):
             target = self.root / path.relative_to(REPO)
             target.parent.mkdir(parents=True, exist_ok=True)
             shutil.copyfile(path, target)
+        # This manifest describes the November 6 run. A later legitimate source
+        # recheck changes the live registry and must not silently rehash history.
+        snapshot = json.loads((REPO / HISTORICAL_STATE).read_text(encoding="utf-8"))
+        self.assertEqual(research._state_hash(snapshot["after"]), snapshot["after_sha256"])
+        for key in ("sources", "claims"):
+            write_json(self.root / "data" / f"{key}.json", snapshot["after"][key])
         self.manifest = json.loads((self.root / MANIFEST).read_text(encoding="utf-8"))
 
     def problems(self):
@@ -131,7 +138,7 @@ class LineageTests(unittest.TestCase):
                     walk(child)
         walk(self.manifest)
 
-    def test_current_manifest_passes_without_mutation(self):
+    def test_historical_manifest_passes_without_mutation(self):
         before = {p: p.read_bytes() for p in lineage.input_paths(self.root, MANIFEST)}
         result = lineage.validate(self.root, self.manifest)
         self.assertEqual(result["counts"]["read_events"], 33)
@@ -142,6 +149,20 @@ class LineageTests(unittest.TestCase):
         self.assertEqual(result["counts"]["claim_sources"], 28)
         self.assertEqual(result["counts"]["context_only_read_sources"], 5)
         self.assertEqual(before, {p: p.read_bytes() for p in before})
+
+    def test_later_source_recheck_does_not_rewrite_historical_evidence(self):
+        fix = self.manifest["read_status_corrections"][2]
+        source_ref = fix["source_ref"]
+        source_path = self.root / source_ref["path"]
+        original = source_path.read_bytes()
+        sources = json.loads(original)
+        source = lineage.pointer(sources, source_ref["pointer"])
+        source["checked_at"] = "2026-11-07"
+        source["read_scope"].append("Later selected reading; original event unchanged")
+        write_json(source_path, sources)
+        self.assertCode("REF_HASH")
+        source_path.write_bytes(original)
+        self.assertTrue(lineage.validate(self.root, self.manifest)["valid"])
 
     def test_prior_registry_validator_misses_exactly_five_null_event_states(self):
         data = {key: json.loads((REPO / "data" / f"{key}.json").read_text(encoding="utf-8"))

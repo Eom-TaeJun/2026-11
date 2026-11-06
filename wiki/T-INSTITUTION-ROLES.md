@@ -1633,12 +1633,80 @@ Coase 관점에서 Agent의 탐색·보고·조정비 감소와 작은 조직의
 
 다음 관측: 미가입/해지 사유, 고용주 예산, 직원 기존 보장, 위험 반영 견적 / 같은 직원집단의 완결 시간·오류·동의/보안 비용 / 동등 보장·면책·위험집단의 경쟁 견적, 청구 경험, 실제 유지 선택 / 사고→서류→승인→은행현금 각각 시간, 실제 수익자 의무 / 파트너 배분·민감정보 통제·고객획득·운영/청구 포함 총원가
 
+### C-449 · interpretation · active
+
+고객 에이전트가 표준상품을 더 잘 비교하면 검색·단순 조합 보수는 압박받을 수 있다. 반면 목적별 권리·현금기한·위임·정정 책임을 맡는 계약과 차별적 원권리 발굴은 남는 수익 후보다.
+
+근거: [NU-M-004](../sources/cards/NU-M-004.md), [NU-M-005](../sources/cards/NU-M-005.md), [NU-M-001](../sources/cards/NU-M-001.md), [NU-M-007](../sources/cards/NU-M-007.md)
+
+한계: - 책임의 존재가 가격 결정력이나 이익을 보장하지 않는다. 경쟁의 같은 기능 무료 제공도 포함.
+
+### C-452 · interpretation · active
+
+BlackRock 모델 제공, 기초펀드 운용, Ondo 포트폴리오 구현은 다른 역할이다. 복수 제조사 구성과 한시 보수면제는 고객접점과 운용자산 잔액이 독점 수입을 보장하지 않는다는 비교 근거다.
+
+근거: [OBX-E-020](../sources/cards/OBX-E-020.md), [OBX-P-005](../sources/cards/OBX-P-005.md), [OBX-E-004](../sources/cards/OBX-E-004.md)
+
+한계: - 모델 라이선스료·보수배분·회사 순이익을 확인하지 않았으며 보수면제를 장기 수익모델 부재로 단정하지 않음.
+
+### C-454 · institution_statement · active
+
+FSC는 판매기업 소구권·만기·환급·하위 협력기업 접근의 변경을 예고한다. 은행의 현재 대출 수익 방식과 구매기업 위험 평가를 함께 바꿀 수 있는 제도 신호다.
+
+근거: [NU-B-001](../sources/cards/NU-B-001.md)
+
+한계: - 연구자 해석의 인과효과·유료 수요·손익은 미검증. 공식 계획과 현재 운영 구분.
+
+### C-455 · interpretation · active
+
+같은 거래량이면 지급·대출 기간 단축은 판매기업의 이자 부담과 은행의 평균 대출 잔액을 낮춘다. 새 접근 고객·회전율 확대가 이를 상쇄할지는 별도다. 소구권 제한은 위험을 없애지 않고 구매기업 신용·분쟁·보증·회수 구조의 중요성을 키운다.
+
+근거: [NU-B-001](../sources/cards/NU-B-001.md)
+
+한계: - 연구자 해석의 인과효과·유료 수요·손익은 미검증. 공식 계획과 현재 운영 구분.
+
+### C-456 · interpretation · active
+
+납품 전 생산자금까지 시장 탐색을 넓힐 근거는 거래 확인비 하락만이 아니다. 주문 접근권과 구매기업 추천, 실제 보증의 위험분담이 함께 있을 때 신용·담보 제약으로 거절됐던 공급자의 계약 가능성이 달라진다.
+
+근거: [NU-B-002](../sources/cards/NU-B-002.md)
+
+한계: - 연구자 해석의 인과효과·유료 수요·손익은 미검증. 공식 계획과 현재 운영 구분.
+
+### C-457 · institution_statement · active
+
+BNK는 기후테크 기존 운전자금 지원 결과를 자기보고하고 신규 시설자금 확대를 발표했다. 이는 그룹의 산업 전환 가설과 연결되는 실제 행위지만 새 프로그램의 성과는 아니다.
+
+근거: [NU-B-003](../sources/cards/NU-B-003.md)
+
+한계: - 연구자 해석의 인과효과·유료 수요·손익은 미검증. 공식 계획과 현재 운영 구분.
+
+### C-458 · interpretation · active
+
+토큰화가 진전되면 기존 글로벌 은행도 예금·MMF·기업 유동성을 묶어 대응한다. BNK가 고객 지갑을 보여 주는 데서 그치면 고객관계는 남아도 저비용 예금은 줄고 비싼 확약 한도·지급 실패 대응만 잔류할 수 있다.
+
+근거: [NU-B-004](../sources/cards/NU-B-004.md), [SRC-BOK-HANGANG](../sources/cards/SRC-BOK-HANGANG.md), [NOV-M08](../sources/cards/NOV-M08.md)
+
+한계: - 연구자 해석의 인과효과·유료 수요·손익은 미검증. 공식 계획과 현재 운영 구분.
+
+### C-459 · hypothesis · active
+
+신뢰할 수 있는 지역 산업 사건의 확인·갱신·분쟁 처리와 그 정보를 쓰는 신용 약정에 고객이 대가를 내는 구간에서는 BNK가 역할을 유지할 수 있다. 경쟁자가 동등 책임을 더 싸게 제공하면 독자 운영보다 제휴·구매가 우월하며 별도 데이터료가 남는다는 보장은 없다.
+
+근거: [NU-B-002](../sources/cards/NU-B-002.md), [NU-B-003](../sources/cards/NU-B-003.md), [NU-B-005](../sources/cards/NU-B-005.md)
+
+한계: - 연구자 해석의 인과효과·유료 수요·손익은 미검증. 공식 계획과 현재 운영 구분.
+
+다른 설명: 원청/시중은행/ERP가 동등 정보·책임을 더 싸게 묶어 제공하면 독립 보수와 우위가 사라진다.
+
+다음 관측: 동일 책임의 경쟁 견적, 실제 정보 제공 계약, 고객의 반복 계약과 위험·회수·자본 비용 후 기여.
+
 ## 관련 원문
 
 - [KYO-GEO-001 · Kyobo Life Insurance Group and Japan’s SBI Group ink strategic partnership](../sources/cards/KYO-GEO-001.md)
 - [KYO-GEO-002 · Korea’s Climate Tech-Finance — Kyobo Securities | Digital Asset Biz Team](../sources/cards/KYO-GEO-002.md)
 - [KYO-GEO-003 · Token X Announces “NOBLX” – Thailand’s First-Ever Regulated Cross-Border Niche Asset Tokenization, Connecting Europe, Thailand, South Korea, and Singapore](../sources/cards/KYO-GEO-003.md)
-- [KYO-GEO-004 · Digital Capital Group and Kyobo Securities Sign Strategic Technology Partnership to Advance Tokenized Securities in Asia-Pacific](../sources/cards/KYO-GEO-004.md)
+- [KYO-GEO-004 · Digital Capital Group–Kyobo Securities strategic technology partnership](../sources/cards/KYO-GEO-004.md)
 - [KYO-GEO-005 · 교보생명, 리플과 실시간 거래 ‘토큰화 국채’ 실험 나선다](../sources/cards/KYO-GEO-005.md)
 - [KYO-GEO-006 · (Progress of Disclosed Matter) Notice Regarding Recognition of Share of Profit of Associates Accounted for Using the Equity Method (Bargain Purchase Gain) Associated with the Acquisition of Shares of Kyobo Life Insurance Co., Ltd.](../sources/cards/KYO-GEO-006.md)
 - [KYO-GEO-007 · Announcement of investment in Pints AI a provider of agent-based AI specialized for financial institutions](../sources/cards/KYO-GEO-007.md)
@@ -1738,5 +1806,8 @@ Coase 관점에서 Agent의 탐색·보고·조정비 감소와 작은 조직의
 - [R27-B-006 · 팩토링 할인료는 누가 부담하나요?](../sources/cards/R27-B-006.md)
 - [R27-H-003 · Hanwha Life Financial Services](../sources/cards/R27-H-003.md)
 - [R27-H-006 · BNY and Goldman Sachs Launch Tokenized Money Market Funds Solution](../sources/cards/R27-H-006.md)
+- [NU-M-002 · The Digital Frontier: Collateral in a Tokenized World](../sources/cards/NU-M-002.md)
+- [NU-B-001 · 생산적 금융의 온기를 지방과 중소기업까지 이어갑니다. - 제6차 생산적 금융 대전환 회의](../sources/cards/NU-B-001.md)
+- [NU-B-005 · Eurosystem report on the public consultation on the Appia Roadmap](../sources/cards/NU-B-005.md)
 
 [전체 주제 지도](INDEX.md)

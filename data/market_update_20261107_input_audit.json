@@ -1,0 +1,205 @@
+{
+  "as_of": "2026-11-07",
+  "method": "사용자 원자료의 현재판을 별도 보존해 검토. 아래 익명 식별자는 원문 접근 경로나 공개 출처 ID가 아니다.",
+  "counts": {
+    "requested_files": 18,
+    "byte_distinct_files": 17,
+    "linked_additional_files": 6,
+    "changed_again_since_previous_observation": 5,
+    "outdated_instruction_checksums": 3
+  },
+  "inputs": [
+    {
+      "id": "INPUT-01",
+      "description": "전체 읽기 안내",
+      "sha256": "8b991e02f603bb2bd199986b26d0649049760ecacec7b7b535fcc06e53ab1ca8",
+      "read_scope": "전체 본문·읽는 순서·최신 연결 읽음",
+      "evidence_class": "탐색/인계 메타. 공식 근거 아님",
+      "snapshot_hash_matches": true,
+      "prior_body_available": false,
+      "changed_again": true
+    },
+    {
+      "id": "INPUT-02",
+      "description": "BNK 전략 자료",
+      "sha256": "fb6e58822aad013f66ec6dd3106f9a61a97655ea1ebb4a88b756d3189f3524ef",
+      "read_scope": "1~156행 전체. 첫 출력에서 잘린137~156행 별도 재열람",
+      "evidence_class": "기존 공시·회사 발표를 인용한 사용자 연구/해석. 자료 안의 직접확인은 선행 작성자의 확인이며 이번 담당의 원문 확인 아님",
+      "snapshot_hash_matches": true,
+      "prior_body_available": false,
+      "changed_again": false
+    },
+    {
+      "id": "INPUT-03",
+      "description": "비교군 JB 전략 자료",
+      "sha256": "1b1ba3c1bb7e61ee54741b41a8ac2e968cfeac7096969140eee14cd40795d4a0",
+      "read_scope": "2~106행 본문·표·근거 링크 읽음. 제목은 파일명/목차 확인",
+      "evidence_class": "공시/기관발표 인용+해석; Ripple12월 목표·초기달러사전예치 등은 Dot 재진술임을 본문도 구분",
+      "snapshot_hash_matches": true,
+      "prior_body_available": false,
+      "changed_again": false
+    },
+    {
+      "id": "INPUT-04",
+      "description": "교보 전략 자료",
+      "sha256": "55cf27e662375da9ad958664b41c49431cccd59c436646e0284ce7f51045016b",
+      "read_scope": "1~100행 전체",
+      "evidence_class": "공식발표·현재상품 설명 인용+조건부해석, EQBR은 Dot기록",
+      "snapshot_hash_matches": true,
+      "prior_body_available": false,
+      "changed_again": false
+    },
+    {
+      "id": "INPUT-05",
+      "description": "한화 전략 자료",
+      "sha256": "9924e3a17669657eb93a1adf3272d0d0025507c70c263f0d77883c6ec82ead29",
+      "read_scope": "1~135행 전체",
+      "evidence_class": "Chainlink/중동 공식발표 등 선행확인+회사주장+Dot보존+연구자 가설",
+      "snapshot_hash_matches": true,
+      "prior_body_available": false,
+      "changed_again": false
+    },
+    {
+      "id": "INPUT-06",
+      "description": "금융그룹 비교 자료",
+      "sha256": "5f9e8696696987f1146fcaef6bfbe3857f916b37fbea32cf7b091e4d8ec61fcc",
+      "read_scope": "1~151행 전체",
+      "evidence_class": "4그룹 분석을 통합한 사용자 연구. 동일 회사자료의 중복 인용은 독립근거 아님",
+      "snapshot_hash_matches": true,
+      "prior_body_available": false,
+      "changed_again": false
+    },
+    {
+      "id": "INPUT-07",
+      "description": "본사 핵심 판단 자료",
+      "sha256": "9983deddc85cc4bcee47bae10b17bc5aab5dcb7e29b92ceda516c9da87430263",
+      "read_scope": "1~38행 전체",
+      "evidence_class": "비교보고서의 압축 해석/권고",
+      "snapshot_hash_matches": true,
+      "prior_body_available": false,
+      "changed_again": false
+    },
+    {
+      "id": "INPUT-08",
+      "description": "전체 흐름 자료",
+      "sha256": "e9eeebd7e6478457a7a7a7e8e35ef898bb35e9ef4dbc9f9a8132ff6e6a2532cc",
+      "read_scope": "1~59행 전체",
+      "evidence_class": "연구방법·인계. 실증/공식 증거 아님",
+      "snapshot_hash_matches": true,
+      "prior_body_available": false,
+      "changed_again": false
+    },
+    {
+      "id": "INPUT-09",
+      "description": "인계 자료",
+      "sha256": "ec0d49f932a60c9d1198a2468ee73cd4495ce10a0621c06a24b2aca5204f1207",
+      "read_scope": "전체 본문과 최신BNK심화·교정·실제범위 읽음",
+      "evidence_class": "인계/계보 기록. 개인정보/비공개경로 포함, 공개복사 금지",
+      "snapshot_hash_matches": true,
+      "prior_body_available": false,
+      "changed_again": true
+    },
+    {
+      "id": "INPUT-10",
+      "description": "추가 자료의 통합 판단",
+      "sha256": "fce60f33f902e9b4b8b5d2c00ea25bd5923541a00ed5a71f632f3cf69e3c7d74",
+      "read_scope": "전체 본문·통합표·Meta/Dot단계구분·추가자료 근거 읽음",
+      "evidence_class": "기존공식자료와 추가ETF분석을 이용한 통합 해석. Meta/Dot는 논리교정과 탐색 경로",
+      "snapshot_hash_matches": true,
+      "prior_body_available": false,
+      "changed_again": false
+    },
+    {
+      "id": "INPUT-11",
+      "description": "추가 자료 시작 안내",
+      "sha256": "26f095cf455e78ede82ba870c877ab901b977b3bd46578ba93cf0fec75f8b65f",
+      "read_scope": "전체. 다음GPT_읽기안내와 동일SHA 확인",
+      "evidence_class": "탐색메타/같은 안내의중복",
+      "snapshot_hash_matches": true,
+      "prior_body_available": false,
+      "changed_again": true
+    },
+    {
+      "id": "INPUT-12",
+      "description": "ETF 자금흐름 구조화 자료",
+      "sha256": "205c3d32ae99abbaef3374ba6114258f537890edaf47ae3cb33db38603a57007",
+      "read_scope": "스키마·CF01~10 ID/제목·가정예시3개·모니터링6개·actual=null·저장/범위 필드 선택읽기. 10개body가 읽은MD/TXT에전부문자열일치함을검사",
+      "evidence_class": "동일ETF분석 기계정본. 별도독립증거아님",
+      "snapshot_hash_matches": true,
+      "prior_body_available": false,
+      "changed_again": false
+    },
+    {
+      "id": "INPUT-13",
+      "description": "ETF 자금흐름 해설 자료",
+      "sha256": "8795d76e294cc82ed16a88bed619e7d5124ecec46f48b9455815e03a495f7ec3",
+      "read_scope": "1~211행 전체,CF01~10 및40개출처목록",
+      "evidence_class": "공식공시/상품문서의 선행확인 재진술+조건부추론+명시설계가정. 이 담당은링크원문직접재조회안함",
+      "snapshot_hash_matches": true,
+      "prior_body_available": false,
+      "changed_again": false
+    },
+    {
+      "id": "INPUT-14",
+      "description": "ETF 자금흐름 텍스트 자료",
+      "sha256": "6306336649b0d11d22f8d4c49009e4b4f18bdd635b7bbebe0719ef3107dda10e",
+      "read_scope": "1~34행·전체CF제목·171~471출처제목/배열구조 선택읽기. CF10개body는MD/JSON과문자열일치검사; 출처세부는별도source register선택필드로읽음",
+      "evidence_class": "파생읽기본. MD와별개의18개중한증거로세지않음",
+      "snapshot_hash_matches": true,
+      "prior_body_available": false,
+      "changed_again": false
+    },
+    {
+      "id": "INPUT-15",
+      "description": "저장 체크섬 기록",
+      "sha256": "24d7e528d9115e9a164762c1be805662aea1ba2c810597d3c78777dfcf81cca6",
+      "read_scope": "16개해시항목전체읽고현재스냅샷과선별대조",
+      "evidence_class": "무결성명세.경제근거아님",
+      "snapshot_hash_matches": true,
+      "prior_body_available": false,
+      "changed_again": false
+    },
+    {
+      "id": "INPUT-16",
+      "description": "다음 읽기 안내",
+      "sha256": "26f095cf455e78ede82ba870c877ab901b977b3bd46578ba93cf0fec75f8b65f",
+      "read_scope": "전체. AI_START와동일SHA/내용",
+      "evidence_class": "바이트동일중복안내",
+      "snapshot_hash_matches": true,
+      "prior_body_available": false,
+      "changed_again": true
+    },
+    {
+      "id": "INPUT-17",
+      "description": "이전 저장 검증 기록",
+      "sha256": "2b367b326a3b3a601f165ac3f333864949f905eda2667b8abbbf6cff27e14b37",
+      "read_scope": "전체메타/remote verification항목/local hashes/status/latest_verification읽음",
+      "evidence_class": "과거저장검증기록.공개원문내용확인과별개",
+      "snapshot_hash_matches": true,
+      "prior_body_available": false,
+      "changed_again": false
+    },
+    {
+      "id": "INPUT-18",
+      "description": "추가 읽기 순서",
+      "sha256": "c712c6f9ede4e8aa6735f78b141c83a7082beaa7b7d84d5fe2fe38927582bf03",
+      "read_scope": "전체",
+      "evidence_class": "탐색메타",
+      "snapshot_hash_matches": true,
+      "prior_body_available": false,
+      "changed_again": true
+    }
+  ],
+  "body_diff_limit": "이전 본문을 이번에 확보하지 않았으므로 특정 문장이 언제 추가·변경됐는지는 단정하지 않는다. 비교는 현재판과 기존 공개 판단 사이의 의미 비교다.",
+  "linked_scope": "최신 첫사업·고객자금흐름의 TXT/JSON/출처원장 6개를 추가 확인. 18개와 따로 집계.",
+  "public_boundary": "개인 필기·원문·파일 경로 색인은 로컬에 보존하고 공개 본문에는 다시 확인한 공공 근거와 새 분석만 기록한다.",
+  "integrity": "현재 고정본 해시 18개 일치. 중복 안내 1쌍과 파생 표현은 독립 근거로 세지 않았다. 이전 체크섬과 안내 파일 3개 불일치는 이전 검증이 현재판 전체를 보증하지 않음을 뜻한다. 원자료 수정·삭제하지 않음.",
+  "late_followup": {
+    "original_inputs_changed_during_run": 8,
+    "additional_linked_files": 3,
+    "type": "안내·인계·흐름·검증 기록 재정리 및 금융환경/현재판단 연결",
+    "core_strategy_etf_and_initial_six_unchanged": true,
+    "original_snapshot_preserved": true,
+    "effect": "49§8·53§7 장기성장과공존구조구체화; 새공식실증·교수확인견해로승격하지않음"
+  }
+}

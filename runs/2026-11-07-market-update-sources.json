@@ -1,0 +1,574 @@
+{
+  "as_of": "2026-11-07",
+  "read_events": [
+    {
+      "read_status": "official_summary",
+      "read_scope": [
+        "공식 HTML 전체 요약·12개 sound practices. PDF 링크 확인했으나 PDF fetch timeout; 보고서 전문 미독."
+      ],
+      "summary": "FSB는 조직 책임과 AI 수명주기 위험관리를 다룬 12개 권고 관행을 발표했다.",
+      "used_for": [
+        "위임·실행·복구 책임을 운영원가와 상품 조건에 포함"
+      ],
+      "limitations": [
+        "권고 관행이지 한국의 신규 시행법이나 판매 허가가 아니다. 실제 성과의 증거 아님."
+      ],
+      "source_id": "NU-M-001",
+      "checked_at": "2026-11-07",
+      "run": "2026-11-07-market-update",
+      "original_source_id": "NU-M-001"
+    },
+    {
+      "read_status": "selected_sections",
+      "read_scope": [
+        "PDF 첫 3쪽 중 본문 0–152행 선택: 실시간 재고·현금/담보 결합·가상 사례·토큰화와 기초 유동성 구분. 후반 재접근 timeout. 공식 landing에서 10/13 날짜 확인."
+      ],
+      "summary": "Citi는 담보 이동·적격성·온체인 결제자산의 결합과 전통/디지털 혼합 운영을 제안한다.",
+      "used_for": [
+        "유동성 창출과 이동·활용 개선을 분리",
+        "은행·수탁사가 기존 고객과 자본을 바탕으로 재통합하는 대안"
+      ],
+      "limitations": [
+        "기관의 사업 전망이며 고객 비용 절감의 독립 실증 아님. 2030 시장규모는 이전 6월 전망이라 최신 실적으로 채택하지 않음."
+      ],
+      "source_id": "NU-M-002",
+      "checked_at": "2026-11-07",
+      "run": "2026-11-07-market-update",
+      "original_source_id": "NU-M-002"
+    },
+    {
+      "read_status": "selected_sections",
+      "read_scope": [
+        "HTML 본문 114–187행: 운영시간 불일치, 법인·지역·현금 위치, 기존 시장 신용·상계, 미래 운영계획."
+      ],
+      "summary": "BNY는 전통 및 토큰화 국채시장에서 결제·담보·조달 시간대를 연결하는 방향과 2027년 확장 목표를 제시한다.",
+      "used_for": [
+        "동일 고객 업무의 기존 레일 개선도 경쟁 기준선에 포함",
+        "해외 법인 USD 지급의무와 운용·환매의 시간 불일치 분석"
+      ],
+      "limitations": [
+        "2027년 목표는 현재 전면 24/7 가동 증거가 아니다. 본문 예시를 실제 고객 거래로 취급하지 않음."
+      ],
+      "source_id": "NU-M-003",
+      "checked_at": "2026-11-07",
+      "run": "2026-11-07-market-update",
+      "original_source_id": "NU-M-003"
+    },
+    {
+      "read_status": "selected_sections",
+      "read_scope": [
+        "PDF p1–7 서문·방법·가상 treasury 사례; p22–27 경계위험·도입 전망·결론. 도표 수치를 실측으로 채택하지 않음."
+      ],
+      "summary": "8개 회사 서면응답을 토대로 한정된 위임과 기업 반복업무 중심 도입 경로를 논의한다.",
+      "used_for": [
+        "자율 실행과 신용위험을 지는 자본 배분을 분리",
+        "정보 공급자 이해관계와 표본 제한 점검"
+      ],
+      "limitations": [
+        "일부 참여사에 UOBVM 투자관계가 있고 회사 수치는 자기보고다. 8개 응답은 대표 표본·실증 수요가 아니다. 본문 정보기준 10/14이며 언론 10/28을 보고서 발행일로 복사하지 않음."
+      ],
+      "source_id": "NU-M-004",
+      "checked_at": "2026-11-07",
+      "run": "2026-11-07-market-update",
+      "original_source_id": "NU-M-004"
+    },
+    {
+      "read_status": "selected_sections",
+      "read_scope": [
+        "HTML 533–555행: 발표일·규제승인 후 플랫폼 개시 조건·주주권/명의개서/투표·기존 인터페이스 연결."
+      ],
+      "summary": "Broadridge는 NYSE 토큰화 플랫폼에 명의개서·주주 거버넌스 서비스를 연결할 계획을 발표했다.",
+      "used_for": [
+        "교보의 범용 발행 플랫폼 투자 대안과 실질 권리 서비스 경쟁"
+      ],
+      "limitations": [
+        "플랫폼은 규제 승인 후 출시 예정이며 실제 가동·고객 매출 증거 아님. 회사 총 처리량을 이 사업 물량으로 쓰지 않음."
+      ],
+      "source_id": "NU-M-005",
+      "checked_at": "2026-11-07",
+      "run": "2026-11-07-market-update",
+      "original_source_id": "NU-M-005"
+    },
+    {
+      "read_status": "selected_sections",
+      "read_scope": [
+        "HTML 596–632행 본문: 실제 사례 자기보고·직원 판단 책임·연속 수정·원가/전체 AI 예상가치의 범위."
+      ],
+      "summary": "Lloyds는 사기 대응 직원이 이용하는 다중 에이전트를 실제 고객 사례에 적용하고 개선 중이라고 보고했다.",
+      "used_for": [
+        "기존 대형은행도 AI로 비용을 낮추고 책임 있는 고객 접점을 강화한다는 경쟁 근거"
+      ],
+      "limitations": [
+        "자기보고 성과이며 무작위 비교·감사된 수익은 확인하지 않음. 전체 AI 예상가치를 이 시스템이나 BNK의 이익으로 환산하지 않음."
+      ],
+      "source_id": "NU-M-006",
+      "checked_at": "2026-11-07",
+      "run": "2026-11-07-market-update",
+      "original_source_id": "NU-M-006"
+    },
+    {
+      "read_status": "official_summary",
+      "read_scope": [
+        "공식 HTML 32–39행 발표일·4개 규제기관 협업·기존 규칙 적용 설명. 연결 statement 전문 미독."
+      ],
+      "summary": "영국 4개 규제기관은 개인 AI 에이전트에 기존 규칙을 적용하고 공동 대응한다고 설명했다.",
+      "used_for": [
+        "AI 위임이 기존 금융 책임을 자동 제거한다는 가정 배제"
+      ],
+      "limitations": [
+        "영국 공식 요약이며 한국·UAE·인니 허가 근거로 전용하지 않는다."
+      ],
+      "source_id": "NU-M-007",
+      "checked_at": "2026-11-07",
+      "run": "2026-11-07-market-update",
+      "original_source_id": "NU-M-007"
+    },
+    {
+      "read_status": "selected_sections",
+      "read_scope": [
+        "2026-11-07 선택 재열람: PDF p1–3/인쇄43–45 요약·서론; p22/인쇄64 Box3.2 상계·사전조달·배치; p13·19의 위험·결제자산 연결 부분. 표/회귀/전체 장 미독."
+      ],
+      "summary": "현재 토큰화 시장의 분절과 네트워크 효과, 신속 결제와 순액상계·조달 간 교환관계를 설명한다.",
+      "used_for": [
+        "기존 판단의 반대 경로 재검증; 빠른 결제와 자본 절감을 동일시하지 않음"
+      ],
+      "limitations": [
+        "웹 메타 제목은 April/Chapter2이나 PDF 본문은 October2026 Chapter3임을 확인. 토큰화 주식 초기 표본을 모든 자산/미래에 일반화하지 않음."
+      ],
+      "source_id": "NOV-M07",
+      "checked_at": "2026-11-07",
+      "run": "2026-11-07-market-update",
+      "original_source_id": "NOV-M07"
+    },
+    {
+      "read_status": "selected_sections",
+      "read_scope": [
+        "2026-11-07 상품 조건·11/5 16:00 EST 표·FAQ·법적 고지·각주"
+      ],
+      "summary": "OUSG는 복수 운용사 상품을 보유하는 LP 지분이며 보수면제와 상품별 접근조건을 표시한다.",
+      "used_for": [
+        "복수 제조사 선택·포장·유동성 관리의 분업과 보수 경쟁"
+      ],
+      "limitations": [
+        "11/5 구성표와 BUIDL 중심 FAQ가 불일치. 날짜 있는 표를 스냅샷으로 사용하며 현재 영구 비중으로 일반화하지 않는다. 관리보수 0% 표시(2027-01-01까지)는 미래 보수수입 확정이 아니다."
+      ],
+      "source_id": "OBX-E-004",
+      "checked_at": "2026-11-07",
+      "run": "2026-11-07-market-update",
+      "original_source_id": "OBX-E-004"
+    },
+    {
+      "read_status": "selected_sections",
+      "read_scope": [
+        "2026-11-07 HTML 142–209행 전체 Q&A"
+      ],
+      "summary": "Stocks는 USDon을 기본 사용하고 USDC 교환은 재고/승인에 의존한다. 직접 USD 은행환매는 미지원 안내다.",
+      "used_for": [
+        "자산 환매·스테이블코인 교환·은행 현금화를 별도 단계로 관리"
+      ],
+      "limitations": [
+        "동적 안내이며 개별 최신 계약·특정 고객 승인·실제 완료거래는 미확인."
+      ],
+      "source_id": "OBX-E-014",
+      "checked_at": "2026-11-07",
+      "run": "2026-11-07-market-update",
+      "original_source_id": "OBX-E-014"
+    },
+    {
+      "read_status": "selected_sections",
+      "read_scope": [
+        "2026-11-07 HTML 134–148행 본문"
+      ],
+      "summary": "Portfolio 발행·환매는 Stocks 경로를 참조하며 신규 목표비중과 환매 현재비중을 구분한다.",
+      "used_for": [
+        "포트폴리오에서 현금 의무까지 전체 경로 비교"
+      ],
+      "limitations": [
+        "원문 연결은 개별 고객 직접 환매자격·은행 입금 보장이 아니다."
+      ],
+      "source_id": "OBX-P-006",
+      "checked_at": "2026-11-07",
+      "run": "2026-11-07-market-update",
+      "original_source_id": "OBX-P-006"
+    },
+    {
+      "read_status": "selected_sections",
+      "read_scope": [
+        "2026-11-07 HTML 137–156행 본문"
+      ],
+      "summary": "OIP에는 연간 운영보수와 구성자산 발행환매 비용 및 견적 차이가 있고 세금도 영향을 준다.",
+      "used_for": [
+        "수익 제조·모델·구현·접근 비용과 투자자 순수익을 분리"
+      ],
+      "limitations": [
+        "개별 최신 요율·법인별 수익배분·모델 라이선스 보수 미확인."
+      ],
+      "source_id": "OBX-P-005",
+      "checked_at": "2026-11-07",
+      "run": "2026-11-07-market-update",
+      "original_source_id": "OBX-P-005"
+    },
+    {
+      "read_status": "selected_sections",
+      "read_scope": [
+        "2026-11-07 HTML 137–184행 본문"
+      ],
+      "summary": "OIP 직접 발행환매 시간과 상시 온체인 이전·2차 거래를 구분하며 구성자산 정지 조건을 둔다.",
+      "used_for": [
+        "24/7 체인 가동과 고객 지급기한 충족을 구분"
+      ],
+      "limitations": [
+        "현행 상품 조건이며 모든 2027 상품의 시간제약이 동일하다고 가정하지 않는다."
+      ],
+      "source_id": "OBX-P-007",
+      "checked_at": "2026-11-07",
+      "run": "2026-11-07-market-update",
+      "original_source_id": "OBX-P-007"
+    },
+    {
+      "read_status": "selected_sections",
+      "read_scope": [
+        "2026-11-07 HTML 137–156행 본문"
+      ],
+      "summary": "모델 제공자는 전략·비중을 정하고 Ondo는 거래·재조정·발행환매를 수행한다.",
+      "used_for": [
+        "BlackRock 브랜드·모델 제공과 토큰 발행/보유자 책임 구분"
+      ],
+      "limitations": [
+        "모델 제공자의 계약대가 및 토큰 보유자와의 직접 관계를 임의로 만들지 않는다."
+      ],
+      "source_id": "OBX-E-020",
+      "checked_at": "2026-11-07",
+      "run": "2026-11-07-market-update",
+      "original_source_id": "OBX-E-020"
+    },
+    {
+      "read_status": "selected_sections",
+      "read_scope": "공식 HTML 등록일·본문 296~311, 322~385, 389~499, 503~514행. 지역 보증대출·외상매출채권/상생결제 개편 및 은행 사례. 첨부 전체 읽기 아님.",
+      "summary": "2027년 1월 판매기업 소구권 원칙적 폐지와 선취이자 환급 대상 변경, 2월 관련 결제·대출 만기 60일 이내 단축을 추진한다고 발표했다. 소구권에는 명시 동의 예외가 있고 기존 대출은 갱신·만기 시 적용을 제시했다. 2차 이하 협력기업의 상생결제 금융 확대와 지역 보증대출 협약도 설명한다.",
+      "used_for": [
+        "단기 조달 수요·판매기업 위험부담·구매기업 평가의 변화",
+        "Hana/NH의 대기자금 금리 및 KB의 대출금리 인센티브라는 경쟁 신호",
+        "기존 정책 입력 재확인"
+      ],
+      "limitations": [
+        "발표한 후속 일정이며 전부 이미 시행된 법률·확정 계약으로 보지 않는다.",
+        "금융회사 최종 약관·시행 공고·2027 실제 집행은 미검증.",
+        "차주 편익이 은행의 기여 증가와 같지 않다."
+      ],
+      "source_id": "NU-B-001",
+      "checked_at": "2026-11-07",
+      "run": "2026-11-07-market-update",
+      "original_source_id": "NU-B-001",
+      "checked_timestamp": "2026-11-06T17:20:21.953Z"
+    },
+    {
+      "read_status": "selected_sections",
+      "read_scope": "10쪽 PDF 텍스트 추출. 표지·목차 확인, 물리 3~9쪽(자료 표기 1/7~7/7)의 공급망·플랫폼·보증·자금 흐름을 읽고 5~8쪽 재확인. 이미지 시각 검수는 하지 않음.",
+      "summary": "원비즈플라자/e-MP의 주문 정보를 신보 Supply-One 보증과 연결한다. 구매기업 추천·주문 정보 연계→보증 심사·발급→우리은행 보증서 담보대출→판매기업 생산자금 입금의 구조를 제시한다. 납품·매출채권 확정 전의 생산 단계도 대상으로 한다.",
+      "used_for": [
+        "BNK 확정채권 가설과 다른 발주 단계의 실제 경쟁 설계",
+        "비용 절감만이 아니라 위험분담·정보 접근이 새 금융 계약의 조건임을 확인"
+      ],
+      "limitations": [
+        "지원 한도·비용 절감은 제시된 계획·조건부 시뮬레이션이며 실제 반복 사용·순이익 자료 아님.",
+        "구매기업 추천·보증심사 대상이라는 범위를 임의의 모든 공급자로 확대하지 않음.",
+        "FSC 본문과 같은 사건에 속하며 독립 정책 근거 2건으로 계수하지 않음."
+      ],
+      "source_id": "NU-B-002",
+      "checked_at": "2026-11-07",
+      "run": "2026-11-07-market-update",
+      "original_source_id": "NU-B-002",
+      "checked_timestamp": "2026-11-06T17:20:21.953Z"
+    },
+    {
+      "read_status": "selected_sections",
+      "read_scope": "공식 HTML 제목·등록일 및 28~40행의 협약·과거 지원·기관별 역할.",
+      "summary": "BNK는 부산시·기보와 새 협약을 맺어 기후테크 지원을 운전자금에서 시설자금까지 넓힌다고 발표했다. 이전 2024년 협약으로 42개 기업에 200억원 운전자금을 지원했다는 회사 설명과 새 확대 계획을 구분했다. 부산·경남은행 대출 지원, 시의 이자 지원, 기보 평가·보증 우대가 결합한다.",
+      "used_for": [
+        "지역 산업 전환의 정보·정책금융·장기 자금 수요를 실제 BNK 신호와 연결",
+        "기존 주기 확장의 구체 대상 탐색"
+      ],
+      "limitations": [
+        "이전 지원은 회사 자기보고이며 독립 감사 아님.",
+        "새 시설금융의 집행·추가 매출·순이익은 미확인.",
+        "AI·온체인 도입·현장 데이터 접근권·독점 고객 관계를 발표하지 않았다."
+      ],
+      "source_id": "NU-B-003",
+      "checked_at": "2026-11-07",
+      "run": "2026-11-07-market-update",
+      "original_source_id": "NU-B-003",
+      "checked_timestamp": "2026-11-06T17:20:21.953Z"
+    },
+    {
+      "read_status": "selected_sections",
+      "read_scope": "공식 HTML 제목·등록일 850~858행 및 873, 883~925행. 진행 상태·예금토큰과 기관용 화폐·기존 지급망 설명.",
+      "summary": "한국은행은 기존 국내 계좌이체가 이미 24시간 실시간이고 한강은 은행 예금토큰과 은행 전용 기관용 디지털화폐를 이용한다고 설명한다. 예금토큰은 시험 구조에서 은행 예금의 제도적 성격을 유지하며 일반인용 CBDC와 다르다. 국고보조금 시험 진행과 연내 후속 실거래 준비를 제시한다.",
+      "used_for": [
+        "상시 이체 자체를 온체인의 신규 편익으로 과장하지 않음",
+        "은행 부채인 예금토큰·외부 펀드·스테이블코인 권리 차이"
+      ],
+      "limitations": [
+        "공식 블로그의 설명을 일반적 무위험·영구적 정책으로 채택하지 않는다.",
+        "11월 현재 후속 일반국민 시험의 추가 진행·BNK 개별 참여/상용 권한은 미검증.",
+        "개별 예금 보호 조항의 법률 검토를 새로 수행하지 않음."
+      ],
+      "source_id": "SRC-BOK-HANGANG",
+      "checked_at": "2026-11-07",
+      "run": "2026-11-07-market-update",
+      "original_source_id": "SRC-BOK-HANGANG",
+      "checked_timestamp": "2026-11-06T17:20:21.953Z"
+    },
+    {
+      "read_status": "selected_sections",
+      "read_scope": "공식 발표 HTML 8~28행: 홍콩 첫 출시·기업 자금·참여 고객·MMF·파트너 및 확장 계획.",
+      "summary": "SC는 홍콩에서 기업용 예금토큰을 출시했다고 발표하고 ChinaAMC·Finloop·PantherTrade의 실거래 및 토큰화 MMF 결제를 설명한다. 은행 예금, 기업 유동성, 참여 은행 간 이전과 중앙은행 돈의 연결을 제시한다.",
+      "used_for": [
+        "경쟁 은행도 예금·펀드·기업 유동성을 통합한다는 실제 대응 신호",
+        "BNK의 범용 지갑 경쟁보다 원화 의무·지역 신용 접점 선택"
+      ],
+      "limitations": [
+        "회사 발표상 운영이며 독립 검증된 거래량·반복성·수익성은 미확인.",
+        "홍콩의 제한된 참여 구조를 모든 시장·은행·통화의 개방으로 확대하지 않음.",
+        "SC제일은행의 한국 출시나 BNK 접근 가능성을 뜻하지 않음."
+      ],
+      "source_id": "NU-B-004",
+      "checked_at": "2026-11-07",
+      "run": "2026-11-07-market-update",
+      "original_source_id": "NU-B-004",
+      "checked_timestamp": "2026-11-06T17:20:21.953Z"
+    },
+    {
+      "read_status": "selected_sections",
+      "read_scope": "21쪽 PDF의 1~5, 8~11, 14~15, 19~20쪽 중심 선택 읽기. 127건 의견·공동 인프라/경쟁 기능·복수 망의 분절·향후 작업. 10/28 공식 발표에서 발간일 대조.",
+      "summary": "127건 협의 응답을 정리한 보고서다. 공통 결제·상태·표준 기반과 경쟁적인 상품·위험변환·고객 업무의 구분, 복수 망의 유동성·담보 분절과 단일 망 의존 위험을 다룬다. 최종 설계 선택이 아니며 2028년 청사진을 향한 작업이다.",
+      "used_for": [
+        "BNK가 공통 인프라를 이용하되 신용·현장 확인·관리 책임에서 차별화할 이유",
+        "내부 통합과 외부 분업의 조정비·경쟁 변화"
+      ],
+      "limitations": [
+        "응답자 견해를 ECB의 확정 설계나 수익권 배정으로 표시하지 않는다.",
+        "유럽 경로는 한국의 인가·참여·법적 권리가 아니다.",
+        "공통망 형성은 특정 지역은행의 유료 수요를 보장하지 않는다."
+      ],
+      "source_id": "NU-B-005",
+      "checked_at": "2026-11-07",
+      "run": "2026-11-07-market-update",
+      "original_source_id": "NU-B-005",
+      "checked_timestamp": "2026-11-06T17:20:21.953Z"
+    },
+    {
+      "read_status": "official_summary",
+      "read_scope": "공식 HTML 제목·등록일 859~885행과 요약 882~885행. 첨부 실증 전문·표본·인과식별 검토 없음.",
+      "summary": "연구진은 글로벌 중개자의 양 시장 접근에 따라 스테이블코인 가격 통합과 환율 충격 전달이 달라진다고 설명한다. 연구 당시 원화는 지원 통화와 다른 거래 구조여서 프리미엄 변화가 중요했다.",
+      "used_for": [
+        "달러 토큰 액면과 원하는 시각의 원화 현금을 구분",
+        "환전·환매·시장 접근·프리미엄을 고객 현금 관리에 넣음"
+      ],
+      "limitations": [
+        "연구 결과는 확정 정책 결정이 아니다.",
+        "효과 크기·확정 인과·현재 거래소 지원 상태는 주장하지 않는다.",
+        "모든 스테이블코인 수요가 원화 절하로 이어진다는 근거 아님."
+      ],
+      "source_id": "NOV-M08",
+      "checked_at": "2026-11-07",
+      "run": "2026-11-07-market-update",
+      "original_source_id": "NOV-M08",
+      "checked_timestamp": "2026-11-06T17:20:21.953Z"
+    },
+    {
+      "read_status": "selected_sections",
+      "read_scope": [
+        "본문 Structural shifts in the life insurance sector, Technology, Protection gaps; 날짜 및 Gerry Cross 연설자 확인. 웹 초기 본문 후 직접 공식 HTML에서 해당 세 절을 재확인."
+      ],
+      "summary": "IAIS 사무총장은 대체자산·자산집약형 재보험의 ALM 기회와 가치평가·유동성·상대방 집중을 함께 설명한다. AI는 접근·인수·청구비를 줄일 수 있으나 공정성·책임·복구가 필요하다. 보장공백 원인이 국가별로 다르고 위험 자체의 축소와 공공·민간 협력이 필요하다고 말한다.",
+      "used_for": [
+        "H1 접근비용과 위험인수 분리",
+        "H2 보험 ALM와 운용상품 유통 분리",
+        "H3 미가입을 유료수요로 바꾸지 않는 조건"
+      ],
+      "limitations": [
+        "감독기구 사무총장 연설·기관 견해이며 한화 고객·성과의 실증이 아니다. 전체 연결 보고서·질문은행·사례 라이브러리는 읽지 않았다. 후속 웹 재접근 일부 timeout; 공식 HTML 직접 조회로 선택 절 재확인."
+      ],
+      "source_id": "NU-H-001",
+      "checked_at": "2026-11-07",
+      "run": "2026-11-07-market-update",
+      "original_source_id": "NU-H-001"
+    },
+    {
+      "read_status": "selected_sections",
+      "read_scope": [
+        "공식 HTML 40–68행: 게시일·2025 설문 분모·AI 위험·의존성 지도·복구·대체 공급자"
+      ],
+      "summary": "EIOPA는 보험 AI 확산의 효율 기회와 사기·사이버·외부 공급자 집중 위험을 함께 설명한다. 2025년 EEA 25개국 보험사 347개 설문 중 65%가 생성형 AI 사용, 23%가 계획했다는 기관 요약이다. 의존성·장애시험·탈출계획·인간 대체능력을 강조한다.",
+      "used_for": [
+        "H1 동일 AI 경쟁과 운영책임",
+        "H2 거래후 예외·복구의 비용"
+      ],
+      "limitations": [
+        "유럽 표본이지 한국·한화·인니 보급률이 아니다. 사용률은 생산성·이익이 아니다. 원설문/PDF 미독; 기사 의견을 새 국내 규칙으로 전용하지 않음."
+      ],
+      "source_id": "NU-H-002",
+      "checked_at": "2026-11-07",
+      "run": "2026-11-07-market-update",
+      "original_source_id": "NU-H-002"
+    },
+    {
+      "read_status": "selected_sections",
+      "read_scope": [
+        "2쪽 PDF 텍스트 전체; 특히 p1 상장·현지 거래시간·지수, p2 시장 전체 거래대금. 레이아웃/원시 거래자료 미검증."
+      ],
+      "summary": "ADX는 KDEF·KMCA가 11월 2일 거래를 시작했으며 NYSE Arca와 이중상장이라고 발표했다. 현지 거래시간에 한국 방산·제조업 노출에 접근하는 기능을 설명한다. ADX 1~10월 ETF 전체 거래대금은 두 한화 ETF의 수요나 순유입이 아니다.",
+      "used_for": [
+        "H2 실제 상장과 MOU 구분",
+        "현지 접근·장소 이동·신규 투자 분리"
+      ],
+      "limitations": [
+        "거래소 발표. 실제 체결·AP 설정환매·AUM·보수배분·현지 고객별 순유입은 확인하지 않음. ETC 발표와 같은 상장 사건으로 독립 수요증거 2건으로 세지 않음."
+      ],
+      "source_id": "NU-H-003",
+      "checked_at": "2026-11-07",
+      "run": "2026-11-07-market-update",
+      "original_source_id": "NU-H-003"
+    },
+    {
+      "read_status": "selected_sections",
+      "read_scope": [
+        "공식 HTML 170–205행(발표·평가), 216–255행(통화/거시건전성·지급·LCT·은행/보험). 선택 본문 대조."
+      ],
+      "summary": "11월 3일 KSSK 발표는 환율·통화 안정과 거시건전성/지급 지원을 구분한다. RPIM의 UMKM 은행 간 channeling/executing 및 계약 기반 이전, QRIS 10만 IDR 이하 MDR 0%, 한국·UAE 포함 7개국 LCT를 설명한다. 은행 신용/예금 증가율은 산업 전체이며 Nobu 고객 수요나 이익이 아니다.",
+      "used_for": [
+        "H3 소액 지급 유료화 반대증거",
+        "신용 연결·현지통화 거래의 기존 대안",
+        "금리·FX·보험료 부담 스트레스"
+      ],
+      "limitations": [
+        "공식 공동 보도자료의 정책·통계 요약; 세부 규정 원문·Nobu 참여/인가·계약을 검증하지 않음. 미래 정책 효력일과 이미 시행된 사항 구분. 여기의 경기 판단을 독립 실증으로 보지 않음."
+      ],
+      "source_id": "NU-H-004",
+      "checked_at": "2026-11-07",
+      "run": "2026-11-07-market-update",
+      "original_source_id": "NU-H-004"
+    },
+    {
+      "read_status": "selected_sections",
+      "read_scope": [
+        "2026-11-07 재열람: 공식 HTML 0–18·41–54행; 날짜, Hanwha sponsor/ETC adviser, Oceane/Waystone, Foreside distributor, 위험."
+      ],
+      "summary": "ETC는 한화자산운용의 KDEF·KMCA 미국 ETF를 자문하며 ADX 상장에 ADX·시장조성자 Oceane·법률대표 Waystone과 협력했다고 발표했다. Foreside는 distributor다. 실제 기능이 여러 법인에 분산되어 있다.",
+      "used_for": [
+        "H2 제조/자문/유통/운영 수익 귀속"
+      ],
+      "limitations": [
+        "보수배분·한화 순수취·온체인 구현·Velocity 참여·수요/이익은 확인하지 않음. 기존 동일 URL ID 재사용."
+      ],
+      "source_id": "HWX-A-004",
+      "checked_at": "2026-11-07",
+      "run": "2026-11-07-market-update",
+      "original_source_id": "HWX-A-004"
+    },
+    {
+      "read_status": "selected_sections",
+      "read_scope": [
+        "2026-11-07 재열람: HTML 10–33행; 날짜·채택·구축·논의·작업반. 42–44행 최종갱신 2026-11-03."
+      ],
+      "summary": "한화투자증권은 데이터/NAV·CCIP를 채택해 플랫폼을 구축하고, 운용사·발행자와 상품을 논의하며 담보 평가·사용 기준 작업반을 구성한다고 발표했다. 채택과 구축/논의의 단계를 구분한다.",
+      "used_for": [
+        "H2 담보·거래후 업무의 실행 신호와 남은 계약"
+      ],
+      "limitations": [
+        "발표 당사자 주장이다. 실제 담보 승인·대출·고객·은행현금·수익·각국 인가를 확인하지 않음. 기술 연결이 법적 담보권을 만들지 않음."
+      ],
+      "source_id": "ST-HW-002",
+      "checked_at": "2026-11-07",
+      "run": "2026-11-07-market-update",
+      "original_source_id": "ST-HW-002"
+    },
+    {
+      "read_status": "selected_sections",
+      "read_scope": "공식 웹 본문 19~36행, 법인 안내 83행 참고. 기관용 RWA 발굴·토큰화·유통 MOU와 역할.",
+      "summary": "아태 기관용 RWA의 발굴·토큰화·유통을 공동 개발하는 MOU. 해외 자산 접근과 한국·해외 양방향 유통이 목표다.",
+      "used_for": [
+        "교보 기존 방향과 최근 경쟁·무료 대안·현행 권한의 범위 검증"
+      ],
+      "limitations": [
+        "4월 발표의 재확인이다. 10~11월 신규 계약 또는 출시로 세지 않는다.",
+        "발행, 유료 고객, 독점 권리, 수익 또는 특정 스테이블코인 경로를 확인하지 못했다.",
+        "파트너 법인 소개를 교보의 해외 인가로 옮기지 않는다. 감독기관 원장 독립 대조는 안 했다."
+      ],
+      "source_id": "KYO-GEO-004",
+      "checked_at": "2026-11-07",
+      "run": "2026-11-07-market-update",
+      "original_source_id": "KYO-GEO-004"
+    },
+    {
+      "read_status": "selected_sections",
+      "read_scope": "Startale 공식 발표 48~70행. SBI URL은 검색에 노출된 공식 본문을 확인했으나 직접 열기에서는 iframe만 표시되어 직접 본문 열람으로 세지 않음.",
+      "summary": "SBI·Startale·BlackRock이 토큰 MMF와 엔화 신탁형 스테이블코인 JPYSC 연결 가능성을 기술·사업/유통·규제 세 분야에서 검토하는 MOU를 맺었다.",
+      "used_for": [
+        "교보 기존 방향과 최근 경쟁·무료 대안·현행 권한의 범위 검증"
+      ],
+      "limitations": [
+        "교보는 이 MOU의 명시 당사자가 아니다.",
+        "MMF 연결의 상용 가동, 한국 판매 또는 교보 참여를 입증하지 않는다.",
+        "JPYSC에 관한 회사 발언과 MMF 연결 운영 성과를 구별한다."
+      ],
+      "source_id": "NU-K-001",
+      "checked_at": "2026-11-07",
+      "run": "2026-11-07-market-update",
+      "original_source_id": "NU-K-001"
+    },
+    {
+      "read_status": "selected_sections",
+      "read_scope": "본문 296~343행과 종투사 지정·단기금융업 표의 검색 위치 확인.",
+      "summary": "금융위가 메리츠증권의 자기자본 4조원 종투사 지정과 단기금융업 인가를 의결했다. 표는 자본 단계별 지정 및 별도 업무 권한을 구별한다.",
+      "used_for": [
+        "교보 기존 방향과 최근 경쟁·무료 대안·현행 권한의 범위 검증"
+      ],
+      "limitations": [
+        "해당 9월 표에서 교보를 찾지 못한 사실로 11월 7일 미지정을 단정하지 않는다.",
+        "이번 조사에서 교보의 최신 지정·인가 원문은 확인하지 못했다. 납입·회계자본 증가만으로 권한을 추정하지 않는다."
+      ],
+      "source_id": "NU-K-002",
+      "checked_at": "2026-11-07",
+      "run": "2026-11-07-market-update",
+      "original_source_id": "NU-K-002"
+    },
+    {
+      "read_status": "selected_sections",
+      "read_scope": "보험 계약 조회·보험료 납입·출금·계약 변경 안내 31~147행.",
+      "summary": "기존 서비스에 계약 상세정보, 보험료 자동이체 신청/변경, 납입 일시중지 신청, 약관·규정에 따른 계약 변경 메뉴가 있다.",
+      "used_for": [
+        "교보 기존 방향과 최근 경쟁·무료 대안·현행 권한의 범위 검증"
+      ],
+      "limitations": [
+        "개별 계약의 변경 가능일, 무료 여부, 이번 달 적용 가능성, 승인 완료 또는 AI의 실행 권한은 안내만으로 알 수 없다.",
+        "퇴직연금 자동이체 마감 안내를 보험료 변경 기한으로 옮겨 쓰지 않는다."
+      ],
+      "source_id": "NU-K-003",
+      "checked_at": "2026-11-07",
+      "run": "2026-11-07-market-update",
+      "original_source_id": "NU-K-003"
+    }
+  ],
+  "prior_only_reuse": [
+    {
+      "id": "R27-K-004",
+      "reuse": "existing_registry_id_partial_recheck",
+      "title": "교보생명–SBI 디지털토큰 기관 자금이전 실증",
+      "publisher": "교보생명",
+      "url": "https://news.kyobo.com/교보생명-sbi그룹과-디지털토큰-활용-디지털-협력/",
+      "published_at": "2026-09-17",
+      "checked_at": "2026-11-07",
+      "read_status": "official_search_excerpt_and_prior_read",
+      "read_scope": "이번 직접 열기는 타임아웃. 공식 검색 본문에서 7월 착수 실증 종료·Canton 테스트환경·엔/원 이전을 재확인. 기존 11월 6일 원장의 본문 37~58행 독해를 별도로 재사용.",
+      "fact": "교보생명과 SBI Digital Practice는 Canton 테스트환경의 엔·원 토큰 이전·환전 실증을 발표했다.",
+      "limits": [
+        "이번 직접 전체 재독해로 세지 않는다.",
+        "테스트토큰과 실제 고객의 현금, 거래량, 비용 절감, 상용 인가·수익은 다르다.",
+        "이 실증을 10월 27일 MMF MOU에 교보가 자동 참여한 증거로 연결하지 않는다."
+      ]
+    }
+  ],
+  "method": "카드 수는 보고서 전문 정독 수가 아니다. 같은 사건의 본문·첨부/발표는 독립 수요 증거로 중복 계수하지 않는다."
+}

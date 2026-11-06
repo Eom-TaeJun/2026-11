@@ -1,0 +1,237 @@
+{
+  "schema_version": "market_reassessment.v1",
+  "institution": "Kyobo Group / Securities future strategy",
+  "as_of": "2026-11-07",
+  "created_at_utc": "2026-11-06T17:23:12.702980+00:00",
+  "author_role": "analyst_using_financial_change_reasoning_v2_2",
+  "opening_sha256": "008c56bd5af0d36581955202b7d62d7cd0eac267065cf00839f3f22e0adbc831",
+  "opening_preserved": true,
+  "method": "초기 판단을 고정하고 공개 공식자료를 선택 검증했다. 단계별 조건 실험은 분석자의 사고실험이며 실제 수요·매출 관측이나 교수의 발언이 아니다.",
+  "coverage": {
+    "direct_official_sources": 4,
+    "prior_source_with_official_search_recheck": 1,
+    "fresh_recent_event": "NU-K-001 (2026-10-27 MOU)",
+    "not_claimed": "최근 기간의 모든 발표·공시·인가를 전수 확인하지 않았다. 사적 작업 원문은 복제하지 않았다.",
+    "baseline_refs": [
+      "reports/43_kyobo_2027_reassessment.md",
+      "reports/47_cschung7_opportunity_application.md"
+    ],
+    "baseline_read_scope": "43의 현재 상태·생명/증권 역할 및 우선업무 선택 범위, 47의 교보 가설·조건실험·마감 판단. 최신 사용자 첫사업 사례는 아이디어의 조건과 돈 흐름을 읽고 공개용 독립 분석으로 재작성."
+  },
+  "sources": [
+    {
+      "id": "KYO-GEO-004",
+      "reuse": "existing_registry_id",
+      "title": "Digital Capital Group–Kyobo Securities strategic technology partnership",
+      "publisher": "Digital Capital Group",
+      "url": "[로컬 경로는 비공개 실행 기록에서 관리]",
+      "published_at": "2026-04-08",
+      "checked_at": "2026-11-07",
+      "read_status": "selected_sections_direct",
+      "read_scope": "공식 웹 본문 19~36행, 법인 안내 83행 참고. 기관용 RWA 발굴·토큰화·유통 MOU와 역할.",
+      "fact": "아태 기관용 RWA의 발굴·토큰화·유통을 공동 개발하는 MOU. 해외 자산 접근과 한국·해외 양방향 유통이 목표다.",
+      "limits": [
+        "4월 발표의 재확인이다. 10~11월 신규 계약 또는 출시로 세지 않는다.",
+        "발행, 유료 고객, 독점 권리, 수익 또는 특정 스테이블코인 경로를 확인하지 못했다.",
+        "파트너 법인 소개를 교보의 해외 인가로 옮기지 않는다. 감독기관 원장 독립 대조는 안 했다."
+      ]
+    },
+    {
+      "id": "NU-K-001",
+      "reuse": "new_primary_source",
+      "title": "BlackRock, SBI Holdings and Startale MOU: tokenized MMFs and JPYSC",
+      "publisher": "Startale",
+      "url": "[로컬 경로는 비공개 실행 기록에서 관리]",
+      "alternate_urls": [
+        "[로컬 경로는 비공개 실행 기록에서 관리]"
+      ],
+      "published_at": "2026-10-27",
+      "checked_at": "2026-11-07",
+      "read_status": "selected_sections_direct",
+      "read_scope": "Startale 공식 발표 48~70행. SBI URL은 검색에 노출된 공식 본문을 확인했으나 직접 열기에서는 iframe만 표시되어 직접 본문 열람으로 세지 않음.",
+      "fact": "SBI·Startale·BlackRock이 토큰 MMF와 엔화 신탁형 스테이블코인 JPYSC 연결 가능성을 기술·사업/유통·규제 세 분야에서 검토하는 MOU를 맺었다.",
+      "limits": [
+        "교보는 이 MOU의 명시 당사자가 아니다.",
+        "MMF 연결의 상용 가동, 한국 판매 또는 교보 참여를 입증하지 않는다.",
+        "JPYSC에 관한 회사 발언과 MMF 연결 운영 성과를 구별한다."
+      ]
+    },
+    {
+      "id": "NU-K-002",
+      "reuse": "new_primary_source",
+      "title": "메리츠증권 종합금융투자사업자 지정 및 단기금융업 인가",
+      "publisher": "금융위원회",
+      "url": "[로컬 경로는 비공개 실행 기록에서 관리]",
+      "published_at": "2026-09-23",
+      "checked_at": "2026-11-07",
+      "read_status": "selected_sections_direct",
+      "read_scope": "본문 296~343행과 종투사 지정·단기금융업 표의 검색 위치 확인.",
+      "fact": "금융위가 메리츠증권의 자기자본 4조원 종투사 지정과 단기금융업 인가를 의결했다. 표는 자본 단계별 지정 및 별도 업무 권한을 구별한다.",
+      "limits": [
+        "해당 9월 표에서 교보를 찾지 못한 사실로 11월 7일 미지정을 단정하지 않는다.",
+        "이번 조사에서 교보의 최신 지정·인가 원문은 확인하지 못했다. 납입·회계자본 증가만으로 권한을 추정하지 않는다."
+      ]
+    },
+    {
+      "id": "NU-K-003",
+      "reuse": "new_primary_source",
+      "title": "MY교보 이용안내",
+      "publisher": "교보생명",
+      "url": "[로컬 경로는 비공개 실행 기록에서 관리]",
+      "published_at": null,
+      "checked_at": "2026-11-07",
+      "read_status": "selected_sections_direct",
+      "read_scope": "보험 계약 조회·보험료 납입·출금·계약 변경 안내 31~147행.",
+      "fact": "기존 서비스에 계약 상세정보, 보험료 자동이체 신청/변경, 납입 일시중지 신청, 약관·규정에 따른 계약 변경 메뉴가 있다.",
+      "limits": [
+        "개별 계약의 변경 가능일, 무료 여부, 이번 달 적용 가능성, 승인 완료 또는 AI의 실행 권한은 안내만으로 알 수 없다.",
+        "퇴직연금 자동이체 마감 안내를 보험료 변경 기한으로 옮겨 쓰지 않는다."
+      ]
+    },
+    {
+      "id": "R27-K-004",
+      "reuse": "existing_registry_id_partial_recheck",
+      "title": "교보생명–SBI 디지털토큰 기관 자금이전 실증",
+      "publisher": "교보생명",
+      "url": "[로컬 경로는 비공개 실행 기록에서 관리]",
+      "published_at": "2026-09-17",
+      "checked_at": "2026-11-07",
+      "read_status": "official_search_excerpt_and_prior_read",
+      "read_scope": "이번 직접 열기는 타임아웃. 공식 검색 본문에서 7월 착수 실증 종료·Canton 테스트환경·엔/원 이전을 재확인. 기존 11월 6일 원장의 본문 37~58행 독해를 별도로 재사용.",
+      "fact": "교보생명과 SBI Digital Practice는 Canton 테스트환경의 엔·원 토큰 이전·환전 실증을 발표했다.",
+      "limits": [
+        "이번 직접 전체 재독해로 세지 않는다.",
+        "테스트토큰과 실제 고객의 현금, 거래량, 비용 절감, 상용 인가·수익은 다르다.",
+        "이 실증을 10월 27일 MMF MOU에 교보가 자동 참여한 증거로 연결하지 않는다."
+      ]
+    }
+  ],
+  "current_position": {
+    "current_IB_designation": null,
+    "current_ultra_large_IB_authorization": null,
+    "completed_external_RWA_product": null,
+    "paid_external_client": null,
+    "new_profit": null,
+    "meaning_of_null": "이번에 확인한 원문으로 확정하지 못함. 존재하지 않는다는 주장 아님."
+  },
+  "baseline_comparison": [
+    {
+      "reference": "43",
+      "already_present": "생명의 장기 계약관리, 증권의 발굴·발행·사후관리, 무료 대안, 종투사 권한 미확인을 구별했다.",
+      "change": "방향 유지. 실제 기존 보험 메뉴를 확인해 AI 추가가치의 위치를 선택지 발명보다 계약별 실행·복구·비용 검증으로 더 좁혔다."
+    },
+    {
+      "reference": "47",
+      "already_present": "교보의 외부 확정채권 자금조달과 권리/회수 업무. 일반 구성 수수료는 무료 대안 이후 축소 가능.",
+      "change": "방향 유지. 납기·지급통화 목적의 기존 상품 구성과 희소 권리 발굴을 별도 사업으로 두고 먼저 같은 비용 기준에서 비교한다."
+    },
+    {
+      "reference": "latest first-business idea",
+      "already_present": "보험료 납기와 급여일 불일치에서 무료 허용 변경을 우선하고 기존 보험료를 신규 이익으로 세지 않는다.",
+      "change": "가설 유지. 안내에서 개별 계약의 무료 변경·당월 적용·AI 권한은 확인되지 않아, 특정 날짜 예시는 현재 상품 사실로 승격하지 않는다."
+    }
+  ],
+  "mechanism": "AI가 상품 검색·조합 비용을 낮추면 범용 추천 보수와 앱 방문만으로 만든 접근 우위가 약해질 수 있다. 교보의 대응 가설은 실제 계약·권리·최종 현금·실패 책임을 확인 가능한 형태로 제공하는 것이다. 고객 부채의 시점·통화에 맞는 구성과 신규 권리 발굴은 보완적이지만 각각 독립 수요·비용 검증이 필요하다.",
+  "flows": [
+    {
+      "id": "K-FLOW-LIFE",
+      "customer": "기존 보험계약자 중 납입일과 실제 소득 입금일이 어긋나는 고객",
+      "purpose": "보장 필요성과 지급능력을 확인한 뒤 기일에 보험료를 납입하고 불필요한 대출·자산 매각·실효를 줄임",
+      "contract": "보험사 약관과 개별 계약의 변경 가능 조건. 조회·제안·변경·자동이체별 동의 범위와 실패 시 책임을 기록",
+      "cash_rights": "현실의 급여/현금 → 허용된 납입일의 고객 은행계좌 → 보험사 보험료 수납. 보장 의무는 보험사에 존속. 투자수익이 현금 부족을 자동 충당한다고 가정하지 않음",
+      "payer_revenue": "고객 AI 이용료를 기본 0으로 둔 내부 운영개선 가설. 생명이 운영비를 부담하며, 실제 재처리·상담 비용 감소와 적정 유지의 경제적 효과를 검증. 기존 보험료 전액을 신규 매출·이익으로 세지 않음",
+      "risk": "소득이 계속 부족한 고객에게 유지·대출을 강제할 위험, 부적합 보장 유지, 당월 변경 실패, 무권한 자동실행",
+      "group_boundary": "증권에 자산 매각·상품판매를 자동 위임하지 않음. 보험계약자 재산·보험사 운용자산·증권사 자기자본은 각각 분리"
+    },
+    {
+      "id": "K-FLOW-SEC",
+      "customer": "지급목적·통화·기일이 있는 개인/법인 투자자와 자금조달이 필요한 외부 발행인",
+      "purpose": "보유기간·허용손실·환금성·세후 총비용에 맞는 자산 구성, 또는 기존 금융으로 해결되지 않는 유효 권리의 자금조달",
+      "contract": "인가된 판매/중개·발행·자문·수탁 등 실제 역할별 계약. 비정형 RWA는 기초 권리의 양도·회수·도산 시 지위를 먼저 확인",
+      "cash_rights": "투자자 현금 → 적합한 기존 상품 또는 별도 검증된 발행물 → 실제 이자/수금 → 환매/매각 → 지급 가능한 해당 통화 은행현금. 토큰 전송·가격표시·환매 신청을 현금 완료와 구별",
+      "payer_revenue": "투자자 또는 발행인이 계약에 따라 보수를 낼 수 있으나 구성·조회 자체의 추가 보수는 미확인. 기존상품 수수료와 발굴·발행·권리·회수관리 보수는 실제 귀속대로 구별",
+      "risk": "무료 묶음 상품과 대형 IB 조달 우위, 유동성·환율·수금·권리 분쟁, 높은 소액 발행 고정비, 판매와 자기계정 이해상충",
+      "group_boundary": "문고의 접점·거래자료가 IP 소유·양도권을 자동 만들지 않음. 생명 자산의 투자 여부는 독립 ALM·자본·계약 심사 대상"
+    }
+  ],
+  "condition_experiments": [
+    {
+      "id": "K-T1",
+      "single_changed_condition": "일시적 급여일 불일치 → 지속적 가처분소득 부족",
+      "action_if_base": "계약상 가능하고 비용·보장 손실이 없는 납입일 조정을 먼저 완료한다.",
+      "action_if_changed": "투자수익·자동 차입으로 메우는 안을 제외하고 실제 약관의 감액·납입 조건·보장 필요성을 담당자와 재검토한다.",
+      "economic_reason": "시점 불일치와 지급능력 부족은 다른 제약이다.",
+      "next_observation": "입금·필수 지출 일정, 개별 계약 허용 옵션, 변경 완료 및 반복 미납 여부",
+      "decision_scope": "customer_action"
+    },
+    {
+      "id": "K-T2",
+      "single_changed_condition": "기존 서비스+AI가 같은 결과와 책임을 같은 비용으로 달성 → 기관 간 권리/현금 완료에 별도 병목 존재",
+      "action_if_base": "기존 기능을 연결하고 온체인 신규 발행·지갑을 의무화하지 않는다.",
+      "action_if_changed": "공통 상태·권한·현금 전환 자료를 표준화하고 해당 병목만 제한적으로 연결한다.",
+      "economic_reason": "기술의 이름이 아니라 추가 거래·관리 비용 감소가 투자 근거다.",
+      "next_observation": "기존 대안과 동일 고객 업무의 완료율·복구시간·총비용 비교",
+      "decision_scope": "implementation"
+    },
+    {
+      "id": "K-T3",
+      "single_changed_condition": "경쟁사가 상품 구성·보고 기능을 무료 묶음 제공 → 교보만 확보한 유효 권리/수금 업무에 반복 유료 수요 존재",
+      "action_if_base": "일반 구성 기능의 직접 요금을 낮추고 판매/관리의 실제 귀속 수익과 유지비로 평가한다.",
+      "action_if_changed": "권리 발굴·발행·회수 사후관리 계약을 확대하되 외부 고객의 순편익·지급 의사를 검증한다.",
+      "economic_reason": "상품 선택은 복제 가능하나 책임지는 권리 확보·회수 업무는 다른 비용 구조를 가질 수 있다.",
+      "next_observation": "동등 책임 대안 견적, 유료 갱신, 권리 분쟁·수금 실패, 고객 최종 현금",
+      "decision_scope": "business_model"
+    },
+    {
+      "id": "K-T4",
+      "single_changed_condition": "고객 부채/지급통화가 엔·원 → 달러",
+      "action_if_base": "엔·원 직접 경로와 기존 은행 환전·송금을 총비용·현금 시점으로 비교한다.",
+      "action_if_changed": "달러 상품·USDC/USDT 등 적격 경로를 별도 비교하되 고객 자격·상환·지급현금·환율 노출을 확인한다.",
+      "economic_reason": "중간 달러 경유의 효익은 고객의 통화 노출과 유동성에 달려 있다. 직접 경로도 FX 위험·비용을 없애지 않는다.",
+      "next_observation": "같은 금액/시점의 실행 가능 견적·상환한도·최종 계좌 입금",
+      "decision_scope": "rail_selection"
+    },
+    {
+      "id": "K-T5",
+      "single_changed_condition": "해당 영업 권한 미확인 → 필요한 지정·인가·자본 인정 확인",
+      "action_if_base": "현재 확인 가능한 권한 안에서 제휴·중개·운영 실험을 설계하고 허가된 것으로 사업 수익을 계산하지 않는다.",
+      "action_if_changed": "새 권한으로 가능한 자금조달·상품 범위를 재산정하되 자본·유동성·신용 비용 이후 외부 수요를 비교한다.",
+      "economic_reason": "허가는 선택지를 넓히지만 수요·경쟁우위·이익을 보장하지 않는다.",
+      "next_observation": "금융위 교보 개별 지정·인가 의결, 납입과 감독상 인정자료, 실제 계약",
+      "decision_scope": "authorization_and_capital"
+    }
+  ],
+  "opportunity_classification": {
+    "existing_service_improvement": "보험료 납기 계획은 기본적으로 기존 계약 관리 개선이다. 그 자체를 신규 시장이나 신규 보험료 수입으로 계산하지 않는다.",
+    "potential_new_demand": "발행·관리 고정비 때문에 과거 자금조달이 성립하지 않았던 외부 권리의 거래가, 유효권리·회수·투자자 수요와 총비용 조건 아래 처음 성립할 수 있다. 아직 고객·성과는 미확인이다.",
+    "displacement": "일반 상품구성·보고·주문은 대형 증권사/운용사/플랫폼의 무료 묶음이 가져갈 수 있다. 생명 관계가 증권 고객 이전을 자동 보장하지 않는다."
+  },
+  "closing": {
+    "status": "maintain_direction_refine_evidence_and_operating_conditions",
+    "unchanged": [
+      "무료 대안 우선",
+      "생명과 증권의 자산·계약·수익 귀속 분리",
+      "IP/RWA 발굴은 조건부 후보",
+      "현재 인가·유료 수요 미확인"
+    ],
+    "new_evidence_delta": [
+      "최근 일본 MOU가 자산운용·유통·엔화 현금 연결 경쟁의 구체적인 상대를 보여준다. 교보의 참여나 상용 운영은 여전히 확인되지 않았다.",
+      "MY교보의 기존 관리 기능을 직접 확인해 신규 AI 기능의 기준선을 구체화했다.",
+      "9월 메리츠 인가 사례에서 실제 조달 권한이 있는 경쟁사를 확인했다. 교보 최신 인가 판단은 바꾸지 않았다."
+    ],
+    "priority_order": [
+      "생명: 계약별 무료 납입 옵션과 당월 적용·완료·실패 복구를 확인하는 내부 개선",
+      "증권: 외부 고객 한 건의 지급목적·현금기일에서 기존 상품/기존 금융과 신규 발행의 총비용 비교",
+      "조건부 확장: 권리·회수관리의 실제 유료 수요가 확인된 사업만 확장; 해외 경로는 적격 상품과 현금 완료를 확인한 제휴 선택"
+    ],
+    "not_new_turn": "43/47에 있던 무료 대안·권리관리 방향을 이번 발표 때문에 새롭게 전환한 것으로 묘사하지 않는다."
+  },
+  "next_observations": [
+    "교보에 관한 최신 금융위 지정·인가와 자본 인정 원문",
+    "개별 보험 약관의 변경 기한·비용·당월 적용 및 실제 승인/납입 완료",
+    "교보–DCG 첫 유효 권리·발행/유통·유료 고객 계약과 실제 수금",
+    "일본 MMF–JPYSC 연결의 출시, 적격 투자자, 환매·은행현금 및 한국 접근 조건",
+    "동일 책임의 기존 금융+AI/무료 묶음과 비교한 유지비·고객 순편익"
+  ],
+  "publication_safety": "공개 원문과 분석자의 독립 요약·가설만 포함. 개인 대화·사용자 원문·로컬 절대경로·개인 고객 자료 미포함. 저장소 수정/게시하지 않음."
+}

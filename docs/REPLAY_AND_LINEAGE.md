@@ -44,3 +44,9 @@ python -m unittest discover -s tests -v
 로컬의 `integrate.py`, `prepare_claims.py`, `finalize_documents.py`는 완료된 11월6일 실행용 도구다. 원래 본문과 수정 전 복사본을 보존하고, 시작 시 [보존 장치](../scripts/legacy_run_guard.py)가 실행을 종료하도록 했다. 성공 응답도 `archived_noop`이며 **새 입력은 처리하지 않았음**을 명시한다. 완료 기록이 없거나 손상됐으면 오류로 종료한다. 이 세 도구를 새 연구에 재사용하지 않는다.
 
 실제 실패 재현·수정 후 검증은 [보수 기록](../runs/2026-11-07-maintenance.md)에 남긴다.
+
+## 출처가 재열람된 뒤 과거 연구를 검사할 때
+
+11월7일 시장 갱신으로 NOV-M07의 현재 출처 객체가 바뀌어, 11월6일 명세를 현재 원장에 그대로 대조하면 REF_HASH가 발생한다. 이는 정상적인 변경 탐지다. 과거 명세를 새 해시로 자동 덮어쓰지 않는다. 과거 사건은 해당 history 상태를 복원한 별도 임시 사본에서 검사하고 현재 연구는 새 명세로 검사한다. tests/test_lineage.py는 역사 검증을 고정된11월6일 after 상태로 수행하며 현재 실제 원장을 되돌리지 않는다.
+
+현재 연구의 검사 명세는 data/research_lineage_20261107_market_update.json이다. 새 실행이 현재 명세를 대체하면 그 실행 기록을 먼저 읽는다. [발견·수정·검증](../runs/2026-11-07-market-update-review.md).

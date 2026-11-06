@@ -1,0 +1,19 @@
+{
+  "sha256": "90df95d0f25ab2866dd55790061f13db7bfb39f50e3b08013dd54e3364348430",
+  "plan": {
+    "version": 1,
+    "run_id": "20261107-market-update",
+    "batch": "runs/pipeline/20261107-market-update/batch.json",
+    "batch_sha256": "2fe2a2bed36f7ff34652667643f91d6b48d8187eb4fdbfc9fbc0b7276bfc73fe",
+    "lineage": "data/research_lineage_20261107_market_update.json",
+    "input_sha256": {
+      "data/market_update_20261107_decisions.json": "ede0c25216b6113759a36662d4c76a08fee98d30d1011c1a9a1970f39cf86c36",
+      "data/research_lineage_20261107_market_update.json": "41b006b1067bc1cfc690b713134960e2294e19ad2667006b9245242aa59b3fcc",
+      "runs/2026-11-07-market-update-opening.json": "9ad9129d1b091343b9385050a1ff40c2069e8db8da960d81f6bc1c3195ae113e",
+      "runs/2026-11-07-market-update-sources.json": "bcc6659cc40ccd28db5671bf609e88643d88405f5bfeeef0d9e10ec10c2d1733"
+    },
+    "input_hash_policy": "SHA256 of UTF-8 file bytes with CRLF normalized to LF",
+    "expected_before_sha256": "c7e50fab6ff088e83c48c9dc975b0d7942ec8b378260bbca03635c61af8ef5d0",
+    "expected_after_sha256": "5e2c93c37d90798849156f938bfdca45cf6de866fa80ac38cb19aad646df9216"
+  }
+}

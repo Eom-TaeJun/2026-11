@@ -1,0 +1,79 @@
+{
+  "run_id": "2026-11-07-market-update",
+  "date": "2026-11-07",
+  "status": "complete_local_pending_publication",
+  "design_version": "2.2",
+  "scope": {
+    "selected_read_events": 31,
+    "new_sources": 19,
+    "updated_sources": 12,
+    "sources_after": 326,
+    "new_claims": 28,
+    "claims_after": 472,
+    "hypotheses": 8,
+    "actions": 10
+  },
+  "input_audit": {
+    "current_files": 18,
+    "additional_linked_files": 6,
+    "old_bodies_available": false,
+    "late_changed_guidance_files": 8,
+    "late_additional_linked_files": 3
+  },
+  "role_execution": {
+    "root": "거시·공식 상품·교수형 통합·원장·게시",
+    "outlook_lineage": "18개 감사 후 교보 조사; 한화 선택 교차검토",
+    "design_audit": "BNK 조사 및 최종 통합 검토",
+    "mechanism_design": "한화 조사 및 거시·BNK 선택 교차검토"
+  },
+  "artifacts": {
+    "input_audit": "reports/48_changed_materials_and_recent_sources.md",
+    "top_down": "reports/49_2027_market_structure_update.md",
+    "decisions": "reports/53_market_opportunities_and_decisions.md",
+    "lineage": "data/research_lineage_20261107_market_update.json"
+  },
+  "checks": {
+    "pipeline": {
+      "complete": true,
+      "read_events": 31,
+      "claims": 28,
+      "hypotheses": 8,
+      "actions": 10
+    },
+    "tests": {
+      "passed": 87,
+      "failed": 0,
+      "initial_regression_found_and_fixed": true
+    },
+    "preservation": {
+      "previous_claims_exact": 444,
+      "new_claims": 28,
+      "total_claims": 472,
+      "previous_unchanged_source_records": 295,
+      "rechecked_source_records": 12,
+      "new_source_records": 19,
+      "total_sources": 326,
+      "old_read_scope_entries_preserved": true,
+      "topics_unchanged": 14,
+      "prior_reports_scripts_agent_definitions_history_runs_unchanged": true,
+      "test_fixture_change": "tests/test_lineage.py: historical state restored only in temporary test fixtures; source drift remains rejected",
+      "new_history_entries": 1,
+      "pipeline_phase": "complete",
+      "tests_passed": 87,
+      "initial_test_failure": {
+        "tests": 86,
+        "failures": 1,
+        "errors": 2,
+        "cause": "Old 20261106 manifest tested against newly rechecked live NOV-M07 source object; correct hash mismatch."
+      }
+    },
+    "semantic_review": "runs/2026-11-07-market-update-review.md",
+    "late_input_review": "중심판단 유지; 장기 성장·첫실험/그룹준비순서 구분을 추가 검토"
+  },
+  "limits": [
+    "최근 공식자료 선택 조사; 국가별 법률과 재무의 전수 갱신 아님",
+    "초기 의견은 기존 자료/검색에 노출된 비블라인드 연구",
+    "구조 검사와 의미 검토는 사업성·예측 정확도 인증 아님",
+    "개인 원문과 경로 색인은 공개하지 않음"
+  ]
+}

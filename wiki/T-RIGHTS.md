@@ -599,6 +599,74 @@ UAE 고객 AI가 동일한 투자노출·기간·위험·수취통화의 구현�
 
 다음 관측: 법적/회수 고정비가 지배하거나 등록 수 증가에도 실제 구매·반복 조달이 없으면 범용 롱테일 플랫폼 대신 검증 가능한 특정 채권 업무로 좁힘.
 
+### C-448 · institution_statement · active
+
+Lloyds는 직원 책임 아래 다중 AI 에이전트를 실제 사기 대응 사례에 사용한다고 발표했다. Broadridge는 규제승인 후 NYSE 토큰 플랫폼에 권리·명의개서 서비스를 연결할 계획이다.
+
+근거: [NU-M-005](../sources/cards/NU-M-005.md), [NU-M-006](../sources/cards/NU-M-006.md)
+
+한계: - 실제 적용 자기보고와 미래 계획의 단계가 다르다. 같은 사업의 실적처럼 합산하지 않음.
+
+### C-450 · fact · active
+
+11월7일 확인한 OUSG 페이지의 날짜 있는 11월5일 구성표에는 SWEEP·BUIDL·BENJI·FYOXX 등이 공존한다. 동일 페이지의 BUIDL 중심 FAQ와 불일치한다.
+
+근거: [OBX-E-004](../sources/cards/OBX-E-004.md)
+
+한계: - 관측된 페이지 스냅샷. 현재 자산 증빙·독립감사·미래 구성 또는 그 기간 순유입으로 확대하지 않음.
+
+### C-460 · institution_statement · active
+
+교보–DCG는 4월8일 아태 RWA 발굴·토큰화·유통 MOU를 발표했다. 이번 재열람은 10~11월 신규 출시의 확인이 아니다.
+
+근거: [KYO-GEO-004](../sources/cards/KYO-GEO-004.md)
+
+한계: - 개별 상품·고객·매출·독점권 및 USDC/USDT 직접 계약 미확인.
+
+### C-461 · institution_statement · active
+
+10월27일 SBI·BlackRock·Startale는 엔화 스테이블코인과 토큰 MMF 연결을 검토하는 MOU를 발표했다.
+
+근거: [NU-K-001](../sources/cards/NU-K-001.md)
+
+한계: - 교보 참여, 한국 판매, 상용 레일 운영으로 해석하지 않음.
+
+### C-462 · fact · active
+
+MY교보의 공개 안내에는 자동이체 변경·보험료 납입 일시중지·계약 변경 기능이 있다. 개별 고객의 적용 조건과 완료 여부는 별도다.
+
+근거: [NU-K-003](../sources/cards/NU-K-003.md)
+
+한계: - 발행일 없는 페이지를 11/7 확인. 모든 고객의 무료·당월 적용이나 AI 권한을 뜻하지 않음.
+
+### C-463 · fact · active
+
+금융위는 9월23일 메리츠의 4조원 종투사 지정과 단기금융업 인가를 발표했다. 교보의 11월7일 현재 권한은 이번 자료로 확정하지 못했다.
+
+근거: [NU-K-002](../sources/cards/NU-K-002.md)
+
+한계: - 과거 표의 부재를 현재 미지정의 증거로 사용하지 않음. 자기자본 증가와 개별 인가 구분.
+
+### C-464 · interpretation · active
+
+교보의 보험료 기일 관리에는 이미 있는 약관상 선택을 적절히 완료하는 가치가 있다. 기존 보험료를 새 AI 매출로 잡거나 소득 부족을 날짜 변경·추가 차입으로 해결했다고 보면 안 된다.
+
+근거: [NU-K-003](../sources/cards/NU-K-003.md)
+
+한계: - 기존 계약관리 개선. 실제 비용 회피·적정 유지 효과와 유료 신규 수요는 별도 검증.
+
+### C-465 · hypothesis · active
+
+교보는 고객 지급목적에 맞춘 기존상품 실행과 차별적 권리 발굴을 별도 검증해야 한다. 비정형 권리의 반복 발행·수금·회수에서 외부 고객이 비용 후 편익을 얻을 때 신규 계약이 가능할 수 있다.
+
+근거: [KYO-GEO-004](../sources/cards/KYO-GEO-004.md), [NU-K-001](../sources/cards/NU-K-001.md), [NU-K-003](../sources/cards/NU-K-003.md), [NU-M-005](../sources/cards/NU-M-005.md)
+
+한계: - 고객·문고 권리·생명 자금과 감독 권한은 자동 공유하지 않음. 미래 개별 인가와 위임을 가정한 연구자 제안.
+
+다른 설명: 대형 증권사/공용 권리 인프라가 같은 책임으로 더 싸게 제공해 범용 조합·발행료를 압박한다.
+
+다음 관측: 외부 발행인과 투자자의 동등 책임 견적, 권리·수금 검증, 반복 계약, 기존 금융과 비교한 총비용 후 기여.
+
 ## 관련 원문
 
 - [FIN-002 · What Is Needed for Tokenization to Deliver](../sources/cards/FIN-002.md)
@@ -608,6 +676,7 @@ UAE 고객 AI가 동일한 투자노출·기간·위험·수취통화의 구현�
 - [FIN-015 · DTCC Tokenization Service Goes Live, Marking Major Milestone in the Adoption of Digital Assets](../sources/cards/FIN-015.md)
 - [SRC-CIRCLE-USDC-TERMS · USDC Terms](../sources/cards/SRC-CIRCLE-USDC-TERMS.md)
 - [NOV-ECB-BONDS · Tokenised bonds: assessing efficiency and liquidity in a nascent market](../sources/cards/NOV-ECB-BONDS.md)
+- [KYO-GEO-004 · Digital Capital Group–Kyobo Securities strategic technology partnership](../sources/cards/KYO-GEO-004.md)
 - [RG-JP-001 · セキュリティトークンに関する現状等について](../sources/cards/RG-JP-001.md)
 - [RG-JP-003 · 金融商品取引法及び資金決済に関する法律の一部を改正する法律（令和8年法律第64号）](../sources/cards/RG-JP-003.md)
 - [RG-SG-001 · Guide on the Tokenisation of Capital Markets Products](../sources/cards/RG-SG-001.md)
@@ -673,5 +742,9 @@ UAE 고객 AI가 동일한 투자노출·기간·위험·수취통화의 구현�
 - [OBX-E-028 · Introducing the Ondo Network](../sources/cards/OBX-E-028.md)
 - [R27-B-004 · 신한 디지털 신용보증팩토링은 어떤 서비스이며 기존 팩토링과 어떤 차이가 있나요?](../sources/cards/R27-B-004.md)
 - [R27-B-005 · 서울보증보험 보증 승인을 받은 경우에만 이용 가능한가요?](../sources/cards/R27-B-005.md)
+- [NU-M-005 · Broadridge to Bring OnChain Governance and Digital Transfer Agency to NYSE Tokenized Securities Platform](../sources/cards/NU-M-005.md)
+- [NU-K-001 · BlackRock, SBI Holdings and Startale MOU: tokenized MMFs and JPYSC](../sources/cards/NU-K-001.md)
+- [NU-K-002 · 메리츠증권 종합금융투자사업자 지정 및 단기금융업 인가](../sources/cards/NU-K-002.md)
+- [NU-K-003 · MY교보 이용안내](../sources/cards/NU-K-003.md)
 
 [전체 주제 지도](INDEX.md)

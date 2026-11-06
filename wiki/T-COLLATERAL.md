@@ -174,6 +174,14 @@ CAPM·요인모형·평균분산·HRP를 사고의 골격으로 두고 다중 �
 
 다음 관측: 자격 확대가 없거나 유동성/자본 비용이 더 커지면 일반 토큰 판매가 아닌 기존 자산 관리로 돌아감.
 
+### C-445 · institution_statement · active
+
+Citi와 BNY는 현금·담보·조달을 연결하는 혼합 인프라 방향을 제시한다. BNY의 2027년 확장은 목표이며 현재 전면 가동과 구분한다.
+
+근거: [NU-M-002](../sources/cards/NU-M-002.md), [NU-M-003](../sources/cards/NU-M-003.md)
+
+한계: - 기관 견해·계획이며 모든 고객의 비용 절감 실증은 아님.
+
 ## 관련 원문
 
 - [FIN-001 · Tokenized Finance](../sources/cards/FIN-001.md)
@@ -181,6 +189,7 @@ CAPM·요인모형·평균분산·HRP를 사고의 골격으로 두고 다중 �
 - [FIN-012 · Capital Treatment of Tokenized Securities Frequently Asked Questions](../sources/cards/FIN-012.md)
 - [FIN-014 · III. The next-generation monetary and financial system](../sources/cards/FIN-014.md)
 - [FIN-016 · Consultation on supervisory expectations for central counterparties seeking to accept tokenised collateral](../sources/cards/FIN-016.md)
+- [NOV-M07 · GFSR October 2026, Chapter 3: Scaling Tokenization: New Efficiencies, New Vulnerabilities](../sources/cards/NOV-M07.md)
 - [NOV-ECB-COLLATERAL · ECB paves way for acceptance of DLT-based assets as eligible Eurosystem collateral](../sources/cards/NOV-ECB-COLLATERAL.md)
 - [NOV-ECB-ELIGIBILITY · Marketable assets — Eligibility criteria and assessment procedure](../sources/cards/NOV-ECB-ELIGIBILITY.md)
 - [RG-AE-003 · Payment Token Services Regulation](../sources/cards/RG-AE-003.md)
@@ -188,5 +197,9 @@ CAPM·요인모형·평균분산·HRP를 사고의 골격으로 두고 다중 �
 - [KNX-M-005 · UNIDROIT Model Law on Factoring](../sources/cards/KNX-M-005.md)
 - [KNX-M-006 · UNIDROIT Principles on Digital Assets and Private Law](../sources/cards/KNX-M-006.md)
 - [HWX-R-008 · 2026년도 금융복합기업집단 지정](../sources/cards/HWX-R-008.md)
+- [NU-M-002 · The Digital Frontier: Collateral in a Tokenized World](../sources/cards/NU-M-002.md)
+- [NU-M-003 · The Next US Treasury Market Evolution](../sources/cards/NU-M-003.md)
+- [NU-B-002 · 우리은행 발표: 신용보증기금 보증을 결합한 발주단계 공급망금융 사례](../sources/cards/NU-B-002.md)
+- [NU-B-003 · BNK금융그룹, 부산시·기보와 손잡고 기후테크 기업 금융지원 확대](../sources/cards/NU-B-003.md)
 
 [전체 주제 지도](INDEX.md)

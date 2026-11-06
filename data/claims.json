@@ -8187,5 +8187,607 @@
     "next_observation": "미가입/해지 사유, 고용주 예산, 직원 기존 보장, 위험 반영 견적 / 같은 직원집단의 완결 시간·오류·동의/보안 비용 / 동등 보장·면책·위험집단의 경쟁 견적, 청구 경험, 실제 유지 선택 / 사고→서류→승인→은행현금 각각 시간, 실제 수익자 의무 / 파트너 배분·민감정보 통제·고객획득·운영/청구 포함 총원가",
     "run": "2026-11-07-cschung7-opportunity",
     "probe_id": "CS7-OP-HW"
+  },
+  {
+    "id": "C-445",
+    "kind": "institution_statement",
+    "status": "active",
+    "text": "Citi와 BNY는 현금·담보·조달을 연결하는 혼합 인프라 방향을 제시한다. BNY의 2027년 확장은 목표이며 현재 전면 가동과 구분한다.",
+    "source_ids": [
+      "NU-M-002",
+      "NU-M-003"
+    ],
+    "topic_ids": [
+      "T-SETTLEMENT",
+      "T-COLLATERAL"
+    ],
+    "limitations": [
+      "기관 견해·계획이며 모든 고객의 비용 절감 실증은 아님."
+    ],
+    "run": "2026-11-07-market-update",
+    "as_of": "2026-11-07",
+    "research_group": "RESEARCH"
+  },
+  {
+    "id": "C-446",
+    "kind": "interpretation",
+    "status": "active",
+    "text": "2027년 제도와 레일이 정착해도 신속한 총액 결제와 상계 감소에 따른 유동성 비용은 함께 비교해야 한다. 기존 은행의 신용·상계·연장 운영시간도 진화하는 경쟁 기준선이다.",
+    "source_ids": [
+      "NOV-M07",
+      "NU-M-003"
+    ],
+    "topic_ids": [
+      "T-SETTLEMENT",
+      "T-FUNDING"
+    ],
+    "limitations": [
+      "분석자의 미래 적용이며 특정 그룹의 순편익 수치 미확인."
+    ],
+    "run": "2026-11-07-market-update",
+    "as_of": "2026-11-07",
+    "research_group": "RESEARCH"
+  },
+  {
+    "id": "C-447",
+    "kind": "institution_statement",
+    "status": "active",
+    "text": "UOB의 10월 보고서는 8개 업체 서면응답으로 한정 위임과 반복 기업업무의 도입 경로를 논의한다. 정보기준은 10월14일이며 일부 투자관계·자기보고 한계를 명시한다.",
+    "source_ids": [
+      "NU-M-004"
+    ],
+    "topic_ids": [
+      "T-AGENT-FINANCE"
+    ],
+    "limitations": [
+      "보고서 발행일은 미확인. 대표 수요조사나 2027 보급률 실증 아님."
+    ],
+    "run": "2026-11-07-market-update",
+    "as_of": "2026-11-07",
+    "research_group": "RESEARCH"
+  },
+  {
+    "id": "C-448",
+    "kind": "institution_statement",
+    "status": "active",
+    "text": "Lloyds는 직원 책임 아래 다중 AI 에이전트를 실제 사기 대응 사례에 사용한다고 발표했다. Broadridge는 규제승인 후 NYSE 토큰 플랫폼에 권리·명의개서 서비스를 연결할 계획이다.",
+    "source_ids": [
+      "NU-M-005",
+      "NU-M-006"
+    ],
+    "topic_ids": [
+      "T-AGENT-FINANCE",
+      "T-RIGHTS"
+    ],
+    "limitations": [
+      "실제 적용 자기보고와 미래 계획의 단계가 다르다. 같은 사업의 실적처럼 합산하지 않음."
+    ],
+    "run": "2026-11-07-market-update",
+    "as_of": "2026-11-07",
+    "research_group": "RESEARCH"
+  },
+  {
+    "id": "C-449",
+    "kind": "interpretation",
+    "status": "active",
+    "text": "고객 에이전트가 표준상품을 더 잘 비교하면 검색·단순 조합 보수는 압박받을 수 있다. 반면 목적별 권리·현금기한·위임·정정 책임을 맡는 계약과 차별적 원권리 발굴은 남는 수익 후보다.",
+    "source_ids": [
+      "NU-M-004",
+      "NU-M-005",
+      "NU-M-001",
+      "NU-M-007"
+    ],
+    "topic_ids": [
+      "T-AGENT-FINANCE",
+      "T-INSTITUTION-ROLES"
+    ],
+    "limitations": [
+      "책임의 존재가 가격 결정력이나 이익을 보장하지 않는다. 경쟁의 같은 기능 무료 제공도 포함."
+    ],
+    "run": "2026-11-07-market-update",
+    "as_of": "2026-11-07",
+    "research_group": "RESEARCH"
+  },
+  {
+    "id": "C-450",
+    "kind": "fact",
+    "status": "active",
+    "text": "11월7일 확인한 OUSG 페이지의 날짜 있는 11월5일 구성표에는 SWEEP·BUIDL·BENJI·FYOXX 등이 공존한다. 동일 페이지의 BUIDL 중심 FAQ와 불일치한다.",
+    "source_ids": [
+      "OBX-E-004"
+    ],
+    "topic_ids": [
+      "T-MONEY",
+      "T-RIGHTS"
+    ],
+    "limitations": [
+      "관측된 페이지 스냅샷. 현재 자산 증빙·독립감사·미래 구성 또는 그 기간 순유입으로 확대하지 않음."
+    ],
+    "run": "2026-11-07-market-update",
+    "as_of": "2026-11-07",
+    "research_group": "RESEARCH"
+  },
+  {
+    "id": "C-451",
+    "kind": "interpretation",
+    "status": "active",
+    "text": "OIP의 투자·환매와 Stocks의 USDon/USDC 경로, 교환 재고·승인 및 은행현금 단계는 구분해야 한다. 토큰을 보유·이전할 수 있다는 사실만으로 납입일 현금 가용성을 약속할 수 없다.",
+    "source_ids": [
+      "OBX-P-006",
+      "OBX-E-014",
+      "OBX-P-007"
+    ],
+    "topic_ids": [
+      "T-MONEY",
+      "T-SETTLEMENT"
+    ],
+    "limitations": [
+      "현재 상품 문서 기반의 해석. 2027년 더 나은 구조의 가능성은 열어두고 해당 계약으로 다시 검증."
+    ],
+    "run": "2026-11-07-market-update",
+    "as_of": "2026-11-07",
+    "research_group": "RESEARCH"
+  },
+  {
+    "id": "C-452",
+    "kind": "interpretation",
+    "status": "active",
+    "text": "BlackRock 모델 제공, 기초펀드 운용, Ondo 포트폴리오 구현은 다른 역할이다. 복수 제조사 구성과 한시 보수면제는 고객접점과 운용자산 잔액이 독점 수입을 보장하지 않는다는 비교 근거다.",
+    "source_ids": [
+      "OBX-E-020",
+      "OBX-P-005",
+      "OBX-E-004"
+    ],
+    "topic_ids": [
+      "T-INSTITUTION-ROLES",
+      "T-MARKET"
+    ],
+    "limitations": [
+      "모델 라이선스료·보수배분·회사 순이익을 확인하지 않았으며 보수면제를 장기 수익모델 부재로 단정하지 않음."
+    ],
+    "run": "2026-11-07-market-update",
+    "as_of": "2026-11-07",
+    "research_group": "RESEARCH"
+  },
+  {
+    "id": "C-453",
+    "kind": "hypothesis",
+    "status": "active",
+    "text": "필요한 법적 권리·위임·레일이 갖춰진 2027년 이후에는 기존 최소규모와 관리비 때문에 성립하지 않던 작은 반복 금융계약이 늘 수 있다. 수익은 토큰 수보다 차별적 위험 인수·원권리·목적별 실행 책임과 고객이 얻는 순편익에서 찾아야 한다.",
+    "source_ids": [
+      "NOV-M07",
+      "NU-M-004",
+      "NU-M-006",
+      "OBX-E-020"
+    ],
+    "topic_ids": [
+      "T-AGENT-FINANCE",
+      "T-MARKET"
+    ],
+    "limitations": [
+      "2027 조건부 전망이며 유료 계약·소득·신용·경쟁우위는 가정에 넣지 않음."
+    ],
+    "alternative": "대형 금융사가 AI·상계·기존 고객을 묶어 범위를 흡수하며 별도 중개료를 무료화한다.",
+    "next_observation": "과거 비거래 이유, 동일 책임 경쟁 견적, 외부 고객 반복 계약, 추가 조달·손실·운영·획득비 후 기여를 확인한다.",
+    "run": "2026-11-07-market-update",
+    "as_of": "2026-11-07",
+    "research_group": "RESEARCH"
+  },
+  {
+    "id": "C-454",
+    "kind": "institution_statement",
+    "status": "active",
+    "text": "FSC는 판매기업 소구권·만기·환급·하위 협력기업 접근의 변경을 예고한다. 은행의 현재 대출 수익 방식과 구매기업 위험 평가를 함께 바꿀 수 있는 제도 신호다.",
+    "source_ids": [
+      "NU-B-001"
+    ],
+    "topic_ids": [
+      "T-COMPANIES",
+      "T-FUNDING",
+      "T-INSTITUTION-ROLES"
+    ],
+    "limitations": [
+      "연구자 해석의 인과효과·유료 수요·손익은 미검증. 공식 계획과 현재 운영 구분."
+    ],
+    "run": "2026-11-07-market-update",
+    "as_of": "2026-11-07",
+    "research_group": "BNK"
+  },
+  {
+    "id": "C-455",
+    "kind": "interpretation",
+    "status": "active",
+    "text": "같은 거래량이면 지급·대출 기간 단축은 판매기업의 이자 부담과 은행의 평균 대출 잔액을 낮춘다. 새 접근 고객·회전율 확대가 이를 상쇄할지는 별도다. 소구권 제한은 위험을 없애지 않고 구매기업 신용·분쟁·보증·회수 구조의 중요성을 키운다.",
+    "source_ids": [
+      "NU-B-001"
+    ],
+    "topic_ids": [
+      "T-COMPANIES",
+      "T-FUNDING",
+      "T-INSTITUTION-ROLES"
+    ],
+    "limitations": [
+      "연구자 해석의 인과효과·유료 수요·손익은 미검증. 공식 계획과 현재 운영 구분."
+    ],
+    "run": "2026-11-07-market-update",
+    "as_of": "2026-11-07",
+    "research_group": "BNK"
+  },
+  {
+    "id": "C-456",
+    "kind": "interpretation",
+    "status": "active",
+    "text": "납품 전 생산자금까지 시장 탐색을 넓힐 근거는 거래 확인비 하락만이 아니다. 주문 접근권과 구매기업 추천, 실제 보증의 위험분담이 함께 있을 때 신용·담보 제약으로 거절됐던 공급자의 계약 가능성이 달라진다.",
+    "source_ids": [
+      "NU-B-002"
+    ],
+    "topic_ids": [
+      "T-COMPANIES",
+      "T-FUNDING",
+      "T-INSTITUTION-ROLES"
+    ],
+    "limitations": [
+      "연구자 해석의 인과효과·유료 수요·손익은 미검증. 공식 계획과 현재 운영 구분."
+    ],
+    "run": "2026-11-07-market-update",
+    "as_of": "2026-11-07",
+    "research_group": "BNK"
+  },
+  {
+    "id": "C-457",
+    "kind": "institution_statement",
+    "status": "active",
+    "text": "BNK는 기후테크 기존 운전자금 지원 결과를 자기보고하고 신규 시설자금 확대를 발표했다. 이는 그룹의 산업 전환 가설과 연결되는 실제 행위지만 새 프로그램의 성과는 아니다.",
+    "source_ids": [
+      "NU-B-003"
+    ],
+    "topic_ids": [
+      "T-COMPANIES",
+      "T-FUNDING",
+      "T-INSTITUTION-ROLES"
+    ],
+    "limitations": [
+      "연구자 해석의 인과효과·유료 수요·손익은 미검증. 공식 계획과 현재 운영 구분."
+    ],
+    "run": "2026-11-07-market-update",
+    "as_of": "2026-11-07",
+    "research_group": "BNK"
+  },
+  {
+    "id": "C-458",
+    "kind": "interpretation",
+    "status": "active",
+    "text": "토큰화가 진전되면 기존 글로벌 은행도 예금·MMF·기업 유동성을 묶어 대응한다. BNK가 고객 지갑을 보여 주는 데서 그치면 고객관계는 남아도 저비용 예금은 줄고 비싼 확약 한도·지급 실패 대응만 잔류할 수 있다.",
+    "source_ids": [
+      "NU-B-004",
+      "SRC-BOK-HANGANG",
+      "NOV-M08"
+    ],
+    "topic_ids": [
+      "T-COMPANIES",
+      "T-FUNDING",
+      "T-INSTITUTION-ROLES"
+    ],
+    "limitations": [
+      "연구자 해석의 인과효과·유료 수요·손익은 미검증. 공식 계획과 현재 운영 구분."
+    ],
+    "run": "2026-11-07-market-update",
+    "as_of": "2026-11-07",
+    "research_group": "BNK"
+  },
+  {
+    "id": "C-459",
+    "kind": "hypothesis",
+    "status": "active",
+    "text": "신뢰할 수 있는 지역 산업 사건의 확인·갱신·분쟁 처리와 그 정보를 쓰는 신용 약정에 고객이 대가를 내는 구간에서는 BNK가 역할을 유지할 수 있다. 경쟁자가 동등 책임을 더 싸게 제공하면 독자 운영보다 제휴·구매가 우월하며 별도 데이터료가 남는다는 보장은 없다.",
+    "source_ids": [
+      "NU-B-002",
+      "NU-B-003",
+      "NU-B-005"
+    ],
+    "topic_ids": [
+      "T-COMPANIES",
+      "T-FUNDING",
+      "T-INSTITUTION-ROLES"
+    ],
+    "limitations": [
+      "연구자 해석의 인과효과·유료 수요·손익은 미검증. 공식 계획과 현재 운영 구분."
+    ],
+    "alternative": "원청/시중은행/ERP가 동등 정보·책임을 더 싸게 묶어 제공하면 독립 보수와 우위가 사라진다.",
+    "next_observation": "동일 책임의 경쟁 견적, 실제 정보 제공 계약, 고객의 반복 계약과 위험·회수·자본 비용 후 기여.",
+    "run": "2026-11-07-market-update",
+    "as_of": "2026-11-07",
+    "research_group": "BNK"
+  },
+  {
+    "id": "C-460",
+    "kind": "institution_statement",
+    "status": "active",
+    "text": "교보–DCG는 4월8일 아태 RWA 발굴·토큰화·유통 MOU를 발표했다. 이번 재열람은 10~11월 신규 출시의 확인이 아니다.",
+    "source_ids": [
+      "KYO-GEO-004"
+    ],
+    "topic_ids": [
+      "T-COMPANIES",
+      "T-RIGHTS",
+      "T-AGENT-FINANCE"
+    ],
+    "limitations": [
+      "개별 상품·고객·매출·독점권 및 USDC/USDT 직접 계약 미확인."
+    ],
+    "run": "2026-11-07-market-update",
+    "as_of": "2026-11-07",
+    "research_group": "KYOBO"
+  },
+  {
+    "id": "C-461",
+    "kind": "institution_statement",
+    "status": "active",
+    "text": "10월27일 SBI·BlackRock·Startale는 엔화 스테이블코인과 토큰 MMF 연결을 검토하는 MOU를 발표했다.",
+    "source_ids": [
+      "NU-K-001"
+    ],
+    "topic_ids": [
+      "T-COMPANIES",
+      "T-RIGHTS",
+      "T-AGENT-FINANCE"
+    ],
+    "limitations": [
+      "교보 참여, 한국 판매, 상용 레일 운영으로 해석하지 않음."
+    ],
+    "run": "2026-11-07-market-update",
+    "as_of": "2026-11-07",
+    "research_group": "KYOBO"
+  },
+  {
+    "id": "C-462",
+    "kind": "fact",
+    "status": "active",
+    "text": "MY교보의 공개 안내에는 자동이체 변경·보험료 납입 일시중지·계약 변경 기능이 있다. 개별 고객의 적용 조건과 완료 여부는 별도다.",
+    "source_ids": [
+      "NU-K-003"
+    ],
+    "topic_ids": [
+      "T-COMPANIES",
+      "T-RIGHTS",
+      "T-AGENT-FINANCE"
+    ],
+    "limitations": [
+      "발행일 없는 페이지를 11/7 확인. 모든 고객의 무료·당월 적용이나 AI 권한을 뜻하지 않음."
+    ],
+    "run": "2026-11-07-market-update",
+    "as_of": "2026-11-07",
+    "research_group": "KYOBO"
+  },
+  {
+    "id": "C-463",
+    "kind": "fact",
+    "status": "active",
+    "text": "금융위는 9월23일 메리츠의 4조원 종투사 지정과 단기금융업 인가를 발표했다. 교보의 11월7일 현재 권한은 이번 자료로 확정하지 못했다.",
+    "source_ids": [
+      "NU-K-002"
+    ],
+    "topic_ids": [
+      "T-COMPANIES",
+      "T-RIGHTS",
+      "T-AGENT-FINANCE"
+    ],
+    "limitations": [
+      "과거 표의 부재를 현재 미지정의 증거로 사용하지 않음. 자기자본 증가와 개별 인가 구분."
+    ],
+    "run": "2026-11-07-market-update",
+    "as_of": "2026-11-07",
+    "research_group": "KYOBO"
+  },
+  {
+    "id": "C-464",
+    "kind": "interpretation",
+    "status": "active",
+    "text": "교보의 보험료 기일 관리에는 이미 있는 약관상 선택을 적절히 완료하는 가치가 있다. 기존 보험료를 새 AI 매출로 잡거나 소득 부족을 날짜 변경·추가 차입으로 해결했다고 보면 안 된다.",
+    "source_ids": [
+      "NU-K-003"
+    ],
+    "topic_ids": [
+      "T-COMPANIES",
+      "T-RIGHTS",
+      "T-AGENT-FINANCE"
+    ],
+    "limitations": [
+      "기존 계약관리 개선. 실제 비용 회피·적정 유지 효과와 유료 신규 수요는 별도 검증."
+    ],
+    "run": "2026-11-07-market-update",
+    "as_of": "2026-11-07",
+    "research_group": "KYOBO"
+  },
+  {
+    "id": "C-465",
+    "kind": "hypothesis",
+    "status": "active",
+    "text": "교보는 고객 지급목적에 맞춘 기존상품 실행과 차별적 권리 발굴을 별도 검증해야 한다. 비정형 권리의 반복 발행·수금·회수에서 외부 고객이 비용 후 편익을 얻을 때 신규 계약이 가능할 수 있다.",
+    "source_ids": [
+      "KYO-GEO-004",
+      "NU-K-001",
+      "NU-K-003",
+      "NU-M-005"
+    ],
+    "topic_ids": [
+      "T-COMPANIES",
+      "T-RIGHTS",
+      "T-AGENT-FINANCE"
+    ],
+    "limitations": [
+      "고객·문고 권리·생명 자금과 감독 권한은 자동 공유하지 않음. 미래 개별 인가와 위임을 가정한 연구자 제안."
+    ],
+    "alternative": "대형 증권사/공용 권리 인프라가 같은 책임으로 더 싸게 제공해 범용 조합·발행료를 압박한다.",
+    "next_observation": "외부 발행인과 투자자의 동등 책임 견적, 권리·수금 검증, 반복 계약, 기존 금융과 비교한 총비용 후 기여.",
+    "run": "2026-11-07-market-update",
+    "as_of": "2026-11-07",
+    "research_group": "KYOBO"
+  },
+  {
+    "id": "C-466",
+    "kind": "institution_statement",
+    "text": "IAIS는 AI 접근비용 감소 가능성과 보험 위험·공정성·복구 책임을 함께 설명하며 보장공백의 원인이 국가별로 다르다고 본다.",
+    "status": "active",
+    "source_ids": [
+      "NU-H-001"
+    ],
+    "topic_ids": [
+      "T-COMPANIES",
+      "T-MONEY",
+      "T-AI",
+      "T-GEOGRAPHY"
+    ],
+    "limitations": [
+      "분석·가설은 실적이나 회사 확정전략이 아니다. 각 출처의 시점·기관 견해·개별 법인 범위 유지."
+    ],
+    "run": "2026-11-07-market-update",
+    "as_of": "2026-11-07",
+    "research_group": "HANWHA"
+  },
+  {
+    "id": "C-467",
+    "kind": "fact",
+    "text": "ETC와 ADX는 2026-11-02 KDEF·KMCA ADX 거래개시를 발표했다. ETC adviser, Foreside distributor 및 별도 시장조성/법률 역할이 확인된다.",
+    "status": "active",
+    "source_ids": [
+      "NU-H-003",
+      "HWX-A-004"
+    ],
+    "topic_ids": [
+      "T-COMPANIES",
+      "T-MONEY",
+      "T-AI",
+      "T-GEOGRAPHY"
+    ],
+    "limitations": [
+      "분석·가설은 실적이나 회사 확정전략이 아니다. 각 출처의 시점·기관 견해·개별 법인 범위 유지."
+    ],
+    "run": "2026-11-07-market-update",
+    "as_of": "2026-11-07",
+    "research_group": "HANWHA"
+  },
+  {
+    "id": "C-468",
+    "kind": "institution_statement",
+    "text": "KSSK 11월3일 발표는 통화 안정과 지급/거시건전성 지원을 구분하고 QRIS 소액 MDR0, RPIM 협업, 7개국 LCT를 설명한다.",
+    "status": "active",
+    "source_ids": [
+      "NU-H-004"
+    ],
+    "topic_ids": [
+      "T-COMPANIES",
+      "T-MONEY",
+      "T-AI",
+      "T-GEOGRAPHY"
+    ],
+    "limitations": [
+      "분석·가설은 실적이나 회사 확정전략이 아니다. 각 출처의 시점·기관 견해·개별 법인 범위 유지."
+    ],
+    "run": "2026-11-07-market-update",
+    "as_of": "2026-11-07",
+    "research_group": "HANWHA"
+  },
+  {
+    "id": "C-469",
+    "kind": "interpretation",
+    "text": "접근·데이터·담보 연결은 외부 고객의 계약·지급기한과 비용 후 기여를 갖출 때 사업이고, ETF 거래량·토큰 수량·AI 사용률만으로 새 시장/순이익을 입증하지 못한다.",
+    "status": "active",
+    "source_ids": [
+      "NU-H-002",
+      "NU-H-003",
+      "HWX-A-004",
+      "ST-HW-002"
+    ],
+    "topic_ids": [
+      "T-COMPANIES",
+      "T-MONEY",
+      "T-AI",
+      "T-GEOGRAPHY"
+    ],
+    "limitations": [
+      "분석·가설은 실적이나 회사 확정전략이 아니다. 각 출처의 시점·기관 견해·개별 법인 범위 유지."
+    ],
+    "run": "2026-11-07-market-update",
+    "as_of": "2026-11-07",
+    "research_group": "HANWHA"
+  },
+  {
+    "id": "C-470",
+    "kind": "hypothesis",
+    "text": "국내 보험·다보험사 GA 계약관리 우선은 유지한다. 새 시장은 단순 AI 상담료가 아니라 이직·은퇴·소득충격처럼 기존 정형 판매과정에서 서비스되지 못한 복합 보장/부채 고객 업무로 제한한다. 새 증거가 해당 한국 수요를 실증한 것은 아니다.",
+    "status": "active",
+    "source_ids": [
+      "BMX-HW-001",
+      "R27-H-003",
+      "NU-H-001",
+      "NU-H-002"
+    ],
+    "topic_ids": [
+      "T-COMPANIES",
+      "T-MONEY",
+      "T-AI",
+      "T-GEOGRAPHY"
+    ],
+    "limitations": [
+      "분석·가설은 실적이나 회사 확정전략이 아니다. 각 출처의 시점·기관 견해·개별 법인 범위 유지."
+    ],
+    "alternative": "대형 보험사·GA·비교 플랫폼이 같은 AI와 무료 관리를 제공하면 별도 AI료를 포기하고 유지·적합성·청구 결과의 비용 후 기여로 판단. 더 싼 경쟁 보험으로 이동하면 기존 모집 수입 잠식도 반영.",
+    "next_observation": "기존+AI와 결과가 같거나 더 나쁘고 추가 비용만 들면 온체인 제거. 소비자 이익을 위해 변경은 하되 회사 기여가 음수면 별도 유료 사업 확장을 중단. 다음 확인: 기존 고객의 실제 복합 변경 사례에서 비교 정확도·실행/복구·유지/민원 결과를 기준선과 대조. 해외 옵션과 자본을 공동 사용한다고 가정하지 않음.",
+    "run": "2026-11-07-market-update",
+    "as_of": "2026-11-07",
+    "research_group": "HANWHA"
+  },
+  {
+    "id": "C-471",
+    "kind": "hypothesis",
+    "text": "해외 접근·운영 우선 가설 유지. 이미 존재하던 ADX 상장을 새 발견으로 포장하지 않고, 실제 전문회사 분업을 재확인해 ETF 유통과 별도 담보/거래후 계약 두 층으로 쪼갠다. 대형 통합 플랫폼 선행 구축은 후순위다.",
+    "status": "active",
+    "source_ids": [
+      "NU-H-003",
+      "HWX-A-004",
+      "ST-HW-002",
+      "HWA-GEO-008"
+    ],
+    "topic_ids": [
+      "T-COMPANIES",
+      "T-MONEY",
+      "T-AI",
+      "T-GEOGRAPHY"
+    ],
+    "limitations": [
+      "분석·가설은 실적이나 회사 확정전략이 아니다. 각 출처의 시점·기관 견해·개별 법인 범위 유지."
+    ],
+    "alternative": "BlackRock 등 글로벌 운용사의 저가 대체노출, 대형 수탁/청산사의 내부 상계·무료 보고/토큰 기능, AI 플랫폼의 낮은 유통가격을 반영. 한국 특화 노출만으로 영구 차별화하지 않음.",
+    "next_observation": "현지 거래가 기존 보유 장소의 이동이면 새 시장으로 계수하지 않고 실제 증분 유통·집행·운용 보수와 비용을 별도 평가한다. 경쟁 대안 대비 고객 순편익 또는 비용 후 기여가 부족할 때 해당 상품/상장·운영 확장을 중단하거나 제휴로 바꾼다. 다음 확인: 실제 ETF 투자자/기관 고객의 반복 불편과 파트너 계약을 확인. 현지 접근은 검증, 신규 자금과 보수 잔존은 아직 null. 담보 수취자가 비용 후 편익을 지급할 때만 작은 거래후 모듈 시험.",
+    "run": "2026-11-07-market-update",
+    "as_of": "2026-11-07",
+    "research_group": "HANWHA"
+  },
+  {
+    "id": "C-472",
+    "kind": "hypothesis",
+    "text": "작은 사업자 가설을 유지하되 소액 지급 수수료를 새 수익원으로 삼는 경로를 낮춘다. 반복 현금흐름/상환·보험료 지속가능성을 확인한 고객의 계좌·적합 신용·보장 분업을 우선하고, 국경 간 사업자는 기존 LCT 경로를 온체인과 비교한다. QRIS 정책이 Nobu 실적 악화를 입증하는 것은 아니다.",
+    "status": "active",
+    "source_ids": [
+      "NU-H-004",
+      "NU-H-001",
+      "ST-HW-007",
+      "HWX-M-002"
+    ],
+    "topic_ids": [
+      "T-COMPANIES",
+      "T-MONEY",
+      "T-AI",
+      "T-GEOGRAPHY"
+    ],
+    "limitations": [
+      "분석·가설은 실적이나 회사 확정전략이 아니다. 각 출처의 시점·기관 견해·개별 법인 범위 유지."
+    ],
+    "alternative": "대형 은행·QRIS 제공자·전자상거래 플랫폼이 지급·장부·신용평가를 무료 묶음 제공. Nobu는 데이터 독점보다 계약 품질/실제 신용·손실·회수·대응비로 겨룬다.",
+    "next_observation": "납입능력 부족이면 신규 대출·보험을 확대하지 않는다. 지급/기록만 필요한 고객은 저비용 계좌 도구로 유지. 대형사 무료 패키지 이후 비용 후 수익이 없으면 제휴/제공 범위 축소. 다음 확인: 소액결제 유료 앱 단독안은 우선하지 않음. 반복 정산이 있는 작은 사업자와 별도 무역 고객 각각 비거래 원인을 확인하고, 무신용·무보험 강매 기준선을 둔다. Sharia 적합/인가나 모스크 집단 수요를 이번 미확인 기사로 주장하지 않음.",
+    "run": "2026-11-07-market-update",
+    "as_of": "2026-11-07",
+    "research_group": "HANWHA"
   }
 ]

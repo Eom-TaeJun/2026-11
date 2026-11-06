@@ -428,6 +428,26 @@ OIP 강의는 BlackRock 모델과 Ondo 구현/발행을 구분하고, 기초 ETF
 
 다음 관측: 검증 비용이 편익보다 높거나 표준 운영 패키지에 동일 기능이 포함되면 독립 서비스 대신 통합/제휴.
 
+### C-452 · interpretation · active
+
+BlackRock 모델 제공, 기초펀드 운용, Ondo 포트폴리오 구현은 다른 역할이다. 복수 제조사 구성과 한시 보수면제는 고객접점과 운용자산 잔액이 독점 수입을 보장하지 않는다는 비교 근거다.
+
+근거: [OBX-E-020](../sources/cards/OBX-E-020.md), [OBX-P-005](../sources/cards/OBX-P-005.md), [OBX-E-004](../sources/cards/OBX-E-004.md)
+
+한계: - 모델 라이선스료·보수배분·회사 순이익을 확인하지 않았으며 보수면제를 장기 수익모델 부재로 단정하지 않음.
+
+### C-453 · hypothesis · active
+
+필요한 법적 권리·위임·레일이 갖춰진 2027년 이후에는 기존 최소규모와 관리비 때문에 성립하지 않던 작은 반복 금융계약이 늘 수 있다. 수익은 토큰 수보다 차별적 위험 인수·원권리·목적별 실행 책임과 고객이 얻는 순편익에서 찾아야 한다.
+
+근거: [NOV-M07](../sources/cards/NOV-M07.md), [NU-M-004](../sources/cards/NU-M-004.md), [NU-M-006](../sources/cards/NU-M-006.md), [OBX-E-020](../sources/cards/OBX-E-020.md)
+
+한계: - 2027 조건부 전망이며 유료 계약·소득·신용·경쟁우위는 가정에 넣지 않음.
+
+다른 설명: 대형 금융사가 AI·상계·기존 고객을 묶어 범위를 흡수하며 별도 중개료를 무료화한다.
+
+다음 관측: 과거 비거래 이유, 동일 책임 경쟁 견적, 외부 고객 반복 계약, 추가 조달·손실·운영·획득비 후 기여를 확인한다.
+
 ## 관련 원문
 
 - [FIN-002 · What Is Needed for Tokenization to Deliver](../sources/cards/FIN-002.md)
@@ -438,7 +458,7 @@ OIP 강의는 BlackRock 모델과 Ondo 구현/발행을 구분하고, 기초 ETF
 - [KYO-GEO-001 · Kyobo Life Insurance Group and Japan’s SBI Group ink strategic partnership](../sources/cards/KYO-GEO-001.md)
 - [KYO-GEO-002 · Korea’s Climate Tech-Finance — Kyobo Securities | Digital Asset Biz Team](../sources/cards/KYO-GEO-002.md)
 - [KYO-GEO-003 · Token X Announces “NOBLX” – Thailand’s First-Ever Regulated Cross-Border Niche Asset Tokenization, Connecting Europe, Thailand, South Korea, and Singapore](../sources/cards/KYO-GEO-003.md)
-- [KYO-GEO-004 · Digital Capital Group and Kyobo Securities Sign Strategic Technology Partnership to Advance Tokenized Securities in Asia-Pacific](../sources/cards/KYO-GEO-004.md)
+- [KYO-GEO-004 · Digital Capital Group–Kyobo Securities strategic technology partnership](../sources/cards/KYO-GEO-004.md)
 - [KYO-GEO-005 · 교보생명, 리플과 실시간 거래 ‘토큰화 국채’ 실험 나선다](../sources/cards/KYO-GEO-005.md)
 - [KYO-GEO-006 · (Progress of Disclosed Matter) Notice Regarding Recognition of Share of Profit of Associates Accounted for Using the Equity Method (Bargain Purchase Gain) Associated with the Acquisition of Shares of Kyobo Life Insurance Co., Ltd.](../sources/cards/KYO-GEO-006.md)
 - [KYO-GEO-007 · Announcement of investment in Pints AI a provider of agent-based AI specialized for financial institutions](../sources/cards/KYO-GEO-007.md)
@@ -470,5 +490,8 @@ OIP 강의는 BlackRock 모델과 Ondo 구현/발행을 구분하고, 기초 ETF
 - [OBX-P-007 · Ondo Intelligent Portfolios Market Hours and Trading Availability](../sources/cards/OBX-P-007.md)
 - [OBX-P-008 · Ondo Intelligent Portfolios](../sources/cards/OBX-P-008.md)
 - [R27-K-009 · Linklaters advises on Korea’s first digitally native bond issuance](../sources/cards/R27-K-009.md)
+- [NU-M-005 · Broadridge to Bring OnChain Governance and Digital Transfer Agency to NYSE Tokenized Securities Platform](../sources/cards/NU-M-005.md)
+- [NU-B-004 · Standard Chartered launches Tokenised Deposits in Hong Kong](../sources/cards/NU-B-004.md)
+- [NU-B-005 · Eurosystem report on the public consultation on the Appia Roadmap](../sources/cards/NU-B-005.md)
 
 [전체 주제 지도](INDEX.md)

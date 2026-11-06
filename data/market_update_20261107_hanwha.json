@@ -1,0 +1,558 @@
+{
+  "as_of": "2026-11-07",
+  "scope": "2026-09-01부터2026-11-07 KST까지 공개자료; 2027 이후 조건부 사업 재평가",
+  "opening_frozen_at_utc": "2026-11-06T17:05:49.084548+00:00",
+  "opening_sha256": "25eedb37e1cc1cf3e7b5c0c43d9499f99205237620a16b4315b7a609bae80a48",
+  "opening_method_limit": "기존 공개 기록과 변경자료를 읽은 뒤 초기 검색 색인 후보에 노출된 상태에서 고정. 새 공식 본문 대조 전 초기입장이며 블라인드 사전등록이라고 주장하지 않음.",
+  "source_records": [
+    {
+      "id": "NU-H-001",
+      "title": "Speech: International insurance regulation in a fast-changing world",
+      "url": "[로컬 경로는 비공개 실행 기록에서 관리]",
+      "publisher": "IAIS",
+      "published_at": "2026-10-22",
+      "checked_at": "2026-11-07",
+      "visibility": "public",
+      "read_status": "selected_sections",
+      "read_scope": [
+        "본문 Structural shifts in the life insurance sector, Technology, Protection gaps; 날짜 및 Gerry Cross 연설자 확인. 웹 초기 본문 후 직접 공식 HTML에서 해당 세 절을 재확인."
+      ],
+      "summary": "IAIS 사무총장은 대체자산·자산집약형 재보험의 ALM 기회와 가치평가·유동성·상대방 집중을 함께 설명한다. AI는 접근·인수·청구비를 줄일 수 있으나 공정성·책임·복구가 필요하다. 보장공백 원인이 국가별로 다르고 위험 자체의 축소와 공공·민간 협력이 필요하다고 말한다.",
+      "used_for": [
+        "H1 접근비용과 위험인수 분리",
+        "H2 보험 ALM와 운용상품 유통 분리",
+        "H3 미가입을 유료수요로 바꾸지 않는 조건"
+      ],
+      "limitations": [
+        "감독기구 사무총장 연설·기관 견해이며 한화 고객·성과의 실증이 아니다. 전체 연결 보고서·질문은행·사례 라이브러리는 읽지 않았다. 후속 웹 재접근 일부 timeout; 공식 HTML 직접 조회로 선택 절 재확인."
+      ],
+      "topic_ids": [
+        "T-COMPANIES",
+        "T-MONEY",
+        "T-GEOGRAPHY",
+        "T-AI"
+      ]
+    },
+    {
+      "id": "NU-H-002",
+      "title": "Scaling AI in finance: systemic risks, resilience and European sovereignty",
+      "url": "[로컬 경로는 비공개 실행 기록에서 관리]",
+      "publisher": "EIOPA",
+      "published_at": "2026-09-16",
+      "checked_at": "2026-11-07",
+      "visibility": "public",
+      "read_status": "selected_sections",
+      "read_scope": [
+        "공식 HTML 40–68행: 게시일·2025 설문 분모·AI 위험·의존성 지도·복구·대체 공급자"
+      ],
+      "summary": "EIOPA는 보험 AI 확산의 효율 기회와 사기·사이버·외부 공급자 집중 위험을 함께 설명한다. 2025년 EEA 25개국 보험사 347개 설문 중 65%가 생성형 AI 사용, 23%가 계획했다는 기관 요약이다. 의존성·장애시험·탈출계획·인간 대체능력을 강조한다.",
+      "used_for": [
+        "H1 동일 AI 경쟁과 운영책임",
+        "H2 거래후 예외·복구의 비용"
+      ],
+      "limitations": [
+        "유럽 표본이지 한국·한화·인니 보급률이 아니다. 사용률은 생산성·이익이 아니다. 원설문/PDF 미독; 기사 의견을 새 국내 규칙으로 전용하지 않음."
+      ],
+      "topic_ids": [
+        "T-COMPANIES",
+        "T-MONEY",
+        "T-GEOGRAPHY",
+        "T-AI"
+      ]
+    },
+    {
+      "id": "NU-H-003",
+      "title": "ADX Introduces the Region’s First Exposure to Korean Funds",
+      "url": "[로컬 경로는 비공개 실행 기록에서 관리]",
+      "publisher": "Abu Dhabi Securities Exchange",
+      "published_at": "2026-11-02",
+      "checked_at": "2026-11-07",
+      "visibility": "public",
+      "read_status": "selected_sections",
+      "read_scope": [
+        "2쪽 PDF 텍스트 전체; 특히 p1 상장·현지 거래시간·지수, p2 시장 전체 거래대금. 레이아웃/원시 거래자료 미검증."
+      ],
+      "summary": "ADX는 KDEF·KMCA가 11월 2일 거래를 시작했으며 NYSE Arca와 이중상장이라고 발표했다. 현지 거래시간에 한국 방산·제조업 노출에 접근하는 기능을 설명한다. ADX 1~10월 ETF 전체 거래대금은 두 한화 ETF의 수요나 순유입이 아니다.",
+      "used_for": [
+        "H2 실제 상장과 MOU 구분",
+        "현지 접근·장소 이동·신규 투자 분리"
+      ],
+      "limitations": [
+        "거래소 발표. 실제 체결·AP 설정환매·AUM·보수배분·현지 고객별 순유입은 확인하지 않음. ETC 발표와 같은 상장 사건으로 독립 수요증거 2건으로 세지 않음."
+      ],
+      "topic_ids": [
+        "T-COMPANIES",
+        "T-MONEY",
+        "T-GEOGRAPHY",
+        "T-AI"
+      ]
+    },
+    {
+      "id": "NU-H-004",
+      "title": "KSSK Perkuat Koordinasi Dan Sinergi Kebijakan Untuk Menjaga Fundamental Ekonomi Dan Ketahanan Sistem Keuangan Nasional",
+      "url": "[로컬 경로는 비공개 실행 기록에서 관리]",
+      "publisher": "KSSK / Bank Indonesia",
+      "published_at": "2026-11-03",
+      "checked_at": "2026-11-07",
+      "visibility": "public",
+      "read_status": "selected_sections",
+      "read_scope": [
+        "공식 HTML 170–205행(발표·평가), 216–255행(통화/거시건전성·지급·LCT·은행/보험). 선택 본문 대조."
+      ],
+      "summary": "11월 3일 KSSK 발표는 환율·통화 안정과 거시건전성/지급 지원을 구분한다. RPIM의 UMKM 은행 간 channeling/executing 및 계약 기반 이전, QRIS 10만 IDR 이하 MDR 0%, 한국·UAE 포함 7개국 LCT를 설명한다. 은행 신용/예금 증가율은 산업 전체이며 Nobu 고객 수요나 이익이 아니다.",
+      "used_for": [
+        "H3 소액 지급 유료화 반대증거",
+        "신용 연결·현지통화 거래의 기존 대안",
+        "금리·FX·보험료 부담 스트레스"
+      ],
+      "limitations": [
+        "공식 공동 보도자료의 정책·통계 요약; 세부 규정 원문·Nobu 참여/인가·계약을 검증하지 않음. 미래 정책 효력일과 이미 시행된 사항 구분. 여기의 경기 판단을 독립 실증으로 보지 않음."
+      ],
+      "topic_ids": [
+        "T-COMPANIES",
+        "T-MONEY",
+        "T-GEOGRAPHY",
+        "T-AI"
+      ]
+    }
+  ],
+  "source_updates": [
+    {
+      "id": "HWX-A-004",
+      "title": "Exchange Traded Concepts Takes Client ETFs to the Abu Dhabi Securities Exchange",
+      "url": "[로컬 경로는 비공개 실행 기록에서 관리]",
+      "publisher": "Exchange Traded Concepts",
+      "published_at": "2026-11-02",
+      "checked_at": "2026-11-07",
+      "visibility": "public",
+      "read_status": "selected_sections",
+      "read_scope": [
+        "2026-11-07 재열람: 공식 HTML 0–18·41–54행; 날짜, Hanwha sponsor/ETC adviser, Oceane/Waystone, Foreside distributor, 위험."
+      ],
+      "summary": "ETC는 한화자산운용의 KDEF·KMCA 미국 ETF를 자문하며 ADX 상장에 ADX·시장조성자 Oceane·법률대표 Waystone과 협력했다고 발표했다. Foreside는 distributor다. 실제 기능이 여러 법인에 분산되어 있다.",
+      "used_for": [
+        "H2 제조/자문/유통/운영 수익 귀속"
+      ],
+      "limitations": [
+        "보수배분·한화 순수취·온체인 구현·Velocity 참여·수요/이익은 확인하지 않음. 기존 동일 URL ID 재사용."
+      ],
+      "topic_ids": [
+        "T-COMPANIES",
+        "T-MONEY",
+        "T-GEOGRAPHY",
+        "T-AI"
+      ]
+    },
+    {
+      "id": "ST-HW-002",
+      "title": "Hanwha Investment & Securities and Chainlink Form Strategic Partnership to Tokenize, Connect, and Collateralize Real-World Assets Worldwide",
+      "url": "[로컬 경로는 비공개 실행 기록에서 관리]",
+      "publisher": "Chainlink / Hanwha Investment & Securities",
+      "published_at": "2026-10-29",
+      "checked_at": "2026-11-07",
+      "visibility": "public",
+      "read_status": "selected_sections",
+      "read_scope": [
+        "2026-11-07 재열람: HTML 10–33행; 날짜·채택·구축·논의·작업반. 42–44행 최종갱신 2026-11-03."
+      ],
+      "summary": "한화투자증권은 데이터/NAV·CCIP를 채택해 플랫폼을 구축하고, 운용사·발행자와 상품을 논의하며 담보 평가·사용 기준 작업반을 구성한다고 발표했다. 채택과 구축/논의의 단계를 구분한다.",
+      "used_for": [
+        "H2 담보·거래후 업무의 실행 신호와 남은 계약"
+      ],
+      "limitations": [
+        "발표 당사자 주장이다. 실제 담보 승인·대출·고객·은행현금·수익·각국 인가를 확인하지 않음. 기술 연결이 법적 담보권을 만들지 않음."
+      ],
+      "topic_ids": [
+        "T-COMPANIES",
+        "T-MONEY",
+        "T-GEOGRAPHY",
+        "T-AI"
+      ]
+    }
+  ],
+  "reused_sources": [
+    {
+      "source_id": "BMX-HW-001",
+      "read_status_this_pass": "existing_source_card_and_report_reuse",
+      "scope": "2026 1H 별도 보험/투자 결과·일반계정 자산·GA/CSM. 원래 IR 기간/범위 보존; 현재 3Q 실적 아님."
+    },
+    {
+      "source_id": "R27-H-003",
+      "read_status_this_pass": "existing_source_card_and_report_reuse",
+      "scope": "다보험사 GA 업무·기존 채널; 이번 새 현지 조회 아님."
+    },
+    {
+      "source_id": "HWA-GEO-001",
+      "read_status_this_pass": "existing_source_card_and_report_reuse",
+      "scope": "Life–ADIO와 AM–ADGM 등 MOU 법인 분리; 현행 인가로 전용하지 않음."
+    },
+    {
+      "source_id": "HWA-GEO-008",
+      "read_status_this_pass": "existing_source_card_and_report_reuse",
+      "scope": "2025년 Velocity 인수완료와 당시 지분; 현재 지분 갱신 아님."
+    },
+    {
+      "source_id": "HWX-A-001",
+      "read_status_this_pass": "existing_source_card_and_report_reuse",
+      "scope": "Velocity clearing/custody 기존 범위; 이번 신규 거래/권한 검증 아님."
+    },
+    {
+      "source_id": "HWX-A-006",
+      "read_status_this_pass": "existing_source_card_and_report_reuse",
+      "scope": "KDEF 과거 요약투자설명서의 권리/보수. 이번 최신 요율·계약 재확인 아님."
+    },
+    {
+      "source_id": "HWX-A-008",
+      "read_status_this_pass": "existing_source_card_and_report_reuse",
+      "scope": "KDEF 운용/플랫폼 구조 기존 읽기 범위. 계약비율 미확인 유지."
+    },
+    {
+      "source_id": "ST-HW-007",
+      "read_status_this_pass": "existing_source_card_and_report_reuse",
+      "scope": "Nobu 기존 보험 3상품 등재·은행/보험 책임 구분; 전환율·상품 상세약관 미확인."
+    },
+    {
+      "source_id": "HWX-M-002",
+      "read_status_this_pass": "existing_source_card_and_report_reuse",
+      "scope": "Nobu QRIS 기존 가맹점 기능. 실제 고객 분포·수익 미확인."
+    },
+    {
+      "source_id": "HWX-M-004",
+      "read_status_this_pass": "existing_source_card_and_report_reuse",
+      "scope": "LGI HealthPlus+ Business 기존 상품. 전 국민·모든 위험의 인수권이 아님."
+    }
+  ],
+  "source_count": {
+    "fresh_window_primary_bodies": 6,
+    "new_ids": 4,
+    "existing_ids_reread": 2
+  },
+  "assumptions": [
+    "2027 이후 필요한 개별 인가·권리·고객 위임·레일이 성립한 조건부 세계를 전개한다.",
+    "그 가정은 투자 수요·보험 가입/납입능력·신용·담보 인정·경쟁우위·단일 그룹 통장을 보장하지 않는다.",
+    "고객 AI의 비교·위임 및 개별 상품/관할별 권한이 갖춰졌다고 두어도, 채무·보상책임·자본/ALM·손실·국경 간 데이터 책임·파트너 원가가 사라지지 않는다."
+  ],
+  "hypotheses": [
+    {
+      "id": "NU-H-H1",
+      "opening_text": "보험 AI가 설명·비교·청구를 보편화하면 한화는 국내 보험·다상품 GA의 장기 계약관리에서 기존 기여를 지키고, 복잡한 보장/소득변화를 가진 고객에게 생애주기 서비스 범위를 넓힐 수 있다. 새로운 대가는 AI 호출료보다 적합한 위험 인수·유지·관리비용에 남을 가능성이 크다.",
+      "decision": "maintain_with_execution_refinement",
+      "changed_by": [
+        "NU-H-001",
+        "NU-H-002"
+      ],
+      "closing": "국내 보험·다보험사 GA 계약관리 우선은 유지한다. 새 시장은 단순 AI 상담료가 아니라 이직·은퇴·소득충격처럼 기존 정형 판매과정에서 서비스되지 못한 복합 보장/부채 고객 업무로 제한한다. 새 증거가 해당 한국 수요를 실증한 것은 아니다.",
+      "new_customer_job": "소득이나 가족상태가 바뀐 고객이 여러 회사 보험의 실제 보장·면책·해지손실·청구를 비교하고 필요한 변경만 실행하는 지속 관리",
+      "nontrade_barrier": [
+        "복합계약의 비교·동의·증빙 고정비",
+        "보험료 부담능력·보험 인수 가능성은 별도"
+      ],
+      "payer": "보험자는 인수/보험서비스의 대가, GA는 허용된 판매·유지 계약의 보수. 고객 별도 관리료는 실제 계약과 지불의사 검증 전 null.",
+      "rights_cash_fees": "고객의 보험료는 해당 보험자에, 보험금은 조건을 충족한 수익자에게 지급. GA 보수와 보험자의 보험서비스 결과를 분리. 고객 데이터를 그룹 전체로 자동 이전하지 않는다.",
+      "cost_loss": "AI 검증·설명·보안·민원·복구·설계사 업무·모집/유지 비용과 보험금/해지/역선택 손실. 절감액에서 기존 원가 반영분을 다시 빼지 않음.",
+      "existing_ai_alternative": "기존 보험/GA 시스템+AI로 동일 비교·청구관리 성과를 먼저 측정",
+      "onchain_increment": "다보험자 사이 증빙의 중복 제출·정정 이력을 공동 관리할 실제 계약이 있을 때만 추가. 토큰이나 새 체인은 고객 보장 자체를 만들지 않음.",
+      "competitor_response": "대형 보험사·GA·비교 플랫폼이 같은 AI와 무료 관리를 제공하면 별도 AI료를 포기하고 유지·적합성·청구 결과의 비용 후 기여로 판단. 더 싼 경쟁 보험으로 이동하면 기존 모집 수입 잠식도 반영.",
+      "action": "기존 고객의 실제 복합 변경 사례에서 비교 정확도·실행/복구·유지/민원 결과를 기준선과 대조. 해외 옵션과 자본을 공동 사용한다고 가정하지 않음.",
+      "reversal": "기존+AI와 결과가 같거나 더 나쁘고 추가 비용만 들면 온체인 제거. 소비자 이익을 위해 변경은 하되 회사 기여가 음수면 별도 유료 사업 확장을 중단.",
+      "actual_paid_users": null,
+      "actual_incremental_profit": null
+    },
+    {
+      "id": "NU-H-H2",
+      "opening_text": "한국 특화 ETF/자산을 원하는 UAE 등 적격 투자자와 미국 기관 처리 업무를 연결하면 한화는 투자 접근·유통·운영의 새 외부 계약을 얻을 수 있다. 직접 ETF 유통이 먼저 성립하고 토큰화·담보는 실제 투자자/담보 수취자 계약이 있을 때만 추가하는 방향을 우선한다.",
+      "decision": "maintain_and_split_into_contracts",
+      "changed_by": [
+        "NU-H-003",
+        "HWX-A-004",
+        "ST-HW-002",
+        "NU-H-001"
+      ],
+      "closing": "해외 접근·운영 우선 가설 유지. 이미 존재하던 ADX 상장을 새 발견으로 포장하지 않고, 실제 전문회사 분업을 재확인해 ETF 유통과 별도 담보/거래후 계약 두 층으로 쪼갠다. 대형 통합 플랫폼 선행 구축은 후순위다.",
+      "new_customer_job": "UAE 투자자가 현지 시간에 한국 특화 노출을 사고 관리하는 접근; 별도로 중소 기관이 복수 상품/관할의 잔고·권리·담보 적격성·회수/현금 예외를 관리",
+      "nontrade_barrier": [
+        "외국 시장 계좌/거래시간/운영의 고정비",
+        "담보 수취자가 인정하는 권리·평가·처분과 현금기한의 불일치"
+      ],
+      "payer": "ETF 투자자는 펀드 비용·브로커/FX/스프레드; 한화와 ETC/기타 제공자 배분은 계약 미확인. 별도 운영 계약은 기관 고객 또는 발행/운용사가 대가를 지급할 때만 수익. Velocity 및 한화증권 관여도 개별 계약 조건.",
+      "rights_cash_fees": "ETF 2차 매매는 매수자 현금→매도자이며 자동 신규 설정/AUM 유입이 아니다. 설정/환매는 AP 절차·펀드 계약. 담보 서비스는 소유·처분권·담보 적격성과 haircut/마진/실행 현금을 분리. 토큰 이동은 은행 입금 아님.",
+      "cost_loss": "현지 유통·ETC 플랫폼·시장조성·법률·수탁/청산·FX·컴플라이언스·사고 복구·담보 사전조달과 신용손실. ETF 총보수를 한화 순매출로 계산하지 않음.",
+      "existing_ai_alternative": "기존 ETF+현지 중개·수탁+AI가 접근/관리 업무를 충족하면 그것을 유지",
+      "onchain_increment": "기관 간 동일 상태의 검증·담보 변경/반환이 유료 계약의 시간/예외비용을 줄일 때 추가. 금융기관은 token only가 아닌 현금기한까지 가격을 제시.",
+      "competitor_response": "BlackRock 등 글로벌 운용사의 저가 대체노출, 대형 수탁/청산사의 내부 상계·무료 보고/토큰 기능, AI 플랫폼의 낮은 유통가격을 반영. 한국 특화 노출만으로 영구 차별화하지 않음.",
+      "action": "실제 ETF 투자자/기관 고객의 반복 불편과 파트너 계약을 확인. 현지 접근은 검증, 신규 자금과 보수 잔존은 아직 null. 담보 수취자가 비용 후 편익을 지급할 때만 작은 거래후 모듈 시험.",
+      "reversal": "현지 거래가 기존 보유 장소의 이동이면 새 시장으로 계수하지 않고 실제 증분 유통·집행·운용 보수와 비용을 별도 평가한다. 경쟁 대안 대비 고객 순편익 또는 비용 후 기여가 부족할 때 해당 상품/상장·운영 확장을 중단하거나 제휴로 바꾼다.",
+      "actual_paid_users": null,
+      "actual_incremental_profit": null
+    },
+    {
+      "id": "NU-H-H3",
+      "opening_text": "인도네시아에서는 고용주 보장 외에 작은 사업자의 변동 수입·운전자금·부채와 보장/저축의 부적합 결합을 풀어주는 고객 업무를 탐색한다. Nobu의 계좌·허용 신용/유통과 현지 보험자의 보장/청구를 분업하면 고정비로 성립하지 않던 적합한 서비스가 가능할 수 있다.",
+      "decision": "narrow_paid_job_and_add_local_currency_alternative",
+      "changed_by": [
+        "NU-H-004",
+        "NU-H-001"
+      ],
+      "closing": "작은 사업자 가설을 유지하되 소액 지급 수수료를 새 수익원으로 삼는 경로를 낮춘다. 반복 현금흐름/상환·보험료 지속가능성을 확인한 고객의 계좌·적합 신용·보장 분업을 우선하고, 국경 간 사업자는 기존 LCT 경로를 온체인과 비교한다. QRIS 정책이 Nobu 실적 악화를 입증하는 것은 아니다.",
+      "new_customer_job": "현금 유입이 들쭉날쭉한 소기업이 납품대금·대출·보험료를 감당할 수 있도록 일정을 맞추고, 실제 부족분이 유동성 시차인지 소득/손실인지 구분. 별도 수출입 고객에게 현지통화 지급기한/FX 불일치 관리.",
+      "nontrade_barrier": [
+        "소액 고객의 증빙/검토 고정비",
+        "실제 상환·납입능력 부족",
+        "종교적 계약 선호·설명/신뢰·기존 사회보장과의 중복은 인터뷰/상품 기준 확인 필요"
+      ],
+      "payer": "Nobu: 허용 계좌·신용·FX·유통 계약의 실제 대가. 현지 생명/손보: 각자 인수한 위험의 보험료 및 보험서비스 결과. 운영료를 낼 고객이 없으면 관리 기능은 기존 기여를 지키는 비용으로 분류.",
+      "rights_cash_fees": "IDR 예금은 은행 부채; 대출은 은행 자산/차입자 채무; 보험료는 별도 보험자에 지급되고 보험금은 약관상 수익자에게. 대출보험금이 언제 누구 채무를 줄이는지 별도 약정. 기존 LCT 사용 가능성이 Nobu의 직접 참여·FX 권한을 보장하지 않음.",
+      "cost_loss": "은행 FTP 후 이자/예금 기여, 실제 수수료, expected loss/자본·사기·대사·파트너/지원 비용. 보험금·재보험·모집·유지비는 보험자 별도. 그룹 내부 보수는 같은 연결범위에서만 제거.",
+      "existing_ai_alternative": "Nobu 기존 IDR 계좌/QRIS+동의 기반 AI 분류, 허용 은행 간 channeling/executing, 기존 LCT+AI",
+      "onchain_increment": "분산된 거래당사자의 동일 지급/담보 상태 확인비가 줄고 은행현금 기한까지 충족할 때만. 디지털루피아/USDT/USDC 지급권한이나 사용을 추정하지 않음.",
+      "competitor_response": "대형 은행·QRIS 제공자·전자상거래 플랫폼이 지급·장부·신용평가를 무료 묶음 제공. Nobu는 데이터 독점보다 계약 품질/실제 신용·손실·회수·대응비로 겨룬다.",
+      "action": "소액결제 유료 앱 단독안은 우선하지 않음. 반복 정산이 있는 작은 사업자와 별도 무역 고객 각각 비거래 원인을 확인하고, 무신용·무보험 강매 기준선을 둔다. Sharia 적합/인가나 모스크 집단 수요를 이번 미확인 기사로 주장하지 않음.",
+      "reversal": "납입능력 부족이면 신규 대출·보험을 확대하지 않는다. 지급/기록만 필요한 고객은 저비용 계좌 도구로 유지. 대형사 무료 패키지 이후 비용 후 수익이 없으면 제휴/제공 범위 축소.",
+      "actual_paid_users": null,
+      "actual_incremental_profit": null
+    }
+  ],
+  "claims": [
+    {
+      "id": "NU-H-C-001",
+      "kind": "institution_statement",
+      "text": "IAIS는 AI 접근비용 감소 가능성과 보험 위험·공정성·복구 책임을 함께 설명하며 보장공백의 원인이 국가별로 다르다고 본다.",
+      "status": "active",
+      "source_ids": [
+        "NU-H-001"
+      ],
+      "topic_ids": [
+        "T-COMPANIES",
+        "T-MONEY",
+        "T-AI",
+        "T-GEOGRAPHY"
+      ],
+      "limitations": [
+        "분석·가설은 실적이나 회사 확정전략이 아니다. 각 출처의 시점·기관 견해·개별 법인 범위 유지."
+      ]
+    },
+    {
+      "id": "NU-H-C-002",
+      "kind": "fact",
+      "text": "ETC와 ADX는 2026-11-02 KDEF·KMCA ADX 거래개시를 발표했다. ETC adviser, Foreside distributor 및 별도 시장조성/법률 역할이 확인된다.",
+      "status": "active",
+      "source_ids": [
+        "NU-H-003",
+        "HWX-A-004"
+      ],
+      "topic_ids": [
+        "T-COMPANIES",
+        "T-MONEY",
+        "T-AI",
+        "T-GEOGRAPHY"
+      ],
+      "limitations": [
+        "분석·가설은 실적이나 회사 확정전략이 아니다. 각 출처의 시점·기관 견해·개별 법인 범위 유지."
+      ]
+    },
+    {
+      "id": "NU-H-C-003",
+      "kind": "institution_statement",
+      "text": "KSSK 11월3일 발표는 통화 안정과 지급/거시건전성 지원을 구분하고 QRIS 소액 MDR0, RPIM 협업, 7개국 LCT를 설명한다.",
+      "status": "active",
+      "source_ids": [
+        "NU-H-004"
+      ],
+      "topic_ids": [
+        "T-COMPANIES",
+        "T-MONEY",
+        "T-AI",
+        "T-GEOGRAPHY"
+      ],
+      "limitations": [
+        "분석·가설은 실적이나 회사 확정전략이 아니다. 각 출처의 시점·기관 견해·개별 법인 범위 유지."
+      ]
+    },
+    {
+      "id": "NU-H-C-004",
+      "kind": "interpretation",
+      "text": "접근·데이터·담보 연결은 외부 고객의 계약·지급기한과 비용 후 기여를 갖출 때 사업이고, ETF 거래량·토큰 수량·AI 사용률만으로 새 시장/순이익을 입증하지 못한다.",
+      "status": "active",
+      "source_ids": [
+        "NU-H-002",
+        "NU-H-003",
+        "HWX-A-004",
+        "ST-HW-002"
+      ],
+      "topic_ids": [
+        "T-COMPANIES",
+        "T-MONEY",
+        "T-AI",
+        "T-GEOGRAPHY"
+      ],
+      "limitations": [
+        "분석·가설은 실적이나 회사 확정전략이 아니다. 각 출처의 시점·기관 견해·개별 법인 범위 유지."
+      ]
+    },
+    {
+      "id": "NU-H-C-005",
+      "kind": "hypothesis",
+      "text": "국내 보험·다보험사 GA 계약관리 우선은 유지한다. 새 시장은 단순 AI 상담료가 아니라 이직·은퇴·소득충격처럼 기존 정형 판매과정에서 서비스되지 못한 복합 보장/부채 고객 업무로 제한한다. 새 증거가 해당 한국 수요를 실증한 것은 아니다.",
+      "status": "active",
+      "source_ids": [
+        "BMX-HW-001",
+        "R27-H-003",
+        "NU-H-001",
+        "NU-H-002"
+      ],
+      "topic_ids": [
+        "T-COMPANIES",
+        "T-MONEY",
+        "T-AI",
+        "T-GEOGRAPHY"
+      ],
+      "limitations": [
+        "분석·가설은 실적이나 회사 확정전략이 아니다. 각 출처의 시점·기관 견해·개별 법인 범위 유지."
+      ]
+    },
+    {
+      "id": "NU-H-C-006",
+      "kind": "hypothesis",
+      "text": "해외 접근·운영 우선 가설 유지. 이미 존재하던 ADX 상장을 새 발견으로 포장하지 않고, 실제 전문회사 분업을 재확인해 ETF 유통과 별도 담보/거래후 계약 두 층으로 쪼갠다. 대형 통합 플랫폼 선행 구축은 후순위다.",
+      "status": "active",
+      "source_ids": [
+        "NU-H-003",
+        "HWX-A-004",
+        "ST-HW-002",
+        "HWA-GEO-008"
+      ],
+      "topic_ids": [
+        "T-COMPANIES",
+        "T-MONEY",
+        "T-AI",
+        "T-GEOGRAPHY"
+      ],
+      "limitations": [
+        "분석·가설은 실적이나 회사 확정전략이 아니다. 각 출처의 시점·기관 견해·개별 법인 범위 유지."
+      ]
+    },
+    {
+      "id": "NU-H-C-007",
+      "kind": "hypothesis",
+      "text": "작은 사업자 가설을 유지하되 소액 지급 수수료를 새 수익원으로 삼는 경로를 낮춘다. 반복 현금흐름/상환·보험료 지속가능성을 확인한 고객의 계좌·적합 신용·보장 분업을 우선하고, 국경 간 사업자는 기존 LCT 경로를 온체인과 비교한다. QRIS 정책이 Nobu 실적 악화를 입증하는 것은 아니다.",
+      "status": "active",
+      "source_ids": [
+        "NU-H-004",
+        "NU-H-001",
+        "ST-HW-007",
+        "HWX-M-002"
+      ],
+      "topic_ids": [
+        "T-COMPANIES",
+        "T-MONEY",
+        "T-AI",
+        "T-GEOGRAPHY"
+      ],
+      "limitations": [
+        "분석·가설은 실적이나 회사 확정전략이 아니다. 각 출처의 시점·기관 견해·개별 법인 범위 유지."
+      ]
+    }
+  ],
+  "priorities": [
+    {
+      "rank": 1,
+      "job": "국내 복합 계약관리·인수/청구 책임",
+      "reason": "기존 보험/GA 기반을 활용하되 새 유료수요는 아직 검증 전",
+      "action": "기존+AI 성과/손실/복구를 먼저 검증"
+    },
+    {
+      "rank": 2,
+      "job": "UAE 특화 ETF 접근과 미국 기관 거래후 업무의 개별 계약",
+      "reason": "실제 상장/전문회사 분업이 존재; 반복 수요·한화 잔존보수는 null",
+      "action": "고객/지급자와 파트너 보수 계약 확인 후 유료 반복 업무 한 개"
+    },
+    {
+      "rank": 3,
+      "job": "인니 반복 현금흐름 기반 소기업 계좌·신용·보장/별도 무역 LCT 업무",
+      "reason": "소액 지급 가격 압박과 기존 협업 레일이 있어 무료 지급 기능만으로 차별화 어려움",
+      "action": "소득/납입능력 vs 검토 고정비 원인 분리"
+    }
+  ],
+  "cross_country_pnl_rule": "한국 생명 ALM, AM ETF sponsor, 증권 구조화/플랫폼, 미국 Velocity, Nobu, 현지 보험자는 별도 계약·자본·현금·손익. 같은 그룹이라는 이유로 고객·인가·예금·보험료·수수료·손실을 공유하지 않는다.",
+  "unknowns": [
+    "실제 신규 고객·지급의사·전환율·기존 고객 잠식률",
+    "국가별 한화 파트너의 최신 보수배분·최소보수·고정비·철수비",
+    "현지 기관의 담보 적격성·haircut·대출약정·비상 은행현금 계약",
+    "Nobu 고객별 소득·상환/보험료 납입능력·Sharia 선호와 허용 상품",
+    "보험자의 자본/유동성 제약과 장기 유지·손해율; 90일 시험으로 완결되지 않음"
+  ],
+  "access_limits": [
+    {
+      "url": "[로컬 경로는 비공개 실행 기록에서 관리]",
+      "status": "body_not_verified",
+      "detail": "검색에서 샤리아·모스크 보장 후보 발견. 웹 일부는 navigation만 반환하고 선택 본문 재접근 반복 timeout; 직접 HTTP는 Request Rejected. 정확 게시일·주장 본문 미확인으로 근거/사실 채택하지 않음."
+    },
+    {
+      "url": "[로컬 경로는 비공개 실행 기록에서 관리]",
+      "status": "older_background_body_read_not_new_window_source",
+      "detail": "2026-08-17 발표, 페이지 9/8갱신, 정책10/1효력. 날짜를9월 신자료로 옮기지 않음. 현재 소액 MDR는11/3 KSSK로 근거화."
+    }
+  ],
+  "validation_notes": [
+    "ETC/ADX는 같은 상장 사건; 독립 수요증거로 중복 집계하지 않음.",
+    "유럽 보험 AI 설문을 한화 성과로 전용하지 않음.",
+    "QRIS MDR는 가맹점 부담률이며 Nobu 순수취율/최종 소비자 요금이 아님.",
+    "목표금액·가상배분·추정 ROI 없음; 실제 수익 미확인은 null.",
+    "원본 initial은 보존. H1/H2는 종전 방향 유지·실행 세분화이며 극적인 견해 반전으로 포장하지 않음."
+  ],
+  "semantic_condition_tests": [
+    {
+      "id": "T1_fixed_cost_vs_ability",
+      "change": "고정비만 감소",
+      "result_action": "납입·상환능력이 충분하고 소액 계약의 처리 고정비만 문제라면 좁은 고객 시험. 소득/위험 자체가 문제면 보험·신용 증액하지 않고 관리/공공보장 연계로 축소.",
+      "attribution": "analyst_counterfactual_not_observed_outcome"
+    },
+    {
+      "id": "T2_existing_ai_equivalence",
+      "change": "기존+AI가 같은 성과",
+      "result_action": "고객 업무는 유지하되 별도 온체인 구축/보수는 제거. 해외 ETF는 기존 상장/수탁, 인니는 IDR 계좌/기존 LCT로 수행.",
+      "attribution": "analyst_counterfactual_not_observed_outcome"
+    },
+    {
+      "id": "T3_free_bundle",
+      "change": "대형 경쟁사가 동등 기능 무료 묶음",
+      "result_action": "별도 AI료/조회료를 포기하고 인수·유지·집행/운영 계약의 순기여를 재계산. 양수가 아니면 제휴·범위축소 또는 종료; 접점 점유 자체로 성공 판정하지 않음.",
+      "attribution": "analyst_counterfactual_not_observed_outcome"
+    },
+    {
+      "id": "T4a_cash_deadline_failure",
+      "change": "토큰/기록은 즉시지만 은행현금 기한 실패",
+      "result_action": "24시간 자금 가용성을 판매하지 않음. 담보·상환·보험금 지급시간을 계약대로 제한하거나 유료 사전조달의 전체 비용을 포함. 고객이 지불하지 않으면 해당 야간/즉시 업무 제외.",
+      "attribution": "analyst_counterfactual_not_observed_outcome"
+    },
+    {
+      "id": "T4b_incumbent_internal_cost_drop",
+      "change": "대형사의 내부 상계/자동화 비용도 감소",
+      "result_action": "한화의 외부 연결 절감만 비교하지 않음. 대형사 총가격이 더 낮으면 독립 풀스택 대신 한국 특화 접근/현지 설명/예외회수 중 실제 유료 계약만 남김. 보험/신용 위험 자체의 경제성이 없으면 철수.",
+      "attribution": "analyst_counterfactual_not_observed_outcome"
+    }
+  ],
+  "market_classification": [
+    {
+      "hypothesis_id": "NU-H-H1",
+      "current": "기존 계약관리 개선이 주축",
+      "new_market_condition": "복합 상태 때문에 기존 판매/관리에서 서비스되지 못한 고객이 실제 유료 계약 또는 비용 후 기여를 형성할 때만 새 시장"
+    },
+    {
+      "hypothesis_id": "NU-H-H2",
+      "current": "실제 ETF 상장은 존재; 신규 외부 자금/고객 여부 미확인",
+      "new_market_condition": "기존 장소 이동과 구별되는 신규 적격 투자 또는 이전에 구매하지 않던 기관 운영계약의 반복 대가"
+    },
+    {
+      "hypothesis_id": "NU-H-H3",
+      "current": "계좌·QRIS·방카는 기존 업무",
+      "new_market_condition": "처리 고정비 때문에 배제됐지만 상환/납입능력이 있는 고객의 적합 계약. 부실 차입/미납 고객을 단순 편입한 것은 성공 아님"
+    }
+  ],
+  "novelty_scope": {
+    "H1": "보고서44 국내 계약관리 가설 유지, IAIS/EIOPA 새 선택 근거로 책임/대체 공급자 조건 구체화",
+    "H2": "보고서44§6 기관 접근/현금 업무의 구체화. ETC/Chainlink는 기존 source 재열람이고 ADX 새 URL도 같은 상장 사건. 새로운 고객/수익 발견 아님.",
+    "H3": "보고서47 고용주 사례와 비교한 소기업/무역 고객 범위 확장. 초기에는 지급 수수료 단독안을 지지하지 않았으므로 해당 대안 배제는 새 비교 분기이며 입장 반전이 아님.",
+    "new_primary_boundary": "BI/KSSK11/3의 구체 정책/기존 레일은 이번 연구에서 신규 선택 확인. 보도자료의 정책 및 산업 전체 관측을 Nobu 개별 실적으로 바꾸지 않음."
+  }
+}

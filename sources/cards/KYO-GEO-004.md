@@ -1,23 +1,25 @@
-# KYO-GEO-004 · Digital Capital Group and Kyobo Securities Sign Strategic Technology Partnership to Advance Tokenized Securities in Asia-Pacific
+# KYO-GEO-004 · Digital Capital Group–Kyobo Securities strategic technology partnership
 
 [원문](https://www.dcg.earth/newsroom/digital-capital-group-and-kyobo-securities-sign-strategic-technology-partnership-to-advance-tokenized-securities-in-asia-pacific) · Digital Capital Group
 
-발행일: 2026-04-08 · 확인일: 2026-11-06
+발행일: 2026-04-08 · 확인일: 2026-11-07
 
-읽기 상태: **full_text**
+읽기 상태: **selected_sections**
 
 읽은 위치: - 발표 본문·교보/파트너 소개. 하단 홍콩·아부다비 법인 안내는 확인일 기준 홈페이지 표시로 별도 구분.
 - 기사 본문 19~36행: MOU·역할·목표자산; 하단 법인 소개는 참고만, 감독원장 재검증은 아님
+- 공식 웹 본문 19~36행, 법인 안내 83행 참고. 기관용 RWA 발굴·토큰화·유통 MOU와 역할.
 
 ## 자료의 핵심 내용
 
-DCG와 교보증권이 아태 지역 기관용 RWA의 발굴·토큰화·유통 기술을 공동 개발하는 MOU를 발표했다. 한국 디지털자산의 해외 유통 및 해외 디지털자산의 한국 유통은 제휴가 지향하는 목표로 설명한다.
+아태 기관용 RWA의 발굴·토큰화·유통을 공동 개발하는 MOU. 해외 자산 접근과 한국·해외 양방향 유통이 목표다.
 
 ## 이번 연구에 활용한 내용
 
 - 교보증권의 직접 해외 파트너 MOU
 - 홍콩 파트너 연결과 사업 지향 범위 구분
 - 증권의 발굴·발행·유통 역할과 첫 외부 반복 위임계약의 검증 질문.
+- 교보 기존 방향과 최근 경쟁·무료 대안·현행 권한의 범위 검증
 
 ## 해석의 한계
 
@@ -26,6 +28,9 @@ DCG와 교보증권이 아태 지역 기관용 RWA의 발굴·토큰화·유통 
 - 파트너 홈페이지의 인가 표시는 감독기관 레지스터로 독립 대조하지 않았다.
 - 아태라는 지역을 특정 국가 사업 개시로 풀어 쓰지 않는다.
 - Digital Currency Group이 아님. 발행완료·유료 고객·독점 접근·수익·특정 스테이블코인 경로는 입증하지 않는다.
+- 4월 발표의 재확인이다. 10~11월 신규 계약 또는 출시로 세지 않는다.
+- 발행, 유료 고객, 독점 권리, 수익 또는 특정 스테이블코인 경로를 확인하지 못했다.
+- 파트너 법인 소개를 교보의 해외 인가로 옮기지 않는다. 감독기관 원장 독립 대조는 안 했다.
 
 ## 연결된 주장
 
@@ -36,5 +41,7 @@ DCG와 교보증권이 아태 지역 기관용 RWA의 발굴·토큰화·유통 
 - **C-219 / institution_statement / active**: 교보생명의 Ripple 국채 프로젝트는2026년4월 공식 발표상 테스트넷 기술 검증이며, NOBLX에서 생명·증권은 발표상 전략적 기관투자자다. DCG제휴는 MOU, SBI연결은 펀드와 피투자사 투자 발표로 확인된다.
 - **C-228 / unknown / active**: 선택한 교보 공식 행사·제휴 자료와 기존 공개 분석에서 교보증권의 직접 Circle Mint·USDT 발행자/유통사 계약, 고객 입출금·가격·수익을 확인하지 못했다.
 - **C-428 / hypothesis / active**: 교보의 비정형 RWA 표준화는 작은 발행인의 접근을 넓히면서 검증 정보의 독점 보수를 낮출 수 있다. 실제 수금 통제·회수·반복 관리와 특정 투자자 수요가 남는 구간에 투자하고 동일 품질의 대체 공급이 생기면 범용 구축을 축소한다.
+- **C-460 / institution_statement / active**: 교보–DCG는 4월8일 아태 RWA 발굴·토큰화·유통 MOU를 발표했다. 이번 재열람은 10~11월 신규 출시의 확인이 아니다.
+- **C-465 / hypothesis / active**: 교보는 고객 지급목적에 맞춘 기존상품 실행과 차별적 권리 발굴을 별도 검증해야 한다. 비정형 권리의 반복 발행·수금·회수에서 외부 고객이 비용 후 편익을 얻을 때 신규 계약이 가능할 수 있다.
 
 [전체 자료 목록](../README.md)

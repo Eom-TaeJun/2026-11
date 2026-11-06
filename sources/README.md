@@ -21,7 +21,7 @@
 | [FIN-015 · DTCC Tokenization Service Goes Live, Marking Major Milestone in the Adoption of Digital Assets](cards/FIN-015.md) | 2026-10-28 | full_text | 2026-11-02 |
 | [FIN-016 · Consultation on supervisory expectations for central counterparties seeking to accept tokenised collateral](cards/FIN-016.md) | 2026-10-29 | selected_sections | 2026-11-02 |
 | [SRC-CIRCLE-USDC-TERMS · USDC Terms](cards/SRC-CIRCLE-USDC-TERMS.md) | 2026-10-15 | selected_sections | 2026-11-03 |
-| [SRC-BOK-HANGANG · 프로젝트 한강의 기관용 디지털화폐, 일반인용 CBDC와 어떻게 다를까](cards/SRC-BOK-HANGANG.md) | 2026-10-08 | selected_sections | 2026-11-03 |
+| [SRC-BOK-HANGANG · 프로젝트 한강의 기관용 디지털화폐, 일반인용 CBDC와 어떻게 다를까](cards/SRC-BOK-HANGANG.md) | 2026-10-08 | selected_sections | 2026-11-07 |
 | [SRC-OCC-GENIUS-FINAL · OCC Advances U.S. Digital Asset Leadership with Final Rule to Implement GENIUS Act](cards/SRC-OCC-GENIUS-FINAL.md) | 2026-10-21 | selected_sections | 2026-11-02 |
 | [AI-001 · NousResearch/hermes-agent — README and releases](cards/AI-001.md) | 미확인/동적 | selected_sections | 2026-11-02 |
 | [AI-002 · HKUDS/LightRAG — README and releases](cards/AI-002.md) | 미확인/동적 | selected_sections | 2026-11-02 |
@@ -62,8 +62,8 @@
 | [NOV-M04 · Federal Reserve issues FOMC statement](cards/NOV-M04.md) | 2026-10-28 | full_text | 2026-11-02 |
 | [NOV-M05 · World Economic Outlook, October 2026: Resilience Under Strain, Urgent Choices — Executive Summary](cards/NOV-M05.md) | 2026-10-13 | selected_sections | 2026-11-02 |
 | [NOV-M06 · Global Financial Stability Report, October 2026: Resilience, Risk, and Transformation — Executive Summary](cards/NOV-M06.md) | 2026-10-13 | selected_sections | 2026-11-02 |
-| [NOV-M07 · GFSR October 2026, Chapter 3: Scaling Tokenization: New Efficiencies, New Vulnerabilities](cards/NOV-M07.md) | 2026-10-13 | selected_sections | 2026-11-06 |
-| [NOV-M08 · [제2026-22호] 달러 스테이블코인과 외환시장 간 연계성: 글로벌 거래소의 역할을 중심으로](cards/NOV-M08.md) | 2026-09-03 | official_summary | 2026-11-03 |
+| [NOV-M07 · GFSR October 2026, Chapter 3: Scaling Tokenization: New Efficiencies, New Vulnerabilities](cards/NOV-M07.md) | 2026-10-13 | selected_sections | 2026-11-07 |
+| [NOV-M08 · [제2026-22호] 달러 스테이블코인과 외환시장 간 연계성: 글로벌 거래소의 역할을 중심으로](cards/NOV-M08.md) | 2026-09-03 | official_summary | 2026-11-07 |
 | [NOV-ECB-BONDS · Tokenised bonds: assessing efficiency and liquidity in a nascent market](cards/NOV-ECB-BONDS.md) | 미확인/동적 | selected_sections | 2026-11-02 |
 | [NOV-FATF · Outcomes FATF Plenary, 28–30 October 2026](cards/NOV-FATF.md) | 2026-10-30 | selected_sections | 2026-11-02 |
 | [NOV-ECB-COLLATERAL · ECB paves way for acceptance of DLT-based assets as eligible Eurosystem collateral](cards/NOV-ECB-COLLATERAL.md) | 2026-01-27 | full_text | 2026-11-02 |
@@ -71,7 +71,7 @@
 | [KYO-GEO-001 · Kyobo Life Insurance Group and Japan’s SBI Group ink strategic partnership](cards/KYO-GEO-001.md) | 2024-07-04 | full_text | 2026-11-02 |
 | [KYO-GEO-002 · Korea’s Climate Tech-Finance — Kyobo Securities | Digital Asset Biz Team](cards/KYO-GEO-002.md) | 미확인/동적 | selected_sections | 2026-11-02 |
 | [KYO-GEO-003 · Token X Announces “NOBLX” – Thailand’s First-Ever Regulated Cross-Border Niche Asset Tokenization, Connecting Europe, Thailand, South Korea, and Singapore](cards/KYO-GEO-003.md) | 2025-09-29 | selected_sections | 2026-11-04 |
-| [KYO-GEO-004 · Digital Capital Group and Kyobo Securities Sign Strategic Technology Partnership to Advance Tokenized Securities in Asia-Pacific](cards/KYO-GEO-004.md) | 2026-04-08 | full_text | 2026-11-06 |
+| [KYO-GEO-004 · Digital Capital Group–Kyobo Securities strategic technology partnership](cards/KYO-GEO-004.md) | 2026-04-08 | selected_sections | 2026-11-07 |
 | [KYO-GEO-005 · 교보생명, 리플과 실시간 거래 ‘토큰화 국채’ 실험 나선다](cards/KYO-GEO-005.md) | 2026-04-15 | full_text | 2026-11-06 |
 | [KYO-GEO-006 · (Progress of Disclosed Matter) Notice Regarding Recognition of Share of Profit of Associates Accounted for Using the Equity Method (Bargain Purchase Gain) Associated with the Acquisition of Shares of Kyobo Life Insurance Co., Ltd.](cards/KYO-GEO-006.md) | 2026-04-27 | full_text | 2026-11-02 |
 | [KYO-GEO-007 · Announcement of investment in Pints AI a provider of agent-based AI specialized for financial institutions](cards/KYO-GEO-007.md) | 2026-06-19 | full_text | 2026-11-02 |
@@ -142,7 +142,7 @@
 | [RG-UK-001 · PS26/7: Progressing Fund Tokenisation](cards/RG-UK-001.md) | 미확인/동적 | selected_sections | 2026-11-02 |
 | [RG-UK-002 · CP26/36: Cryptoasset perimeter guidance](cards/RG-UK-002.md) | 2026-10-21 | selected_sections | 2026-11-02 |
 | [ST-HW-001 · 한화투자증권, 글로벌 Web3 기업 ‘크리서스’에 180억 원 규모 투자 완료](cards/ST-HW-001.md) | 2026-02-19 | selected_sections | 2026-11-03 |
-| [ST-HW-002 · Hanwha Investment & Securities and Chainlink Form Strategic Partnership to Tokenize, Connect, and Collateralize Real-World Assets Worldwide](cards/ST-HW-002.md) | 2026-10-29 | selected_sections | 2026-11-06 |
+| [ST-HW-002 · Hanwha Investment & Securities and Chainlink Form Strategic Partnership to Tokenize, Connect, and Collateralize Real-World Assets Worldwide](cards/ST-HW-002.md) | 2026-10-29 | selected_sections | 2026-11-07 |
 | [ST-HW-003 · 한화투자증권, Digital Asset Holdings LLC에 300억 원 규모 투자 완료](cards/ST-HW-003.md) | 2026-07-16 | selected_sections | 2026-11-03 |
 | [ST-HW-004 · 한화투자증권, 모바일 투자 앱 개편… 이제 디지털자산도 ‘한화투자증권 MTS’ 에서](cards/ST-HW-004.md) | 2026-05-27 | full_text | 2026-11-03 |
 | [ST-HW-005 · Hanwha Finance explores future financial innovation with global leaders at the 2026 World Economic Forum Annual Meeting in Davos](cards/ST-HW-005.md) | 2026-01-22 | selected_sections | 2026-11-03 |
@@ -229,7 +229,7 @@
 | [HWX-A-001 · Clearing & Custody](cards/HWX-A-001.md) | 미확인/동적 | selected_sections | 2026-11-04 |
 | [HWX-A-002 · Trading Technology](cards/HWX-A-002.md) | 미확인/동적 | selected_sections | 2026-11-03 |
 | [HWX-A-003 · Circle Internet MEA Ltd — FSRA public register / firm profile](cards/HWX-A-003.md) | 미확인/동적 | selected_sections | 2026-11-03 |
-| [HWX-A-004 · Exchange Traded Concepts Takes Client ETFs to the Abu Dhabi Securities Exchange](cards/HWX-A-004.md) | 2026-11-02 | selected_sections | 2026-11-04 |
+| [HWX-A-004 · Exchange Traded Concepts Takes Client ETFs to the Abu Dhabi Securities Exchange](cards/HWX-A-004.md) | 2026-11-02 | selected_sections | 2026-11-07 |
 | [HWX-A-006 · PLUS Korea Defense Industry Index ETF — Summary Prospectus, March 30, 2026](cards/HWX-A-006.md) | 2026-03-30 | selected_sections | 2026-11-03 |
 | [HWX-A-007 · ADX welcomes listing of two Korean ETFs](cards/HWX-A-007.md) | 2026-11-02 | selected_sections | 2026-11-03 |
 | [HWX-A-008 · Exchange Listed Funds Trust Form N-1A — KDEF Prospectus, Fund Management](cards/HWX-A-008.md) | 2026-03-27 | selected_sections | 2026-11-04 |
@@ -257,15 +257,15 @@
 | [OBX-P-002 · ondo_buidl_mastercard_interactive_slides.html — 공개 강의](cards/OBX-P-002.md) | 미확인/동적 | full_text | 2026-11-04 |
 | [OBX-P-003 · 토큰화 준비금 & BlackRock BUIDL 전략](cards/OBX-P-003.md) | 미확인/동적 | selected_sections | 2026-11-04 |
 | [OBX-P-004 · Introducing Ondo Intelligent Portfolios](cards/OBX-P-004.md) | 2026-09-24 | selected_sections | 2026-11-04 |
-| [OBX-P-005 · Ondo Intelligent Portfolios Fees and Taxes](cards/OBX-P-005.md) | 미확인/동적 | selected_sections | 2026-11-04 |
-| [OBX-P-006 · Ondo Intelligent Portfolios Investing and Redeeming](cards/OBX-P-006.md) | 미확인/동적 | selected_sections | 2026-11-04 |
-| [OBX-P-007 · Ondo Intelligent Portfolios Market Hours and Trading Availability](cards/OBX-P-007.md) | 미확인/동적 | selected_sections | 2026-11-04 |
+| [OBX-P-005 · Ondo Intelligent Portfolios Fees and Taxes](cards/OBX-P-005.md) | 미확인/동적 | selected_sections | 2026-11-07 |
+| [OBX-P-006 · Ondo Intelligent Portfolios Investing and Redeeming](cards/OBX-P-006.md) | 미확인/동적 | selected_sections | 2026-11-07 |
+| [OBX-P-007 · Ondo Intelligent Portfolios Market Hours and Trading Availability](cards/OBX-P-007.md) | 미확인/동적 | selected_sections | 2026-11-07 |
 | [OBX-P-008 · Ondo Intelligent Portfolios](cards/OBX-P-008.md) | 미확인/동적 | selected_sections | 2026-11-04 |
 | [OBX-P-009 · Ondo, Kinexys by J.P. Morgan, Mastercard, and Ripple Complete First Cross-Border, Cross-Bank Redemption of Tokenized U.S. Treasuries](cards/OBX-P-009.md) | 2026-05-06 | full_text | 2026-11-04 |
 | [OBX-E-001 · BlackRock Launches Its First Tokenized Fund, BUIDL, on the Ethereum Network](cards/OBX-E-001.md) | 2024-03-20 | selected_sections | 2026-11-04 |
 | [OBX-E-002 · Tempo expands onchain yield offering with BlackRock’s BUIDL fund](cards/OBX-E-002.md) | 2026-07-30 | selected_sections | 2026-11-04 |
 | [OBX-E-003 · BlackRock BUIDL](cards/OBX-E-003.md) | 미확인/동적 | selected_sections | 2026-11-04 |
-| [OBX-E-004 · OUSG | Tokenized Treasuries for Institutions](cards/OBX-E-004.md) | 미확인/동적 | selected_sections | 2026-11-04 |
+| [OBX-E-004 · OUSG | Tokenized Treasuries for Institutions](cards/OBX-E-004.md) | 미확인/동적 | selected_sections | 2026-11-07 |
 | [OBX-E-005 · OUSG Fees and Taxes](cards/OBX-E-005.md) | 미확인/동적 | selected_sections | 2026-11-04 |
 | [OBX-E-006 · OUSG Instant Limits](cards/OBX-E-006.md) | 미확인/동적 | selected_sections | 2026-11-04 |
 | [OBX-E-007 · OUSG Redeeming](cards/OBX-E-007.md) | 미확인/동적 | selected_sections | 2026-11-04 |
@@ -275,12 +275,12 @@
 | [OBX-E-011 · USDY | Tokenized US Dollar Yield](cards/OBX-E-011.md) | 미확인/동적 | selected_sections | 2026-11-04 |
 | [OBX-E-012 · Ondo Stocks Legal and Regulatory](cards/OBX-E-012.md) | 미확인/동적 | selected_sections | 2026-11-04 |
 | [OBX-E-013 · Ondo Stocks Fees and Taxes](cards/OBX-E-013.md) | 미확인/동적 | selected_sections | 2026-11-04 |
-| [OBX-E-014 · Ondo Stocks Investing and Redeeming](cards/OBX-E-014.md) | 미확인/동적 | selected_sections | 2026-11-04 |
+| [OBX-E-014 · Ondo Stocks Investing and Redeeming](cards/OBX-E-014.md) | 미확인/동적 | selected_sections | 2026-11-07 |
 | [OBX-E-015 · Ondo Stocks Trust and Transparency](cards/OBX-E-015.md) | 미확인/동적 | selected_sections | 2026-11-04 |
 | [OBX-E-016 · Ondo Stocks Eligibility](cards/OBX-E-016.md) | 미확인/동적 | selected_sections | 2026-11-04 |
 | [OBX-E-018 · Intelligent Portfolios Go Live on Solana](cards/OBX-E-018.md) | 2026-10-29 | selected_sections | 2026-11-04 |
 | [OBX-E-019 · Ondo Intelligent Portfolios Overview](cards/OBX-E-019.md) | 미확인/동적 | selected_sections | 2026-11-04 |
-| [OBX-E-020 · Ondo Intelligent Portfolios Model Providers](cards/OBX-E-020.md) | 미확인/동적 | selected_sections | 2026-11-04 |
+| [OBX-E-020 · Ondo Intelligent Portfolios Model Providers](cards/OBX-E-020.md) | 미확인/동적 | selected_sections | 2026-11-07 |
 | [OBX-E-022 · Ondo Intelligent Portfolios Available Assets](cards/OBX-E-022.md) | 미확인/동적 | selected_sections | 2026-11-04 |
 | [OBX-E-024 · Ondo Intelligent Portfolios Eligibility](cards/OBX-E-024.md) | 미확인/동적 | selected_sections | 2026-11-04 |
 | [OBX-E-026 · ONDO Token](cards/OBX-E-026.md) | 미확인/동적 | selected_sections | 2026-11-04 |
@@ -311,3 +311,22 @@
 | [R27-K-009 · Linklaters advises on Korea’s first digitally native bond issuance](cards/R27-K-009.md) | 2026-03-18 | selected_sections | 2026-11-06 |
 | [R27-H-003 · Hanwha Life Financial Services](cards/R27-H-003.md) | 미확인/동적 | selected_sections | 2026-11-06 |
 | [R27-H-006 · BNY and Goldman Sachs Launch Tokenized Money Market Funds Solution](cards/R27-H-006.md) | 2025-07-23 | selected_sections | 2026-11-06 |
+| [NU-M-001 · Sound Practices for Responsible Adoption of AI — final report, official summary](cards/NU-M-001.md) | 2026-10-15 | official_summary | 2026-11-07 |
+| [NU-M-002 · The Digital Frontier: Collateral in a Tokenized World](cards/NU-M-002.md) | 2026-10-13 | selected_sections | 2026-11-07 |
+| [NU-M-003 · The Next US Treasury Market Evolution](cards/NU-M-003.md) | 2026-10-13 | selected_sections | 2026-11-07 |
+| [NU-M-004 · Agentic Finance: Building the foundations for trusted, bounded autonomy](cards/NU-M-004.md) | 미확인/동적 | selected_sections | 2026-11-07 |
+| [NU-M-005 · Broadridge to Bring OnChain Governance and Digital Transfer Agency to NYSE Tokenized Securities Platform](cards/NU-M-005.md) | 2026-11-02 | selected_sections | 2026-11-07 |
+| [NU-M-006 · Lloyds uses agentic AI platform to strengthen customer fraud support](cards/NU-M-006.md) | 2026-10-26 | selected_sections | 2026-11-07 |
+| [NU-M-007 · Protecting people and businesses in an agentic economy — joint statement landing](cards/NU-M-007.md) | 2026-10-30 | official_summary | 2026-11-07 |
+| [NU-B-001 · 생산적 금융의 온기를 지방과 중소기업까지 이어갑니다. - 제6차 생산적 금융 대전환 회의](cards/NU-B-001.md) | 2026-11-02 | selected_sections | 2026-11-07 |
+| [NU-B-002 · 우리은행 발표: 신용보증기금 보증을 결합한 발주단계 공급망금융 사례](cards/NU-B-002.md) | 2026-11-02 | selected_sections | 2026-11-07 |
+| [NU-B-003 · BNK금융그룹, 부산시·기보와 손잡고 기후테크 기업 금융지원 확대](cards/NU-B-003.md) | 2026-11-06 | selected_sections | 2026-11-07 |
+| [NU-B-004 · Standard Chartered launches Tokenised Deposits in Hong Kong](cards/NU-B-004.md) | 2026-11-02 | selected_sections | 2026-11-07 |
+| [NU-B-005 · Eurosystem report on the public consultation on the Appia Roadmap](cards/NU-B-005.md) | 2026-10-28 | selected_sections | 2026-11-07 |
+| [NU-H-001 · Speech: International insurance regulation in a fast-changing world](cards/NU-H-001.md) | 2026-10-22 | selected_sections | 2026-11-07 |
+| [NU-H-002 · Scaling AI in finance: systemic risks, resilience and European sovereignty](cards/NU-H-002.md) | 2026-09-16 | selected_sections | 2026-11-07 |
+| [NU-H-003 · ADX Introduces the Region’s First Exposure to Korean Funds](cards/NU-H-003.md) | 2026-11-02 | selected_sections | 2026-11-07 |
+| [NU-H-004 · KSSK Perkuat Koordinasi Dan Sinergi Kebijakan Untuk Menjaga Fundamental Ekonomi Dan Ketahanan Sistem Keuangan Nasional](cards/NU-H-004.md) | 2026-11-03 | selected_sections | 2026-11-07 |
+| [NU-K-001 · BlackRock, SBI Holdings and Startale MOU: tokenized MMFs and JPYSC](cards/NU-K-001.md) | 2026-10-27 | selected_sections | 2026-11-07 |
+| [NU-K-002 · 메리츠증권 종합금융투자사업자 지정 및 단기금융업 인가](cards/NU-K-002.md) | 2026-09-23 | selected_sections | 2026-11-07 |
+| [NU-K-003 · MY교보 이용안내](cards/NU-K-003.md) | 미확인/동적 | selected_sections | 2026-11-07 |

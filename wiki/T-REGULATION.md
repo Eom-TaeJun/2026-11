@@ -1069,5 +1069,7 @@ BUIDL 강의의 준비금 비중 숫자·유동성 자금 부담자·일반적�
 - [OBX-P-008 · Ondo Intelligent Portfolios](../sources/cards/OBX-P-008.md)
 - [R27-M-001 · GENIUS Act Regulations: Final Rule](../sources/cards/R27-M-001.md)
 - [R27-B-003 · 미래차 전환 부품기업 2026년 4,030억원 금융지원](../sources/cards/R27-B-003.md)
+- [NU-M-007 · Protecting people and businesses in an agentic economy — joint statement landing](../sources/cards/NU-M-007.md)
+- [NU-B-001 · 생산적 금융의 온기를 지방과 중소기업까지 이어갑니다. - 제6차 생산적 금융 대전환 회의](../sources/cards/NU-B-001.md)
 
 [전체 주제 지도](INDEX.md)

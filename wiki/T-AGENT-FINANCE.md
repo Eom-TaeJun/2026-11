@@ -811,8 +811,97 @@ OIP 강의는 BlackRock 모델과 Ondo 구현/발행을 구분하고, 기초 ETF
 
 다음 관측: 미가입/해지 사유, 고용주 예산, 직원 기존 보장, 위험 반영 견적 / 같은 직원집단의 완결 시간·오류·동의/보안 비용 / 동등 보장·면책·위험집단의 경쟁 견적, 청구 경험, 실제 유지 선택 / 사고→서류→승인→은행현금 각각 시간, 실제 수익자 의무 / 파트너 배분·민감정보 통제·고객획득·운영/청구 포함 총원가
 
+### C-447 · institution_statement · active
+
+UOB의 10월 보고서는 8개 업체 서면응답으로 한정 위임과 반복 기업업무의 도입 경로를 논의한다. 정보기준은 10월14일이며 일부 투자관계·자기보고 한계를 명시한다.
+
+근거: [NU-M-004](../sources/cards/NU-M-004.md)
+
+한계: - 보고서 발행일은 미확인. 대표 수요조사나 2027 보급률 실증 아님.
+
+### C-448 · institution_statement · active
+
+Lloyds는 직원 책임 아래 다중 AI 에이전트를 실제 사기 대응 사례에 사용한다고 발표했다. Broadridge는 규제승인 후 NYSE 토큰 플랫폼에 권리·명의개서 서비스를 연결할 계획이다.
+
+근거: [NU-M-005](../sources/cards/NU-M-005.md), [NU-M-006](../sources/cards/NU-M-006.md)
+
+한계: - 실제 적용 자기보고와 미래 계획의 단계가 다르다. 같은 사업의 실적처럼 합산하지 않음.
+
+### C-449 · interpretation · active
+
+고객 에이전트가 표준상품을 더 잘 비교하면 검색·단순 조합 보수는 압박받을 수 있다. 반면 목적별 권리·현금기한·위임·정정 책임을 맡는 계약과 차별적 원권리 발굴은 남는 수익 후보다.
+
+근거: [NU-M-004](../sources/cards/NU-M-004.md), [NU-M-005](../sources/cards/NU-M-005.md), [NU-M-001](../sources/cards/NU-M-001.md), [NU-M-007](../sources/cards/NU-M-007.md)
+
+한계: - 책임의 존재가 가격 결정력이나 이익을 보장하지 않는다. 경쟁의 같은 기능 무료 제공도 포함.
+
+### C-453 · hypothesis · active
+
+필요한 법적 권리·위임·레일이 갖춰진 2027년 이후에는 기존 최소규모와 관리비 때문에 성립하지 않던 작은 반복 금융계약이 늘 수 있다. 수익은 토큰 수보다 차별적 위험 인수·원권리·목적별 실행 책임과 고객이 얻는 순편익에서 찾아야 한다.
+
+근거: [NOV-M07](../sources/cards/NOV-M07.md), [NU-M-004](../sources/cards/NU-M-004.md), [NU-M-006](../sources/cards/NU-M-006.md), [OBX-E-020](../sources/cards/OBX-E-020.md)
+
+한계: - 2027 조건부 전망이며 유료 계약·소득·신용·경쟁우위는 가정에 넣지 않음.
+
+다른 설명: 대형 금융사가 AI·상계·기존 고객을 묶어 범위를 흡수하며 별도 중개료를 무료화한다.
+
+다음 관측: 과거 비거래 이유, 동일 책임 경쟁 견적, 외부 고객 반복 계약, 추가 조달·손실·운영·획득비 후 기여를 확인한다.
+
+### C-460 · institution_statement · active
+
+교보–DCG는 4월8일 아태 RWA 발굴·토큰화·유통 MOU를 발표했다. 이번 재열람은 10~11월 신규 출시의 확인이 아니다.
+
+근거: [KYO-GEO-004](../sources/cards/KYO-GEO-004.md)
+
+한계: - 개별 상품·고객·매출·독점권 및 USDC/USDT 직접 계약 미확인.
+
+### C-461 · institution_statement · active
+
+10월27일 SBI·BlackRock·Startale는 엔화 스테이블코인과 토큰 MMF 연결을 검토하는 MOU를 발표했다.
+
+근거: [NU-K-001](../sources/cards/NU-K-001.md)
+
+한계: - 교보 참여, 한국 판매, 상용 레일 운영으로 해석하지 않음.
+
+### C-462 · fact · active
+
+MY교보의 공개 안내에는 자동이체 변경·보험료 납입 일시중지·계약 변경 기능이 있다. 개별 고객의 적용 조건과 완료 여부는 별도다.
+
+근거: [NU-K-003](../sources/cards/NU-K-003.md)
+
+한계: - 발행일 없는 페이지를 11/7 확인. 모든 고객의 무료·당월 적용이나 AI 권한을 뜻하지 않음.
+
+### C-463 · fact · active
+
+금융위는 9월23일 메리츠의 4조원 종투사 지정과 단기금융업 인가를 발표했다. 교보의 11월7일 현재 권한은 이번 자료로 확정하지 못했다.
+
+근거: [NU-K-002](../sources/cards/NU-K-002.md)
+
+한계: - 과거 표의 부재를 현재 미지정의 증거로 사용하지 않음. 자기자본 증가와 개별 인가 구분.
+
+### C-464 · interpretation · active
+
+교보의 보험료 기일 관리에는 이미 있는 약관상 선택을 적절히 완료하는 가치가 있다. 기존 보험료를 새 AI 매출로 잡거나 소득 부족을 날짜 변경·추가 차입으로 해결했다고 보면 안 된다.
+
+근거: [NU-K-003](../sources/cards/NU-K-003.md)
+
+한계: - 기존 계약관리 개선. 실제 비용 회피·적정 유지 효과와 유료 신규 수요는 별도 검증.
+
+### C-465 · hypothesis · active
+
+교보는 고객 지급목적에 맞춘 기존상품 실행과 차별적 권리 발굴을 별도 검증해야 한다. 비정형 권리의 반복 발행·수금·회수에서 외부 고객이 비용 후 편익을 얻을 때 신규 계약이 가능할 수 있다.
+
+근거: [KYO-GEO-004](../sources/cards/KYO-GEO-004.md), [NU-K-001](../sources/cards/NU-K-001.md), [NU-K-003](../sources/cards/NU-K-003.md), [NU-M-005](../sources/cards/NU-M-005.md)
+
+한계: - 고객·문고 권리·생명 자금과 감독 권한은 자동 공유하지 않음. 미래 개별 인가와 위임을 가정한 연구자 제안.
+
+다른 설명: 대형 증권사/공용 권리 인프라가 같은 책임으로 더 싸게 제공해 범용 조합·발행료를 압박한다.
+
+다음 관측: 외부 발행인과 투자자의 동등 책임 견적, 권리·수금 검증, 반복 계약, 기존 금융과 비교한 총비용 후 기여.
+
 ## 관련 원문
 
+- [KYO-GEO-004 · Digital Capital Group–Kyobo Securities strategic technology partnership](../sources/cards/KYO-GEO-004.md)
 - [ST-HW-004 · 한화투자증권, 모바일 투자 앱 개편… 이제 디지털자산도 ‘한화투자증권 MTS’ 에서](../sources/cards/ST-HW-004.md)
 - [ST-HW-010 · 한화생명, 증여 자산관리 플랫폼 ‘파이’ 출시](../sources/cards/ST-HW-010.md)
 - [ST-HW-014 · Implementation Considerations](../sources/cards/ST-HW-014.md)
@@ -834,5 +923,12 @@ OIP 강의는 BlackRock 모델과 Ondo 구현/발행을 구분하고, 기초 ETF
 - [R27-M-005 · Google donates Agent Payments Protocol to FIDO Alliance](../sources/cards/R27-M-005.md)
 - [R27-H-003 · Hanwha Life Financial Services](../sources/cards/R27-H-003.md)
 - [R27-H-006 · BNY and Goldman Sachs Launch Tokenized Money Market Funds Solution](../sources/cards/R27-H-006.md)
+- [NU-M-001 · Sound Practices for Responsible Adoption of AI — final report, official summary](../sources/cards/NU-M-001.md)
+- [NU-M-004 · Agentic Finance: Building the foundations for trusted, bounded autonomy](../sources/cards/NU-M-004.md)
+- [NU-M-006 · Lloyds uses agentic AI platform to strengthen customer fraud support](../sources/cards/NU-M-006.md)
+- [NU-M-007 · Protecting people and businesses in an agentic economy — joint statement landing](../sources/cards/NU-M-007.md)
+- [NU-K-001 · BlackRock, SBI Holdings and Startale MOU: tokenized MMFs and JPYSC](../sources/cards/NU-K-001.md)
+- [NU-K-002 · 메리츠증권 종합금융투자사업자 지정 및 단기금융업 인가](../sources/cards/NU-K-002.md)
+- [NU-K-003 · MY교보 이용안내](../sources/cards/NU-K-003.md)
 
 [전체 주제 지도](INDEX.md)

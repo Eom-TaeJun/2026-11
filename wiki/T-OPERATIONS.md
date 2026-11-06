@@ -1592,5 +1592,9 @@ Hermes 강의는 증거·시점·재현성을 금융 분석의 최소 계약으�
 - [R27-B-005 · 서울보증보험 보증 승인을 받은 경우에만 이용 가능한가요?](../sources/cards/R27-B-005.md)
 - [R27-K-002 · 교보생명, 라이프플래닛 흡수합병…13년간 쌓은 디지털 역량으로 보험 혁신 가속](../sources/cards/R27-K-002.md)
 - [R27-K-005 · 교보생명, 스테이블코인으로 보험료 납부·보험금 수령 가능성 검증](../sources/cards/R27-K-005.md)
+- [NU-M-001 · Sound Practices for Responsible Adoption of AI — final report, official summary](../sources/cards/NU-M-001.md)
+- [NU-M-004 · Agentic Finance: Building the foundations for trusted, bounded autonomy](../sources/cards/NU-M-004.md)
+- [NU-B-002 · 우리은행 발표: 신용보증기금 보증을 결합한 발주단계 공급망금융 사례](../sources/cards/NU-B-002.md)
+- [NU-B-005 · Eurosystem report on the public consultation on the Appia Roadmap](../sources/cards/NU-B-005.md)
 
 [전체 주제 지도](INDEX.md)

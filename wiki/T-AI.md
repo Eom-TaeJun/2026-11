@@ -220,6 +220,74 @@ Hermes 강의는 증거·시점·재현성을 금융 분석의 최소 계약으�
 
 다음 관측: 공통 오류·근거 손실·재검토가 늘면 역할을 합치거나 범위를 좁힘; 기회 가설의 시장성과는 별도 검증.
 
+### C-466 · institution_statement · active
+
+IAIS는 AI 접근비용 감소 가능성과 보험 위험·공정성·복구 책임을 함께 설명하며 보장공백의 원인이 국가별로 다르다고 본다.
+
+근거: [NU-H-001](../sources/cards/NU-H-001.md)
+
+한계: - 분석·가설은 실적이나 회사 확정전략이 아니다. 각 출처의 시점·기관 견해·개별 법인 범위 유지.
+
+### C-467 · fact · active
+
+ETC와 ADX는 2026-11-02 KDEF·KMCA ADX 거래개시를 발표했다. ETC adviser, Foreside distributor 및 별도 시장조성/법률 역할이 확인된다.
+
+근거: [NU-H-003](../sources/cards/NU-H-003.md), [HWX-A-004](../sources/cards/HWX-A-004.md)
+
+한계: - 분석·가설은 실적이나 회사 확정전략이 아니다. 각 출처의 시점·기관 견해·개별 법인 범위 유지.
+
+### C-468 · institution_statement · active
+
+KSSK 11월3일 발표는 통화 안정과 지급/거시건전성 지원을 구분하고 QRIS 소액 MDR0, RPIM 협업, 7개국 LCT를 설명한다.
+
+근거: [NU-H-004](../sources/cards/NU-H-004.md)
+
+한계: - 분석·가설은 실적이나 회사 확정전략이 아니다. 각 출처의 시점·기관 견해·개별 법인 범위 유지.
+
+### C-469 · interpretation · active
+
+접근·데이터·담보 연결은 외부 고객의 계약·지급기한과 비용 후 기여를 갖출 때 사업이고, ETF 거래량·토큰 수량·AI 사용률만으로 새 시장/순이익을 입증하지 못한다.
+
+근거: [NU-H-002](../sources/cards/NU-H-002.md), [NU-H-003](../sources/cards/NU-H-003.md), [HWX-A-004](../sources/cards/HWX-A-004.md), [ST-HW-002](../sources/cards/ST-HW-002.md)
+
+한계: - 분석·가설은 실적이나 회사 확정전략이 아니다. 각 출처의 시점·기관 견해·개별 법인 범위 유지.
+
+### C-470 · hypothesis · active
+
+국내 보험·다보험사 GA 계약관리 우선은 유지한다. 새 시장은 단순 AI 상담료가 아니라 이직·은퇴·소득충격처럼 기존 정형 판매과정에서 서비스되지 못한 복합 보장/부채 고객 업무로 제한한다. 새 증거가 해당 한국 수요를 실증한 것은 아니다.
+
+근거: [BMX-HW-001](../sources/cards/BMX-HW-001.md), [R27-H-003](../sources/cards/R27-H-003.md), [NU-H-001](../sources/cards/NU-H-001.md), [NU-H-002](../sources/cards/NU-H-002.md)
+
+한계: - 분석·가설은 실적이나 회사 확정전략이 아니다. 각 출처의 시점·기관 견해·개별 법인 범위 유지.
+
+다른 설명: 대형 보험사·GA·비교 플랫폼이 같은 AI와 무료 관리를 제공하면 별도 AI료를 포기하고 유지·적합성·청구 결과의 비용 후 기여로 판단. 더 싼 경쟁 보험으로 이동하면 기존 모집 수입 잠식도 반영.
+
+다음 관측: 기존+AI와 결과가 같거나 더 나쁘고 추가 비용만 들면 온체인 제거. 소비자 이익을 위해 변경은 하되 회사 기여가 음수면 별도 유료 사업 확장을 중단. 다음 확인: 기존 고객의 실제 복합 변경 사례에서 비교 정확도·실행/복구·유지/민원 결과를 기준선과 대조. 해외 옵션과 자본을 공동 사용한다고 가정하지 않음.
+
+### C-471 · hypothesis · active
+
+해외 접근·운영 우선 가설 유지. 이미 존재하던 ADX 상장을 새 발견으로 포장하지 않고, 실제 전문회사 분업을 재확인해 ETF 유통과 별도 담보/거래후 계약 두 층으로 쪼갠다. 대형 통합 플랫폼 선행 구축은 후순위다.
+
+근거: [NU-H-003](../sources/cards/NU-H-003.md), [HWX-A-004](../sources/cards/HWX-A-004.md), [ST-HW-002](../sources/cards/ST-HW-002.md), [HWA-GEO-008](../sources/cards/HWA-GEO-008.md)
+
+한계: - 분석·가설은 실적이나 회사 확정전략이 아니다. 각 출처의 시점·기관 견해·개별 법인 범위 유지.
+
+다른 설명: BlackRock 등 글로벌 운용사의 저가 대체노출, 대형 수탁/청산사의 내부 상계·무료 보고/토큰 기능, AI 플랫폼의 낮은 유통가격을 반영. 한국 특화 노출만으로 영구 차별화하지 않음.
+
+다음 관측: 현지 거래가 기존 보유 장소의 이동이면 새 시장으로 계수하지 않고 실제 증분 유통·집행·운용 보수와 비용을 별도 평가한다. 경쟁 대안 대비 고객 순편익 또는 비용 후 기여가 부족할 때 해당 상품/상장·운영 확장을 중단하거나 제휴로 바꾼다. 다음 확인: 실제 ETF 투자자/기관 고객의 반복 불편과 파트너 계약을 확인. 현지 접근은 검증, 신규 자금과 보수 잔존은 아직 null. 담보 수취자가 비용 후 편익을 지급할 때만 작은 거래후 모듈 시험.
+
+### C-472 · hypothesis · active
+
+작은 사업자 가설을 유지하되 소액 지급 수수료를 새 수익원으로 삼는 경로를 낮춘다. 반복 현금흐름/상환·보험료 지속가능성을 확인한 고객의 계좌·적합 신용·보장 분업을 우선하고, 국경 간 사업자는 기존 LCT 경로를 온체인과 비교한다. QRIS 정책이 Nobu 실적 악화를 입증하는 것은 아니다.
+
+근거: [NU-H-004](../sources/cards/NU-H-004.md), [NU-H-001](../sources/cards/NU-H-001.md), [ST-HW-007](../sources/cards/ST-HW-007.md), [HWX-M-002](../sources/cards/HWX-M-002.md)
+
+한계: - 분석·가설은 실적이나 회사 확정전략이 아니다. 각 출처의 시점·기관 견해·개별 법인 범위 유지.
+
+다른 설명: 대형 은행·QRIS 제공자·전자상거래 플랫폼이 지급·장부·신용평가를 무료 묶음 제공. Nobu는 데이터 독점보다 계약 품질/실제 신용·손실·회수·대응비로 겨룬다.
+
+다음 관측: 납입능력 부족이면 신규 대출·보험을 확대하지 않는다. 지급/기록만 필요한 고객은 저비용 계좌 도구로 유지. 대형사 무료 패키지 이후 비용 후 수익이 없으면 제휴/제공 범위 축소. 다음 확인: 소액결제 유료 앱 단독안은 우선하지 않음. 반복 정산이 있는 작은 사업자와 별도 무역 고객 각각 비거래 원인을 확인하고, 무신용·무보험 강매 기준선을 둔다. Sharia 적합/인가나 모스크 집단 수요를 이번 미확인 기사로 주장하지 않음.
+
 ## 관련 원문
 
 - [AI-001 · NousResearch/hermes-agent — README and releases](../sources/cards/AI-001.md)
@@ -237,6 +305,7 @@ Hermes 강의는 증거·시점·재현성을 금융 분석의 최소 계약으�
 - [PRIOR-002 · STO·AI 연구 보고서 안내](../sources/cards/PRIOR-002.md)
 - [PRIOR-003 · 교보증권 수익전략의 조건부 연구](../sources/cards/PRIOR-003.md)
 - [KYO-GEO-007 · Announcement of investment in Pints AI a provider of agent-based AI specialized for financial institutions](../sources/cards/KYO-GEO-007.md)
+- [ST-HW-002 · Hanwha Investment & Securities and Chainlink Form Strategic Partnership to Tokenize, Connect, and Collateralize Real-World Assets Worldwide](../sources/cards/ST-HW-002.md)
 - [ST-HW-004 · 한화투자증권, 모바일 투자 앱 개편… 이제 디지털자산도 ‘한화투자증권 MTS’ 에서](../sources/cards/ST-HW-004.md)
 - [ST-HW-010 · 한화생명, 증여 자산관리 플랫폼 ‘파이’ 출시](../sources/cards/ST-HW-010.md)
 - [ST-HW-014 · Implementation Considerations](../sources/cards/ST-HW-014.md)
@@ -251,6 +320,7 @@ Hermes 강의는 증거·시점·재현성을 금융 분석의 최소 계약으�
 - [KYX-V-008 · AI Integration and IBKR Autonomous Trading — 현재 공식 안내](../sources/cards/KYX-V-008.md)
 - [KYX-V-009 · AI Trading Supplement — Form 4923](../sources/cards/KYX-V-009.md)
 - [KYX-V-011 · AI Instructions — Client Portal User Guide](../sources/cards/KYX-V-011.md)
+- [HWX-A-004 · Exchange Traded Concepts Takes Client ETFs to the Abu Dhabi Securities Exchange](../sources/cards/HWX-A-004.md)
 - [HWX-V-001 · 개인정보 처리방침 V4.01 — 자동화된 결정·제3자 제공·국외이전](../sources/cards/HWX-V-001.md)
 - [HWX-V-002 · 자회사정보 — 주요 사업과 자산 산정시점](../sources/cards/HWX-V-002.md)
 - [HWX-V-003 · 보험금 청구시 알아두셔야 할 내용](../sources/cards/HWX-V-003.md)
@@ -261,5 +331,11 @@ Hermes 강의는 증거·시점·재현성을 금융 분석의 최소 계약으�
 - [R27-M-004 · Visa, BILL and Billtrust Launch First Live Pilot for Trusted AI Agent Payments Between Buyer and Supplier Platforms](../sources/cards/R27-M-004.md)
 - [R27-M-005 · Google donates Agent Payments Protocol to FIDO Alliance](../sources/cards/R27-M-005.md)
 - [R27-K-002 · 교보생명, 라이프플래닛 흡수합병…13년간 쌓은 디지털 역량으로 보험 혁신 가속](../sources/cards/R27-K-002.md)
+- [NU-M-001 · Sound Practices for Responsible Adoption of AI — final report, official summary](../sources/cards/NU-M-001.md)
+- [NU-M-006 · Lloyds uses agentic AI platform to strengthen customer fraud support](../sources/cards/NU-M-006.md)
+- [NU-H-001 · Speech: International insurance regulation in a fast-changing world](../sources/cards/NU-H-001.md)
+- [NU-H-002 · Scaling AI in finance: systemic risks, resilience and European sovereignty](../sources/cards/NU-H-002.md)
+- [NU-H-003 · ADX Introduces the Region’s First Exposure to Korean Funds](../sources/cards/NU-H-003.md)
+- [NU-H-004 · KSSK Perkuat Koordinasi Dan Sinergi Kebijakan Untuk Menjaga Fundamental Ekonomi Dan Ketahanan Sistem Keuangan Nasional](../sources/cards/NU-H-004.md)
 
 [전체 주제 지도](INDEX.md)
