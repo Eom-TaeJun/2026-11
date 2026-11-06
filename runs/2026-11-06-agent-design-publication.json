@@ -1,0 +1,39 @@
+{
+  "as_of": "2026-11-06",
+  "repository": "Eom-TaeJun/2026-11",
+  "branch": "main",
+  "content_commit": "f2fc13b128b4d39ff700c3333d121ffd253518b8",
+  "content_tree": "85a8367250021f40194fc53020f7f27c98db524a",
+  "content_verification": {
+    "remote_blobs": {
+      "files": 454,
+      "mismatch": 0,
+      "extra": 0
+    },
+    "exact_text_readbacks": 26
+  },
+  "scope": "Verified primary content commit. This receipt and the run status are recorded by a subsequent metadata commit; no self-referential commit hash is asserted.",
+  "financial_ledger": {
+    "sources": 291,
+    "claims": 420,
+    "topics": 14,
+    "changed": false
+  },
+  "design": {
+    "version": "2.1",
+    "logical_roles": 8,
+    "cases": 3,
+    "counterfactuals": 7
+  },
+  "limits": [
+    "Limited semantic sample, not forecast accuracy or measured improvement over the previous design.",
+    "Public HTML readback, not interactive browser testing."
+  ],
+  "public_html": {
+    "status": 200,
+    "title": true,
+    "rendered_body_marker": true,
+    "report_links": true,
+    "method": "HTTP-returned public GitHub HTML; not interactive browser testing"
+  }
+}

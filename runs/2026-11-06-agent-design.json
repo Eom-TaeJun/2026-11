@@ -1,7 +1,7 @@
 {
   "as_of": "2026-11-06",
   "timezone": "Asia/Seoul",
-  "status": "validated_ready_for_publication",
+  "status": "published_and_verified",
   "request": "금융·경제 기본 도메인으로 환경 변화의 의미와 미래 방향을 판단하도록 기존 에이전트 설계 재검토",
   "baseline_head": "8bfd3ceabf91cecb28581d548180fb218023f5fc",
   "baseline_tree": "a7efd56631b46e049929e096487c418e7377e2bf",
@@ -121,9 +121,25 @@
     }
   },
   "publication": {
-    "status": "not_yet_published",
+    "status": "content_published_and_verified",
     "repository": "Eom-TaeJun/2026-11",
-    "branch": "main"
+    "branch": "main",
+    "content_commit": "f2fc13b128b4d39ff700c3333d121ffd253518b8",
+    "content_tree": "85a8367250021f40194fc53020f7f27c98db524a",
+    "remote_blob_verification": {
+      "files": 454,
+      "mismatch": 0,
+      "extra": 0
+    },
+    "exact_text_readbacks": 26,
+    "public_html": {
+      "status": 200,
+      "title": true,
+      "rendered_body_marker": true,
+      "report_links": true,
+      "method": "HTTP-returned public GitHub HTML; not interactive browser testing"
+    },
+    "receipt": "runs/2026-11-06-agent-design-publication.json"
   },
   "not_performed": [
     "상시 에이전트 서버·새 AI 프레임워크 설치",
