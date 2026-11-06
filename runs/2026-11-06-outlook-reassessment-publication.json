@@ -1,0 +1,50 @@
+{
+  "run": "2026-11-06-outlook-reassessment",
+  "verified_at": "2026-11-06T23:51:10.359218+09:00",
+  "content_commit": "9f5431664764bac5a0ce41f8add704facc818228",
+  "content_tree": "8d4b7048b7dc17834c4b7394f4afae75909d8383",
+  "content_blobs_verified": 483,
+  "changed_files": 66,
+  "connector_exact_file_readbacks": 65,
+  "large_history_connector_note": "File metadata/hash returned but complete content was not available for one history file; fetched immutable remote Git objects and verified exact bytes for all 66 changed files.",
+  "remote_git_exact_file_readbacks": 66,
+  "public_display": [
+    {
+      "url": "https://github.com/Eom-TaeJun/2026-11",
+      "status": 200,
+      "title": "GitHub - Eom-TaeJun/2026-11: 보고서 정리부터 내용 요약까지 · GitHub",
+      "markers": {
+        "2027": true,
+        "45_2027_decisions_and_changes": true,
+        "markdown-body": true
+      }
+    },
+    {
+      "url": "https://github.com/Eom-TaeJun/2026-11/blob/main/reports/45_2027_decisions_and_changes.md",
+      "status": 200,
+      "title": "2026-11/reports/45_2027_decisions_and_changes.md at main · Eom-TaeJun/2026-11 · GitHub",
+      "markers": {
+        "2027년 이후 재분석": true,
+        "기존 판단": true,
+        "markdown-body": true
+      }
+    }
+  ],
+  "checks": {
+    "build": "passed",
+    "validate": "passed",
+    "existing_tests": 15,
+    "source_records": 307,
+    "claims": 432,
+    "topics": 14,
+    "original_inputs_unchanged": 70,
+    "private_path_scan": "passed",
+    "independent_review": "complete",
+    "unresolved_review_findings": 0
+  },
+  "limits": [
+    "Selected-source analysis, not comprehensive regulatory or financial-statement refresh.",
+    "Publication integrity and structural tests do not certify forecast accuracy."
+  ],
+  "note": "This receipt is added after the verified content commit. Its own commit and final ref are verified separately to avoid self-referential hashes."
+}

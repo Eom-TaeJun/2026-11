@@ -3,7 +3,7 @@
   "as_of": "2026-11-06",
   "baseline_commit": "d27fa77101eda579989ea723ce01dc6e364a363c",
   "role_version": "2.1",
-  "status": "analysis_reviewed_publication_pending",
+  "status": "published_content_verified",
   "opening_frozen_at": "2026-11-06T23:17:56+09:00",
   "opening_boundary": "Opening worker did not receive or inspect new public web findings before freeze; root gathered evidence in parallel.",
   "actual_workers": [
@@ -117,5 +117,7 @@
     "External repeat contracts and retained recourse/liquidity obligations",
     "Reason previous noncustomer could not transact and first suitable contract",
     "Actual applicable authorization and final usable cash"
-  ]
+  ],
+  "content_commit": "9f5431664764bac5a0ce41f8add704facc818228",
+  "publication_receipt": "runs/2026-11-06-outlook-reassessment-publication.json"
 }
