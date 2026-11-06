@@ -159,5 +159,3 @@ AI가 같은 기초자산을 여러 상품으로 조합해도 자산의 현금�
 확대는 반복 수요·정시 수금·고객 총편익·비용 후 기여·복구 능력으로 판단한다. 권리 입증 실패·무권한 실행·고객자산 혼용은 해당 실행을 멈출 조건이다. 낮은 지불 의사·경쟁 보수 압축·기존+AI 대비 편익 부족은 가격·고객군·온체인 투자 범위를 바꿀 조건이다. [구조화된 사업안](../data/kyobo_strategy_business_plan.json)
 
 ## 2026-11-04 Ondo 원문과 기능별 비교 보완
-
-[교수 원문 계보](27_professor_ondo_lineage.md)와 [BlackRock·Ondo 비교](28_blackrock_ondo_positions.md)를 [환경·경쟁 분석](29_tokenization_competition_group_strategy.md), [세 그룹 실제 사례·대응](30_group_position_responses.md)에 연결했다. 기존 판단의 출처를 소급 변경하지 않고, 새 비교와 후속 관측을 추가한다. 2027년 일괄 개방이나 그룹 전체의 단일 권한·손익을 가정하지 않는다.

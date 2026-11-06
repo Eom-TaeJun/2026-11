@@ -1,6 +1,6 @@
 # 금융환경 변화와 기업 대응을 근거로 이어가는 연구
 
-RWA·토큰화·온체인 금융의 환경 변화를 먼저 분석하고, 고객 문제·금융 기능·기업 신호·필요한 업무로 좁혀가는 공개 연구 저장소다. 최근 선택 원문 재확인·전망 갱신일은 **2026-11-07 KST**다. 국가별 규제 전체 기준선은 **2026-11-02**, 재무는 각 반기·분기 원문의 기간을 유지한다. 모든 실적·관할을11월6일에 전수 갱신한 것은 아니다. 11월6일 전망 재분석에는 설계 v2.1을 사용했다. **11월7일에는 cschung7 공개 강의6개를 선택 재열람해 설계 v2.2와 새 수요 탐색을 보완했다.** 이 날짜를 현행 금융·법률 사실의 전수 갱신일로 쓰지 않는다.
+RWA·토큰화·온체인 금융의 환경 변화를 먼저 분석하고, 고객 문제·금융 기능·기업 신호·필요한 업무로 좁혀가는 공개 연구 저장소다. 최근 선택 원문 재확인·전망 갱신일은 **2026-11-07 KST**다. 국가별 규제 전체 기준선은 **2026-11-02**, 재무는 각 반기·분기 원문의 기간을 유지한다. 모든 실적·관할을11월6일에 전수 갱신한 것은 아니다. 11월6일 전망 재분석에는 설계 v2.1을 사용했다. 이 날짜를 현행 금융·법률 사실의 전수 갱신일로 쓰지 않는다.
 
 현재 주된 읽기 순서는 **본래 금융기관 수익모델 → BNK·교보·한화의 실제 규모·수익·강약점 → AI·온체인이 바꾸는 고객 선택과 기존 수익 → 경쟁사 대응 뒤 우선할 업무·신뢰**다. 숫자는 실제 기반을 확인하는 근거로 쓰고 가상 배분은 보조 사례로 둔다. 기존 제도·레일 분석을 유지하면서, 변화가 새 수익뿐 아니라 가격 하락·조달·신용·유통·유지 비용을 어떻게 바꾸는지 설명한다.
 
@@ -11,8 +11,6 @@ RWA·토큰화·온체인 금융의 환경 변화를 먼저 분석하고, 고객
 | 최신: 18개 자료 검토와 최근 보고서 읽은 범위 | [자료 감사](reports/48_changed_materials_and_recent_sources.md) · [실행](runs/2026-11-07-market-update.md) |
 | 최신: 2027년 이후 시장 구조·새 수요·경쟁 후 수익 | [탑다운](reports/49_2027_market_structure_update.md) · [통합 결정·고객 사례](reports/53_market_opportunities_and_decisions.md) |
 | 최신: 세 그룹 본사 관점의 기회·기존 판단 변화 | [BNK](reports/50_bnk_market_update.md) · [교보](reports/51_kyobo_market_update.md) · [한화](reports/52_hanwha_market_update.md) |
-| cschung7 원문의 방향·경제 원리·조건·판단변경 기준 | [9개 논지와 원문](reports/46_cschung7_reasoning_and_market_discovery.md) · [구조화 지도](data/cschung7_reasoning_map.json) |
-| 새 시장 탐색을 보완한 교수형 에이전트와 세 그룹 적용 | [실제 적용·조건별 변경](reports/47_cschung7_opportunity_application.md) · [역할](agents/professor_reasoner.md) · [실행·검토](runs/2026-11-07-cschung7-opportunity.md) |
 | 재실행·중단 후 재개와 근거→주장→가설→행동 검사 | [사용·복구 절차](docs/REPLAY_AND_LINEAGE.md) · [수정 전후 검증](runs/2026-11-07-maintenance.md) · [연결 명세](data/research_lineage_20261106.json) |
 | 2027년 이후 재분석과 기존 판단의 유지·수정 | [통합 결정과 변경](reports/45_2027_decisions_and_changes.md) · [거시 전달경로](reports/41_2027_economic_reassessment.md) |
 | BNK·교보·한화의 실제 적용 결과 | [BNK](reports/42_bnk_2027_reassessment.md) · [교보](reports/43_kyobo_2027_reassessment.md) · [한화](reports/44_hanwha_2027_reassessment.md) |
@@ -29,8 +27,6 @@ RWA·토큰화·온체인 금융의 환경 변화를 먼저 분석하고, 고객
 | 기업 원금100·수금 지연·자산 매각/차입과 시중은행 대응 | [BNK 고객·현금](reports/32_bnk_agent_customer_cash.md) |
 | 표준상품 이탈·외부상품 관리와 문고 정산채권의 수익 | [교보 고객·자산](reports/33_kyobo_agent_assets_business.md) |
 | 인니 보험·UAE ETF·미국 기관의 돈과 계약별 수입 | [한화 고객·보장·기관](reports/34_hanwha_agent_insurance_global.md) |
-| 교수 Ondo 원문에서 2027년 경쟁과 세 그룹의 선택까지 | [통합 환경 분석](reports/29_tokenization_competition_group_strategy.md) |
-| 교수 OIP 17쪽·Mastercard 강의의 계보와 현재 교정 | [원문 복원](reports/27_professor_ondo_lineage.md) · [원문 계보 원장](data/professor_ondo_lineage.json) |
 | BlackRock·Ondo 상품별 포지션·권리·수익·현금 | [상품 비교](reports/28_blackrock_ondo_positions.md) · [경제성 원장](data/blackrock_ondo_product_economics.json) |
 | BNK·교보·한화 실제 사례에서 고객접점·수익·경쟁으로 | [그룹 대응](reports/30_group_position_responses.md) · [기능·시나리오 맵](data/global_position_group_map.json) |
 | 한화생명 블록체인팀의 고객접점·수익·경쟁·90일 준비 | [한화 그룹 사업안](reports/22_hanwha_group_business_plan.md) |

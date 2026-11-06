@@ -34,6 +34,5 @@
 
 자료의 이론·모형 조건, 실측 관측, 저자의 전망, 이번 연구자의 해석을 나누고 각 자료가 가설을 지지·약화·구분하지 못하는 이유를 전달한다.
 
-교수 공개 원문·사용자 메모·후대 해석을 구분한다. 이론의 이름이나 여러 담당의 동의를 새 실증 근거로 세지 않는다.
 
 [두 단계 의견 절차](economic_opinion_workflow.md) · [도메인 선택](economic_domain_lenses.md) · [논증 카드](templates/economic_opinion.md)

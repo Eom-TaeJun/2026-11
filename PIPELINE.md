@@ -64,7 +64,7 @@ python scripts/ai_stars.py refresh --output snapshots/stars-YYYY-MM-DD.json
 
 ## 9. 탑다운 미래와 기관별 결정을 이어간다
 
-사용자의 지속 목적은 `docs/RESEARCH_MANDATE.md`다. `reports/11`~`15`의 현재 판단과 `data/strategy_decisions_2027.json`의 12개 검토 과제를 먼저 읽는다. 보고서 파일명은 README의 링크를 사용한다. 환경을 갱신한 뒤 경남은행 본사·교보 미래전략·한화생명 신사업의 서로 다른 고객·권리·현금·수익으로 좁힌다.
+연구 범위는 `docs/RESEARCH_MANDATE.md`에 기록한다. `reports/11`~`15`의 현재 판단과 `data/strategy_decisions_2027.json`의 12개 검토 과제를 먼저 읽는다. 보고서 파일명은 README의 링크를 사용한다. 환경을 갱신한 뒤 경남은행 본사·교보 미래전략·한화생명 신사업의 서로 다른 고객·권리·현금·수익으로 좁힌다.
 
 `agents/professor_reasoner.md`의 질문으로 명시적 미래 가정, 고객의 하루, 경쟁자의 가격·제휴·상품 대응을 전개한다. 제도 지연과 제도 이후 경제성 부족을 구분한다. 실제 강의·기관 주장과 연구자의 재구성은 출처 카드에서 분리한다.
 
@@ -121,7 +121,3 @@ POD 공개 안내의 지급일 차이와 IBKR 요율·지원 토큰·출금보�
 ## 2026-11-06 실제 적용의 다음 시작점
 
 [통합 판단45](reports/45_2027_decisions_and_changes.md) → [구조화 갱신](data/outlook_2027_reassessment.json) → [실행 기록](runs/2026-11-06-outlook-reassessment.json)에서 이어간다. 초기 교수형 6가설을 고정한 뒤 표적 원문 확인·기업별 적용·후기 갱신·독립검토를 수행했다. 새 자료가 영향을 주는 가설과 행동만 갱신하고 과거 STR 순위와 관측 기간을 보존한다. 다음 조사에서는 시장규모 추정부터 늘리기보다 경쟁 견적·반복 외부 계약·위험 잔존·이전 비거래 사유를 우선한다. 이번 실행은 호스트의 다중 에이전트 호출이며 상시 서버·자동 일정·고객 거래 실행을 설정하지 않았다.
-
-## 교수 원문을 새 시장 탐색에 재사용할 때
-
-[원문 지도](data/cschung7_reasoning_map.json)에서 주장·원리·명시 조건·도출 조건과 판단변경 기준의 귀속을 먼저 확인한다. [v2.2 역할](agents/professor_reasoner.md)로 기존 개선/미성립 거래의 두 경로를 비교한 뒤 입장을 고른다. [실제 적용](reports/47_cschung7_opportunity_application.md)은 고정비·지급능력·경쟁·시간·조직 조건을 바꾼 개발용 사고실험이며 예측 성능 검증이 아니다. [이번 연결 명세](data/research_lineage_20261107_cschung7.json)는 이번 해석·가설만 연결한다. 과거 실행 계획을 새 원장 상태에서 재사용하지 않고 매번 새 run을 준비한다.
